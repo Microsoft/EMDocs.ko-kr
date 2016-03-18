@@ -1,52 +1,11 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 3
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [EMDocs\Solutions\mdm-develop-mdm-adoption-strategy.md](https://github.com/Microsoft/EMDocs-pr/blob/ad6fcab18785fbf7043836263c9e52d2cf13aa21/EMDocs/Solutions/mdm-develop-mdm-adoption-strategy.md) | HandedOffSuccess | [Details](#268c57c735cf406389887e43c8f51cf7a8edbfeb100)
- [EMDocs\Solutions\mdm-step-2-plan-for-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr/blob/ad6fcab18785fbf7043836263c9e52d2cf13aa21/EMDocs/Solutions/mdm-step-2-plan-for-mobile-device-management.md) | HandedOffSuccess | [Details](#fac9c54306c000ffaa1e4c7b322b55fa40e6c17b119)
- [EMDocs\Solutions\TOC.md](https://github.com/Microsoft/EMDocs-pr/blob/ad6fcab18785fbf7043836263c9e52d2cf13aa21/EMDocs/Solutions/TOC.md) | HandedOffSuccess | [Details](#ee9d2341e65befe66df97240eb3883fd9ce6a1c7308)
 
 ## Item Details
-##### <a name='268c57c735cf406389887e43c8f51cf7a8edbfeb100'></a> Source: [EMDocs\Solutions\mdm-develop-mdm-adoption-strategy.md](https://github.com/Microsoft/EMDocs-pr/blob/ad6fcab18785fbf7043836263c9e52d2cf13aa21/EMDocs/Solutions/mdm-develop-mdm-adoption-strategy.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [mdm-develop-mdm-adoption-strategy.987a4d2c8cc444e99a1a3b8c2537e1bfdf462054.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/0d7d7d9ab79c4539647cc0f4c4c738c065228f67/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/mdm-develop-mdm-adoption-strategy.987a4d2c8cc444e99a1a3b8c2537e1bfdf462054.ko-kr.xlf)
-* Handoff Datetime: 2016-03-18 18:53:22
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='fac9c54306c000ffaa1e4c7b322b55fa40e6c17b119'></a> Source: [EMDocs\Solutions\mdm-step-2-plan-for-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr/blob/ad6fcab18785fbf7043836263c9e52d2cf13aa21/EMDocs/Solutions/mdm-step-2-plan-for-mobile-device-management.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/0d7d7d9ab79c4539647cc0f4c4c738c065228f67/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.ko-kr.xlf)
-* Handoff Datetime: 2016-03-18 18:53:22
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='ee9d2341e65befe66df97240eb3883fd9ce6a1c7308'></a> Source: [EMDocs\Solutions\TOC.md](https://github.com/Microsoft/EMDocs-pr/blob/ad6fcab18785fbf7043836263c9e52d2cf13aa21/EMDocs/Solutions/TOC.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [TOC.e29f8b07f05eb535130e3e140ad0aff9a4134726.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/0d7d7d9ab79c4539647cc0f4c4c738c065228f67/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/TOC.e29f8b07f05eb535130e3e140ad0aff9a4134726.ko-kr.xlf)
-* Handoff Datetime: 2016-03-18 18:53:22
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
