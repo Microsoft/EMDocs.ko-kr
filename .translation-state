@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "3976a0f8c7550ea3e8cfc1855cd39cbf5b342791",
+  "LastProcessedCommit": "da926bbd6a4877e9825acf25393ae33c40b391da",
   "LastTranslatedCommit": null,
   "Items": {
     "da63fda594055f3647cc04e6954675a9558776db": {
@@ -13825,6 +13825,35 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\conditional-access-intune-exchange-online.7c0b9740744795195c333108aca6949a9698d35b.ko-kr.xlf",
       "HandoffFileCommit": "3fcc636dee7366c4c85176c6dd3e1559311ca677",
       "HandoffDateTime": "2016-03-30T17:22:43.6661284Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "31a3c671435aa2147cda55819a068bf7d0e24cc5": {
+      "FileHash": "31a3c671435aa2147cda55819a068bf7d0e24cc5",
+      "SourceFileCommit": "da926bbd6a4877e9825acf25393ae33c40b391da",
+      "SourceFilePath": "EMDocs\\Solutions\\TOC.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "EMDocs\\Solutions\\TOC.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\TOC.e29f8b07f05eb535130e3e140ad0aff9a4134726.ko-kr.xlf",
+      "HandoffFileCommit": "57e812aa9ace427f493c35bc6ab314ad2046fb64",
+      "HandoffDateTime": "2016-03-31T13:26:04.1257906Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
