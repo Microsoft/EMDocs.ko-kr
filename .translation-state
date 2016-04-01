@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "02afff49aa92d8761025e8d8d77d1504f08fba17",
+  "LastProcessedCommit": "8e9b828518dd74b0666397d7824b39a3b477fa25",
   "LastTranslatedCommit": null,
   "Items": {
     "da63fda594055f3647cc04e6954675a9558776db": {
@@ -5226,8 +5226,8 @@
         "EMDocs\\Solutions\\Envisioning-the-BYOD-Infrastructure-Solution.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\BYOD-Envisioning-the-BYOD-Infrastructure-Solution.843e6fb4734de7447d0318d14144cf9f51e241c9.ko-kr.xlf",
-      "HandoffFileCommit": "ffe63b3814f6032eca46dd17134790d06f787322",
-      "HandoffDateTime": "2016-04-01T12:56:12.4034218Z",
+      "HandoffFileCommit": "4e5312a65d2e429972cf43adb5b7fa90ccf6bcca",
+      "HandoffDateTime": "2016-04-01T16:23:52.7607036Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -15366,6 +15366,35 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\protect-email-attachments.7c12c124ed16c23b2319105d98c02bf87bea025f.ko-kr.xlf",
       "HandoffFileCommit": "6cb8e34abf321bb502d1b82508acd7246c981b0d",
       "HandoffDateTime": "2016-04-01T14:22:33.0755166Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "a892e077467393fd2928d010816aac08218fe7e1": {
+      "FileHash": "a892e077467393fd2928d010816aac08218fe7e1",
+      "SourceFileCommit": "8e9b828518dd74b0666397d7824b39a3b477fa25",
+      "SourceFilePath": "EMDocs\\Solutions\\TOC.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "EMDocs\\Solutions\\TOC.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\TOC.e29f8b07f05eb535130e3e140ad0aff9a4134726.ko-kr.xlf",
+      "HandoffFileCommit": "4e5312a65d2e429972cf43adb5b7fa90ccf6bcca",
+      "HandoffDateTime": "2016-04-01T16:23:52.7607036Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
