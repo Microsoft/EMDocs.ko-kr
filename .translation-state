@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "c84678cb50080be4b9c80c77dfafcdaa97948881",
+  "LastProcessedCommit": "1b003b2f0f31d881d0b0afe34983e7d0d57f0eb5",
   "LastTranslatedCommit": null,
   "Items": {
     "da63fda594055f3647cc04e6954675a9558776db": {
@@ -4283,7 +4283,8 @@
       "DependencyFrom": null,
       "TokenReference": null,
       "FilePathList": [
-        "EMDocs\\Solutions\\BYOD-Summary-and-Additional-Resources.md"
+        "EMDocs\\Solutions\\BYOD-Summary-and-Additional-Resources.md",
+        "EMDocs\\Solutions\\byod-summary-and-additional-resources.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\BYOD-Summary-and-Additional-Resources.e81e755b939c95ef8346573d1360012df625d9f3.ko-kr.xlf",
       "HandoffFileCommit": "9c4f67940448272af01e53e6045d3784d0df6a35",
@@ -14152,7 +14153,8 @@
       "DependencyFrom": null,
       "TokenReference": null,
       "FilePathList": [
-        "EMDocs\\Solutions\\BYOD-Design-Considerations.md"
+        "EMDocs\\Solutions\\BYOD-Design-Considerations.md",
+        "EMDocs\\Solutions\\byod-design-considerations.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\BYOD-Design-Considerations.18c52af06c6f7401529b734bd20690f6d20c53ea.ko-kr.xlf",
       "HandoffFileCommit": "b46042a1357a31f3268900d0f5ec9c63a8b1d110",
@@ -14210,7 +14212,8 @@
       "DependencyFrom": null,
       "TokenReference": null,
       "FilePathList": [
-        "EMDocs\\Solutions\\BYOD-Envisioning-the-BYOD-Infrastructure-Solution.md"
+        "EMDocs\\Solutions\\BYOD-Envisioning-the-BYOD-Infrastructure-Solution.md",
+        "EMDocs\\Solutions\\byod-envisioning-the-byod-infrastructure-solution.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\BYOD-Envisioning-the-BYOD-Infrastructure-Solution.843e6fb4734de7447d0318d14144cf9f51e241c9.ko-kr.xlf",
       "HandoffFileCommit": "aced794328bcaf562fe2d432a2bcfddf53456319",
@@ -15174,8 +15177,8 @@
         "EMDocs\\MyBackupFiles\\conditional-access-intune-exchange-online.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\conditional-access-intune-exchange-online.7c0b9740744795195c333108aca6949a9698d35b.ko-kr.xlf",
-      "HandoffFileCommit": "1f9765b5fa9e7f4068ffae2d57c9f855378c2eda",
-      "HandoffDateTime": "2016-04-11T16:40:30.4343808Z",
+      "HandoffFileCommit": "ad0a5e370b17ada830c357b41ce3eedaa37affc8",
+      "HandoffDateTime": "2016-04-11T20:38:57.027984Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -15294,8 +15297,8 @@
         "EMDocs\\MyBackupFiles\\end-user-experience-conditional-access-winphone.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\end-user-experience-conditional-access-winphone.1a08db98003da80e09e00327f28d099398265b30.ko-kr.xlf",
-      "HandoffFileCommit": "1f9765b5fa9e7f4068ffae2d57c9f855378c2eda",
-      "HandoffDateTime": "2016-04-11T16:40:30.4343808Z",
+      "HandoffFileCommit": "ad0a5e370b17ada830c357b41ce3eedaa37affc8",
+      "HandoffDateTime": "2016-04-11T20:38:57.027984Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -17616,8 +17619,8 @@
         "EMDocs\\Solutions\\Architecture-guidance-for-protecting-company-email-and-documents.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\Architecture-guidance-for-protecting-company-email-and-documents.d8dae5bb952255135e1f3c2362afacf1aa9de432.ko-kr.xlf",
-      "HandoffFileCommit": "1f9765b5fa9e7f4068ffae2d57c9f855378c2eda",
-      "HandoffDateTime": "2016-04-11T16:40:30.4343808Z",
+      "HandoffFileCommit": "ad0a5e370b17ada830c357b41ce3eedaa37affc8",
+      "HandoffDateTime": "2016-04-11T20:38:57.027984Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -17645,8 +17648,8 @@
         "EMDocs\\Solutions\\conditional-access-intune.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\conditional-access-intune.c339485628a2e3c42b06b61f1803663dfcc6ad14.ko-kr.xlf",
-      "HandoffFileCommit": "1f9765b5fa9e7f4068ffae2d57c9f855378c2eda",
-      "HandoffDateTime": "2016-04-11T16:40:30.4343808Z",
+      "HandoffFileCommit": "ad0a5e370b17ada830c357b41ce3eedaa37affc8",
+      "HandoffDateTime": "2016-04-11T20:38:57.027984Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -17790,8 +17793,8 @@
         "EMDocs\\Solutions\\conditional-access-intune-exchange.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\conditional-access-intune-exchange.245c72088b5eacaa51099f7c853f12941e410350.ko-kr.xlf",
-      "HandoffFileCommit": "1f9765b5fa9e7f4068ffae2d57c9f855378c2eda",
-      "HandoffDateTime": "2016-04-11T16:40:30.4343808Z",
+      "HandoffFileCommit": "ad0a5e370b17ada830c357b41ce3eedaa37affc8",
+      "HandoffDateTime": "2016-04-11T20:38:57.027984Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -17848,8 +17851,8 @@
         "EMDocs\\Solutions\\end-user-experience-conditional-access.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\end-user-experience-conditional-access.4a68033662f5a0b862f762cdf275910eeb857a94.ko-kr.xlf",
-      "HandoffFileCommit": "1f9765b5fa9e7f4068ffae2d57c9f855378c2eda",
-      "HandoffDateTime": "2016-04-11T16:40:30.4343808Z",
+      "HandoffFileCommit": "ad0a5e370b17ada830c357b41ce3eedaa37affc8",
+      "HandoffDateTime": "2016-04-11T20:38:57.027984Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -17877,8 +17880,8 @@
         "EMDocs\\Solutions\\end-user-experience-conditional-access-android.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\end-user-experience-conditional-access-android.845fa27966cd14a9a4d7b9665112684b0fc7f2ac.ko-kr.xlf",
-      "HandoffFileCommit": "1f9765b5fa9e7f4068ffae2d57c9f855378c2eda",
-      "HandoffDateTime": "2016-04-11T16:40:30.4343808Z",
+      "HandoffFileCommit": "ad0a5e370b17ada830c357b41ce3eedaa37affc8",
+      "HandoffDateTime": "2016-04-11T20:38:57.027984Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -17906,8 +17909,8 @@
         "EMDocs\\Solutions\\end-user-experience-conditional-access-ios.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\end-user-experience-conditional-access-ios.1a35b3bc1d79141f39fb4c7ccc0686f48d56d2c6.ko-kr.xlf",
-      "HandoffFileCommit": "1f9765b5fa9e7f4068ffae2d57c9f855378c2eda",
-      "HandoffDateTime": "2016-04-11T16:40:30.4343808Z",
+      "HandoffFileCommit": "ad0a5e370b17ada830c357b41ce3eedaa37affc8",
+      "HandoffDateTime": "2016-04-11T20:38:57.027984Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -17993,8 +17996,8 @@
         "EMDocs\\Solutions\\Learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\Learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.0342c9db44d477623c8b40cb3fbb112c4f902816.ko-kr.xlf",
-      "HandoffFileCommit": "1f9765b5fa9e7f4068ffae2d57c9f855378c2eda",
-      "HandoffDateTime": "2016-04-11T16:40:30.4343808Z",
+      "HandoffFileCommit": "ad0a5e370b17ada830c357b41ce3eedaa37affc8",
+      "HandoffDateTime": "2016-04-11T20:38:57.027984Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -18022,8 +18025,8 @@
         "EMDocs\\Solutions\\protect-corporate-email-documents.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\protect-corporate-email-documents.7df859550118d68b674b8fc43b88af0acf77b9ec.ko-kr.xlf",
-      "HandoffFileCommit": "1f9765b5fa9e7f4068ffae2d57c9f855378c2eda",
-      "HandoffDateTime": "2016-04-11T16:40:30.4343808Z",
+      "HandoffFileCommit": "ad0a5e370b17ada830c357b41ce3eedaa37affc8",
+      "HandoffDateTime": "2016-04-11T20:38:57.027984Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -18051,8 +18054,8 @@
         "EMDocs\\Solutions\\protect-email-attachments.md"
       ],
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\protect-email-attachments.7c12c124ed16c23b2319105d98c02bf87bea025f.ko-kr.xlf",
-      "HandoffFileCommit": "1f9765b5fa9e7f4068ffae2d57c9f855378c2eda",
-      "HandoffDateTime": "2016-04-11T16:40:30.4343808Z",
+      "HandoffFileCommit": "ad0a5e370b17ada830c357b41ce3eedaa37affc8",
+      "HandoffDateTime": "2016-04-11T20:38:57.027984Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
