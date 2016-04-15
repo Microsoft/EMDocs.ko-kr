@@ -3366,9 +3366,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\archive\\article-metadata.708a438c5e5fe5b6d8d680c630fd3b79565e5873.ko-kr.xlf",
+      "ArchiveFileCommit": "8209910cf42cc7f41610fb4390c8240af8c5e2ed",
+      "ArchiveFileDateTime": "2016-04-15T08:53:28.2336004Z",
       "ArchiveException": null
     },
     "488fecaaea1604871e77e21675ad3e190beba1bd": {
@@ -3424,9 +3424,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\archive\\content-channel-guidance.7b9f8eb8e2e16a26ba2714d0a2fd360824d485a6.ko-kr.xlf",
+      "ArchiveFileCommit": "8209910cf42cc7f41610fb4390c8240af8c5e2ed",
+      "ArchiveFileDateTime": "2016-04-15T08:53:28.2336004Z",
       "ArchiveException": null
     },
     "da1cee35a09823cf69521242a7004897517492b4": {
@@ -3453,9 +3453,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\archive\\contributor-guide-index.ba4c3ee3980fbea3ee209047331545362b3c9fa6.ko-kr.xlf",
+      "ArchiveFileCommit": "8209910cf42cc7f41610fb4390c8240af8c5e2ed",
+      "ArchiveFileDateTime": "2016-04-15T08:53:28.2336004Z",
       "ArchiveException": null
     },
     "a2acee00c6aca19d00659702a5ef05485af4449b": {
@@ -3482,9 +3482,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\archive\\file-names-and-locations.15e0fb13dc003ea2db00d36e59b3bedf125fc1e5.ko-kr.xlf",
+      "ArchiveFileCommit": "8209910cf42cc7f41610fb4390c8240af8c5e2ed",
+      "ArchiveFileDateTime": "2016-04-15T08:53:28.2336004Z",
       "ArchiveException": null
     },
     "af2a63ef1c7babad19083cef2169ab84741b8ecb": {
@@ -3627,9 +3627,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\archive\\authoring-in-markdown.ff3a97e3448b8314454f849c00217211749c9105.ko-kr.xlf",
+      "ArchiveFileCommit": "8209910cf42cc7f41610fb4390c8240af8c5e2ed",
+      "ArchiveFileDateTime": "2016-04-15T08:53:28.2336004Z",
       "ArchiveException": null
     },
     "39cc82882215595514e978c62d87eb8e3337aed8": {
@@ -3656,9 +3656,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\archive\\create-tables-markdown.10e78f0477c258e5c1efceabba7ba8453fec588f.ko-kr.xlf",
+      "ArchiveFileCommit": "8209910cf42cc7f41610fb4390c8240af8c5e2ed",
+      "ArchiveFileDateTime": "2016-04-15T08:53:28.2336004Z",
       "ArchiveException": null
     },
     "2a402428ce18d051fc0792b29028dd8d4e51be1e": {
@@ -3685,9 +3685,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\archive\\custom-markdown-extensions.83df9af46ee03549aa5cca18ea74fd80a7039eba.ko-kr.xlf",
+      "ArchiveFileCommit": "8209910cf42cc7f41610fb4390c8240af8c5e2ed",
+      "ArchiveFileDateTime": "2016-04-15T08:53:28.2336004Z",
       "ArchiveException": null
     },
     "c8e83fb351623e5efe4cc27e3319b6bb80847536": {
