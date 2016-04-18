@@ -5,9 +5,9 @@
  -------- | ----- 
  Total Files | 373
 [ Handoff Failed Files ](#handoff-failed-list)| 0
-[ Handoff Success Files ](#handoff-success-list)| 112
+[ Handoff Success Files ](#handoff-success-list)| 113
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 128
+[ Archive Success Files ](#archive-success-list)| 127
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
@@ -130,6 +130,7 @@
  [EMDocs\Solutions\media\ProtectEmail\Protecting_your_data.png](https://github.com/Microsoft/EMDocs-pr/blob/0d597abfd03d1e5a5b148e72441b459e4535bfae/EMDocs/Solutions/media/ProtectEmail/Protecting_your_data.png) | HandedOffSuccess | [Details](#5d23feda97afbd203a4d57d0f958baca68438c2c286)
  [EMDocs\Solutions\protect-corporate-email-documents.md](https://github.com/Microsoft/EMDocs-pr/blob/923edea20942ed9162097dad0cb081182226f7c1/EMDocs/Solutions/protect-corporate-email-documents.md) | HandedOffSuccess | [Details](#f9e99135b1a6bdb71f30a68f87cca089bbf9df72316)
  [EMDocs\Solutions\protect-email-attachments.md](https://github.com/Microsoft/EMDocs-pr/blob/923edea20942ed9162097dad0cb081182226f7c1/EMDocs/Solutions/protect-email-attachments.md) | HandedOffSuccess | [Details](#3c826bed3277ea51de1b63c420f2aa0a5f9bbad8317)
+ [EMDocs\toc.yml](https://github.com/Microsoft/EMDocs-pr/blob/11b4951c9b67ffd862a4c02e07e986f3e16fd216/EMDocs/toc.yml) | HandedOffSuccess | [Details](#dee676f0f96321eab6470a5d4215b04bce86d987321)
 
 ## <a name='archive-failed-list'></a> Archive Failed File List
 
@@ -213,7 +214,6 @@
  [EMDocs\Solutions\Sample.md](https://github.com/Microsoft/EMDocs-pr/blob/1aaad6ccaca53d4bd6293a1da75eee95a2fa449a/EMDocs/Solutions/Sample.md) | ArchivedSuccess | [Details](#80f16e5851e574014594e4d93ba194beb2cc9653318)
  [EMDocs\Solutions\scenarios-guides.md](https://github.com/Microsoft/EMDocs-pr/blob/518bdbdf729af386831cf2ee9a8237e96b87cf88/EMDocs/Solutions/scenarios-guides.md) | ArchivedSuccess | [Details](#839936f2547abdb9a6826ae6ead45af477b5d778319)
  [EMDocs\Solutions\TOC.md](https://github.com/Microsoft/EMDocs-pr/blob/8b4f1a719f611f3f3687bb7e332214c55eec091f/EMDocs/Solutions/TOC.md) | ArchivedSuccess | [Details](#03cd9713d76c11e63696d2430ad0bde6818d5540320)
- [EMDocs\toc.yml](https://github.com/Microsoft/EMDocs-pr/blob/f79ca7ddd40c10392c3c775ed22a3c62faca37d7/EMDocs/toc.yml) | ArchivedSuccess | [Details](#603c6c892746c3a16e8abda9337bdc4837fce66b321)
  [EMDocs\Token\Active-Directory.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/Active-Directory.md) | ArchivedSuccess | [Details](#55514466f7f2092dbc8cf35057d4978ca9247ae6323)
  [EMDocs\Token\Active-Directory-Federation-Services.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/Active-Directory-Federation-Services.md) | ArchivedSuccess | [Details](#5b72cde38cf4fd1e3675899bccdd7a1f61a4539b322)
  [EMDocs\Token\Azure.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/Azure.md) | ArchivedSuccess | [Details](#8c168dcf0f5cc49c49de658a16650db0f93832c0325)
@@ -4361,14 +4361,14 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='603c6c892746c3a16e8abda9337bdc4837fce66b321'></a> Source: [EMDocs\toc.yml](https://github.com/Microsoft/EMDocs-pr/blob/f79ca7ddd40c10392c3c775ed22a3c62faca37d7/EMDocs/toc.yml)
-* Status: ArchivedSuccess
+##### <a name='dee676f0f96321eab6470a5d4215b04bce86d987321'></a> Source: [EMDocs\toc.yml](https://github.com/Microsoft/EMDocs-pr/blob/11b4951c9b67ffd862a4c02e07e986f3e16fd216/EMDocs/toc.yml)
+* Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [toc.a910960291aeeb7b80ff16cc12adc02a09c33921.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/aced794328bcaf562fe2d432a2bcfddf53456319/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/toc.a910960291aeeb7b80ff16cc12adc02a09c33921.ko-kr.xlf)
-* Handoff Datetime: 2016-04-11 18:07:30
+* Handoff File: [toc.a910960291aeeb7b80ff16cc12adc02a09c33921.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/c900516ff0dbb1beaee60f8be58192a7dd0a4fba/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/toc.a910960291aeeb7b80ff16cc12adc02a09c33921.ko-kr.xlf)
+* Handoff Datetime: 2016-04-18 18:52:11
 * Handoff Reason: Include
-* Archive File: [toc.a910960291aeeb7b80ff16cc12adc02a09c33921.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/1c58f8b4ee30ba15efc307bec9ccf1ff0001b1a8/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/archive/toc.a910960291aeeb7b80ff16cc12adc02a09c33921.ko-kr.xlf)
-* Archive Datetime: 2016-04-15 09:05:39
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
