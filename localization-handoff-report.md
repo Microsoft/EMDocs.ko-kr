@@ -1,65 +1,11 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 4
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [contributor-guide\article-metadata.md](https://github.com/Microsoft/EMDocs-pr/blob/7d45a824cab9ab82e6abc62c1a4dfa170add953a/contributor-guide/article-metadata.md) | HandedOffSuccess | [Details](#bd870713d29cfef3d07c2650bd0ba668fe94a52e5)
- [contributor-guide\content-channel-guidance.md](https://github.com/Microsoft/EMDocs-pr/blob/7d45a824cab9ab82e6abc62c1a4dfa170add953a/contributor-guide/content-channel-guidance.md) | HandedOffSuccess | [Details](#ba1e846d4ce3029f3315fbbc381bf45544e010607)
- [contributor-guide\custom-markdown-extensions.md](https://github.com/Microsoft/EMDocs-pr/blob/7d45a824cab9ab82e6abc62c1a4dfa170add953a/contributor-guide/custom-markdown-extensions.md) | HandedOffSuccess | [Details](#c274ae4daf071245387599772945067b03dd9d8210)
- [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr/blob/bb067bfbbe0b7c2dbf847f0f7c8704147b8f6c12/EMDocs/index.md) | HandedOffSuccess | [Details](#acb9bc04e41b1308ffd83b35c8f1c4c91c623f3961)
 
 ## Item Details
-##### <a name='bd870713d29cfef3d07c2650bd0ba668fe94a52e5'></a> Source: [contributor-guide\article-metadata.md](https://github.com/Microsoft/EMDocs-pr/blob/7d45a824cab9ab82e6abc62c1a4dfa170add953a/contributor-guide/article-metadata.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [article-metadata.708a438c5e5fe5b6d8d680c630fd3b79565e5873.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/645c980edff7650b6718bdf65e306ce2984471b2/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/article-metadata.708a438c5e5fe5b6d8d680c630fd3b79565e5873.ko-kr.xlf)
-* Handoff Datetime: 2016-04-18 16:53:16
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='ba1e846d4ce3029f3315fbbc381bf45544e010607'></a> Source: [contributor-guide\content-channel-guidance.md](https://github.com/Microsoft/EMDocs-pr/blob/7d45a824cab9ab82e6abc62c1a4dfa170add953a/contributor-guide/content-channel-guidance.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [content-channel-guidance.7b9f8eb8e2e16a26ba2714d0a2fd360824d485a6.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/645c980edff7650b6718bdf65e306ce2984471b2/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/content-channel-guidance.7b9f8eb8e2e16a26ba2714d0a2fd360824d485a6.ko-kr.xlf)
-* Handoff Datetime: 2016-04-18 16:53:16
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='c274ae4daf071245387599772945067b03dd9d8210'></a> Source: [contributor-guide\custom-markdown-extensions.md](https://github.com/Microsoft/EMDocs-pr/blob/7d45a824cab9ab82e6abc62c1a4dfa170add953a/contributor-guide/custom-markdown-extensions.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [custom-markdown-extensions.83df9af46ee03549aa5cca18ea74fd80a7039eba.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/645c980edff7650b6718bdf65e306ce2984471b2/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/custom-markdown-extensions.83df9af46ee03549aa5cca18ea74fd80a7039eba.ko-kr.xlf)
-* Handoff Datetime: 2016-04-18 16:53:16
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='acb9bc04e41b1308ffd83b35c8f1c4c91c623f3961'></a> Source: [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr/blob/bb067bfbbe0b7c2dbf847f0f7c8704147b8f6c12/EMDocs/index.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/645c980edff7650b6718bdf65e306ce2984471b2/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.ko-kr.xlf)
-* Handoff Datetime: 2016-04-18 16:53:16
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
