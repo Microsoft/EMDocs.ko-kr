@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "6fae78507e29beb85da633466e3597706fae4f85",
+  "LastProcessedCommit": "a7eef79d22ee351fb17931314121e2d0ae8a8911",
   "LastTranslatedCommit": "e6eccaf1d88e402c19f7e0ee3c20acde40639990",
   "Items": {
     "da63fda594055f3647cc04e6954675a9558776db": {
@@ -3318,7 +3318,9 @@
       "SourceFileCommit": "497982b9bf86a36efa294292cf13e8632d0e8178",
       "SourceFilePath": "README.md",
       "HandoffReason": 1,
-      "DependencyFrom": null,
+      "DependencyFrom": [
+        "contributor-guide\\create-tables-markdown.md"
+      ],
       "TokenReference": null,
       "FilePathList": [
         "README.md"
@@ -24518,6 +24520,35 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.ko-kr.xlf",
       "HandoffFileCommit": "d467a2478a516596d79b12cf336401fc534fd9a6",
       "HandoffDateTime": "2016-04-22T22:20:58.3649195Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "f2c77cb792d693e8c9035299b8cb5f3e5fd35ad0": {
+      "FileHash": "f2c77cb792d693e8c9035299b8cb5f3e5fd35ad0",
+      "SourceFileCommit": "505b8a07fa0b5589e652b8b8a4cbb57c84b03b7e",
+      "SourceFilePath": "EMDocs\\Solutions\\byod-data-access-and-protection-considerations.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "EMDocs\\Solutions\\byod-data-access-and-protection-considerations.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\byod-data-access-and-protection-considerations.9823ea903a3e070a7234c6e0ef09aaa3875ae76a.ko-kr.xlf",
+      "HandoffFileCommit": "592297df0b9507b50e729fb8091da90cc789bcdb",
+      "HandoffDateTime": "2016-04-25T20:45:02.5000464Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
