@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "a6f97e3f55fc7d3fa825fed185fd2b1f99e5a279",
+  "LastProcessedCommit": "045f9240fa8fa83a15f49b36359e1bfe664ddb41",
   "LastTranslatedCommit": "e6eccaf1d88e402c19f7e0ee3c20acde40639990",
   "Items": {
     "da63fda594055f3647cc04e6954675a9558776db": {
@@ -25477,6 +25477,35 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.ko-kr.xlf",
       "HandoffFileCommit": "9e1f07a8cfecf8b5fe468670597d1d43c84af303",
       "HandoffDateTime": "2016-04-26T21:27:27.8684645Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "cfe98a01cb3b6342f2ca8efcfa7379203b0205a2": {
+      "FileHash": "cfe98a01cb3b6342f2ca8efcfa7379203b0205a2",
+      "SourceFileCommit": "c296c662d330b319eaf1c809165a0bfac5b8064e",
+      "SourceFilePath": "EMDocs\\index.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "EMDocs\\index.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.ko-kr.xlf",
+      "HandoffFileCommit": "fb6dc2f3e3fd9b9e143b447f9260ef7f6f681f7d",
+      "HandoffDateTime": "2016-04-27T00:44:35.6674896Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
