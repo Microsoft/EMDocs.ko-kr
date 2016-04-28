@@ -1,0 +1,98 @@
+- 이름: Enterprise Mobility
+  href: /em/
+  홈 페이지: /em
+  항목:
+  - 이름: 솔루션
+    href: /em/solutions/
+    홈 페이지: /em/solutions/byod-design-considerations-guide
+  - 이름: Azure RemoteApp
+    href: /remoteapp/
+    홈 페이지: /remoteapp
+  - 이름: Azure Active Directory
+    href: /active-directory/
+    홈 페이지: /active-directory
+  - 이름: Multi-factor Authentication
+    href: /multi-factor-authentication/
+    홈 페이지: /multi-factor-authentication
+  - 이름: Advanced Threat Analytics
+    href: /advanced-threat-analytics/
+    홈 페이지: /ata
+    항목:
+      - 이름: 이해 및 탐색
+        href: /advanced-threat-analytics/understand/
+        홈 페이지: /advanced-threat-analytics/understand/ata-understand-and-explore
+      - 이름: 계획 및 디자인 
+        href: /advanced-threat-analytics/plandesign/
+        홈 페이지: /advanced-threat-analytics/plandesign/ata-plan-and-design
+      - 이름: 배포 및 사용
+        href: /advanced-threat-analytics/deployuse/
+        홈 페이지: /advanced-threat-analytics/deployuse/ata-deploy-and-use
+      - 이름: 문제 해결
+        href: /advanced-threat-analytics/troubleshoot/
+        홈 페이지: /advanced-threat-analytics/troubleshoot/ata-troubleshooting
+  - 이름: Intune
+    href: /intune/
+    홈 페이지: /intune
+    항목:
+      - 이름: 이해 및 탐색
+        href: /intune/understand/
+        홈 페이지: /intune/understand/ways-to-do-enterprise-mobility
+      - 이름: 계획 및 디자인 
+        href: /intune/plandesign/
+        홈 페이지: /intune/plandesign/plan-you-user-and-device-groups
+      - 이름: 배포 및 사용
+        href: /intune/deployuse/
+        홈 페이지: /intune/deployuse/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents
+      - 이름: 문제 해결
+        href: /intune/troubleshoot/
+        홈 페이지: /intune/troubleshoot/troubleshoot-microsoft-intune
+      - 이름: 시작하기
+        href: /intune/getstarted/
+        홈 페이지: /intune/getstarted/what-s-new-in-microsoft-intune
+  - 이름: Azure Rights Management
+    href: /rights-management/
+    홈 페이지: /rights-management
+    항목:
+      - 이름: 이해 및 탐색
+        href: /rights-management/understand-explore/
+        홈 페이지: /rights-management/understand-explore/what-is-azure-rights-management
+      - 이름: 시작하기
+        href: /rights-management/get-started/
+        홈 페이지: /rights-management/get-started/requirements-for-azure-rights-management
+      - 이름: 계획 및 디자인 
+        href: /rights-management/plan-design/
+        홈 페이지: /rights-management/plan-design/azure-rights-management-deployment-roadmap
+      - 이름: 배포 및 사용
+        href: /rights-management/deploy-use/
+        홈 페이지: /rights-management/deploy-use/activating-azure-rights-management
+      - 이름: 앱 개발 및 사용자 지정
+        href: /rights-management/develop/
+        홈 페이지: /rights-management/develop/developers-guide
+      - 이름: 관리자
+        href: /rights-management/administer/
+        홈 페이지: /rights-management/administer/administering-azure-rights-management-with-powershell
+      - 이름: RMS 클라이언트
+        href: /rights-management/rms-client/
+        홈 페이지: /rights-management/rms-client/rights-management-rms-client
+  - 이름: Microsoft Identity Manager
+    href: /microsoft-identity-manager/
+    홈 페이지: /microsoft-identity-manager
+    항목:
+      - 이름: 이해 및 탐색
+        href: /microsoft-identity-manager/understand/
+        홈 페이지: /microsoft-identity-manager/understand/journey-understand-evaluate
+      - 이름: 계획 및 디자인 
+        href: /microsoft-identity-manager/plandesign/
+        홈 페이지: /microsoft-identity-manager/plandesign/journey-plan-design
+      - 이름: 배포 및 사용
+        href: /microsoft-identity-manager/deployuse/
+        홈 페이지: /microsoft-identity-manager/deployuse/journey-deploy-use-html
+      - 이름: 참조
+        href: /microsoft-identity-manager/reference/
+        홈 페이지: /microsoft-identity-manager/reference/journey-develop-applications
+      - 이름: 시작하기
+        href: /microsoft-identity-manager/getstarted/
+        홈 페이지: /microsoft-identity-manager/getstarted/journey-get-started
+  - 이름: 참조
+    href: /active-directory/adal/
+    홈 페이지: /active-directory/adal/microsoft.identitymodel.clients.activedirectory
