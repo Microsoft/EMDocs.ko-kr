@@ -7,11 +7,11 @@
 [ Handoff Failed Files ](#handoff-failed-list)| 0
 [ Handoff Success Files ](#handoff-success-list)| 109
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 1
+[ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 39
 [ In Sync Handback Files ](#insync-handback-success-list)| 98
-[ Ignored Files ](#ignored-list)| 135
+[ Ignored Files ](#ignored-list)| 136
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
 
@@ -131,9 +131,6 @@
 ## <a name='archive-failed-list'></a> Archive Failed File List
 
 ## <a name='archive-success-list'></a> Archive Success File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [README.md](https://github.com/Microsoft/EMDocs-pr/blob/497982b9bf86a36efa294292cf13e8632d0e8178/README.md) | ArchivedSuccess | [Details](#c05a5e387d25cf958db9c4c8943823b4813cf4d0380)
 
 ## <a name='handback-failed-list'></a> Handback Failed File List
 
@@ -419,6 +416,7 @@
  [EMDocs\Solutions\media\WSE_SG_RAProblem.png](https://github.com/Microsoft/EMDocs-pr/blob/ceb6798d04f7f4f3d1a7251d73724ccb5dffcdb2/EMDocs/Solutions/media/WSE_SG_RAProblem.png) | Ignored | [Details](#b52789a46874ed019ff8dea05bfefdebdf549cbd323)
  [EMDocs\Solutions\media\WSE_SG_SMBDataProtectProblem.png](https://github.com/Microsoft/EMDocs-pr/blob/ceb6798d04f7f4f3d1a7251d73724ccb5dffcdb2/EMDocs/Solutions/media/WSE_SG_SMBDataProtectProblem.png) | Ignored | [Details](#17a8303c7ef0995ef393588b69250a0f4184df38324)
  [EMDocs\Solutions\media\WSE_SG_SMBDataProtectSolution.png](https://github.com/Microsoft/EMDocs-pr/blob/ceb6798d04f7f4f3d1a7251d73724ccb5dffcdb2/EMDocs/Solutions/media/WSE_SG_SMBDataProtectSolution.png) | Ignored | [Details](#0e1ba1f9f6fc258f4640be651285366d453d4e1a325)
+ [README.md](https://github.com/Microsoft/EMDocs-pr/blob/ceb6798d04f7f4f3d1a7251d73724ccb5dffcdb2/README.md) | Ignored | [Details](#d49a3ab9c35d4a862ea8c8d828eb983a2aec0197380)
  [template.md](https://github.com/Microsoft/EMDocs-pr/blob/ceb6798d04f7f4f3d1a7251d73724ccb5dffcdb2/template.md) | Ignored | [Details](#e6106b0b5a5aa1039f7cbf5a35589216c5e540f3381)
 
 ## Item Details
@@ -5207,14 +5205,14 @@
 * Handback Datetime: 2016-04-28 21:51:05
 * [Back to Top](#report-top)
 
-##### <a name='c05a5e387d25cf958db9c4c8943823b4813cf4d0380'></a> Source: [README.md](https://github.com/Microsoft/EMDocs-pr/blob/497982b9bf86a36efa294292cf13e8632d0e8178/README.md)
-* Status: ArchivedSuccess
+##### <a name='d49a3ab9c35d4a862ea8c8d828eb983a2aec0197380'></a> Source: [README.md](https://github.com/Microsoft/EMDocs-pr/blob/ceb6798d04f7f4f3d1a7251d73724ccb5dffcdb2/README.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/284c460c650f4dd7734bd4d35033368893d7e969/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.ko-kr.xlf)
-* Handoff Datetime: 2016-02-26 09:37:43
-* Handoff Reason: Include
-* Archive File: [README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/42f56e4b96373ca8b3fc0484952ae800498df53e/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/archive/README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.ko-kr.xlf)
-* Archive Datetime: 2016-04-15 09:20:07
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
