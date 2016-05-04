@@ -5,11 +5,11 @@
  -------- | ----- 
  Total Files | 382
 [ Handoff Failed Files ](#handoff-failed-list)| 0
-[ Handoff Success Files ](#handoff-success-list)| 110
+[ Handoff Success Files ](#handoff-success-list)| 109
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
-[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 39
+[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 40
 [ In Sync Handback Files ](#insync-handback-success-list)| 98
 [ Ignored Files ](#ignored-list)| 135
 
@@ -37,7 +37,6 @@
  [contributor-guide\media\selector-list.png](https://github.com/Microsoft/EMDocs-pr/blob/93afa79b8a4e774e5760c6636a0464331a61ef4b/contributor-guide/media/selector-list.png) | HandedOffSuccess | [Details](#450c0f68e3f8473716099a76e2bea13452f5323f35)
  [contributor-guide\media\selectors.png](https://github.com/Microsoft/EMDocs-pr/blob/f07f7d73c5c41f1288103ecd20ea04b2e8941914/contributor-guide/media/selectors.png) | HandedOffSuccess | [Details](#a19d1f0c651f1fd944af8c89b1bef5cdde57ba7936)
  [EMDocs\Image\150x150.png](https://github.com/Microsoft/EMDocs-pr/blob/18059440f157c844e1be08e5c8af1cc47e168cc9/EMDocs/Image/150x150.png) | HandedOffSuccess | [Details](#84421bf7f4ba657e685239fb27f4798a46485f7146)
- [EMDocs\Solutions\learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md) | HandedOffSuccess | [Details](#a90da0adacec67e1e5264a4848829336f2996c5095)
  [EMDocs\Solutions\media\150x150.png](https://github.com/Microsoft/EMDocs-pr/blob/1aaad6ccaca53d4bd6293a1da75eee95a2fa449a/EMDocs/Solutions/media/150x150.png) | HandedOffSuccess | [Details](#84421bf7f4ba657e685239fb27f4798a46485f71137)
  [EMDocs\Solutions\media\1-rms-onboarding-process.png](https://github.com/Microsoft/EMDocs-pr/blob/bef88dbfdf467706b88aad10d456bf18f70054bb/EMDocs/Solutions/media/1-rms-onboarding-process.png) | HandedOffSuccess | [Details](#d7641e47928129e58192ac12d9e36cd56c57be4d136)
  [EMDocs\Solutions\media\4-aadp-assess-phase-v3.png](https://github.com/Microsoft/EMDocs-pr/blob/18059440f157c844e1be08e5c8af1cc47e168cc9/EMDocs/Solutions/media/4-aadp-assess-phase-v3.png) | HandedOffSuccess | [Details](#37eebe7c7d8e52eb31e73bd024985eac7486d0a3139)
@@ -173,6 +172,7 @@
  [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-your-responsibilities.md](https://github.com/Microsoft/EMDocs-pr/blob/f85208c13caab7eb91e9db5e7baafb37cdd5244c/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-your-responsibilities.md) | OutofSyncHandedBackSuccess | [Details](#3076ddd545cce5fa06572e16ecde40678c4a239892)
  [EMDocs\Solutions\fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md](https://github.com/Microsoft/EMDocs-pr/blob/f85208c13caab7eb91e9db5e7baafb37cdd5244c/EMDocs/Solutions/fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md) | OutofSyncHandedBackSuccess | [Details](#f7beb9626b3ec42a2348a70bdd896a3596c399e093)
  [EMDocs\Solutions\implement-solution.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/implement-solution.md) | OutofSyncHandedBackSuccess | [Details](#eec74f54e6e6265d53f62fdccead61bff917450394)
+ [EMDocs\Solutions\learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md) | OutofSyncHandedBackSuccess | [Details](#a90da0adacec67e1e5264a4848829336f2996c5095)
  [EMDocs\Solutions\protect-corporate-email-documents.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/protect-corporate-email-documents.md) | OutofSyncHandedBackSuccess | [Details](#5911fc980156316c3b2466dae78d72801bf08934326)
  [EMDocs\Solutions\protect-email-attachments.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/protect-email-attachments.md) | OutofSyncHandedBackSuccess | [Details](#0bf455c24808f6dec237acb20150dd6bf129be70327)
  [EMDocs\Solutions\TOC.md](https://github.com/Microsoft/EMDocs-pr/blob/f034ba0e33cdaad62391021986887afff2e376b6/EMDocs/Solutions/TOC.md) | OutofSyncHandedBackSuccess | [Details](#13eae3089e5ab166f76ea4730ffde75c77fe1653329)
@@ -1685,7 +1685,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='a90da0adacec67e1e5264a4848829336f2996c5095'></a> Source: [EMDocs\Solutions\learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md)
-* Status: HandedOffSuccess
+* Status: OutofSyncHandedBackSuccess
 * Target File: 
 * Handoff File: [learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.e2df0c7953c1ffc4c58bd87c97dac2b462ae3857.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/6970a18b691c5022e8a1bf9ed45f7e84545d69a8/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.e2df0c7953c1ffc4c58bd87c97dac2b462ae3857.ko-kr.xlf)
 * Handoff Datetime: 2016-04-25 22:27:20
@@ -1694,6 +1694,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [EMDocs\Solutions\learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md](https://github.com/Microsoft/EMDocs-pr.ko-kr/blob/1489c7a49549ef9b00405a2c971b6bb514f352a3/EMDocs/Solutions/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md)
+* Current Handback File: [learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.e2df0c7953c1ffc4c58bd87c97dac2b462ae3857.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/d4d041174b32a7e379f2e17d46cee744345798db/ol-handback/Microsoft/EMDocs-pr.ko-kr/master/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.e2df0c7953c1ffc4c58bd87c97dac2b462ae3857.ko-kr.xlf)
+* Current Handback Datetime: 2016-05-04 01:38:54
 * [Back to Top](#report-top)
 
 ##### <a name='77f50da8a7dfc5a6fae15fa4c3eecab61caa99ab98'></a> Source: [EMDocs\Solutions\lp_selector.md](https://github.com/Microsoft/EMDocs-pr/blob/d43860e838a40de05bdec73b00b6721ee634d7e5/EMDocs/Solutions/lp_selector.md)

@@ -1,6 +1,6 @@
 {
   "LastProcessedCommit": "18059440f157c844e1be08e5c8af1cc47e168cc9",
-  "LastTranslatedCommit": "07e865fb1aae8d8006a12a7a5e8fd5ef9ff421f3",
+  "LastTranslatedCommit": "1489c7a49549ef9b00405a2c971b6bb514f352a3",
   "Items": {
     "da63fda594055f3647cc04e6954675a9558776db": {
       "FileHash": "da63fda594055f3647cc04e6954675a9558776db",
@@ -23071,14 +23071,14 @@
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
-      "TargetFileCommit": null,
-      "TargetFilePath": null,
-      "HandbackFilePath": null,
-      "HandbackFileCommit": null,
-      "HandbackDateTime": "0001-01-01T00:00:00",
+      "TargetFileCommit": "1489c7a49549ef9b00405a2c971b6bb514f352a3",
+      "TargetFilePath": "EMDocs\\Solutions\\learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md",
+      "HandbackFilePath": "ol-handback\\Microsoft\\EMDocs-pr.ko-kr\\master\\learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.e2df0c7953c1ffc4c58bd87c97dac2b462ae3857.ko-kr.xlf",
+      "HandbackFileCommit": "d4d041174b32a7e379f2e17d46cee744345798db",
+      "HandbackDateTime": "2016-05-04T01:38:54.5054231Z",
       "HandbackException": null,
       "HandbackFailureTimes": 0,
-      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "UpdatedDateTime": "2016-05-04T01:38:54.5054231Z",
       "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\archive\\learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.e2df0c7953c1ffc4c58bd87c97dac2b462ae3857.ko-kr.xlf",
       "ArchiveFileCommit": "1c58f8b4ee30ba15efc307bec9ccf1ff0001b1a8",
       "ArchiveFileDateTime": "2016-04-15T09:05:39.2685197Z",
