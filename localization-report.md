@@ -5,11 +5,11 @@
  -------- | ----- 
  Total Files | 382
 [ Handoff Failed Files ](#handoff-failed-list)| 0
-[ Handoff Success Files ](#handoff-success-list)| 109
+[ Handoff Success Files ](#handoff-success-list)| 108
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
-[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 40
+[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 41
 [ In Sync Handback Files ](#insync-handback-success-list)| 98
 [ Ignored Files ](#ignored-list)| 135
 
@@ -126,7 +126,6 @@
  [EMDocs\Solutions\media\ProtectEmail\Hybrid-Reports-Deployment-Status.png](https://github.com/Microsoft/EMDocs-pr/blob/7f7f39751b4ba314fede7699c813ff4eb34d346b/EMDocs/Solutions/media/ProtectEmail/Hybrid-Reports-Deployment-Status.png) | HandedOffSuccess | [Details](#3c17bb0e80792952c86ce97f9b623cd85518001f294)
  [EMDocs\Solutions\media\ProtectEmail\intune-sa-6blocked-devices.PNG](https://github.com/Microsoft/EMDocs-pr/blob/0194ed2a4c36b6dad96747fbfa6668790095f278/EMDocs/Solutions/media/ProtectEmail/intune-sa-6blocked-devices.PNG) | HandedOffSuccess | [Details](#49427494881cb50b4baadf18311da0f9744f6c43295)
  [EMDocs\Solutions\media\ProtectEmail\Protecting_your_data.png](https://github.com/Microsoft/EMDocs-pr/blob/0d597abfd03d1e5a5b148e72441b459e4535bfae/EMDocs/Solutions/media/ProtectEmail/Protecting_your_data.png) | HandedOffSuccess | [Details](#5d23feda97afbd203a4d57d0f958baca68438c2c296)
- [README.md](https://github.com/Microsoft/EMDocs-pr/blob/0505304fcd6745f9c2d60ef20e383d7093c03e02/README.md) | HandedOffSuccess | [Details](#d49a3ab9c35d4a862ea8c8d828eb983a2aec0197380)
 
 ## <a name='archive-failed-list'></a> Archive Failed File List
 
@@ -177,6 +176,7 @@
  [EMDocs\Solutions\protect-email-attachments.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/protect-email-attachments.md) | OutofSyncHandedBackSuccess | [Details](#0bf455c24808f6dec237acb20150dd6bf129be70327)
  [EMDocs\Solutions\TOC.md](https://github.com/Microsoft/EMDocs-pr/blob/f034ba0e33cdaad62391021986887afff2e376b6/EMDocs/Solutions/TOC.md) | OutofSyncHandedBackSuccess | [Details](#13eae3089e5ab166f76ea4730ffde75c77fe1653329)
  [EMDocs\toc.yml](https://github.com/Microsoft/EMDocs-pr/blob/714233f3b2a7573fc662c6b3bbb16dcd33c8fa3e/EMDocs/toc.yml) | OutofSyncHandedBackSuccess | [Details](#b18d6beadc58195258675d46f89def4cd4f74efe330)
+ [README.md](https://github.com/Microsoft/EMDocs-pr/blob/0505304fcd6745f9c2d60ef20e383d7093c03e02/README.md) | OutofSyncHandedBackSuccess | [Details](#d49a3ab9c35d4a862ea8c8d828eb983a2aec0197380)
 
 ## <a name='insync-handback-success-list'></a> In Sync Handback File Success List
  Source File | Status | Details 
@@ -5209,7 +5209,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='d49a3ab9c35d4a862ea8c8d828eb983a2aec0197380'></a> Source: [README.md](https://github.com/Microsoft/EMDocs-pr/blob/0505304fcd6745f9c2d60ef20e383d7093c03e02/README.md)
-* Status: HandedOffSuccess
+* Status: OutofSyncHandedBackSuccess
 * Target File: 
 * Handoff File: [README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/cf024fb5729fd123269ab52be6bba89d79facca4/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.ko-kr.xlf)
 * Handoff Datetime: 2016-05-03 09:22:53
@@ -5218,6 +5218,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [README.md](https://github.com/Microsoft/EMDocs-pr.ko-kr/blob/305ff26ddcfcba21083514681c268e5029d81fe0/README.md)
+* Current Handback File: [README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/34f82a0d0ba61b80100978b5f9f5c8318c3462c9/ol-handback/Microsoft/EMDocs-pr.ko-kr/master/README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.ko-kr.xlf)
+* Current Handback Datetime: 2016-05-04 02:53:07
 * Dependency From: contributor-guide\create-tables-markdown.md
 * [Back to Top](#report-top)
 
