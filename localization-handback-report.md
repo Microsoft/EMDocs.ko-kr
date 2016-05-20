@@ -1,11 +1,39 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 2
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [EMDocs\Solutions\enterprise-mobility-fasttrack-program.md](https://github.com/Microsoft/EMDocs-pr/blob/31ba2bb9bf95d3b21ba08f7874f12cae790f9af0/EMDocs/Solutions/enterprise-mobility-fasttrack-program.md) | InSyncHandedBackSuccess | [Details](#a32ec33be4ea8ea3ece93fe026480de43790af4e86)
+ [EMDocs\Solutions\implement-solution.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/implement-solution.md) | InSyncHandedBackSuccess | [Details](#eec74f54e6e6265d53f62fdccead61bff917450394)
 
 ## Item Details
+##### <a name='a32ec33be4ea8ea3ece93fe026480de43790af4e86'></a> Source: [EMDocs\Solutions\enterprise-mobility-fasttrack-program.md](https://github.com/Microsoft/EMDocs-pr/blob/31ba2bb9bf95d3b21ba08f7874f12cae790f9af0/EMDocs/Solutions/enterprise-mobility-fasttrack-program.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\Solutions\enterprise-mobility-fasttrack-program.md](https://github.com/Microsoft/EMDocs-pr.ko-kr/blob/7a678654e75bce20160432ffa7ecc10b5b7029b1/EMDocs/Solutions/enterprise-mobility-fasttrack-program.md)
+* Handoff File: [enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/6970a18b691c5022e8a1bf9ed45f7e84545d69a8/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.ko-kr.xlf)
+* Handoff Datetime: 2016-04-25 22:27:20
+* Handoff Reason: Include
+* Archive File: [enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/943e02555dbaf880965297c85f79863aa35449ee/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/archive/enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.ko-kr.xlf)
+* Archive Datetime: 2016-05-19 21:32:28
+* Handback File: [enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/7114ade229826cdef867d6545de2b158f43c72f1/ol-handback/Microsoft/EMDocs-pr.ko-kr/master/enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.ko-kr.xlf)
+* Handback Datetime: 2016-05-20 13:56:40
+* [Back to Top](#report-top)
+
+##### <a name='eec74f54e6e6265d53f62fdccead61bff917450394'></a> Source: [EMDocs\Solutions\implement-solution.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/implement-solution.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\Solutions\implement-solution.md](https://github.com/Microsoft/EMDocs-pr.ko-kr/blob/7a678654e75bce20160432ffa7ecc10b5b7029b1/EMDocs/Solutions/implement-solution.md)
+* Handoff File: [implement-solution.ccf953cb02b058e8986bce34bb5fe583afd16eb5.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/6970a18b691c5022e8a1bf9ed45f7e84545d69a8/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/implement-solution.ccf953cb02b058e8986bce34bb5fe583afd16eb5.ko-kr.xlf)
+* Handoff Datetime: 2016-04-25 22:27:20
+* Handoff Reason: Include
+* Archive File: [implement-solution.ccf953cb02b058e8986bce34bb5fe583afd16eb5.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/943e02555dbaf880965297c85f79863aa35449ee/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/archive/implement-solution.ccf953cb02b058e8986bce34bb5fe583afd16eb5.ko-kr.xlf)
+* Archive Datetime: 2016-05-19 21:32:28
+* Handback File: [implement-solution.ccf953cb02b058e8986bce34bb5fe583afd16eb5.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/7114ade229826cdef867d6545de2b158f43c72f1/ol-handback/Microsoft/EMDocs-pr.ko-kr/master/implement-solution.ccf953cb02b058e8986bce34bb5fe583afd16eb5.ko-kr.xlf)
+* Handback Datetime: 2016-05-20 13:56:40
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
