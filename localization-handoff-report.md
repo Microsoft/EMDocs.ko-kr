@@ -6,14 +6,14 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [EMDocs\Solutions\mdm-step-2-plan-for-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr/blob/69e648b4f6513f73349f67eb9113f6ad04f83506/EMDocs/Solutions/mdm-step-2-plan-for-mobile-device-management.md) | OutofSyncHandedBackSuccess | [Details](#56e17f01653a3fe71f52a03235fb7e7feadd73c0131)
+ [EMDocs\Solutions\mdm-step-2-plan-for-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr/blob/1436fa1665f34fc8cb0d53d3c4ac52d52e1e5afb/EMDocs/Solutions/mdm-step-2-plan-for-mobile-device-management.md) | OutofSyncHandedBackSuccess | [Details](#4e3f6c3bf9f75a3be46b64413db91ad5e398e01d131)
 
 ## Item Details
-##### <a name='56e17f01653a3fe71f52a03235fb7e7feadd73c0131'></a> Source: [EMDocs\Solutions\mdm-step-2-plan-for-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr/blob/69e648b4f6513f73349f67eb9113f6ad04f83506/EMDocs/Solutions/mdm-step-2-plan-for-mobile-device-management.md)
+##### <a name='4e3f6c3bf9f75a3be46b64413db91ad5e398e01d131'></a> Source: [EMDocs\Solutions\mdm-step-2-plan-for-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr/blob/1436fa1665f34fc8cb0d53d3c4ac52d52e1e5afb/EMDocs/Solutions/mdm-step-2-plan-for-mobile-device-management.md)
 * Status: OutofSyncHandedBackSuccess
 * Target File: 
-* Handoff File: [mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/1ec16cb49e55a0af25b0078eefd220709f3f29e9/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.ko-kr.xlf)
-* Handoff Datetime: 2016-05-20 04:37:11
+* Handoff File: [mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/e8cd5261780230b5074deeb0d588161e54951001/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.ko-kr.xlf)
+* Handoff Datetime: 2016-05-20 17:06:42
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
