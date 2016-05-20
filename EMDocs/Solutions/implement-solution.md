@@ -11,7 +11,7 @@ ms.topic: article
 ms.prod:
 ms.service:
 ms.technology:
-ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
+ms.assetid: edc744d8-97d9-42e0-8906-6f0dedd8d629
 
 # optional metadata
 
@@ -100,10 +100,10 @@ Exchange Online 전용 구현의 경우에는 현재 구현에 따라 앞에서 
 ## 추가 정보
 회사 메일 콘텐츠 및 첨부 파일 보호를 위한 솔루션을 배포하는 방법의 단계별 지침은 특정 환경에 따라 다음 항목 중 하나를 참조하세요.
 
-- [Microsoft Intune으로 조건부 액세스 사용](../Solutions/conditional-access-intune.md)
-- [Microsoft Intune 및 Configuration Manager와 함께 조건부 액세스 사용](../Solutions/conditional-access-intune-configmgr.md)
+- [Microsoft Intune으로 조건부 액세스 사용](conditional-access-intune.md)
+- [Microsoft Intune 및 Configuration Manager와 함께 조건부 액세스 사용](conditional-access-intune-configmgr.md)
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 
