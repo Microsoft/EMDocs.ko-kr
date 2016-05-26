@@ -18,7 +18,7 @@ ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -28,18 +28,20 @@ ms.suite: ems
 # 회사 메일 및 문서를 보호하기 위한 아키텍처 지침
 이 항목은 최종 사용자 환경이 단순하고 생산성에 영향을 주지 않도록 하면서 회사를 위한 데이터 보호 방법에 대해 개괄하는 것으로 시작합니다. 그런 다음 회사 메일에 안전하게 액세스하도록 돕고 Microsoft Enterprise Mobility Suite 솔루션을 사용하여 메일 및 첨부 파일에 있는 회사 데이터를 보호하는 데 도움이 될 수 있는 방법에 대해 구체적으로 살펴볼 것입니다.
 
+이 섹션에서는 회사 메일 및 문서를 보호하기 위한 아키텍처에 대해 설명합니다. 솔루션 배포에 대한 지침은 [Learn more about how to deploy a solution for protecting company email and documents(회사 메일 및 문서를 보호하는 솔루션을 배포하는 방법에 대해 자세히 알아보기)](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md)를 참조하세요.
+
 > [!TIP]
 > [TechNet 갤러리](https://gallery.technet.microsoft.com/Managing-Access-and-Help-b7a05d0d/file/140056/1/Managing%20Access%20and%20Help%20Protect%20Corporate%20Email%20Data%20on%20Mobile%20Devices.pdf)에서 이 전체 항목의 다운로드 가능한 복사본을 가져오세요.
 
-직원은 자신의 장치를 사용해 회사 리소스 및 생산성 도구에 액세스하고자 합니다. IT 부서는 직원들에게 이 기능을 제공함과 동시에 중요한 회사 데이터를 보호해야 합니다. BYOD([Bring Your Own Device](../Solutions/byod-design-considerations-guide.md))를 사용하는 경우 개인 장치에서 개인 데이터와 업무 데이터를 분리해야 하며 회사 데이터의 의도적인/실수로 인한 공유를 방지해야 한다는 문제가 발생합니다.
+직원은 자신의 장치를 사용해 회사 리소스 및 생산성 도구에 액세스하고자 합니다. IT 부서는 직원들에게 이 기능을 제공함과 동시에 중요한 회사 데이터를 보호해야 합니다. BYOD([Bring Your Own Device](byod-design-considerations-guide.md))는 개인 장치에서 개인 데이터와 업무 데이터를 분리해야 하며 회사 데이터를 의도적 또는 실수로나 공유하면 안 된다는 점에서 구체적인 과제를 제시합니다.
 
-**이와 관련하여 다음과 같은 연구 결과가 발표된 바 있습니다.**
+**조사에 따르면 다음과 같습니다.**
 
--   전 세계 인력 중 37%는 모바일 환경을 사용함&#42;
+-   전 세계 인력 중 37%는 모바일 환경을 사용함
 
--   2014년 3분기에 열어서 확인한 총 전자 메일 중 53%는 휴대폰이나 태블릿에서 연 것으로 확인됨&#42;&#42;
+-   2014년 3분기에 열어서 확인한 총 메일 중 53%는 휴대폰이나 태블릿에서 연 것으로 확인됨
 
--   작업자의 61%는 자신의 장치에서 개인 작업과 업무상의 작업을 함께 수행함&#42;&#42;&#42;
+-   작업자의 61%는 자신의 장치에서 개인 작업과 업무상의 작업을 함께 수행함
 
 이와 관련하여 다음 사항을 고려해야 합니다.
 
@@ -82,38 +84,26 @@ ID, 장치, 앱 및 데이터용 4계층 보안 모델은 필요한 사용자만
 파일 수준에서 데이터를 보호하는*Azure RMS(Azure 권한 관리)* 를 통해 보안 모델이 완성됩니다. 데이터에 적용되는 보안 정책은 데이터를 이동하면 함께 이동하므로 데이터에 액세스하는 데 사용하는 장치와 관계없이 전송 중인 데이터와 보관 중인 데이터가 모두 안전하게 유지됩니다. 이러한 보호가 적용되는 계층이 보안 모델의 **데이터 계층** 입니다.
 
 ## 추가 정보
-평가용 계정을 등록하고 시작하려면 이 비디오를[시청](https://www.youtube.com/watch?v=ltcZvm4VOFU) 하세요.
+- 평가용 계정을 등록하고 시작하려면 이 비디오를[시청](https://www.youtube.com/watch?v=ltcZvm4VOFU) 하세요.
 
-[모바일 장치 관리 디자인 고려 사항 가이드](../Solutions/mdm-design-considerations-guide.md)를 참고하여 모바일 장치 관리 디자인 요구 사항을 파악합니다.
+- [Mobile Device Management Design Considerations Guide(모바일 장치 관리 디자인 고려 사항 가이드)](mdm-design-considerations-guide.md)를 참고하여 모바일 장치 관리 디자인 요구 사항을 파악하세요.
 
-[회사 메일 및 문서를 보호하는 솔루션을 배포하는 방법에 대해 알아봅니다](../Solutions/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md).
+- [Learn more about how to deploy a solution for protecting company email and documents(회사 메일 및 문서를 보호하는 솔루션을 배포하는 방법에 대해 알아보세요)](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md).
 
-각주:
+또한 EMS와 Azure Active Directory에 대해 자세히 알아보려면 다음 문서에서 자세한 정보를 얻을 수 있습니다.
+- [EMS 아키텍처](https://azure.microsoft.com/en-us/documentation/infographics/enterprise-mobility/)
 
-&#42; IDC: "2011–2015년 전 세계 모바일 작업자 인구 예측"
+- [Azure Active Directory란?](https://azure.microsoft.com/en-us/documentation/articles/active-directory-whatis/)
 
-&#42;&#42; Experian "분기별 전자 메일 벤치마킹 보고서"(2014년 3분기)
+- [Azure Active Directory가 Office 365, Microsoft Intune 및 다른 Microsoft 서비스를 지원하는 방법](https://azure.microsoft.com/en-us/documentation/articles/active-directory-administer/#what-is-an-azure-ad-tenant)
 
-&#42;&#42;&#42; Forrester Research: "BT Futures 보고서: 기업과 소비자 기술 간 경계를 허무는 정보 근로자"(2013년 2월 21일)
+- [Azure Active Directory를 통해 ID를 관리하는 방법](https://azure.microsoft.com/en-us/documentation/articles/active-directory-administer/)
 
-### 참고 항목
-[EMS 아키텍처](https://azure.microsoft.com/en-us/documentation/infographics/enterprise-mobility/)
+- [Azure 권한 관리란?](https://technet.microsoft.com/en-us/library/jj585026.aspx)
 
-[Intune 사용 시작](https://stage.docs.microsoft.com/en-us/intune/understand/introduction-to-microsoft-intune)
-
-[Azure Active Directory란?](https://azure.microsoft.com/en-us/documentation/articles/active-directory-whatis/)
-
-[Azure Active Directory가 Office 365, Microsoft Intune 및 다른 Microsoft 서비스를 지원하는 방법](https://azure.microsoft.com/en-us/documentation/articles/active-directory-administer/#what-is-an-azure-ad-tenant)
-
-[Azure Active Directory를 통해 ID를 관리하는 방법](https://azure.microsoft.com/en-us/documentation/articles/active-directory-administer/)
-
-[Azure 권한 관리란?](https://technet.microsoft.com/en-us/library/jj585026.aspx)
-
-[응용 프로그램에서 Azure 권한 관리를 지원하는 방법](https://technet.microsoft.com/en-us/library/jj585004.aspx)
-
-[Exchange Online 및 데이터 손실 방지 정책을 통해 전자 메일 자동 보호](https://technet.microsoft.com/en-us/library/jj585026.aspx#BKMK_Example_DLP)
+- [응용 프로그램에서 Azure 권한 관리를 지원하는 방법](https://technet.microsoft.com/en-us/library/jj585004.aspx)
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

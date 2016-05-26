@@ -26,7 +26,7 @@ ms.suite: ems
 ---
 
 # Microsoft Intune 및 구성 관리자가 포함된 Exchange Online 배포
-[회사 메일 및 문서를 보호하기 위한 아키텍처 지침](../Solutions/architecture-guidance-for-protecting-company-email-and-documents.md)을 참고했으므로 솔루션 배포를 진행할 준비가 되었습니다.
+[회사 메일 및 문서를 보호하기 위한 아키텍처 지침](architecture-guidance-for-protecting-company-email-and-documents.md)을 참고했으므로 솔루션 배포를 진행할 준비가 되었습니다.
 
 System Center Configuration Manager와 Exchange Online을 이미 사용 중인 경우 Intune을 통합하여 모바일 장치에서 메일 액세스를 관리하고 메일 데이터를 보호할 수 있습니다. 이 솔루션을 구현하기 위한 고급 프로세스는 다음과 같습니다.
 
@@ -97,9 +97,9 @@ Exchange Online 솔루션을 배포하려면 다음 단계를 따르세요.
 
 더 이상 회사에 속하지 않아 iOS 장치에서 모든 회사 메일을 제거하는 기능을 원하는 경우 메일 프로필을 만들고 배포한 다음 메일 프로필이 Intune에서 관리되도록 지정하는 규정 준수 정책을 설정해야 합니다. 이 규정 준수 정책에서 대상으로 하는 사용자 집합과 동일한 사용자 집합에 메일 프로필을 배포해야 합니다.
 
-![전자 메일 프로필을 Intune에서 관리해야 한다고 지정할 수 있는 규정 준수 정책 만들기 마법사의 "규칙" 페이지를 보여주는 스크린샷](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
+![전자 메일 프로필을 Intune에서 관리해야 한다고 지정할 수 있는 규정 준수 정책 만들기 마법사의 "규칙" 페이지를 보여주는 스크린샷입니다.](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
 
-이 규정 준수 정책을 지정하는 경우 이미 메일 계정을 설정한 사용자는 수동으로 제거해야 하며, Intune이 [조건부 액세스를 위한 최종 사용자 환경](../Solutions/end-user-experience-conditional-access.md)에 설명된 등록 프로세스를 통해 다시 추가합니다.
+이 규정 준수 정책을 지정하는 경우 이미 메일 계정을 설정한 사용자는 수동으로 해당 계정을 제거해야 하며, Intune에서 [조건부 액세스를 위한 최종 사용자 환경](end-user-experience-conditional-access.md)에 설명된 등록 프로세스를 통해 다시 추가합니다.
 
 규정 준수 정책을 만든 후 목록에서 규정 준수 정책 이름을 선택하고 **배포**를 클릭합니다.
 
@@ -153,9 +153,9 @@ SSRS 보고서를 보려면 주 서버에 보고 역할이 설치되어 있어�
 최신 인증을 사용하는 장치에는 조건부 액세스가 즉시 적용됩니다. EAS 프로토콜을 통해 연결하는 장치의 경우 기본 설정에 따라 조건부 액세스가 적용되기 전에 최대 6시간 동안 지연될 수 있습니다. 해당 시간 동안 장치가 규정을 준수하는 것으로 간주될 수 있습니다.
 
 ## 추가 정보
-모바일 장치의 회사 전자 메일 및 전자 메일 데이터를 보호하기 위한 솔루션을 배포한 후에 [조건부 액세스의 최종 사용자 환경](../Solutions/end-user-experience-conditional-access.md)에 대해 자세히 알아볼 수 있습니다. 이렇게 하면 최종 사용자가 특정 장치를 등록할 때 발생할 수 있는 문제에 대비하는 데 도움이 됩니다.
+모바일 장치의 회사 메일 및 메일 데이터를 보호하기 위한 솔루션을 배포한 후에 [조건부 액세스의 최종 사용자 환경](end-user-experience-conditional-access.md)에 대해 자세히 알아볼 수 있습니다. 이렇게 하면 최종 사용자가 특정 장치를 등록할 때 발생할 수 있는 문제에 대비하는 데 도움이 됩니다.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

@@ -53,7 +53,7 @@ ms.suite: ems
 - Microsoft Rights Management 서비스
 - Azure  권한 관리 
 - SMB 암호화
-- Single signSign-onOn (SS)
+- SSO(Single Sign-On)
 - 작업 폴더
 - WAP(웹 응용 프로그램 프록시)
 
@@ -87,6 +87,6 @@ BYOD를 지원하는 인프라 디자인은 이전에 이 문서에서 제공된
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

@@ -18,7 +18,7 @@ ms.assetid: 3e186dd2-e17c-40d8-b160-48038b2c6593
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -36,17 +36,17 @@ ms.suite: ems
 
 ## Android
 
-[이 항목](../Solutions/end-user-experience-conditional-access-android.md)에서는 조건부 액세스를 사용하도록 설정한 후에 최종 사용자가 Android 모바일 장치를 사용해 메일에 액세스하려고 처음 시도하는 경우 등록 환경에 대해 설명합니다.
+[이 항목](end-user-experience-conditional-access-android.md)에서는 조건부 액세스를 사용하도록 설정한 후에 최종 사용자가 Android 모바일 장치를 사용해 메일에 액세스하려고 처음 시도하는 경우 등록 환경에 대해 설명합니다.
 
 ## iOS
 
-[이 항목](../Solutions/end-user-experience-conditional-access-ios.md)에서는 조건부 액세스를 사용하도록 설정한 후에 최종 사용자가 최초로 iOS 모바일 장치에서 이메일 액세스를 시도하는 때의 최종 사용자 환경에 대해 설명합니다.
+[이 항목](end-user-experience-conditional-access-ios.md)에서는 조건부 액세스를 사용하도록 설정한 후에 최종 사용자가 최초로 iOS 모바일 장치에서 메일 액세스를 시도하는 때의 최종 사용자 환경에 대해 설명합니다.
 
 ## Windows Phone
 
-[이 항목](../Solutions/end-user-experience-conditional-access-winphone.md)에서는 조건부 액세스를 사용하도록 설정한 이후에 최종 사용자가 Windows Phone을 사용해 메일에 액세스하려고 시도하는 경우 최종 사용자 환경에 대해 설명합니다.
+[이 항목](end-user-experience-conditional-access-winphone.md)에서는 조건부 액세스를 사용하도록 설정한 이후에 최종 사용자가 Windows Phone을 사용해 메일에 액세스하려고 시도하는 경우 최종 사용자 환경에 대해 설명합니다.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

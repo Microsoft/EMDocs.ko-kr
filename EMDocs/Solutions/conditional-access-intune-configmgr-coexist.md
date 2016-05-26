@@ -26,7 +26,7 @@ ms.suite: ems
 ---
 
 # Microsoft Intune 및 Configuration Manager가 포함된 Exchange Online 및 온-프레미스 배포
-[회사 메일 및 문서를 보호하기 위한 아키텍처 지침](../Solutions/architecture-guidance-for-protecting-company-email-and-documents.md)을 참고했으므로 솔루션 배포를 진행할 준비가 되었습니다.
+[회사 메일 및 문서를 보호하기 위한 아키텍처 지침](architecture-guidance-for-protecting-company-email-and-documents.md)을 참고했으므로 솔루션 배포를 진행할 준비가 되었습니다.
 
 Exchange 온-프레미스 및 Exchange Online 둘 다를 사용하여 메일 프로필을 관리하는 환경에서는 기존 온-프레미스 Microsoft Exchange 조직에서 보유한 풍부한 기능을 갖춘 환경과 관리 제어를 클라우드로 확장할 수 있는 기능을 회사에 제공합니다. 이 "하이브리드" 유형의 배포는 온-프레미스 Exchange Server 2013 조직과 Microsoft Office 365의 Exchange Online 간에 단일 Exchange 조직의 매끄러운 모양과 느낌을 제공합니다. 또한 이 유형의 배포는 Exchange Online 조직으로 완전히 이동하기 위한 중간 단계 역할을 할 수 있습니다.
 
@@ -38,12 +38,12 @@ Exchange 온-프레미스와 Exchange Online 둘 다를 구현하는 공존성 �
 이러한 유형의 환경을 만들고 구성하기 위한 필수 조건을 검토하려면 [하이브리드 배포 필수 조건](https://technet.microsoft.com/en-us/library/hh534377.aspx) 을 참조하세요.
 
 ## 배포 단계
-공존성 솔루션을 배포하려면 [Exchange Server 온-프레미스](../Solutions/conditional-access-intune-configmgr-exchange.md) 및 [Exchange Online](../Solutions/conditional-access-intune-configmgr-exchange-online.md) 솔루션 둘 다를 배포하기 위한 위의 단계를 따르세요.
+공존성 솔루션을 배포하려면 [Exchange Server 온-프레미스](conditional-access-intune-configmgr-exchange.md) 및 [Exchange Online](conditional-access-intune-configmgr-exchange-online.md) 솔루션 둘 다를 배포하기 위한 위의 단계를 따르세요.
 
 ## 추가 정보
-모바일 장치의 회사 전자 메일 및 전자 메일 데이터를 보호하기 위한 솔루션을 배포한 후에 [조건부 액세스의 최종 사용자 환경](../Solutions/end-user-experience-conditional-access.md)에 대해 자세히 알아볼 수 있습니다. 이렇게 하면 최종 사용자가 특정 장치를 등록할 때 발생할 수 있는 문제에 대비하는 데 도움이 됩니다.
+모바일 장치의 회사 메일 및 메일 데이터를 보호하기 위한 솔루션을 배포한 후에 [조건부 액세스의 최종 사용자 환경](end-user-experience-conditional-access.md)에 대해 자세히 알아볼 수 있습니다. 이렇게 하면 최종 사용자가 특정 장치를 등록할 때 발생할 수 있는 문제에 대비하는 데 도움이 됩니다.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

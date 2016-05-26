@@ -1,17 +1,32 @@
 ---
+# required metadata
+
 title: 회사 전자 메일 첨부 파일 보호
-ms.custom: na
-ms.reviewer: na
-ms.service: microsoft-intune
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
+description:
+keywords:
 author: karthikaraman
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer:
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
 
 # 전자 메일 및 첨부 파일의 데이터 유출 방지
-[회사 전자 메일 및 문서 보호](../Solutions/protect-corporate-email-documents.md)에서는 호환 가능한 장치만 회사 전자 메일에 액세스하도록 하는 방법에 대해 설명했습니다. 그러나 액세스를 보호하는 것만으로는 전자 메일 및 전자 메일 첨부 파일의 내용을 보호할 수 없습니다. 해당 내용을 복사/이동하거나 다른 위치에 저장하거나 다른 사용자와 공유할 수 있기 때문입니다. EMS는 MAM(모바일 응용 프로그램 관리) 정책을 사용하여 이 문제를 해결합니다.
+[회사 메일 및 문서 보호](protect-corporate-email-documents.md)에서는 규격 장치만 회사 메일에 액세스하도록 하는 방법을 설명했습니다. 그러나 액세스를 보호하는 것만으로는 전자 메일 및 전자 메일 첨부 파일의 내용을 보호할 수 없습니다. 해당 내용을 복사/이동하거나 다른 위치에 저장하거나 다른 사용자와 공유할 수 있기 때문입니다. EMS는 MAM(모바일 응용 프로그램 관리) 정책을 사용하여 이 문제를 해결합니다.
 
 관리되는 앱은 IT 관리자가 배포했으며 회사 보안 요구 사항을 따르는 앱입니다. IT 부서는 이러한 앱을 통해 배포, 인벤토리 또는 업데이트 등의 지속적 관리, 그리고 앱 및 앱과 연결된 데이터의 선택적 지우기를 직접 제어합니다. 또한 Intune에서는 MAM(모바일 응용 프로그램 관리) 정책 집합을 통해 다음과 같이 앱 기능을 수정하고 데이터 공유를 제한할 수 있습니다.
 
@@ -58,9 +73,9 @@ IT 관리자는 모바일 응용 프로그램 관리 정책을 만들고 앱에 
 최종 사용자는 관리되는 앱을 설치한 다음 업무용으로 사용할 수 있습니다. 이 경우 관리되는 앱 간에만 데이터를 이동하거나 공유할 수 있습니다. 관리되는 앱 에코시스템 외부로의 데이터 이동은 차단됩니다.
 
 ## 추가 정보
-[회사 전자 메일 및 문서](../Solutions/protect-corporate-email-documents.md) 및 전자 메일 첨부 파일을 보호하는 방법에 대해 이해했으므로 [회사 전자 메일을 보호하는 솔루션을 구현](../Solutions/implement-solution.md)하는 방법에 대해 알아볼 수 있습니다.
+[회사 메일 및 문서](protect-corporate-email-documents.md) 및 메일 첨부 파일을 보호하는 방법에 대해 이해했으므로 [회사 메일을 보호하는 솔루션을 구현](implement-solution.md)하는 방법에 대해 알아볼 수 있습니다.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

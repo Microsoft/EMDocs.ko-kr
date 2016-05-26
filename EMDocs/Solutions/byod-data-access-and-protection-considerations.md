@@ -11,7 +11,7 @@ ms.topic: article
 ms.prod:
 ms.service:
 ms.technology:
-ms.assetid: fda1b678-a5f7-4207-a9bf-1aa9e24cf54d
+ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
 
 # optional metadata
 
@@ -38,9 +38,9 @@ Windows Server 2012 R2에서는 클라우드 폴더를 사용하여 사용자의
 
 저장소를 콘텐츠 컨테이너로 간주하는 경우 해당 콘텐츠의 소비를 보호하는 장점도 있습니다. 최종 사용자가 저장소에 상주하는 콘텐츠를 사용하는 방식에 영향을 주는 정책을 적용하여 데이터 누출을 방지할 수 있습니다. [AD RMS(Active Directory Rights Management Services)](https://technet.microsoft.com/library/hh831554.aspx)를 사용하면 IRM(정보 권한 관리)을 사용하는 문서를 보호하여 조직의 보안 전략을 강화할 수 있습니다. AD RMS에서는 개인 및 관리자가 IRM 정책을 통해 문서, 통합 문서 및 프리젠테이션에 대한 액세스 권한을 지정할 수 있습니다. 따라서 중요한 정보가 권한 없는 사용자에 의해 인쇄, 전달 또는 복사되는 것을 방지할 수 있습니다. IRM을 사용하여 파일에 대한 사용 권한을 제한한 후에는 파일에 대한 권한이 파일 자체에 저장되므로 정보의 위치에 관계없이 액세스 및 사용 제한이 적용됩니다.
 
-회사에서 파일 보호를 위해 클라우드 기반 솔루션을 사용하려는 경우 [Azure Rights Management](https://technet.microsoft.com/en-us/library/jj585026.aspx)를 사용할 수도 있습니다. Azure RMS는 파일과 전자 메일을 보호하기 위해 암호화, ID 및 권한 부여 정책을 사용하는 회사의 중요한 정보를 보호하며 이는 휴대폰, 태블릿, PC 등의 여러 장치에서 작동합니다. 데이터가 조직 경계를 벗어나더라도 데이터가 계속 보호되므로 조직 내부와 외부에서 모두 정보를 보호할 수 있습니다. 
+회사에서 파일 보호를 위해 클라우드 기반 솔루션을 사용하려는 경우 [Azure Rights Management](https://technet.microsoft.com/en-us/library/jj585026.aspx)를 사용할 수도 있습니다. Azure 권한 관리는 파일과 메일을 보호하기 위해 암호화, ID 및 권한 부여 정책을 사용하는 회사의 중요한 정보를 보호하며 이는 휴대폰, 태블릿, PC 등의 여러 장치에서 작동합니다. 데이터가 조직 경계를 벗어나더라도 데이터가 계속 보호되므로 조직 내부와 외부에서 모두 정보를 보호할 수 있습니다. 
 
-드라이브 암호화를 위한 BitLocker 및 파일 암호화를 위한 EFS(파일 시스템 암호화) 같이 Windows 운영 체제에서 사용할 수 있는 다른 저장소 기술을 사용하여 전체적인 데이터 보호를 향상시킬 수도 있습니다. 다음 표에서는 저장소 보호의 장점 및 단점을 확인할 수 있습니다. 이러한 옵션은 함께 사용할 수 있다는 점에 유의하세요. 즉, 디자인 결정에 따라 이러한 저장소 보호 옵션이 모두 BYOD 인프라 솔루션에 필요할 수 있습니다.
+드라이브 암호화를 위한 BitLocker 및 파일 암호화를 위한 [Encrypting File System (EFS)(EFS(파일 시스템 암호화))](https://technet.microsoft.com/library/cc700811.aspx) 같이 Windows 운영 체제에서 사용할 수 있는 다른 저장소 기술을 사용하여 전체적인 데이터 보호를 향상시킬 수도 있습니다. 다음 표에서는 저장소 보호의 장점 및 단점을 확인할 수 있습니다. 이러한 옵션은 함께 사용할 수 있다는 점에 유의하세요. 즉, 디자인 결정에 따라 이러한 저장소 보호 옵션이 모두 BYOD 인프라 솔루션에 필요할 수 있습니다.
 
 ### 저장소 보호 옵션 — 장점 및 단점
 
@@ -123,7 +123,7 @@ Windows Server 2012 R2에서는 클라우드 폴더를 사용하여 사용자의
     - 키 관리: 저장소를 암호화하는 데 사용된 키를 백업해야 하며, 필요한 경우 키 복구 에이전트를 사용할 수 있어야 합니다.
     - 원격 지우기: 사용자의 장치에 상주하는 데이터는 필요한 경우 원격으로 삭제할 수 있습니다.
 
-Windows Server 2012 R2에서는 [HTTPS](https://msdn.microsoft.com/library/aa767735(v=vs.85).aspx) 사용을 설정하여 [웹 응용 프로그램 프록시](https://technet.microsoft.com/library/dn280944.aspx)를 통해 리소스를 게시하고 네트워크를 통해 전송되는 동안 데이터를 보호할 수 있습니다. 네트워크 트래픽이 [SMB 프로토콜](https://technet.microsoft.com/library/hh831795.aspx)만을 기반으로 하는 경우 [IPsec](https://technet.microsoft.com/library/cc757613(v=ws.10).aspx) 또는 [SMB 암호화](http://support.microsoft.com/kb/2709568)를 사용하여 백 엔드 서버 간 통신을 암호화할 수도 있습니다. 다음 표를 사용하여 백 엔드 서버 통신의 디자인 요구 사항에 가장 잘 맞는 네트워크 보호 옵션을 평가합니다.
+Windows Server 2012 R2에서는 [HTTPS](https://msdn.microsoft.com/library/aa767735.aspx) 사용을 설정하여 [웹 응용 프로그램 프록시](https://technet.microsoft.com/library/dn280944.aspx)를 통해 리소스를 게시하고 네트워크를 통해 전송되는 동안 데이터를 보호할 수 있습니다. 네트워크 트래픽이 [SMB 프로토콜](https://technet.microsoft.com/library/hh831795.aspx)만을 기반으로 하는 경우 [IPsec](https://technet.microsoft.com/library/cc757613.aspx) 또는 [SMB 암호화](http://support.microsoft.com/kb/2709568)를 사용하여 백 엔드 서버 간 통신을 암호화할 수도 있습니다. 다음 표를 사용하여 백 엔드 서버 통신의 디자인 요구 사항에 가장 잘 맞는 네트워크 보호 옵션을 평가합니다.
 
 다음 섹션을 사용하여 백 엔드 서버 통신의 디자인 요구 사항에 가장 잘 맞는 네트워크 보호 옵션을 평가합니다.
 
@@ -208,7 +208,7 @@ Windows Server 2012 R2에서는 [HTTPS](https://msdn.microsoft.com/library/aa767
 - 암호 동기화와의 디렉터리 동기화: AD DS와 Azure AD 간에 [암호 해시 동기화](https://technet.microsoft.com/library/dn246918.aspx)를 포함한 DirSync를 사용합니다.
 - Single Sign-On으로 페더레이션된 인증: 사용자 특성이 DirSync를 사용하여 동기화됩니다. 인증이 페더레이션(AD FS)을 통해 다시 전달되고 AD DS에 대해 완료됩니다.
 
-Windows 8.1에서 장치 등록 서비스를 사용하면 인증서가 사용자의 장치에 설치되고 장치 레코드가 인증서의 지문 번호와 함께 AD DS에 생성됩니다. 장치와 사용자 간의 이 연결을 통해 IT 부서는 각 사용자가 등록할 장치를 추적할 수 있습니다. 이 기능에는 엔터프라이즈 PKI가 필요하지 않습니다.
+Windows 8.1에서 장치 등록 서비스를 사용하면 인증서가 사용자의 장치에 설치되고 장치 레코드가 인증서의 지문 번호와 함께 AD DS에 생성됩니다. 장치와 사용자 간의 이 연결을 통해 IT 부서는 각 사용자가 등록할 장치를 추적할 수 있습니다. 이 기능에는 엔터프라이즈 PKI가 필요하지 않습니다. 장치 등록도 Windows 10용 Azure AD에서 제공됩니다. Azure AD 및 Windows 10을 사용한 장치 등록에 대한 자세한 내용은 [Azure Active Directory 장치 등록 시작](https://azure.microsoft.com/en-us/documentation/articles/active-directory-conditional-access-device-registration-overview/)을 참조하세요.
 
 ## 인증 및 권한 부여
 
@@ -220,11 +220,11 @@ Windows 8.1에서 장치 등록 서비스를 사용하면 인증서가 사용자
 
 인증 및 권한 부여는 AD DS와 연결된 AD FS에서 처리됩니다. 또한 데이터 센터에서 전송 중인 데이터는 파일 서버 역할 및 인증 서비스에 연결할 때 HTTPS 프로토콜을 사용합니다.
 
-Multi-Factor Authentication을 적용하려는 경우 회사는 AD FS의 기본 제공 기능을 사용하거나 Microsoft Azure Active Authentication(이전에는 PhoneFactor로 알려짐)을 사용할 수 있습니다. Microsoft Azure의 이 기능을 사용하여 IT 부서는 익스트라넷을 통해 회사 리소스에 액세스하는 사용자에게 Multi-Factor Authentication을 적용할 수 있습니다. Multi-Factor Authentication에 대한 자세한 내용은 [추가 Multi-Factor Authentication을 사용하여 중요한 응용 프로그램에 대한 위험 관리](https://technet.microsoft.com/library/dn280949.aspx)를 참조하세요.
+Multi-Factor Authentication을 적용하려는 경우 회사는 AD FS의 기본 제공 기능을 사용하거나 [Azure MFA(Multi-Factor Authentication)](https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/)를 사용할 수 있습니다. Azure의 이 기능을 사용하여 IT 부서는 인터넷에서 회사 리소스에 액세스하는 사용자에게 다단계 인증을 적용할 수 있습니다. Multi-Factor Authentication에 대한 자세한 내용은 [추가 Multi-Factor Authentication을 사용하여 중요한 응용 프로그램에 대한 위험 관리](https://technet.microsoft.com/library/dn280949.aspx)를 참조하세요.
 
 외부 네트워크나 내부 네트워크에서 앱에 액세스하는 사용자에 대해 앱 단위 권한 부여를 적용하려는 경우 IT 부서는 웹 응용 프로그램 프록시를 사용할 수 있습니다. 웹 응용 프로그램 프록시를 사용하여 IT 부서는 AD FS와 함께 인증 및 권한 부여를 적용하는 특정 규칙을 만들 수 있습니다. 웹 응용 프로그램 프록시 게시는 모든 사용자 장치에 대해 작동하므로 개인 노트북, 태블릿 또는 스마트폰을 사용할 수 있습니다. 또한 게시된 앱에 액세스하기 위해 사용자가 자신의 장치에 추가 소프트웨어를 설치할 필요가 없습니다. 웹 응용 프로그램 프록시는 해당 프록시를 통해 게시된 모든 앱에서 역방향 프록시 역할을 합니다. 따라서 사용자 환경은 사용자의 장치가 앱에 직접 연결된 것처럼 동일합니다. 웹 응용 프로그램 프록시에 대한 자세한 내용은 [웹 응용 프로그램 프록시 개요](https://technet.microsoft.com/library/dn280944.aspx)를 참조하세요.
 
-> AZURE.NOTE 하이브리드 시나리오에서 사용자 인증 및 권한 부여 환경을 원활하게 하려면 [하이브리드 ID 디자인 고려 사항 가이드](http://aka.ms/azhidcg)를 참고합니다.
+>[!NOTE] 하이브리드 시나리오에서 사용자 인증 및 권한 부여 환경을 원활하게 하려면 [하이브리드 ID 디자인 고려 사항 가이드](http://aka.ms/azhidcg)를 참조하세요.
 
 ## 정책 및 준수
 
@@ -255,6 +255,6 @@ Multi-Factor Authentication을 적용하려는 경우 회사는 AD FS의 기본
 파일 서버 역할의 기능인 동적 액세스 제어를 통해 IT 부서는 위의 표에 표시된 기능을 사용할 수 있습니다. 동적 액세스 제어에 대한 자세한 내용은 [동적 액세스 제어: 시나리오 개요](https://technet.microsoft.com/library/hh831717.aspx)를 참조하세요.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

@@ -1,13 +1,28 @@
 ---
+# required metadata
+
 title: 회사 메일 및 문서 보호
-ms.custom: na
-ms.reviewer: na
-ms.service: microsoft-intune
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
+description:
+keywords:
 author: karthikaraman
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: 78d8368e-1bfe-4ac4-991d-467321a76ed7
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer:
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
 
 # 회사 메일 및 문서 보호
@@ -35,7 +50,7 @@ author: karthikaraman
 ## 높은 수준의 최종 사용자 환경
 솔루션을 구현하고 나면 최종 사용자는 관리되는 장치 및 규격 장치에서만 회사 메일에 액세스할 수 있습니다. 사용자가 장치에서 메일에 액세스할 수 있게 되면 회사 데이터는 앱 에코시스템 내에 포함되어 보호되며 의도한 사용자만 이 데이터를 사용할 수 있습니다. 장치가 비규격 장치가 되는 경우 언제든지 액세스 권한이 취소될 수 있습니다.
 
-특히 Intune에서 설정된 조건부 액세스 정책에서는 장치가 관리자가 설정한 규정 준수 정책에 부합할 때만 메일에 액세스할 수 있도록 합니다. 복사하여 붙여넣기, 개인 클라우드 저장소 서비스에 저장 등과 같은 작업은 모바일 응용 프로그램 관리 정책을 사용하여 제한할 수 있습니다. Azure 권한 관리 서비스를 사용하면 의도한 받는 사람만이 중요 메일 데이터 및 전달된 첨부 파일을 읽을 수 있도록 만들 수 있습니다. 최종 사용자 환경에 대해서는 [조건부 액세스를 위한 최종 사용자 환경](../Solutions/end-user-experience-conditional-access.md)에서 자세히 설명합니다.
+특히 Intune에서 설정된 조건부 액세스 정책에서는 장치가 관리자가 설정한 규정 준수 정책에 부합할 때만 메일에 액세스할 수 있도록 합니다. 복사하여 붙여넣기, 개인 클라우드 저장소 서비스에 저장 등과 같은 작업은 모바일 응용 프로그램 관리 정책을 사용하여 제한할 수 있습니다. Azure 권한 관리 서비스를 사용하면 의도한 받는 사람만이 중요 메일 데이터 및 전달된 첨부 파일을 읽을 수 있도록 만들 수 있습니다. 최종 사용자 환경은 [조건부 액세스를 위한 최종 사용자 환경](end-user-experience-conditional-access.md)에 자세히 설명되어 있습니다.
 
 
 조건부 액세스가 최종 사용자에게 주는 영향을 확인하려면 [이](https://www.youtube.com/watch?feature=player_embedded&v=lYx3YIezccg) 비디오(4분)를 시청하세요.
@@ -109,9 +124,9 @@ Azure AD 또는 Exchange에 대해 복잡한 인프라를 설치하지 않아도
 장치가 등록되어 있으며 정책을 준수하는 것으로 평가되면 몇 분 내에 전자 메일이 동기화됩니다.
 
 ## 추가 정보
-이제 회사 메일 및 문서 보호에 대해 이해했으므로 [메일 첨부 파일 보호](../Solutions/protect-email-attachments.md) 방법에 대해 알아볼 수 있습니다. 또는 준비가 된 경우 [회사 메일 보호를 위한 솔루션 구현](../Solutions/implement-solution.md)에 대해 확인합니다.
+이제 회사 메일 및 문서 보호에 대해 이해했으므로 [메일 첨부 파일 보호](protect-email-attachments.md) 방법에 대해 알아볼 수 있습니다. 또는 준비가 된 경우 [회사 메일 보호를 위한 솔루션 구현](implement-solution.md)을 알아보세요.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

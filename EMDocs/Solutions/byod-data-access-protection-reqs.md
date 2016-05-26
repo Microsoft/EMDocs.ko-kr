@@ -94,11 +94,10 @@ ms.suite: ems
 - 회사에 데이터 액세스가 분류되는 방식을 정의하는 정책이 있습니까?
 - 회사에서 데이터 처리 및 개인 정보 보호에 대한 모든 규정을 준수합니까?
     - 그렇다면 이러한 규정은 온-프레미스 리소스에 대한 현재 데이터 액세스 정책을 어떻게 도출합니까?
-- 회사에 [MDM(모바일 장치 관리)](http://aka.ms/mdmdcg) 및 MAM(모바일 응용 프로그램 관리)에 대한 정책이 있습니까?
+- 회사에 [Mobile Device Management (MDM)(MDM(모바일 장치 관리))](mdm-design-considerations-guide.md) 및 [Mobile Application Management (MAM)(MAM(모바일 응용 프로그램 관리))](https://blogs.technet.microsoft.com/cbernier/2016/01/05/microsoft-intune-mobile-application-management-mam-standalone/)에 대한 정책이 있습니까?
 - 회사에 소송 또는 범죄 수사 시 장치 몰수에 대한 정책이 있습니까?
 
 
-
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO3-->
 
 

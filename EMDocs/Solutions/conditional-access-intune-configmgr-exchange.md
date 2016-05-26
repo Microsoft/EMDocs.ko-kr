@@ -26,7 +26,7 @@ ms.suite: ems
 ---
 
 # Microsoft Intune 및 Configuration Manager가 포함된 Exchange Server 온-프레미스 배포
-[회사 메일 및 문서를 보호하기 위한 아키텍처 지침](../Solutions/architecture-guidance-for-protecting-company-email-and-documents.md)을 참고했으므로 솔루션 배포를 진행할 준비가 되었습니다.
+[회사 메일 및 문서를 보호하기 위한 아키텍처 지침](architecture-guidance-for-protecting-company-email-and-documents.md)을 참고했으므로 솔루션 배포를 진행할 준비가 되었습니다.
 
 온-프레미스 인프라에서 System Center Configuration Manager와 Exchange를 이미 사용 중인 경우 Intune을 통합하여 모바일 장치에서 메일 액세스를 관리하고 메일 데이터를 보호할 수 있습니다. 이 솔루션을 구현하기 위한 고급 프로세스는 다음과 같습니다.
 
@@ -55,9 +55,9 @@ ms.suite: ems
 사용자 환경에 이 솔루션을 구현하기 위한 이러한 요구 사항이 포함되어 있는지 확인합니다.
 
 > [!NOTE]
-> Intune 서비스를 통해 모바일 장치를 관리하도록 Configuration Manager를 이미 구성한 경우 [배포 단계](#DeploySteps)로 넘어갈 수 있습니다.
+> Intune 서비스를 통해 모바일 장치를 관리하도록 Configuration Manager를 이미 구성한 경우 [배포 단계](#deployment-steps)로 넘어갈 수 있습니다.
 
--   [온-프레미스 커넥터용 하드웨어 요구 사항](https://stage.docs.microsoft.com/en-us/intune/getstarted/network-infrastructure-requirements-for-microsoft-intune)을 충족하는지 확인합니다.
+-   [온-프레미스 커넥터용 하드웨어 요구 사항](/intune/get-started/network-infrastructure-requirements-for-microsoft-intune)을 충족하는지 확인합니다.
 
 -   System Center 2012 R2 Configuration Manager SP1 및 누적 업데이트 1 이상을 실행 중인지 확인합니다.
 
@@ -100,7 +100,7 @@ ms.suite: ems
 > [!IMPORTANT]
 > 필수 cmdlet 없이 Exchange Server 커넥터를 설치하거나 사용하려고 하면 _사이트 서버 컴퓨터의 EasDisc.log 파일에 &lt;cmdlet&gt; cmdlet을 호출하지 못했습니다._라는 메시지가 기록된 오류가 표시됩니다.
 
-## <a name="DeploySteps"></a>배포 단계
+## 배포 단계
 Exchange 온-프레미스 솔루션을 배포하려면 다음 단계를 따르세요.
 
 ### 1단계: Intune Connector 역할이 설치되었는지 확인합니다.
@@ -138,9 +138,9 @@ Configuration Manager 추적 로그 도구를 사용하여 Configuration Manager
 
 더 이상 회사에 속하지 않아 iOS 장치에서 모든 회사 메일을 제거하는 기능을 원하는 경우 메일 프로필을 만들고 배포한 다음 메일 프로필이 Intune에서 관리되도록 지정하는 규정 준수 정책을 설정해야 합니다. 이 규정 준수 정책에서 대상으로 하는 사용자 집합과 동일한 사용자 집합에 메일 프로필을 배포해야 합니다.
 
-![전자 메일 프로필을 Intune에서 관리해야 한다고 지정할 수 있는 규정 준수 정책 만들기 마법사의 "규칙" 페이지를 보여주는 스크린샷](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
+![전자 메일 프로필을 Intune에서 관리해야 한다고 지정할 수 있는 규정 준수 정책 만들기 마법사의 "규칙" 페이지를 보여주는 스크린샷입니다.](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
 
-이 규정 준수 정책을 지정하는 경우 이미 메일 계정을 설정한 사용자는 수동으로 제거해야 하며, Intune이 [조건부 액세스를 위한 최종 사용자 환경](../Solutions/end-user-experience-conditional-access.md)에 설명된 등록 프로세스를 통해 다시 추가합니다.
+이 규정 준수 정책을 지정하는 경우 이미 메일 계정을 설정한 사용자는 수동으로 해당 계정을 제거해야 하며, Intune에서 [조건부 액세스를 위한 최종 사용자 환경](end-user-experience-conditional-access.md)에 설명된 등록 프로세스를 통해 다시 추가합니다.
 
 규정 준수 정책을 만든 후 목록에서 규정 준수 정책 이름을 선택하고 **배포**를 클릭합니다.
 
@@ -150,7 +150,7 @@ Configuration Manager 추적 로그 도구를 사용하여 Configuration Manager
 ### 7단계: 등록을 모니터링하고 조건부 액세스를 적용합니다.
 다수의 사용자가 Intune에 이미 등록되어 있고 규정을 준수하는 경우 하루 약 500명의 사용자에게 롤아웃하여 조건부 액세스 적용을 시작할 수 있습니다. 이 작업은 약 70,000명의 사용자에 대해 4-5개월이 걸리며, 동시에 너무 많은 사용자에게 메일 액세스를 제한하지 않을 경우 발생할 수 있는 문제를 방지할 수 있습니다.
 
-다수의 사용자가 Intune에 등록되어 있지 않은 경우 조건부 액세스는 [조건부 액세스를 위한 최종 사용자 환경](../Solutions/end-user-experience-conditional-access.md)에 설명된 대로 안내식 등록 환경을 제공합니다.
+다수의 사용자가 Intune에 등록되어 있지 않은 경우 조건부 액세스는 [조건부 액세스를 위한 최종 사용자 환경](end-user-experience-conditional-access.md)에 설명된 대로 단계별 등록 환경을 제공합니다.
 
 ## 확인 단계
 Configuration Manager 추적 로그 도구를 사용하여 Configuration Manager를 설치한 Microsoft Configuration Manager/Logs 폴더에 있는 EasDisc.log 파일을 엽니다. 로그 파일에서 "Exchange Connector"를 검색하여 Exchange Connector를 실행 중인지 여부 및 연결된 장치 수에 대한 정보를 찾습니다.
@@ -188,9 +188,9 @@ SSRS 보고서를 보려면 주 서버에 보고 역할이 설치되어 있어�
 장치가 Exchange Connector에서 검색되는 즉시 차단됩니다. 차단 대기 시간은 전체 동기화와 델타 동기화에 대해 구성된 간격 및 장치가 Exchange 서버에 연결할 때 이러한 간격 사이의 시간에 따라 달라집니다. 기본적으로 전체 동기화는 24시간마다 발생하고, 델타 동기화는 240분마다 발생합니다. 이 대기 시간 동안 장치가 규정을 준수하는 것으로 간주될 수 있습니다.
 
 ## 추가 정보
-모바일 장치의 회사 전자 메일 및 전자 메일 데이터를 보호하기 위한 솔루션을 배포한 후에 [조건부 액세스의 최종 사용자 환경](../Solutions/end-user-experience-conditional-access.md)에 대해 자세히 알아볼 수 있습니다. 이렇게 하면 최종 사용자가 특정 장치를 등록할 때 발생할 수 있는 문제에 대비하는 데 도움이 됩니다.
+모바일 장치의 회사 메일 및 메일 데이터를 보호하기 위한 솔루션을 배포한 후에 [조건부 액세스의 최종 사용자 환경](end-user-experience-conditional-access.md)에 대해 자세히 알아볼 수 있습니다. 이렇게 하면 최종 사용자가 특정 장치를 등록할 때 발생할 수 있는 문제에 대비하는 데 도움이 됩니다.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

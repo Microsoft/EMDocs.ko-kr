@@ -53,14 +53,14 @@ Intune 및 Office 365 고객의 경우에는 AAD DRS가 자동으로 활성화�
 
 -   Exchange Online(예: E3)을 포함하는 Office 365 구독을 사용해야 하고 사용자는 Exchange Online의 라이선스를 취득해야 합니다.
 
--   **Microsoft Intune 서비스 간 커넥터**(선택 사항)는 Intune을 Microsoft Exchange Online에 연결하며 Intune 콘솔을 통해 장치 정보를 관리할 수 있도록 합니다([Exchange ActiveSync와 Microsoft Intune을 사용한 모바일 장치 관리](https://stage.docs.microsoft.com/en-us/intune/deployuse/mobile-device-management-with-exchange-activesync-and-microsoft-intune) 참조). 커넥터는 준수 정책 또는 조건부 액세스 정책을 사용하려는 경우 필요가 없지만 조건부 액세스의 영향을 평가하는 보고서를 실행하려는 경우에는 필요합니다.
+-   **Microsoft Intune 서비스 간 커넥터**(선택 사항)는 Intune을 Microsoft Exchange Online에 연결하며 Intune 콘솔을 통해 장치 정보를 관리할 수 있도록 합니다([Exchange ActiveSync와 Microsoft Intune을 사용한 모바일 장치 관리](/intune/deploy-use/mobile-device-management-with-exchange-activesync-and-microsoft-intune) 참조). 커넥터는 준수 정책 또는 조건부 액세스 정책을 사용하려는 경우 필요가 없지만 조건부 액세스의 영향을 평가하는 보고서를 실행하려는 경우에는 필요합니다.
 
     커넥터를 구성하는 경우 Intune의 일부 Exchange ActiveSync 정책은 Office 콘솔에 표시될 수 있지만 기본 정책으로 설정되지는 않으며 장치에 영향을 주지도 않습니다.
 
     > [!IMPORTANT]
     > Exchange Online과 Exchange 온-프레미스에 대해 모두 조건부 액세스를 사용하려는 경우에는 서비스 간 커넥터를 구성하지 마세요.
 
-    이제 [Intune으로 Exchange Online을 배포](../Solutions/conditional-access-intune-exchange-online.md)하는 방법을 알아볼 준비가 되었습니다.
+    이제 [Intune으로 Exchange Online을 배포](conditional-access-intune-exchange-online.md)하는 방법을 알아볼 준비가 되었습니다.
 
 ## Exchange Server 온-프레미스의 경우
 Exchange 온-프레미스에 대한 조건부 액세스는 다음을 지원합니다.
@@ -82,16 +82,16 @@ Exchange 온-프레미스에 대한 조건부 액세스는 다음을 지원합�
 
 -   Exchange ActiveSync는 인증서 기반 인증 또는 사용자 자격 증명 항목으로 구성할 수 있습니다.
 
--   Intune을 Microsoft Exchange Server 온-프레미스에 연결하는 **온-프레미스 Exchange 커넥터**를 사용해야 합니다. 이렇게 하면 Intune 콘솔을 통해 장치를 관리할 수 있습니다([Exchange ActiveSync와 Microsoft Intune을 사용한 모바일 장치 관리](https://stage.docs.microsoft.com/en-us/intune/deployuse/mobile-device-management-with-exchange-activesync-and-microsoft-intune) 참조).
+-   Intune을 Microsoft Exchange Server 온-프레미스에 연결하는 **온-프레미스 Exchange 커넥터**를 사용해야 합니다. 이렇게 하면 Intune 콘솔을 통해 장치를 관리할 수 있습니다([Exchange ActiveSync와 Microsoft Intune을 사용한 모바일 장치 관리](/intune/deploy-use/mobile-device-management-with-exchange-activesync-and-microsoft-intune) 참조).
 
   > [!IMPORTANT]
 > 최신 버전의 온-프레미스 Exchange 커넥터를 사용하고 있는지 확인합니다. Intune 콘솔에서 사용할 수 있는 온-프레미스 Exchange 커넥터는 Intune 테넌트에 고유하며 다른 테넌트에 사용할 수 없습니다. 또한 테넌트를 위한 Exchange Connector가 여러 컴퓨터 아닌 정확히 하나의 컴퓨터에 설치되어 있는지 확인해야 합니다.
 
-  이제 [Intune으로 Exchange Server 온-프레미스를 배포](../Solutions/conditional-access-intune-exchange.md)하는 방법을 알아볼 준비가 되었습니다.
+  이제 [Intune으로 Exchange Server 온-프레미스를 배포](conditional-access-intune-exchange.md)하는 방법을 알아볼 준비가 되었습니다.
 
-사용자 환경에서 Exchange Online 및 온-프레미스를 포함하는 경우 [Microsoft Intune 및 Configuration Manager를 사용하여 Exchange Online 및 온-프레미스 배포](../Solutions/conditional-access-intune-configmgr-coexist.md)를 참고할 수 있습니다.
+사용자 환경에서 Exchange Online 및 온-프레미스를 포함하는 경우 [Microsoft Intune 및 Configuration Manager를 사용하여 Exchange Online 및 온-프레미스 배포](conditional-access-intune-configmgr-coexist.md)를 참고할 수 있습니다.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

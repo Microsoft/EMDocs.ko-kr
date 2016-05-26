@@ -28,13 +28,13 @@ ms.suite: ems
 # Enterprise Mobility Suite에 대한 FastTrack 센터 혜택 프로세스 - 단계
 [Enterprise Mobility Suite(EMS)에 대한 FastTrack 센터 혜택](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)을 사용하여 Azure Active Directory Premium, Microsoft Intune 및/또는 Azure Rights Management를 사용할 경우, 프로세스와 관련한 몇 가지 단계가 있습니다. 다음 섹션에서는 등록 프로세스의 각 단계를 설명합니다.
 
-FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [Enterprise Mobility Suite(EMS)에 대한 FastTrack Center 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)를 참조하세요.
+FastTrack 온보딩 프로세스의 다른 부분에 대한 자세한 내용은 [EMS(Enterprise Mobility Suite)에 대한 FastTrack Center 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)를 참조하세요..
 
 
 등록에는 다음 그림에서처럼 4가지 주요 단계가 있습니다.
 
 
-![](./media/Intune-onboarding-phases-9-15-15.png)
+![FastTrack 온보딩 프로세스의 네 단계](./media/ft-2-onboarding-phases.png)
 
 
 ## 시작 단계
@@ -43,7 +43,7 @@ FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [En
 
 이 단계에서 Microsoft는 등록 프로세스를 논의하고, 데이터를 확인하고, 준비 모임 일정을 정합니다.
 
-![](./media/Intune-initiate-phase-9-15-15-v2.png)
+![온보딩 시작 단계](./media/ft-3-initiate-phase.png)
 
 ## 평가 단계
 
@@ -53,12 +53,12 @@ FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [En
 
 Microsoft는 사용자의 현재 설정을 기준으로 하여 EMS 또는 개별 클라우드 서비스에 등록하기 위한 최소 요구 사항에 부합하도록 원본 환경을 업그레이드하는 수정 플랜을 제공합니다. 또한 수정 단계를 위한 검사점 호출도 적절히 설정합니다.
 
-![](./media/Intune-assess-phase-9-15-15.png)
+![온보딩 평가 단계](./media/ft-4-assess-phase.png)
 
 ## 수정 단계
 필요한 경우 각 서비스를 등록 및 도입하기 위한 요구 사항을 충족하도록 원본 환경에서 수정 플랜의 작업을 수행합니다.
 
-![](./media/Microsoft-Intune-onboarding-remediate-phase-1.png)
+![온보딩 문제 해결 단계](./media/ft-5-remediate-phase.png)
 
 활성화 단계를 시작하기 전에 Microsoft는 수정 작업의 결과를 공동으로 확인하여 다음 단계를 진행할 준비가 되었는지 확인합니다.
 
@@ -69,7 +69,7 @@ Microsoft는 사용자의 현재 설정을 기준으로 하여 EMS 또는 개별
 
 코어 등록에는 서비스 프로비저닝과 테넌트 및 ID 통합이 포함됩니다. 또한 Azure Active Directory Premium, Microsoft Intune 및 Azure Rights Management Premium 등과 같은 온라인 서비스 등록을 위한 기초 정보를 제공하는 단계가 포함되어 있습니다.
 
-![](./media/Intune-enable-phase-core-9-15-15.png)
+![온보딩 활성화 단계 - 핵심 기능](./media/ft-6-enable-phase-core.png)
 
 ###활성화 단계 - Azure Active Directory Premium
 
@@ -83,13 +83,13 @@ Azure Active Directory Premium 설치에는 다음과 같은 기능을 사용하
 
 -   MFA(Multi-Factor Authentication)
 
--   SaaS(Software as a Service) 형태의 소프트웨어 - [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/)에서 단일SaaS 응용 프로그램 설정
+-   SaaS(Software as a Service) 응용 프로그램 - [Azure Active Directory 마켓플레이스](https://azure.microsoft.com/marketplace/active-directory/)에서 단일 SaaS 응용 프로그램 설정.
 
 -   SSGM(셀프 서비스 그룹 관리)
 
 -   관리 보고서
 
-![](./media/Microsoft-Azure-AD-Premium-enable-phase-2.png)
+![온보딩 활성화 단계 - AADP](./media/ft-7-enable-phase-aadp.png)
 
 ###활성화 단계 – Microsoft Intune
 
@@ -144,7 +144,7 @@ Microsoft Intune의 경우 Microsoft는 사용자의 모바일 장치 및 모바
 
 또한 Microsoft가 적격 서비스의 성공적인 도입에 도움이 되는 방법에 대한 안내로 사용자를 연결합니다.
 
-![](./media/Enable-phase-Intune-11-20-15.png)
+![온보딩 활성화 단계 - Intune](./media/ft-8-enable-phase-intune.png)
 
 ###활성화 단계 - Azure Right Management Premium
 
@@ -162,18 +162,15 @@ AzRMS 설치에는 다음 기능을 사용하도록 지정하는 것이 포함�
 
 -   Windows 장치 및 Windows 이외 장치를 위한 RMS 공유 응용 프로그램
 
-![](./media/Microsoft-Azure-AD-Premium-enable-phase-2.png)
+![온보딩 활성화 단계 - Azure RMS](./media/ft-7-enable-phase-aadp.png)
 
-
->[!div class="step-by-step"]
-[FastTrack 원본 환경](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
-[고객 FastTrack 책임](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
+FastTrack 온보딩 프로세스의 다음 부분인 [Microsoft 책임](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)에 대해 읽어 보세요.
 
 ### 더 자세한 내용을 원하세요?
-[Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.
+[Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요..
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO5-->
 
 

@@ -28,7 +28,7 @@ ms.suite: ems
 # Enterprise Mobility Suite에 대한 FastTrack 센터 혜택 프로세스 - Microsoft의 책임
 다음 섹션에서는 조직에서 [EMS(Enterprise Mobility Suite)에 대한 FastTrack 센터 혜택](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)을 사용하여 Azure Active Directory Premium, Microsoft Intune 및/또는 Azure Rights Management를 가져올 때 Microsoft에서 기대할 수 있는 것을 설명합니다.
 
-FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [EMS(Enterprise Mobility Suite)에 대한 FastTrack Center 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)를 참조하세요.
+FastTrack 온보딩 프로세스의 다른 부분에 대한 자세한 내용은 [EMS(Enterprise Mobility Suite)에 대한 FastTrack Center 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)를 참조하세요..
 
 
 ## 일반
@@ -239,16 +239,13 @@ FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [EM
 
 -   Windows 장치 및 Windows 이외 장치를 위한 RMS 공유 응용 프로그램 설정.
 
-
->[!div class="step-by-step"]
-[FastTrack 단계](fasttrack-center-benefit-process-for-ems-phases.md)
-[고객 FastTrack 책임](fasttrack-center-benefit-process-for-ems-your-responsibilitiesmd)
+FastTrack 온보딩 프로세스의 다음 부분인 [고객 책임](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)에 대해 읽어 보세요.
 
 ### 더 자세한 내용을 원하세요?
-[Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.
+[Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요..
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

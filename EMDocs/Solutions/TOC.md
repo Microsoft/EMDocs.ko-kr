@@ -1,5 +1,3 @@
-# [시나리오 및 가이드](scenarios-guides.md)
-
 # [FastTrack 시작](enterprise-mobility-fasttrack-program.md)
 ## [EMS에 대한 FastTrack 혜택](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)
 ## [EMS에 대한 FastTrack 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)
@@ -75,6 +73,6 @@
 ### [iOS](end-user-experience-conditional-access-ios.md)
 ### [Windows Phone](end-user-experience-conditional-access-winphone.md)
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

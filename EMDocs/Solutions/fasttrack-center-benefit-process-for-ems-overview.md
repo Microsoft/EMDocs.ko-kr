@@ -29,7 +29,7 @@ ms.suite: ems
 
 [EMS(Enterprise Mobility Suite)에 대한 FastTrack 센터 혜택](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)을 통해 Azure Active Directory Premium, Microsoft Intune 및/또는 Azure Rights Management를 사용하도록 준비할 수 있습니다. 이 섹션의 정보를 통해 등록 프로세스에 대한 도식화된 개요를 확인할 수 있습니다.
 
-FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [EMS(Enterprise Mobility Suite)에 대한 FastTrack Center 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)를 참조하세요.
+FastTrack 온보딩 프로세스의 다른 부분에 대한 자세한 내용은 [EMS(Enterprise Mobility Suite)에 대한 FastTrack Center 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)를 참조하세요..
 
 
 등록의 두 가지 주요 구성 요소는 다음과 같습니다.
@@ -40,7 +40,7 @@ FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [EM
 
 다음 다이어그램에서는 FastTrack 센터 혜택의 사용에 관한 개략적인 등록 단계를 설명합니다.
 
-![](./media/1-rms-onboarding-process.png)
+![FastTrack 센터 혜택의 사용에 관한 개략적인 온보딩 단계](./media/ft-1-onboarding-process.png)
 
 기본 프로세스는 다음과 같습니다.
 
@@ -54,19 +54,17 @@ FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [EM
 
 -   등록 지원은 FastTrack 센터에서 제공하며 지정된 지역의 정상 업무 시간 동안 이용할 수 있습니다.
 
--   등록 지원은 중국어(번체), 영어, 프랑스어, 독일어, 이탈리아어, 일본어, 포르투갈어(브라질), 스페인어로 제공됩니다.
+-   온보딩 지원은 중국어(번체), 중국어(간체), 영어, 프랑스어, 독일어, 이탈리아어, 일본어, 한국어, 포르투갈어(브라질), 스페인어, 태국어 및 베트남어로 제공됩니다.
 
 -   Microsoft 팀은 사용자나 사용자의 담당자와 직접 협업할 수 있습니다.
 
->[!div class="step-by-step"]
-[FastTrack 프로세스 소개](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)
-[FastTrack 원본 환경](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
+FastTrack 온보딩 프로세스의 다음 부분인 [원본 환경에 대한 기대](fasttrack-center-benefit-process-for-ems-environment-expectations.md)에 대해 읽어 보세요.
 
 ### 더 자세한 내용을 원하세요?
-[Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.
+[Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요..
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=May16_HO1-->
 
 
