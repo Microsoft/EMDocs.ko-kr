@@ -1,6 +1,6 @@
 {
   "LastProcessedCommit": "3eb88213aeeedf717b41e38a0c39ab44ac3af6c5",
-  "LastTranslatedCommit": "74ba35fcfe5b7c546b9efc099d10f79c2f664d80",
+  "LastTranslatedCommit": "8961722b3c6f5c9c7dbf5ff99dccfc74d9631f50",
   "Items": {
     "da63fda594055f3647cc04e6954675a9558776db": {
       "FileHash": "da63fda594055f3647cc04e6954675a9558776db",
@@ -27568,7 +27568,7 @@
       "TargetFilePath": null,
       "HandbackFilePath": null,
       "HandbackFileCommit": null,
-      "HandbackDateTime": "2016-05-26T14:25:23.1491317Z",
+      "HandbackDateTime": "2016-05-26T14:55:45.8175666Z",
       "HandbackException": {
         "internal_error_code": "handback_transform_failed",
         "internal_error_message": "Handback file: C:\\ol\\master\\EM.handback\\d2bba5\\ol-handback\\Microsoft\\EMDocs-pr.ko-kr\\master\\toc.a910960291aeeb7b80ff16cc12adc02a09c33921.ko-kr.xlf failed.",
@@ -27578,7 +27578,7 @@
         "stack_trace": "   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.ValidateLocalizedFile(Stream stream, String extension) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 347\r\n   at Microsoft.OpenLocalization.Transformer.XliffTransformerExtensions.XliffToMarkdown(IMarkdownTransformer markdownTransformer, String xliffFile, String skeletonFile, String markdownFile) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\XliffTransformerExtensions.cs:line 208\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 42\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 424",
         "extended_information": null
       },
-      "HandbackFailureTimes": 4,
+      "HandbackFailureTimes": 5,
       "UpdatedDateTime": "0001-01-01T00:00:00",
       "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\archive\\toc.a910960291aeeb7b80ff16cc12adc02a09c33921.ko-kr.xlf",
       "ArchiveFileCommit": "943e02555dbaf880965297c85f79863aa35449ee",
