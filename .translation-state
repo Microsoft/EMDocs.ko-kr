@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "3eb88213aeeedf717b41e38a0c39ab44ac3af6c5",
+  "LastProcessedCommit": "53cd794f4889818a595e14856391da9db1b158da",
   "LastTranslatedCommit": "8bd51151f5ce98be6eaf0c3b1fffedb545ae8317",
   "Items": {
     "da63fda594055f3647cc04e6954675a9558776db": {
@@ -27689,6 +27689,36 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.ko-kr.xlf",
       "HandoffFileCommit": "867f4b52d09cb994bd5d66ecade44065e9f31057",
       "HandoffDateTime": "2016-05-25T15:56:48.4697552Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "fcbba5fdad7470d36e6d0fff0b6671060a33e06e": {
+      "FileHash": "fcbba5fdad7470d36e6d0fff0b6671060a33e06e",
+      "SourceFileCommit": "a29d18916f0fc449a71170c62039ab3ff9079ff2",
+      "SourceFilePath": "EMDocs\\index.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "EMDocs\\index.md"
+      ],
+      "HasMetadata": true,
+      "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.ko-kr.xlf",
+      "HandoffFileCommit": "1b6ae751c9895e3f5bd02ffe49440e76048e5143",
+      "HandoffDateTime": "2016-05-27T17:57:05.7753593Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
