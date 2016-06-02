@@ -1,26 +1,11 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [EMDocs\termsofuse.md](https://github.com/Microsoft/EMDocs-pr/blob/195a57b5904e2036fc897da494019b056c114b2d/EMDocs/termsofuse.md) | HandedOffSuccess | [Details](#ae000d09469946c1915e8bbf110f5d099e91ca9e330)
 
 ## Item Details
-##### <a name='ae000d09469946c1915e8bbf110f5d099e91ca9e330'></a> Source: [EMDocs\termsofuse.md](https://github.com/Microsoft/EMDocs-pr/blob/195a57b5904e2036fc897da494019b056c114b2d/EMDocs/termsofuse.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [termsofuse.cc6a9b84254755964814cf07f3c205b631a30939.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/dac215963b771e411c2272894a986bb64cbb3446/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/termsofuse.cc6a9b84254755964814cf07f3c205b631a30939.ko-kr.xlf)
-* Handoff Datetime: 2016-06-02 00:45:19
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
