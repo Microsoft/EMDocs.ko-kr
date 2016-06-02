@@ -4,9 +4,9 @@
 title: 응용 프로그램 관리 옵션
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -77,6 +77,6 @@ ConfigMgr 및 Intune이 있는 하이브리드 배포의 경우, Intune에서 �
 
 Intune 및 ConfigMgr에 대해 다음을 검토하여 모바일 응용 프로그램 관리 옵션에 대한 자세한 내용을 확인합니다: Microsoft Intune 콘솔에서 모바일 응용 프로그램 관리 정책 구성 및 배포. 또한 Intune MAM 정책에 사용할 수 있는 Microsoft 앱의 목록과, Intune 호환 파트너 앱의 확장 목록도 확인합니다.
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

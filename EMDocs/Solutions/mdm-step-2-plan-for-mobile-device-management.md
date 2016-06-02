@@ -4,9 +4,9 @@
 title: 2단계 - 모바일 장치 관리 계획
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/20/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -48,6 +48,6 @@ ms.suite: ems
 - [네트워크 연결 관리 옵션](mdm-network-connectivity-management-options)
 - [인증서 관리 옵션](mdm-certificate-management-options.md)
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=May16_HO3-->
 
 
