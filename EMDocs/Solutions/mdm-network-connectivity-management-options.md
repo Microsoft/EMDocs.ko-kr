@@ -4,9 +4,9 @@
 title: 네트워크 연결 관리 옵션
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -36,7 +36,7 @@ ms.suite: ems
 
 [Intune](/Intune/deployuse/vpn-connections-in-microsoft-intune) 및 [ConfigMgr](https://technet.microsoft.com/library/dn261217.aspx)는 모바일 장치로 직접 VPN 프로필을 배포하여 추가적인 구성 또는 수동 작업 없이 내부 회사 리소스에 액세스할 수 있도록 합니다. 또한 Intune은 형식 리소스 또는 액세스 방법을 기반으로 VPN 연결을 자동으로 시작하도록 모바일 장치를 구성할 수 있습니다. 그러나 다양한 유형의 모바일 장치 운영 체제에 대해 이 작업을 수행하기 위한 구성 요구 사항이 각기 다릅니다.
 
-작업 3의 질문에 대한 답변은 회사 리소스에 장치를 연결하는 방법을 결정하는 데 도움이 됩니다. 현재 <token>Office 365용 MDM</token> 에서는 모바일 장치에 대한 무선 및 VPN 네트워크 리소스 관리를 지원하지 않습니다.
+작업 3의 질문에 대한 답변은 회사 리소스에 장치를 연결하는 방법을 결정하는 데 도움이 됩니다. 즉, 현재 <token>Office 365용 MDM</token>에서는 모바일 장치에 대한 무선 및 VPN 네트워크 리소스 관리를 지원하지 않습니다.
 
 아래 목록에서는 Intune 독립 실행형 및 하이브리드 Intune 및 ConfigMgr를 사용하여 무선 및 VPN 네트워크를 관리할 때의 장단점을 보여 줍니다.
 
@@ -77,6 +77,6 @@ MDM for Office 365에서는 Wi-Fi 및 VPN 정책이 지원되지 않음
 - Intune: [무선](/Intune/deployuse/wi-fi-connections-in-microsoft-intune) 및 [VPN](/Intune/deployuse/vpn-connections-in-microsoft-intune) 프로필을 사용하도록 설정
 - ConfigMgr: [무선](https://technet.microsoft.com/library/dn261221.aspx) 및 [VPN](https://technet.microsoft.com/library/dn261217.aspx) 프로필을 사용하도록 설정
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

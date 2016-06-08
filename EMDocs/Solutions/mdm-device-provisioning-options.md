@@ -4,9 +4,9 @@
 title: 장치 프로비전 옵션
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -36,7 +36,7 @@ ms.suite: ems
 
 **하이브리드 Intune 및 ConfigMgr를 사용하는 모바일 장치 등록 프로세스 개요**
 
-1. 이제 <token>Windows Server 2012 R2에서는 장치 등록이라는 새로운 개념이 도입되었습니다.  사용자는 Single Sign-On에 맞게 장치를 등록하고 작업 공간 연결을 사용하여 회사 데이터에 액세스할 수 있습니다.  이 등록 프로세스의 일부로 인증서가 장치에 설치됩니다. 그런 후 사용자는 장치를 등록하고 장치 관리 솔루션에 알리기 위해 이전에는 도메인에 연결된 PC 외부에서 사용할 수 없었던 회사 리소스에 대한 액세스 권한을 얻습니다.
+1. <token>Windows Server 2012 R2에서는 장치 등록이라는 새로운 개념이 도입되었습니다.  사용자는 Single Sign-On에 맞게 장치를 등록하고 작업 공간 연결을 사용하여 회사 데이터에 액세스할 수 있습니다.  이 등록 프로세스의 일부로 인증서가 장치에 설치됩니다. 그런 후 사용자는 장치를 등록하고 장치 관리 솔루션에 알리기 위해 이전에는 도메인에 연결된 PC 외부에서 사용할 수 없었던 회사 리소스에 대한 액세스 권한을 얻습니다.
 2. 사용자는 [회사 포털을 통해](/Intune/deployuse/enroll-devices-in-microsoft-intune) Intune을 사용한 관리를 위해 장치를 구성하는 장치를 등록한 후, Microsoft Intune 회사 포털을 통해 회사 응용 프로그램 및 데이터에 쉽게 액세스하고, 자신의 장치를 관리할 수 있고, 분실, 도난 또는 교체 시 장치를 원격으로 초기화하는 등의 작업을 수행하기 위해 Microsoft Intune 회사 포털을 활용할 수 있습니다.
 3. 장치 인식(등록) 및 사용자 ID에 따라 Windows Server 2012 R2의 [웹 응용 프로그램 프록시](https://technet.microsoft.com/library/dn584107.aspx)라는 기본 제공 기능을 사용하여 회사 리소스에 대한 액세스 권한을 게시할 수 있습니다. Enterprise Mobility Suite를 사용할 경우 Azure AD 응용 프로그램 프록시를 사용하여 응용 프로그램을 게시할 수도 있습니다. 다단계 인증은 [Azure 활성 인증](https://azure.microsoft.com/documentation/articles/multi-factor-authentication-get-started-cloud/)을 통해 사용할 수 있습니다.
 4. 관리자에게 전체 환경에 대한 통합된 보기를 제공하기 위해 Intune의 데이터는 온-프레미스와 클라우드 모두에서 통합된 관리를 제공하는 ConfigMgr와 동기화됩니다.
@@ -87,6 +87,6 @@ ms.suite: ems
 
 Intune 에서 [모바일 장치 등록을 사용하도록 설정](/Intune/deployuse/enroll-devices-in-microsoft-intune)하는 방법을 검토하고 모바일 장치 등록 및 프로비저닝 옵션을 자세히 알아보고, 이러한 요구 사항 및 절차를 비교하여 ConfigMgr 및 MDM for Office 365 [모바일 장치 등록을 사용하도록 설정](https://technet.microsoft.com/library/jj884158.aspx)해야 합니다.
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

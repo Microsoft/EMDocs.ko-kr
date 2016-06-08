@@ -4,9 +4,9 @@
 title: 모바일 장치 관리 디자인 고려 사항 가이드
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -69,6 +69,6 @@ MDM(모바일 장치 관리) 솔루션에 대한 다양한 설계 및 구성 옵
 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

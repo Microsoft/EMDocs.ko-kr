@@ -28,7 +28,7 @@ ms.suite: ems
 # Enterprise Mobility Suite에 대한 FastTrack 센터 혜택 프로세스 - 단계
 [Enterprise Mobility Suite(EMS)에 대한 FastTrack 센터 혜택](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)을 사용하여 Azure Active Directory Premium, Microsoft Intune 및/또는 Azure Rights Management를 사용할 경우, 프로세스와 관련한 몇 가지 단계가 있습니다. 다음 섹션에서는 등록 프로세스의 각 단계를 설명합니다.
 
-FastTrack 온보딩 프로세스의 다른 부분에 대한 자세한 내용은 [EMS(Enterprise Mobility Suite)에 대한 FastTrack Center 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)를 참조하세요..
+FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [Enterprise Mobility Suite(EMS)에 대한 FastTrack Center 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)를 참조하세요.
 
 
 등록에는 다음 그림에서처럼 4가지 주요 단계가 있습니다.
@@ -83,7 +83,7 @@ Azure Active Directory Premium 설치에는 다음과 같은 기능을 사용하
 
 -   MFA(Multi-Factor Authentication)
 
--   SaaS(Software as a Service) 응용 프로그램 - [Azure Active Directory 마켓플레이스](https://azure.microsoft.com/marketplace/active-directory/)에서 단일 SaaS 응용 프로그램 설정.
+-   SaaS(Software as a Service) 형태의 소프트웨어 - [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/)에서 단일SaaS 응용 프로그램 설정
 
 -   SSGM(셀프 서비스 그룹 관리)
 
@@ -107,8 +107,7 @@ Microsoft Intune의 경우 Microsoft는 사용자의 모바일 장치 및 모바
 
     -   System Center Configuration Manager의 기존 구현이 있고 Microsoft Intune으로 관리 기능을 확장하려는 경우 Configuration Manager를 MDM 기관으로 설정합니다.
 
-        > [!NOTE]
-        > 최종 사용자 소유 장치, 공유 장치 또는 키오스크 유형 장치에서만 모바일 응용 프로그램 관리를 활용하려는 경우 MDM 기관을 설정할 필요가 없습니다.
+        > [!NOTE] 최종 사용자 소유 장치, 공유 장치 또는 키오스크 유형 장치에서만 모바일 응용 프로그램 관리를 활용하려는 경우 MDM 기관을 설정할 필요가 없습니다.
 
 -   모바일 장치 관리가 범위에 포함되는 경우 다음과 관련된 지침을 제공합니다.
 
@@ -120,7 +119,7 @@ Microsoft Intune의 경우 Microsoft는 사용자의 모바일 장치 및 모바
 
         -   조건부 액세스 정책.
 
-        -   메일 프로필 배포.
+        -   메일, Wi-Fi 및 VPN 프로필 배포.
 
         -   해당되는 경우 Microsoft Intune Exchange Connector 설정.
 
@@ -167,10 +166,10 @@ AzRMS 설치에는 다음 기능을 사용하도록 지정하는 것이 포함�
 FastTrack 온보딩 프로세스의 다음 부분인 [Microsoft 책임](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)에 대해 읽어 보세요.
 
 ### 더 자세한 내용을 원하세요?
-[Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요..
+[Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.
 
 
 
-<!--HONumber=Apr16_HO5-->
+<!--HONumber=May16_HO4-->
 
 
