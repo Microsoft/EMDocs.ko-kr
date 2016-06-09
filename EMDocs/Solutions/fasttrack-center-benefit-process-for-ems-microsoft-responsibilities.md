@@ -4,8 +4,8 @@
 title: Enterprise Mobility Suite에 대한 FastTrack 센터 혜택 프로세스 - Microsoft의 책임
 description:
 keywords:
-author: 
-manager: swadhwa
+author: staciebarker
+manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
@@ -28,7 +28,7 @@ ms.suite: ems
 # Enterprise Mobility Suite에 대한 FastTrack 센터 혜택 프로세스 - Microsoft의 책임
 다음 섹션에서는 조직에서 [EMS(Enterprise Mobility Suite)에 대한 FastTrack 센터 혜택](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)을 사용하여 Azure Active Directory Premium, Microsoft Intune 및/또는 Azure Rights Management를 가져올 때 Microsoft에서 기대할 수 있는 것을 설명합니다.
 
-FastTrack 온보딩 프로세스의 다른 부분에 대한 자세한 내용은 [EMS(Enterprise Mobility Suite)에 대한 FastTrack Center 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)를 참조하세요..
+FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [EMS(Enterprise Mobility Suite)에 대한 FastTrack Center 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)를 참조하세요.
 
 
 ## 일반
@@ -86,13 +86,11 @@ FastTrack 온보딩 프로세스의 다른 부분에 대한 자세한 내용은 
 
     -   Microsoft Intune(Azure Active Directory)과 Azure Active Directory Connect 도구의 암호 동기화(암호 해시) 구성.
 
-        > [!NOTE]
-        > 사용자 지정 규칙 확장의 개발 및 구현은 범위에 속하지 않습니다.
+        > [!NOTE] 사용자 지정 규칙 확장의 개발 및 구현은 범위에 속하지 않습니다.
 
 -   대상이 페더레이션 ID인 경우 단일 포리스트: 필요한 경우 단일 사이트 내결함성 구성에서 Microsoft Intune을 사용한 로컬 도메인 인증을 위해 AD FS(Active Directory Federation Services)설치 및 구성.
 
-    > [!NOTE]
-    > 모든 다중 포리스트 구성의 경우, AD FS 배포는 범위에 속하지 않습니다.
+    > [!NOTE] 모든 다중 포리스트 구성의 경우, AD FS 배포는 범위에 속하지 않습니다.
 
 -   배포한 경우 SSO(Single Sign-On) 기능 테스트.
 
@@ -242,10 +240,10 @@ FastTrack 온보딩 프로세스의 다른 부분에 대한 자세한 내용은 
 FastTrack 온보딩 프로세스의 다음 부분인 [고객 책임](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)에 대해 읽어 보세요.
 
 ### 더 자세한 내용을 원하세요?
-[Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요..
+[Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.
 
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO1-->
 
 

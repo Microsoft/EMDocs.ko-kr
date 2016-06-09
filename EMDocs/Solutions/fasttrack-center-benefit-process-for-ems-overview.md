@@ -4,8 +4,8 @@
 title: Enterprise Mobility Suite에 대한 FastTrack 센터 혜택 프로세스 - 개요
 description:
 keywords:
-author: 
-manager: swadhwa
+author: staciebarker
+manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
@@ -29,7 +29,7 @@ ms.suite: ems
 
 [EMS(Enterprise Mobility Suite)에 대한 FastTrack 센터 혜택](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)을 통해 Azure Active Directory Premium, Microsoft Intune 및/또는 Azure Rights Management를 사용하도록 준비할 수 있습니다. 이 섹션의 정보를 통해 등록 프로세스에 대한 도식화된 개요를 확인할 수 있습니다.
 
-FastTrack 온보딩 프로세스의 다른 부분에 대한 자세한 내용은 [EMS(Enterprise Mobility Suite)에 대한 FastTrack Center 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)를 참조하세요..
+FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [EMS(Enterprise Mobility Suite)에 대한 FastTrack Center 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)를 참조하세요.
 
 
 등록의 두 가지 주요 구성 요소는 다음과 같습니다.
@@ -61,10 +61,10 @@ FastTrack 온보딩 프로세스의 다른 부분에 대한 자세한 내용은 
 FastTrack 온보딩 프로세스의 다음 부분인 [원본 환경에 대한 기대](fasttrack-center-benefit-process-for-ems-environment-expectations.md)에 대해 읽어 보세요.
 
 ### 더 자세한 내용을 원하세요?
-[Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요..
+[Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO1-->
 
 

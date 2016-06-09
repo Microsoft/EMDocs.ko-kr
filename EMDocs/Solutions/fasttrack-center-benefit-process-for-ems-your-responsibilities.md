@@ -4,8 +4,8 @@
 title: Enterprise Mobility Suite에 대한 FastTrack 센터 혜택 프로세스 - 고객의 책임
 description:
 keywords:
-author: 
-manager: swadhwa
+author: staciebarker
+manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
@@ -29,7 +29,7 @@ ms.suite: ems
 
 [Enterprise Mobility Suite(EMS)에 대한 FastTrack 센터 혜택](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)을 사용하여 Azure Active Directory Premium, Microsoft Intune 및/또는 Azure Rights Management를 사용할 경우, 해당 조직은 프로세스 중에 몇 가지 책임에 부합해야 합니다. 다음 섹션에서는 등록 프로세스의 각 단계에서 고객의 책임을 설명합니다.
 
-FastTrack 온보딩 프로세스의 다른 부분에 대한 자세한 내용은 [EMS(Enterprise Mobility Suite)에 대한 FastTrack Center 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)를 참조하세요..
+FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [EMS(Enterprise Mobility Suite)에 대한 FastTrack Center 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)를 참조하세요.
 
 ## 일반 책임
 
@@ -118,10 +118,10 @@ FastTrack 온보딩 프로세스의 다른 부분에 대한 자세한 내용은 
 FastTrack 온보딩 프로세스의 마지막 부분입니다.
 
 ### 더 자세한 내용을 원하세요?
-[Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요..
+[Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.
 
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO1-->
 
 

@@ -4,8 +4,8 @@
 title: Enterprise Mobility Suite에 대한 FastTrack 센터 혜택 프로세스 - 단계
 description:
 keywords:
-author: 
-manager: swadhwa
+author: staciebarker
+manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
@@ -170,6 +170,6 @@ FastTrack 온보딩 프로세스의 다음 부분인 [Microsoft 책임](fasttrac
 
 
 
-<!--HONumber=May16_HO4-->
+<!--HONumber=Jun16_HO1-->
 
 
