@@ -5,9 +5,9 @@
  -------- | ----- 
  Total Files | 384
 [ Handoff Failed Files ](#handoff-failed-list)| 0
-[ Handoff Success Files ](#handoff-success-list)| 109
+[ Handoff Success Files ](#handoff-success-list)| 108
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 0
+[ Archive Success Files ](#archive-success-list)| 1
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 22
 [ In Sync Handback Files ](#insync-handback-success-list)| 116
@@ -126,11 +126,13 @@
  [EMDocs\Solutions\media\ProtectEmail\Hybrid-Reports-Deployment-Status.png](https://github.com/Microsoft/EMDocs-pr/blob/7f7f39751b4ba314fede7699c813ff4eb34d346b/EMDocs/Solutions/media/ProtectEmail/Hybrid-Reports-Deployment-Status.png) | HandedOffSuccess | [Details](#3c17bb0e80792952c86ce97f9b623cd85518001f294)
  [EMDocs\Solutions\media\ProtectEmail\intune-sa-6blocked-devices.PNG](https://github.com/Microsoft/EMDocs-pr/blob/0194ed2a4c36b6dad96747fbfa6668790095f278/EMDocs/Solutions/media/ProtectEmail/intune-sa-6blocked-devices.PNG) | HandedOffSuccess | [Details](#49427494881cb50b4baadf18311da0f9744f6c43295)
  [EMDocs\Solutions\media\ProtectEmail\Protecting_your_data.png](https://github.com/Microsoft/EMDocs-pr/blob/0d597abfd03d1e5a5b148e72441b459e4535bfae/EMDocs/Solutions/media/ProtectEmail/Protecting_your_data.png) | HandedOffSuccess | [Details](#5d23feda97afbd203a4d57d0f958baca68438c2c296)
- [EMDocs\termsofuse.md](https://github.com/Microsoft/EMDocs-pr/blob/195a57b5904e2036fc897da494019b056c114b2d/EMDocs/termsofuse.md) | HandedOffSuccess | [Details](#ae000d09469946c1915e8bbf110f5d099e91ca9e330)
 
 ## <a name='archive-failed-list'></a> Archive Failed File List
 
 ## <a name='archive-success-list'></a> Archive Success File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [EMDocs\termsofuse.md](https://github.com/Microsoft/EMDocs-pr/blob/195a57b5904e2036fc897da494019b056c114b2d/EMDocs/termsofuse.md) | ArchivedSuccess | [Details](#ae000d09469946c1915e8bbf110f5d099e91ca9e330)
 
 ## <a name='handback-failed-list'></a> Handback Failed File List
 
@@ -1500,8 +1502,8 @@
 * Handoff File: [fasttrack-center-benefit-for-enterprise-mobility-suite-ems.81b93a1d9b409b9c9854f09cc169f4a2aaca7ec8.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/aa55194dbf197cf26ed1f7c2e2ab6ce6b90c9057/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/fasttrack-center-benefit-for-enterprise-mobility-suite-ems.81b93a1d9b409b9c9854f09cc169f4a2aaca7ec8.ko-kr.xlf)
 * Handoff Datetime: 2016-06-07 19:06:21
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [fasttrack-center-benefit-for-enterprise-mobility-suite-ems.81b93a1d9b409b9c9854f09cc169f4a2aaca7ec8.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/0867be1851500ecc7aae7bd378382591a7557119/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/archive/fasttrack-center-benefit-for-enterprise-mobility-suite-ems.81b93a1d9b409b9c9854f09cc169f4a2aaca7ec8.ko-kr.xlf)
+* Archive Datetime: 2016-06-09 00:30:13
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md](https://github.com/Microsoft/EMDocs-pr.ko-kr/blob/0512b2cee14c33ca78e0ca706cb366958a55ce0d/EMDocs/Solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)
@@ -1515,8 +1517,8 @@
 * Handoff File: [fasttrack-center-benefit-process-for-ems-environment-expectations.f302b9f171eccebb1a199bdb66392027790ffabb.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/aa55194dbf197cf26ed1f7c2e2ab6ce6b90c9057/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/fasttrack-center-benefit-process-for-ems-environment-expectations.f302b9f171eccebb1a199bdb66392027790ffabb.ko-kr.xlf)
 * Handoff Datetime: 2016-06-07 19:06:21
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [fasttrack-center-benefit-process-for-ems-environment-expectations.f302b9f171eccebb1a199bdb66392027790ffabb.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/0867be1851500ecc7aae7bd378382591a7557119/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/archive/fasttrack-center-benefit-process-for-ems-environment-expectations.f302b9f171eccebb1a199bdb66392027790ffabb.ko-kr.xlf)
+* Archive Datetime: 2016-06-09 00:30:13
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-environment-expectations.md](https://github.com/Microsoft/EMDocs-pr.ko-kr/blob/0512b2cee14c33ca78e0ca706cb366958a55ce0d/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-environment-expectations.md)
@@ -1530,8 +1532,8 @@
 * Handoff File: [fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.6090efa36a485414676b1fb6da1ddf93f37c5910.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/aa55194dbf197cf26ed1f7c2e2ab6ce6b90c9057/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.6090efa36a485414676b1fb6da1ddf93f37c5910.ko-kr.xlf)
 * Handoff Datetime: 2016-06-07 19:06:21
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.6090efa36a485414676b1fb6da1ddf93f37c5910.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/0867be1851500ecc7aae7bd378382591a7557119/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/archive/fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.6090efa36a485414676b1fb6da1ddf93f37c5910.ko-kr.xlf)
+* Archive Datetime: 2016-06-09 00:30:13
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md](https://github.com/Microsoft/EMDocs-pr.ko-kr/blob/0512b2cee14c33ca78e0ca706cb366958a55ce0d/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
@@ -1545,8 +1547,8 @@
 * Handoff File: [fasttrack-center-benefit-process-for-ems-overview.e956d51b6fcce58eb53dace8c29c2bafa286d254.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/aa55194dbf197cf26ed1f7c2e2ab6ce6b90c9057/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/fasttrack-center-benefit-process-for-ems-overview.e956d51b6fcce58eb53dace8c29c2bafa286d254.ko-kr.xlf)
 * Handoff Datetime: 2016-06-07 19:06:21
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [fasttrack-center-benefit-process-for-ems-overview.e956d51b6fcce58eb53dace8c29c2bafa286d254.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/0867be1851500ecc7aae7bd378382591a7557119/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/archive/fasttrack-center-benefit-process-for-ems-overview.e956d51b6fcce58eb53dace8c29c2bafa286d254.ko-kr.xlf)
+* Archive Datetime: 2016-06-09 00:30:13
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-overview.md](https://github.com/Microsoft/EMDocs-pr.ko-kr/blob/0512b2cee14c33ca78e0ca706cb366958a55ce0d/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-overview.md)
@@ -1560,8 +1562,8 @@
 * Handoff File: [fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/aa55194dbf197cf26ed1f7c2e2ab6ce6b90c9057/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.ko-kr.xlf)
 * Handoff Datetime: 2016-06-07 19:06:21
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/0867be1851500ecc7aae7bd378382591a7557119/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/archive/fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.ko-kr.xlf)
+* Archive Datetime: 2016-06-09 00:30:13
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-phases.md](https://github.com/Microsoft/EMDocs-pr.ko-kr/blob/bb218ac5448c2398f239ae5ed2b3e74da1ea7f21/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-phases.md)
@@ -1575,8 +1577,8 @@
 * Handoff File: [fasttrack-center-benefit-process-for-ems-your-responsibilities.0fc5677407275aba8ab97a050557abd968b1230c.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/aa55194dbf197cf26ed1f7c2e2ab6ce6b90c9057/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/fasttrack-center-benefit-process-for-ems-your-responsibilities.0fc5677407275aba8ab97a050557abd968b1230c.ko-kr.xlf)
 * Handoff Datetime: 2016-06-07 19:06:21
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [fasttrack-center-benefit-process-for-ems-your-responsibilities.0fc5677407275aba8ab97a050557abd968b1230c.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/0867be1851500ecc7aae7bd378382591a7557119/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/archive/fasttrack-center-benefit-process-for-ems-your-responsibilities.0fc5677407275aba8ab97a050557abd968b1230c.ko-kr.xlf)
+* Archive Datetime: 2016-06-09 00:30:13
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-your-responsibilities.md](https://github.com/Microsoft/EMDocs-pr.ko-kr/blob/0512b2cee14c33ca78e0ca706cb366958a55ce0d/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
@@ -1590,8 +1592,8 @@
 * Handoff File: [fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.d38cb185a0d9f2f3fc5e75af3eaee5c385a63d14.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/aa55194dbf197cf26ed1f7c2e2ab6ce6b90c9057/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.d38cb185a0d9f2f3fc5e75af3eaee5c385a63d14.ko-kr.xlf)
 * Handoff Datetime: 2016-06-07 19:06:21
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.d38cb185a0d9f2f3fc5e75af3eaee5c385a63d14.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/0867be1851500ecc7aae7bd378382591a7557119/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/archive/fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.d38cb185a0d9f2f3fc5e75af3eaee5c385a63d14.ko-kr.xlf)
+* Archive Datetime: 2016-06-09 00:30:13
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md](https://github.com/Microsoft/EMDocs-pr.ko-kr/blob/0512b2cee14c33ca78e0ca706cb366958a55ce0d/EMDocs/Solutions/fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)
@@ -1773,8 +1775,8 @@
 * Handoff File: [mdm-design-considerations-guide.8259d94f8d81cc3d5b23237180027c83e9f1ec71.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/7a4dbbbbe3e9289b3c620ecdea174e51c2d099bd/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/mdm-design-considerations-guide.8259d94f8d81cc3d5b23237180027c83e9f1ec71.ko-kr.xlf)
 * Handoff Datetime: 2016-06-07 00:21:12
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [mdm-design-considerations-guide.8259d94f8d81cc3d5b23237180027c83e9f1ec71.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/0867be1851500ecc7aae7bd378382591a7557119/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/archive/mdm-design-considerations-guide.8259d94f8d81cc3d5b23237180027c83e9f1ec71.ko-kr.xlf)
+* Archive Datetime: 2016-06-09 00:30:13
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\mdm-design-considerations-guide.md](https://github.com/Microsoft/EMDocs-pr.ko-kr/blob/bb218ac5448c2398f239ae5ed2b3e74da1ea7f21/EMDocs/Solutions/mdm-design-considerations-guide.md)
@@ -1839,8 +1841,8 @@
 * Handoff File: [mdm-device-enrollment-options.69731c56eed362ae60d90164b00605a592650709.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/7a4dbbbbe3e9289b3c620ecdea174e51c2d099bd/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/mdm-device-enrollment-options.69731c56eed362ae60d90164b00605a592650709.ko-kr.xlf)
 * Handoff Datetime: 2016-06-07 00:21:12
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [mdm-device-enrollment-options.69731c56eed362ae60d90164b00605a592650709.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/0867be1851500ecc7aae7bd378382591a7557119/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/archive/mdm-device-enrollment-options.69731c56eed362ae60d90164b00605a592650709.ko-kr.xlf)
+* Archive Datetime: 2016-06-09 00:30:13
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\mdm-device-enrollment-options.md](https://github.com/Microsoft/EMDocs-pr.ko-kr/blob/07e865fb1aae8d8006a12a7a5e8fd5ef9ff421f3/EMDocs/Solutions/mdm-device-enrollment-options.md)
@@ -1950,8 +1952,8 @@
 * Handoff File: [mdm-identify-business-needs.53faf0cec8a61848cbb0e191c18b5a2524f1edaf.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/7a4dbbbbe3e9289b3c620ecdea174e51c2d099bd/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/mdm-identify-business-needs.53faf0cec8a61848cbb0e191c18b5a2524f1edaf.ko-kr.xlf)
 * Handoff Datetime: 2016-06-07 00:21:12
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [mdm-identify-business-needs.53faf0cec8a61848cbb0e191c18b5a2524f1edaf.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/0867be1851500ecc7aae7bd378382591a7557119/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/archive/mdm-identify-business-needs.53faf0cec8a61848cbb0e191c18b5a2524f1edaf.ko-kr.xlf)
+* Archive Datetime: 2016-06-09 00:30:13
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Current Target File: [EMDocs\Solutions\mdm-identify-business-needs.md](https://github.com/Microsoft/EMDocs-pr.ko-kr/blob/07e865fb1aae8d8006a12a7a5e8fd5ef9ff421f3/EMDocs/Solutions/mdm-identify-business-needs.md)
@@ -4557,13 +4559,13 @@
 * [Back to Top](#report-top)
 
 ##### <a name='ae000d09469946c1915e8bbf110f5d099e91ca9e330'></a> Source: [EMDocs\termsofuse.md](https://github.com/Microsoft/EMDocs-pr/blob/195a57b5904e2036fc897da494019b056c114b2d/EMDocs/termsofuse.md)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [termsofuse.cc6a9b84254755964814cf07f3c205b631a30939.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/dac215963b771e411c2272894a986bb64cbb3446/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/termsofuse.cc6a9b84254755964814cf07f3c205b631a30939.ko-kr.xlf)
 * Handoff Datetime: 2016-06-02 00:45:19
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [termsofuse.cc6a9b84254755964814cf07f3c205b631a30939.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/0867be1851500ecc7aae7bd378382591a7557119/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/archive/termsofuse.cc6a9b84254755964814cf07f3c205b631a30939.ko-kr.xlf)
+* Archive Datetime: 2016-06-09 00:30:13
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
