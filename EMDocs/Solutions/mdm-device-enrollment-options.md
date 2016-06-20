@@ -4,9 +4,9 @@
 title: 장치 등록 옵션
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -35,7 +35,7 @@ ms.suite: ems
 
 Intune 독립 실행형은 Intune 또는 온-프레미스 ConfigMgr 인프라일 수 있는 모바일 장치 관리 기관 솔루션을 정의하도록 구성해야 합니다. 즉 간단히 말해 "등록 장치를 관리하는 데 Intune *또는* ConfigMgr 중 어떤 관리 플랫폼을 사용할 것인지"를 의미합니다. 관리 솔루션은 일단 선택하면 쉽게 변경할 수 없으므로 [최상의 옵션을 선택할 때의 결과](/Intune/deployuse/enroll-devices-in-microsoft-intune)를 이해하는 것은 *매우 중요합니다*. 나중에 이 구성을 변경해야 하는 경우 Microsoft 지원 서비스에 문의해야 합니다. Office 365 테넌트의 경우 MDM for Office 365와 Intune 사이에서 MDM 권한을 간편하게 지정하고 변경할 수 있습니다. 사용자에 대한 라이선스 할당을 변경하여 간편하게 사용자 수준 관리 권한을 전환할 수 있습니다. 
 
-이미 ConfigMgr를 사용하여 PC, 서버 및 기타 장치를 관리하는 대부분의 조직은 온-프레미스 솔루션을 Intune에 연결하고 ConfigMgr를 사용하여 장치를 관리하는 것이 가장 좋은 방법입니다. 모바일 장치 관리 기관을 ConfigMgr에 할당하려면 [ConfigMgr 콘솔 내에서 Intune 구독](https://technet.microsoft.com/library/jj884158.aspx)을 만들고 ConfigMgr에서 Intune 구독 및 Intune 등록 장치를 관리할 수 있도록 하는 옵션을 선택합니다.
+이미 ConfigMgr를 사용하여 PC, 서버 및 기타 장치를 관리하는 대부분의 조직은 온-프레미스 솔루션을 Intune에 연결하고 ConfigMgr를 사용하여 장치를 관리하는 것이 가장 좋은 방법입니다. 모바일 장치 관리 기관을 ConfigMgr에 할당하려면 [Intune 구독](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0)을 만들고 ConfigMgr에서 Intune 구독 및 Intune 등록 장치를 관리할 수 있도록 하는 옵션을 선택합니다. [ConfigMgr 콘솔 내에서](https://technet.microsoft.com/library/jj884158.aspx) Intune 구독을 만들 수도 있습니다.
 
 또한 다양한 유형의 모바일 운영 체제를 실행하는 특정 유형의 모바일 장치를 등록하려면 먼저 특정 구성 요구 사항에 따라 Intune 서비스 또는 MDM for Office 365를 준비해야 합니다. 예를 들어 Apple iOS 기반 장치를 등록하려는 경우 iOS 기반 장치를 등록하기 전에 **[APN(Apple 푸시 알림) 서비스 인증서를 사용하여 Intune을 구성](https://technet.microsoft.com/library/dn408185.aspx)**해야 합니다. 이 인증서가 구성되지 않으면 Intune에서 APN 서비스 및 iOS 기반 장치와 통신할 수 없습니다. **[Android](https://technet.microsoft.com/library/dn764960.aspx)** 또는 **[Windows Phone](https://technet.microsoft.com/library/dn764959.aspx)** 운영 체제가 실행되는 모바일 장치에는 별도의 등록 요구 사항이 있습니다.
 
@@ -50,6 +50,6 @@ Intune 독립 실행형은 Intune 또는 온-프레미스 ConfigMgr 인프라일
 
 조직에서는 이러한 등록 시나리오를 모두 허용하여 부서 또는 상황별로 유연하게 다른 방법을 사용하도록 할 수 있습니다. 이 경우 모바일 장치 관리 솔루션은 두 시나리오를 모두 지원할 수 있어야 합니다.
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

@@ -50,7 +50,9 @@ MDM(모바일 장치 관리) 솔루션에 대한 다양한 설계 및 구성 옵
  
 이 가이드에서는 조직의 고유한 요구 사항에 적합한 사용자 지정된 MDM 솔루션을 설계하기 위해 따라야 하는 일련의 단계 및 작업에 대해 자세히 설명합니다. 다음 단계 및 작업 전체에서 이 가이드는 MDM의 기능 및 서비스 품질 수준 요구 사항을 충족하기 위해 사용할 수 있는 적절한 기술 및 기능 옵션을 소개합니다. 
 
-이 가이드는 MDM 솔루션을 설계하는 데 도움을 줄 수 있지만 관리 솔루션에 대한 구체적인 구현 또는 작업 옵션은 설명하지 않습니다. 이 가이드 끝에 나오는 **다음 단계 및 추가 리소스** 섹션에 제공되는 링크를 사용하여 TechNet 라이브러리에서 [Microsoft Intune](/Intune/), [Mobile Device Management for Office 365](https://technet.microsoft.com/library/ms.o365.cc.devicepolicy.aspx) 및 [Microsoft System Center Configuration Manager](https://technet.microsoft.com/library/cc507089.aspx)에 대한 자세한 배포 및 구성 단계를 찾을 수 있습니다.
+이 가이드는 MDM 솔루션을 설계하는 데 도움을 줄 수 있지만 관리 솔루션에 대한 구체적인 구현, 작업 옵션 또는 기존 타사 MDM 솔루션에서 마이그레이션하는 방법은 설명하지 않습니다. 이 가이드 끝에 나오는 **다음 단계 및 추가 리소스** 섹션에 제공되는 링크를 사용하여 TechNet 라이브러리에서 [Microsoft Intune](/Intune/), [Mobile Device Management for Office 365](https://technet.microsoft.com/library/ms.o365.cc.devicepolicy.aspx) 및 [Microsoft System Center Configuration Manager](https://technet.microsoft.com/library/cc507089.aspx)에 대한 자세한 배포 및 구성 단계를 찾을 수 있습니다.
+
+[여기](https://blogs.technet.microsoft.com/intunesupport/2016/02/10/new-guide-on-how-to-migrate-from-other-mdm-technologies-to-microsoft-intune/)에서 다른 MDM 솔루션에서 Microsoft Intune으로 마이그레이션하는 방법에 대한 지침도 찾을 수 있습니다.
 
 **가정:** 사용자가 Microsoft Intune, System Center 2012 R2 ConfigMgr(Configuration Manager), Windows Server 2012 R2와, Android, iOS 및 Windows Phone을 실행하는 모바일 장치에 대해 다소 경험이 있습니다. 초기 MDM 테스트 또는 제한된 프로덕션 환경에서 이러한 솔루션 중 하나를 배포했을 수도 있습니다. 이 가이드는 이러한 솔루션이 어떻게 자체 또는 통합된 솔루션에서 비즈니스 요구를 충족할 수 있는지 확인하려는 사용자를 위해 작성되었습니다.
 

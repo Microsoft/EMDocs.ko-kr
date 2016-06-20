@@ -4,8 +4,8 @@
 title: EMS(Enterprise Mobility Suite)에 대한 FastTrack 센터 혜택 프로세스
 description:
 keywords:
-author: 
-manager: swadhwa
+author: staciebarker
+manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
@@ -30,9 +30,9 @@ ms.suite: ems
 
 이 문서에서는 서비스 혜택에 대한 플랜 및 서비스 자격에 대해 자세히 설명합니다.
 
-등록 프로세스 및 역할과 책임에 대해 알아보려면 [EMS(Enterprise Mobility Suite)에 대한 FastTrack 센터 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)를 참조하세요..
+등록 프로세스 및 역할과 책임에 대해 알아보려면 [EMS(Enterprise Mobility Suite)에 대한 FastTrack 센터 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)를 참조하세요.
 
-Office 365용 Microsoft FastTrack에 대한 정보를 찾고 있습니까? [Office 365용 FastTrack 센터 혜택](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx)을 참조하세요..
+Office 365용 Microsoft FastTrack에 대한 정보를 찾고 있습니까? [Office 365용 FastTrack 센터 혜택](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx)을 참조하세요.
 
 ## 적격 서비스
 적격 플랜을 통해 다음의 Microsoft 온라인 서비스를 구매하면 Microsoft에서 등록을 도와 드리며 등록 지원을 위해 연락을 드립니다. 조직이 이러한 서비스를 배포할 준비가 되어 있는 경우 [FastTrack 센터](http://fasttrack.microsoft.com/) 에서 지원을 요청할 수도 있습니다. 지원을 요청하려면 [FastTrack 센터](http://fasttrack.microsoft.com/)(http://fasttrack.microsoft.com)에 로그인하고 대시보드로 이동한 다음 Offers(신청) 탭에서 "Request Assistance for Microsoft Intune, Azure Active Directory Premium, or Azure Rights Management Premium(지원 요청)"을 클릭합니다. 등록 지원이 시작되면 Microsoft는 온라인 모임 일정을 설정합니다.
@@ -51,6 +51,6 @@ Enterprise Mobility Suite 또는 EMS에 대한 FastTrack 센터 혜택에 포함
 |Microsoft Azure RMS)|예|
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO1-->
 
 
