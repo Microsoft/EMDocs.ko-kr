@@ -21,12 +21,12 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
     <section id="hero-content" class="graph">
         <h1>Microsoft Enterprise Mobility 설명서</h1>
         <h2>Microsoft Enterprise Mobility에 대한 기술 설명서입니다. 이러한 문서는 Enterprise Mobility 내의 솔루션 및 제품을 이해 및 탐색하고, 서비스를 시작하고, 구현을 계획하는 데 도움이 됩니다. 또한 서비스를 배포 및 사용하고, 응용 프로그램을 개발하고, 문제를 해결하는 데 도움이 되는 자세한 기술 콘텐츠도 찾을 수 있습니다.</h2>
-        <h3>Enterprise Mobility를 처음 사용하나요? <a href="https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx" target="_blank">Microsoft Enterprise Mobility 페이지 방문 &rarr;</a></h3>
+        <h3>Enterprise Mobility를 처음 사용하나요? <a href="http://go.microsoft.com/fwlink/?LinkId=816837" target="_blank">Microsoft Enterprise Mobility 페이지 방문 &rarr;</a></h3>
     </section>
     <aside class="alert section-border">
         <p>Enterprise Mobility Suite 30일 평가판에 등록</p>
         <ol class="action-list">
-        <li><a href="https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/ems-trial.aspx" target="_blank" class="button-bordered button-translucent">무료 평가판</a></li>
+        <li><a href="http://go.microsoft.com/fwlink/?LinkId=816834" target="_blank" class="button-bordered button-translucent">무료 평가판</a></li>
         </ol>
     </aside>
     <section id="featured" class="container">
@@ -176,6 +176,6 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
 </article>
 
 
-<!--HONumber=May16_HO4-->
+<!--HONumber=Jun16_HO4-->
 
 
