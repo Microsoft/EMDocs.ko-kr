@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "a9106c37a918dff2b88036691628540fcfce52dc",
+  "LastProcessedCommit": "f5d80cd2db42041b302320d7b32677d4f8a2de4a",
   "LastTranslatedCommit": "fedf407137169d22f758f5d7229ac6111235315e",
   "Items": {
     "da63fda594055f3647cc04e6954675a9558776db": {
@@ -34545,6 +34545,41 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\conditional-access-intune-exchange-online.7c0b9740744795195c333108aca6949a9698d35b.ko-kr.xlf",
       "HandoffFileCommit": "d7a5f5eb91cdd99064dd2c6aecefbbef875986f6",
       "HandoffDateTime": "2016-07-01T17:43:08.8723846Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null,
+      "BilingualFilePath": null,
+      "BilingualFileCommit": null,
+      "BilingualDateTime": "0001-01-01T00:00:00",
+      "BilingualException": null
+    },
+    "a6cfc88ab59bf31eaeca2ad96327fb66ba23d44f": {
+      "FileHash": "a6cfc88ab59bf31eaeca2ad96327fb66ba23d44f",
+      "SourceFileCommit": "60b9891fcf0e81bc0b5b2d0418a244af231bc8d2",
+      "SourceFilePath": "EMDocs\\Solutions\\architecture-guidance-for-protecting-company-email-and-documents.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "EMDocs\\Solutions\\architecture-guidance-for-protecting-company-email-and-documents.md"
+      ],
+      "HasMetadata": true,
+      "TranslationType": 1,
+      "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.ko-kr\\master\\architecture-guidance-for-protecting-company-email-and-documents.09e44388218df5328feae7349dae42bdf9317559.ko-kr.xlf",
+      "HandoffFileCommit": "f2ffa60854afd7804ce6a37e076f71584ff0d9cd",
+      "HandoffDateTime": "2016-07-01T21:43:52.3798827Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
