@@ -1,29 +1,11 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [EMDocs\Solutions\architecture-guidance-for-protecting-company-email-and-documents.md](https://github.com/Microsoft/EMDocs-pr/blob/60b9891fcf0e81bc0b5b2d0418a244af231bc8d2/EMDocs/Solutions/architecture-guidance-for-protecting-company-email-and-documents.md) | OutofSyncHandedBackSuccess | [Details](#a6cfc88ab59bf31eaeca2ad96327fb66ba23d44f61)
 
 ## Item Details
-##### <a name='a6cfc88ab59bf31eaeca2ad96327fb66ba23d44f61'></a> Source: [EMDocs\Solutions\architecture-guidance-for-protecting-company-email-and-documents.md](https://github.com/Microsoft/EMDocs-pr/blob/60b9891fcf0e81bc0b5b2d0418a244af231bc8d2/EMDocs/Solutions/architecture-guidance-for-protecting-company-email-and-documents.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
-* Handoff File: [architecture-guidance-for-protecting-company-email-and-documents.09e44388218df5328feae7349dae42bdf9317559.ko-kr.xlf](https://github.com/Microsoft/EM.handoff/blob/f2ffa60854afd7804ce6a37e076f71584ff0d9cd/ol-handoff/Microsoft/EMDocs-pr.ko-kr/master/architecture-guidance-for-protecting-company-email-and-documents.09e44388218df5328feae7349dae42bdf9317559.ko-kr.xlf)
-* Handoff Datetime: 2016-07-01 21:43:52
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [EMDocs\Solutions\architecture-guidance-for-protecting-company-email-and-documents.md](https://github.com/Microsoft/EMDocs-pr.ko-kr/blob/0512b2cee14c33ca78e0ca706cb366958a55ce0d/EMDocs/Solutions/architecture-guidance-for-protecting-company-email-and-documents.md)
-* Current Handback File: [architecture-guidance-for-protecting-company-email-and-documents.09e44388218df5328feae7349dae42bdf9317559.ko-kr.xlf](https://github.com/Microsoft/EM.handback/blob/a7ea3dbc4c7f3c10a12fd0711b2f8b0b073db9c3/ol-handback/Microsoft/EMDocs-pr.ko-kr/master/architecture-guidance-for-protecting-company-email-and-documents.09e44388218df5328feae7349dae42bdf9317559.ko-kr.xlf)
-* Current Handback Datetime: 2016-05-26 13:02:53
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
