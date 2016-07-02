@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: BYOD 요약 및 추가 리소스 | BYOD 디자인 고려 사항 가이드
-description:
-keywords:
+title: "BYOD 요약 및 추가 리소스 | BYOD 디자인 고려 사항 가이드"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 423c1de5-db20-4327-8c3b-a39b830cb58b
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
+ms.openlocfilehash: 88ebdc0082c1aa3e06394313e970d15db4cc3cea
+
 
 ---
 
@@ -44,6 +38,7 @@ BYOD 시나리오와 관련된 솔루션은 다음 리소스를 참조하세요.
 
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
