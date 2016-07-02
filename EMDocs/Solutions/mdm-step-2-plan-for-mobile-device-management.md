@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 2단계 - 모바일 장치 관리 계획
-description:
-keywords:
+title: "2단계 - 모바일 장치 관리 계획"
+description: 
+keywords: 
 author: andredm7
 manager: swadhwa
 ms.date: 05/20/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 3cdc1318-50a2-4280-b051-1e009620816e
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 95eeb4decc5408d9f4f22cbb44f5bccc14968fb3
+ms.openlocfilehash: f5223794a8dbb9a9318de90965fd01bd3e98bcaf
+
 
 ---
 
@@ -42,12 +36,13 @@ ms.suite: ems
 - [장치 등록 옵션](mdm-device-enrollment-options.md)
 - [장치 프로비전 옵션](mdm-device-provisioning-options.md)
 - [장치 관리 옵션](mdm-device-management-options.md)
-- [응용 프로그램 관리 옵션](mdm-application-management-options)
+- [응용 프로그램 관리 옵션](mdm-application-management-options.md)
 - [장치 모니터링 옵션](mdm-device-monitoring-options.md)
 - [메일 관리 옵션](mdm-email-management-options.md)
-- [네트워크 연결 관리 옵션](mdm-network-connectivity-management-options)
+- [네트워크 연결 관리 옵션](mdm-network-connectivity-management-options.md)
 - [인증서 관리 옵션](mdm-certificate-management-options.md)
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

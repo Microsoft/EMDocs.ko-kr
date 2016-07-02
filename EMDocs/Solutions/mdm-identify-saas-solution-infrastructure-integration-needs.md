@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: SaaS 솔루션 인프라 통합 요구 식별
-description:
-keywords:
+title: "SaaS 솔루션 인프라 통합 요구 식별"
+description: 
+keywords: 
 author: andredm7
 manager: swadhwa
 ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 26b15471-b496-4404-934d-67e621655bca
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
+ms.openlocfilehash: 7e43f590182e6a2eacfa60114290848de0b24baa
+
 
 ---
 
@@ -83,6 +77,7 @@ SaaS 관리 수명 주기 계획의 일환으로, 기존 클라이언트 관리 
 >[!TIP]
 >각 응답을 적어두고 답변의 의미를 이해해야 합니다. 이후의 작업에서는 사용 가능한 옵션과 각 옵션의 장단점을 살펴봅니다.  이러한 질문에 답변하면 비즈니스 요구에 가장 적합한 옵션을 선택하는 데 도움이 됩니다.
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 
