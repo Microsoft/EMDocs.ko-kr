@@ -1,27 +1,22 @@
 ---
-# required metadata
-
-title: Enterprise Mobility Suite에 대한 FastTrack 센터 혜택 프로세스 - 원본 환경 기대 사항
-description:
-keywords:
+title: "Enterprise Mobility Suite에 대한 FastTrack 센터 혜택 프로세스 - 원본 환경 기대 사항"
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 9048f3e5-cc28-4744-bb5e-36f974abb261
-
-# optional metadata
-
 ROBOTS: noindex
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: a92fcc56cea75adb6c3db4eeb197dba77d2b63b7
+ms.openlocfilehash: 5f1ab589594ccd846686e51612fe54f4ffd226b6
+
 
 ---
 
@@ -48,6 +43,7 @@ FastTrack 온보딩 프로세스의 다음 부분인 [온보딩 프로세스의 
 
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 
