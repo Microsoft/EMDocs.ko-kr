@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 선택기 생성 방법
-description:
-keywords:
+title: "선택기 생성 방법"
+description: 
+keywords: 
 author: 
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: bc085933-c33a-470b-b018-509afdc3e576
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
+ms.openlocfilehash: 77f50da8a7dfc5a6fae15fa4c3eecab61caa99ab
+
 
 ---
 
@@ -51,6 +45,7 @@ Azure 방식을 사용한 것입니다.
 
 그러나 Minky 방식의 경우 해당 선택을 기준으로 콘텐츠를 변경하는 방식에 대해서는 언급하지 않습니다.
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

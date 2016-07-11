@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 데이터 액세스 및 보호 고려 사항
-description:
-keywords:
+title: "데이터 액세스 및 보호 고려 사항"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 02c3a16dfeaef55ff7747f565311c8492875da64
+ms.openlocfilehash: 1b284ec12663422308fb6a44a82fec732d7e9dfa
+
 
 ---
 
@@ -117,8 +111,7 @@ Windows Server 2012 R2에서는 클라우드 폴더를 사용하여 사용자의
     - 사이트 간 VPN: 클라우드 서비스로 연결되는 [하이브리드 클라우드 인프라](http://blogs.technet.com/b/cloudsolutions/archive/2013/08/22/hybrid-it-infrastructure-solution-for-enterprise-it-overview.aspx)가 있는 경우 사용자 장치에 있는 앱에서 보안 채널을 계속 사용할 수 있도록 사이트 간 VPN 사용을 고려합니다.
 - (3.2) 클라우드 서비스 공급자의 데이터 센터에 있는 미사용 데이터(옵션 - 회사가 BYOD에 클라우드 서비스를 사용하는 경우에만 적용)
     - 클라우드 서비스 공급자: 미사용 데이터를 암호화하기 위해 클라우드 서비스 공급자가 제공할 수 있는 옵션을 고려합니다.
-    - 키 관리: 키 관리가 처리되는 방법 및 백업 프로세스가 수행되는 방법을 클라우드 서비스 공급자에게 확인합니다. 또한 클라우드 서비스 공급자와 온-프레미스 키 관리 시스템 간 통합을 고려합니다.
-(4) 사용자의 장치에 있는 미사용 데이터
+    - 키 관리: 키 관리가 처리되는 방법 및 백업 프로세스가 수행되는 방법을 클라우드 서비스 공급자에게 확인합니다. 또한 클라우드 서비스 공급자와 온-프레미스 키 관리 시스템 간 통합을 고려합니다. (4) 사용자의 장치에 있는 미사용 데이터
     - 저장소 암호화: 암호화를 지원하는 저장소 솔루션을 고려합니다.
     - 키 관리: 저장소를 암호화하는 데 사용된 키를 백업해야 하며, 필요한 경우 키 복구 에이전트를 사용할 수 있어야 합니다.
     - 원격 지우기: 사용자의 장치에 상주하는 데이터는 필요한 경우 원격으로 삭제할 수 있습니다.
@@ -248,13 +241,14 @@ Multi-Factor Authentication을 적용하려는 경우 회사는 AD FS의 기본
     - IT 부서는 필요한 경우 리소스에 대한 액세스를 감사하고 로깅 기능을 향상시킬 수 있어야 합니다.
 
 
-파일 서버 전체에 데이터 관리를 적용하여 정보에 액세스할 수 있는 사람을 제어하고 정보에 액세스한 사람을 감사하는 것은 BYOD의 주요 요소입니다. Windows Server 2012 R2에서는 파트너 및 LOB(기간 업무) 응용 프로그램에서 사용할 수 있는 인프라 투자를 기반으로 하는 [동적 액세스 제어](https://technet.microsoft.com/library/dn408191.aspx)를 사용하여 이를 수행할 수 있습니다. 동적 액세스 제어 기능은 Active Directory 도메인 서비스를 사용하는 조직에 뛰어난 가치를 제공할 수 있습니다.
+파일 서버 전체에 데이터 관리를 적용하여 정보에 액세스할 수 있는 사람을 제어하고 정보에 액세스한 사람을 감사하는 것은 BYOD의 주요 요소입니다. Windows Server 2012 R2에서는 파트너 및 기간 업무 애플리케이션에서 사용할 수 있는 인프라 투자를 기반으로 하는 [동적 액세스 제어](https://technet.microsoft.com/library/dn408191.aspx)를 사용하여 이를 수행할 수 있습니다. 동적 액세스 제어 기능은 Active Directory 도메인 서비스를 사용하는 조직에 뛰어난 가치를 제공할 수 있습니다.
 
 동적 액세스 제어 기능을 사용하면 파일의 자동 및 수동 분류를 사용하여 데이터를 식별할 수 있습니다. 예를 들어 조직 전체에서 파일 서버의 데이터에 태그를 지정할 수 있습니다. 또한 중앙 액세스 정책을 사용하는 safety-net 정책을 적용하여 파일에 대한 액세스를 제어할 수 있습니다. 동적 액세스 제어는 중요한 문서에 자동 RMS 암호화를 사용하는 방식으로도 RMS(권한 관리 서비스) 보호를 활용합니다. 예를 들어 HIPAA(Health Insurance Portability and Accountability Act) 정보를 포함하는 모든 문서를 암호화하도록 RMS를 구성할 수 있습니다. 법정 조사 및 감사를 위해 규정 준수 보고 및 법정 분석에 중앙 감사 정책을 활용할 수 있습니다. 매우 중요한 정보에 액세스한 사람을 식별할 수 있습니다.
 
 파일 서버 역할의 기능인 동적 액세스 제어를 통해 IT 부서는 위의 표에 표시된 기능을 사용할 수 있습니다. 동적 액세스 제어에 대한 자세한 내용은 [동적 액세스 제어: 시나리오 개요](https://technet.microsoft.com/library/hh831717.aspx)를 참조하세요.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

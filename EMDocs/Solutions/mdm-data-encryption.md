@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 사고 대응 요구 사항 파악
-description:
-keywords:
+title: "사고 대응 요구 사항 파악"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 1072858e-dc0a-44ad-a512-d938f20310b6
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
+ms.openlocfilehash: bfeb1fd4cceacf225093d3a5c2d808ebeb21c825
+
 
 ---
 
@@ -40,7 +34,7 @@ ms.suite: ems
 
 Windows 10 Mobile에서는 BitLocker 기술 기반의 장치 암호화를 통해 운영 체제와 데이터 저장소 파티션을 포함한 모든 내부 저장소를 암호화합니다. 사용자가 장치 암호화를 활성화하거나, IT 부서에서 MDM 도구를 통해 회사 관리 장치에 대한 암호화를 활성화하여 적용할 수 있습니다. 장치 암호화가 실행되면 휴대전화에 저장된 모든 데이터가 자동으로 암호화됩니다. Windows 10 Mobile 장치에서 암호화를 실행하면 장치 분실 또는 도난 시 저장된 데이터의 기밀 유지에 도움이 됩니다. 자세한 내용은 Windows 10 Mobile 보안 가이드를 읽어보세요.
 
->[!TIP]ConfigMgr를 사용하여 암호화가 설정될 수 있는 모바일 장치에 대한 자세한 내용을 보려면 [Configuration Manager의 모바일 장치에 대한 호환성 설정](https://technet.microsoft.com/library/dn376523.aspx)을 읽어보세요.
+>[!TIP] ConfigMgr를 사용하여 암호화가 설정될 수 있는 모바일 장치에 대한 자세한 내용을 보려면 [Configuration Manager의 모바일 장치에 대한 준수 설정](https://technet.microsoft.com/library/dn376523.aspx)을 읽어보세요.
 
 Intune 모바일 응용 프로그램 관리 정책과 연결된 앱의 경우에는 Microsoft에서 암호화 기능을 제공합니다. 데이터는 모바일 응용 프로그램 관리 정책의 설정에 따라 파일 I/O 작업 중에 동기식으로 암호화됩니다. Android 장치에서 관리되는 앱은 플랫폼 암호화 라이브러리를 활용하는 CBC(암호화 블록 체인) 모드에서 FIPS 140-2가 인증되지 않은 AES-128 암호화를 사용합니다. 
 
@@ -86,6 +80,7 @@ Intune 모바일 응용 프로그램 관리 정책과 연결된 앱의 경우에
 Intune 및 ConfigMgr 기능을 결합하여 데이터 보호 기능을 강화하고 암호화를 구성하는 방법을 자세히 알아보려면 [Configuration Manager 및 Intune을 사용하여 모바일 장치의 암호화 관리](http://blogs.technet.com/b/pauljones/archive/2014/08/04/managing-encryption-on-mobile-devices-with-configuration-manager-and-intune.aspx)를 읽어보세요.
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

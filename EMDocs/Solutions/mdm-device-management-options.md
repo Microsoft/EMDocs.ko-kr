@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 장치 관리 옵션
-description:
-keywords:
-author: robmazz
+title: "장치 관리 옵션"
+description: 
+keywords: 
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: a25f7407-92a0-4588-b5f7-a7bad9cdd070
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ef523f44cd9d51e59fc8d94bbb8d7aa388120945
+ms.openlocfilehash: 3393393abd35b0f61e371325c3e15f67123599f6
+
 
 ---
 
@@ -43,7 +37,7 @@ Intune 및 ConfigMgr를 통한 모바일 장치 관리 작업은 관리 정책�
  2. [구성 기준](https://technet.microsoft.com/library/gg712268.aspx?WT.mc_id=Blog_EntMob_Showcase_PCIT) 만들기
  3. ConfigMgr 사용자 또는 장치 컬렉션에 [구성 기준 배포](https://technet.microsoft.com/library/hh219289.aspx?WT.mc_id=Blog_EntMob_Showcase_PCIT)
 
-- **조건부 액세스 정책:** 조건부 액세스 정책은 메일에 대한 액세스가 관리되는 방법을 정의하고 규정 준수 정책과 함께 또는 별도로 사용될 수 있습니다. 조건부 액세스 정책을 배포하려면 먼저 Exchange Server 또는 Exchange Online 서비스에 대한 연결을 [Intune](/Intune/deployuse/restrict-access-to-email-and-o365-services-with-microsoft-intune) 또는 [ConfigMgr](https://technet.microsoft.com/library/dn919655.aspx)에서 구성해야 합니다. Office 365, SharePoint Online 서비스에 대해 조건부 액세스를 구성할 수도 있습니다.
+- **조건부 액세스 정책:** 조건부 액세스 정책은 메일에 대한 액세스가 관리되는 방법을 정의하고 규정 준수 정책과 함께 또는 별도로 사용될 수 있습니다. 조건부 액세스 정책을 배포하려면 먼저 온-프레미스 Exchange Server 또는 Exchange Online 서비스에 대한 연결을 [Intune](/Intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune) 또는 [ConfigMgr](https://technet.microsoft.com/library/dn919655.aspx)에서 구성해야 합니다. Office 365, SharePoint Online 서비스에 대해 조건부 액세스를 구성할 수도 있습니다.
 
 1단계의 질문에 대한 답변은 모바일 장치 관리 솔루션에 장치를 등록하는 방법을 결정하는 데 도움이 됩니다. 아래 목록은 각 관리 시나리오의 장단점을 이해하는 데 도움이 됩니다.
 
@@ -52,7 +46,7 @@ Intune 및 ConfigMgr를 통한 모바일 장치 관리 작업은 관리 정책�
 **장점**
 
 - 현재는 장치 플랫폼에 의해 분리되는 사용자 및 장치를 위한 간소화된 정책 제어를 지원합니다.
-- Android, iOS, Windows 10(https://technet.microsoft.com/library/mt147406.aspx), Windows 8.x, and Windows Phone 플랫폼뿐 아니라 Exchange ActiveSync도 지원합니다.
+- Android, iOS, [Windows 10](https://technet.microsoft.com/library/mt147406.aspx), Windows 8.x, Windows Phone 플랫폼뿐 아니라 Exchange ActiveSync도 지원합니다.
 - 어느 위치에서도 액세스할 수 있는 간단한 웹 기반 관리 콘솔 제공
 - 그룹 기반 정책을 지원하여 많은 수의 다양 모바일 장치 유형을 보다 쉽게 관리
 - 장치 루팅 및 무단 해제 감지를 비롯한 고급 모바일 장치 규정 준수 기능 지원
@@ -82,9 +76,9 @@ Intune 및 ConfigMgr를 통한 모바일 장치 관리 작업은 관리 정책�
  - 인증서, 메일, VPN, 무선 프로필 프로비전 및 관리
  - 장치 컬렉션 등록 및 관리
 - 다음을 포함하는 일부 모바일 응용 프로그램 관리 기능이 지원되지 않음
- - 모바일 장치에 LOB(기간 업무) 응용 프로그램 배포
+ - 모바일 장치에 기간 업무 애플리케이션 배포
  - Office 모바일 응용 프로그램에 대한 보안 데이터 액세스를 사용하도록 설정
- - 회사 데이터를 모바일 장치의 LOB(기간 업무) 앱으로 안전하게 확장
+ - 회사 데이터를 모바일 장치의 기간 업무 앱으로 안전하게 확장
  - 관리되는 브라우저 또는 기타 콘텐츠 보기 응용 프로그램
 
 ## 하이브리드(ConfigMgr와 Intune)
@@ -101,6 +95,7 @@ Intune 및 ConfigMgr를 통한 모바일 장치 관리 작업은 관리 정책�
 - Android 장치용 VPN 및 메일 프로필이 현재 지원되지 않음
 - 관리되는 브라우저 지원이 현재 지원되지 않음
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jul16_HO1-->
 
 

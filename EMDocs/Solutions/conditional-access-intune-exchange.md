@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Microsoft Intune 및 Exchange Server 온-프레미스로 조건부 액세스 사용
-description:
-keywords:
+title: "Microsoft Intune 및 Exchange Server 온-프레미스로 조건부 액세스 사용"
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 2a64e898-4c60-48bf-ae14-b05e091e0533
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: 6ed28a5ec5449dbca6e4f885dd0fa60bf30c3d91
+
 
 ---
 
@@ -44,7 +37,7 @@ Intune 솔루션을 사용하여 Exchange 온-프레미스를 배포하려면 �
 > Intune 계정마다 하나의 Exchange 연결을 설정할 수 있습니다. 추가 연결을 구성하면 원래 연결이 새 연결로 바뀝니다.
 
 ### 2단계: 규정 준수 정책 만들기 및 사용자에게 배포
-규정 준수 정책은 장치가 조건부 액세스 정책을 준수하는 것으로 간주되기 위해 준수해야 하는 규칙 및 설정을 정의합니다. [Microsoft Intune에서 규정 준수 정책 만들기](/intune/deployuse/create-a-device-compliance-policy-in-microsoft-intune)의 단계에 따라 규정 준수 정책을 만들고 배포합니다.
+규정 준수 정책은 장치가 조건부 액세스 정책을 준수하는 것으로 간주되기 위해 준수해야 하는 규칙 및 설정을 정의합니다. [Microsoft Intune에서 규정 준수 정책 만들기](/intune/deploy-use/create-a-device-compliance-policy-in-microsoft-intune)의 단계에 따라 규정 준수 정책을 만들고 배포합니다.
 
 더 이상 회사에 속하지 않아 iOS 장치에서 모든 회사 메일을 제거하는 기능을 원하는 경우 메일 프로필을 만들고 배포한 다음 메일 프로필이 Intune에서 관리되도록 지정하는 규정 준수 정책을 설정해야 합니다. 이 규정 준수 정책에서 대상으로 하는 사용자 집합과 동일한 사용자 집합에 메일 프로필을 배포해야 합니다.
 ![전자 메일 프로필을 Intune에서 관리해야 한다고 지정할 수 있는 규정 준수 정책 만들기 마법사의 "규칙" 페이지를 보여주는 스크린샷입니다.](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
@@ -70,7 +63,7 @@ Exchange Server 커넥터를 성공적으로 구성하면 Intune에 등록되지
 
 ![Exchange Server 온-프레미스에 대한 조건부 액세스 정책에서 장치를 허용할지 여부를 평가하는 방법을 보여주는 순서도입니다.](./media/ProtectEmail/conditional-access-8-2.png)
 
-[조건부 액세스 정책 구성](/intune/deploy-use/restrict-access-to-exchange-onpremises-with-microsoft-intune#-a-name-bkmk_enablexchngonprem-a-configure-a-conditional-access-policy)에서 제공하는 정보에 따라 조건부 액세스 정책을 설정합니다.
+[조건부 액세스 정책 구성](/intune/deploy-use/restrict-access-to-exchange-online-with-microsoft-intune#configure-conditional-access)에서 제공하는 정보에 따라 조건부 액세스 정책을 설정합니다.
 
 ## 보고
 
@@ -84,6 +77,7 @@ Intune 대시보드에서 **Exchange에서 차단된 장치** 타일을 클릭�
 모바일 장치의 회사 메일 및 메일 데이터를 보호하기 위한 솔루션을 배포한 후에 [조건부 액세스의 최종 사용자 환경](end-user-experience-conditional-access.md)에 대해 자세히 알아볼 수 있습니다. 이렇게 하면 최종 사용자가 특정 장치를 등록할 때 발생할 수 있는 문제에 대비하는 데 도움이 됩니다.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

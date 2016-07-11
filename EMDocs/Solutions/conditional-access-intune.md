@@ -1,34 +1,27 @@
 ---
-# required metadata
-
-title: Microsoft Intune으로 조건부 액세스 사용
-description:
-keywords:
+title: "Microsoft Intune으로 조건부 액세스 사용"
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 28662db2-faea-425f-ada9-04cf1d976fc2
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: 8968af180d2006465227853ccfd66ca673a2510c
+
 
 ---
 
 # Microsoft Intune으로 조건부 액세스 사용
 이 솔루션을 통해 Intune에서 조건부 액세스를 사용하여 지정한 조건에 따라 메일과 기타 서비스를 보호합니다.
 
-Intune으로 조건부 액세스 기능을 사용할 수는 방법에 대한 자세한 내용은 [Microsoft Intune으로 메일 및 O365 서비스에 대한 액세스 제한](/intune/deployuse/restrict-access-to-email-and-o365-services-with-microsoft-intune)을 참조하세요.
+Intune으로 조건부 액세스 기능을 사용할 수는 방법에 대한 자세한 내용은 [Microsoft Intune으로 메일 및 O365 서비스에 대한 액세스 제한](/intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune)을 참조하세요.
 
 > [!TIP]
 > [TechNet 갤러리](https://gallery.technet.microsoft.com/protect-company-data-and-8c5e08b4)에서 이 전체 항목의 다운로드 가능한 복사본을 가져오세요.
@@ -104,6 +97,7 @@ Exchange 온-프레미스에 대한 조건부 액세스는 다음을 지원합�
   이제 [Intune으로 Exchange Server 온-프레미스를 배포](conditional-access-intune-exchange.md)하는 방법을 알아볼 준비가 되었습니다.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 
