@@ -90,6 +90,6 @@ Intune 관리자가 [Intune 관리 콘솔](/intune/deploy-use/introduction-to-de
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO2-->
 
 
