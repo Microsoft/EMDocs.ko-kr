@@ -71,6 +71,6 @@ MDM for Office 365에서는 Wi-Fi 및 VPN 정책이 지원되지 않음
 - ConfigMgr: [무선](https://technet.microsoft.com/library/dn261221.aspx) 및 [VPN](https://technet.microsoft.com/library/dn261217.aspx) 프로필을 사용하도록 설정
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO2-->
 
 
