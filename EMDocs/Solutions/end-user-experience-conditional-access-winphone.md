@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Windows Phone에서의 조건부 액세스를 위한 최종 사용자 환경
-description:
-keywords:
+title: "Windows Phone에서의 조건부 액세스를 위한 최종 사용자 환경"
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 906566e0-f05e-4af5-b4d5-0efb083dca76
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer:
+ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
+ms.openlocfilehash: 1527f382ab35dd47d1342eb6e320048f76d62e60
+
 
 ---
 
@@ -103,10 +97,10 @@ ms.suite: ems
 5.  문제가 해결되었다면 사용자는 **계속** 을 클릭하여 프로세스를 마칩니다. 몇 분 내에 메일에 다시 액세스할 수 있습니다.
 
 ### 추가 정보
-최종 사용자 환경은 다른 모바일 장치와 약간 다릅니다. [Android](end-user-experience-conditional-access-android.md) 및
-[iOS](end-user-experience-conditional-access-ios.md)의 최종 사용자 환경에 대해 알아볼 수 있습니다.
+최종 사용자 환경은 다른 모바일 장치와 약간 다릅니다. [Android](end-user-experience-conditional-access-android.md) 및 [iOS](end-user-experience-conditional-access-ios.md)의 최종 사용자 환경에 대한 자세한 정보를 확인할 수 있습니다.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

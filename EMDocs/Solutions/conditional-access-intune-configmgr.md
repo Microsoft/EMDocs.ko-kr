@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Intune 및 Configuration Manager와 함께 조건부 액세스 사용
-description:
-keywords:
+title: "Intune 및 Configuration Manager와 함께 조건부 액세스 사용"
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: e65a0662-33ff-4e8c-9305-a21e80ea0f69
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: da76ba04d70ece8f20fdbe0fb19ad310f1fb8d28
+ms.openlocfilehash: 93d41c3e37946bbb5805e526e9fecfbe40807b3b
+
 
 ---
 
@@ -92,6 +86,7 @@ Exchange 온-프레미스에 대한 조건부 액세스는 다음을 지원합�
 사용자 환경에서 Exchange Online 및 온-프레미스를 포함하는 경우 [Microsoft Intune 및 Configuration Manager를 사용하여 Exchange Online 및 온-프레미스 배포](conditional-access-intune-configmgr-coexist.md)를 참고할 수 있습니다.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

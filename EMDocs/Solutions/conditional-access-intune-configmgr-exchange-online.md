@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Exchange Online, Microsoft Intune 및 구성 관리자가 포함된 조건부 액세스 사용
-description:
-keywords:
+title: "Exchange Online, Microsoft Intune 및 구성 관리자가 포함된 조건부 액세스 사용"
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 06921361-9475-46e6-9368-3cc44c84b22f
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
+ms.openlocfilehash: b2772f555ac064a286b084c1ef50ef5449083d90
+
 
 ---
 
@@ -34,8 +28,7 @@ System Center Configuration Manager와 Exchange Online을 이미 사용 중인 �
 
 -   조건부 액세스 적용을 시작합니다.
 
--   필요에 따라 Exchange Online용 Exchange Server 커넥터를 구성합니다.
-    이 커넥터는 보고 용도로만 필요합니다. 조건부 액세스를 사용하는 데 필요하지 않습니다.
+-   필요에 따라 Exchange Online용 Exchange Server 커넥터를 구성합니다. 이 커넥터는 보고 용도로만 필요합니다. 조건부 액세스를 사용하는 데 필요하지 않습니다.
 
 ## Exchange Online에 대한 조건부 액세스 제어 흐름
 이 다이어그램에서는 Exchange Online의 메일에 액세스하려는 클라이언트에 대한 제어 흐름을 보여 줍니다. 조건부 액세스를 적용하기 전에 A와 B를 수행할 수도 있습니다.
@@ -127,7 +120,7 @@ Configuration Manager 추적 로그 도구는 [System Center 2012 R2 Configurati
 ## 보고
 선택적 Exchange Server 커넥터를 구성한 경우 Configuration Manager 콘솔을 사용하여 Exchange Connector에서 검색된 장치에 대한 특정 정보를 볼 수 있습니다. 조건부 액세스가 적용된 장치의 경우 각 장치의 현재 상태, 각 장치가 Exchange 서버와 연결된 마지막 시간 등을 볼 수 있습니다.
 
-Configuration Manager 콘솔에서 **자산 및 호환성** 을 클릭한 다음 **장치**를 클릭합니다.  **Exchange 액세스 상태** 열에서 각 장치의 현재 상태(격리 또는 허용됨)를 볼 수 있습니다. 아직 표시되지 않는 경우 열 제목 표시줄 영역에서 마우스 오른쪽 단추를 클릭하여 이 열을 추가합니다.  **Exchange Server에 대해 마지막으로 성공한 동기화 시간** 열을 추가하여 Exchange에서 보고된, 각 장치에 대해 마지막으로 성공한 동기화 시간을 볼 수도 있습니다.
+Configuration Manager 콘솔에서 **자산 및 호환성**을 클릭한 다음 **장치**를 클릭합니다.  **Exchange 액세스 상태** 열에서 각 장치의 현재 상태(격리 또는 허용됨)를 볼 수 있습니다. 아직 표시되지 않는 경우 열 제목 표시줄 영역에서 마우스 오른쪽 단추를 클릭하여 이 열을 추가합니다.  **Exchange Server에 대해 마지막으로 성공한 동기화 시간** 열을 추가하여 Exchange에서 보고된, 각 장치에 대해 마지막으로 성공한 동기화 시간을 볼 수도 있습니다.
 
 ![Configuration Manager 콘솔에서 장치 목록을 보여주는 스크린샷](./media/ProtectEmail/Hybrid-Onprem-Verify-Devices-State.png)
 
@@ -156,6 +149,7 @@ SSRS 보고서를 보려면 주 서버에 보고 역할이 설치되어 있어�
 모바일 장치의 회사 메일 및 메일 데이터를 보호하기 위한 솔루션을 배포한 후에 [조건부 액세스의 최종 사용자 환경](end-user-experience-conditional-access.md)에 대해 자세히 알아볼 수 있습니다. 이렇게 하면 최종 사용자가 특정 장치를 등록할 때 발생할 수 있는 문제에 대비하는 데 도움이 됩니다.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

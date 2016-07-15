@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: 리소스에 대한 액세스 제어
-description:
-keywords:
+title: "리소스에 대한 액세스 제어"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 5967876b-3c08-4498-a0a6-0225b562d35f
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: 35a01a69e89762da314905c58a4868c6443d32e8
+
 
 ---
 
@@ -38,13 +31,13 @@ ms.suite: ems
 
 ## 기본 인증 및 권한 부여 흐름
 
-기존 ACL(액세스 제어 목록)은 매우 제한적이며, 사용자가 이 리소스에 액세스 하려고 할 때의 위치와 같은 사용자 상태의 다른 측면을 고려하지 않습니다. 조직에서 리소스에 대한 액세스 권한을 부여하기 전에 좀 더 다양한 요인을 고려해야 할 경우 Windows Server 2012에서 기본적으로 사용할 수 있는 [동적 액세스 제어](https://technet.microsoft.com/library/dn408191.aspx)를 사용할 수 있습니다. Windows 10에서는 데이터에 대한 액세스를 제공하기 전에 IT에서 장치의 상태를 확인할 수 있는 상태 증명을 지원합니다. 원격 상태 증명 서비스에서는 측정값에 대한 여러 검사를 수행합니다. 부팅 상태(보안 부팅, 디버그 모드 등)와, 보안을 관리하는 구성 요소(BitLocker, Device Guard 등)의 상태를 포함하여 보안 관련 데이터 포인트의 유효성을 검사합니다. 그런 다음 상태 암호화 Blob를 장치로 다시 전송하여 장치의 상태를 전달합니다. 자세한 내용은 [Windows 10 기반 장치의 상태 제어](https://technet.microsoft.com/en-us/library/mt592023.aspx)를 읽어보세요.
+기존 ACL(액세스 제어 목록)은 매우 제한적이며, 사용자가 이 리소스에 액세스 하려고 할 때의 위치와 같은 사용자 상태의 다른 측면을 고려하지 않습니다. 조직에서 리소스에 대한 액세스 권한을 부여하기 전에 좀 더 다양한 요인을 고려해야 할 경우 Windows Server 2012에서 기본적으로 사용할 수 있는 [동적 액세스 제어](https://technet.microsoft.com/library/dn408191.aspx)를 사용할 수 있습니다. Windows 10에서는 데이터에 대한 액세스를 제공하기 전에 IT에서 장치의 상태를 확인할 수 있는 상태 증명을 지원합니다. 원격 상태 증명 서비스에서는 측정값에 대한 여러 검사를 수행합니다. 부팅 상태(보안 부팅, 디버그 모드 등)와, 보안을 관리하는 구성 요소(BitLocker, Device Guard 등)의 상태를 포함하여 보안 관련 데이터 포인트의 유효성을 검사합니다. 그런 다음 상태 암호화 Blob를 장치로 다시 전송하여 장치의 상태를 전달합니다. 자세한 내용은 [Windows 10 기반 장치의 상태 제어](https://technet.microsoft.com/library/mt592023.aspx)를 읽어보세요.
 
-Intune 관리자가 [Intune 관리 콘솔](/intune/deploy/introduction-to-device-compliance-policies-in-microsoft-intune)에서 Windows 10 장치 상태 증명의 상태를 볼 수 있습니다. 장치 상태 증명을 사용하여 관리자는 클라이언트 컴퓨터가 신뢰할 수 있는 BIOS, TPM 및 소프트웨어 구성을 갖는지 확인할 수 있습니다. 장치 상태 증명을 지원하려면 클라이언트 장치에서 TPM 2가 설정된 Windows 10이 실행되고 있어야 합니다. 
+Intune 관리자가 [Intune 관리 콘솔](/intune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune)에서 Windows 10 디바이스 상태 증명의 상태를 볼 수 있습니다. 디바이스 상태 증명을 사용하여 관리자는 클라이언트 컴퓨터가 신뢰할 수 있는 BIOS, TPM 및 소프트웨어 구성을 갖는지 확인할 수 있습니다. 디바이스 상태 증명을 지원하려면 클라이언트 장치에서 TPM 2가 설정된 Windows 10이 실행되고 있어야 합니다. 
 
 많은 회사들이 사설 클라우드를 유지하도록 허용하는 기술을 사용하여 자체적으로 클라우드 공급자 역할을 하고 있으므로 RBAC(역할 기반 액세스 제어)를 사용할 수도 있습니다. [Azure AD에서는 IT가 RBAC](http://azure.microsoft.com/documentation/articles/role-based-access-control-configure/)를 사용하여 리소스 액세스를 제어할 수 있습니다. 또한 Azure AD를 온-프레미스 Active Directory와 통합할 수 있으므로 둘을 함께 사용하여 사용자가 리소스에 액세스하는 방식을 판단할 수 있습니다.
 
-리소스가 앱일 수도 있습니다. 즉, 리소스에 대한 액세스 제어를 구현하려면 MDM 솔루션에서 앱이 설치 및 액세스되는 방식을 제어할 수 있어야 합니다. [Intune의 모바일 응용 프로그램 관리 정책](/intune/deployuse/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console)을 사용하여 배포하는 앱의 기능을 회사의 규정 준수 및 보안 정책에 부합하게 수정할 수 있습니다. 
+리소스가 앱일 수도 있습니다. 즉, 리소스에 대한 액세스 제어를 구현하려면 MDM 솔루션에서 앱이 설치 및 액세스되는 방식을 제어할 수 있어야 합니다. [Intune의 모바일 응용 프로그램 관리 정책](/intune/deploy-use/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console)을 사용하여 배포하는 앱의 기능을 회사의 규정 준수 및 보안 정책에 부합하게 수정할 수 있습니다. 
 
 아래 표를 참조하면 조직의 액세스 제어 요구 사항에 가장 잘 맞는 MDM 옵션을 선택하는 데 도움이 될 것입니다.
 
@@ -96,6 +89,7 @@ Intune 관리자가 [Intune 관리 콘솔](/intune/deploy/introduction-to-device
 - 조직에 최신 온-프레미스 ConfigMgr 인프라가 없는 경우 통합 전에 이 플랫폼의 계획, 설치 및 구성 필요
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jul16_HO2-->
 
 

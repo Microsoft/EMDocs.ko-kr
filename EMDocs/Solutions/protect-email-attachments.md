@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 회사 전자 메일 첨부 파일 보호
-description:
-keywords:
+title: "회사 전자 메일 첨부 파일 보호"
+description: 
+keywords: 
 author: karthikaraman
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer:
+ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
+ms.openlocfilehash: 0bf455c24808f6dec237acb20150dd6bf129be70
+
 
 ---
 
@@ -76,6 +70,7 @@ IT 관리자는 모바일 응용 프로그램 관리 정책을 만들고 앱에 
 [회사 메일 및 문서](protect-corporate-email-documents.md) 및 메일 첨부 파일을 보호하는 방법에 대해 이해했으므로 [회사 메일을 보호하는 솔루션을 구현](implement-solution.md)하는 방법에 대해 알아볼 수 있습니다.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: 인증서 관리 옵션
-description:
-keywords:
+title: "인증서 관리 옵션"
+description: 
+keywords: 
 author: andredm7
 manager: swadhwa
 ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: c3d350b5-4437-4f3d-907f-57ce6a819a74
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: fed75819dbc13755b5ef28cbe3abe008d46c8473
+
 
 ---
 
@@ -30,7 +23,7 @@ ms.suite: ems
 >[!NOTE]
 >이 항목은 좀 더 큰 디자인 고려 사항 가이드의 일부입니다. 이 가이드의 맨 처음부터 시작하려면 [기본 항목](mdm-design-considerations-guide.md)을 확인하세요. 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
 
-디지털 인증서 관리 및 인증서 프로필 사용은 [Intune](/Intune/deployuse/secure-resource-access-with-certificate-profiles) 독립 실행형과 [하이브리드 Intune 및 ConfigMgr](https://technet.microsoft.com/library/dn261202.aspx) 배포 시나리오에서 모두 지원됩니다. 이러한 기능을 사용하면 모바일 장치가 조직의 NDES 서버에서 추가 인증서를 가져오도록 하는 SCEP(단순 인증서 등록 프로토콜) 기반 프로필뿐만 아니라 신뢰할 수 있는 루트 인증서를 모바일 장치에 배포할 수 있습니다.
+디지털 인증서 관리 및 인증서 프로필 사용은 [Intune](/Intune/deploy-use/secure-resource-access-with-certificate-profiles) 독립 실행형과 [하이브리드 Intune 및 ConfigMgr](https://technet.microsoft.com/library/dn261202.aspx) 배포 시나리오에서 모두 지원됩니다. 이러한 기능을 사용하면 모바일 장치가 조직의 NDES 서버에서 추가 인증서를 가져오도록 하는 SCEP(단순 인증서 등록 프로토콜) 기반 프로필뿐만 아니라 신뢰할 수 있는 루트 인증서를 모바일 장치에 배포할 수 있습니다.
 
 SCEP는 기본적으로 iOS, Windows 10 및 8.1, Windows Phone 10 및 8.1에서 지원되며, Android용 Microsoft Intune 회사 포털 앱을 통해서도 지원되므로 이 등록 프로토콜을 사용하면 모바일 장치에서 개인 키를 직접 생성하게 되는 이점이 있습니다. ConfigMgr 또는 Intune에서는 개인 키가 절대 생성, 캐시 또는 저장되지 않으므로 모바일 장치 보안을 유지하는 데 도움이 됩니다.
 
@@ -87,8 +80,9 @@ SCEP는 기본적으로 iOS, Windows 10 및 8.1, Windows Phone 10 및 8.1에서 
  - 엔터프라이즈 인증 기관
  - NDES를 실행하는 서버에 설치된 Intune NDES 커넥터
 
-모바일 장치 인증서 관리 옵션에 대한 자세한 내용을 보려면 [인증서 프로필을 사용하도록 설정](/Intune/deployuse/secure-resource-access-with-certificate-profiles)하는 방법을 읽고 이러한 요구 사항 및 절차를 System Center 2012 R2 Configuration Manager의 [인증서 프로필을 사용하도록 설정](https://technet.microsoft.com/library/dn261202.aspx)과 비교합니다.
+모바일 장치 인증서 관리 옵션에 대한 자세한 내용을 보려면 [인증서 프로필을 사용하도록 설정](/Intune/deploy-use/secure-resource-access-with-certificate-profiles)하는 방법을 읽고 이러한 요구 사항 및 절차를 System Center 2012 R2 Configuration Manager의 [인증서 프로필을 사용하도록 설정](https://technet.microsoft.com/library/dn261202.aspx)과 비교합니다.
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jul16_HO2-->
 
 

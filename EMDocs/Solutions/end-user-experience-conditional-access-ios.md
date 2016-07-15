@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: iOS 장치에서의 조건부 액세스를 위한 최종 사용자 환경
-description:
-keywords:
+title: "iOS 장치에서의 조건부 액세스를 위한 최종 사용자 환경"
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 3c641ea8-2c0e-490e-b1de-831336f46d19
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer:
+ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
+ms.openlocfilehash: 6ff6f8c66e5b4ed838c72dd06f200118c6461cb0
+
 
 ---
 
@@ -100,6 +94,7 @@ ms.suite: ems
 최종 사용자 환경은 다른 모바일 장치와 약간 다릅니다. [Android](end-user-experience-conditional-access-android.md) 및 [Windows Phone](end-user-experience-conditional-access-winphone.md)의 최종 사용자 환경에 대한 자세한 정보를 확인할 수 있습니다.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

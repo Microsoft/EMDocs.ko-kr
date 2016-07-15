@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 액세스 요구 사항 지정
-description:
-keywords:
+title: "액세스 요구 사항 지정"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 1cdc3cdf-cb71-46d5-99fd-05ec96771b81
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
+ms.openlocfilehash: e07565fd34f2eb89db0047c88f7834ed13cdf301
+
 
 ---
 
@@ -67,6 +61,7 @@ MDM 솔루션을 설계할 때는 다음을 고려하세요.
 기본 제공된 Windows Server 2012 R2 기능과 ConfigMgr를 함께 사용하여 회사 리소스에 대한 액세스 권한을 제공하는 방법을 보다 잘 이해하려면 [어느 위치에서든 모든 장치에서 회사 리소스에 안전하게 액세스](https://technet.microsoft.com/library/dn550982)를 읽어보세요. 
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

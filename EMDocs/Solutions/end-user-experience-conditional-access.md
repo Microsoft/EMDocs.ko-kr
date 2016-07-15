@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 조건부 액세스를 위한 최종 사용자 환경
-description:
-keywords:
+title: "조건부 액세스를 위한 최종 사용자 환경"
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 3e186dd2-e17c-40d8-b160-48038b2c6593
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer:
+ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
+ms.openlocfilehash: e0843fc9808963fcc61d48abdc58953f57dcc471
+
 
 ---
 
@@ -47,6 +41,7 @@ ms.suite: ems
 [이 항목](end-user-experience-conditional-access-winphone.md)에서는 조건부 액세스를 사용하도록 설정한 이후에 최종 사용자가 Windows Phone을 사용해 메일에 액세스하려고 시도하는 경우 최종 사용자 환경에 대해 설명합니다.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

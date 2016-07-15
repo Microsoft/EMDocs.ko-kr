@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 사용자 및 장치 고려 사항
-description:
-keywords:
+title: "사용자 및 장치 고려 사항"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
-
-# optional metadataco
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 3a95624c9092dba51e515bd294bd13beb4071510
+ms.openlocfilehash: 8d5c06c66102c21adcb26b86e4f8ed3550c3aca0
+
 
 ---
 
@@ -114,7 +108,7 @@ IT 부서는 장치에 대한 지식이 필요한지를 결정해야 합니다. 
 
 Windows Server 2012 R2에서는 [작업 공간 연결](https://technet.microsoft.com/library/dn280945.aspx)이라는 새로운 개념을 사용하여 IT 부서에서 장치를 알 수 없는 상태에서 알려진 상태로 전환할 수 있습니다. 또한 장치를 작업 공간 리소스 및 앱에 대해 2단계 인증 및 Single Sign-On으로 사용할 수 있습니다. 작업 공간 연결은 기본적으로 Windows 10에서 사용할 수 있지만 iOS 및 Android 같은 다른 플랫폼에서도 지원됩니다. 작업 공간 연결에서는 DRS(장치 등록 서비스)를 사용합니다. DRS에 대한 자세한 내용은 [장치 등록 서비스로 페더레이션 서버 구성](https://technet.microsoft.com/library/dn486831.aspx)을 참조하세요. 작업 공간 연결은 새로운 기술이며 특정 사용 사례에서 작동합니다. Single Sign-On에서 작업 공간 연결을 사용하는 솔루션에 대한 자세한 내용은 [어느 위치에서든 모든 장치에서 회사 리소스에 안전하게 액세스](https://technet.microsoft.com/library/dn550982.aspx)를 참조하세요.
 
-DRS를 사용하려면 관리 기능을 제공하지 않는다는 점을 알고 있어야 합니다. 회사에서 사용자의 장치를 제어할 수 있는 더 많은 옵션을 제공하기 위해 더 많은 보안 컨트롤이 필요한 경우 [모바일 장치 등록](https://technet.microsoft.com/library/jj733620.aspx)과 함께 DRS를 관리 에이전트 솔루션으로 사용하는 것이 좋습니다. 그러나 이 옵션을 선택하면 Microsoft Intune 구독이 있어야 합니다. Microsoft Intune에 대한 자세한 내용은 [Microsoft Intune page(Microsoft Intune 페이지)](/intune/understand-explore/introduction-to-microsoft-intune)를 참조하세요..
+DRS를 사용하려면 관리 기능을 제공하지 않는다는 점을 알고 있어야 합니다. 회사에서 사용자의 장치를 제어할 수 있는 더 많은 옵션을 제공하기 위해 더 많은 보안 컨트롤이 필요한 경우 [모바일 장치 등록](https://technet.microsoft.com/library/jj733620.aspx)과 함께 DRS를 관리 에이전트 솔루션으로 사용하는 것이 좋습니다. 그러나 이 옵션을 선택하면 Microsoft Intune 구독이 있어야 합니다. Microsoft Intune에 대한 자세한 내용은 [Microsoft Intune page(Microsoft Intune 페이지)](/intune/understand-explore/introduction-to-microsoft-intune)를 참조하세요.
 
 ## 네트워크
 
@@ -176,7 +170,7 @@ DRS를 사용하려면 관리 기능을 제공하지 않는다는 점을 알고 
 
 장치가 실행되는 플랫폼에 따라 Wi-Fi 네트워크에 연결될 장치를 조각화할 수도 있습니다. 또한 온-프레미스에서 회사 리소스에 액세스하는 동안 통신 및 권한 부여에 보안을 설정하는 방법을 고려합니다.
 
-무선 액세스 지점 및 네트워크 구성 요소(스위치 및 라우터)에서 물리적 조각화를 선택하여 자신의 장치로 연결하는 사용자를 격리시킬 수 있습니다. 이 유형의 조각화는 [Configuration Manager의 Wi-Fi 프로필](https://technet.microsoft.com/library/dn261221.aspx)을 사용하여 구현할 수도 있습니다. 서버 유효성 검사 및 클라이언트 인증을 위한 인증서 같이 [Configuration Manager 인증서 프로필](https://technet.microsoft.com/library/dn270540.aspx)을 사용하여 프로비전된 광범위한 보안 설정을 사용할 수 있습니다..
+무선 액세스 지점 및 네트워크 구성 요소(스위치 및 라우터)에서 물리적 조각화를 선택하여 자신의 장치로 연결하는 사용자를 격리시킬 수 있습니다. 이 유형의 조각화는 [Configuration Manager의 Wi-Fi 프로필](https://technet.microsoft.com/library/dn261221.aspx)을 사용하여 구현할 수도 있습니다. 서버 유효성 검사 및 클라이언트 인증을 위한 인증서 같이 [Configuration Manager 인증서 프로필](https://technet.microsoft.com/library/dn270540.aspx)을 사용하여 프로비전된 광범위한 보안 설정을 사용할 수 있습니다.
 
 
 ### Wi-Fi 네트워크 조각화 옵션 - 장점 및 단점
@@ -208,12 +202,13 @@ DRS를 사용하려면 관리 기능을 제공하지 않는다는 점을 알고 
     - 단점
         - [Microsoft NAP(Network Access Protection)](https://technet.microsoft.com/library/cc731276(v=ws.10).aspx)를 사용하여 구현하는 데 IPsec이 필요하며 이는 "모든 장치"를 지원해야 하는 BYOD 시나리오에서 문제가 될 수 있음
 
-> [!NOTE] Configuration Manager의 Wi-Fi 프로필에 대한 자세한 내용은 [Configuration Manager의 Wi-Fi 프로필 소개](https://technet.microsoft.com/library/dn261224.aspx)를 참조하세요..
+> [!NOTE] Configuration Manager의 Wi-Fi 프로필에 대한 자세한 내용은 [Configuration Manager의 Wi-Fi 프로필 소개](https://technet.microsoft.com/library/dn261224.aspx)를 참조하세요.
 
 네트워크 위치는 사용자 및 장치 고려 사항에서 중요한 역할을 합니다. AD FS의 다단계 액세스 제어를 사용하여 응용 프로그램 단위 권한 부여 정책을 설정하면 사용자, 장치 및 네트워크 위치에 따라 액세스를 허용하거나 거부할 수 있습니다. 이 기능의 유효성을 확인하는 환경 설정 방법에 대한 자세한 내용은 [다단계 액세스 제어를 사용한 위험 관리](https://technet.microsoft.com/library/dn280936.aspx)를 참조하세요.
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

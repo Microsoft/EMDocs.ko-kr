@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 모바일 장치 관리 채택 전략 개발
-description:
-keywords:
+title: "모바일 장치 관리 채택 전략 개발"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 10172816-b52d-4a55-8803-6a6805126fab
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
+ms.openlocfilehash: 8670e37bc847485053009db781cabac54e9bc922
+
 
 ---
 
@@ -176,6 +170,7 @@ ms.suite: ems
 
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

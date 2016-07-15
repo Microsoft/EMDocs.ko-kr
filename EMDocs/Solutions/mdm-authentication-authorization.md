@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 인증 및 권한 부여
-description:
-keywords:
+title: "인증 및 권한 부여"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 31b98333-5a3d-49ba-a25e-66447df68035
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
+ms.openlocfilehash: 65c01f8fe084446d1635eee20d130d4de0c8f7f9
+
 
 ---
 
@@ -101,6 +95,7 @@ Azure AD MFA를 사용하여 사용자가 회사 리소스에 액세스할 때�
 
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
