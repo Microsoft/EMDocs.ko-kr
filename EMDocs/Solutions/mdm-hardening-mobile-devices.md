@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: 모바일 장치 보안 강화
-description:
-keywords:
+title: "모바일 장치 보안 강화"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: ade57c73-a8a2-497f-ad8d-5dfc3cba9e70
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: 1a8b4be857a8fede2df37db1eabd7b95cea1dba9
+
 
 ---
 
@@ -39,13 +32,13 @@ ms.suite: ems
 
 ## 다양한 영역의 모바일 장치 보안 강화
 
-각 계층은 비즈니스 보안 요구 사항을 준수해야 하는 영역을 그룹화하는 데 사용할 수 있습니다. 예를 들어, 시스템 설정 보안을 강화하고 암호화를 구현하기 위한 전용 장치에 [보안 정책](/intune/deployuse/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies)을 배포하도록 Intune을 구성할 수 있습니다. 또한 이 정책을 통해 액세스 허용 목록을 만들어 모바일 장치에서 [규격 앱](https://technet.microsoft.com/library/dn818906.aspx)만 설치하도록 할 수 있습니다.
+각 계층은 비즈니스 보안 요구 사항을 준수해야 하는 영역을 그룹화하는 데 사용할 수 있습니다. 예를 들어, 시스템 설정 보안을 강화하고 암호화를 구현하기 위한 전용 장치에 [보안 정책](/intune/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies)을 배포하도록 Intune을 구성할 수 있습니다. 또한 이 정책을 통해 액세스 허용 목록을 만들어 모바일 장치에서 [규격 앱](https://technet.microsoft.com/library/dn818906.aspx)만 설치하도록 할 수 있습니다.
 
 Windows 8.1 Enterprise를 실행하는 BYOD 장치에서 AppLocker를 사용하면 응용 프로그램 업데이트 후에도 지속되는 파일 경로, 해시 또는 속성을 기준으로 앱을 허용하거나 차단할 수 있습니다(예: 게시자 이름, 제품 이름, 파일 이름, 파일 버전). Windows 10에는 MDM 서버를 사용하여 AppLocker 규칙을 활성화할 수 있게 새 AppLocker 구성 서비스 공급자가 추가되었습니다. Windows 10의 이 새 기능에 대한 자세한 내용은 [AppLocker CSP](https://msdn.microsoft.com/library/windows/hardware/dn920019(v=vs.85).aspx)에서 확인합니다.
 
-제어가 필요한 또 다른 부분은 사용자의 모바일 탐색 환경입니다. 관리되는 브라우저 정책에는 관리되는 브라우저의 사용자가 방문할 수 있는 웹 사이트를 제한하는 허용 또는 차단 목록을 포함합니다. Intune에서 이러한 정책을 구성하는 방법에 대한 자세한 내용은 [Microsoft Intune에서 관리 브라우저 정책을 사용하여 인터넷 액세스 관리](/intune/deployuse/manage-internet-access-using-managed-browser-policies) 문서를 읽어보세요.
+제어가 필요한 또 다른 부분은 사용자의 모바일 탐색 환경입니다. 관리되는 브라우저 정책에는 관리되는 브라우저의 사용자가 방문할 수 있는 웹 사이트를 제한하는 허용 또는 차단 목록을 포함합니다. Intune에서 이러한 정책을 구성하는 방법에 대한 자세한 내용은 [Microsoft Intune에서 관리 브라우저 정책을 사용하여 인터넷 액세스 관리](/intune/deploy-use/manage-internet-access-using-managed-browser-policies) 문서를 읽어보세요.
 
-ConfigMgr 온-프레미스 하이브리드 환경에서는 [구성 기준](https://technet.microsoft.com/library/gg712268.aspx?WT.mc_id=Blog_EntMob_Showcase_PCIT)을 만들어, 관리되는 모바일 장치의 기본 보안 강화 상태를 설정할 수 있습니다. 모든 필수 설정을 포함하도록 이러한 기준을 사용자 지정한 후 모바일 장치에 배포할 수 있습니다. 규정 준수 설정 옵션은 모바일 장치 플랫폼마다 다르므로 [Configuration Manager의 모바일 장치에 대한 호환성 설정](https://technet.microsoft.com/library/dn376523.aspx)에서 각각의 장치에 사용할 수 있는 옵션에 대한 자세한 내용을 읽어보세요.
+ConfigMgr 온-프레미스 하이브리드 환경에서는 [구성 기준](https://technet.microsoft.com/library/gg712268.aspx?WT.mc_id=Blog_EntMob_Showcase_PCIT)을 만들어, 관리되는 모바일 장치의 기본 보안 강화 상태를 설정할 수 있습니다. 모든 필수 설정을 포함하도록 이러한 기준을 사용자 지정한 후 모바일 장치에 배포할 수 있습니다. 규정 준수 설정 옵션은 모바일 장치 플랫폼마다 다르므로 [Configuration Manager의 모바일 장치에 대한 준수 설정](https://technet.microsoft.com/library/dn376523.aspx)에서 각각의 장치에 사용할 수 있는 옵션에 대한 자세한 내용을 읽어보세요.
 
 [MDM for Office 365](https://technet.microsoft.com/library/ms.o365.cc.devicepolicy.aspx)에도 다음 범주의 모바일 장치 보안 강화에 도움을 주는 여러 기능이 포함되어 있습니다.
 
@@ -95,9 +88,10 @@ ConfigMgr 온-프레미스 하이브리드 환경에서는 [구성 기준](https
 
 - 회사에 최신 온-프레미스 ConfigMgr 인프라가 없는 경우 통합 전에 ConfigMgr의 계획, 설치 및 구성을 위한 리소스가 필요합니다.
 
->[!TIP][Microsoft Intune에 대한 모바일 장치 관리 정책 설정](https://technet.microsoft.com/library/dn913730.aspx)에서 Microsoft Intune 모바일 장치 보안 정책에서 구성할 수 있는 모바일 장치 관리 설정에 대해 자세히 읽어보세요. 
+>[!TIP] [Microsoft Intune에 대한 모바일 장치 관리 정책 설정](https://technet.microsoft.com/library/dn913730.aspx)에서 Microsoft Intune 모바일 장치 보안 정책에서 구성할 수 있는 모바일 장치 관리 설정에 대해 자세히 읽어보세요. 
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

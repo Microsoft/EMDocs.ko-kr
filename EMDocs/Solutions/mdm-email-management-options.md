@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 메일 관리 옵션
-description:
-keywords:
-author: robmazz
+title: "메일 관리 옵션"
+description: 
+keywords: 
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 9b89da63-039f-4831-b204-28c0681478fe
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ef523f44cd9d51e59fc8d94bbb8d7aa388120945
+ms.openlocfilehash: 13749f7100df8a157ae8204641442aadfa3c7f16
+
 
 ---
 
@@ -87,10 +81,11 @@ ms.suite: ems
 
 다음을 검토하여 모바일 장치 메일 구성 관리 옵션에 대한 세부 정보를 살펴봅니다.
 
-- Intune: [메일 프로필](/Intune/deployuse/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune) 및 [조건부 메일 액세스를 사용하도록 설정](/Intune/deployuse/restrict-access-to-email-and-o365-services-with-microsoft-intune)하는 방법
+- Intune: [메일 프로필](/Intune/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune) 및 [조건부 메일 액세스를 사용하도록 설정](/Intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune)하는 방법
 - ConfigMgr: [메일 프로필](https://technet.microsoft.com/library/dn554227.aspx) 및 [조건부 메일 액세스](https://technet.microsoft.com/library/dn919655.aspx)를 사용하도록 설정
 - MDM for Office 365: [모바일 장치 관리 기능](https://technet.microsoft.com/library/ms.o365.cc.devicepolicysupporteddevice.aspx)
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jul16_HO1-->
 
 

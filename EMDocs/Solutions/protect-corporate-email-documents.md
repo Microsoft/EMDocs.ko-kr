@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 회사 메일 및 문서 보호
-description:
-keywords:
+title: "회사 메일 및 문서 보호"
+description: 
+keywords: 
 author: karthikaraman
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 78d8368e-1bfe-4ac4-991d-467321a76ed7
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer:
+ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
+ms.openlocfilehash: 5911fc980156316c3b2466dae78d72801bf08934
+
 
 ---
 
@@ -127,6 +121,7 @@ Azure AD 또는 Exchange에 대해 복잡한 인프라를 설치하지 않아도
 이제 회사 메일 및 문서 보호에 대해 이해했으므로 [메일 첨부 파일 보호](protect-email-attachments.md) 방법에 대해 알아볼 수 있습니다. 또는 준비가 된 경우 [회사 메일 보호를 위한 솔루션 구현](implement-solution.md)을 알아보세요.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

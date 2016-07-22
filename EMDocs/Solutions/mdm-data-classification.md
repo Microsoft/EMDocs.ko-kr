@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: 데이터 분류
-description:
-keywords:
+title: "데이터 분류"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: f3486381-66d5-469a-93a3-013eaaa17c07
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: b2025b8b3d976b7a14c050c095d199c5a4c73cb8
+
 
 ---
 
@@ -36,7 +29,7 @@ Office 365에서는 보호해야 하는 중요한 정보를 파악하는 데 도
 
 Intune 및 ConfigMgr에는 기본적으로 데이터 분류 기능이 없으므로 Azure RMS를 사용하는 클라우드 기반 분류나 ADRMS를 사용하는 온-프레미스 분류를 사용합니다. [EMS(Enterprise Mobility Suite)](http://www.microsoft.com/server-cloud/enterprise-mobility/overview.aspx)를 MDM 솔루션으로 사용할 수도 있습니다. EMS를 사용하면 데이터를 분류하는 데 사용할 수 있는 [Azure AD Premium](https://msdn.microsoft.com/library/azure/dn532272.aspx) 및 [Azure RMS](https://technet.microsoft.com/library/jj585026.aspx)에 액세스할 수 있습니다. Azure RMS를 사용하는 데이터 분류는 하이브리드 환경의 온-프레미스 관리 솔루션에 통합될 수 있습니다. 
 
-IT에서는 Intune를 사용하여 조건부 액세스를 통해 규정에 부합하는 것으로 간주되기 위해 장치가 따라야 하는 규칙 및 설정 집합인 규정 준수 정책을 사용하여 정책에 부합할 수 있습니다. 또한 규정 준수 정책을 사용하여 조건부 액세스와 독립적으로 장치를 모니터링하고 규정 준수 문제를 관리합니다. 자세한 내용은 [Microsoft Intune 장치 규정 준수 정책 관리](/intune/deploy/introduction-to-device-compliance-policies-in-microsoft-intune)를 읽어보세요.
+IT에서는 Intune를 사용하여 조건부 액세스를 통해 규정에 부합하는 것으로 간주되기 위해 장치가 따라야 하는 규칙 및 설정 집합인 규정 준수 정책을 사용하여 정책에 부합할 수 있습니다. 또한 규정 준수 정책을 사용하여 조건부 액세스와 독립적으로 장치를 모니터링하고 규정 준수 문제를 관리합니다. 자세한 내용은 [Microsoft Intune 장치 규정 준수 정책 관리](/intune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune)를 읽어보세요.
 
 아래 표를 참조하면 조직의 *데이터 분류* 요구 사항에 가장 잘 맞는 MDM 옵션을 선택하는 데 도움이 될 것입니다.
 
@@ -86,6 +79,7 @@ IT에서는 Intune를 사용하여 조건부 액세스를 통해 규정에 부�
 - 클라우드 기반 솔루션을 채택하지 않는 고객은 사용할 수 없음
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jul16_HO2-->
 
 

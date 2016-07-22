@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Enterprise Mobility FastTrack 프로그램
-description:
-keywords:
+title: "Enterprise Mobility FastTrack 프로그램"
+description: 
+keywords: 
 author: 
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: fd951f10-6404-43a3-8f2f-464f5b5003ac
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 31ba2bb9bf95d3b21ba08f7874f12cae790f9af0
+ms.openlocfilehash: a32ec33be4ea8ea3ece93fe026480de43790af4e
+
 
 ---
 
@@ -36,6 +30,7 @@ Enterprise Mobility FastTrack 센터 혜택 프로그램을 사용하면 고객�
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 회사 메일 및 문서를 보호하는 솔루션을 배포하는 방법
-description:
-keywords:
+title: "회사 메일 및 문서를 보호하는 솔루션을 배포하는 방법"
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 2e10af43-3138-45c0-b2f7-14a1d2bfb237
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer:
+ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: c965f619511720175393f91ba49d019ba4bcff4f
+ms.openlocfilehash: 2dc585131b1897109afeb3ace9f8b9f6a245a313
+
 
 ---
 
@@ -30,7 +24,7 @@ ms.suite: ems
 
 이 가이드에서는 IT 전문가들이 구성 중 하나에서 조건부 액세스를 적용할 수 있도록 회사에 맞는 최고의 해결 방법을 파악하고 배포할 수 있도록 그 방법을 설명합니다. 이렇게 하면 회사 데이터에 대한 보호를 유지하는 동시에 직원들은 모바일 장치를 사용하여 회사 메일에 액세스할 수 있습니다.
 
-이 섹션에서는 회사 메일 및 문서를 보호하는 솔루션을 배포하는 방법을 설명합니다. 이러한 솔루션의 아키텍처에 대한 자세한 내용은 [회사 메일 및 문서를 보호하기 위한 아키텍처 지침](architecture-guidance-for-protecting-company-email-and-documents)을 참조하세요.
+이 섹션에서는 회사 메일 및 문서를 보호하는 솔루션을 배포하는 방법을 설명합니다. 이러한 솔루션의 아키텍처에 대한 자세한 내용은 [회사 메일 및 문서를 보호하기 위한 아키텍처 지침](architecture-guidance-for-protecting-company-email-and-documents.md)을 참조하세요.
 
 > [!TIP]
 >  [TechNet 갤러리](https://gallery.technet.microsoft.com/Deploying-Enterprise-16499404)에서 이 전체 항목의 다운로드 가능한 복사본을 가져오세요.
@@ -46,7 +40,7 @@ Microsoft EMS(Enterprise Mobility Suite)는 ID, 장치, 응용 프로그램, 데
 
 -   **메일 및 첨부 파일의 콘텐츠 보호:** 조건부 액세스는 규격 장치만 메일에 액세스할 수 있게 허용하지만, 메일과 메일 첨부 파일의 콘텐츠를 보호해야 하는 문제가 여전히 남아 있습니다.  해당 내용을 복사/이동하거나 다른 위치에 저장하거나 다른 사용자와 공유할 수 있기 때문입니다.  EMS는 모바일 응용 프로그램 관리 정책을 사용하여 이 문제를 해결합니다.
 
-    관리되는 앱은 회사의 보안 요구 사항 준수를 강제하는 모바일 응용 프로그램 관리 정책이 적용되는 앱입니다. 이러한 앱을 통해 배포, 인벤토리 또는 업데이트 등의 지속적 관리, 그리고 앱 및 앱과 연결된 데이터의 선택적 초기화를 직접 제어합니다. 또한 Intune에서는 MAM(모바일 응용 프로그램 관리) 정책 집합을 통해 앱 기능을 수정하고 데이터 공유를 제한할 수 있습니다. 아키텍처 세부 정보를 포함하여 이 솔루션이 작동하는 방식에 대한 자세한 내용은 [회사 메일 및 문서 보호](architecture-guidance-for-protecting-company-email-and-documents)를 참조하세요.
+    관리되는 앱은 회사의 보안 요구 사항 준수를 강제하는 모바일 응용 프로그램 관리 정책이 적용되는 앱입니다. 이러한 앱을 통해 배포, 인벤토리 또는 업데이트 등의 지속적 관리, 그리고 앱 및 앱과 연결된 데이터의 선택적 초기화를 직접 제어합니다. 또한 Intune에서는 MAM(모바일 응용 프로그램 관리) 정책 집합을 통해 앱 기능을 수정하고 데이터 공유를 제한할 수 있습니다. 아키텍처 세부 정보를 포함하여 이 솔루션이 작동하는 방식에 대한 자세한 내용은 [회사 메일 및 문서 보호](architecture-guidance-for-protecting-company-email-and-documents.md)를 참조하세요.
 
     > [!NOTE]
     > 메일 프로필을 만들어 배포한 다음 이 메일 프로필을 Intune로 관리해야 함을 지정하는 규정 준수 정책을 설정할 수 있습니다(권장 사항). 이렇게 하면 더 이상 사용되지 않는 장치에서 메일을 초기화할 수 있으며 iOS의 경우 Intune에서 관리되는 응용 프로그램에서만 첨부 파일을 열 수 있습니다. 자세한 내용은 [5단계: 규정 준수 정책을 만들어 사용자에게 배포](conditional-access-intune-configmgr-exchange.md)를 참조하세요.
@@ -75,6 +69,7 @@ Microsoft EMS(Enterprise Mobility Suite)는 ID, 장치, 응용 프로그램, 데
 - [Microsoft Intune 및 Configuration Manager와 함께 조건부 액세스 사용](conditional-access-intune-configmgr.md)
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

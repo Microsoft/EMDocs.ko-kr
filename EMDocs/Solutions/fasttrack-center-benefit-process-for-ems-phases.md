@@ -1,27 +1,22 @@
 ---
-# required metadata
-
-title: Enterprise Mobility Suite에 대한 FastTrack 센터 혜택 프로세스 - 단계
-description:
-keywords:
+title: "Enterprise Mobility Suite에 대한 FastTrack 센터 혜택 프로세스 - 단계"
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
-
-# optional metadata
-
 ROBOTS: noindex
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: a92fcc56cea75adb6c3db4eeb197dba77d2b63b7
+ms.openlocfilehash: 7f89f613d40daf3472685d0bce12767f35ee65c8
+
 
 ---
 
@@ -107,7 +102,8 @@ Microsoft Intune의 경우 Microsoft는 사용자의 모바일 장치 및 모바
 
     -   System Center Configuration Manager의 기존 구현이 있고 Microsoft Intune으로 관리 기능을 확장하려는 경우 Configuration Manager를 MDM 기관으로 설정합니다.
 
-        > [!NOTE] 최종 사용자 소유 장치, 공유 장치 또는 키오스크 유형 장치에서만 모바일 응용 프로그램 관리를 활용하려는 경우 MDM 기관을 설정할 필요가 없습니다.
+        > [!NOTE]
+        > 최종 사용자 소유 장치, 공유 장치 또는 키오스크 유형 장치에서만 모바일 응용 프로그램 관리를 활용하려는 경우 MDM 기관을 설정할 필요가 없습니다.
 
 -   모바일 장치 관리가 범위에 포함되는 경우 다음과 관련된 지침을 제공합니다.
 
@@ -170,6 +166,7 @@ FastTrack 온보딩 프로세스의 다음 부분인 [Microsoft 책임](fasttrac
 
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

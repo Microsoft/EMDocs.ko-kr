@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 사고 대응 요구 사항 파악
-description:
-keywords:
+title: "사고 대응 요구 사항 파악"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 6f9fd9b3-492b-48e1-871c-e5abefe1293a
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
+ms.openlocfilehash: 3be59381d215da3a6c1e7e33bae592d02201c196
+
 
 ---
 
@@ -30,10 +24,9 @@ ms.suite: ems
 >[!NOTE]
 >이 항목은 좀 더 큰 디자인 고려 사항 가이드의 일부입니다. 이 가이드의 맨 처음부터 시작하려면 [기본 항목](mdm-design-considerations-guide.md)을 확인하세요. 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
 
-많은 조직에는 이미 사고 대응(IR) 계획을 갖추고 있지만 그런 계획이 모바일 장치를 포함하며, 해당 장치에서 사건이 보고될 경우 어떤 절차를 취해야 하는지 확인할 필요가 있습니다. 회사에서 최근에 모바일 솔루션을 추가한 경우 현재의 IR 계획이 모바일 장치를 다루지 않을 가능성이 높습니다. 
-조직에 IR 계획이 없으면 보안 팀과의 긴밀한 협조를 통해 요구 사항을 이해하여 요구에 가장 부합하는 MDM 솔루션을 선택할 때 필요한 올바른 질문을 파악하는 것이 좋습니다. 
+많은 조직에는 이미 사고 대응(IR) 계획을 갖추고 있지만 그런 계획이 모바일 장치를 포함하며, 해당 장치에서 사건이 보고될 경우 어떤 절차를 취해야 하는지 확인할 필요가 있습니다. 회사에서 최근에 모바일 솔루션을 추가한 경우 현재의 IR 계획이 모바일 장치를 다루지 않을 가능성이 높습니다. 조직에 IR 계획이 없으면 보안 팀과의 긴밀한 협조를 통해 요구 사항을 이해하여 요구에 가장 부합하는 MDM 솔루션을 선택할 때 필요한 올바른 질문을 파악하는 것이 좋습니다. 
  
->[!TIP]IR 계획에 대한 최소 요구 사항을 보다 잘 이해하려면 [IT 보안 사고에 대응](https://technet.microsoft.com/library/cc700825.aspx)을 읽어보세요.
+>[!TIP] IR 계획에 대한 최소 요구 사항을 보다 잘 이해하려면 [IT 보안 사고에 대응](https://technet.microsoft.com/library/cc700825.aspx)을 읽어보세요.
 
 MDM 솔루션을 설계할 때 다음과 같은 질문을 제기하여 사고가 발생하는 경우 모바일 장치를 관리할 수 있도록 해야 합니다.
 
@@ -52,6 +45,7 @@ MDM 솔루션을 설계할 때 다음과 같은 질문을 제기하여 사고가
 
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

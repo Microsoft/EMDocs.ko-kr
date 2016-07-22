@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 네트워크 요구 사항 확인
-description:
-keywords:
+title: "네트워크 요구 사항 확인"
+description: 
+keywords: 
 author: andredm7
 manager: swadhwa
 ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 77e7cab9-2fae-4857-be5d-2b6f57e981be
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
+ms.openlocfilehash: 40fbc4d61c4ccf574f41753bd4795562ccc82be0
+
 
 ---
 
@@ -115,6 +109,7 @@ ms.suite: ems
 >[!TIP]
 >각 응답을 적어두고 답변의 의미를 이해해야 합니다. 이후의 작업에서는 사용 가능한 옵션과 각 옵션의 장단점을 살펴봅니다.  이러한 질문에 답변하면 비즈니스 요구에 가장 적합한 옵션을 선택하는 데 도움이 됩니다.
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

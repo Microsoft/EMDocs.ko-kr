@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 회사 메일 및 첨부 파일 보호를 위한 솔루션 구현
-description:
-keywords:
+title: "회사 메일 및 첨부 파일 보호를 위한 솔루션 구현"
+description: 
+keywords: 
 author: karthikaraman
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: edc744d8-97d9-42e0-8906-6f0dedd8d629
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
+ms.openlocfilehash: eec74f54e6e6265d53f62fdccead61bff9174503
+
 
 ---
 
@@ -46,8 +40,7 @@ ms.suite: ems
 
 -   **정책**: EMS 솔루션 및 해당 구성 요소에는 여러 정책이 포함되어 있으며, 이러한 정책을 통해 보안과 액세스를 관리합니다. IT 관리자가 구성해야 하는 정책을 결정합니다. 전자 메일 및 전자 메일 데이터에 대한 액세스를 보호할 때 조사 및 계획에 사용되는 세 가지 주요 정책은 다음과 같습니다.
 
-    -   **장치 준수 정책**: 회사에 중요한 준수 사항을 결정합니다. Intune에는 설정 가능한 여러 규칙이 포함되어 있지만 이러한 규칙이 회사에 모두 적용될 수도 있고 그렇지 않을 수도 있습니다. 언제든지 정책을 변경할 수는 있지만
-        회사에 사용할 기본 정책 집합을 결정하는 것이 좋습니다. 준수 정책은 Intune 사용자 그룹 및 장치 그룹을 대상으로 합니다.
+    -   **장치 준수 정책**: 회사에 중요한 준수 사항을 결정합니다. Intune에는 설정 가능한 여러 규칙이 포함되어 있지만 이러한 규칙이 회사에 모두 적용될 수도 있고 그렇지 않을 수도 있습니다. 언제든지 정책을 변경할 수는 있지만 회사에 사용할 기본 정책 집합을 결정하는 것이 좋습니다. 준수 정책은 Intune 사용자 그룹 및 장치 그룹을 대상으로 합니다.
 
     -   **조건부 액세스 정책**: 조건부 액세스 정책은 Azure AD 보안 그룹을 대상으로 합니다. 정책의 대상으로 지정할 사용자와 정책에서 제외해야 하는 사용자가 있는지 여부를 확인합니다. 조건부 액세스는 클라우드 기반 솔루션과 하이브리드 구현에서 모두 지원됩니다.
 
@@ -104,6 +97,7 @@ Exchange Online 전용 구현의 경우에는 현재 구현에 따라 앞에서 
 - [Microsoft Intune 및 Configuration Manager와 함께 조건부 액세스 사용](conditional-access-intune-configmgr.md)
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

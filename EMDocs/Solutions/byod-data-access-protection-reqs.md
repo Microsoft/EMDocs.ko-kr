@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 데이터 액세스 및 보호 요구 사항
-description:
-keywords:
+title: "데이터 액세스 및 보호 요구 사항"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 29eddc34-5ca5-4169-89b6-8137b03ab7f0
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: cb703f289e86c832f8594e016193cfe1f55cb6df
+ms.openlocfilehash: d926b1b512928021c6660a07f2383aad038d8f69
+
 
 ---
 
@@ -98,6 +92,7 @@ ms.suite: ems
 - 회사에 소송 또는 범죄 수사 시 장치 몰수에 대한 정책이 있습니까?
 
 
-<!--HONumber=Apr16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Microsoft Intune 및 Configuration Manager가 포함된 Exchange Online 및 온-프레미스에서 조건부 액세스 사용
-description:
-keywords:
+title: "Microsoft Intune 및 Configuration Manager가 포함된 Exchange Online 및 온-프레미스에서 조건부 액세스 사용"
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 5ccd033f-bc31-4fae-b6bf-9e1c2722627f
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
+ms.openlocfilehash: 2323ad99cdec31419c71c7dfc5133d3144806ecf
+
 
 ---
 
@@ -44,6 +38,7 @@ Exchange 온-프레미스와 Exchange Online 둘 다를 구현하는 공존성 �
 모바일 장치의 회사 메일 및 메일 데이터를 보호하기 위한 솔루션을 배포한 후에 [조건부 액세스의 최종 사용자 환경](end-user-experience-conditional-access.md)에 대해 자세히 알아볼 수 있습니다. 이렇게 하면 최종 사용자가 특정 장치를 등록할 때 발생할 수 있는 문제에 대비하는 데 도움이 됩니다.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

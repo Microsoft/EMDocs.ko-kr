@@ -1,27 +1,22 @@
 ---
-# required metadata
-
-title: Enterprise Mobility Suite에 대한 FastTrack 센터 혜택 프로세스 - Microsoft의 책임
-description:
-keywords:
+title: "Enterprise Mobility Suite에 대한 FastTrack 센터 혜택 프로세스 - Microsoft의 책임"
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
-
-# optional metadata
-
 ROBOTS: noindex
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: a92fcc56cea75adb6c3db4eeb197dba77d2b63b7
+ms.openlocfilehash: 59710c77266e9c20697012208bba5ee468ee0f38
+
 
 ---
 
@@ -86,11 +81,13 @@ FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [EM
 
     -   Microsoft Intune(Azure Active Directory)과 Azure Active Directory Connect 도구의 암호 동기화(암호 해시) 구성.
 
-        > [!NOTE] 사용자 지정 규칙 확장의 개발 및 구현은 범위에 속하지 않습니다.
+        > [!NOTE]
+        > 사용자 지정 규칙 확장의 개발 및 구현은 범위에 속하지 않습니다.
 
 -   대상이 페더레이션 ID인 경우 단일 포리스트: 필요한 경우 단일 사이트 내결함성 구성에서 Microsoft Intune을 사용한 로컬 도메인 인증을 위해 AD FS(Active Directory Federation Services)설치 및 구성.
 
-    > [!NOTE] 모든 다중 포리스트 구성의 경우, AD FS 배포는 범위에 속하지 않습니다.
+    > [!NOTE]
+    > 모든 다중 포리스트 구성의 경우, AD FS 배포는 범위에 속하지 않습니다.
 
 -   배포한 경우 SSO(Single Sign-On) 기능 테스트.
 
@@ -244,6 +241,7 @@ FastTrack 온보딩 프로세스의 다음 부분인 [고객 책임](fasttrack-c
 
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

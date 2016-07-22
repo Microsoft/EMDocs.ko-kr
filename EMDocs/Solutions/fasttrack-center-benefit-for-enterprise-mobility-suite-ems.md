@@ -1,27 +1,22 @@
 ---
-# required metadata
-
-title: EMS(Enterprise Mobility Suite)에 대한 FastTrack 센터 혜택 프로세스
-description:
-keywords:
+title: "EMS(Enterprise Mobility Suite)에 대한 FastTrack 센터 혜택 프로세스"
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 484156c7-c3c4-469d-b718-9fa33d9d0ec2
-
-# optional metadata
-
 ROBOTS: noindex
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: a92fcc56cea75adb6c3db4eeb197dba77d2b63b7
+ms.openlocfilehash: 7e0e7e61bdf2dbc38c56c4e768e7b3e511c74eeb
+
 
 ---
 
@@ -51,6 +46,7 @@ Enterprise Mobility Suite 또는 EMS에 대한 FastTrack 센터 혜택에 포함
 |Microsoft Azure RMS)|예|
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

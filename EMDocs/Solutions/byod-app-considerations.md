@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 앱 고려 사항
-description:
-keywords:
+title: "앱 고려 사항"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 4b871c74-fec8-45e2-8b45-6ef0e62f7cc6
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 95eeb4decc5408d9f4f22cbb44f5bccc14968fb3
+ms.openlocfilehash: 4c9422a04ac855b8e1b97445e7f84685be0dba77
+
 
 ---
 
@@ -184,7 +178,7 @@ BYOD 인프라 솔루션에 대한 앱의 배포 요구 사항에도 액세스�
     - MDM 에이전트를 설치해야 하는 경우 설치 프로세스를 쉽게 수행할 수 있으며 최소 시스템 리소스를 사용하는지 확인합니다.
 
 System Center 2012 R2 Configuration Manager를 사용하여 IT 부서는 Configuration Manager의 사용자 검색 기능을 통해 특정 사용자를 식별하고 라이선스를 부여한 다음 이러한 사용자 계정을 Microsoft Intune과 동기화할 사용자 지정 컬렉션에 사용자를 추가할 수 있습니다. 그러면 이러한 앱의 배포에도 도움이 됩니다.
-앱 업데이트도 앱 배포 고려 사항에 포함되어야 합니다. 앱이 설치되면 앱에 대한 업데이트를 자동으로 검색하고 Windows 스토어 앱에서 사용자에게 이를 알려야 합니다. System Center 2012 R2는 엔터프라이즈가 고유한 엔터프라이즈 앱 스토어를 보유하고 사용자가 이 스토어에서 LOB 앱을 설치하도록 하는 기능을 제공합니다. 엔터프라이즈 앱 스토어에 대한 자세한 내용은 디자인 사례 연구: 엔터프라이즈 LOB(기간 업무) Windows 스토어 앱을 참조하세요.
+앱 업데이트도 앱 배포 고려 사항에 포함되어야 합니다. 앱이 설치되면 앱에 대한 업데이트를 자동으로 검색하고 Windows 스토어 앱에서 사용자에게 이를 알려야 합니다. System Center 2012 R2는 엔터프라이즈가 고유한 엔터프라이즈 앱 스토어를 보유하고 사용자가 이 스토어에서 LOB 앱을 설치하도록 하는 기능을 제공합니다. 엔터프라이즈 앱 스토어에 대한 자세한 내용은 디자인 사례 연구: 엔터프라이즈 기간 업무 Windows 스토어 앱을 참조하세요.
 
 [Windows 10의 자동 트리거된 VPN](http://blogs.technet.com/b/canitpro/archive/2016/01/26/step-by-step-enabling-apps-to-auto-trigger-vpns-in-windows-10.aspx)을 사용하여 앱이 회사 리소스에 액세스하도록 할 수 있습니다. 이 기능을 사용하여 IT 부서는 앱이 시작될 때 VPN 연결을 열어 사전 정의된 앱 목록이 회사 네트워크에 자동으로 연결되도록 설정할 수 있습니다. 자동 트리거에 사용하도록 설정할 앱을 정의하고 사용자가 리소스에 액세스하고 있는 사용자 ID 및 컴퓨터 ID에 따라 원격 액세스를 제한할 수 있습니다. 자동 트리거된 VPN에 대한 자세한 내용은 [Windows Server 2012 R2에서 제공되는 원격 액세스의 새로운 기능](https://technet.microsoft.com/library/dn383589.aspx)을 참조하세요.
 
@@ -234,7 +228,7 @@ Windows Server 2012 R2에서는 저장소 계층화 및 온라인 데이터 중�
 
 Windows Server 2012 R2의 VDI에 대한 자세한 내용은 [Windows Server 2012 R2 원격 데스크톱 서비스의 새로운 기능](https://technet.microsoft.com/library/dn283323.aspx)을 참조하세요.
 
-BYOD 인프라 디자인에 사용할 앱 배포 및 환경에 대한 결정은 TCO(총 소유 비용)와 균형을 이루어야 합니다. VDI 도입의 TCO를 더 잘 이해하려면 [사무실 작업자 환경의 VDI TCO 분석](http://download.microsoft.com/download/7/9/A/79AAA903-25B4-4D76-8580-BC47D5700433/Microsoft VDI TCO whitepaper customer ready v1 2.pdf)을 읽어 보는 것이 좋습니다.
+BYOD 인프라 디자인에 사용할 앱 배포 및 환경에 대한 결정은 TCO(총 소유 비용)와 균형을 이루어야 합니다. VDI 도입의 TCO를 더 잘 이해하려면 [사무실 작업자 환경의 VDI TCO 분석](http://www.intel.in/content/www/in/en/data-center-efficiency/data-center-efficiency-vdi-tco-analysis-for-office-worker-environments-report.html)을 읽어 보는 것이 좋습니다.
 
 ## 보안
 
@@ -243,6 +237,7 @@ BYOD 인프라 디자인에 사용할 앱 배포 및 환경에 대한 결정은 
 보안 고려 사항은 자신의 장치를 사용하는 사용자가 사용하게 될 앱에 중요합니다. Active Directory 보안 그룹에 따라 사용자 지정 컬렉션을 사용하여 특정 액세스 요구 사항이 있는 몇 가지 앱의 대상 사용자를 제한함으로써 해당 앱을 설치할 수 있는 사용자를 제한하는 것이 좋습니다. 또한 보안을 사용하면 사용자가 동일한 사용자 이름 및 암호를 사용하여 회사 리소스에 액세스할 수 있도록 하여 사용자 환경을 향상시킬 수 있으며, 이는 AD FS를 사용하여 수행할 수 있습니다. 보안은 이러한 앱의 배포를 디자인할 때도 중요합니다. 사용자 등록을 설정하기 전에 인증서 및 테스트용 로드 키를 얻어 배포해야 합니다. 다른 팀과 협력하여 앱 인증 프로세스를 원활하게 진행합니다.
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
