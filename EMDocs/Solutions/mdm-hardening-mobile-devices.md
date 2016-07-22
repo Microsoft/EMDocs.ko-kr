@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: ade57c73-a8a2-497f-ad8d-5dfc3cba9e70
 ms.reviewer: 
 ms.suite: ems
-ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
-ms.openlocfilehash: 1a8b4be857a8fede2df37db1eabd7b95cea1dba9
+translationtype: Human Translation
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: 15a02b34861c57659310491d744bd3bc953ed449
 
 
 ---
@@ -88,10 +89,11 @@ ConfigMgr 온-프레미스 하이브리드 환경에서는 [구성 기준](https
 
 - 회사에 최신 온-프레미스 ConfigMgr 인프라가 없는 경우 통합 전에 ConfigMgr의 계획, 설치 및 구성을 위한 리소스가 필요합니다.
 
->[!TIP] [Microsoft Intune에 대한 모바일 장치 관리 정책 설정](https://technet.microsoft.com/library/dn913730.aspx)에서 Microsoft Intune 모바일 장치 보안 정책에서 구성할 수 있는 모바일 장치 관리 설정에 대해 자세히 읽어보세요. 
+>[!TIP] 
+> [Microsoft Intune에 대한 모바일 장치 관리 정책 설정](https://technet.microsoft.com/library/dn913730.aspx)에서 Microsoft Intune 모바일 장치 보안 정책에서 구성할 수 있는 모바일 장치 관리 설정에 대해 자세히 읽어보세요. 
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 
