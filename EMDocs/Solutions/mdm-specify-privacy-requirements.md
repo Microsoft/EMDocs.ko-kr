@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -13,8 +13,8 @@ ms.assetid: d02d3ec2-706a-4e03-977c-b7c06cbd4ebd
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
-ms.openlocfilehash: 519482cadc7f0054883b70dd0de20e25380ec1a6
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: b4564a1f537a2c4f299bcedf986338f4a18b5f0c
 
 
 ---
@@ -27,7 +27,8 @@ ms.openlocfilehash: 519482cadc7f0054883b70dd0de20e25380ec1a6
 
 이전 단계에서는 장치 관리 및 콘텐츠 배포 관리를 포함하는 장치 관리 작업을 정의했습니다. 이 작업의 목표는 모바일 장치에 있는 회사 콘텐츠에 대한 개인 정보 보호 요구 사항을 정의하는 것입니다. 
 
->[!TIP] 모바일 장치의 콘텐츠 배포에 대한 자세한 내용은 하이브리드 환경의 모바일 장치 및 컴퓨터에 대해 간소화된 관리 솔루션을 읽어보세요.
+>[!TIP] 
+> 모바일 장치의 콘텐츠 배포에 대한 자세한 내용은 하이브리드 환경의 모바일 장치 및 컴퓨터에 대해 간소화된 관리 솔루션을 읽어보세요.
 
 조직의 개인 정보 보호 및 규정 준수 요구 사항은 업계, 관련 규정 및 비즈니스 종류에 따라 달라집니다. 예를 들어 모바일 장치에서 기본 하드웨어 인벤토리, 소프트웨어 인벤토리, 파일 컬렉션 및 소프트웨어 배포 수행을 허용하는 MDM 솔루션을 원할 수 있습니다. 일반적으로 하드웨어 인벤토리 및 소프트웨어 배포는 기본적으로 지원됩니다. 
 
@@ -53,6 +54,6 @@ ms.openlocfilehash: 519482cadc7f0054883b70dd0de20e25380ec1a6
 Intune을 비롯한 Microsoft 클라우드 서비스에서 사용자의 개인 정보 보호를 유지하는 방법을 보다 잘 이해하려면 [Microsoft Online Services개인 정보 취급 방침](http://www.microsoft.com/server-cloud/products/intune-trust-center/privacy.aspx)을 읽어보세요.
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

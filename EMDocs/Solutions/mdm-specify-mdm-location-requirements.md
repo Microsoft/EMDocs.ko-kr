@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -13,8 +13,8 @@ ms.assetid: c8824726-082e-417a-8522-183a69328ae4
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
-ms.openlocfilehash: 541b3a4cbb200558d527a14ce6cc691d74431f0b
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: 3ff89e864ebb0bb20aec623f1e04c874ab7ad7c3
 
 
 ---
@@ -36,11 +36,12 @@ ms.openlocfilehash: 541b3a4cbb200558d527a14ce6cc691d74431f0b
         - 그러지 않은 경우 하이브리드 방식일 수 있나요?
     - 회사에서 위치에 따라 자율적으로 장치를 관리할 수 있는 분산형 모델이 필요한가요?
 
->[!TIP] 각 응답을 적어두고 답변의 의미를 이해해야 합니다. 다음 섹션에서는 사용 가능한 옵션과 각 옵션의 장단점을 살펴봅니다.  이러한 질문에 답변하면서 비즈니스 요구에 적합한 최상의 솔루션을 선택할 수 있게 됩니다.
+>[!TIP] 
+> 각 응답을 적어두고 답변의 의미를 이해해야 합니다. 다음 섹션에서는 사용 가능한 옵션과 각 옵션의 장단점을 살펴봅니다.  이러한 질문에 답변하면서 비즈니스 요구에 적합한 최상의 솔루션을 선택할 수 있게 됩니다.
 
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

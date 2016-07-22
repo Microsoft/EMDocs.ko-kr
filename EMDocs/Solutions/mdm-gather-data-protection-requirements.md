@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -13,8 +13,8 @@ ms.assetid: 98f7bd00-4be7-478e-82ea-6046813f1556
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
-ms.openlocfilehash: ac9808463acd811e53135dd7ce60844c12d46439
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: 996414ee21ba9cdb9ebcf9b7eac47fd27894bc66
 
 
 ---
@@ -61,9 +61,10 @@ ms.openlocfilehash: ac9808463acd811e53135dd7ce60844c12d46439
 - 메모리 카드 암호화 필요
 - 암호 없는 유휴 반환 허용
 
->[!TIP] Windows Phone 8.1에서 암호 없는 유휴 반환 허용 정책은 [Windows Phone 8.1 엔터프라이즈 장치 관리 프로토콜](http://download.microsoft.com/download/C/A/0/CA091018-1A43-4063-B70B-20B9901F4D10/Windows Phone 8.1 MDM Protocol.pdf)을 사용하여 구성할 수 있습니다.
+>[!TIP] 
+> Windows Phone 8.1에서 암호 없는 유휴 반환 허용 정책은 [Windows Phone 8.1 엔터프라이즈 장치 관리 프로토콜](http://download.microsoft.com/download/C/A/0/CA091018-1A43-4063-B70B-20B9901F4D10/Windows Phone 8.1 MDM Protocol.pdf)을 사용하여 구성할 수 있습니다.
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

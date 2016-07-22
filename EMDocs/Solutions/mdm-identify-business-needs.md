@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -13,8 +13,8 @@ ms.assetid: 85783069-14fb-4ead-a159-657d694eb1a7
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4764d8c3ad679c5096c0de6d9ff51ea0aa6d7c06
-ms.openlocfilehash: b43a8e20d485c970bb90f4ce619518377423b6db
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: 6a30eede24c320b5f68e84f6df1a133dd3885b11
 
 
 ---
@@ -76,12 +76,13 @@ ms.openlocfilehash: b43a8e20d485c970bb90f4ce619518377423b6db
 
 이 작업을 수행하는 동안 회사에 모바일 장치에 대한 기존 관리 및 규정 준수 정책이 있는지와 이러한 정책이 모바일 장치 관리 솔루션 선택에 어떤 영향을 미치는지 평가해야 합니다.
 
->[!TIP] 각 응답을 적어두고 답변의 의미를 이해해야 합니다. 다음 섹션에서는 사용 가능한 옵션과 각 옵션의 장단점을 살펴봅니다.  이러한 질문에 답변하면서 비즈니스 요구에 적합한 최상의 솔루션을 선택할 수 있게 됩니다.
+>[!TIP] 
+> 각 응답을 적어두고 답변의 의미를 이해해야 합니다. 다음 섹션에서는 사용 가능한 옵션과 각 옵션의 장단점을 살펴봅니다.  이러한 질문에 답변하면서 비즈니스 요구에 적합한 최상의 솔루션을 선택할 수 있게 됩니다.
 
 
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

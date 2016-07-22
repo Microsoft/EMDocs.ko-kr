@@ -12,6 +12,7 @@ ms.technology:
 ms.assetid: 54082b94-1d21-44d5-9fba-af6e04397def
 ms.reviewer: 
 ms.suite: ems
+translationtype: Human Translation
 ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
 ms.openlocfilehash: 90604329992f8ecb881ac1b83358af16de5b65cb
 
@@ -44,6 +45,6 @@ Intune 독립 실행형은 Intune 또는 온-프레미스 ConfigMgr 인프라일
 조직에서는 이러한 등록 시나리오를 모두 허용하여 부서 또는 상황별로 유연하게 다른 방법을 사용하도록 할 수 있습니다. 이 경우 모바일 장치 관리 솔루션은 두 시나리오를 모두 지원할 수 있어야 합니다.
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

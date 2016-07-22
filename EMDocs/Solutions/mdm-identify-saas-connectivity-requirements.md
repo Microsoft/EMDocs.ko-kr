@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: SaaS 연결 요구 사항 식별
-description:
-keywords:
-author: robmazz
+title: "SaaS 연결 요구 사항 식별"
+description: 
+keywords: 
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 6afbce4c-7500-4387-a19c-dff52c152097
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
+ms.openlocfilehash: d5e660e87a80b7703a09214b1d1f07e41e8f5483
+
 
 ---
 
@@ -78,6 +72,7 @@ ms.suite: ems
 - 현재 ConfigMgr 인프라가 구성되지 않은 조직의 경우 Intune과 통합하기 전에 계획, 설치 및 구성이 필요합니다.
 - ConfigMgr를 사용하는 조직의 경우 추가 온-프레미스 배포 요구 사항 및 구성 변경이 필요함
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jul16_HO3-->
 
 

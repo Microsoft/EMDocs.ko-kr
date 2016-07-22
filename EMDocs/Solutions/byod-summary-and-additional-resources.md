@@ -39,6 +39,6 @@ BYOD 시나리오와 관련된 솔루션은 다음 리소스를 참조하세요.
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

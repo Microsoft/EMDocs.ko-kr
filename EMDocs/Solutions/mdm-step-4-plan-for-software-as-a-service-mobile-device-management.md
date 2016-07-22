@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: 4단계 - SaaS(Software as a Service) 모바일 장치 관리 계획
-description:
-keywords:
-author: robmazz
+title: "4단계 - SaaS(Software as a Service) 모바일 장치 관리 계획"
+description: 
+keywords: 
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: ab50bf43-0014-4d55-a52d-12e0428adc12
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
+ms.openlocfilehash: ee44a4de3b09d2380bcabaa0380f8e2968184b62
+
 
 ---
 
@@ -45,6 +39,7 @@ ms.suite: ems
 - [SaaS 모바일 장치 관리 전략 개발](mdm-develop-saas-mdm-strategy.md)
 - [SaaS 연결 요구 사항 식별](mdm-identify-saas-connectivity-requirements.md)
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jul16_HO3-->
 
 

@@ -12,6 +12,7 @@ ms.technology:
 ms.assetid: c3d350b5-4437-4f3d-907f-57ce6a819a74
 ms.reviewer: 
 ms.suite: ems
+translationtype: Human Translation
 ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
 ms.openlocfilehash: fed75819dbc13755b5ef28cbe3abe008d46c8473
 
@@ -83,6 +84,6 @@ SCEP는 기본적으로 iOS, Windows 10 및 8.1, Windows Phone 10 및 8.1에서 
 모바일 장치 인증서 관리 옵션에 대한 자세한 내용을 보려면 [인증서 프로필을 사용하도록 설정](/Intune/deploy-use/secure-resource-access-with-certificate-profiles)하는 방법을 읽고 이러한 요구 사항 및 절차를 System Center 2012 R2 Configuration Manager의 [인증서 프로필을 사용하도록 설정](https://technet.microsoft.com/library/dn261202.aspx)과 비교합니다.
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: 50bd37fe-30b5-4a45-9c36-0b907dd13cc2
 ms.reviewer: 
 ms.suite: ems
-ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
-ms.openlocfilehash: 19ddd4da5796af41b84b979e1382a78856646a6b
+translationtype: Human Translation
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: 64cd77f7930216f38786451b56037f49d97b095a
 
 
 ---
@@ -31,7 +32,8 @@ ms.openlocfilehash: 19ddd4da5796af41b84b979e1382a78856646a6b
 
 MDM 솔루션을 통해 배포된 모든 앱, 회사 데이터 및 정책을 별도로 유지하면 선택적 초기화를 사용해서 사용자의 개인 콘텐츠 및 앱에 영향을 주지 않으면서 필요할 때 장치에서 제거할 수 있습니다. 
 
->[!TIP] 원격 초기화가 iOS 및 Android 등의 다른 플랫폼에서 작동하는 방식에 대한 자세한 내용을 보려면 [Microsoft Intune을 사용하여 전체 또는 선택적 초기화를 통해 데이터 보호 지원](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune)을 읽어보세요. 
+>[!TIP] 
+> 원격 초기화가 iOS 및 Android 등의 다른 플랫폼에서 작동하는 방식에 대한 자세한 내용을 보려면 [Microsoft Intune을 사용하여 전체 또는 선택적 초기화를 통해 데이터 보호 지원](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune)을 읽어보세요. 
 
 모바일 장치 데이터 관리를 위한 선택적 초기화는 Windows Server 2012 R2 및 Windows 8.1에 포함되어 있습니다. 이 기능은 Exchange Server 및 Microsoft Intune 관리자가 장치의 엔터프라이즈 데이터를 관리하고 [Windows 선택적 초기화](https://technet.microsoft.com/library/dn486874.aspx) 기능을 사용할 수 있는 앱을 개발하는 데 도움이 되는 리소스를 연결하는 방식으로 작동합니다.  Windows Phone 8 이상에서는 내부 저장소에서의 데이터 분리를 지원합니다.
 
@@ -89,6 +91,6 @@ EDP는 엔터프라이즈 데이터를 암호화하므로 데이터 분리를 �
 각 모바일 장치 플랫폼에 대한 선택적 초기화 후에 데이터 제거되고 유지되는 방식을 이해하려면 [Microsoft Intune을 사용하여 전체 또는 선택적 초기화를 통해 데이터 보호 지원](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune) 문서를 읽어보세요. 하이브리드 환경인 경우 ConfigMgr가 이 작업을 수행하는 데 어떻게 도움이 되는지 확인하려면 [Configuration Manager를 사용하여 모바일 장치를 원격으로 초기화하는 방법](https://technet.microsoft.com/library/dn956981.aspx) 문서를 읽어보세요.
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -62,6 +62,6 @@ MDM 솔루션을 설계할 때는 다음을 고려하세요.
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

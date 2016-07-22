@@ -4,7 +4,7 @@ description:
 keywords: 
 author: staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -14,8 +14,8 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a92fcc56cea75adb6c3db4eeb197dba77d2b63b7
-ms.openlocfilehash: 59710c77266e9c20697012208bba5ee468ee0f38
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: 5aa145639d7f38beb0a9b684cd70227edccccf42
 
 
 ---
@@ -115,11 +115,13 @@ FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [EM
 
     -   온-프레미스 Active Directory 포리스트와 Microsoft Azure Active Directory Premium 디렉터리(Azure Active Directory) 간의 동기화 구성.
 
-        > [!NOTE] 사용자 지정 규칙 확장의 개발 및 구현은 범위에 속하지 않습니다.
+        > [!NOTE] 
+        > 사용자 지정 규칙 확장의 개발 및 구현은 범위에 속하지 않습니다.
 
 -   대상이 페더레이션 ID일 때의 단일 포리스트: 필요한 경우 단일 사이트 내결함성 구성에서 Microsoft Azure AD Premium을 사용한 로컬 도메인을 인증하는 데 필요한 AD FS(Active Directory Federation Services)를 설치 및 구성합니다.
 
-    > [!NOTE] 모든 다중 포리스트 구성의 경우, AD FS 배포는 범위에 속하지 않습니다.
+    > [!NOTE] 
+    > 모든 다중 포리스트 구성의 경우, AD FS 배포는 범위에 속하지 않습니다.
 
 -   배포한 경우 SSO(Single Sign-On) 기능 테스트.
 
@@ -164,7 +166,8 @@ FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [EM
 
     -   System Center Configuration Manager의 기존 구현이 있고 Microsoft Intune으로 관리 기능을 확장하려는 경우 Configuration Manager를 MDM 기관으로 설정합니다.
 
-        > [!NOTE] 최종 사용자 소유 장치, 공유 또는 키오스크 유형 장치에서만 모바일 응용 프로그램 관리를 활용하려는 경우 MDM 기관을 설정할 필요가 없습니다.
+        > [!NOTE] 
+        > 최종 사용자 소유 장치, 공유 또는 키오스크 유형 장치에서만 모바일 응용 프로그램 관리를 활용하려는 경우 MDM 기관을 설정할 필요가 없습니다.
 
 -   모바일 장치 관리가 범위에 포함되는 경우 다음과 관련된 지침을 제공합니다.
 
@@ -242,6 +245,6 @@ FastTrack 온보딩 프로세스의 다음 부분인 [고객 책임](fasttrack-c
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -13,8 +13,8 @@ ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 3a95624c9092dba51e515bd294bd13beb4071510
-ms.openlocfilehash: 8d5c06c66102c21adcb26b86e4f8ed3550c3aca0
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: a3aa062b36a4563c3166d7ce68f616049049034f
 
 
 ---
@@ -202,13 +202,14 @@ DRS를 사용하려면 관리 기능을 제공하지 않는다는 점을 알고 
     - 단점
         - [Microsoft NAP(Network Access Protection)](https://technet.microsoft.com/library/cc731276(v=ws.10).aspx)를 사용하여 구현하는 데 IPsec이 필요하며 이는 "모든 장치"를 지원해야 하는 BYOD 시나리오에서 문제가 될 수 있음
 
-> [!NOTE] Configuration Manager의 Wi-Fi 프로필에 대한 자세한 내용은 [Configuration Manager의 Wi-Fi 프로필 소개](https://technet.microsoft.com/library/dn261224.aspx)를 참조하세요.
+> [!NOTE] 
+> Configuration Manager의 Wi-Fi 프로필에 대한 자세한 내용은 [Configuration Manager의 Wi-Fi 프로필 소개](https://technet.microsoft.com/library/dn261224.aspx)를 참조하세요.
 
 네트워크 위치는 사용자 및 장치 고려 사항에서 중요한 역할을 합니다. AD FS의 다단계 액세스 제어를 사용하여 응용 프로그램 단위 권한 부여 정책을 설정하면 사용자, 장치 및 네트워크 위치에 따라 액세스를 허용하거나 거부할 수 있습니다. 이 기능의 유효성을 확인하는 환경 설정 방법에 대한 자세한 내용은 [다단계 액세스 제어를 사용한 위험 관리](https://technet.microsoft.com/library/dn280936.aspx)를 참조하세요.
 
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

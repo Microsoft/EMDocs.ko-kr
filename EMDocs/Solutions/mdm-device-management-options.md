@@ -96,6 +96,6 @@ Intune 및 ConfigMgr를 통한 모바일 장치 관리 작업은 관리 정책�
 - 관리되는 브라우저 지원이 현재 지원되지 않음
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

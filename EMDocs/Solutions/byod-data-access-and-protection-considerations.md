@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -13,8 +13,8 @@ ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 02c3a16dfeaef55ff7747f565311c8492875da64
-ms.openlocfilehash: 1b284ec12663422308fb6a44a82fec732d7e9dfa
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: 1d6f468df0675a410d53241ae23014712be2fee4
 
 
 ---
@@ -217,7 +217,8 @@ Multi-Factor Authentication을 적용하려는 경우 회사는 AD FS의 기본
 
 외부 네트워크나 내부 네트워크에서 앱에 액세스하는 사용자에 대해 앱 단위 권한 부여를 적용하려는 경우 IT 부서는 웹 응용 프로그램 프록시를 사용할 수 있습니다. 웹 응용 프로그램 프록시를 사용하여 IT 부서는 AD FS와 함께 인증 및 권한 부여를 적용하는 특정 규칙을 만들 수 있습니다. 웹 응용 프로그램 프록시 게시는 모든 사용자 장치에 대해 작동하므로 개인 노트북, 태블릿 또는 스마트폰을 사용할 수 있습니다. 또한 게시된 앱에 액세스하기 위해 사용자가 자신의 장치에 추가 소프트웨어를 설치할 필요가 없습니다. 웹 응용 프로그램 프록시는 해당 프록시를 통해 게시된 모든 앱에서 역방향 프록시 역할을 합니다. 따라서 사용자 환경은 사용자의 장치가 앱에 직접 연결된 것처럼 동일합니다. 웹 응용 프로그램 프록시에 대한 자세한 내용은 [웹 응용 프로그램 프록시 개요](https://technet.microsoft.com/library/dn280944.aspx)를 참조하세요.
 
->[!NOTE] 하이브리드 시나리오에서 사용자 인증 및 권한 부여 환경을 원활하게 하려면 [하이브리드 ID 디자인 고려 사항 가이드](http://aka.ms/azhidcg)를 참조하세요.
+>[!NOTE] 
+> 하이브리드 시나리오에서 사용자 인증 및 권한 부여 환경을 원활하게 하려면 [하이브리드 ID 디자인 고려 사항 가이드](http://aka.ms/azhidcg)를 참조하세요.
 
 ## 정책 및 준수
 
@@ -249,6 +250,6 @@ Multi-Factor Authentication을 적용하려는 경우 회사는 AD FS의 기본
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 
