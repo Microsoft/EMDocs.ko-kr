@@ -1,8 +1,8 @@
 ---
 title: "회사 메일 및 문서를 보호하기 위한 아키텍처 지침"
-description: 
+description: "사용자 환경이 단순하고 생산성에 영향을 주지 않도록 하면서 회사의 데이터를 보호합니다."
 keywords: 
-author: karthikaraman
+author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
@@ -13,8 +13,8 @@ ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 60b9891fcf0e81bc0b5b2d0418a244af231bc8d2
-ms.openlocfilehash: a6cfc88ab59bf31eaeca2ad96327fb66ba23d44f
+ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
+ms.openlocfilehash: dc610b43b0f4b79a8a86cf87f722bd4d066602c1
 
 
 ---
@@ -99,6 +99,6 @@ ID, 장치, 앱 및 데이터용 4계층 보안 모델은 필요한 사용자만
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

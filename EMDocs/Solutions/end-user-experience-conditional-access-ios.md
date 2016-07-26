@@ -1,6 +1,6 @@
 ---
 title: "iOS 장치에서의 조건부 액세스를 위한 최종 사용자 환경"
-description: 
+description: "iOS 장치를 등록하는 최종 사용자 환경입니다."
 keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
@@ -13,15 +13,15 @@ ms.assetid: 3c641ea8-2c0e-490e-b1de-831336f46d19
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
-ms.openlocfilehash: 6ff6f8c66e5b4ed838c72dd06f200118c6461cb0
+ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
+ms.openlocfilehash: 0c1731b9acc8dc6f959702d218a9e59ce70a4e6e
 
 
 ---
 
 # iOS
 
-등록 프로세스 및 사용자에게 표시되는 화면은 최종 사용자 장치에서 실행 중인 OS 버전에 따라 약간 달라집니다. 이 항목에서는 iOS 장치의 최종 사용자 환경을 설명합니다.
+등록 프로세스 및 사용자에게 표시되는 화면은 최종 사용자 장치에서 실행 중인 OS 버전에 따라 약간 달라집니다. 이 항목에서는 iOS 장치를 등록하는 최종 사용자 환경을 설명합니다.
 
 ## 등록
 
@@ -95,6 +95,6 @@ ms.openlocfilehash: 6ff6f8c66e5b4ed838c72dd06f200118c6461cb0
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

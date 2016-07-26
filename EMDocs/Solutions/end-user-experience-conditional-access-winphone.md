@@ -1,6 +1,6 @@
 ---
 title: "Windows Phone에서의 조건부 액세스를 위한 최종 사용자 환경"
-description: 
+description: "Windows Phone을 등록하는 최종 사용자 환경입니다."
 keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
@@ -13,15 +13,15 @@ ms.assetid: 906566e0-f05e-4af5-b4d5-0efb083dca76
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
-ms.openlocfilehash: 1527f382ab35dd47d1342eb6e320048f76d62e60
+ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
+ms.openlocfilehash: 880bdf44371ad59c4d1d0a619e941f1b8e926aa3
 
 
 ---
 
 # Windows Phone
 
-등록 프로세스 및 사용자에게 표시되는 화면은 최종 사용자 장치에서 실행 중인 OS 버전에 따라 약간 달라집니다.  이 항목에서는 Windows Phone의 최종 사용자 환경을 설명합니다.
+등록 프로세스 및 사용자에게 표시되는 화면은 최종 사용자 장치에서 실행 중인 OS 버전에 따라 약간 달라집니다.  이 항목에서는 Windows Phone을 등록하는 최종 사용자 환경을 설명합니다.
 
 ## 등록
 
@@ -101,6 +101,6 @@ ms.openlocfilehash: 1527f382ab35dd47d1342eb6e320048f76d62e60
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

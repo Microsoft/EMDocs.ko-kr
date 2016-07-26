@@ -1,6 +1,6 @@
 ---
 title: "MAM의 최종 사용자 환경"
-description: 
+description: "모바일 앱 관리 정책의 최종 사용자 환경입니다."
 keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
@@ -13,13 +13,13 @@ ms.assetid: bbc9f6ea-fc92-468d-bb5b-60c67949ca28
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 276a4ee6ceab6b39b9add2ea844cdf03f142a253
-ms.openlocfilehash: 4d1db666c95ef845802952369eb0d505ef4a3dd0
+ms.sourcegitcommit: 135aedbdd08ed6b98d8296c484168398f9a1d59e
+ms.openlocfilehash: 3fc1303f0db0a9db7d3d4d37c703e2d4ec168ecb
 
 
 ---
 
-# 모바일 액세스 관리 정책의 최종 사용자 환경
+# 모바일 앱 관리 정책의 최종 사용자 환경
 MAM 정책은 앱이 회사 컨텍스트에서 사용되는 경우에만 적용됩니다. 관리되는 앱의 작동 방식을 파악할 수 있도록 사용자를 교육하려면 다음 예제 시나리오를 읽어보세요.
 
 이 섹션에서는 다음 최종 사용자 환경의 예제를 제공합니다.
@@ -66,6 +66,6 @@ MAM 정책은 앱이 회사 컨텍스트에서 사용되는 경우에만 적용�
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Intune에서 모바일 응용 프로그램 관리 정책 사용"
-description: 
+title: "Intune에서 모바일 앱 관리 정책 사용"
+description: "Intune에서 모바일 앱 관리 정책을 사용하여 앱을 만들고 배포합니다."
 keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
@@ -13,27 +13,27 @@ ms.assetid: 6d7c4104-b85f-407e-8832-0e6bbac934f5
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 276a4ee6ceab6b39b9add2ea844cdf03f142a253
-ms.openlocfilehash: 6e1c55e17c37c5e470c4b391cc8aea4ea777856f
+ms.sourcegitcommit: 135aedbdd08ed6b98d8296c484168398f9a1d59e
+ms.openlocfilehash: 6e1141ea69d92e0afcaa36f8b29d4d5000019769
 
 
 ---
 
-# Intune에서 모바일 응용 프로그램 관리 정책 사용
+# Intune에서 모바일 앱 관리 정책 사용
 많은 회사에서 Microsoft Intune을 사용하는 주된 이유 중 하나는 사용자가 작업을 완료하는 데 필요한 앱을 배포하기 위해서입니다. 앱을 배포하려면 먼저 [장치를 관리하도록 설정](https://docs.microsoft.com/en-us/intune/deploy-use/enroll-devices-in-microsoft-intune)해야 합니다.
 
 예를 들어 회사에서 Microsoft Word를 사용하는 경우 Windows, iOS, Android 등에 사용 가능한 여러 버전이 있습니다. 이러한 경우 IT 관리자는 사용 가능한 여러 앱을 다양한 장치와 컴퓨터 플랫폼에서 관리하여 회사 데이터의 보안을 유지하면서 사용자가 작업을 수행할 수 있도록 해야 합니다.
 
 구성 관리자에서 Intune을 사용하는 경우 [Configuration Manager에서 모바일 응용 프로그램 관리 정책을 사용하여 앱을 제어하는 방법](https://technet.microsoft.com/library/mt131414.aspx?f=255&MSPPError=-2147217396) 항목을 참조하세요.
 
-모바일 응용 프로그램 관리 정책에서는 다음 장치를 지원합니다.
+MAM(모바일 앱 관리) 정책에서는 다음을 지원합니다.
 - Android 4 이상을 실행하는 장치
 - iOS 7 이상을 실행하는 장치
 
 > [!NOTE]
-> 모바일 응용 프로그램 관리 정책에서는 Intune으로 등록된 장치를 지원합니다. Intune에서 관리되지 않는 장치의 앱 관리 정책을 만드는 방법에 대한 자세한 내용은 [Protect app data using mobile app management policies with Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)(Microsoft Intune으로 모바일 앱 관리 정책을 사용하여 앱 데이터 보호) 항목을 참조하세요.
+> MAM 정책에서는 Intune으로 등록된 장치를 지원합니다. Intune에서 관리되지 않는 장치의 앱 관리 정책을 만드는 방법에 대한 자세한 내용은 [Protect app data using mobile app management policies with Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune)(Microsoft Intune으로 모바일 앱 관리 정책을 사용하여 앱 데이터 보호) 항목을 참조하세요.
 
-다른 Intune 정책과는 달리 모바일 응용 프로그램 관리 정책은 직접 배포하지 않고 대신 제한할 앱에 해당 정책을 연결합니다. 장치에서 앱을 배포하고 설치하면 지정한 설정이 적용됩니다.
+다른 Intune 정책과 달리 MAM 정책은 직접 배포하지 않습니다. 대신 제한할 앱에 해당 정책을 연결합니다. 장치에서 앱을 배포하고 설치하면 지정한 설정이 적용됩니다.
 
 앱에 제한을 적용하려면 Microsoft Intune 앱 SDK(소프트웨어 개발 키트)를 통합해야 합니다. 이러한 유형의 앱은 두 가지 방법으로 얻을 수 있습니다.
 
@@ -51,12 +51,12 @@ iOS 및 Android용 Outlook 등과 같은 일부 관리 앱은 **다중 ID**를 �
 
 Word, Excel 및 PowerPoint는 OneDrive 또는 SharePoint와 같은 서비스에서 회사를 식별할 수 있는 데이터를 관리 및 편집하는 경우에만 정책 제한이 적용된다는 점을 제외하고 다중 ID도 지원합니다.
 
-## 모바일 응용 프로그램 관리 정책을 사용하여 앱 만들기 및 배포
+## Intune에서 모바일 앱 관리 정책을 사용하여 앱 만들기 및 배포
 
 - 1단계: 정책으로 관리되는 앱의 링크를 가져오거나 래핑된 앱을 만듭니다.
 - 2단계: 클라우드 저장소 공간에 앱을 게시합니다.
-- 3단계: 모바일 응용 프로그램 관리 정책을 만듭니다.
-- 4단계: 모바일 응용 프로그램 관리 정책에 앱을 연결하는 옵션을 선택하여 앱을 배포합니다.
+- 3단계: 모바일 앱 관리 정책을 만듭니다.
+- 4단계: 모바일 앱 관리 정책에 앱을 연결하는 옵션을 선택하여 앱을 배포합니다.
 - 5단계: 앱 배포 모니터링
 
 ### 1단계: 정책으로 관리되는 앱의 링크를 가져오거나 래핑된 앱 만들기
@@ -69,7 +69,7 @@ Word, Excel 및 PowerPoint는 OneDrive 또는 SharePoint와 같은 서비스에�
 
 클라우드 저장소 공간에 앱을 업로드하는 데 필요한 전체 단계에 대해서는 [Microsoft Intune에서 모바일 장치용 앱 추가](https://docs.microsoft.com/en-us/intune/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune#add-the-app)를 참조하세요.
 
-### 3단계: 모바일 응용 프로그램 관리 정책을 만듭니다.
+### 3단계: 모바일 앱 관리 정책 만들기
 Azure 포털은 MAM 정책을 만들기 위한 권장 관리 콘솔입니다. Azure 포털에서는 다음 MAM 시나리오를 지원합니다.
 - Intune에서 등록된 장치
 - 타사 MDM 솔루션에서 관리되는 장치
@@ -83,7 +83,7 @@ Azure 포털을 사용하여 MAM 정책을 관리하는 방법에 대한 자세�
 ### 4단계: 모바일 응용 프로그램 관리 정책에 앱을 연결하는 옵션을 선택하여 앱을 배포합니다.
 Azure 포털을 사용하는 경우 [사용자에게 MAM 정책을 배포](https://docs.microsoft.com/en-us/intune/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune#deploy-a-policy-to-users)합니다.
 
-Intune 포털을 사용하는 경우 [앱을 배포하고](https://docs.microsoft.com/en-us/intune/deploy-use/deploy-apps-in-microsoft-intune#deploy-an-app) 모바일 앱 관리 페이지에서 모바일 응용 프로그램 관리 정책을 선택하여 해당 정책이 앱에 연결되었는지 확인합니다.
+Intune 포털을 사용하는 경우 [앱을 배포하고](https://docs.microsoft.com/en-us/intune/deploy-use/deploy-apps-in-microsoft-intune#deploy-an-app) 모바일 앱 관리 페이지에서 모바일 앱 관리 정책을 선택하여 해당 정책이 앱에 연결되었는지 확인합니다.
 
 Intune에서 장치 등록을 취소해도 정책은 앱에서 제거되지 않으며, 정책이 적용되었던 앱은 제거했다가 다시 설치해도 정책 설정이 그대로 유지됩니다.
 
@@ -93,7 +93,7 @@ Intune에서 장치 등록을 취소해도 정책은 앱에서 제거되지 않�
 
 이 경우에는 구성한 관리 버전을 설치할 수 있도록 사용자에게 관리되지 않는 버전을 수동으로 제거하도록 요청해야 합니다.
 
-그러나 iOS 9 이상을 실행하는 장치의 경우 Intune에서는 기존 앱 관리를 수행할 권한을 제공할 것인지를 사용자에게 묻는 메시지를 자동으로 표시합니다. 사용자가 권한 제공에 동의하면 앱은 Intune에서 관리되며, 해당 앱과 연결한 모바일 응용 프로그램 관리 정책도 적용됩니다.
+그러나 iOS 9 이상을 실행하는 장치의 경우 Intune에서는 기존 앱 관리를 수행할 권한을 제공할 것인지를 사용자에게 묻는 메시지를 자동으로 표시합니다. 사용자가 권한 제공에 동의하면 앱은 Intune에서 관리되며, 해당 앱과 연결한 MAM 정책도 적용됩니다.
 
 
 ### 5단계: MAM 정책을 사용하여 앱 배포 모니터링
@@ -103,9 +103,9 @@ Intune 콘솔을 통해 앱 배포를 모니터링하고 정책 충돌을 해결
 2. 다음 단계 중 하나를 수행합니다.
   -  **모든 사용자**를 클릭한 다음 검사할 장치의 사용자를 두 번 클릭합니다. 사용자 속성 페이지에서 **장치**를 클릭하고 검사할 장치를 두 번 클릭합니다.
   -  **모든 장치 > 모든 모바일 장치**를 클릭합니다. 장치 그룹 속성 페이지에서 **장치**를 클릭하고 검사할 장치를 두 번 클릭합니다.
-3. 모바일 장치 속성 페이지에서 **정책**을 클릭하여 장치에 배포된 모바일 응용 프로그램 관리 정책의 목록을 확인합니다.
-4. 상태를 확인할 모바일 응용 프로그램 관리 정책을 선택합니다. 아래쪽 창에서 정책의 세부 정보를 보고 해당 노드를 확장하여 정책의 설정을 표시할 수 있습니다.
-5.  모바일 응용 프로그램 관리 정책의 상태 열에는 준수, 준수(보류 중)또는 오류가 표시됩니다. 선택한 정책에서 하나 이상의 설정이 충돌하면 이 필드에 오류가 표시됩니다.
+3. 모바일 장치 속성 페이지에서 **정책**을 클릭하여 장치에 배포된 MAM 정책의 목록을 표시합니다.
+4. 상태를 보려는 MAM 정책을 선택합니다. 아래쪽 창에서 정책의 세부 정보를 보고 해당 노드를 확장하여 정책의 설정을 표시할 수 있습니다.
+5.  MAM 정책의 상태 열에는 준수, 준수(보류 중) 또는 오류가 표시됩니다. 선택한 정책에서 하나 이상의 설정이 충돌하면 이 필드에 오류가 표시됩니다.
 6.  충돌이 확인되면 충돌하는 정책 설정이 같은 설정을 사용하도록 수정하거나 앱과 사용자에 대한 하나의 정책만을 배포할 수 있습니다.
 
 > [!NOTE]
@@ -117,6 +117,6 @@ MAM 정책과 관련된 앱을 만들고 배포한 후에는 [MAM의 최종 사�
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

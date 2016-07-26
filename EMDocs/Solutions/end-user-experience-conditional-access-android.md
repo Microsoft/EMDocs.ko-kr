@@ -1,6 +1,6 @@
 ---
 title: "Android 장치에서의 조건부 액세스를 위한 최종 사용자 환경"
-description: 
+description: "Android 장치를 등록하는 최종 사용자 환경입니다."
 keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
@@ -13,15 +13,15 @@ ms.assetid: 0b5e4330-6fa5-445c-b73e-86ce5b9c7964
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
-ms.openlocfilehash: 5efa0fd3567b3f91e0edcddae929bdb494f013da
+ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
+ms.openlocfilehash: 19ea25ed17121c8310024e0dcfd1b1a048486eca
 
 
 ---
 
 # Android
 
-등록 프로세스 및 사용자에게 표시되는 화면은 최종 사용자 장치에서 실행 중인 OS 버전에 따라 약간 달라집니다. 이 항목에서는 Android 장치의 최종 사용자 환경을 설명합니다.
+등록 프로세스 및 사용자에게 표시되는 화면은 최종 사용자 장치에서 실행 중인 OS 버전에 따라 약간 달라집니다. 이 항목에서는 Android 장치를 등록하는 최종 사용자 환경을 설명합니다.
 
 ## 등록
 
@@ -107,6 +107,6 @@ ms.openlocfilehash: 5efa0fd3567b3f91e0edcddae929bdb494f013da
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

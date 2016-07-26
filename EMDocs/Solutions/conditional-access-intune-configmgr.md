@@ -1,6 +1,6 @@
 ---
 title: "Intune 및 Configuration Manager와 함께 조건부 액세스 사용"
-description: 
+description: "Configuration Manager 솔루션을 사용하여 Intune을 배포합니다."
 keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
@@ -13,8 +13,8 @@ ms.assetid: e65a0662-33ff-4e8c-9305-a21e80ea0f69
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: da76ba04d70ece8f20fdbe0fb19ad310f1fb8d28
-ms.openlocfilehash: 93d41c3e37946bbb5805e526e9fecfbe40807b3b
+ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
+ms.openlocfilehash: af8afd71d87bbe608e1b392278c9d08756619618
 
 
 ---
@@ -87,6 +87,6 @@ Exchange 온-프레미스에 대한 조건부 액세스는 다음을 지원합�
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 
