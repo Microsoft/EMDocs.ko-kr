@@ -1,28 +1,25 @@
 ---
 asset_id: 961350ed-a3f1-44f1-b239-b46345b8f620
 layout: HubPage
-title: "Enterprise Mobility 설명서"
+title: "Enterprise Mobility 설명서 | Microsoft Docs"
 description: "Microsoft Enterprise Mobility에 대한 기술 설명서"
-keywords: microsoft docs, enterprise mobility documentation, Learn enterprise mobility, enterprise mobility guide, enterprise mobility technical documentation
+keywords: "microsoft docs, enterprise mobility 설명서, enterprise mobility 알아보기, enterprise mobility 가이드, enterprise mobility 기술 설명서"
 author: msswadhwa
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: hubpage
-ms.prod: 
-ms.service: 
-ms.technology: 
 ms.suite: ems
 ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
 translationtype: Human Translation
-ms.sourcegitcommit: 9bb6da88c988c5e7f4e85f27e8fbf4a8002ae1d0
-ms.openlocfilehash: 5b60e3ae1d62edd723120c2263936bf547e36a4f
+ms.sourcegitcommit: bc95bae4c85c0abde94f15e599e3d3e712f0d30a
+ms.openlocfilehash: 9a5db8decb1ae2d759aef0a71ff5598e1b85a4ba
 
 
 ---
-# Microsoft Enterprise Mobility 설명서
+# Enterprise Mobility 설명서
 <article id="main">
     <section id="hero-content" class="graph">
-        <h1>Microsoft Enterprise Mobility 설명서</h1>
+        <h1>Enterprise Mobility 설명서</h1>
         <h2>Microsoft Enterprise Mobility에 대한 기술 설명서입니다. 이러한 문서는 Enterprise Mobility 내의 솔루션 및 제품을 이해 및 탐색하고, 서비스를 시작하고, 구현을 계획하는 데 도움이 됩니다. 또한 서비스를 배포 및 사용하고, 응용 프로그램을 개발하고, 문제를 해결하는 데 도움이 되는 자세한 기술 콘텐츠도 찾을 수 있습니다.</h2>
         <h3>Enterprise Mobility를 처음 사용하나요? <a href="http://go.microsoft.com/fwlink/?LinkId=816837" target="_blank">Microsoft Enterprise Mobility 페이지 방문 &rarr;</a></h3>
     </section>
@@ -36,12 +33,13 @@ ms.openlocfilehash: 5b60e3ae1d62edd723120c2263936bf547e36a4f
         <h2 class="section-heading"><span class="icon icon-lightbulb-checked"></span> 주요 콘텐츠</h2>
         <div class="features row">
             <ul class="column-half">
+                <li><mark><b>신규</b></mark> <a href="./information-protection/what-is-information-protection.md">Azure Information Protection(미리 보기)</a></li>
                 <li><a href="/enterprise-mobility/solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems">EMS에 대한 FastTrack 혜택</a></li>
                 <li><a href="/intune/understand-explore/introduction-to-microsoft-intune">Microsoft Intune이란?</a></li>
                 <li><a href="/advanced-threat-analytics/understand-explore/what-is-ata">Advanced Threat Analytics란?</a></li>
-                <li><a href="/active-directory/active-directory-whatis">Azure Active Directory란?</a></li>
             </ul>
             <ul class="column-half">
+                <li><a href="/active-directory/active-directory-whatis">Azure Active Directory란?</a></li>
                 <li><a href="/microsoft-identity-manager/understand-explore/microsoft-identity-manager-2016">Microsoft Identity Manager란?</a></li>
                 <li><a href="/rights-management/understand-explore/what-is-azure-rms">Azure 권한 관리란?</a></li>
                 <li><a href="https://www.microsoft.com/itshowcase/Article/Content/588/Mobile-device-management-at-Microsoft" target="_blank">Microsoft의 모바일 장치 관리</a></li>
@@ -155,7 +153,7 @@ ms.openlocfilehash: 5b60e3ae1d62edd723120c2263936bf547e36a4f
     </div>
     <div class="section-border">
         <section class="resources container">
-            <h2 class="section-heading"><span class="icon icon-note"></span> 시나리오 및 가이드</h2>
+            <h2 class="section-heading"><span class="icon icon-note"></span> 시나리오 및 솔루션</h2>
             <div class="resource-list row">
                 <ul class="column-half">
                     <li><a href="/enterprise-mobility/solutions/mdm-design-considerations-guide">모바일 장치 관리 디자인 고려 사항 가이드</a></li>
@@ -165,6 +163,7 @@ ms.openlocfilehash: 5b60e3ae1d62edd723120c2263936bf547e36a4f
                 <ul class="column-half">
                     <li><a href="/enterprise-mobility/solutions/conditional-access-intune">Intune을 사용하는 조건부 액세스</a></li>
                     <li><a href="/enterprise-mobility/solutions/architecture-guidance-for-protecting-company-email-and-documents">회사 메일 및 문서 보호</a></li>
+                    <li><a href="https://support.office.com/en-us/article/Plan-for-Office-365-security-and-information-protection-capabilities-3d4ac4a1-3920-4ff9-918f-011f3ce60408?ui=en-US&rs=en-US&ad=US">Office 365 보안 및 보호 기능</a></li>
                 </ul>
             </div>
         </section>
@@ -180,6 +179,6 @@ ms.openlocfilehash: 5b60e3ae1d62edd723120c2263936bf547e36a4f
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 
