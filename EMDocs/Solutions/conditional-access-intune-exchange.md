@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Intune 및 Exchange Server 온-프레미스로 조건부 액세스 사용"
+title: "Intune 및 Exchange Server 온-프레미스로 조건부 액세스 사용"
 description: "Intune 솔루션을 사용하여 Exchange 온-프레미스를 배포합니다."
 keywords: 
 author: craigcaseyMSFT
@@ -13,8 +13,8 @@ ms.assetid: 2a64e898-4c60-48bf-ae14-b05e091e0533
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
-ms.openlocfilehash: b7f29e13b6d1533660cfe8f0708b8b8dfb8bd774
+ms.sourcegitcommit: 026e6701b635a3b05753404fd064fee5bf10147e
+ms.openlocfilehash: d68b1aa77ffb6bf8674c9b07529d91a20656f195
 
 
 ---
@@ -79,6 +79,6 @@ Intune 대시보드에서 **Exchange에서 차단된 장치** 타일을 클릭�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

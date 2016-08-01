@@ -1,5 +1,5 @@
 ---
-title: "Exchange Server 온-프레미스, Microsoft Intune 및 Configuration Manager가 포함된 조건부 액세스 사용"
+title: "조건부 액세스- Exchange 온-프레미스, Intune, Configuration Manager"
 description: "Configuration Manager, Exchange Server 온-프레미스 및 Intune을 사용하여 모바일 장치에서 메일 액세스를 관리하고 메일 데이터를 보호합니다."
 keywords: 
 author: craigcaseyMSFT
@@ -13,8 +13,8 @@ ms.assetid: 56b6cd2d-3dea-468b-9f1c-92717c9ec5f5
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
-ms.openlocfilehash: df34cb6357c56e88bc55b40cfb254bbcad31a41f
+ms.sourcegitcommit: 026e6701b635a3b05753404fd064fee5bf10147e
+ms.openlocfilehash: 7cb50027c7bde353f2df24b2b13b93259aee7b78
 
 
 ---
@@ -186,6 +186,6 @@ SSRS 보고서를 보려면 주 서버에 보고 역할이 설치되어 있어�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

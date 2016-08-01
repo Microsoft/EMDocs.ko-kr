@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Intune 및 Configuration Manager가 포함된 Exchange Online 및 온-프레미스에서 조건부 액세스 사용"
+title: "Intune 및 Configuration Manager와 함께 Exchange에 조건부 액세스"
 description: "Configuration Manager 및 Intune과 더불어 Exchange 온-프레미스 및 Exchange Online을 함께 사용하여 모바일 장치에서 메일 액세스를 관리하고 메일 데이터를 보호합니다."
 keywords: 
 author: craigcaseyMSFT
@@ -13,8 +13,8 @@ ms.assetid: 5ccd033f-bc31-4fae-b6bf-9e1c2722627f
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
-ms.openlocfilehash: 32832badd5a0a262ba004d5af82ccae908a330f8
+ms.sourcegitcommit: 026e6701b635a3b05753404fd064fee5bf10147e
+ms.openlocfilehash: 8d1e7f6bf8d798dee570d970c30e98974f9bd5be
 
 
 ---
@@ -39,6 +39,6 @@ Exchange 온-프레미스와 Exchange Online 둘 다를 구현하는 공존성 �
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 
