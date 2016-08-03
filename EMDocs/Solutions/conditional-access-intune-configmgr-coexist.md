@@ -39,6 +39,6 @@ Exchange 온-프레미스와 Exchange Online 둘 다를 구현하는 공존성 �
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

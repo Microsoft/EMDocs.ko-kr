@@ -87,6 +87,6 @@ Exchange 온-프레미스에 대한 조건부 액세스는 다음을 지원합�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 
