@@ -4,17 +4,17 @@ description:
 keywords: 
 author: andredm7
 manager: swadhwa
-ms.date: 05/31/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: b3cefcc5-b045-48f9-91f5-6d282a4428f3
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
-ms.openlocfilehash: 91d1498db006b387ff524b2b26c715c3a109dd8a
+ms.sourcegitcommit: 0b77c2b49180c3871a1885d8faa232b412bac384
+ms.openlocfilehash: 29a71aed55e7b92626443caa5536928d42458b49
 
 
 ---
@@ -76,6 +76,7 @@ ms.openlocfilehash: 91d1498db006b387ff524b2b26c715c3a109dd8a
 SaaS 솔루션 기능 및 요구 사항에 대한 자세한 내용을 보려면 **[Microsoft Intune 서비스 설명](https://technet.microsoft.com/library/dn600286.aspx)**을 검토하여 [MDM for Office 365](https://technet.microsoft.com/library/faa7d8e5-645d-4d59-839c-c8d4c1869e4a(v=technet.10).aspx) 및 [하이브리드](https://technet.microsoft.com/library/jj884158.aspx) Intune 및 ConfigMgr 인프라에서의 SaaS 지원 차이를 이해하세요.
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Aug16_HO1-->
 
 

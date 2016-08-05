@@ -4,17 +4,17 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 07/07/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 98f7bd00-4be7-478e-82ea-6046813f1556
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
-ms.openlocfilehash: 996414ee21ba9cdb9ebcf9b7eac47fd27894bc66
+ms.sourcegitcommit: e51462f1b238f7e3b518a7a9c8042ff3ad78a5a5
+ms.openlocfilehash: e98bd3d7058a082e0386f2dd1569f94b5b0d3ed5
 
 
 ---
@@ -65,6 +65,7 @@ ms.openlocfilehash: 996414ee21ba9cdb9ebcf9b7eac47fd27894bc66
 > Windows Phone 8.1에서 암호 없는 유휴 반환 허용 정책은 [Windows Phone 8.1 엔터프라이즈 장치 관리 프로토콜](http://download.microsoft.com/download/C/A/0/CA091018-1A43-4063-B70B-20B9901F4D10/Windows Phone 8.1 MDM Protocol.pdf)을 사용하여 구성할 수 있습니다.
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Aug16_HO1-->
 
 

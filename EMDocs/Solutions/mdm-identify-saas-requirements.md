@@ -4,17 +4,17 @@ description:
 keywords: 
 author: andredm7
 manager: swadhwa
-ms.date: 05/31/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 5380e56c-9c48-459e-aea5-95ad90dbb7d1
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
-ms.openlocfilehash: 949a049f3cfdae84b0203898f7c0a5f7e38fdb98
+ms.sourcegitcommit: 0b77c2b49180c3871a1885d8faa232b412bac384
+ms.openlocfilehash: 3021a307f4cb8006756f4422c78e13708f30ee6b
 
 
 ---
@@ -117,6 +117,7 @@ SaaS 관리 수명 주기 계획의 일부로, 클라우드 유형에 대해 다
 >각 응답을 적어두고 답변의 의미를 이해해야 합니다. 이후의 작업에서는 사용 가능한 옵션과 각 옵션의 장단점을 살펴봅니다.  이러한 질문에 답변하면 비즈니스 요구에 가장 적합한 옵션을 선택하는 데 도움이 됩니다.
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Aug16_HO1-->
 
 

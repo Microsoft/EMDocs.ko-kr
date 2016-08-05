@@ -4,17 +4,17 @@ description: "이 항목에서는 모바일 장치에서 데이터 암호화에 
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 07/12/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 1072858e-dc0a-44ad-a512-d938f20310b6
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4993391889b87512cda6b9c170960b156c32e163
-ms.openlocfilehash: 3d80b531c02a4b2a85082d2070e20129d51eeeee
+ms.sourcegitcommit: e51462f1b238f7e3b518a7a9c8042ff3ad78a5a5
+ms.openlocfilehash: b7eb90860a5277766c4ab7841dc378b4197ee872
 
 
 ---
@@ -82,6 +82,6 @@ Intune 및 ConfigMgr 기능을 결합하여 데이터 보호 기능을 강화하
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

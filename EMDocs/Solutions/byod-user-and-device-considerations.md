@@ -4,17 +4,17 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 07/07/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
-ms.openlocfilehash: a3aa062b36a4563c3166d7ce68f616049049034f
+ms.sourcegitcommit: e51462f1b238f7e3b518a7a9c8042ff3ad78a5a5
+ms.openlocfilehash: b19df4464314185d702cdf2ff9eb58c18dbf31a3
 
 
 ---
@@ -210,6 +210,6 @@ DRS를 사용하려면 관리 기능을 제공하지 않는다는 점을 알고 
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

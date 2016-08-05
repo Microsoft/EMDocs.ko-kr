@@ -4,17 +4,17 @@ description:
 keywords: 
 author: andredm7
 manager: swadhwa
-ms.date: 05/31/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 26b15471-b496-4404-934d-67e621655bca
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
-ms.openlocfilehash: 7e43f590182e6a2eacfa60114290848de0b24baa
+ms.sourcegitcommit: 0b77c2b49180c3871a1885d8faa232b412bac384
+ms.openlocfilehash: 4414f62c756ff8eff323005168e6e2bced3e6260
 
 
 ---
@@ -78,6 +78,7 @@ SaaS 관리 수명 주기 계획의 일환으로, 기존 클라이언트 관리 
 >각 응답을 적어두고 답변의 의미를 이해해야 합니다. 이후의 작업에서는 사용 가능한 옵션과 각 옵션의 장단점을 살펴봅니다.  이러한 질문에 답변하면 비즈니스 요구에 가장 적합한 옵션을 선택하는 데 도움이 됩니다.
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Aug16_HO1-->
 
 
