@@ -4,17 +4,17 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ba8cc256-2075-457f-a827-7ec9213c5235
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f752f75206cb37cbe565e44a00f20fcdad13ddb5
-ms.openlocfilehash: 91deaf9d02b27182353cbe511ff86a01582dc60a
+ms.sourcegitcommit: e51462f1b238f7e3b518a7a9c8042ff3ad78a5a5
+ms.openlocfilehash: 20a93c06b30fddf42f464a9a30b784c8aa4d7a33
 
 
 ---
@@ -54,7 +54,7 @@ ms.openlocfilehash: 91deaf9d02b27182353cbe511ff86a01582dc60a
 
 회사에서 다양한 유형의 장치를 지원하도록 선택하면 저장소 암호화, VPN 연결 옵션 및 지원되는 프로그래밍 언어와 같은 장치의 기능을 이해해야 합니다. 회사 정책을 준수하도록 구현할 수 있는 기능을 평가합니다. 규정 준수를 충족하기 위한 장치 모니터링은 정책을 적용하여 수행할 수 있습니다. 데이터가 사용자의 장치에 저장된 상태인 경우 장치 암호화를 사용하는 것이 좋습니다. 그러면 데이터 누출 전략에 도움을 줄 수 있습니다. 암호 잠금 해제, 암호 기록 및 강력한 암호화 같은 정책을 적용하면 온-프레미스와 모바일 장치에서 유사한 보안을 제공할 수 있습니다.
 
-Configuration Manager의 규정 준수 설정을 통해 IT 부서는 엔터프라이즈에 있는 서버, 노트북, 데스크톱 컴퓨터 및 모바일 장치의 구성 및 규정 준수를 관리할 수 있습니다. Configuration Manager에 기본 제공되는 기본 규정 준수 설정을 모바일 장치의 기준으로 사용하고 여기에서 회사의 요구에 따라 사용자 지정하는 것이 좋습니다. Configuration Manager의 규정 준수 설정에 대한 자세한 내용은 [Configuration Manager의 규정 준수 설정 소개](https://technet.microsoft.com/en-us/library/gg682139.aspx)를 참조하세요.
+Configuration Manager의 규정 준수 설정을 통해 IT 부서는 엔터프라이즈에 있는 서버, 노트북, 데스크톱 컴퓨터 및 모바일 장치의 구성 및 규정 준수를 관리할 수 있습니다. Configuration Manager에 기본 제공되는 기본 규정 준수 설정을 모바일 장치의 기준으로 사용하고 여기에서 회사의 요구에 따라 사용자 지정하는 것이 좋습니다. Configuration Manager의 준수 설정에 대한 자세한 내용은 [Introduction to Compliance Settings in Configuration Manager](https://technet.microsoft.com/library/gg682139.aspx)(Configuration Manager의 준수 설정 소개)를 참조하세요.
 
 Windows 선택적 지우기를 사용하여 IT 부서는 회사 또는 개인 장치에 분산된 엔터프라이즈의 회사 데이터를 보호할 수 있습니다. 개발자는 데이터에 대해 Windows 선택적 지우기 정책을 사용하는 앱을 만들고 엔터프라이즈가 소유한 인터넷 도메인에서 데이터를 보호할 수 있습니다. Windows 선택적 지우기에 대한 자세한 내용은 장치 데이터 관리를 위한 Windows 선택적 지우기를 참조하세요.
 
@@ -178,7 +178,7 @@ System Center 2012 R2의 가장 강력한 자동화 옵션은 Windows PowerShell
 
 이 영역에서 한 가지 문제는 다양한 플랫폼을 관리하고 IT 부서가 온-프레미스 및 클라우드에서 연결된 장치를 신속하게 식별할 수 있도록 하는 중앙 관리 인터페이스를 유지하는 것입니다. 온-프레미스와 클라우드 둘 다를 통합할 수 있는 관리 플랫폼을 채택하고 Windows 및 비Windows 시스템을 관리할 수 있는 관리 플랫폼도 채택하는 것이 좋습니다.
 
-온-프레미스의 중앙 집중식 관리에는 Configuration Manager를 사용할 수 있습니다. 이 옵션을 사용하면 IT 부서에서 기업 등록계약 기능을 사용하여 회사의 Configuration Manager Server에 장치를 등록할 수 있습니다. Configuration Manager를 사용하여 장치를 관리하는 방법에 대한 자세한 내용은 [Configuration Manager 및 Microsoft Intune을 사용하여 모바일 장치 관리](https://technet.microsoft.com/en-us/library/jj884158.aspx)를 참조하세요.
+온-프레미스의 중앙 집중식 관리에는 Configuration Manager를 사용할 수 있습니다. 이 옵션을 사용하면 IT 부서에서 기업 등록계약 기능을 사용하여 회사의 Configuration Manager Server에 장치를 등록할 수 있습니다. Configuration Manager를 사용하여 장치를 관리하는 방법에 대한 자세한 내용은 [Configuration Manager 및 Microsoft Intune을 사용하여 모바일 장치 관리](https://technet.microsoft.com/library/jj884158.aspx)를 참조하세요.
 
 Windows 기반 장치가 아닌 다른 플랫폼을 관리하려면 Microsoft Intune 클라우드 서비스를 사용할 수 있습니다. Microsoft Intune 회사 포털을 사용하여 사용이 허가된 앱을 등록, 관리 및 설치할 수 있습니다. 사용자는 자신의 장치에서 앱에 쉽게 액세스하여 설치할 수 있습니다. 
 
@@ -197,6 +197,6 @@ Windows 기반 장치가 아닌 다른 플랫폼을 관리하려면 Microsoft In
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

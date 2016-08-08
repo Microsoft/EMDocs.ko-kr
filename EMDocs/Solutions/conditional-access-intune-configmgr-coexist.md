@@ -13,8 +13,8 @@ ms.assetid: 5ccd033f-bc31-4fae-b6bf-9e1c2722627f
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 026e6701b635a3b05753404fd064fee5bf10147e
-ms.openlocfilehash: 8d1e7f6bf8d798dee570d970c30e98974f9bd5be
+ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
+ms.openlocfilehash: 9f783b0faf8da0beaffbfd2e5dd9d7bfcdc08ac2
 
 
 ---
@@ -29,7 +29,7 @@ Exchange 온-프레미스와 Exchange Online의 공존성과 함께 Configuratio
 ## 전제 조건
 Exchange 온-프레미스와 Exchange Online 둘 다를 구현하는 공존성 유형의 환경을 구성하려면 기존 Exchange 조직이 특정 요구 사항을 충족해야 합니다. 이러한 요구 사항을 충족하지 않으면 Exchange 온-프레미스 조직과 Microsoft Office 365의 Exchange Online 조직 간에 하이브리드 배포를 구성하는 데 필요한 단계를 완료할 수 없습니다.
 
-이러한 유형의 환경을 만들고 구성하기 위한 필수 조건을 검토하려면 [하이브리드 배포 필수 조건](https://technet.microsoft.com/en-us/library/hh534377.aspx) 을 참조하세요.
+이러한 유형의 환경을 만들고 구성하기 위한 요구 사항을 검토하려면 [하이브리드 배포 필수 조건](https://technet.microsoft.com/library/hh534377.aspx)을 참조하세요.
 
 ## 배포 단계
 공존성 솔루션을 배포하려면 [Exchange Server 온-프레미스](conditional-access-intune-configmgr-exchange.md) 및 [Exchange Online](conditional-access-intune-configmgr-exchange-online.md) 솔루션 둘 다를 배포하기 위한 위의 단계를 따르세요.

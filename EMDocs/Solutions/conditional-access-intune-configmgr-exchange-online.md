@@ -13,8 +13,8 @@ ms.assetid: 06921361-9475-46e6-9368-3cc44c84b22f
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 026e6701b635a3b05753404fd064fee5bf10147e
-ms.openlocfilehash: ba0f4a56a8802e15b77bfd41bd0c5e1dc6f7c0bf
+ms.sourcegitcommit: ed846db95330ad4e4ed8e9ad0a9eaeb1c7882b70
+ms.openlocfilehash: 39ad4388a0573d8529f6cbeeb2f7dbf47a1914ce
 
 
 ---
@@ -86,7 +86,7 @@ System Center Configuration Manager와 Exchange Online을 이미 사용 중인 �
 Exchange Online 솔루션을 배포하려면 다음 단계를 따르세요.
 
 ### 1단계: 규정 준수 정책을 만들어 사용자에게 배포합니다.
-규정 준수 정책은 장치가 조건부 액세스 정책을 준수하는 것으로 간주되기 위해 준수해야 하는 규칙 및 설정을 정의합니다.  [Configuration Manager의 규정 준수 정책](https://technet.microsoft.com/en-us/library/mt131417.aspx) 의 단계에 따라 규정 준수 정책을 만듭니다.
+규정 준수 정책은 장치가 조건부 액세스 정책을 준수하는 것으로 간주되기 위해 준수해야 하는 규칙 및 설정을 정의합니다. [Configuration Manager의 준수 정책](https://technet.microsoft.com/library/mt131417.aspx) 의 단계에 따라 준수 정책을 만듭니다.
 
 더 이상 회사에 속하지 않아 iOS 장치에서 모든 회사 메일을 제거하는 기능을 원하는 경우 메일 프로필을 만들고 배포한 다음 메일 프로필이 Intune에서 관리되도록 지정하는 규정 준수 정책을 설정해야 합니다. 이 규정 준수 정책에서 대상으로 하는 사용자 집합과 동일한 사용자 집합에 메일 프로필을 배포해야 합니다.
 
@@ -97,7 +97,7 @@ Exchange Online 솔루션을 배포하려면 다음 단계를 따르세요.
 규정 준수 정책을 만든 후 목록에서 규정 준수 정책 이름을 선택하고 **배포**를 클릭합니다.
 
 ### 2단계: 조건부 액세스 정책을 구성합니다.
-먼저, 조건부 액세스를 적용하려는 방법과 시기, 영향을 받는 직원을 결정합니다. 그런 다음 [Configuration Manager의 Exchange 메일 조건부 액세스](https://technet.microsoft.com/en-us/library/mt131421.aspx) 의 단계에 따라 Exchange Online에 대한 조건부 액세스 정책을 사용하도록 설정합니다.
+먼저, 조건부 액세스를 적용하려는 방법과 시기, 영향을 받는 직원을 결정합니다. 그런 다음 [Configuration Manager의 Exchange 메일 조건부 액세스](https://technet.microsoft.com/library/mt131421.aspx)의 단계에 따라 Exchange Online에 대한 조건부 액세스 정책을 사용하도록 설정합니다.
 
 > [!NOTE]
 > Intune 콘솔에서 조건부 액세스 정책을 구성해야 합니다. 다음 단계에서는 먼저 Configuration Manager를 통해 Intune 콘솔에 액세스합니다. 메시지가 표시되면 Configuration Manager와 Intune 간의 커넥터를 설정하는 데 사용된 것과 동일한 자격 증명을 사용하여 로그인합니다.
@@ -106,16 +106,16 @@ Exchange Online 솔루션을 배포하려면 다음 단계를 따르세요.
 Configuration Manager는 Exchange 조직의 커넥터를 하나만 지원합니다.
 
 > [!IMPORTANT]
-> Exchange Server 커넥터를 설치하기 전에 사용 중인 Microsoft Exchange 버전이 Configuration Manager에서 지원되는지 확인합니다. 자세한 내용은 [Configuration Manager에 대해 지원되는 구성](https://technet.microsoft.com/en-us/library/gg682077.aspx)을 참조하세요.
+> Exchange Server 커넥터를 설치하기 전에 사용 중인 Microsoft Exchange 버전이 Configuration Manager에서 지원되는지 확인합니다. 자세한 내용은 [Configuration Manager에 대해 지원되는 구성](https://technet.microsoft.com/library/gg682077.aspx)을 참조하세요.
 
- [Configuration Manager와 Exchange를 사용하여 모바일 장치를 관리하는 방법](https://technet.microsoft.com/en-us/library/gg682001.aspx) 의 단계에 따라 Exchange Server 커넥터를 설치 및 구성합니다.
+[Configuration Manager와 Exchange를 사용하여 모바일 장치를 관리하는 방법](https://technet.microsoft.com/library/gg682001.aspx)의 단계에 따라 Exchange Server 커넥터를 설치 및 구성합니다.
 
 ## 확인 단계
 이 솔루션에 대한 선택적 Exchange Server 커넥터를 구성한 경우 Configuration Manager 추적 로그 도구를 사용하여 Configuration Manager를 설치한 Microsoft Configuration Manager/Logs 폴더에 있는 EasDisc.log 파일을 엽니다. 로그 파일에서 "Exchange Connector"를 검색하여 Exchange Connector를 실행 중인지 여부 및 연결된 장치 수에 대한 정보를 찾습니다.
 
 ![Configuration Manager 추적 로그 도구에서 열린 EasDisc.log 파일을 보여주는 스크린샷](./media/ProtectEmail/Hybrid-Onprem-Eas-DiscLog-Sample.PNG)
 
-Configuration Manager 추적 로그 도구는 [System Center 2012 R2 Configuration Manager Toolkit](https://www.microsoft.com/en-us/download/details.aspx?id=50012)에 포함되어 있습니다.
+Configuration Manager 추적 로그 도구는 [System Center 2012 R2 Configuration Manager Toolkit](https://www.microsoft.com/download/details.aspx?id=50012)에 포함되어 있습니다.
 
 ## 보고
 선택적 Exchange Server 커넥터를 구성한 경우 Configuration Manager 콘솔을 사용하여 Exchange Connector에서 검색된 장치에 대한 특정 정보를 볼 수 있습니다. 조건부 액세스가 적용된 장치의 경우 각 장치의 현재 상태, 각 장치가 Exchange 서버와 연결된 마지막 시간 등을 볼 수 있습니다.
@@ -150,6 +150,6 @@ SSRS 보고서를 보려면 주 서버에 보고 역할이 설치되어 있어�
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

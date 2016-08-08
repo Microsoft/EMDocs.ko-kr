@@ -13,8 +13,8 @@ ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
-ms.openlocfilehash: 43f9ccd3fe546fa7b708ed2cc6215536501db54b
+ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
+ms.openlocfilehash: 3a3631e454323226958b2f1db003883d1ace562e
 
 
 ---
@@ -34,7 +34,7 @@ ms.openlocfilehash: 43f9ccd3fe546fa7b708ed2cc6215536501db54b
 
 -   관리되는 앱과 연결된 데이터만 선택적으로 지웁니다. 장치를 분실 또는 도난당하거나 더 이상 IT 부서에서 관리하지 않는 경우에는 선택적 지우기를 통해 앱에서 회사 데이터를 모두 제거하여 개인 앱 데이터만 남겨 둘 수 있습니다. 이러한 방식을 다중 ID라고 합니다.
 
-[Azure 권한 관리 서비스](https://technet.microsoft.com/en-us/library/jj585026.aspx)를 사용하면 다음과 같은 방식으로 전자 메일 보호를 확장할 수 있습니다.
+[Azure 권한 관리 서비스](https://docs.microsoft.com/rights-management/understand-explore/what-is-azure-rms)를 사용하면 다음과 같은 방식으로 메일 보호를 확장할 수 있습니다.
 
 -   적절한 사용자만 회사 내부나 외부에서 내용을 읽거나 볼 수 있도록 전자 메일 메시지를 암호화할 수 있습니다.
 
@@ -59,7 +59,7 @@ ms.openlocfilehash: 43f9ccd3fe546fa7b708ed2cc6215536501db54b
 ## IT 관리자 환경
 IT 관리자는 모바일 응용 프로그램 관리 정책을 만들고 앱에 정책을 연결한 다음 사용자나 장치에 앱을 배포합니다. 관리되는 앱을 장치에 설치하면 앱 제한이 적용됩니다. 관리되는 앱을 만들고 배포할 때는 추가적인 작업이 거의 또는 전혀 필요하지 않습니다.
 
--   앱 SDK가 이미 포함된 기존 앱이 있으면 앱에 대해 제한을 적용할 수 있습니다. 따라서 다른 처리는 수행하지 않아도 되며 iTunes 또는 Google Play와 같은 앱 스토어로 이동되는 링크만 추가하면 됩니다. 관리되는 앱 목록을 확인하려면 [이](https://technet.microsoft.com/en-us/library/dn708489.aspx) 문서를 참조하세요.
+-   앱 SDK가 이미 포함된 기존 앱이 있으면 앱에 대해 제한을 적용할 수 있습니다. 따라서 다른 처리는 수행하지 않아도 되며 iTunes 또는 Google Play와 같은 앱 스토어로 이동되는 링크만 추가하면 됩니다. 관리되는 앱 목록을 확인하려면 [이 문서](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners)를 참조하세요.
 
 -   내부에서 만든 앱을 관리하려는 경우 Microsoft Intune 앱 래핑 도구를 사용해 앱을 다시 패키지하면 됩니다. 이 도구를 통해 앱을 다시 패키지하면 앱에 제한을 적용할 수 있습니다.
 
@@ -71,6 +71,6 @@ IT 관리자는 모바일 응용 프로그램 관리 정책을 만들고 앱에 
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

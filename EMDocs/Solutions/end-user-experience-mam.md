@@ -13,8 +13,8 @@ ms.assetid: bbc9f6ea-fc92-468d-bb5b-60c67949ca28
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 135aedbdd08ed6b98d8296c484168398f9a1d59e
-ms.openlocfilehash: 3fc1303f0db0a9db7d3d4d37c703e2d4ec168ecb
+ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
+ms.openlocfilehash: 38a642c24e506d1528f0e79ad26fa77a50a4fed6
 
 
 ---
@@ -29,9 +29,9 @@ MAM 정책은 앱이 회사 컨텍스트에서 사용되는 경우에만 적용�
 
 다른 특정 최종 사용자 환경에 대한 자세한 내용은 다음 문서를 참조하세요.
 
-- [다중 ID가 지원되는 앱 사용](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#using-apps-with-multi-identity-support)
-- [사용자 계정 관리](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#managing-user-accounts)
-- [Rights Management 공유 앱을 사용하여 미디어 파일 보기](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app)
+- [다중 ID가 지원되는 앱 사용](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#using-apps-with-multi-identity-support)
+- [사용자 계정 관리](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#managing-user-accounts)
+- [Rights Management 공유 앱을 사용하여 미디어 파일 보기](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app)
 
 ## 시나리오: iOS 장치에서 OneDrive 액세스
 
@@ -62,10 +62,10 @@ MAM 정책은 앱이 회사 컨텍스트에서 사용되는 경우에만 적용�
 4.  PIN이 설정 및 확인되고 나면 이제 앱 정책에 의해 관리되는 **OneDrive**를 계속 사용할 수 있습니다.
 
 ## 추가 정보
-[다중 ID가 지원되는 앱 사용](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#using-apps-with-multi-identity-support), [사용자 계정 관리](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#managing-user-accounts) 및 [Rights Management 공유 앱을 사용하여 미디어 파일 보기](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app)를 비롯하여 다른 최종 사용자 환경에 대해 읽어볼 수 있는 다양한 리소스가 있습니다.
+[다중 ID가 지원되는 앱 사용](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#using-apps-with-multi-identity-support), [사용자 계정 관리](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#managing-user-accounts) 및 [Rights Management 공유 앱을 사용하여 미디어 파일 보기](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app)를 비롯하여 다른 최종 사용자 환경에 대해 읽어볼 수 있는 다양한 리소스가 있습니다.
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

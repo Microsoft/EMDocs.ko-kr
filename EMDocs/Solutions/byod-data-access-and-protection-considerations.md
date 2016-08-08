@@ -4,17 +4,17 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 07/07/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
-ms.openlocfilehash: 1d6f468df0675a410d53241ae23014712be2fee4
+ms.sourcegitcommit: e51462f1b238f7e3b518a7a9c8042ff3ad78a5a5
+ms.openlocfilehash: 878f20d5fa1e1180f149bf8b2865ae719cf61352
 
 
 ---
@@ -32,7 +32,7 @@ Windows Server 2012 R2에서는 클라우드 폴더를 사용하여 사용자의
 
 저장소를 콘텐츠 컨테이너로 간주하는 경우 해당 콘텐츠의 소비를 보호하는 장점도 있습니다. 최종 사용자가 저장소에 상주하는 콘텐츠를 사용하는 방식에 영향을 주는 정책을 적용하여 데이터 누출을 방지할 수 있습니다. [AD RMS(Active Directory Rights Management Services)](https://technet.microsoft.com/library/hh831554.aspx)를 사용하면 IRM(정보 권한 관리)을 사용하는 문서를 보호하여 조직의 보안 전략을 강화할 수 있습니다. AD RMS에서는 개인 및 관리자가 IRM 정책을 통해 문서, 통합 문서 및 프리젠테이션에 대한 액세스 권한을 지정할 수 있습니다. 따라서 중요한 정보가 권한 없는 사용자에 의해 인쇄, 전달 또는 복사되는 것을 방지할 수 있습니다. IRM을 사용하여 파일에 대한 사용 권한을 제한한 후에는 파일에 대한 권한이 파일 자체에 저장되므로 정보의 위치에 관계없이 액세스 및 사용 제한이 적용됩니다.
 
-회사에서 파일 보호를 위해 클라우드 기반 솔루션을 사용하려는 경우 [Azure Rights Management](https://technet.microsoft.com/en-us/library/jj585026.aspx)를 사용할 수도 있습니다. Azure 권한 관리는 파일과 메일을 보호하기 위해 암호화, ID 및 권한 부여 정책을 사용하는 회사의 중요한 정보를 보호하며 이는 휴대폰, 태블릿, PC 등의 여러 장치에서 작동합니다. 데이터가 조직 경계를 벗어나더라도 데이터가 계속 보호되므로 조직 내부와 외부에서 모두 정보를 보호할 수 있습니다. 
+회사에서 파일 보호를 위해 클라우드 기반 솔루션을 사용하려는 경우 [Azure 권한 관리](https://technet.microsoft.com/library/jj585026.aspx)를 사용할 수도 있습니다. Azure 권한 관리는 파일과 메일을 보호하기 위해 암호화, ID 및 권한 부여 정책을 사용하는 회사의 중요한 정보를 보호하며 이는 휴대폰, 태블릿, PC 등의 여러 장치에서 작동합니다. 데이터가 조직 경계를 벗어나더라도 데이터가 계속 보호되므로 조직 내부와 외부에서 모두 정보를 보호할 수 있습니다. 
 
 드라이브 암호화를 위한 BitLocker 및 파일 암호화를 위한 [Encrypting File System (EFS)(EFS(파일 시스템 암호화))](https://technet.microsoft.com/library/cc700811.aspx) 같이 Windows 운영 체제에서 사용할 수 있는 다른 저장소 기술을 사용하여 전체적인 데이터 보호를 향상시킬 수도 있습니다. 다음 표에서는 저장소 보호의 장점 및 단점을 확인할 수 있습니다. 이러한 옵션은 함께 사용할 수 있다는 점에 유의하세요. 즉, 디자인 결정에 따라 이러한 저장소 보호 옵션이 모두 BYOD 인프라 솔루션에 필요할 수 있습니다.
 
@@ -196,12 +196,12 @@ Windows Server 2012 R2에서는 [HTTPS](https://msdn.microsoft.com/library/aa767
         - 페더레이션을 위한 서버 인프라가 필요합니다.
         - 페더레이션 서버와 클라우드 서비스 간 통신의 보안을 설정하려면 인증서가 필요합니다.
 
-사용자가 자신의 장치에서 클라우드 서비스와 연결해야 하는 하이브리드 환경에서는 [Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-whatis/)와 AD DS(Active Directory 도메인 서비스) 간 통합을 사용할 수 있습니다. [하이브리드 ID 시나리오](https://technet.microsoft.com/library/dn550987.aspx)에서 원활할 사용자 인증을 유지하려는 회사는 다음 옵션을 선택할 수 있습니다.
+사용자가 자신의 장치에서 클라우드 서비스와 연결해야 하는 하이브리드 환경에서는 [Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-whatis/)와 AD DS(Active Directory 도메인 서비스) 간 통합을 사용할 수 있습니다. [하이브리드 ID 시나리오](https://technet.microsoft.com/library/dn550987.aspx)에서 원활할 사용자 인증을 유지하려는 회사는 다음 옵션을 선택할 수 있습니다.
 
 - 암호 동기화와의 디렉터리 동기화: AD DS와 Azure AD 간에 [암호 해시 동기화](https://technet.microsoft.com/library/dn246918.aspx)를 포함한 DirSync를 사용합니다.
 - Single Sign-On으로 페더레이션된 인증: 사용자 특성이 DirSync를 사용하여 동기화됩니다. 인증이 페더레이션(AD FS)을 통해 다시 전달되고 AD DS에 대해 완료됩니다.
 
-Windows 8.1에서 장치 등록 서비스를 사용하면 인증서가 사용자의 장치에 설치되고 장치 레코드가 인증서의 지문 번호와 함께 AD DS에 생성됩니다. 장치와 사용자 간의 이 연결을 통해 IT 부서는 각 사용자가 등록할 장치를 추적할 수 있습니다. 이 기능에는 엔터프라이즈 PKI가 필요하지 않습니다. 장치 등록도 Windows 10용 Azure AD에서 제공됩니다. Azure AD 및 Windows 10을 사용한 장치 등록에 대한 자세한 내용은 [Azure Active Directory 장치 등록 시작](https://azure.microsoft.com/en-us/documentation/articles/active-directory-conditional-access-device-registration-overview/)을 참조하세요.
+Windows 8.1에서 장치 등록 서비스를 사용하면 인증서가 사용자의 장치에 설치되고 장치 레코드가 인증서의 지문 번호와 함께 AD DS에 생성됩니다. 장치와 사용자 간의 이 연결을 통해 IT 부서는 각 사용자가 등록할 장치를 추적할 수 있습니다. 이 기능에는 엔터프라이즈 PKI가 필요하지 않습니다. 장치 등록도 Windows 10용 Azure AD에서 제공됩니다. Azure AD 및 Windows 10을 사용한 장치 등록에 대한 자세한 내용은 [Azure Active Directory 장치 등록 시작](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-device-registration-overview/)을 참조하세요.
 
 ## 인증 및 권한 부여
 
@@ -213,7 +213,7 @@ Windows 8.1에서 장치 등록 서비스를 사용하면 인증서가 사용자
 
 인증 및 권한 부여는 AD DS와 연결된 AD FS에서 처리됩니다. 또한 데이터 센터에서 전송 중인 데이터는 파일 서버 역할 및 인증 서비스에 연결할 때 HTTPS 프로토콜을 사용합니다.
 
-Multi-Factor Authentication을 적용하려는 경우 회사는 AD FS의 기본 제공 기능을 사용하거나 [Azure MFA(Multi-Factor Authentication)](https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/)를 사용할 수 있습니다. Azure의 이 기능을 사용하여 IT 부서는 인터넷에서 회사 리소스에 액세스하는 사용자에게 다단계 인증을 적용할 수 있습니다. Multi-Factor Authentication에 대한 자세한 내용은 [추가 Multi-Factor Authentication을 사용하여 중요한 응용 프로그램에 대한 위험 관리](https://technet.microsoft.com/library/dn280949.aspx)를 참조하세요.
+Multi-Factor Authentication을 적용하려는 경우 회사는 AD FS의 기본 제공 기능을 사용하거나 [Azure MFA(Multi-Factor Authentication)](https://azure.microsoft.com/documentation/articles/multi-factor-authentication/)를 사용할 수 있습니다. Azure의 이 기능을 사용하여 IT 부서는 인터넷에서 회사 리소스에 액세스하는 사용자에게 다단계 인증을 적용할 수 있습니다. Multi-Factor Authentication에 대한 자세한 내용은 [추가 Multi-Factor Authentication을 사용하여 중요한 응용 프로그램에 대한 위험 관리](https://technet.microsoft.com/library/dn280949.aspx)를 참조하세요.
 
 외부 네트워크나 내부 네트워크에서 앱에 액세스하는 사용자에 대해 앱 단위 권한 부여를 적용하려는 경우 IT 부서는 웹 응용 프로그램 프록시를 사용할 수 있습니다. 웹 응용 프로그램 프록시를 사용하여 IT 부서는 AD FS와 함께 인증 및 권한 부여를 적용하는 특정 규칙을 만들 수 있습니다. 웹 응용 프로그램 프록시 게시는 모든 사용자 장치에 대해 작동하므로 개인 노트북, 태블릿 또는 스마트폰을 사용할 수 있습니다. 또한 게시된 앱에 액세스하기 위해 사용자가 자신의 장치에 추가 소프트웨어를 설치할 필요가 없습니다. 웹 응용 프로그램 프록시는 해당 프록시를 통해 게시된 모든 앱에서 역방향 프록시 역할을 합니다. 따라서 사용자 환경은 사용자의 장치가 앱에 직접 연결된 것처럼 동일합니다. 웹 응용 프로그램 프록시에 대한 자세한 내용은 [웹 응용 프로그램 프록시 개요](https://technet.microsoft.com/library/dn280944.aspx)를 참조하세요.
 
@@ -250,6 +250,6 @@ Multi-Factor Authentication을 적용하려는 경우 회사는 AD FS의 기본
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 
