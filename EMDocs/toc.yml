@@ -1,0 +1,149 @@
+- name: "문서"
+  href: /
+  homepage: /
+  items:
+  - name: "Enterprise Mobility"
+    href: /enterprise-mobility/
+    homepage: /enterprise-mobility
+    items:
+    - name: "솔루션"
+      href: /enterprise-mobility/solutions/
+      homepage: /enterprise-mobility/solutions/byod-design-considerations-guide
+    - name: "Azure RemoteApp"
+      href: /remoteapp/
+      homepage: /remoteapp
+    - name: "Azure Active Directory"
+      href: /active-directory/
+      homepage: /active-directory
+      items:
+        - name: "AD 인증 라이브러리"
+          href: /active-directory/adal/
+          homepage: /active-directory/adal/microsoft.identitymodel.clients.activedirectory
+        - name: "AD Graph API"
+          href: /azure-ad-graph-api/api/
+          homepage: /azure-ad-graph-api/api/api-catalog
+    - name: "다단계 인증"
+      href: /multi-factor-authentication/
+      homepage: /multi-factor-authentication
+    - name: "Advanced Threat Analytics"
+      href: /advanced-threat-analytics/
+      homepage: /advanced-threat-analytics
+      items:
+        - name: "이해 및 탐색"
+          href: /advanced-threat-analytics/understand-explore/
+          homepage: /advanced-threat-analytics/understand/ata-understand-and-explore
+        - name: "계획 및 디자인" 
+          href: /advanced-threat-analytics/plan-design/
+          homepage: /advanced-threat-analytics/plandesign/ata-plan-and-design
+        - name: "배포 및 사용"
+          href: /advanced-threat-analytics/deploy-use/
+          homepage: /advanced-threat-analytics/deployuse/ata-deploy-and-use
+        - name: "문제 해결"
+          href: /advanced-threat-analytics/troubleshoot/
+          homepage: /advanced-threat-analytics/troubleshoot/ata-troubleshooting
+    - name: "Intune"
+      href: /intune/
+      homepage: /intune
+      items:
+        - name: "이해 및 탐색"
+          href: /intune/understand-explore/
+          homepage: /intune/understand/ways-to-do-enterprise-mobility
+        - name: "계획 및 디자인" 
+          href: /intune/plan-design/
+          homepage: /intune/plandesign/plan-you-user-and-device-groups
+        - name: "배포 및 사용"
+          href: /intune/deploy-use/
+          homepage: /intune/deploy-use/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents
+        - name: "문제 해결"
+          href: /intune/troubleshoot/
+          homepage: /intune/troubleshoot/troubleshoot-microsoft-intune
+        - name: "시작"
+          href: /intune/get-started/
+          homepage: /intune/get-started/what-s-new-in-microsoft-intune
+        - name: "앱 개발 및 사용자 지정"
+          href: /intune/develop/
+          homepage: /intune/develop/intune-app-sdk
+          
+    - name: "Azure  권한 관리"
+      href: /rights-management/
+      homepage: /rights-management
+      items:
+        - name: "이해 및 탐색"
+          href: /rights-management/understand-explore/
+          homepage: /rights-management/understand-explore/what-is-azure-rights-management
+        - name: "시작"
+          href: /rights-management/get-started/
+          homepage: /rights-management/get-started/requirements-for-azure-rights-management
+        - name: "계획 및 디자인"
+          href: /rights-management/plan-design/
+          homepage: /rights-management/plan-design/azure-rights-management-deployment-roadmap
+        - name: "서비스 배포 및 사용"
+          href: /rights-management/deploy-use/
+          homepage: /rights-management/deploy-use/activating-azure-rights-management
+        - name: "클라이언트 배포 및 사용"
+          href: /rights-management/rms-client/
+          homepage: /rights-management/rms-client/rights-management-rms-client
+        - name: "앱 개발 및 사용자 지정"
+          href: /rights-management/develop/
+          homepage: /rights-management/develop/developers-guide
+          items:
+          - name: "SDK 4.2"
+            href: /rights-management/sdk/4.2/api/
+            homepage: /rights-management/develop/api-reference-4-2
+            items:
+            - name: "Android"
+              href: /rights-management/sdk/4.2/api/android/
+              homepage: /rights-management/develop/android-namespaces
+            - name: "iOS" 
+              href: /rights-management/sdk/4.2/api/iOS/
+              homepage: /rights-management/sdk/4.2/api/iOS/iOS
+            - name: "WinRT"
+              href: /rights-management/sdk/4.2/api/winrt/
+              homepage: /rights-management/sdk/4.2/api/winrt/Microsoft.RightsManagement
+          - name: "SDK 2.1"
+            href: /rights-management/sdk/2.1/api/
+            homepage: /rights-management/develop/api-reference-2-1
+            items:
+            - name: "Win"
+              href: /rights-management/sdk/2.1/api/win/
+              homepage: /rights-management/develop/api-reference-2-1
+              items:
+              - name: "상수"
+                href: /rights-management/sdk/2.1/api/win/constants/
+                homepage: /rights-management/sdk/2.1/api/win/constants
+              - name: "데이터 형식"
+                href: /rights-management/sdk/2.1/api/win/data%20types/
+                homepage: /rights-management/sdk/2.1/api/win/data%20types
+              - name: "함수"
+                href: /rights-management/sdk/2.1/api/win/functions/
+                homepage: /rights-management/sdk/2.1/api/win/functions
+              - name: "구조"
+                href: /rights-management/sdk/2.1/api/win/structures/
+                homepage: /rights-management/sdk/2.1/api/win/structures
+        - name: "Information Protection(미리 보기)"
+          href: /rights-management/information-protection/
+          homepage: /rights-management/information-protection/what-is-information-protection
+    - name: "Microsoft ID 관리자"
+      href: /microsoft-identity-manager/
+      homepage: /microsoft-identity-manager
+      items:
+        - name: "이해 및 탐색"
+          href: /microsoft-identity-manager/understand-explore/
+          homepage: /microsoft-identity-manager/understand-explore/journey-understand-evaluate
+        - name: "계획 및 디자인" 
+          href: /microsoft-identity-manager/plan-design/
+          homepage: /microsoft-identity-manager/plan-design/journey-plan-design
+        - name: "배포 및 사용"
+          href: /microsoft-identity-manager/deploy-use/
+          homepage: /microsoft-identity-manager/deploy-use/journey-deploy-use-html
+        - name: "참조"
+          href: /microsoft-identity-manager/reference/
+          homepage: /microsoft-identity-manager/reference/journey-develop-applications
+        - name: "시작"
+          href: /microsoft-identity-manager/get-started/
+          homepage: /microsoft-identity-manager/get-started/journey-get-started
+        - name: "PAM"
+          href: /microsoft-identity-manager/pam/
+          homepage: https://docs.microsoft.com/en-us/microsoft-identity-manager/pam/privileged-identity-management-for-active-directory-domain-services
+  
+  
