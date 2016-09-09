@@ -7,14 +7,14 @@ manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 06921361-9475-46e6-9368-3cc44c84b22f
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ed846db95330ad4e4ed8e9ad0a9eaeb1c7882b70
-ms.openlocfilehash: 39ad4388a0573d8529f6cbeeb2f7dbf47a1914ce
+ms.sourcegitcommit: faa30f461ff9a1a14d150bd85d86d37cd298570c
+ms.openlocfilehash: 241c2b5bd124e463160971f431266a1c13c66f99
 
 
 ---
@@ -86,7 +86,7 @@ System Center Configuration Manager와 Exchange Online을 이미 사용 중인 �
 Exchange Online 솔루션을 배포하려면 다음 단계를 따르세요.
 
 ### 1단계: 규정 준수 정책을 만들어 사용자에게 배포합니다.
-규정 준수 정책은 장치가 조건부 액세스 정책을 준수하는 것으로 간주되기 위해 준수해야 하는 규칙 및 설정을 정의합니다. [Configuration Manager의 준수 정책](https://technet.microsoft.com/library/mt131417.aspx) 의 단계에 따라 준수 정책을 만듭니다.
+규정 준수 정책은 장치가 조건부 액세스 정책을 준수하는 것으로 간주되기 위해 준수해야 하는 규칙 및 설정을 정의합니다.  [Configuration Manager의 규정 준수 정책](https://technet.microsoft.com/library/mt131417.aspx) 의 단계에 따라 규정 준수 정책을 만듭니다.
 
 더 이상 회사에 속하지 않아 iOS 장치에서 모든 회사 메일을 제거하는 기능을 원하는 경우 메일 프로필을 만들고 배포한 다음 메일 프로필이 Intune에서 관리되도록 지정하는 규정 준수 정책을 설정해야 합니다. 이 규정 준수 정책에서 대상으로 하는 사용자 집합과 동일한 사용자 집합에 메일 프로필을 배포해야 합니다.
 
@@ -150,6 +150,6 @@ SSRS 보고서를 보려면 주 서버에 보고 역할이 설치되어 있어�
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Sep16_HO1-->
 
 

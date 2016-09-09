@@ -7,14 +7,14 @@ manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 5ccd033f-bc31-4fae-b6bf-9e1c2722627f
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
-ms.openlocfilehash: 9f783b0faf8da0beaffbfd2e5dd9d7bfcdc08ac2
+ms.sourcegitcommit: faa30f461ff9a1a14d150bd85d86d37cd298570c
+ms.openlocfilehash: 1a3b5aeb61a3feaa0c6e87f887ea7083007bc500
 
 
 ---
@@ -26,7 +26,7 @@ Exchange 온-프레미스 및 Exchange Online 둘 다를 사용하여 메일 프
 
 Exchange 온-프레미스와 Exchange Online의 공존성과 함께 Configuration Manager를 이미 사용 중인 경우 Intune을 통합하여 모바일 장치에서 메일 액세스를 관리하고 메일 데이터를 보호할 수 있습니다. 각 솔루션을 개별적으로 구현하기 위한 위의 지침에 따라 이 솔루션을 구현할 수 있습니다.
 
-## 전제 조건
+## 필수 구성 요소
 Exchange 온-프레미스와 Exchange Online 둘 다를 구현하는 공존성 유형의 환경을 구성하려면 기존 Exchange 조직이 특정 요구 사항을 충족해야 합니다. 이러한 요구 사항을 충족하지 않으면 Exchange 온-프레미스 조직과 Microsoft Office 365의 Exchange Online 조직 간에 하이브리드 배포를 구성하는 데 필요한 단계를 완료할 수 없습니다.
 
 이러한 유형의 환경을 만들고 구성하기 위한 요구 사항을 검토하려면 [하이브리드 배포 필수 조건](https://technet.microsoft.com/library/hh534377.aspx)을 참조하세요.
@@ -39,6 +39,6 @@ Exchange 온-프레미스와 Exchange Online 둘 다를 구현하는 공존성 �
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Sep16_HO1-->
 
 
