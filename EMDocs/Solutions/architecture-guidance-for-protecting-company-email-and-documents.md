@@ -7,14 +7,14 @@ manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
-ms.openlocfilehash: dc610b43b0f4b79a8a86cf87f722bd4d066602c1
+ms.sourcegitcommit: faa30f461ff9a1a14d150bd85d86d37cd298570c
+ms.openlocfilehash: 13bb743a1300a51d305f1ee1857b14b73ca0a4df
 
 
 ---
@@ -99,6 +99,6 @@ ID, 장치, 앱 및 데이터용 4계층 보안 모델은 필요한 사용자만
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Sep16_HO1-->
 
 

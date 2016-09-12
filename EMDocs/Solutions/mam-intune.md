@@ -7,14 +7,14 @@ manager: swadhwa
 ms.date: 05/12/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 6d7c4104-b85f-407e-8832-0e6bbac934f5
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
-ms.openlocfilehash: 9f97f1090792064ee909ff27f81e01957fb07964
+ms.sourcegitcommit: faa30f461ff9a1a14d150bd85d86d37cd298570c
+ms.openlocfilehash: 4a919dcc0e4b754cbbe8a88140e8b1e8dcc7f924
 
 
 ---
@@ -117,6 +117,6 @@ MAM 정책과 관련된 앱을 만들고 배포한 후에는 [MAM의 최종 사�
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Sep16_HO1-->
 
 

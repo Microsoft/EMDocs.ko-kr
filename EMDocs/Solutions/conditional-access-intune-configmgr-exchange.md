@@ -7,14 +7,14 @@ manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 56b6cd2d-3dea-468b-9f1c-92717c9ec5f5
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ed846db95330ad4e4ed8e9ad0a9eaeb1c7882b70
-ms.openlocfilehash: 88acc7bbdb2651db89623f167a0f7cec5c277bd6
+ms.sourcegitcommit: faa30f461ff9a1a14d150bd85d86d37cd298570c
+ms.openlocfilehash: 1fbda5ec4bf589dc888d4b63a6b5da659e8d1c17
 
 
 ---
@@ -98,7 +98,7 @@ ms.openlocfilehash: 88acc7bbdb2651db89623f167a0f7cec5c277bd6
 Exchange 온-프레미스 솔루션을 배포하려면 다음 단계를 따르세요.
 
 ### 1단계: Intune Connector 역할이 설치되었는지 확인합니다.
-Configuration Manager가 Intune과 상호 작용할 수 있도록 Intune Connector 역할이 설치되었는지 확인합니다. 자세한 내용은 [Configuration Manager 및 Intune을 사용하여 모바일 장치 관리](https://technet.microsoft.com/library/JJ884158.aspx)를 참조하세요.
+Configuration Manager가 Intune과 상호 작용할 수 있도록 Intune Connector 역할이 설치되었는지 확인합니다. 자세한 내용은 [Configuration Manager 및 Intune을 사용하여 모바일 장치 관리](https://technet.microsoft.com/library/JJ884158.aspx) 를 참조하세요.
 
 ### 2단계: Exchange Server 커넥터를 설치 및 구성합니다.
 Configuration Manager는 Exchange 조직의 커넥터를 하나만 지원합니다.
@@ -106,7 +106,7 @@ Configuration Manager는 Exchange 조직의 커넥터를 하나만 지원합니�
 > [!IMPORTANT]
 > Exchange Server 커넥터를 설치하기 전에 사용 중인 Microsoft Exchange 버전이 Configuration Manager에서 지원되는지 확인합니다. 자세한 내용은 [Configuration Manager에 대해 지원되는 구성](https://technet.microsoft.com/library/gg682077.aspx)을 참조하세요.
 
-[Configuration Manager와 Exchange를 사용하여 모바일 장치를 관리하는 방법](https://technet.microsoft.com/library/gg682001.aspx)의 단계에 따라 Exchange Server 커넥터를 설치 및 구성합니다.
+ [Configuration Manager와 Exchange를 사용하여 모바일 장치를 관리하는 방법](https://technet.microsoft.com/library/gg682001.aspx) 의 단계에 따라 Exchange Server 커넥터를 설치 및 구성합니다.
 
 ### 3단계: 전체 동기화를 실행하여 사용자를 검색합니다.
 
@@ -125,10 +125,10 @@ Configuration Manager 추적 로그 도구를 사용하여 Configuration Manager
 ### 4단계: 사용자 컬렉션을 만듭니다.
 조건부 액세스 정책의 대상으로 지정할 Intune 사용자 그룹을 결정합니다. 그런 다음 조건부 액세스 정책에서 대상으로 지정하거나 제외할 사용자 그룹에 대한 사용자 컬렉션을 만듭니다. 나중에 조건부 액세스를 적용할 때 이러한 그룹을 지정합니다.
 
-[How to Create Collections in Configuration Manager](https://technet.microsoft.com/library/gg712295.aspx)(Configuration Manager에서 컬렉션을 만드는 방법)의 단계에 따라 사용자 컬렉션을 만듭니다.
+ [Configuration Manager에서 컬렉션을 만드는 방법](https://technet.microsoft.com/library/gg712295.aspx) 의 단계에 따라 사용자 컬렉션을 만듭니다.
 
 ### 5단계: 규정 준수 정책을 만들어 사용자에게 배포합니다.
-규정 준수 정책은 장치가 조건부 액세스 정책을 준수하는 것으로 간주되기 위해 준수해야 하는 규칙 및 설정을 정의합니다. [Configuration Manager의 준수 정책](https://technet.microsoft.com/library/mt131417.aspx) 의 단계에 따라 준수 정책을 만듭니다.
+규정 준수 정책은 장치가 조건부 액세스 정책을 준수하는 것으로 간주되기 위해 준수해야 하는 규칙 및 설정을 정의합니다.  [Configuration Manager의 규정 준수 정책](https://technet.microsoft.com/library/mt131417.aspx) 의 단계에 따라 규정 준수 정책을 만듭니다.
 
 더 이상 회사에 속하지 않아 iOS 장치에서 모든 회사 메일을 제거하는 기능을 원하는 경우 메일 프로필을 만들고 배포한 다음 메일 프로필이 Intune에서 관리되도록 지정하는 규정 준수 정책을 설정해야 합니다. 이 규정 준수 정책에서 대상으로 하는 사용자 집합과 동일한 사용자 집합에 메일 프로필을 배포해야 합니다.
 
@@ -186,6 +186,6 @@ SSRS 보고서를 보려면 주 서버에 보고 역할이 설치되어 있어�
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Sep16_HO1-->
 
 
