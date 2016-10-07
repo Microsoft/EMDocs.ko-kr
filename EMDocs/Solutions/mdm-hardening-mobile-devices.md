@@ -4,17 +4,18 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 8/1/2016
-ms.topic: article
+ms.date: 10/3/2016
+ms.topic: solution
 ms.prod: 
-ms.service: microsoft-intune
+ms.service: 
 ms.technology: 
 ms.assetid: ade57c73-a8a2-497f-ad8d-5dfc3cba9e70
 ms.reviewer: 
 ms.suite: ems
+ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: e51462f1b238f7e3b518a7a9c8042ff3ad78a5a5
-ms.openlocfilehash: d3b39e7839713e20f5a3986b095050850e11e57e
+ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
+ms.openlocfilehash: 9ee7fc3539432039ee5a7fadac9c5b8475e8c924
 
 
 ---
@@ -44,7 +45,7 @@ ConfigMgr 온-프레미스 하이브리드 환경에서는 [구성 기준](https
 [MDM for Office 365](https://technet.microsoft.com/library/ms.o365.cc.devicepolicy.aspx)에도 다음 범주의 모바일 장치 보안 강화에 도움을 주는 여러 기능이 포함되어 있습니다.
 
 - 보안
-- Encryption
+- 암호화
 - 무단 해제
 - 관리되는 메일 프로필
 
@@ -94,6 +95,6 @@ ConfigMgr 온-프레미스 하이브리드 환경에서는 [구성 기준](https
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 
