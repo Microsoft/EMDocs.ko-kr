@@ -4,17 +4,18 @@ description:
 keywords: 
 author: andredm7
 manager: swadhwa
-ms.date: 8/1/2016
-ms.topic: article
+ms.date: 10/3/2016
+ms.topic: solution
 ms.prod: 
-ms.service: microsoft-intune
+ms.service: 
 ms.technology: 
 ms.assetid: 1f77eba2-8e27-4e08-b2f2-e71e3d776cf4
 ms.reviewer: 
 ms.suite: ems
+ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0b77c2b49180c3871a1885d8faa232b412bac384
-ms.openlocfilehash: c62d2bef5e03767cf4299747cfca48246b7db00c
+ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
+ms.openlocfilehash: 2236a337c57c7fede4aed6830ab99d4ee7df3c9b
 
 
 ---
@@ -66,13 +67,13 @@ ConfigMgr 및 Intune이 있는 하이브리드 배포의 경우, Intune에서 �
 
 **단점**
 
-- Intune을 온-프레미스 ConfigMgr 인프라와 연결하기 위한 추가적인 구성이 필요합니다.
+- Intune을 온-프레미스 ConfigMgr 인프라와 연결하기 위한 추가적인 구성 필요
 - 현재 ConfigMgr 인프라가 구성되지 않은 조직의 경우 Intune과 통합하기 전에 계획, 설치 및 구성이 필요합니다.
 
 Intune 및 ConfigMgr에 대해 다음을 검토하여 모바일 응용 프로그램 관리 옵션에 대한 자세한 내용을 확인합니다: Microsoft Intune 콘솔에서 모바일 응용 프로그램 관리 정책 구성 및 배포. 또한 Intune MAM 정책에 사용할 수 있는 Microsoft 앱의 목록과, Intune 호환 파트너 앱의 확장 목록도 확인합니다.
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 

@@ -4,17 +4,18 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 8/1/2016
-ms.topic: article
+ms.date: 10/3/2016
+ms.topic: solution
 ms.prod: 
-ms.service: microsoft-intune
+ms.service: 
 ms.technology: 
 ms.assetid: 639dfd46-33ea-4cfd-918d-f3d8e57645ed
 ms.reviewer: 
 ms.suite: ems
+ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: e51462f1b238f7e3b518a7a9c8042ff3ad78a5a5
-ms.openlocfilehash: da1a3088b8c7d7488c0a666ab64c65b23c2fe317
+ms.sourcegitcommit: e410d3fd320660186b6d21853af3172062f90eda
+ms.openlocfilehash: a9fc81c8e6d53f4ad457bf70e576a608d046cca8
 
 
 ---
@@ -45,7 +46,7 @@ ms.openlocfilehash: da1a3088b8c7d7488c0a666ab64c65b23c2fe317
 - AD FS(Active Directory Federation Services)
 - 동적 액세스 제어
 - Microsoft Rights Management 서비스
-- Azure  권한 관리 
+- Azure Information Protection 
 - SMB 암호화
 - SSO(Single Sign-On)
 - 작업 폴더
@@ -82,6 +83,6 @@ BYOD를 지원하는 인프라 디자인은 이전에 이 문서에서 제공된
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 
