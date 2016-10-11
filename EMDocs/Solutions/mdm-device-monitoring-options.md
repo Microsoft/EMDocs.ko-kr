@@ -4,17 +4,18 @@ description:
 keywords: 
 author: andredm7
 manager: swadhwa
-ms.date: 8/1/2016
-ms.topic: article
+ms.date: 10/3/2016
+ms.topic: solution
 ms.prod: 
-ms.service: microsoft-intune
+ms.service: 
 ms.technology: 
 ms.assetid: 23cfc12a-fa96-4fb3-8de1-af4569e8cb71
 ms.reviewer: 
 ms.suite: ems
+ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0b77c2b49180c3871a1885d8faa232b412bac384
-ms.openlocfilehash: 01ff94c002f1ff3ebea49f91469ceca5bc71242a
+ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
+ms.openlocfilehash: c34d0000d723594ab46917ae9baedc3e56ebbb48
 
 
 ---
@@ -54,7 +55,7 @@ ms.openlocfilehash: 01ff94c002f1ff3ebea49f91469ceca5bc71242a
 - 관리되는 모든 장치의 상태를 검토할 수 있음
 - IT 정책에 맞지 않는 장치에 대한 보고서 제공
 - 다음과 같은 영역의 세부 정보를 모니터링할 수 있음
- - System (시스템)
+ - 시스템
  - OS
  - 저장소
  - Exchange ActiveSync
@@ -90,7 +91,7 @@ ms.openlocfilehash: 01ff94c002f1ff3ebea49f91469ceca5bc71242a
 
 **단점**
 
-- Intune을 온-프레미스 ConfigMgr 인프라와 연결하기 위한 추가적인 구성이 필요합니다.
+- Intune을 온-프레미스 ConfigMgr 인프라와 연결하기 위한 추가적인 구성 필요
 - 현재 ConfigMgr 인프라가 구성되지 않은 조직의 경우 Intune과 통합하기 전에 계획, 설치 및 구성이 필요합니다.
 
 다음을 검토하여 모바일 장치 모니터링 옵션에 대한 세부 정보를 살펴봅니다.
@@ -101,6 +102,6 @@ ms.openlocfilehash: 01ff94c002f1ff3ebea49f91469ceca5bc71242a
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 
