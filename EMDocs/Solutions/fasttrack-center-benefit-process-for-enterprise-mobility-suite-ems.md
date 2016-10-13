@@ -1,10 +1,10 @@
 ---
-title: "EMS(Enterprise Mobility Suite)에 대한 FastTrack 센터 혜택"
+title: "EMS(Enterprise Mobility + Security)용 FastTrack 센터 혜택 프로세스"
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 10/02/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -13,17 +13,17 @@ ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a92fcc56cea75adb6c3db4eeb197dba77d2b63b7
-ms.openlocfilehash: 42a320985cf1062a5e239bf55317f10b46062ee8
+ms.sourcegitcommit: 4edfa04ab1ecf371e207497d74aa4c1e2366d7a9
+ms.openlocfilehash: 678b0f25d03f2b5ff8d53effd75ea9c6fc99cfa9
 
 
 ---
 
-# EMS(Enterprise Mobility Suite)에 대한 FastTrack 센터 혜택 프로세스
-EMS에 대한 FastTrack 센터 혜택에 대해 자격을 갖춘 조직의 사용자는 Microsoft 전문가와 원격으로 협업하여 Azure Active Directory Premium, Microsoft Intune 및/또는 Azure Rights Management 환경을 사용할 수 있도록 준비할 수 있습니다. 해당 조직의 적격 여부를 확인하려면 [EMS(Enterprise Mobility Suite)의 FastTrack 센터 혜택](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)을 참조하세요.
+# EMS(Enterprise Mobility + Security)용 FastTrack 센터 혜택 프로세스
+EMS용 FastTrack 센터 혜택에 대해 자격을 갖춘 조직의 사용자는 Microsoft 전문가와 원격으로 협업하여 Azure Active Directory Premium, Microsoft Intune 및/또는 Azure Rights Management 환경을 사용할 수 있도록 준비할 수 있습니다. 또한 FastTrack 포털을 통해 Azure Information Protection, Microsoft Cloud App Security 및 Microsoft Advanced Threat Analytics에 대한 도움말도 요청할 수 있습니다. 해당 조직의 적격 여부를 확인하려면 [FastTrack 센터 혜택 적격 서비스 및 플랜](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)을 참조하세요.
 
 
-FastTrack 센터 혜택을 구성하는 요소는 다음과 같습니다. 
+여기서 다루는 등록 프로세스는 다음과 같습니다.
 
 -   [등록 프로세스 개요](fasttrack-center-benefit-process-for-ems-overview.md)
 
@@ -51,14 +51,7 @@ FastTrack 센터 혜택을 구성하는 요소는 다음과 같습니다.
 
     -   온-프레미스 Active Directory에서Windows Server 2012 R2 AD FS(Active Directory Federation Services) 2.0 이상으로 페더레이션
 
-FastTrack 온보딩 프로세스의 다음 부분인 [온보딩 프로세스 개요](fasttrack-center-benefit-process-for-ems-overview.md)를 읽어 보세요.
 
-### 더 자세한 내용을 원하세요?
-[Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.
-
-
-
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Oct16_HO1-->
 
 
