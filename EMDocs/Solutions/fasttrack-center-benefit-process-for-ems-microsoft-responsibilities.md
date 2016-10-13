@@ -1,10 +1,10 @@
 ---
-title: "Enterprise Mobility Suite에 대한 FastTrack 센터 혜택 프로세스 - Microsoft의 책임"
+title: "Microsoft의 책임"
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
-ms.date: 07/07/2016
+manager: angrobe
+ms.date: 10/02/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -14,17 +14,15 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
-ms.openlocfilehash: 5aa145639d7f38beb0a9b684cd70227edccccf42
+ms.sourcegitcommit: 323bdb56b3d81eb6a63e266899427672abf79da4
+ms.openlocfilehash: 777236784c06eeea2e62bcb77b2ceabc5d31b14a
 
 
 ---
 
-# Enterprise Mobility Suite에 대한 FastTrack 센터 혜택 프로세스 - Microsoft의 책임
-다음 섹션에서는 조직에서 [EMS(Enterprise Mobility Suite)에 대한 FastTrack 센터 혜택](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)을 사용하여 Azure Active Directory Premium, Microsoft Intune 및/또는 Azure Rights Management를 가져올 때 Microsoft에서 기대할 수 있는 것을 설명합니다.
+# Microsoft의 책임
 
-FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [EMS(Enterprise Mobility Suite)에 대한 FastTrack Center 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)를 참조하세요.
-
+등록 시 Microsoft에서 이행해야 하는 의무는 다음과 같습니다.
 
 ## 일반
 
@@ -115,12 +113,12 @@ FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [EM
 
     -   온-프레미스 Active Directory 포리스트와 Microsoft Azure Active Directory Premium 디렉터리(Azure Active Directory) 간의 동기화 구성.
 
-        > [!NOTE] 
+        > [!NOTE]
         > 사용자 지정 규칙 확장의 개발 및 구현은 범위에 속하지 않습니다.
 
--   대상이 페더레이션 ID일 때의 단일 포리스트: 필요한 경우 단일 사이트 내결함성 구성에서 Microsoft Azure AD Premium을 사용한 로컬 도메인을 인증하는 데 필요한 AD FS(Active Directory Federation Services)를 설치 및 구성합니다.
+-   대상이 페더레이션 ID일 때 단일 포리스트 환경의 경우: 필요에 따라 단일 사이트 내결함성 구성에서 Microsoft Azure Active Directory Premium으로 로컬 도메인을 인증하도록 AD FS(Active Directory Federation Services)를 설치 및 구성합니다.
 
-    > [!NOTE] 
+    > [!NOTE]
     > 모든 다중 포리스트 구성의 경우, AD FS 배포는 범위에 속하지 않습니다.
 
 -   배포한 경우 SSO(Single Sign-On) 기능 테스트.
@@ -133,24 +131,28 @@ FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [EM
 
 -   Azure Active Directory Connect 디렉터리 동기화(비밀번호 쓰기 저장 및 암호 해시 동기화).
 
--   AD FS(Active Directory Federation Services).
+  - SSPR(셀프 서비스 암호 재설정)
 
-- SSPR(셀프 서비스 암호 재설정)
+  - Azure MFA(Multi-Factor Authentication).
 
-- Azure MFA(Multi-Factor Authentication).
+  - [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/)에서 SaaS(Software as a Service) 응용 프로그램 하나와 SSO(Single Sign On)의 통합
 
-- SaaS 응용 프로그램에 대한 Single Sign-on을 포함할 수 있는 하나의 통합된 응용 프로그램.
+  - 사용자 지정된 로그온 화면(로고, 텍스트 및 이미지 포함)
 
-- 관리자를 위한 사용량 및 보안 보고서.
+  - 셀프 서비스 및 동적 그룹(그룹)
 
-- SSGM(셀프 서비스 그룹 관리).
+  - Azure Active Directory 응용 프로그램 프록시
 
-- 응용 프로그램 프록시.
+  - Azure Active Directory Connect Health
 
-- 관리자 알림.
+  - ID 보호
 
-- 사용자 지정된 로그온 화면(로고, 텍스트 및 이미지 포함)
- 
+  - Privileged Identity Management
+
+  - 관리자를 위한 사용량 및 보안 보고서.
+
+  - 관리 알림 및 경고
+
 ### 활성화 단계 – Microsoft Intune
 다음에 대한 지침을 제공합니다.
 
@@ -160,14 +162,14 @@ FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [EM
 
 -   Microsoft Intune 구독에 사용자 추가, IT 관리자 역할 정의 및 사용자와 장치 그룹 만들기.
 
--   관리 요구 사항에 따라 다음과 같이 모바일 장치 관리 기관 구성.
+-   관리 요구 사항에 따라 다음과 같이 MDM(모바일 장치 관리) 기관 구성.
 
     -   Microsoft Intune이 유일한 MDM 솔루션이거나 Office 365용 모바일 장치 관리와 함께 사용되는 경우 Microsoft Intune을 MDM 기관으로 설정합니다.
 
     -   System Center Configuration Manager의 기존 구현이 있고 Microsoft Intune으로 관리 기능을 확장하려는 경우 Configuration Manager를 MDM 기관으로 설정합니다.
 
-        > [!NOTE] 
-        > 최종 사용자 소유 장치, 공유 또는 키오스크 유형 장치에서만 모바일 응용 프로그램 관리를 활용하려는 경우 MDM 기관을 설정할 필요가 없습니다.
+        > [!NOTE]
+        > 최종 사용자가 소유한 장치, 공유 장치 또는 키오스크 유형 장치에서만 MDM을 활용하려는 경우에는 MDM 기관을 설정할 필요가 없습니다.
 
 -   모바일 장치 관리가 범위에 포함되는 경우 다음과 관련된 지침을 제공합니다.
 
@@ -183,11 +185,11 @@ FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [EM
 
         -   해당되는 경우 Microsoft Intune Exchange Connector 설정.
 
-    -   지원되는 각 플랫폼에 대해 최대 2대의 테스트 장치를 Microsoft Intune 또는 Configuration Manager with Microsoft Intune에 등록.
+    -   Microsoft Intune 서비스로 지원되는 플랫폼 각각의 장치를 Microsoft Intune 또는 Configuration Manager에 등록
 
     -   하드웨어 및 소프트웨어 인벤토리 보고서 사용.
 
--   MAM(모바일 응용 프로그램 관리)이 범위에 포함된 경우 또는 기존 타사 MDM 솔루션을 MAM 정책으로 보완하려는 경우 다음과 관련된 지침을 제공합니다.
+-   조직 내에 MAM(모바일 응용 프로그램 관리)이 있거나 기존 타사 MDM 솔루션을 MAM 정책으로 보완하려는 경우 제공되는 관련 지침은 다음과 같습니다.
 
     -   지원되는 각 플랫폼에 대한 MAM 정책 구성.
 
@@ -199,52 +201,15 @@ FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [EM
 
 -   PC 관리가 범위에 포함되는 경우 다음과 관련된 지침을 제공합니다.
 
-    -   필요한 경우 Intune 클라이언트 소프트웨어 설치.
+    -   필요한 경우 Intune 클라이언트 소프트웨어 설치
 
     -   Intune에서 사용할 수 있는 소프트웨어 및 하드웨어 보고서 사용.
 
-### 활성화 단계 - Azure Right Management Premium
+**더 자세한 내용을 원하세요?**
 
-다음에 대한 지침을 제공합니다.
-
--   Azure RMS 테넌트 활성화.
-
--   템플릿을 관리할 다른 정보 보안 관리자 추가.
-
--   Azure RMS에 슈퍼 사용자 계정 할당.
-
--   Azure RMS에 대한 두 파일럿 사용자 라이선싱.
-
--   정책의 유효성을 검사할 두 테스트 배포 그룹 구성.
-
--   디렉터리에 적합한 하나의 사용자 지정 Azure RMS 템플릿 구성.
-
--   다음을 포함하여 Azure RMS와 통합된 SharePoint Online 및 Exchange Online을 설정하는 방법에 대한 지침 제공.
-
-    -   Azure RMS와 통합된 Exchange Online 구성 및 유효성 검사.
-
-    -   조직 외부의 받는 사람에게 보내는 중요한 메시지를 암호화하기 위한 하나의 테스트 메일 흐름 규칙 설정.
-
-    -   Azure RMS로 보호할 하나의 테스트 라이브러리에 대한 SharePoint Online 보호 구성 및 유효성 검사.
-
--   해당하는 경우 RMS 커넥터를 사용하여 하나의 서버 온-프레미스 구성.
-
-    -   Azure RMS와 통합된 Exchange 2013/2010 온-프레미스 구성 및 유효성 검사.
-
-    -   커넥터를 사용하여 조직 외부의 받는 사람에게 보내는 중요한 메시지를 암호화하기 위한 하나의 테스트 메일 흐름 규칙 설정.
-
-    -   Azure RMS로 보호할 하나의 테스트 라이브러리에 대한 SharePoint 2013/2010 온-프레미스 보호 구성 및 유효성 검사.
-
--   Windows 장치 및 Windows 이외 장치를 위한 RMS 공유 응용 프로그램 설정.
-
-FastTrack 온보딩 프로세스의 다음 부분인 [고객 책임](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)에 대해 읽어 보세요.
-
-### 더 자세한 내용을 원하세요?
-[Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.
+[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
 
 
-
-
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 

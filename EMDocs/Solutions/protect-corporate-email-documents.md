@@ -13,8 +13,8 @@ ms.assetid: 78d8368e-1bfe-4ac4-991d-467321a76ed7
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
-ms.openlocfilehash: cc6844a9329cafd14d7902ec1d677c5bea685b86
+ms.sourcegitcommit: d1211e3ef25b73679c851bce7f5eca872520f023
+ms.openlocfilehash: b3a0ce1b7a7465ca29888b4d332ede6b5a604fd6
 
 
 ---
@@ -44,7 +44,7 @@ ms.openlocfilehash: cc6844a9329cafd14d7902ec1d677c5bea685b86
 ## 높은 수준의 최종 사용자 환경
 솔루션을 구현하고 나면 최종 사용자는 관리되는 장치 및 규격 장치에서만 회사 메일에 액세스할 수 있습니다. 사용자가 장치에서 메일에 액세스할 수 있게 되면 회사 데이터는 앱 에코시스템 내에 포함되어 보호되며 의도한 사용자만 이 데이터를 사용할 수 있습니다. 장치가 비규격 장치가 되는 경우 언제든지 액세스 권한이 취소될 수 있습니다.
 
-특히 Intune에서 설정된 조건부 액세스 정책에서는 장치가 관리자가 설정한 규정 준수 정책에 부합할 때만 메일에 액세스할 수 있도록 합니다. 복사하여 붙여넣기, 개인 클라우드 저장소 서비스에 저장 등과 같은 작업은 모바일 응용 프로그램 관리 정책을 사용하여 제한할 수 있습니다. Azure 권한 관리 서비스를 사용하면 의도한 받는 사람만이 중요 메일 데이터 및 전달된 첨부 파일을 읽을 수 있도록 만들 수 있습니다. 최종 사용자 환경은 [조건부 액세스를 위한 최종 사용자 환경](end-user-experience-conditional-access.md)에 자세히 설명되어 있습니다.
+특히 Intune에서 설정된 조건부 액세스 정책에서는 장치가 관리자가 설정한 규정 준수 정책에 부합할 때만 메일에 액세스할 수 있도록 합니다. 복사하여 붙여넣기, 개인 클라우드 저장소 서비스에 저장 등과 같은 작업은 모바일 응용 프로그램 관리 정책을 사용하여 제한할 수 있습니다. Azure Information Protection을 사용하면 의도한 수신자만 중요 메일 데이터와 첨부된 파일을 읽을 수 있도록 만들 수 있습니다. 최종 사용자 환경은 [조건부 액세스를 위한 최종 사용자 환경](end-user-experience-conditional-access.md)에 자세히 설명되어 있습니다.
 
 
 조건부 액세스가 최종 사용자에게 주는 영향을 확인하려면 [이](https://www.youtube.com/watch?feature=player_embedded&v=lYx3YIezccg) 비디오(4분)를 시청하세요.
@@ -122,6 +122,6 @@ Azure AD 또는 Exchange에 대해 복잡한 인프라를 설치하지 않아도
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 

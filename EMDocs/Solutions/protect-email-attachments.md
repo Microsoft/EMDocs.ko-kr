@@ -13,8 +13,8 @@ ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
-ms.openlocfilehash: 3a3631e454323226958b2f1db003883d1ace562e
+ms.sourcegitcommit: d1211e3ef25b73679c851bce7f5eca872520f023
+ms.openlocfilehash: f00fa25e5e0b03c098f78e4d5f1be0957cdea24f
 
 
 ---
@@ -34,7 +34,7 @@ ms.openlocfilehash: 3a3631e454323226958b2f1db003883d1ace562e
 
 -   관리되는 앱과 연결된 데이터만 선택적으로 지웁니다. 장치를 분실 또는 도난당하거나 더 이상 IT 부서에서 관리하지 않는 경우에는 선택적 지우기를 통해 앱에서 회사 데이터를 모두 제거하여 개인 앱 데이터만 남겨 둘 수 있습니다. 이러한 방식을 다중 ID라고 합니다.
 
-[Azure 권한 관리 서비스](https://docs.microsoft.com/rights-management/understand-explore/what-is-azure-rms)를 사용하면 다음과 같은 방식으로 메일 보호를 확장할 수 있습니다.
+[Azure Information Protection](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)을 사용하면 다음과 같은 방식으로 메일 보호를 확장할 수 있습니다.
 
 -   적절한 사용자만 회사 내부나 외부에서 내용을 읽거나 볼 수 있도록 전자 메일 메시지를 암호화할 수 있습니다.
 
@@ -71,6 +71,6 @@ IT 관리자는 모바일 응용 프로그램 관리 정책을 만들고 앱에 
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 
