@@ -14,8 +14,8 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4edfa04ab1ecf371e207497d74aa4c1e2366d7a9
-ms.openlocfilehash: 9a41384fc4c7706c715b7c79d2dfd8e42f1d0a5d
+ms.sourcegitcommit: fd3cdf64ae84d45f285302fd8557dfdfadc60c8f
+ms.openlocfilehash: 9f0a69a7bd9bc1910281c44ec818efbf9c87370a
 
 
 ---
@@ -155,11 +155,13 @@ Microsoft Intune의 경우 Microsoft는 사용자의 모바일 장치 및 모바
 
 ![온보딩 활성화 단계 - Intune](./media/ft-enable-phase_intune_mdm-mam_cloudonly.png)
 
+![온보딩 활성화 단계 - Intune](./media/ft-enable-phase-intune-mdm-mam-sccm.png)
+
 **더 자세한 내용을 원하세요?**
 
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO2-->
 
 
