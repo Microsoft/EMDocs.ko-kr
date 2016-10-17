@@ -13,14 +13,14 @@ ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4edfa04ab1ecf371e207497d74aa4c1e2366d7a9
-ms.openlocfilehash: 678b0f25d03f2b5ff8d53effd75ea9c6fc99cfa9
+ms.sourcegitcommit: 2631d31711823e8a3f50ab58edf841aefb4f7153
+ms.openlocfilehash: 8f880796888183053f3311edeb13dbbfac44e667
 
 
 ---
 
 # EMS(Enterprise Mobility + Security)용 FastTrack 센터 혜택 프로세스
-EMS용 FastTrack 센터 혜택에 대해 자격을 갖춘 조직의 사용자는 Microsoft 전문가와 원격으로 협업하여 Azure Active Directory Premium, Microsoft Intune 및/또는 Azure Rights Management 환경을 사용할 수 있도록 준비할 수 있습니다. 또한 FastTrack 포털을 통해 Azure Information Protection, Microsoft Cloud App Security 및 Microsoft Advanced Threat Analytics에 대한 도움말도 요청할 수 있습니다. 해당 조직의 적격 여부를 확인하려면 [FastTrack 센터 혜택 적격 서비스 및 플랜](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)을 참조하세요.
+EMS용 FastTrack 센터 혜택에 대해 자격을 갖춘 조직의 사용자는 Microsoft 전문가와 원격으로 협업하여 Azure Active Directory Premium, Microsoft Intune 및/또는 Azure Rights Management 환경을 사용할 수 있도록 준비할 수 있습니다. 또한 [FastTrack 사이트](http://fasttrack.microsoft.com/ems)를 통해 Azure Information Protection, Microsoft Cloud App Security 및 Microsoft Advanced Threat Analytics에 대한 도움말도 요청할 수 있습니다. 해당 조직의 적격 여부를 확인하려면 [FastTrack 센터 혜택 적격 서비스 및 플랜](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)을 참조하세요.
 
 
 여기서 다루는 등록 프로세스는 다음과 같습니다.
@@ -52,6 +52,6 @@ EMS용 FastTrack 센터 혜택에 대해 자격을 갖춘 조직의 사용자는
     -   온-프레미스 Active Directory에서Windows Server 2012 R2 AD FS(Active Directory Federation Services) 2.0 이상으로 페더레이션
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO2-->
 
 
