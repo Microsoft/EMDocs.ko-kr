@@ -32,7 +32,7 @@
 #### [MDM 수명 주기 이해](mdm-understand-mdm-lifecycle.md)
 #### [모니터링 요구 사항 수집](mdm-gather-monitoring-requirements.md)
 #### [네트워크 요구 사항 확인](mdm-determine-network-requirements.md)
-#### [장치 등록 옵션](mdm-device-enrollment-options.md)
+### [장치 등록 옵션](mdm-device-enrollment-options.md)
 #### [장치 프로비전 옵션](mdm-device-provisioning-options.md)
 #### [장치 관리 옵션](mdm-device-management-options.md)
 #### [응용 프로그램 관리 옵션](mdm-application-management-options.md)
@@ -78,8 +78,10 @@
 ### [Intune이 있는 MAM](MAM-intune.md)
 ### [Configuration Manager가 있는 MAM](MAM-configmgr.md)
 ### [MAM 사용자 환경](end-user-experience-MAM.md)
+## [EMS에 포함된 다운로드 가능한 소프트웨어 라이선스](subscription-might-include-downloadable-software.md)
+## [EMS 지원 질문과 대답](ems-support-faq.md)
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Oct16_HO1-->
 
 

@@ -14,8 +14,8 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c704180f9c607e39c27d75676eec30afa1a1730c
-ms.openlocfilehash: b349cae1f73c4dab5dbce45937b91a8aaca7c052
+ms.sourcegitcommit: e422a74e551753ddb579d98789670cd8c1811b80
+ms.openlocfilehash: 4b1c82f5ecd5360b51d0f2af69df77ff2924aa0e
 
 
 ---
@@ -35,10 +35,10 @@ ID를 확인하기 위해 암호와 휴대폰의 응답을 모두 사용하도�
 
 |메서드|설명|
 |------------|----------------------------------|
-|휴대폰 통화|인증 전화 번호에 자동 음성 전화를 겁니다. 사용자는 전화를 받은 다음 휴대폰 키패드의 우물 정자를 눌러 인증합니다. 이 전화 번호는 온-프레미스 Active Directory와 동기화되지 않습니다.|
-|휴대폰 문자 메시지|사용자에게 확인 코드가 포함된 문자 메시지를 보냅니다. 사용자는 확인 코드를 사용하여 문자 메시지에 회신하거나 로그인 인터페이스에서 확인 코드를 입력해야 합니다.|
-|사무실 전화 통화|사용자에게 자동으로 음성 전화를 겁니다. 사용자는 전화를 받은 다음 휴대폰 키패드의 우물 정자를 눌러 인증합니다.|
-|모바일 앱|사용자 스마트폰 또는 태블릿의 Azure Authenticator 모바일 앱으로 푸시 알림을 보냅니다. 사용자는 앱에서 확인을 탭하여 인증합니다. 앱을 오프라인 인증용 OTP 토큰으로 사용할 수도 있습니다. 이 경우 사용자는 로그인 화면에서 토큰을 입력하여 인증합니다.|
+|[휴대폰 통화](#mobile-phone-(text-or-call))|인증 전화 번호에 자동 음성 전화를 겁니다. 사용자는 전화를 받은 다음 휴대폰 키패드의 우물 정자를 눌러 인증합니다. 이 전화 번호는 온-프레미스 Active Directory와 동기화되지 않습니다.|
+|[휴대폰 문자 메시지](#mobile-phone-(text-or-call))|사용자에게 확인 코드가 포함된 문자 메시지를 보냅니다. 사용자는 확인 코드를 사용하여 문자 메시지에 회신하거나 로그인 인터페이스에서 확인 코드를 입력해야 합니다.|
+|[사무실 전화 통화](#office-phone-call)|사용자에게 자동으로 음성 전화를 겁니다. 사용자는 전화를 받은 다음 휴대폰 키패드의 우물 정자를 눌러 인증합니다.|
+|[모바일 앱](#mobile-application)|사용자 스마트폰 또는 태블릿의 Azure Authenticator 모바일 앱으로 푸시 알림을 보냅니다. 사용자는 앱에서 확인을 탭하여 인증합니다. 앱을 오프라인 인증용 OTP 토큰으로 사용할 수도 있습니다. 이 경우 사용자는 로그인 화면에서 토큰을 입력하여 인증합니다.|
 
 _Azure Authenticator 앱을 다음과 같은 두 가지 모드로 작동하여 다단계 인증 서비스가 제공할 수 있는 추가 보안 기능을 제공할 수 있습니다. 이 두 가지 모드는 다음과 같습니다._
 
@@ -117,10 +117,10 @@ Azure Authenticator 앱은 Windows Phone, Android 및 iOS에 사용할 수 있�
 12. **완료**를 클릭합니다.
 
 ### 더 자세한 내용을 원하세요?
-[Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.
+[Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.
 
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Oct16_HO2-->
 
 

@@ -4,17 +4,18 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 8/1/2016
-ms.topic: article
+ms.date: 10/3/2016
+ms.topic: solution
 ms.prod: 
-ms.service: microsoft-intune
+ms.service: 
 ms.technology: 
 ms.assetid: 5967876b-3c08-4498-a0a6-0225b562d35f
 ms.reviewer: 
 ms.suite: ems
+ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: e51462f1b238f7e3b518a7a9c8042ff3ad78a5a5
-ms.openlocfilehash: a3456dffc8c3223ec655922e24e2ec0d65c282ce
+ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
+ms.openlocfilehash: fa1bf43d4c711da69f069e23d518b354cff162da
 
 
 ---
@@ -77,7 +78,7 @@ Intune 관리자가 [Intune 관리 콘솔](/intune/deploy-use/introduction-to-de
 
 - Intune 구독 구입 시 Azure AD 클라우드 서비스가 포함되지 않음
 
-## Enterprise Mobility Suite
+## Enterprise Mobility + Security
 
 **장점**
 
@@ -91,6 +92,6 @@ Intune 관리자가 [Intune 관리 콘솔](/intune/deploy-use/introduction-to-de
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 
