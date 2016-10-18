@@ -4,17 +4,18 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 8/1/2016
-ms.topic: article
+ms.date: 10/3/2016
+ms.topic: solution
 ms.prod: 
-ms.service: microsoft-intune
+ms.service: 
 ms.technology: 
 ms.assetid: f3486381-66d5-469a-93a3-013eaaa17c07
 ms.reviewer: 
 ms.suite: ems
+ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: e51462f1b238f7e3b518a7a9c8042ff3ad78a5a5
-ms.openlocfilehash: f20dcc2f6d1fe03a5570eaba4eaca6933205d723
+ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
+ms.openlocfilehash: 1c93f74e7e0e4c8591f800954bb60dda59005af8
 
 
 ---
@@ -28,7 +29,7 @@ ms.openlocfilehash: f20dcc2f6d1fe03a5570eaba4eaca6933205d723
 
 Office 365에서는 보호해야 하는 중요한 정보를 파악하는 데 도움이 되는 메일 데이터 자동 분류를 제공합니다. Office 365에서는 메일 흐름 처리에 통합되는 전송 규칙을 사용하여 중요한 정보를 검색합니다. 그런 다음 [DLP 기능](http://blogs.office.com/2013/10/28/office-365-compliance-controls-data-loss-prevention/)은 키워드 일치, 사전 일치, 정규식 평가, 내부 함수를 통해 신용 카드 번호에 대한 체크섬 유효성 검사와 같은 심도 깊은 콘텐츠 분석을 수행하고 메시지 본문 또는 첨부 파일 내에서 특정 콘텐츠 유형을 검색하기 위한 기타 콘텐츠 검사를 수행합니다. 
 
-Intune 및 ConfigMgr에는 기본적으로 데이터 분류 기능이 없으므로 Azure RMS를 사용하는 클라우드 기반 분류나 ADRMS를 사용하는 온-프레미스 분류를 사용합니다. [EMS(Enterprise Mobility Suite)](http://www.microsoft.com/server-cloud/enterprise-mobility/overview.aspx)를 MDM 솔루션으로 사용할 수도 있습니다. EMS를 사용하면 데이터를 분류하는 데 사용할 수 있는 [Azure AD Premium](https://msdn.microsoft.com/library/azure/dn532272.aspx) 및 [Azure RMS](https://technet.microsoft.com/library/jj585026.aspx)에 액세스할 수 있습니다. Azure RMS를 사용하는 데이터 분류는 하이브리드 환경의 온-프레미스 관리 솔루션에 통합될 수 있습니다. 
+Intune 및 ConfigMgr에는 기본적으로 데이터 분류 기능이 없으므로 Azure RMS를 사용하는 클라우드 기반 분류나 ADRMS를 사용하는 온-프레미스 분류를 사용합니다. MDM 솔루션으로 [EMS(Enterprise Mobility + Security)](http://www.microsoft.com/server-cloud/enterprise-mobility/overview.aspx)를 사용하는 다른 옵션도 있습니다. EMS를 사용하면 데이터를 분류하는 데 사용할 수 있는 [Azure AD Premium](https://msdn.microsoft.com/library/azure/dn532272.aspx) 및 [Azure RMS](https://technet.microsoft.com/library/jj585026.aspx)에 액세스할 수 있습니다. Azure RMS를 사용하는 데이터 분류는 하이브리드 환경의 온-프레미스 관리 솔루션에 통합될 수 있습니다. 
 
 IT에서는 Intune를 사용하여 조건부 액세스를 통해 규정에 부합하는 것으로 간주되기 위해 장치가 따라야 하는 규칙 및 설정 집합인 규정 준수 정책을 사용하여 정책에 부합할 수 있습니다. 또한 규정 준수 정책을 사용하여 조건부 액세스와 독립적으로 장치를 모니터링하고 규정 준수 문제를 관리합니다. 자세한 내용은 [Microsoft Intune 장치 규정 준수 정책 관리](/intune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune)를 읽어보세요.
 
@@ -65,7 +66,7 @@ IT에서는 Intune를 사용하여 조건부 액세스를 통해 규정에 부�
 
 - 사용할 수 없음
 
-## Enterprise Mobility Suite
+## Enterprise Mobility + Security
 
 **장점**
 
@@ -81,6 +82,6 @@ IT에서는 Intune를 사용하여 조건부 액세스를 통해 규정에 부�
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 

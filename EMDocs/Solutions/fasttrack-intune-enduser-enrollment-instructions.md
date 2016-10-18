@@ -14,8 +14,8 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c704180f9c607e39c27d75676eec30afa1a1730c
-ms.openlocfilehash: c11de7d94408b2a0d3e1511f2f93c1f56655c080
+ms.sourcegitcommit: e422a74e551753ddb579d98789670cd8c1811b80
+ms.openlocfilehash: 7d04b320606403530801de71a37d308cf378856f
 
 
 ---
@@ -169,10 +169,10 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
   ![Mac OS X 장치에서 관리 프로필이 확인되었음을 보여 주는 스크린샷](./media/ft-userEnrollMacOSx-4-profileVerified.png)
 
 ### 더 자세한 내용을 원하세요?
-[Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.
+[Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.
 
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Oct16_HO2-->
 
 

@@ -4,17 +4,18 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 8/1/2016
-ms.topic: article
+ms.date: 10/3/2016
+ms.topic: solution
 ms.prod: 
-ms.service: microsoft-intune
+ms.service: 
 ms.technology: 
 ms.assetid: ecb6271f-8f38-42bd-aae7-10ba5e17a5f1
 ms.reviewer: 
 ms.suite: ems
+ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: e51462f1b238f7e3b518a7a9c8042ff3ad78a5a5
-ms.openlocfilehash: affb004f69e50d7c41ede6d29355fbb991949ebd
+ms.sourcegitcommit: e410d3fd320660186b6d21853af3172062f90eda
+ms.openlocfilehash: 64fff538f7e0a8ace6c38404a9bde3c20e87eb9a
 
 
 ---
@@ -29,7 +30,7 @@ ms.openlocfilehash: affb004f69e50d7c41ede6d29355fbb991949ebd
 
 - 사용자가 자신의 장치를 사용하여 회사 앱 및 데이터에 액세스할 수 있는 유연성을 제공합니다.
 - 온-프레미스 및 클라우드에서 회사 리소스에 액세스하고 있는 장치를 관리합니다.
-- 암호화 및 권한 관리를 사용하여 권한 없는 로컬 액세스로부터 보호하고 장치가 손실되거나 사용 중단된 경우 또는 직원의 종료 프로세스 중에 인터넷을 통해 회사 데이터를 원격으로 삭제하여 IT 부서에서 장치에 저장된 회사 데이터를 보호할 수 있도록 합니다.
+- IT 부서에서 권한 없는 로컬 액세스로부터 보호하기 위해 암호화와 정보 보호를 사용하고, 장치가 손실되거나 사용 중단된 경우 또는 직원의 종료 프로세스 중에 인터넷을 통해 회사 데이터를 원격으로 삭제함으로써 장치에 저장된 회사 데이터를 보호할 수 있도록 합니다.
 - 사용자가 온-프레미스 및 클라우드에서 리소스에 액세스할 때 일반적인 ID를 제공합니다.
 - IT 부서에서 여러 ID를 관리하여 서로 다른 환경에서 정보가 동기화되도록 합니다.
 - Multi-Factor Authentication 및 Single Sign-On과 같은 엔터프라이즈 인증 서비스를 사용합니다.
@@ -53,6 +54,6 @@ ms.openlocfilehash: affb004f69e50d7c41ede6d29355fbb991949ebd
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 

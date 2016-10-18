@@ -4,17 +4,18 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 8/1/2016
-ms.topic: article
+ms.date: 10/3/2016
+ms.topic: solution
 ms.prod: 
-ms.service: microsoft-intune
+ms.service: 
 ms.technology: 
 ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
 ms.reviewer: 
 ms.suite: ems
+ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: e51462f1b238f7e3b518a7a9c8042ff3ad78a5a5
-ms.openlocfilehash: 878f20d5fa1e1180f149bf8b2865ae719cf61352
+ms.sourcegitcommit: e410d3fd320660186b6d21853af3172062f90eda
+ms.openlocfilehash: 696374bf33144ef29b7143414035f761786bd4e9
 
 
 ---
@@ -32,7 +33,7 @@ Windows Server 2012 R2에서는 클라우드 폴더를 사용하여 사용자의
 
 저장소를 콘텐츠 컨테이너로 간주하는 경우 해당 콘텐츠의 소비를 보호하는 장점도 있습니다. 최종 사용자가 저장소에 상주하는 콘텐츠를 사용하는 방식에 영향을 주는 정책을 적용하여 데이터 누출을 방지할 수 있습니다. [AD RMS(Active Directory Rights Management Services)](https://technet.microsoft.com/library/hh831554.aspx)를 사용하면 IRM(정보 권한 관리)을 사용하는 문서를 보호하여 조직의 보안 전략을 강화할 수 있습니다. AD RMS에서는 개인 및 관리자가 IRM 정책을 통해 문서, 통합 문서 및 프리젠테이션에 대한 액세스 권한을 지정할 수 있습니다. 따라서 중요한 정보가 권한 없는 사용자에 의해 인쇄, 전달 또는 복사되는 것을 방지할 수 있습니다. IRM을 사용하여 파일에 대한 사용 권한을 제한한 후에는 파일에 대한 권한이 파일 자체에 저장되므로 정보의 위치에 관계없이 액세스 및 사용 제한이 적용됩니다.
 
-회사에서 파일 보호를 위해 클라우드 기반 솔루션을 사용하려는 경우 [Azure 권한 관리](https://technet.microsoft.com/library/jj585026.aspx)를 사용할 수도 있습니다. Azure 권한 관리는 파일과 메일을 보호하기 위해 암호화, ID 및 권한 부여 정책을 사용하는 회사의 중요한 정보를 보호하며 이는 휴대폰, 태블릿, PC 등의 여러 장치에서 작동합니다. 데이터가 조직 경계를 벗어나더라도 데이터가 계속 보호되므로 조직 내부와 외부에서 모두 정보를 보호할 수 있습니다. 
+회사에서 파일 보호를 위해 클라우드 기반 솔루션을 사용하려는 경우 [Azure Information Protection](/information-protection/understand-explore/what-is-information-protection)을 사용할 수도 있습니다. Azure Information Protection은 파일과 메일을 보호하기 위해 암호화, ID 및 권한 부여 정책을 사용하여 회사의 중요한 정보를 보호하며 휴대폰, 태블릿, PC 등 여러 장치에서 작동합니다. 데이터가 조직 경계를 벗어나더라도 데이터가 계속 보호되므로 조직 내부와 외부에서 모두 정보를 보호할 수 있습니다. 
 
 드라이브 암호화를 위한 BitLocker 및 파일 암호화를 위한 [Encrypting File System (EFS)(EFS(파일 시스템 암호화))](https://technet.microsoft.com/library/cc700811.aspx) 같이 Windows 운영 체제에서 사용할 수 있는 다른 저장소 기술을 사용하여 전체적인 데이터 보호를 향상시킬 수도 있습니다. 다음 표에서는 저장소 보호의 장점 및 단점을 확인할 수 있습니다. 이러한 옵션은 함께 사용할 수 있다는 점에 유의하세요. 즉, 디자인 결정에 따라 이러한 저장소 보호 옵션이 모두 BYOD 인프라 솔루션에 필요할 수 있습니다.
 
@@ -70,7 +71,7 @@ Windows Server 2012 R2에서는 클라우드 폴더를 사용하여 사용자의
         - 그룹 정책을 사용하여 사용자 단위 또는 장치 단위로 설정할 수 있습니다.
         - Microsoft Intune과 통합되어 사용자 장치의 클라우드 폴더에 있는 데이터를 선택적으로 지울 수 있습니다.
         - 사용자가 클라우드 폴더에 있는 데이터에 액세스하기 전에 다시 인증하도록 할 수 있습니다.
-        - 데이터 분류를 위해 Microsoft Rights Management 서비스와 통합할 수 있습니다.
+        - 데이터 분류를 위해 Microsoft Information Protection 서비스와 통합할 수 있습니다.
     - 단점
         - Windows 8.1, Windows RT 8.1 및 Windows 10에서만 사용할 수 있습니다.
         - 동기화 공유를 호스트하려면 Windows Server 2012 R2가 필요합니다.
@@ -250,6 +251,6 @@ Multi-Factor Authentication을 적용하려는 경우 회사는 AD FS의 기본
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 

@@ -1,10 +1,10 @@
 ---
-title: "Enterprise Mobility Suite에 대한 FastTrack 센터 혜택 프로세스 - 고객의 책임"
+title: "사용자의 책임"
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 10/02/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -14,17 +14,15 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a92fcc56cea75adb6c3db4eeb197dba77d2b63b7
-ms.openlocfilehash: 2dd5e54fe1348cc23274afc735759c92fbf81e28
+ms.sourcegitcommit: 323bdb56b3d81eb6a63e266899427672abf79da4
+ms.openlocfilehash: 035279b0dd7ca88123d94016ceb6caaf6306350f
 
 
 ---
 
-# Enterprise Mobility Suite에 대한 FastTrack 센터 혜택 프로세스 - 고객의 책임
+# 사용자의 책임
 
-[Enterprise Mobility Suite(EMS)에 대한 FastTrack 센터 혜택](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)을 사용하여 Azure Active Directory Premium, Microsoft Intune 및/또는 Azure Rights Management를 사용할 경우, 해당 조직은 프로세스 중에 몇 가지 책임에 부합해야 합니다. 다음 섹션에서는 등록 프로세스의 각 단계에서 고객의 책임을 설명합니다.
-
-FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [EMS(Enterprise Mobility Suite)에 대한 FastTrack Center 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)를 참조하세요.
+등록 시 고객이 이행해야 하는 의무는 다음과 같습니다.
 
 ## 일반 책임
 
@@ -46,7 +44,7 @@ FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [EM
 
 -   EMS 서비스 기준 구성과 기능을 테스트하기 위해 만든 보안 정책 이외의 정책 관리, 구성 및 적용.
 
--   Microsoft Azure AD Premium EMS 서비스 초기 구성 및 기능 테스트에 사용되는 것 이상의 사용자 계정을 등록.
+-   Microsoft Azure AD EMS 서비스 기본 구성 및 기능 테스트를 수행하는 사용자 계정보다 더 많은 사용자 계정 등록.
 
 -   네트워크 구성, 분석, 대역폭 유효성 검사, 테스트 및 모니터링.
 
@@ -64,7 +62,7 @@ FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [EM
 
 -   공용 SSL 인증서 제공 및 구성.
 
--   최종 사용자가 액세스할 수 있는 Microsoft Intune 회사 포털에 구성 및 표시될 조직의 TOU(사용 약관) 작성.
+-   최종 사용자가 액세스할 수 있는 Microsoft Intune 회사 포털에 구성되고 표시될 조직의 TOU(사용 약관) 작성
 
 ## 시작 단계
 
@@ -110,14 +108,11 @@ FastTrack 등록 프로세스의 다른 부분에 대한 자세한 내용은 [EM
 
 -   Microsoft의 지침에 따라 다양한 서비스를 사용하도록 설정합니다.
 
-FastTrack 온보딩 프로세스의 마지막 부분입니다.
+**더 자세한 내용을 원하세요?**
 
-### 더 자세한 내용을 원하세요?
-[Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.
-
+[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
 
 
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Oct16_HO1-->
 
 

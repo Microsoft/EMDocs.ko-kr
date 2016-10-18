@@ -13,8 +13,8 @@ ms.assetid: 8cfe421b-52c9-4d44-8df1-15c82375c335
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: faa30f461ff9a1a14d150bd85d86d37cd298570c
-ms.openlocfilehash: 37ec8e1f175cfbe5a6ff3f101b2773abb8680786
+ms.sourcegitcommit: e422a74e551753ddb579d98789670cd8c1811b80
+ms.openlocfilehash: b0141331db2c63761997ffa1ad20d062b9e9969b
 
 
 ---
@@ -33,7 +33,7 @@ Intune 솔루션을 사용하여 Exchange Online을 배포하려면 다음 단�
 
 더 이상 회사에 속하지 않아 iOS 장치에서 모든 회사 메일을 제거하는 기능을 원하는 경우 메일 프로필을 만들고 배포한 다음 메일 프로필이 Intune에서 관리되도록 지정하는 규정 준수 정책을 설정해야 합니다. 이 규정 준수 정책에서 대상으로 하는 사용자 집합과 동일한 사용자 집합에 메일 프로필을 배포해야 합니다.
 
-![전자 메일 프로필을 Intune에서 관리해야 한다고 지정할 수 있는 규정 준수 정책 만들기 마법사의 "규칙" 페이지를 보여주는 스크린샷](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
+![메일 프로필을 Intune에서 관리해야 한다고 지정할 수 있는 Intune 정책 만들기 마법사의 "일반" 탭에 있는 “메일 프로필" 섹션을 보여 주는 스크린샷](./media/ProtectEmail/intune-create-policy-email-profile.PNG)
 
 이 규정 준수 정책을 지정하는 경우 이미 메일 계정을 설정한 사용자는 수동으로 해당 계정을 제거해야 하며, Intune에서 [조건부 액세스를 위한 최종 사용자 환경](end-user-experience-conditional-access.md)에 설명된 등록 프로세스를 통해 다시 추가합니다.
 
@@ -74,6 +74,6 @@ Intune 대시보드에서 **Exchange에서 차단된 장치** 타일을 클릭�
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Oct16_HO2-->
 
 
