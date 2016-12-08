@@ -1,10 +1,11 @@
 ---
 title: "모바일 장치 보호 향상 계획"
-description: 
+description: "이 문서에서는 모바일 장치 관리 시나리오에서 모바일 장치를 보호하기 위한 디자인 고려 사항을 제공합니다."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: cff2abcc7befdb3be47ebd73820a31c520d6fa17
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: bbef17c4d072706a5704c871eee490fba5c9052c
 
 
 ---
 
-# 모바일 장치 보호 향상 계획
+# <a name="plan-for-enhancing-mobile-devices-protection"></a>모바일 장치 보호 향상 계획
 
 >[!NOTE]
 >이 항목은 좀 더 큰 디자인 고려 사항 가이드의 일부입니다. 이 가이드의 맨 처음부터 시작하려면 [기본 항목](mdm-design-considerations-guide.md)을 확인하세요. 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
@@ -31,7 +32,7 @@ ms.openlocfilehash: cff2abcc7befdb3be47ebd73820a31c520d6fa17
 
 ![MDM 플랫폼에 대한 핵심 보안 기능](./media/MDM_Figure_08.png)
 
-## MDM 솔루션의 보안 기능
+## <a name="security-capabilities-in-a-mdm-solution"></a>MDM 솔루션의 보안 기능
 
 이 다이어그램에서는 모든 MDM 솔루션에 필요한 핵심 보안 기능을 보여 줍니다. 고려해야 할 주요 영역은 다음과 같습니다.
 
@@ -58,7 +59,7 @@ ms.openlocfilehash: cff2abcc7befdb3be47ebd73820a31c520d6fa17
 
 다음 섹션에서 설명하는 작업은 가장 적합한 MDM 솔루션을 결정하는 데 영향을 미치는 방식을 이해하는 데 도움이 될 수 있습니다.
 
-## 이 단계 정보
+## <a name="about-this-step"></a>이 단계 정보
 
 이 가이드의 본 섹션에는 12단계가 있습니다. 전체 섹션을 읽는 시간은 총 36분이며 특정 섹션으로 건너뛸 수도 있습니다.
 
@@ -78,6 +79,6 @@ ms.openlocfilehash: cff2abcc7befdb3be47ebd73820a31c520d6fa17
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

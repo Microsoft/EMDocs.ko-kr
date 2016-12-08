@@ -1,8 +1,9 @@
 ---
 title: "메일 관리 옵션"
-description: 
+description: "이 문서에서는 Enterprise Mobility + Security를 사용하여 Microsoft 모바일 장치 관리 솔루션을 계획하고 디자인할 때 필요한 기존 메일 관리 옵션에 대한 지침을 제공합니다."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 919ce43f116714c7b08b8a17973c4955681b5a5a
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: ac2c64b54883204f0051250c23f7a6b085e67ebe
 
 
 ---
 
-# 메일 관리 옵션
+# <a name="email-management-options"></a>메일 관리 옵션
 
 >[!NOTE]
 >이 항목은 좀 더 큰 디자인 고려 사항 가이드의 일부입니다. 이 가이드의 맨 처음부터 시작하려면 [기본 항목](mdm-design-considerations-guide.md)을 확인하세요. 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
@@ -37,7 +38,7 @@ ms.openlocfilehash: 919ce43f116714c7b08b8a17973c4955681b5a5a
 
 1단계의 질문에 대한 답변은 모바일 장치 관리 솔루션에서 장치를 관리하는 방법을 결정하는 데 도움이 됩니다. 아래 목록에서는 각 MDM 솔루션에서 메일 관리의 장단점을 나열합니다.
 
-## Intune(독립 실행형)
+## <a name="intune-standalone"></a>Intune(독립 실행형)
 
 **장점**
 
@@ -51,7 +52,7 @@ ms.openlocfilehash: 919ce43f116714c7b08b8a17973c4955681b5a5a
 
 - Android 기반 모바일 장치의 경우 메일 프로필이 지원되지 않음
 
-## Office 365용 MDM
+## <a name="mdm-for-office-365"></a>Office 365용 MDM
 
 **장점**
 
@@ -64,7 +65,7 @@ ms.openlocfilehash: 919ce43f116714c7b08b8a17973c4955681b5a5a
 - 일부 고급 메일 관리 옵션이 지원되지 않음 
 - 메일 프로필 배포가 지원되지 않음(iOS 제외)
 
-## 하이브리드(ConfigMgr와 Intune)
+## <a name="hybrid-intune-with-configmgr"></a>하이브리드(ConfigMgr와 Intune)
 
 **장점**
 
@@ -88,6 +89,6 @@ ms.openlocfilehash: 919ce43f116714c7b08b8a17973c4955681b5a5a
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

@@ -1,8 +1,9 @@
 ---
 title: "장치 프로비전 옵션"
-description: 
+description: "이 문서에서는 Enterprise Mobility + Security를 사용하여 Microsoft 모바일 장치 관리 솔루션을 계획하고 디자인할 때 필요한 장치 프로비전 옵션에 대한 지침을 제공합니다."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 9a92d3822f8791d2095f434cdf3e67582e329cae
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 3df9be3ef643303f4205aa1b6daf18fdf53762d8
 
 
 ---
 
-# 장치 프로비전 옵션
+# <a name="device-provisioning-options"></a>장치 프로비전 옵션
 
 >[!NOTE]
 >이 항목은 좀 더 큰 디자인 고려 사항 가이드의 일부입니다. 이 가이드의 맨 처음부터 시작하려면 [기본 항목](mdm-design-considerations-guide.md)을 확인하세요. 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
@@ -39,7 +40,7 @@ ms.openlocfilehash: 9a92d3822f8791d2095f434cdf3e67582e329cae
 
 1단계의 질문에 대한 답변에 따라, 모바일 장치 관리 솔루션에서 장치를 관리하는 방식을 결정할 수 있습니다. 아래 목록에서는 각 프로비전 옵션의 장단점을 보여 줍니다.
 
-## Intune(독립 실행형)
+## <a name="intune-standalone"></a>Intune(독립 실행형)
 
 **장점**
 
@@ -53,7 +54,7 @@ ms.openlocfilehash: 9a92d3822f8791d2095f434cdf3e67582e329cae
 - 비모바일 장치에 대해 온-프레미스 관리 플랫폼을 사용하는 경우에만 모바일 장치를 프로비전하기 위한 추가 관리 인터페이스 필요
 - 클라우드 기반 서비스 및 온-프레미스 관리 플랫폼에 대한 별도의 장치 규정 준수 및 보안 정책 제공 
 
-## Office 365용 MDM
+## <a name="mdm-for-office-365"></a>Office 365용 MDM
 
 **장점**
 
@@ -67,7 +68,7 @@ ms.openlocfilehash: 9a92d3822f8791d2095f434cdf3e67582e329cae
 - 클라우드 기반 서비스 및 온-프레미스 관리 플랫폼에 대한 별도의 장치 규정 준수 및 보안 정책 제공
 - 좀 더 간단한 장치 프로비저닝 옵션
 
-## 하이브리드(ConfigMgr와 Intune)
+## <a name="hybrid-intune-with-configmgr"></a>하이브리드(ConfigMgr와 Intune)
 
 **장점**
 
@@ -84,6 +85,6 @@ Intune에서 [모바일 장치 등록을 사용하도록 설정](/Intune/deploy-
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

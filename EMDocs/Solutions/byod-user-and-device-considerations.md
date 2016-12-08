@@ -1,10 +1,11 @@
 ---
 title: "사용자 및 장치 고려 사항"
-description: 
+description: "이 문서에서는 Bring Your Own Device 시나리오에서 본인의 장치 또는 회사 소유의 장치를 사용하여 회사 리소스에 액세스하는 사용자를 위한 다양한 디자인 고려 사항입니다."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,19 +15,19 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 3fcfcad4698581b955fd1a1b8cde4ccefeeca928
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 717183b0b7f94277379ebbeee2136227d29f88ef
 
 
 ---
 
-# 사용자 및 장치 고려 사항
+# <a name="user-and-device-considerations"></a>사용자 및 장치 고려 사항
 
 첫 번째로 해결해야 하는 사용자 및 장치 문제는 회사 리소스에 안전하게 액세스할 때 사용 중인 기술이 사용자 환경에 영향을 주는 방식입니다. 보안 관점뿐만 아니라 앱 개발 측면에서 다양한 장치의 사용자 환경 문제 해결은 매우 어려울 수 있습니다. 데이터가 전송되는 동안 데이터 누출을 방지하는 데 필요한 적절한 수준의 네트워크 보안을 제공하려면 장치와 회사 리소스 간의 통신 채널을 고려해야 합니다.
 
 다음 섹션은 BYOD 문제 영역에 대한 개념 다이어그램인 이 가이드의 [BYOD 문제 정의](byod-design-considerations-guide.md#problem-definition) 섹션에 표시된 사용자 및 장치 하위 영역의 구성 요소를 기반으로 합니다.
 
-## Profiles
+## <a name="profiles"></a>Profiles
 
 BYOD 인프라 솔루션을 디자인하려면 사용자의 요구 및 사용자가 선택한 장치에서 업무를 수행할 때의 요구 사항을 이해해야 합니다. 모든 사용자의 요구 사항이 동일하지는 않습니다. 일부 사용자는 항상 온-프레미스의 데이터에 액세스하므로 정책 적용이 어려울 수 있습니다. 원격 작업자는 다양한 위치 및 환경에서 회사 데이터에 액세스합니다. 이러한 요구를 해결하기 위해 사용할 수 있는 옵션을 고려해야 합니다. 다음과 같은 사용자의 요구에 따라 각 사용자의 프로필을 확인합니다.
 
@@ -37,7 +38,7 @@ BYOD 인프라 솔루션을 디자인하려면 사용자의 요구 및 사용자
 
 이 가이드에서 제시된 사용자 프로필은 다음과 같습니다.
 
-- **밝게**
+- **Light**
     - 온-프레미스 또는 클라우드의 웹 기반 앱에 액세스합니다.
     - 회사 모바일 앱에 액세스합니다.
 - **Moderate**
@@ -56,7 +57,7 @@ BYOD 인프라 솔루션을 디자인하려면 사용자의 요구 및 사용자
 
 BYOD 인프라 솔루션에 보다 적합한 사용자 프로필을 결정해야 합니다. 사용자의 업무 요구 사항에 따라 여러 사용자의 프로필을 설정할 수 있습니다. 요구 사항은 각 개인에 따라 달라질 수 있으므로 BYOD 인프라 솔루션을 구현하는 데 사용되는 기술에서 모든 사용자 프로필을 수용할 수 있어야 합니다. 
 
-## 장치
+## <a name="devices"></a>장치
 
 IT 부서는 장치에 대한 지식이 필요한지를 결정해야 합니다. 예를 들어 한 BYOD 시나리오에는 외부에서 자신의 작업표를 확인하거나 회사 공지 사항 또는 소셜 사이트를 검토하는 시급 직원이 있습니다. 많은 조직에서 이러한 요구 사항은 기본적으로 LAN 전용 서비스였지만 지금은 개인 장치에서 열 수 있습니다. 자신의 일정을 확인하는 사람에게 장치 관리가 필요합니까? 장치의 사용 기록을 이해하면 IT 부서에서 다음을 수행하는 데 도움이 됩니다.
 
@@ -70,7 +71,7 @@ IT 부서는 장치에 대한 지식이 필요한지를 결정해야 합니다. 
 - 접근 방식 3(1+2): 각 사용자의 장치에 관리 에이전트를 등록하고 설치
 
 
-### 알려지지 않은 장치 및 알려진 장치 옵션 — 장점 및 단점
+### <a name="unknown-to-known-device-options-advantages-and-disadvantages"></a>알려지지 않은 장치 및 알려진 장치 옵션 — 장점 및 단점
 
 아래 목록을 사용하여 각 알려지지 않은 장치 및 알려진 장치 옵션의 장단점을 이해합니다.
 
@@ -111,13 +112,13 @@ Windows Server 2012 R2에서는 [작업 공간 연결](https://technet.microsoft
 
 DRS를 사용하려면 관리 기능을 제공하지 않는다는 점을 알고 있어야 합니다. 회사에서 사용자의 장치를 제어할 수 있는 더 많은 옵션을 제공하기 위해 더 많은 보안 컨트롤이 필요한 경우 [모바일 장치 등록](https://technet.microsoft.com/library/jj733620.aspx)과 함께 DRS를 관리 에이전트 솔루션으로 사용하는 것이 좋습니다. 그러나 이 옵션을 선택하면 Microsoft Intune 구독이 있어야 합니다. Microsoft Intune에 대한 자세한 내용은 [Microsoft Intune page(Microsoft Intune 페이지)](/intune/understand-explore/introduction-to-microsoft-intune)를 참조하세요.
 
-## 네트워크
+## <a name="network"></a>네트워크
 
 회사 네트워크 액세스는 사용자 및 장치 관점에서 해결해야 합니다. 사용자는 자신의 장치를 사용하는 동안 어떻게 회사 데이터에 액세스합니까? 대부분의 BYOD 인프라 솔루션은 사용자 장치에서의 원격 액세스만 중점적으로 다룹니다. 그러나 사용자 중심 접근 방식에서는 사용자가 실제로 있는 위치를 고려해야 합니다. 원격 액세스뿐만 아니라 사용자가 온-프레미스에서 데이터에 액세스하는 방법에도 초점을 맞추어야 합니다. 또한 조직의 지정학적 정렬과 관련된 규정 문제를 고려해야 합니다. 예를 들어 실제로 다른 국가 또는 지역에 있는 사용자는 네트워크 액세스를 어떻게 개인 설정할 수 있나요?
 
 사용자의 장치에서 인터넷을 통해 액세스할 수 있는 공용 클라우드에 회사 리소스가 있는 경우 트래픽이 처리되는 방식을 고려해야 합니다. 데이터가 사용자의 장치에서 클라우드 공급자로 전송되는 동안 암호화를 사용하는 것이 좋습니다. 사용자가 내부 리소스에 액세스하고 있으면 데이터 암호화도 사용해야 합니다.
 
-### 네트워크 연결 옵션 — 장점 및 단점
+### <a name="network-connectivity-options-advantages-and-disadvantages"></a>네트워크 연결 옵션 — 장점 및 단점
 
 아래 목록을 사용하여 각 연결 옵션의 장단점을 이해합니다.
 
@@ -174,7 +175,7 @@ DRS를 사용하려면 관리 기능을 제공하지 않는다는 점을 알고 
 무선 액세스 지점 및 네트워크 구성 요소(스위치 및 라우터)에서 물리적 조각화를 선택하여 자신의 장치로 연결하는 사용자를 격리시킬 수 있습니다. 이 유형의 조각화는 [Configuration Manager의 Wi-Fi 프로필](https://technet.microsoft.com/library/dn261221.aspx)을 사용하여 구현할 수도 있습니다. 서버 유효성 검사 및 클라이언트 인증을 위한 인증서 같이 [Configuration Manager 인증서 프로필](https://technet.microsoft.com/library/dn270540.aspx)을 사용하여 프로비전된 광범위한 보안 설정을 사용할 수 있습니다.
 
 
-### Wi-Fi 네트워크 조각화 옵션 - 장점 및 단점
+### <a name="wi-fi-network-segmentation-options---advantages-and-disadvantages"></a>Wi-Fi 네트워크 조각화 옵션 - 장점 및 단점
 
 아래 목록을 사용하여 각 Wi-Fi 조각화 옵션의 장단점을 이해합니다.
 
@@ -211,6 +212,6 @@ DRS를 사용하려면 관리 기능을 제공하지 않는다는 점을 알고 
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

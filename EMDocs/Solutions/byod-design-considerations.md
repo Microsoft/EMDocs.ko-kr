@@ -1,10 +1,11 @@
 ---
 title: "디자인 고려 사항"
-description: 
+description: "이 문서에서는 Bring Your Own Device 시나리오에서 제품 및 기술에 대한 다양한 디자인 고려 사항을 제공합니다."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,19 +15,19 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: e410d3fd320660186b6d21853af3172062f90eda
-ms.openlocfilehash: a9fc81c8e6d53f4ad457bf70e576a608d046cca8
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 3dbf7072bbc3baf6a97072f1cbbd15bd236349d3
 
 
 ---
 
-# 디자인 고려 사항
+# <a name="design-considerations"></a>디자인 고려 사항
 
 이 문서의 BYOD 인프라 솔루션 구상에 자세히 설명되어 있는 요구 사항을 이해하면 BYOD 인프라 디자인의 요구 사항을 구현하는 데 적절한 제품 및 기술을 선택할 수 있습니다. 다음 표에는 BYOD 인프라 솔루션을 구현하는 데 사용할 수 있는 Microsoft 제품, 기술 및 서비스가 나열되어 있습니다.
 
 이 가이드에서 설명한 BYOD 인프라 솔루션을 위한 Microsoft 제품, 기술 및 서비스용 Microsoft 제품, 기술 및 서비스는 다음과 같습니다.
 
-## 사용자 및 장치
+## <a name="user-and-device"></a>사용자 및 장치
 
 - Windows Server 2012 R2
 - Windows 10
@@ -37,7 +38,7 @@ ms.openlocfilehash: a9fc81c8e6d53f4ad457bf70e576a608d046cca8
 - 회사 포털
 - HTTPS 프로토콜
 
-## 데이터 액세스 및 보호
+## <a name="data-access-and-protection"></a>데이터 액세스 및 보호
 
 - Windows Server 2012 R2
 - AD DS(Active Directory 도메인 서비스)
@@ -52,7 +53,7 @@ ms.openlocfilehash: a9fc81c8e6d53f4ad457bf70e576a608d046cca8
 - 작업 폴더
 - WAP(웹 응용 프로그램 프록시)
 
-## Management
+## <a name="management"></a>Management
 
 - Microsoft Intune
 - 장치 관리 정책
@@ -62,7 +63,7 @@ ms.openlocfilehash: a9fc81c8e6d53f4ad457bf70e576a608d046cca8
 - 배포 지점 사용 보고서 및 관리
 - System  Center  2012  R2  Configuration  Manager
 
-## 앱
+## <a name="apps"></a>앱
 
 - 웹 응용 프로그램 프록시
 - 자동 트리거 VPN
@@ -83,6 +84,6 @@ BYOD를 지원하는 인프라 디자인은 이전에 이 문서에서 제공된
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

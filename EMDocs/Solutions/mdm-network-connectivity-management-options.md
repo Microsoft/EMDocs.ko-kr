@@ -1,8 +1,9 @@
 ---
 title: "네트워크 연결 관리 옵션"
-description: 
+description: "이 문서에서는 Enterprise Mobility + Security를 사용하여 Microsoft 모바일 장치 관리 솔루션을 계획하고 디자인할 때 필요한 네트워크 연결 관리 옵션에 대한 지침을 제공합니다."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 32b586bde6be834a5b0d16cb9b46e7da23beb216
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 856d2d2ba9968aa0f4a0da4f4afcbf452260e548
 
 
 ---
 
-# 네트워크 연결 관리 옵션
+# <a name="network-connectivity-management-options"></a>네트워크 연결 관리 옵션
 
 >[!NOTE]
 >이 항목은 좀 더 큰 디자인 고려 사항 가이드의 일부입니다. 이 가이드의 맨 처음부터 시작하려면 [기본 항목](mdm-design-considerations-guide.md)을 확인하세요. 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
@@ -35,7 +36,7 @@ ms.openlocfilehash: 32b586bde6be834a5b0d16cb9b46e7da23beb216
 
 아래 목록에서는 Intune 독립 실행형 및 하이브리드 Intune 및 ConfigMgr를 사용하여 무선 및 VPN 네트워크를 관리할 때의 장단점을 보여 줍니다.
 
-## Intune(독립 실행형)
+## <a name="intune-standalone"></a>Intune(독립 실행형)
 
 **장점**
 
@@ -51,11 +52,11 @@ ms.openlocfilehash: 32b586bde6be834a5b0d16cb9b46e7da23beb216
 
 - VPN 프로필을 지원하려면 온-프레미스 VPN 인프라를 배포 및 유지해야 함
 
-## Office 365용 MDM
+## <a name="mdm-for-office-365"></a>Office 365용 MDM
 
 MDM for Office 365에서는 Wi-Fi 및 VPN 정책이 지원되지 않음
 
-## 하이브리드(ConfigMgr와 Intune)
+## <a name="hybrid-intune-with-configmgr"></a>하이브리드(ConfigMgr와 Intune)
 
 **장점**
 
@@ -74,6 +75,6 @@ MDM for Office 365에서는 Wi-Fi 및 VPN 정책이 지원되지 않음
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

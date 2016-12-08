@@ -1,10 +1,11 @@
 ---
 title: "앱 요구 사항"
-description: 
+description: "이 문서에서는 Bring Your Own Device 시나리오에 사용해야 하는 앱 배포에 대한 다양한 일반적인 요구 사항을 제공합니다."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 35ac53c1d9c2fe40475876949bafe5d5f457c40e
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: d5297dbb3d22feda4189bc120b2bb4537fa5f590
 
 
 ---
 
-# 앱 요구 사항
+# <a name="app-requirements"></a>앱 요구 사항
 
 모든 조직은 다양한 기술적 역량을 사용하여 리소스가 최적화된 방식으로 자신의 작업을 수행하도록 하며, 대부분의 경우 기본 도구는 앱입니다. 이러한 기능은 다양한 기술을 사용하여 특정 목표를 달성하는 다중 플랫폼 방식으로 결합하거나, 작업을 수행하거나 특정 프로세스를 자동화할 수 있는 사용자 지정 앱을 만들어 결합할 수 있습니다. BYOD 전략을 디자인할 때 앱은 중요한 고려 사항입니다. 사용자는 다양한 폼 팩터를 사용하여 이러한 앱을 사용하므로 이러한 앱에서 지원하는 다양한 기능을 고려해야 합니다. 아래 그림에서는 사용자 및 장치가 앱을 사용하여 데이터를 사용하는 방법과 앱 하위 영역의 각 구성 요소에 대한 고려 사항을 보여 줍니다.
 
@@ -28,7 +29,7 @@ ms.openlocfilehash: 35ac53c1d9c2fe40475876949bafe5d5f457c40e
 
 다음 섹션에는 솔루션 디자인에 대한 요구 사항을 작성하기 위해 대답해야 하는 앱 요구 사항 관련 질문이 포함되어 있습니다.
 
-## 질문
+## <a name="questions-to-ask"></a>질문
 
 앱 요구 사항을 다음과 같은 6개의 영역으로 분류합니다.
 
@@ -40,7 +41,7 @@ ms.openlocfilehash: 35ac53c1d9c2fe40475876949bafe5d5f457c40e
 - 보안
 
 
-### 환경
+### <a name="experience"></a>환경
 
 - 앱이 실행될 장치에 관계없이 동일한 사용자 환경을 유지할 계획입니까?
 - 앱이 사용자 장치에서 인터넷에 액세스해야 합니까?
@@ -55,7 +56,7 @@ ms.openlocfilehash: 35ac53c1d9c2fe40475876949bafe5d5f457c40e
 - 앱이 소셜 네트워크와 통합됩니까?
 
 
-### 플랫폼
+### <a name="platform"></a>플랫폼
 
 - 이러한 앱을 실행하는 데 필요한 백 엔드 플랫폼 유형은 무엇입니까?
 - BYOD 채택으로 원격 사용자가 사용할 수 있도록 할 앱용 백 엔드 플랫폼을 업그레이드하는 작업이 늘어날 것으로 예상합니까?
@@ -63,7 +64,7 @@ ms.openlocfilehash: 35ac53c1d9c2fe40475876949bafe5d5f457c40e
 - 온-프레미스에만 있는 이러한 앱을 지원할 플랫폼이 있습니까? 아니면 클라우드에 있는 서버도 있습니까?
 
 
-### 배포
+### <a name="deployment"></a>배포
 
 - BYOD 사용자가 사용할 수 있는 앱을 알고 있습니까?
 - 이러한 앱을 사용자 장치에 어떻게 배포할 계획입니까?
@@ -75,7 +76,7 @@ ms.openlocfilehash: 35ac53c1d9c2fe40475876949bafe5d5f457c40e
     - 그렇다면 어떤 인증 기관(개인 또는 공용)이 사용됩니까?
 - 설치를 수행하려면 사용자가 회사 네트워크에 물리적으로 연결되어 있어야 합니까? 아니면 인터넷을 통해 앱을 설치할 수 있습니까?
 
-### 저장소
+### <a name="storage"></a>저장소
 
 - 각 앱을 설치하려면 대상 장치에 얼마나 많은 공간이 필요합니까?
 - 앱이 장치 저장소에 있는 데이터를 암호화합니까?
@@ -85,7 +86,7 @@ ms.openlocfilehash: 35ac53c1d9c2fe40475876949bafe5d5f457c40e
 - 앱에서 사용하는 데이터가 온-프레미스 저장소에 있습니까? 클라우드에 있습니까? 아니면 두 위치에 모두 있습니까?
 - 앱에서 사용하는 데이터가 데이터 센터 저장소에서 암호화됩니까? 클라우드에서 암호화됩니까?
 
-### 네트워크
+### <a name="network"></a>네트워크
 
 - BYOD 사용자를 위해 배포하려는 앱의 네트워크 요구 사항은 무엇입니까?
 - 앱이 네트워크를 통해 사용자 장치에서 백 엔드의 앱 서버로 전송하기 전에 데이터를 암호화합니까?
@@ -95,7 +96,7 @@ ms.openlocfilehash: 35ac53c1d9c2fe40475876949bafe5d5f457c40e
 - 앱이 대기 시간이 짧은 네트워크에서 작동합니까?
 - 네트워크를 통해 원격으로 앱을 제거할 수 있습니까? 아니면 장치 콘솔을 통해 제거해야 합니까?
 
-### 보안
+### <a name="security"></a>보안
 
 - 앱이 보안 개발 방법을 사용하여 개발되었습니까?
 - 앱이 인증 기능을 제공합니까?
@@ -121,6 +122,6 @@ ms.openlocfilehash: 35ac53c1d9c2fe40475876949bafe5d5f457c40e
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

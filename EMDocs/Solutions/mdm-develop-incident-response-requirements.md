@@ -1,10 +1,11 @@
 ---
 title: "사고 대응 요구 사항 파악"
-description: 
+description: "이 문서에서는 모바일 장치 관리 시나리오에는 사고 대응 프로세스를 개발하기 위한 다양한 일반적인 요구 사항을 제공합니다."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: f229cc98f311f1cc65f86040f48884732a2fcde8
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: a9bb76fdff02b8ded31fe3e1811678138ffd5504
 
 
 ---
 
-# 사고 대응 요구 사항 파악
+# <a name="develop-your-incident-response-requirements"></a>사고 대응 요구 사항 파악
 
 >[!NOTE]
 >이 항목은 좀 더 큰 디자인 고려 사항 가이드의 일부입니다. 이 가이드의 맨 처음부터 시작하려면 [기본 항목](mdm-design-considerations-guide.md)을 확인하세요. 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
@@ -48,6 +49,6 @@ MDM 솔루션을 설계할 때 다음과 같은 질문을 제기하여 사고가
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

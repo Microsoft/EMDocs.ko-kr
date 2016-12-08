@@ -1,10 +1,11 @@
 ---
 title: "클라이언트 개인 정보"
-description: 
+description: "이 문서에서는 모바일 장치 관리 시나리오에 사용 해야 하는 클라이언트 개인 정보에 대한 다양한 디자인 고려 사항을 제공합니다."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 8ff27e0a204bbee29aa81ff9555b293a1b11706b
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 916404d1aaad5b4db01dff84c544e3364b7ec6ee
 
 
 ---
 
-#클라이언트 개인 정보
+#<a name="client-privacy"></a>클라이언트 개인 정보
 
 >[!NOTE]
 >이 항목은 좀 더 큰 디자인 고려 사항 가이드의 일부입니다. 이 가이드의 맨 처음부터 시작하려면 [기본 항목](mdm-design-considerations-guide.md)을 확인하세요. 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
@@ -42,7 +43,7 @@ Intune 및 Office 365는 클라우드 기반 서비스이므로 사용자가 Mic
 
 개인 정보는 사용자와 조직 모두에 중요하며, 사용하는 MDM 솔루션에서는 개인 정보 요구에 적절한 균형이 필요한 동시에 사용자에게 조직의 개인 정보 보호 정책과 기대 사항에 대해 알려야 합니다. 아래 표에서는 조직의 개인 정보 요구에 가장 부합하는 MDM 옵션을 선택하는 데 도움이 되도록 다양한 MDM 솔루션의 개인 정보 요구 사항 지원을 비교합니다.
 
-## Intune(독립 실행형)
+## <a name="intune-standalone"></a>Intune(독립 실행형)
 
 **장점**
 
@@ -52,7 +53,7 @@ Intune 및 Office 365는 클라우드 기반 서비스이므로 사용자가 Mic
 
 - 개인 정보 보호 정책에 대한 템플릿이 없으며 조직에 개인 정보 보호 정책이 있고 다른 위치에 저장된 이 정책을 회사 포털에서 광고할 예정일 뿐이라고 가정함
 
-## MDM 포함 Office 365
+## <a name="office-365-with-mdm"></a>MDM 포함 Office 365
 
 **장점**
 
@@ -62,7 +63,7 @@ Intune 및 Office 365는 클라우드 기반 서비스이므로 사용자가 Mic
 
 - 개인 정보 취급 방침을 게시하기 위한 기능 없음
 
-## 하이브리드(ConfigMgr와 Intune)
+## <a name="hybrid-intune-with-configmgr"></a>하이브리드(ConfigMgr와 Intune)
 
 **장점**
 
@@ -76,6 +77,6 @@ Intune 및 Office 365는 클라우드 기반 서비스이므로 사용자가 Mic
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

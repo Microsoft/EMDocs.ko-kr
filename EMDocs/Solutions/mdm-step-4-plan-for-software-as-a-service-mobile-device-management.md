@@ -1,8 +1,9 @@
 ---
 title: "4단계 - SaaS(Software as a Service) 모바일 장치 관리 계획"
-description: 
+description: "이 문서를 통해 고객은 소프트웨어를 Microsoft Enterprise Mobility + Security를 사용하는 모바일 장치 관리 구현에 대한 서비스로 계획 및 디자인할 수 있습니다."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 58c11d549d79715a36d2865ff4f23e583eb3f6f9
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: bef8884e314bafe4721d2691945d96e602e29846
 
 
 ---
 
-# 4단계 - SaaS(Software as a Service) 모바일 장치 관리 계획
+# <a name="step-4---plan-for-software-as-a-service-mobile-device-management"></a>4단계 - SaaS(Software as a Service) 모바일 장치 관리 계획
 
 >[!NOTE]
 >이 항목은 좀 더 큰 디자인 고려 사항 가이드의 일부입니다. 이 가이드의 맨 처음부터 시작하려면 [기본 항목](mdm-design-considerations-guide.md)을 확인하세요. 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
@@ -31,7 +32,7 @@ ms.openlocfilehash: 58c11d549d79715a36d2865ff4f23e583eb3f6f9
 
 경우에 따라 조직에서 모바일 장치가 관리되는 방식과는 완전히 별개로 또는 이러한 방식의 일부로 SaaS 솔루션 결정을 내릴 수 있습니다. 그러나 SaaS 솔루션은 모바일 장치 관리와 관련이 있으므로 이러한 솔루션의 전체적인 영향을 이해하는 것은 완전한 모바일 장치 관리 솔루션 배포의 중요한 부분입니다. </para><para>현재의 요구 사항 및 미래를 위해 조직이 계획해야 하는 사항을 이해하려면 이러한 SaaS 솔루션의 주요 측면을 충분히 검토해야 합니다. 모바일 장치 관리 및 클라우드 서비스와의 통합 채택을 위한 장기적인 전략을 정의하기 위한 비전이 없다면 조직의 비즈니스 요구 변화에 따라 모바일 장치 관리 솔루션을 확장하지 못할 수 있습니다.
 
-## 이 단계 정보
+## <a name="about-this-step"></a>이 단계 정보
 
 이 가이드의 본 섹션에는 4단계가 있습니다. 전체 섹션을 읽는 시간은 총 XX분이며 특정 섹션으로 건너뛸 수도 있습니다.
 
@@ -42,6 +43,6 @@ ms.openlocfilehash: 58c11d549d79715a36d2865ff4f23e583eb3f6f9
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

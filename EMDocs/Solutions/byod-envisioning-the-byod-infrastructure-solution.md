@@ -1,10 +1,11 @@
 ---
 title: "BYOD 인프라 솔루션 구상"
-description: 
+description: "이 문서에서는 디자인 프로세스 중에 수행된 선택을 기준으로 하는 Bring Your Own Device 시나리오에 대한 솔루션 정의를 제공합니다."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,17 +15,17 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: e410d3fd320660186b6d21853af3172062f90eda
-ms.openlocfilehash: 64fff538f7e0a8ace6c38404a9bde3c20e87eb9a
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 7dbb0c9b1b2b3b29eb54ad8cdeee527d9d7f078f
 
 
 ---
 
-#BYOD 인프라 솔루션 구상
+#<a name="envisioning-the-byod-infrastructure-solution"></a>BYOD 인프라 솔루션 구상
 
 해결하려는 BYOD 문제를 명확하게 정의한 후 문제에 대한 솔루션을 정의하고 솔루션의 세부 요구 사항을 정의할 수 있습니다.
 
-## 솔루션 정의
+## <a name="solution-definition"></a>솔루션 정의
 
 앞에서 확인한 문제를 해결하고 조직의 사용자가 자신의 장치를 회사로 가져와 해당 장치에서 회사 데이터에 액세스할 수 있도록 하려면 회사가 장치 중심 IT 방식에서 사용자 중심 IT 방식으로 전환해야 합니다. 이 가이드의 디자인 고려 사항은 다음과 같은 고유한 BYOD 인프라 솔루션을 정의할 때 사용할 수 있습니다. 
 
@@ -36,7 +37,7 @@ ms.openlocfilehash: 64fff538f7e0a8ace6c38404a9bde3c20e87eb9a
 - Multi-Factor Authentication 및 Single Sign-On과 같은 엔터프라이즈 인증 서비스를 사용합니다.
 - 정보 보안 및 규정 준수 증명과 같은 규정 준수 활동을 제공합니다.
 
-## 솔루션 요구 사항
+## <a name="solution-requirements"></a>솔루션 요구 사항
 
 사용자가 자신의 장치를 사용하여 회사 리소스에 액세스할 수 있도록 하려면 먼저 기존 인프라의 기술적 역량을 수정해야 합니다. 이러한 수정 작업의 목표는 이 새 모델에 대한 솔루션 요구 사항이 이미 충족되는지 또는 문제를 해결하기 위해 새로운 기술을 도입해야 하는지를 파악하는 것입니다. 이렇게 하려면 먼저 환경의 제약 조건뿐만 아니라 다양한 요구 사항을 정의해야 합니다. 일부 요구 사항 및 제약 조건은 역량 소비자가 정의하지만 기존의 기술적 역량, 서비스, 정책 및 프로세스와 관련된 일부는 기존 환경에 의해 정의됩니다.
 
@@ -54,6 +55,6 @@ ms.openlocfilehash: 64fff538f7e0a8ace6c38404a9bde3c20e87eb9a
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

@@ -1,8 +1,9 @@
 ---
 title: "다음 단계 및 추가 리소스"
-description: 
+description: "이 문서에서는 Enterprise Mobility + Security에서 Microsoft 모바일 장치 관리 솔루션 배포 및 지원 방법 문서의 추가 리소스를 제공합니다."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,20 +15,20 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: bad9340bb835869656e3633b5a0e74c63307a753
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 5c917ca88c5c33e4274b0437fbd57eb07865866f
 
 
 ---
 
-# 다음 단계 및 추가 리소스
+# <a name="next-steps-and-additional-resources"></a>다음 단계 및 추가 리소스
 
 >[!NOTE]
 >이 항목은 좀 더 큰 디자인 고려 사항 가이드의 일부입니다. 이 가이드의 맨 처음부터 시작하려면 [기본 항목](mdm-design-considerations-guide.md)을 확인하세요. 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
 
 요구 사항을 정의하고 모바일 장치 관리 솔루션에 대한 모든 옵션을 검토했으므로 사용자 및 조직에 맞는 지원 인프라를 배포하는 다음 단계를 진행할 수 있습니다.
 
-## 모바일 장치 관리 솔루션 
+## <a name="mobile-device-management-solutions"></a>모바일 장치 관리 솔루션 
 
 사용자의 요구에 맞는 구체적인 솔루션 시나리오를 활용하면 모바일 장치 관리 인프라 배포의 세부 사항을 검토하고 계획하는 데 도움이 됩니다. 다음 솔루션은 가장 일반적인 몇 가지 모바일 장치 관리 시나리오에 대한 것입니다. 
 
@@ -35,7 +36,7 @@ ms.openlocfilehash: bad9340bb835869656e3633b5a0e74c63307a753
 - [Configuration Manager 2007를 위한 모바일 장치 관리](https://technet.microsoft.com/library/dn508400.aspx) 솔루션은 인프라가 System Center Configuration Manager 2007에 있는 경우 모바일 장치를 관리하는 데 도움이 됩니다. 이 솔루션에서는 System Center 2012 R2 Configuration Manager를 실행하는 단일 서버를 설정한 다음 Microsoft Intune을 실행하고 MDM 기능을 사용하는 방법을 보여 줍니다.
 - [소규모 환경에서 모바일 장치 관리](https://technet.microsoft.com/library/dn715906.aspx) 솔루션은 MDM을 지원해야 하는 중소기업을 위해 작성되었습니다. 이 솔루션에서는 Microsoft Intune을 사용하여 모바일 장치 관리 및 BYOD를 지원하도록 현재 인프라를 확장하는 방법을 설명합니다. 이 솔루션에서는 로컬 서버가 없는 독립 실행형 클라우드 전용 구성에서 Microsoft Intune을 사용할 때 지원되는 가장 간단한 시나리오를 설명합니다.
         
-## 모바일 장치 관리 설명서
+## <a name="mobile-device-management-documentation"></a>모바일 장치 관리 설명서
 
 다음과 같은 개념 및 절차 계획, 배포 및 관리 콘텐츠는 모바일 장치 관리 솔루션을 구현할 때 유용합니다.
 
@@ -44,7 +45,7 @@ ms.openlocfilehash: bad9340bb835869656e3633b5a0e74c63307a753
 - [Microsoft Intune](/Intune/)은 컴퓨터 및 모바일 장치를 관리하고 회사 정보를 보호하도록 도와주는 클라우드 기반 장치 관리 서비스입니다.
 - [MDM for Office 365](https://technet.microsoft.com/library/ms.o365.cc.devicepolicy.aspx)를 사용하면 모바일 장치가 Office 365 조직에 연결되어 있을 때 장치를 관리하고 보안을 유지할 수 있습니다. MDM for Office 365를 사용하여 장치 보안 정책 및 액세스 규칙을 설정하고, 분실하거나 도난 당한 모바일 장치를 초기화할 수 있습니다. [Office 365에 대한 기본 제공 관리 MDM(모바일 장치 관리) 기능 탐색](https://blogs.office.com/2015/07/21/explore-the-built-in-mobile-device-management-mdm-feature-for-office-365/)에서 Office 365의 MDM에 대한 기능 및 설정 단계를 대략적으로 살펴봅니다.
 
-## 모바일 장치 관리 리소스
+## <a name="mobile-device-management-resources"></a>모바일 장치 관리 리소스
 
 다음 리소스를 모니터링하여 모바일 장치 관리 솔루션에 대한 최신 뉴스 및 업데이트를 확인할 수 있습니다.
 
@@ -57,6 +58,6 @@ ms.openlocfilehash: bad9340bb835869656e3633b5a0e74c63307a753
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

@@ -1,10 +1,11 @@
 ---
 title: "데이터 분류"
-description: 
+description: "이 문서에서는 모바일 장치 관리 시나리오에 사용 해야 하는 데이터 분류에 대한 다양한 디자인 고려 사항을 제공합니다."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 1c93f74e7e0e4c8591f800954bb60dda59005af8
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 94c02152e553bdeba1bd1568c409d816ac078e9a
 
 
 ---
 
-# 데이터 분류
+# <a name="data-classification"></a>데이터 분류
 
 >[!NOTE]
 >이 항목은 좀 더 큰 디자인 고려 사항 가이드의 일부입니다. 이 가이드의 맨 처음부터 시작하려면 [기본 항목](mdm-design-considerations-guide.md)을 확인하세요. 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
@@ -35,7 +36,7 @@ IT에서는 Intune를 사용하여 조건부 액세스를 통해 규정에 부�
 
 아래 표를 참조하면 조직의 *데이터 분류* 요구 사항에 가장 잘 맞는 MDM 옵션을 선택하는 데 도움이 될 것입니다.
 
-## Intune(독립 실행형)
+## <a name="intune-standalone"></a>Intune(독립 실행형)
 
 **장점**
 
@@ -45,7 +46,7 @@ IT에서는 Intune를 사용하여 조건부 액세스를 통해 규정에 부�
 
 - 사용할 수 없음
 
-## Office 365용 MDM
+## <a name="mdm-for-office-365"></a>Office 365용 MDM
 
 **장점**
 
@@ -56,7 +57,7 @@ IT에서는 Intune를 사용하여 조건부 액세스를 통해 규정에 부�
 
 - 파일 자체에 대해 데이터 분류가 수행되지 않음 모바일 장치에 있는 파일은 제한 없이 사용할 수 있음
 
-## 하이브리드(ConfigMgr와 Intune)
+## <a name="hybrid-intune-with-configmgr"></a>하이브리드(ConfigMgr와 Intune)
 
 **장점**
 
@@ -66,7 +67,7 @@ IT에서는 Intune를 사용하여 조건부 액세스를 통해 규정에 부�
 
 - 사용할 수 없음
 
-## Enterprise Mobility + Security
+## <a name="enterprise-mobility-security"></a>Enterprise Mobility + Security
 
 **장점**
 
@@ -82,6 +83,6 @@ IT에서는 Intune를 사용하여 조건부 액세스를 통해 규정에 부�
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

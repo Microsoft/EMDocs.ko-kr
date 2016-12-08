@@ -1,8 +1,9 @@
 ---
 title: "인증서 관리 옵션"
-description: 
+description: "이 문서에서는 Microsoft Intune 독립 실행형 및 하이브리드를 사용한 인증서 프로비전을 지원하기 위해 인증서 인프라를 계획 및 디자인하는 방법에 대한 의사 결정 요소를 제공합니다."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,18 +15,18 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: f479997932cd7091677da5097e0d7a418895858f
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 2f0d445b35c6a7aea29684a0488decd92784c2ab
 
 
 ---
 
-# 인증서 관리 옵션
+# <a name="certificate-management-options"></a>인증서 관리 옵션
 
 >[!NOTE]
 >이 항목은 좀 더 큰 디자인 고려 사항 가이드의 일부입니다. 이 가이드의 맨 처음부터 시작하려면 [기본 항목](mdm-design-considerations-guide.md)을 확인하세요. 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
 
-디지털 인증서 관리 및 인증서 프로필 사용은 [Intune](/Intune/deploy-use/secure-resource-access-with-certificate-profiles) 독립 실행형과 [하이브리드 Intune 및 ConfigMgr](https://technet.microsoft.com/library/dn261202.aspx) 배포 시나리오에서 모두 지원됩니다. 이러한 기능을 사용하면 모바일 장치가 조직의 NDES 서버에서 추가 인증서를 가져오도록 하는 SCEP(단순 인증서 등록 프로토콜) 기반 프로필뿐만 아니라 신뢰할 수 있는 루트 인증서를 모바일 장치에 배포할 수 있습니다.
+디지털 인증서 관리 및 인증서 프로필 사용은 [Intune](/Intune/deploy-use/secure-resource-access-with-certificate-profiles) 독립 실행형 및 [하이브리드](https://technet.microsoft.com/library/dn261202.aspx) 배포 시나리오에서 모두 지원됩니다. 이러한 기능을 사용하면 모바일 장치가 조직의 NDES 서버에서 추가 인증서를 가져오도록 하는 SCEP(단순 인증서 등록 프로토콜) 기반 프로필뿐만 아니라 신뢰할 수 있는 루트 인증서를 모바일 장치에 배포할 수 있습니다.
 
 SCEP는 기본적으로 iOS, Windows 10 및 8.1, Windows Phone 10 및 8.1에서 지원되며, Android용 Microsoft Intune 회사 포털 앱을 통해서도 지원되므로 이 등록 프로토콜을 사용하면 모바일 장치에서 개인 키를 직접 생성하게 되는 이점이 있습니다. ConfigMgr 또는 Intune에서는 개인 키가 절대 생성, 캐시 또는 저장되지 않으므로 모바일 장치 보안을 유지하는 데 도움이 됩니다.
 
@@ -33,7 +34,7 @@ SCEP는 기본적으로 iOS, Windows 10 및 8.1, Windows Phone 10 및 8.1에서 
 
 ![보안 인증서 프로비저닝](./media/MDM_Figure_07.png)
 
-**보안 인증서 프로비저닝**
+**보안 인증서 프로비전**
 
 1. SCEP 등록을 위한 인증서의 속성을 포함하는 정책이 Intune 서비스에서 만들어집니다.
 2. Intune에서 이 정책을 플랫폼 모바일 장치 관리 프로토콜(예: Windows 10 및 Windows 8.1용 OMA DM)로 변환하고 장치로 전송
@@ -47,7 +48,7 @@ SCEP는 기본적으로 iOS, Windows 10 및 8.1, Windows Phone 10 및 8.1에서 
 
 아래 목록은 Intune과 하이브리드 Intune 및 ConfigMgr 배포 시나리오에 대한 인증서 프로필 관리 장단점을 이해하는 데 도움이 됩니다.
 
-## Intune(독립 실행형)
+## <a name="intune-standalone"></a>Intune(독립 실행형)
 
 **장점**
 
@@ -63,11 +64,11 @@ SCEP는 기본적으로 iOS, Windows 10 및 8.1, Windows Phone 10 및 8.1에서 
  - 엔터프라이즈 인증 기관
  - NDES를 실행하는 서버에 설치된 Intune NDES 커넥터
 
-## Office 365용 MDM
+## <a name="mdm-for-office-365"></a>Office 365용 MDM
 
 - MDM for Office 365에서는 인증서 프로필을 지원하지 않습니다.
 
-## 하이브리드(ConfigMgr와 Intune)
+## <a name="hybrid-intune-with-configmgr"></a>하이브리드(ConfigMgr와 Intune)
 
 **장점**
 
@@ -86,6 +87,6 @@ SCEP는 기본적으로 iOS, Windows 10 및 8.1, Windows Phone 10 및 8.1에서 
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

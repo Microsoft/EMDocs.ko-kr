@@ -1,10 +1,11 @@
 ---
 title: "비즈니스 요구 사항 식별"
-description: 
+description: "이 문서에서는 모바일 장치 관리 채택을 정당화하는 데 필요한 비즈니스 요구 사항을 파악하기 위한 지침을 제공합니다."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: db5f1a61596b3800b4b924e1af9d0e739b26ca44
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 35c9101de6df041b906660743654a8b137d4a542
 
 
 ---
 
-# 비즈니스 요구 사항 식별
+# <a name="identify-your-business-needs"></a>비즈니스 요구 사항 식별
 
 >[!NOTE]
 >이 항목은 좀 더 큰 디자인 고려 사항 가이드의 일부입니다. 이 가이드의 맨 처음부터 시작하려면 [기본 항목](mdm-design-considerations-guide.md)을 확인하세요. 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
@@ -84,6 +85,6 @@ ms.openlocfilehash: db5f1a61596b3800b4b924e1af9d0e739b26ca44
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

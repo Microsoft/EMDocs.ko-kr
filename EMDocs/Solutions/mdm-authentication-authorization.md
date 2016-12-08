@@ -1,10 +1,11 @@
 ---
 title: "인증 및 권한 부여"
-description: 
+description: "이 문서에서는 모바일 장치 관리 시나리오에 사용 해야 하는 인증 및 권한 부여에 대한 다양한 디자인 고려 사항을 제공합니다."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: b1b40aa8b5044b90ab966b2ec050b39e392c1ffa
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: ff3b086f2ad076776e7cff918ef4bb26161427fd
 
 
 ---
 
-# 인증 및 권한 부여
+# <a name="authentication-and-authorization"></a>인증 및 권한 부여
 
 >[!NOTE]
 >이 항목은 좀 더 큰 디자인 고려 사항 가이드의 일부입니다. 이 가이드의 맨 처음부터 시작하려면 [기본 항목](mdm-design-considerations-guide.md)을 확인하세요. 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
@@ -44,7 +45,7 @@ Azure AD MFA를 사용하여 사용자가 회사 리소스에 액세스할 때�
 
 아래 표를 참조하면 조직의 인증 및 권한 부여 요구 사항에 가장 잘 맞는 MDM 옵션을 선택하는 데 도움이 될 것입니다.
 
-## Intune(독립 실행형)
+## <a name="intune-standalone"></a>Intune(독립 실행형)
 
 **장점**
 
@@ -56,7 +57,7 @@ Azure AD MFA를 사용하여 사용자가 회사 리소스에 액세스할 때�
 
 - Intune 구독 구입 시 Azure AD 클라우드 서비스가 포함되지 않음
 
-## Office 365용 MDM
+## <a name="mdm-for-office-365"></a>Office 365용 MDM
 
 **장점**
 
@@ -69,7 +70,7 @@ Azure AD MFA를 사용하여 사용자가 회사 리소스에 액세스할 때�
 
 - Office 365 구독 구입 시 Azure AD 클라우드 서비스가 포함되지 않음
 
-## 하이브리드(ConfigMgr와 Intune)
+## <a name="hybrid-intune-with-configmgr"></a>하이브리드(ConfigMgr와 Intune)
 
 **장점**
 
@@ -80,7 +81,7 @@ Azure AD MFA를 사용하여 사용자가 회사 리소스에 액세스할 때�
 
 - Intune 구독 구입 시 Azure AD 클라우드 서비스가 포함되지 않음
 
-## Enterprise Mobility + Security
+## <a name="enterprise-mobility-security"></a>Enterprise Mobility + Security
 
 **장점**
 
@@ -97,6 +98,6 @@ Azure AD MFA를 사용하여 사용자가 회사 리소스에 액세스할 때�
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

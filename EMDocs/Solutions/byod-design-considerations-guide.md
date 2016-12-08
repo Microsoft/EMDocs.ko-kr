@@ -1,10 +1,11 @@
 ---
 title: "BYOD 디자인 고려 사항 가이드"
-description: 
+description: "이 문서에서는 Bring Your Own Device에 대한 소개 및 디자인 고려 사항 프로세스 개요를 소개합니다."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 3c88e0a7e82581d6ae6452ae13a44442c63923b6
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 78fad0e7714797962fc2ab3c8f8ec6c10d8019d0
 
 
 ---
 
-# BYOD 디자인 고려 사항 가이드
+# <a name="byod-design-considerations-guide"></a>BYOD 디자인 고려 사항 가이드
 
 직원이 사용하는 장치의 확산으로 대부분의 기업은 사용자가 자신의 장치를 사용하도록 허용하면서 해당 장치에 상주하는 회사 데이터를 보호하려면 어떻게 해야 하는지와 같은 큰 딜레마에 직면하고 있습니다. 기업은 직접 장치를 소유하고 직원에게 제공하던 기존 모델에서 직원이 일부 업무 작업에 자신의 개인 장치를 사용하는 모델로 전환하고 있습니다. 이 모델을 종종 [BYOD(Bring Your Own Device)](https://technet.microsoft.com/library/dn645493.aspx)라고 합니다. 이 모델에서는 직원이 자신의 개인 장치를 일부 업무 작업에 사용할 수 있지만 회사에서 장치의 일부 측면을 관리하여 회사 데이터의 보안을 보장하도록 직원이 허용한 경우에 한합니다. 종종 회사에서 사용자 지정 정책을 적용하거나 장치의 강화를 수행하거나 회사 정책에 의해 설정된 운영 체제를 표준화하도록 사용자가 허용함을 의미합니다. Microsoft에서 제공하는 [작업 스타일 변환을 위한 CIO 고려 사항](http://download.microsoft.com/download/5/3/A/53A96632-02E3-416C-B209-D8725AA80AFE/CIO%20Considerations%20for%20Workstyle%20Transformation2.pdf) 문서를 읽은 운영진과 의사 결정권자는 사용자가 자신의 장치를 사용하여 업무의 생산성을 높일 수 있는 모델을 수용할 경우의 장점을 확인할 수 있습니다.
 
@@ -34,11 +35,11 @@ ms.openlocfilehash: 3c88e0a7e82581d6ae6452ae13a44442c63923b6
 
 이 가이드에서는 직원이 자신의 장치를 사용할 수 있도록 하고 회사의 데이터를 보호하는 BYOD(Bring Your Own Device) 인프라를 디자인하기 전에 해결해야 하는 중요한 디자인 고려 사항 모음을 시스템 설계사 및 시스템 디자이너에게 제공합니다.
 
-## 적용 대상
+## <a name="intended-audience"></a>적용 대상
 
 이 가이드의 주요 대상은 BYOD 인프라를 구현하기 전에 고려해야 할 문제를 파악하는 데 관심이 있는 시스템 설계사 또는 시스템 디자이너입니다. 이외에 IT 구현자, 엔터프라이즈 보안 전문가 및 장치 관리 전문가도 이 가이드에 관심이 있을 수 있습니다.</para>
     
-## 용도
+## <a name="purpose"></a>용도
   
 이 가이드의 목적은 다음과 같습니다.
 
@@ -62,7 +63,7 @@ ms.openlocfilehash: 3c88e0a7e82581d6ae6452ae13a44442c63923b6
 - 모바일 장치에 앱 개발 모범 사례를 제공합니다.
 - 타사 구성 요소에 지침 및 모범 사례를 제공합니다.
 
-## 문제 정의
+## <a name="problem-definition"></a>문제 정의
 
 다음은 일반적으로 BYOD를 수용하려는 회사에서 발생하는 문제 또는 과제입니다.
 
@@ -78,6 +79,6 @@ ms.openlocfilehash: 3c88e0a7e82581d6ae6452ae13a44442c63923b6
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

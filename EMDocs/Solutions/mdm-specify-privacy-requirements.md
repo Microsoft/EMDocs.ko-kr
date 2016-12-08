@@ -1,10 +1,11 @@
 ---
 title: "개인 정보 보호 요구 사항 지정"
-description: 
+description: "이 문서에서는 모바일 장치 관리 시나리오에 사용해야 하는 다양한 일반적인 개인 정보 요구 사항을 제공합니다."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 0909de25a0857e7b30a2b13d820e697fa5fdc773
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 14f3c9958c2c959df8c6537728e8237a1f226760
 
 
 ---
 
-# 개인 정보 보호 요구 사항 지정
+# <a name="specify-your-privacy-requirements"></a>개인 정보 보호 요구 사항 지정
 
 >[!NOTE]
 >이 항목은 좀 더 큰 디자인 고려 사항 가이드의 일부입니다. 이 가이드의 맨 처음부터 시작하려면 [기본 항목](mdm-design-considerations-guide.md)을 확인하세요. 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
@@ -56,6 +57,6 @@ Intune을 비롯한 Microsoft 클라우드 서비스에서 사용자의 개인 �
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 
