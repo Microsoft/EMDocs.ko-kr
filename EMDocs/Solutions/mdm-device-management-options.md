@@ -1,26 +1,26 @@
 ---
 title: "장치 관리 옵션"
-description: 
+description: "이 문서에서는 Enterprise Mobility + Security를 사용하여 Microsoft 모바일 장치 관리 솔루션을 계획하고 디자인할 때 필요한 장치 관리 옵션에 대한 지침을 제공합니다."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: a25f7407-92a0-4588-b5f7-a7bad9cdd070
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 93e88e3b36f2f247978981d2af381d30c6d79f5b
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 3e930a5a9a39b15a4ce39c5cfa1e37038917f842
 
 
 ---
 
-# 장치 관리 옵션
+# <a name="device-management-options"></a>장치 관리 옵션
 
 >[!NOTE]
 >이 항목은 좀 더 큰 디자인 고려 사항 가이드의 일부입니다. 이 가이드의 맨 처음부터 시작하려면 [기본 항목](mdm-design-considerations-guide.md)을 확인하세요. 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
@@ -42,7 +42,7 @@ Intune 및 ConfigMgr를 통한 모바일 장치 관리 작업은 관리 정책�
 
 1단계의 질문에 대한 답변은 모바일 장치 관리 솔루션에 장치를 등록하는 방법을 결정하는 데 도움이 됩니다. 아래 목록은 각 관리 시나리오의 장단점을 이해하는 데 도움이 됩니다.
 
-## Intune(독립 실행형)
+## <a name="intune-standalone"></a>Intune(독립 실행형)
 
 **장점**
 
@@ -62,7 +62,7 @@ Intune 및 ConfigMgr를 통한 모바일 장치 관리 작업은 관리 정책�
 
 - Intune 서비스에 장치를 등록하는 사용자 계정에 대한 라이선스 요구 사항 및 비용 증가
 
-## Office 365용 MDM
+## <a name="mdm-for-office-365"></a>Office 365용 MDM
 
 **장점**
 
@@ -82,7 +82,7 @@ Intune 및 ConfigMgr를 통한 모바일 장치 관리 작업은 관리 정책�
  - 회사 데이터를 모바일 장치의 기간 업무 앱으로 안전하게 확장
  - 관리되는 브라우저 또는 기타 콘텐츠 보기 응용 프로그램
 
-## 하이브리드(ConfigMgr와 Intune)
+## <a name="hybrid-intune-with-configmgr"></a>하이브리드(ConfigMgr와 Intune)
 
 **장점**
 
@@ -98,6 +98,6 @@ Intune 및 ConfigMgr를 통한 모바일 장치 관리 작업은 관리 정책�
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

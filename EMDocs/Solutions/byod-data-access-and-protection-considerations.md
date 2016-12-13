@@ -1,31 +1,31 @@
 ---
 title: "데이터 액세스 및 보호 고려 사항"
-description: 
+description: "이 문서에서는 Bring Your Own Device 시나리오에서 데이터 액세스 및 보호에 대한 다양한 디자인 고려 사항을 제공합니다."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
-ms.topic: solution
+ms.date: 11/28/2016
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: e410d3fd320660186b6d21853af3172062f90eda
-ms.openlocfilehash: 696374bf33144ef29b7143414035f761786bd4e9
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: cbf0f54d2d288baf66f914ef8366a70448218607
 
 
 ---
 
-# 데이터 액세스 및 보호 고려 사항
+# <a name="data-access-and-protection-considerations"></a>데이터 액세스 및 보호 고려 사항
 
 중요한 데이터의 손실은 회사의 업무상 매우 위험하며, BYOD의 등장으로 정보는 이전보다 더 많은 장소에 상주하게 되었습니다. 따라서 위협 환경이 더 커지고 적절히 완화되어야 하는 위험은 더 많아졌습니다. 중요한 데이터 보호를 규제하는 광범위한 법률, 회사 및 산업 규정으로 인해 데이터 보호는 복잡한 프로세스가 될 수 있습니다. 따라서 이러한 법적 요구 사항, 회사 내부 정책 및 산업 규정을 고려하는 것이 중요합니다.
 BYOD 인프라 전략의 일부로 정책 및 데이터 분류가 정의된 후에는 데이터를 적절한 분류 수준에 실제로 배치하고 적절한 보안 설정을 적용해야 합니다. IT 부서는 사용자의 ID를 확인하는 방법이 필요하며 회사에서 제공하는 정보 및 앱에 액세스할 수 있는 장치 유형에 추가 조건을 적용하려고 할 수 있습니다.
 
-## 저장소
+## <a name="storage"></a>저장소
 
 데이터가 사용자 장치에 저장되는 방식은 BYOD에 대한 데이터 액세스 및 보호를 해결하기 위해 선택하는 방법에 직접적인 영향을 줄 수 있습니다. 데이터 암호화를 고려해야 하며 장치는 IT 부서에서 데이터 암호화를 사용할 시기 및 데이터 유형을 제어할 수 있도록 해야 합니다. 회사는 정책 및 규정을 검토하여 데이터 센터에 유지할 수 있는 데이터 유형과 원격 장치의 저장소에 저장된 상태로 유지할 데이터 유형을 파악해야 합니다. 데이터 센터의 저장소에 저장된 상태의 데이터 암호화는 매우 중요합니다. 회사에서 이 작업을 아직 수행하지 않는 경우 BYOD 인프라 전략의 일부로 고려해야 합니다. 이상적으로 경로 전체에서 데이터를 암호화해야 합니다.
 
@@ -33,11 +33,11 @@ Windows Server 2012 R2에서는 클라우드 폴더를 사용하여 사용자의
 
 저장소를 콘텐츠 컨테이너로 간주하는 경우 해당 콘텐츠의 소비를 보호하는 장점도 있습니다. 최종 사용자가 저장소에 상주하는 콘텐츠를 사용하는 방식에 영향을 주는 정책을 적용하여 데이터 누출을 방지할 수 있습니다. [AD RMS(Active Directory Rights Management Services)](https://technet.microsoft.com/library/hh831554.aspx)를 사용하면 IRM(정보 권한 관리)을 사용하는 문서를 보호하여 조직의 보안 전략을 강화할 수 있습니다. AD RMS에서는 개인 및 관리자가 IRM 정책을 통해 문서, 통합 문서 및 프리젠테이션에 대한 액세스 권한을 지정할 수 있습니다. 따라서 중요한 정보가 권한 없는 사용자에 의해 인쇄, 전달 또는 복사되는 것을 방지할 수 있습니다. IRM을 사용하여 파일에 대한 사용 권한을 제한한 후에는 파일에 대한 권한이 파일 자체에 저장되므로 정보의 위치에 관계없이 액세스 및 사용 제한이 적용됩니다.
 
-회사에서 파일 보호를 위해 클라우드 기반 솔루션을 사용하려는 경우 [Azure Information Protection](/information-protection/understand-explore/what-is-information-protection)을 사용할 수도 있습니다. Azure Information Protection은 파일과 메일을 보호하기 위해 암호화, ID 및 권한 부여 정책을 사용하여 회사의 중요한 정보를 보호하며 휴대폰, 태블릿, PC 등 여러 장치에서 작동합니다. 데이터가 조직 경계를 벗어나더라도 데이터가 계속 보호되므로 조직 내부와 외부에서 모두 정보를 보호할 수 있습니다. 
+회사에서 파일 보호를 위해 클라우드 기반 솔루션을 사용하려는 경우 [Azure Information Protection](/information-protection/understand-explore/what-is-information-protection)을 사용할 수도 있습니다. Azure Information Protection은 파일과 메일을 보호하기 위해 암호화, ID 및 권한 부여 정책을 사용하여 회사의 중요한 정보를 보호하며 휴대폰, 태블릿, PC 등 여러 장치에서 작동합니다. 데이터가 조직 경계를 벗어나더라도 데이터가 계속 보호되므로 조직 내부와 외부에서 모두 정보를 보호할 수 있습니다.
 
 드라이브 암호화를 위한 BitLocker 및 파일 암호화를 위한 [Encrypting File System (EFS)(EFS(파일 시스템 암호화))](https://technet.microsoft.com/library/cc700811.aspx) 같이 Windows 운영 체제에서 사용할 수 있는 다른 저장소 기술을 사용하여 전체적인 데이터 보호를 향상시킬 수도 있습니다. 다음 표에서는 저장소 보호의 장점 및 단점을 확인할 수 있습니다. 이러한 옵션은 함께 사용할 수 있다는 점에 유의하세요. 즉, 디자인 결정에 따라 이러한 저장소 보호 옵션이 모두 BYOD 인프라 솔루션에 필요할 수 있습니다.
 
-### 저장소 보호 옵션 — 장점 및 단점
+### <a name="storage-protection-options-advantages-and-disadvantages"></a>저장소 보호 옵션 — 장점 및 단점
 
 아래 목록을 사용하여 각 저장소 보호 옵션의 장단점을 이해합니다.
 
@@ -85,7 +85,7 @@ Windows Server 2012 R2에서는 클라우드 폴더를 사용하여 사용자의
         - 타사 화면 캡처 프로그램을 사용하여 콘텐츠를 복사하는 것을 제한하지 않습니다.
         - 컴퓨터 바이러스의 동작으로 인해 콘텐츠가 손실되거나 손상되는 것을 방지하지 않습니다.
 
-## 네트워크
+## <a name="network"></a>네트워크
 
 사용자가 자신의 장치를 사용할 수 있도록 하고 데이터 센터(온-프레미스) 또는 클라우드와 사용자 장치 사이의 전체 경로에서 데이터가 보호되도록 하는 것과 관련된 요소를 고려해야 합니다. 이러한 요소는 아래 그림에 강조 표시되어 있습니다.
 
@@ -93,8 +93,8 @@ Windows Server 2012 R2에서는 클라우드 폴더를 사용하여 사용자의
 
 이 다이어그램에는 BYOD 인프라에서 데이터 보호가 고려되어야 하는 핵심 영역이 강조 표시되어 있습니다. 이러한 영역은 다음 섹션에서 더 자세히 설명합니다.
 
-### 데이터 보호 — 위치 및 고려 사항
-    
+### <a name="data-protection-locations-and-considerations"></a>데이터 보호 — 위치 및 고려 사항
+
 아래 목록을 사용하여 데이터 위치에 따라 데이터 보호와 관련된 고려 사항을 이해합니다. 아래 목록의 숫자는 이전 다이어그램에 해당합니다.
 
 - (1) 데이터 센터의 미사용 데이터
@@ -121,7 +121,7 @@ Windows Server 2012 R2에서는 [HTTPS](https://msdn.microsoft.com/library/aa767
 
 다음 섹션을 사용하여 백 엔드 서버 통신의 디자인 요구 사항에 가장 잘 맞는 네트워크 보호 옵션을 평가합니다.
 
-### 네트워크 보호 옵션 — 장점 및 단점
+### <a name="network-protection-options-advantages-and-disadvantages"></a>네트워크 보호 옵션 — 장점 및 단점
 
 아래 목록을 사용하여 각 네트워크 보호 옵션의 장단점을 이해합니다.
 
@@ -150,13 +150,13 @@ Windows Server 2012 R2에서는 [HTTPS](https://msdn.microsoft.com/library/aa767
     - 단점
         - 클라이언트 컴퓨터의 경우 Windows 8 이상에서만 작동하고 서버 컴퓨터의 경우 Windows Server 2012 이상에서만 작동합니다.
 
-## 디렉터리
+## <a name="directory"></a>디렉터리
 
 사용자 특성을 디렉터리에 저장하여 IT 부서에서 역할 및 그룹과 같은 사용자 정보를 쉽게 쿼리할 수 있도록 해야 합니다. 또한 사용자와 장치 사이의 관계가 추적되는 방법도 고려해야 합니다. IT 부서에 알려지게 되거나 관리할 수 있는 모든 알려지지 않은 장치도 관리 데이터베이스나 디렉터리에 레코드가 있어야 IT 부서에서 장치를 감사할 수 있습니다.
 
 서로 다른 인증 리포지토리가 있게 될 하이브리드 환경에서 회사는 사용자가 현재 있는 위치 및 앱이 있는 위치에 관계없이 동일한 자격 증명을 사용하여 인증할 수 있도록 하는 방법을 고려해야 합니다. 클라우드 서비스 공급자를 사용하여 디렉터리를 복제하는 대신 온-프레미스에서 인증을 중앙 집중화하려는 경우 AD FS(Active Directory Federation Services) 사용을 고려합니다. 다음 섹션을 사용하여 BYOD 인프라의 디렉터리 옵션을 평가합니다.
 
-### 디렉터리 옵션 — 장점 및 단점
+### <a name="directory-options-advantages-and-disadvantages"></a>디렉터리 옵션 — 장점 및 단점
 
 아래 목록을 사용하여 각 디렉터리 보호 옵션의 장단점을 이해합니다.
 
@@ -204,7 +204,7 @@ Windows Server 2012 R2에서는 [HTTPS](https://msdn.microsoft.com/library/aa767
 
 Windows 8.1에서 장치 등록 서비스를 사용하면 인증서가 사용자의 장치에 설치되고 장치 레코드가 인증서의 지문 번호와 함께 AD DS에 생성됩니다. 장치와 사용자 간의 이 연결을 통해 IT 부서는 각 사용자가 등록할 장치를 추적할 수 있습니다. 이 기능에는 엔터프라이즈 PKI가 필요하지 않습니다. 장치 등록도 Windows 10용 Azure AD에서 제공됩니다. Azure AD 및 Windows 10을 사용한 장치 등록에 대한 자세한 내용은 [Azure Active Directory 장치 등록 시작](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-device-registration-overview/)을 참조하세요.
 
-## 인증 및 권한 부여
+## <a name="authentication-and-authorization"></a>인증 및 권한 부여
 
 사용자가 자신의 장치에서 앱 및 데이터 액세스할 수 있도록 결정하면 사용자가 신뢰할 만한 인증 프로세스에서 식별되어야 하고 요청한 리소스를 사용할 수 있는 권한도 부여되어야 합니다. 회사는 현재 인증 및 권한 부여 정책을 검토하고 다음과 같은 질문을 고려해야 합니다.
 
@@ -218,16 +218,16 @@ Multi-Factor Authentication을 적용하려는 경우 회사는 AD FS의 기본
 
 외부 네트워크나 내부 네트워크에서 앱에 액세스하는 사용자에 대해 앱 단위 권한 부여를 적용하려는 경우 IT 부서는 웹 응용 프로그램 프록시를 사용할 수 있습니다. 웹 응용 프로그램 프록시를 사용하여 IT 부서는 AD FS와 함께 인증 및 권한 부여를 적용하는 특정 규칙을 만들 수 있습니다. 웹 응용 프로그램 프록시 게시는 모든 사용자 장치에 대해 작동하므로 개인 노트북, 태블릿 또는 스마트폰을 사용할 수 있습니다. 또한 게시된 앱에 액세스하기 위해 사용자가 자신의 장치에 추가 소프트웨어를 설치할 필요가 없습니다. 웹 응용 프로그램 프록시는 해당 프록시를 통해 게시된 모든 앱에서 역방향 프록시 역할을 합니다. 따라서 사용자 환경은 사용자의 장치가 앱에 직접 연결된 것처럼 동일합니다. 웹 응용 프로그램 프록시에 대한 자세한 내용은 [웹 응용 프로그램 프록시 개요](https://technet.microsoft.com/library/dn280944.aspx)를 참조하세요.
 
->[!NOTE] 
+>[!NOTE]
 > 하이브리드 시나리오에서 사용자 인증 및 권한 부여 환경을 원활하게 하려면 [하이브리드 ID 디자인 고려 사항 가이드](http://aka.ms/azhidcg)를 참조하세요.
 
-## 정책 및 준수
+## <a name="policy-and-compliance"></a>정책 및 준수
 
 정책 및 규정 준수 고려 사항은 BYOD를 수용하는 모든 전략에서 가장 중요합니다. 일부 회사에는 비즈니스 규정으로 인해 이 모델에 맞지 않는 어려운 요구 사항이 있을 수 있습니다. 사용자 중심 전략으로 전환하려는 회사는 현재 정책과 BYOD 수용으로 이러한 정책이 어떻게 영향을 받을지를 이해해야 합니다. 데이터 분류 및 데이터가 장치 저장소에 저장된 상태인 경우에도 IT 부서에서 데이터 분류를 제어할 수 있는 방법과 관련된 요구 사항을 고려합니다. 데이터 분류를 고려할 때는 일부 작업(예: 파일 편집)이 수행 중인 동안에도 데이터를 분류할 수 있어야 합니다.
 
 모든 사용자에게 영향을 줄 임시 변경 작업이 발생하는 경우 IT 부서에서 신속하게 응답할 수 있도록 중앙 위치에서 정책을 적용해야 합니다. 또한 모바일 장치에 대한 강력한 감사 기능을 고려합니다. 위반이 발생할 경우 침해된 정책, 해당 정책을 침해한 사람 및 침해가 발생한 시간을 IT 부서에서 추적할 수 있어야 합니다.
-    
-### 정책 및 규정 준수 — 기능 및 고려 사항
+
+### <a name="policy-and-compliancecapabilities-and-considerations"></a>정책 및 규정 준수 — 기능 및 고려 사항
 
 아래 목록을 사용하여 정책 및 규정 준수 기능에 대한 고려 사항을 이해합니다.
 
@@ -251,6 +251,6 @@ Multi-Factor Authentication을 적용하려는 경우 회사는 AD FS의 기본
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

@@ -1,27 +1,27 @@
 ---
 title: "앱 고려 사항"
-description: 
+description: "이 문서에서는 Bring Your Own Device 시나리오에 사용해야 하는 앱에 대한 다양한 디자인 고려 사항을 제공합니다."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
-ms.topic: solution
+ms.date: 11/28/2016
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 4b871c74-fec8-45e2-8b45-6ef0e62f7cc6
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 2340a5578d01f52e672a3b399ec1200dcff9373d
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 2e00204f4be8183fdb8502e13b1ef06d1b7df084
 
 
 ---
 
 
-# 앱 고려 사항
+# <a name="app-considerations"></a>앱 고려 사항
 
 BYOD에 대한 앱 고려 사항은 회사 목표, 제약 조건 및 리소스에 따라 달라질 수 있습니다. 회사는 현재 앱, 앱을 개발하는 데 사용된 기술, ,모든 장치에서 앱을 실행하는 데 필요한 요구 사항 및 사용자가 모든 위치에서 액세스할 수 있도록 하는 데 반드시 필요한 앱을 평가해야 합니다. 최신 앱은 Windows 기반 앱으로 제공되고 배포할 때만큼 리소스를 많이 사용하지 않지만 비용은 앱 개발 및 관리와 여전히 관련이 있습니다.
 
@@ -34,14 +34,14 @@ BYOD 시나리오용으로 특별히 개발된 앱에 대한 패턴이 있으므
 
 모바일 앱을 만들 때 일반적인 고려 사항에 대한 자세한 내용은 [비즈니스용 모바일 앱을 만들 때의 10가지 고려 사항](https://www.microsoft.com/en-gb/developers/articles/week01jan14/10-considerations-when-creating-mobile-apps-for-business)을 참조하세요.
 
-## 환경
+## <a name="experience"></a>환경
 
 앱이 실행될 플랫폼과 배포 전략에 따라 보다 향상된 사용자 환경을 제공하기 위해 회사는 게시할 앱과 방법을 확인해야 합니다. 다양한 환경이 있고 일부 장치만 회사에서 지원될 것으로 확인되는 경우 한 가지 전략은 회사 포털을 통해 앱을 게시하는 것입니다. 결국 비즈니스 의사 결정은 사용자 환경을 고려하게 만듭니다. 회사는 플랫폼에 관계없이 동일한 환경을 제공할 앱을 개발하려고 합니까? 아니면 동일한 환경을 사용하지 않고 다양한 플랫폼에서 해당 앱을 사용할 수 있도록 사용자에게 교육을 제공하려고 합니까?
 이전 단락에서 설명한 각각의 경우에 대해 비용 및 투자 수익률을 고려해 보세요. 동일한 환경을 제공하는 기본 웹 포털 페이지에서 모든 앱을 통합할 수 있지만 앱이 플랫폼에 따라 다르게 작동합니다.
 
 원격 사용자용 앱은 둘 이상의 플랫폼에서 실행되고, 최대한 간단해야 하며, 사용자의 장치에 대한 최소 액세스가 필요하다는 점을 고려하면 옵션의 범위를 웹 기반 앱 및 최신 앱으로 좁혀야 합니다. 다음 섹션은 솔루션에 사용할 앱 환경을 결정하도록 보조합니다.
 
-### 앱 환경 옵션 — 장점 및 단점
+### <a name="app-experience-options-advantages-and-disadvantages"></a>앱 환경 옵션 — 장점 및 단점
 
 아래 목록을 사용하여 각 앱 환경 옵션의 장단점을 이해합니다.
 
@@ -70,7 +70,7 @@ BYOD 시나리오용으로 특별히 개발된 앱에 대한 패턴이 있으므
         - 이 새로운 형식을 사용하여 앱을 개발하려면 개발자가 자신의 지식을 확장해야 할 수 있음
 
 
-### 앱 요구 사항 — 고려 사항
+### <a name="app-requirements-considerations"></a>앱 요구 사항 — 고려 사항
 
 원격 사용자가 자신의 장치에서 사용하기 위해 조정되어야 할 앱을 평가하고 이러한 요구 사항이 사용자에게 제공되었는지 확인합니다. 아래에 앱 요구 사항 목록 및 각 요구 사항에 대한 고려 사항이 있습니다.
 
@@ -92,13 +92,13 @@ BYOD 시나리오용으로 특별히 개발된 앱에 대한 패턴이 있으므
 
 또한 사용자 환경을 향상시키려면 개발 팀의 표준에 따라 모든 앱을 범주화하여 사용자가 수백 개의 앱을 스크롤할 필요가 없도록 해야 합니다.
 
-## 플랫폼
+## <a name="platform"></a>플랫폼
 
 사용자 환경을 다룰 때는 다양한 플랫폼을 평가하고 회사에서 지원하려는 항목을 결정하는 것이 일반적입니다. 많은 경우 사용자가 자신의 장치를 사용하도록 하는 것은 다른 유형의 에코시스템이 있다는 의미이며, IT 부서는 이러한 에코시스템을 지원할 준비가 되어 있지 않을 수 있습니다.
 
 플랫폼마다 앱에 서명하고 게시하는 경우의 요구 사항이 서로 다르며, IT 부서는 특정 플랫폼에서 실행되는 앱의 전체 수명 주기를 평가해야 하므로 이는 IT 리소스에 직접 영향을 줍니다. 또한 BYOD 인프라 솔루션에 대한 앱의 플랫폼 요구 사항에 액세스해야 합니다. 다음 섹션에는 앱 플랫폼 요구 사항에 대한 주요 고려 사항이 포함되어 있습니다.
 
-### 앱 플랫폼 요구 사항 — 고려 사항
+### <a name="app-platform-requirements-considerations"></a>앱 플랫폼 요구 사항 — 고려 사항
 
 아래에 앱 플랫폼 요구 사항 목록 및 각 요구 사항에 대한 고려 사항이 있습니다.
 
@@ -127,11 +127,11 @@ BYOD 시나리오용으로 특별히 개발된 앱에 대한 패턴이 있으므
 
 답변은 회사 배포 전략의 현재 상태 및 Windows 스토어를 사용하도록 선택할 경우 이 전략이 어떻게 발전되어야 하는지에 따라 달라집니다. Windows 스토어는 디지털 배포 시스템이며 Windows 10, Windows 8.1, Windows 8 및 Windows RT의 최신 앱에 대한 기본 배포 플랫폼이라는 점에 유의하세요. 그러나 Windows 스토어를 사용하여 Windows 8 기반 장치에서 실행되도록 인증된 데스크톱 앱을 나열할 수 있습니다. 테스트용 로드 앱에 대한 자세한 내용은 [사용해 보기: Windows 스토어 앱 테스트용으로 로드](https://technet.microsoft.com/windows/jj874388.aspx)를 참조하세요.
 
-## 배포
+## <a name="deployment"></a>배포
 
 사용자에게 배포될 앱에 대한 고려 사항을 제공하려면 회사 액세스와 관련된 요구 사항을 이해해야 합니다. 사용자가 다른 회사 리소스에 액세스할 필요가 없거나 회사 네트워크 내부에 있는 동안 모든 회사 리소스에 대한 전체 액세스 권한이 필요하지 않는 경우에도 배포 시나리오에는 회사 리소스에 항상 연결되어 있어야 하는 앱이 포함됩니다. 각 앱에 대한 배포 옵션을 확인하고 회사에 기본적으로 사용되는 방법을 평가합니다. 다음 섹션에는 의사 결정 기준의 일부로 사용할 수 있는 가장 일반적인 배포 옵션이 포함되어 있습니다.
 
-### 배포 옵션 — 장점 및 단점
+### <a name="deployment-options-advantages-and-disadvantages"></a>배포 옵션 — 장점 및 단점
 
 아래 목록을 사용하여 각 배포 옵션의 장단점을 이해합니다.
 
@@ -163,7 +163,7 @@ BYOD 시나리오용으로 특별히 개발된 앱에 대한 패턴이 있으므
         - 일반적으로 클라우드 서비스 구독이 필요합니다.
         - 온-프레미스 배포 솔루션과의 통합은 클라우드 서비스에 따라 달라질 수 있습니다.
 
-### 앱 배포 요구 사항 — 고려 사항
+### <a name="app-deployment-requirements-considerations"></a>앱 배포 요구 사항 — 고려 사항
 
 BYOD 인프라 솔루션에 대한 앱의 배포 요구 사항에도 액세스해야 합니다. 다음 목록에는 몇 가지 주요 앱 배포 고려 사항이 포함되어 있습니다.
 
@@ -185,7 +185,7 @@ System Center 2012 R2 Configuration Manager를 사용하여 IT 부서는 Configu
 
 회사에서 Windows Phone을 사용하고 있는 경우 사용자가 이 플랫폼에 대한 LOB 앱을 사용하도록 하려면 먼저 앱 등록 프로세스를 이해해야 합니다. 회사는 몇 가지 단계를 수행하여 회사 계정을 설정하고 장치를 등록한 다음 등록된 장치에 앱을 배포해야 합니다. Windows Phone 앱 배포에 대한 자세한 내용은 [Windows Phone용 회사 앱 배포](https://msdn.microsoft.com/library/windowsphone/develop/jj206943(v=vs.105).aspx)를 참조하세요.
 
-## 저장소 및 네트워크
+## <a name="storage-and-network"></a>저장소 및 네트워크
 
 저장소 및 네트워크 앱 고려 사항은 앱 서버와 장치 모두에 영향을 줄 수 있습니다. 앱의 이러한 두 핵심 구성 요소를 고려하면 다음과 같은 문제가 제기됩니다.
 
@@ -196,7 +196,7 @@ System Center 2012 R2 Configuration Manager를 사용하여 IT 부서는 Configu
 
 다음 섹션에는 앱 저장소 및 네트워크 요구 사항에 대한 주요 고려 사항이 포함되어 있습니다.
 
-### 저장소 및 네트워크 요구 사항 — 고려 사항
+### <a name="app-storage-and-network-requirementsconsiderations"></a>저장소 및 네트워크 요구 사항 — 고려 사항
 
 각 앱 저장소의 장단점 및 네트워크 요구 사항과 고려 사항을 이해하려면 아래 목록을 사용합니다.
 
@@ -231,7 +231,7 @@ Windows Server 2012 R2의 VDI에 대한 자세한 내용은 [Windows Server 2012
 
 BYOD 인프라 디자인에 사용할 앱 배포 및 환경에 대한 결정은 TCO(총 소유 비용)와 균형을 이루어야 합니다. VDI 도입의 TCO를 더 잘 이해하려면 [사무실 작업자 환경의 VDI TCO 분석](http://www.intel.in/content/www/in/en/data-center-efficiency/data-center-efficiency-vdi-tco-analysis-for-office-worker-environments-report.html)을 읽어 보는 것이 좋습니다.
 
-## 보안
+## <a name="security"></a>보안
 
 자신의 장치를 사용하고 있는 사용자가 사용하게 될 모든 앱에 보안 개발 수명 주기를 사용해야 합니다. 보안은 개발 프로세스의 모든 단계에 포함되어야 하며 잠재적인 모든 위협을 고려해야 합니다. [STRIDE](https://msdn.microsoft.com/magazine/cc163519.aspx) 및 기타 보안 전략은 [Microsoft SDL(보안 개발 수명 주기)](https://www.microsoft.com/security/sdl/process/requirements.aspx)을 사용하여 개발 수명 주기로 통합할 수 있습니다. 현재 인프라를 BYOD의 전체적인 보안 전략과 통합하는 방식은 중요한 고려 사항입니다. 현재 환경에서 앱에 안전한 기반을 제공할 수 있습니까? 이 새로운 도입으로 발생할 잠재적인 취약성을 완화하기 위해 회사에서 타사 보안 솔루션을 구입해야 합니까?
 
@@ -239,6 +239,6 @@ BYOD 인프라 디자인에 사용할 앱 배포 및 환경에 대한 결정은 
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

@@ -1,36 +1,36 @@
 ---
 title: "관리 고려 사항"
-description: 
+description: "이 문서에서는 Bring Your Own Device 시나리오에 사용해야 하는 다양한 관리 디자인 고려 사항을 제공합니다."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
-ms.topic: solution
+ms.date: 11/28/2016
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ba8cc256-2075-457f-a827-7ec9213c5235
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 56564cd95596726f65815da0d1b4dea4000b53de
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: da1652d5bb9a7b7176c74482bfc814aaf8902c3f
 
 
 ---
 
-# 관리 고려 사항
+# <a name="management-considerations"></a>관리 고려 사항
 
 관리 도메인은 BYOD 모델을 지원하는 인프라에서 반드시 필요합니다. BYOD 요구를 완벽하게 지원하려면 관리 도메인을 통해 IT 부서에서 리소스를 모니터링하고, 보고 기능을 제공하며, 계산 및 저장소 리소스를 관리하고, 장치 구성 및 자동화를 설정하며, 앱 개발 및 프로비저닝을 관리할 수 있어야 합니다.
 
-## 모니터링
+## <a name="monitoring"></a>모니터링
 
 관리 도메인의 역할 중 하나는 회사 자산뿐만 아니라 사용자가 소유한 모바일 장치에 대해 규정 준수 설정을 모니터링하는 것입니다. 규정 준수에 대한 고려 사항은 회사 LOB(기간 업무)에 따라 평가해야 합니다. 일부 회사에서는 사용자의 장치에 상주하는 데이터가 암호화된 경우에만 데이터를 통합할 수 있습니다. 해당 정책을 적용하려면 IT 부서에서 보안 설정을 제어해야 합니다.
 
 사용자 장치에서의 관리 수준은 회사 정책 및 회사에서 채택할 BYOD 인프라에 따라 달라집니다. 회사에서 전체 지우기 기능을 제공하여 회사 리소스에 액세스할 수 있도록 설정하면 IT 부서는 모니터링된 모든 장치에서 이 설정을 적용해야 합니다. 또한 IT 부서에는 장치를 제조업체 기본값으로 초기화하여 필요한 경우 모든 개인 설정과 데이터를 지우는 기능이 필요합니다. 다음 섹션을 사용하여 BYOD 인프라에 필요한 모니터링 옵션을 결정합니다.
 
-### 모니터링 옵션 - 장점 및 단점
+### <a name="monitoring-options-advantages-and-disadvantages"></a>모니터링 옵션 - 장점 및 단점
 
 아래 목록을 사용하여 각 모니터링 옵션의 장단점을 이해합니다.
 
@@ -59,7 +59,7 @@ Configuration Manager의 규정 준수 설정을 통해 IT 부서는 엔터프�
 
 Windows 선택적 지우기를 사용하여 IT 부서는 회사 또는 개인 장치에 분산된 엔터프라이즈의 회사 데이터를 보호할 수 있습니다. 개발자는 데이터에 대해 Windows 선택적 지우기 정책을 사용하는 앱을 만들고 엔터프라이즈가 소유한 인터넷 도메인에서 데이터를 보호할 수 있습니다. Windows 선택적 지우기에 대한 자세한 내용은 장치 데이터 관리를 위한 Windows 선택적 지우기를 참조하세요.
 
-## 보고
+## <a name="reporting"></a>보고
 
 장치 기능 보고나 이러한 장치의 작동 방식 이해는 IT 부서에서 알려진 장치를 제어하기 위한 기본 사항입니다. 보고서를 사용하여 현재 환경을 더 잘 이해할 수 있습니다. 다음은 환경뿐만 아니라 일부 모바일 장치의 기능을 이해하려고 할 때 제기되는 몇 가지 질문입니다.
 
@@ -70,7 +70,7 @@ Windows 선택적 지우기를 사용하여 IT 부서는 회사 또는 개인 �
 
 장치 인벤토리 및 사용자 지정 가능한 보고서를 제공할 수 있는 관리 솔루션을 사용하는 것이 좋습니다. 이 옵션을 선택하면 사용자의 장치에 대해 더 많은 정보를 검색해야 할 때 IT 부서에 보다 유연한 방식을 사용할 수 있습니다. IT 부서에는 온-프레미스 및 클라우드에서 등록된 모든 장치에 대한 보고서가 있어야 합니다. 관리 시스템의 보고 기능은 온-프레미스나 클라우드에 있을 수 있습니다. 또는 두 환경이 혼합될 수 있는데, 이런 경우를 하이브리드 솔루션이라고 합니다. 다음 표를 사용하여 회사에 적합한 보고 옵션을 결정합니다.
 
-### 보고 옵션 - 장점 및 단점
+### <a name="reporting-options-advantages-and-disadvantages"></a>보고 옵션 - 장점 및 단점
 
 아래 목록을 사용하여 각 보고 옵션의 장단점을 이해합니다.
 
@@ -105,15 +105,15 @@ Microsoft Intune을 System Center 2012 R2와 결합하면 온-프레미스 및 �
 
 Configuration Manager 보고 기능에 대한 자세한 내용은 [Configuration Manager의 보고 기능 소개](https://technet.microsoft.com/library/gg682105.aspx)를 참조하세요.
 
-## 계산 및 저장소
+## <a name="compute-and-storage"></a>계산 및 저장소
 
 사용자가 자신의 장치를 사용하여 새 앱을 개발하고 원격으로 액세스한 후 솔루션이 잘 계획되지 않으면 앱 성능이 저하될 수 있습니다. 이 디자인 고려 사항 가이드는 성능 고려 사항을 자세히 살펴보기 위한 것은 아니지만 관리 인프라에 대한 질문에는 대답해야 합니다.
 
-- 회사에서 사용하는 현재 관리 솔루션은 사용자의 장치에서 액세스한 앱을 지원하는 플랫폼의 저장소 및 계산 리소스를 관리할 수 있습니까? 
+- 회사에서 사용하는 현재 관리 솔루션은 사용자의 장치에서 액세스한 앱을 지원하는 플랫폼의 저장소 및 계산 리소스를 관리할 수 있습니까?
 - 회사에서 사용하는 현재 관리 솔루션에는 미리 설정된 규칙 집합에 따라 사용자의 장치에서 액세스한 앱을 지원하는 플랫폼의 계산 및 저장소 리소스를 늘리는 기능이 있습니까?
 현재 사용하는 관리 솔루션에서 이러한 두 요구 사항을 해결할 수 없는 경우 다음 표에 표시된 두 가지 핵심 요구 사항을 해결하여 계산 및 저장소를 관리할 수 있는 관리 솔루션을 사용하는 것이 좋습니다.
 
-### 계산 및 저장소 관리 기능 — 장점 및 단점
+### <a name="compute-and-storage-management-capabilities-advantages-and-disadvantages"></a>계산 및 저장소 관리 기능 — 장점 및 단점
 
 아래 목록을 사용하여 각 저장소 관리 기능의 장단점을 이해합니다.
 
@@ -136,16 +136,16 @@ Configuration Manager 보고 기능에 대한 자세한 내용은 [Configuration
 
 System Center 2012 R2에는 리소스 풀링 및 탄력성을 사용하여 저장소 및 계산을 관리하는 기능이 있습니다. 또한 System Center 2012 R2에서는 저장소를 차이점 보관용 디스크의 최적화와 통합하여 많은 양의 디스크 데이터를 여러 가상 디스크에서 공유할 수 있도록 함으로써 저장소 요구 사항을 줄이고 저장소 비용을 최적화합니다. System Center 2012 R2를 사용하여 가상화되고 원격 사용자가 사용하는 앱에서 사용할 서버는 이 기술을 사용할 수 있습니다.
 
-System Center 2012 R2 저장소 기능에 대한 자세한 내용은 [System Center 2012 R2 VMM의 새로운 기능](https://technet.microsoft.com/library/dn246490.aspx)을 참조하세요. 
+System Center 2012 R2 저장소 기능에 대한 자세한 내용은 [System Center 2012 R2 VMM의 새로운 기능](https://technet.microsoft.com/library/dn246490.aspx)을 참조하세요.
 
-## 자동화
+## <a name="automation"></a>자동화
 
 자동화를 사용하여 비규격 장치를 개선할 수 있으며 IT 부서는 서로 다른 수준의 비규격 심각도를 할당할 수 있습니다. BYOD의 다양한 영역에서 자동화 사용을 고려해야 합니다. 예를 들어 모바일 장치에서 사용할 새 서비스의 배포를 어떻게 자동화하시겠습니까? 또한 모바일 장치에 대한 권한 부여 프로세스는 어떻게 자동화하시겠습니까?
 
 표시된 모든 BYOD 하위 영역에서 자동화를 사용할 수 있지만 리소스를 자동화할 책임은 관리 하위 영역에 있습니다. 자동화는 운영 제체에서 기본 제공될 수 있습니다. 그러나 회사에서 사용할 관리 솔루션은 자동화의 결과를 모니터링하고 보고하면서 이러한 기능을 확장하고 일상적인 IT 작업을 축소할 방법을 제공해야 합니다.
 System Center 2012 R2의 가장 강력한 자동화 옵션은 Windows PowerShell입니다. System Center 2012 R2 자동화에 대한 자세한 내용은 [Windows PowerShell로 System Center 자동화](https://technet.microsoft.com/library/dn507037(v=sc.20).aspx)를 참조하세요. 그러나 작업 순서와 같이 더 간단하지만 매우 강력하지는 않은 작업 자동화 형식을 제공하는 다른 옵션도 사용할 수 있습니다. 다음 표를 사용하여 각 옵션의 장점 및 단점을 평가합니다.
 
-### 자동화 옵션 — 장점 및 단점
+### <a name="automation-options-advantages-and-disadvantages"></a>자동화 옵션 — 장점 및 단점
 
 아래 목록을 사용하여 각 자동화 옵션의 장단점을 이해합니다.
 
@@ -168,7 +168,7 @@ System Center 2012 R2의 가장 강력한 자동화 옵션은 Windows PowerShell
         - 스크립팅할 수 없음
         - System Center 자체 내의 일부 작업으로 기능이 제한됨
 
-## 배포 및 프로비전
+## <a name="deployment-and-provisioning"></a>배포 및 프로비전
 
 다음 단계에서는 앱을 원격 장치에 배포하고 프로비저닝할 때의 고려 사항을 확인합니다. 다음과 같은 두 가지 주요 질문에 대답해야 합니다.
 
@@ -181,23 +181,22 @@ System Center 2012 R2의 가장 강력한 자동화 옵션은 Windows PowerShell
 
 온-프레미스의 중앙 집중식 관리에는 Configuration Manager를 사용할 수 있습니다. 이 옵션을 사용하면 IT 부서에서 기업 등록계약 기능을 사용하여 회사의 Configuration Manager Server에 장치를 등록할 수 있습니다. Configuration Manager를 사용하여 장치를 관리하는 방법에 대한 자세한 내용은 [Configuration Manager 및 Microsoft Intune을 사용하여 모바일 장치 관리](https://technet.microsoft.com/library/jj884158.aspx)를 참조하세요.
 
-Windows 기반 장치가 아닌 다른 플랫폼을 관리하려면 Microsoft Intune 클라우드 서비스를 사용할 수 있습니다. Microsoft Intune 회사 포털을 사용하여 사용이 허가된 앱을 등록, 관리 및 설치할 수 있습니다. 사용자는 자신의 장치에서 앱에 쉽게 액세스하여 설치할 수 있습니다. 
+Windows 기반 장치가 아닌 다른 플랫폼을 관리하려면 Microsoft Intune 클라우드 서비스를 사용할 수 있습니다. Microsoft Intune 회사 포털을 사용하여 사용이 허가된 앱을 등록, 관리 및 설치할 수 있습니다. 사용자는 자신의 장치에서 앱에 쉽게 액세스하여 설치할 수 있습니다.
 
->[!TIP] 
->Microsoft Intune에 대한 자세한 내용은 [Microsoft Intune page(Microsoft Intune 페이지)](/intune/understand-explore/introduction-to-microsoft-intune)를 참조하세요. 
+>[!TIP]
+>Microsoft Intune에 대한 자세한 내용은 [Microsoft Intune page(Microsoft Intune 페이지)](/intune/understand-explore/introduction-to-microsoft-intune)를 참조하세요.
 
 이러한 두 가지 옵션은 서로 다르지만 둘을 통합하여 단일 위치에서 앱 배포 및 프로비저닝을 제공할 수 있습니다. 다음 표를 사용하여 BYOD 디자인에 적합한 옵션을 식별합니다.
 
-| **디자인 요구 사항**                                             | **배포 및 프로비저닝 옵션**                |
+| **디자인 요구 사항**                                             | **배포 및 프로비전 옵션**                |
 |---------------------------------------------------------------------|--------------------------------------------------------|
 | 온-프레미스에만 있는 장치에 앱을 배포하고 프로비저닝합니다.      | Microsoft System Center 2012                           |
 | 회사 외부에 있는 장치에 앱을 배포하고 프로비저닝합니다.   | Microsoft Intune                                       |
 | 비Windows 장치에 앱을 배포하고 프로비저닝합니다.                   | Microsoft Intune                                       |
 | 앱을 온-프레미스에 위치한 장치에 배포하고 프로비전하며, 회사 외부에 있는 장치에 앱을 배포하고 프로비전하거나 Windows 이외의 장치에 앱을 배포하고 프로비전합니다.       | Configuration Manager와 통합된 Microsoft Intune
-                                                                    
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

@@ -1,33 +1,34 @@
 ---
 title: "사고 대응 요구 사항 파악"
-description: 
+description: "이 문서에서는 모바일 장치 관리 시나리오에는 사고 대응 프로세스를 개발하기 위한 다양한 일반적인 요구 사항을 제공합니다."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
-ms.topic: solution
+ms.date: 11/28/2016
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 6f9fd9b3-492b-48e1-871c-e5abefe1293a
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: f229cc98f311f1cc65f86040f48884732a2fcde8
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: a9bb76fdff02b8ded31fe3e1811678138ffd5504
 
 
 ---
 
-# 사고 대응 요구 사항 파악
+# <a name="develop-your-incident-response-requirements"></a>사고 대응 요구 사항 파악
 
 >[!NOTE]
 >이 항목은 좀 더 큰 디자인 고려 사항 가이드의 일부입니다. 이 가이드의 맨 처음부터 시작하려면 [기본 항목](mdm-design-considerations-guide.md)을 확인하세요. 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
 
-많은 조직에는 이미 사고 대응(IR) 계획을 갖추고 있지만 그런 계획이 모바일 장치를 포함하며, 해당 장치에서 사건이 보고될 경우 어떤 절차를 취해야 하는지 확인할 필요가 있습니다. 회사에서 최근에 모바일 솔루션을 추가한 경우 현재의 IR 계획이 모바일 장치를 다루지 않을 가능성이 높습니다. 조직에 IR 계획이 없으면 보안 팀과의 긴밀한 협조를 통해 요구 사항을 이해하여 요구에 가장 부합하는 MDM 솔루션을 선택할 때 필요한 올바른 질문을 파악하는 것이 좋습니다. 
- 
->[!TIP] 
+많은 조직에는 이미 사고 대응(IR) 계획을 갖추고 있지만 그런 계획이 모바일 장치를 포함하며, 해당 장치에서 사건이 보고될 경우 어떤 절차를 취해야 하는지 확인할 필요가 있습니다. 회사에서 최근에 모바일 솔루션을 추가한 경우 현재의 IR 계획이 모바일 장치를 다루지 않을 가능성이 높습니다.
+조직에 IR 계획이 없으면 보안 팀과의 긴밀한 협조를 통해 요구 사항을 이해하여 요구에 가장 부합하는 MDM 솔루션을 선택할 때 필요한 올바른 질문을 파악하는 것이 좋습니다.
+
+>[!TIP]
 > IR 계획에 대한 최소 요구 사항을 보다 잘 이해하려면 [IT 보안 사고에 대응](https://technet.microsoft.com/library/cc700825.aspx)을 읽어보세요.
 
 MDM 솔루션을 설계할 때 다음과 같은 질문을 제기하여 사고가 발생하는 경우 모바일 장치를 관리할 수 있도록 해야 합니다.
@@ -35,7 +36,7 @@ MDM 솔루션을 설계할 때 다음과 같은 질문을 제기하여 사고가
 - 조직에 기존 사고 대응 계획이 있나요?
     - 그러한 경우 해당 계획에 보안이 침해된 모바일 장치를 처리하기 위한 프로세스 및 절차가 포함되어 있나요?
 - 사고 대응 정책에 최종 사용자가 모바일 장치를 분실했다고 보고하는 시나리오도 포함되나요?
-    - 전체 장치를 지워서 데이터 누출을 방지할 수 있나요? 
+    - 전체 장치를 지워서 데이터 누출을 방지할 수 있나요?
         - 그러한 경우 회사에 모바일 장치에 있는 데이터에 대한 백업 정책이 있나요?
 - 회사에서 회사 소유의 장치 및 개인 소유의 장치를 분실한 경우 각각에 대해 다른 절차를 진행하나요?
     - 그러한 경우 해당 절차는 어떤 것인가요?
@@ -47,7 +48,6 @@ MDM 솔루션을 설계할 때 다음과 같은 질문을 제기하여 사고가
 
 
 
-
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

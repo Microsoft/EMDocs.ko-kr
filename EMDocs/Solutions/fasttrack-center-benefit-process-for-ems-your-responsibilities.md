@@ -1,76 +1,80 @@
 ---
 title: "사용자의 책임"
-description: 
+description: "FastTrack 센터 혜택을 사용 시의 고객 책임"
 keywords: 
-author: staciebarker
+author: NathBarn
+ms.author: NathBarn
 manager: angrobe
-ms.date: 10/02/2016
+ms.date: 11/07/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
-ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 323bdb56b3d81eb6a63e266899427672abf79da4
-ms.openlocfilehash: 035279b0dd7ca88123d94016ceb6caaf6306350f
+ms.sourcegitcommit: 61241368440bea9a12bbac136466250da91da997
+ms.openlocfilehash: 847a6aa06ef34004f8de52c2e71f560112c8885a
 
 
 ---
 
-# 사용자의 책임
+# <a name="your-responsibilities"></a>사용자의 책임
 
 등록 시 고객이 이행해야 하는 의무는 다음과 같습니다.
 
-## 일반 책임
+## <a name="general-responsibilities"></a>일반 책임
 
--   이 문서에 열거된 구성 가능한 옵션을 벗어나는 EMS 테넌트에 대한 기능 향상 및 통합.
+-   이 문서에 열거된 구성 가능한 옵션을 벗어나는 EMS(Enterprise Mobility + Security) 테넌트에 대한 기능 향상 및 통합을 제공합니다.
 
--   사용자의 리소스에 대한 전체 프로그램 및 프로젝트 관리.
+-   사용자의 리소스에 대한 전체 프로그램 및 프로젝트 관리를 제공합니다.
 
--   최종 사용자 통신, 설명서, 교육 및 변경 관리.
+-   최종 사용자 통신, 설명서, 교육 및 변경 관리를 제공합니다.
 
--   기술 지원팀 설명서 및 교육.
+-   기술 지원팀 설명서 및 교육을 제공합니다.
 
--   사용자 조직과 관련된 보고서, 프레젠테이션 또는 회의록 작성.
+-   사용자 조직과 관련된 보고서, 프레젠테이션 또는 회의록을 제공합니다.
 
--   사용자 조직과 관련된 아키텍처 및 기술 설명서 작성.
+-   사용자 조직과 관련된 아키텍처 및 기술 설명서를 작성합니다.
 
--   하드웨어 및 네트워킹 설계, 확보, 설치 및 구성.
+-   하드웨어 및 네트워킹을 디자인, 조달, 설치 및 구성합니다.
 
--   소프트웨어 확보, 설치 및 구성.
+-   소프트웨어를 조달, 설치 및 구성합니다.
 
--   EMS 서비스 기준 구성과 기능을 테스트하기 위해 만든 보안 정책 이외의 정책 관리, 구성 및 적용.
+-   EMS 서비스 기준 구성과 기능을 테스트하기 위해 만든 보안 정책 이외의 정책을 관리, 구성 및 적용합니다.
 
--   Microsoft Azure AD EMS 서비스 기본 구성 및 기능 테스트를 수행하는 사용자 계정보다 더 많은 사용자 계정 등록.
+-   Microsoft Azure Active Directory EMS 서비스 기본 구성 및 기능 테스트를 수행하는 사용자 계정보다 더 많은 사용자 계정을 등록합니다.
 
--   네트워크 구성, 분석, 대역폭 유효성 검사, 테스트 및 모니터링.
+-   네트워크 구성, 분석, 대역폭 유효성 검사, 테스트 및 모니터링을 관리합니다.
 
--   기술 변경 관리 승인 프로세스 관리 및 지원 설명서 작성.
+-   기술 변경 관리 승인 프로세스 및 지원 설명서 작성을 관리합니다.
 
 -   운영 모델 및 운영 가이드 수정.
 
--   온-프레미스 Multi-Factor Authentication 설정.
+-   온-프레미스 다단계 인증을 설정합니다.
 
--   이전에 고객에 의해 사용된 서비스 및 원본 환경을 제거 및 해제.
+-   이전에 사용된 원본 환경 및 서비스를 해제 및 제거합니다.
 
--   테스트 환경 구축 및 유지 관리.
+-   테스트 환경을 구성 및 유지 관리합니다.
 
--   인프라 서버에 서비스 팩 및 기타 필수 업데이트 설치.
+-   서비스 팩 및 인프라 서버에 필수적인 기타 업데이트를 설치합니다.
 
--   공용 SSL 인증서 제공 및 구성.
+-   모든 공개 SSL(Secure Sockets Layer) 인증서를 제공 및 구성합니다.
 
--   최종 사용자가 액세스할 수 있는 Microsoft Intune 회사 포털에 구성되고 표시될 조직의 TOU(사용 약관) 작성
+-   Configuration Manager를 Microsoft Intune의 Configuration Manager와의 통합에 필요한 최소 요구 사항으로 설정하거나 업그레이드합니다.
 
-## 시작 단계
+-   Intune에서 Wi-Fi 및 VPN 프로필 배포를 위해 필요한 경우 인증 기관, Wi-Fi 및 VPN 인프라를 제공하고 구성합니다.
+
+-   최종 사용자가 액세스할 수 있는 Microsoft Intune 회사 포털에 구성되고 표시될 조직의 TOU(사용 약관)를 작성합니다.
+
+## <a name="initiate-phase"></a>시작 단계
 
 -   Microsoft 팀과 함께 적격 서비스에 대한 등록 작업을 시작합니다.
 
 -   참여 준비 모임에 참가하고, 조직의 참가자를 관리 및 안내하고, 수정 타임라인을 확인합니다.
 
-## 평가 단계
+## <a name="assess-phase"></a>평가 단계
 
 -   필요한 평가 작업을 완료하기 위해 적합한 관련자(프로젝트 관리자 포함)를 식별합니다.
 
@@ -84,17 +88,15 @@ ms.openlocfilehash: 035279b0dd7ca88123d94016ceb6caaf6306350f
 
 -   마이그레이션 준비를 위한 지원 플랜을 만듭니다.
 
-## 수정 단계
+## <a name="remediate-phase"></a>수정 단계
 
 -   평가 단계에서 파악된 수정 작업을 완료하는 데 필요한 단계를 수행합니다.
 
 -   검사점 모임에 참여합니다.
 
-## 활성화 단계
+## <a name="enable-phase"></a>활성화 단계
 
--   사용 중인 환경이나 EMS 또는 개별 클라우드 서비스 구독에 대해 변경을 실행할 때 지침이 필요한 경우 사용자의 화면을 Microsoft와 공유합니다.
-
--   리소스를 적절하게 관리합니다.
+-   (선택 사항) 사용 중인 환경이나 EMS 또는 개별 클라우드 서비스 구독에 대해 평가 도구를 실행할 때 지침이 필요한 경우 사용자의 화면을 Microsoft와 공유합니다. 필요에 따라 리소스를 관리합니다.
 
 -   Microsoft의 지침에 따라 네트워크 관련 항목을 구성합니다.
 
@@ -113,6 +115,7 @@ ms.openlocfilehash: 035279b0dd7ca88123d94016ceb6caaf6306350f
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
 
 
-<!--HONumber=Oct16_HO1-->
+
+<!--HONumber=Nov16_HO4-->
 
 
