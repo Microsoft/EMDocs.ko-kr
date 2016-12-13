@@ -1,39 +1,39 @@
 ---
 title: "모바일 장치 관리 채택 전략 개발"
-description: 
+description: "이 문서에서는 조직의 모바일 장치 관리 채택에 대한 다양한 디자인 고려 사항을 제공합니다."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
-ms.topic: solution
+ms.date: 11/28/2016
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 10172816-b52d-4a55-8803-6a6805126fab
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 9d9d61b93a1b7dd6c52b0530f8bc58517d2926b2
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 925d3c462ff0010f3aea03dd35a5ba6f78bf9894
 
 
 ---
 
-# 모바일 장치 관리 채택 전략 개발
+# <a name="develop-your-mobile-device-management-adoption-strategy"></a>모바일 장치 관리 채택 전략 개발
 
 >[!NOTE]
 >이 항목은 좀 더 큰 디자인 고려 사항 가이드의 일부입니다. 이 가이드의 맨 처음부터 시작하려면 [기본 항목](mdm-design-considerations-guide.md)을 확인하세요. 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
 
-이 작업에서는 작업 1과 2에서 확인된 비즈니스 요구 사항을 충족하는 모바일 장치 관리 채택 전략을 개발합니다. 
+이 작업에서는 작업 1과 2에서 확인된 비즈니스 요구 사항을 충족하는 모바일 장치 관리 채택 전략을 개발합니다.
 
-## 장치 소유권
+## <a name="device-ownership"></a>장치 소유권
 
 조직에서 장치를 관리하는 현재 정책 및 전략을 검토한 후 조직에서 구현할 시나리오 목록을 작성해야 합니다. 아래의 섹션은 각 시나리오의 장단점을 이해하는 데 도움이 됩니다.
 
-## 직원이 장치 소유(BYOD)
+## <a name="employee-owns-the-device-byod"></a>직원이 장치 소유(BYOD)
 
-**장점** 
+**장점**
 
 - 회사에서 직원에게 모바일 장치를 사줄 필요가 없음
 - 일반적으로 직원들은 선택한 모바일 장치를 사용하게 되므로 생산성이 높아짐
@@ -45,9 +45,9 @@ ms.openlocfilehash: 9d9d61b93a1b7dd6c52b0530f8bc58517d2926b2
 - 적절한 보안 제어 장치가 없는 경우에 특히, 데이터 유출 가능성이 높아짐
 - 개인 정보 보호 제한으로 인해 관리 기능이 제한됨
 
-## 회사 소유의 장치
+## <a name="company-owned-device"></a>회사 소유의 장치
 
-**장점** 
+**장점**
 
 - 장치 보안 강화 및 보안 제어를 포함하는 완전한 관리 기능
 - 모바일 장치에 대한 제어 증가
@@ -61,11 +61,11 @@ ms.openlocfilehash: 9d9d61b93a1b7dd6c52b0530f8bc58517d2926b2
 
 일부 시나리오에서는 조직이 BYOD 및 회사 소유 장치 등의 두 모델을 모두 포괄하게 됩니다. 이 경우 장치 관리 플랫폼은 현재의 온-프레미스 인프라와 통합하면서 여러 플랫폼을 관리할 수 있어야 합니다. 조직이 이 시나리오에 해당할 경우 보안 정책도 규정 준수의 관점에서 두 모델을 모두 다룰 수 있어야 합니다. 각 모델에 대해 서로 다른 요구 사항이 적용될 수 있고, 모바일 장치 관리 솔루션은 IT의 제어를 구현하는 동시에 두 가지를 모두 처리할 수 있어야 합니다.
 
-## 지원되는 모바일 장치 플랫폼
+## <a name="supported-mobile-device-platforms"></a>지원되는 모바일 장치 플랫폼
 
 장치 소유권을 결정하면 지원해야 할 모바일 장치 플랫폼을 식별하는 데 도움이 됩니다. 선택하는 모바일 장치 관리 솔루션은 이러한 의사 결정에 부합되어야 합니다. 단일 모바일 장치 플랫폼 시나리오에서는 다중 플랫폼 시나리오만큼 플랫폼 선택이 중요한 영향을 미치지 않습니다. 아래의 섹션을 사용하여 다중 플랫폼 시나리오에 대한 모바일 장치 관리 솔루션을 선택하는 데 도움을 얻으세요.
 
-### Intune(독립 실행형)
+### <a name="intune-standalone"></a>Intune(독립 실행형)
 
 **장점**
 
@@ -80,7 +80,7 @@ ms.openlocfilehash: 9d9d61b93a1b7dd6c52b0530f8bc58517d2926b2
 - 온-프레미스에 있는 현재 장치 관리 솔루션과 제대로 통합되지 않으므로 추가 관리 인터페이스 제공
 - 온-프레미스 MDM 솔루션을 사용하여 만든 정책이 클라우드 서비스로 복제
 
-### Office 365용 MDM
+### <a name="mdm-for-office-365"></a>Office 365용 MDM
 
 **장점**
 
@@ -93,26 +93,26 @@ ms.openlocfilehash: 9d9d61b93a1b7dd6c52b0530f8bc58517d2926b2
 - 모바일 장치를 관리하기 위한 제한된 기능 집합(이 표 뒤에 나오는 참고 참조)
 - 온-프레미스에 있는 현재 장치 관리 솔루션과 제대로 통합되지 않으므로 추가 관리 인터페이스 제공
 
-### 하이브리드(ConfigMgr와 Intune)
+### <a name="hybrid-intune-with-configmgr"></a>하이브리드(ConfigMgr와 Intune)
 
 **장점**
 
 - Intune 및 ConfigMgr 간의 기본 통합
 - 중앙 콘솔을 사용하여 정책 배포, 온-프레미스 PC, 서버 및 모바일 장치 관리 가능
 
-**단점** 
+**단점**
 
 - Intune 및 ConfigMgr를 연결하기 위해 추가 구성 단계 필요
 - 조직의 온-프레미스에 최신 ConfigMgr 인프라가 없는 경우 통합 전에 이 플랫폼의 계획, 설치 및 구성 필요
 
 모바일 장치에서 메일, 일정, 연락처 및 작업에 대한 액세스를 관리해야 하는 경우 [Office 365에서 Exchange ActiveSync 장치 관리 기능 사용 가능](https://technet.microsoft.com/library/dn792010.aspx#tasks)을 참조하세요.
 
-## 응용 프로그램 요구 사항
+## <a name="application-requirements"></a>응용 프로그램 요구 사항
 
 작업 1에서 정의된 요구 사항에 따라 사용자 조직에 가장 적합한 모바일 장치 관리 솔루션을 선택할 수 있습니다. 아래 표를 사용하여 MDM 옵션, 각 옵션의 장단점을 비교합니다.
 
 
-### Intune(독립 실행형)
+### <a name="intune-standalone"></a>Intune(독립 실행형)
 
 **장점**
 
@@ -127,11 +127,11 @@ ms.openlocfilehash: 9d9d61b93a1b7dd6c52b0530f8bc58517d2926b2
 
 **단점**
 
-- 온-프레미스 솔루션을 사용하는 경우 온-프레미스 장치 관리 솔루션과 제대로 통합되지 않아 모바일 장치를 관리할 때 사용할 수 있는 추가 관리 인터페이스가 제공됩니다. 
+- 온-프레미스 솔루션을 사용하는 경우 온-프레미스 장치 관리 솔루션과 제대로 통합되지 않아 모바일 장치를 관리할 때 사용할 수 있는 추가 관리 인터페이스가 제공됩니다.
 - 온-프레미스 MDM 플랫폼을 사용하여 만든 정책이 클라우드 서비스에 복제되지 않으므로 두 개의 관리 및 규정 준수 정책 집합이 필요합니다(온-프레미스 MDM 솔루션이 있는 경우).
 
 
-### Office 365용 MDM
+### <a name="mdm-for-office-365"></a>Office 365용 MDM
 
 **장점**
 
@@ -144,7 +144,7 @@ ms.openlocfilehash: 9d9d61b93a1b7dd6c52b0530f8bc58517d2926b2
 - 앱을 배포하고 모바일 응용 프로그램 관리 기능을 적용하는 기능 없음
 
 
-### 하이브리드(ConfigMgr와 Intune)
+### <a name="hybrid-intune-with-configmgr"></a>하이브리드(ConfigMgr와 Intune)
 
 **장점**
 
@@ -162,17 +162,15 @@ ms.openlocfilehash: 9d9d61b93a1b7dd6c52b0530f8bc58517d2926b2
 - Intune과의 통합이 없으면 ConfigMgr는 지원되는 모바일 장치 플랫폼을 기초로 하는 제한적인 모바일 장치 관리 솔루션입니다. 자세한 내용은 Configuration Manager에서 모바일 장치를 관리하는 방법 결정을 읽어보세요.
 
 
-## 요구 사항 추적
+## <a name="track-requirements"></a>요구 사항 추적
 
 사용자 동작을 이해하고 해당 위치를 식별하는 능력은 모바일 장치 관리 전략에 포함해야 하는 중요한 요소입니다. 장치를 추적하는 방법은 비즈니스 요구 사항 및 필요에 따라 달라집니다.  모바일 운영 체제마다 다른 추적 기능을 사용할 수 있으므로 지원하도록 선택한 모바일 장치 플랫폼에 따라 선택하는 옵션이 달라집니다. 예를 들어 규정 준수 요구 사항은 사용자의 위치를 추적하고 지오펜싱을 사용할 수 있도록 하는 모바일 장치 플랫폼 채택 우선 순위에 영향을 줄 수 있습니다.
 
->[!TIP] 
-> 지오펜싱을 사용하여 모바일 장치의 지리적 위치를 모니터링하고 해당 위치에 따라 장치 및 네트워크 리소스를 사용/사용하지 않도록 설정할 수 있습니다. 예를 들어 Windows 8.1은 앱에서 지리적 위치 영역을 정의하고 앱이 실행되고 있는 장치가 해당 영역으로 들어오거나 해당 영역을 빠져 나갈 때 시스템 경고를 표시하도록 할 수 있습니다. Windows 8.1의 이 기능에 대한 자세한 내용을 보려면 [지오펜싱 전체 프로세스(XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/dn342943.aspx)를 읽어보세요. 
+>[!TIP]
+> 지오펜싱을 사용하여 모바일 장치의 지리적 위치를 모니터링하고 해당 위치에 따라 장치 및 네트워크 리소스를 사용/사용하지 않도록 설정할 수 있습니다. 예를 들어 Windows 8.1은 앱에서 지리적 위치 영역을 정의하고 앱이 실행되고 있는 장치가 해당 영역으로 들어오거나 해당 영역을 빠져 나갈 때 시스템 경고를 표시하도록 할 수 있습니다. Windows 8.1의 이 기능에 대한 자세한 내용을 보려면 [지오펜싱 전체 프로세스(XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/dn342943.aspx)를 읽어보세요.
 
 
 
-
-
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

@@ -1,26 +1,26 @@
 ---
 title: "SaaS 연결 요구 사항 식별"
-description: 
+description: "이 문서는 Enterprise Mobility + Security를 사용하여 모바일 장치 관리 솔루션을 계획하여 구현할 때 소프트웨어를 서비스 연결 요구 사항으로 식별할 수 있도록 지원합니다."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 6afbce4c-7500-4387-a19c-dff52c152097
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 5fecc1493f447e507324da3f6a201377e39aee4e
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 3cea66edad4cb791342cb193495629fa4ce27d0d
 
 
 ---
 
-# SaaS 연결 요구 사항 식별
+# <a name="identify-saas-connectivity-requirements"></a>SaaS 연결 요구 사항 식별
 
 >[!NOTE]
 >이 항목은 좀 더 큰 디자인 고려 사항 가이드의 일부입니다. 이 가이드의 맨 처음부터 시작하려면 [기본 항목](mdm-design-considerations-guide.md)을 확인하세요. 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
@@ -35,7 +35,7 @@ ms.openlocfilehash: 5fecc1493f447e507324da3f6a201377e39aee4e
 
 작업 2의 질문에 대한 답변에 따라, SaaS 솔루션이 모바일 장치 관리 솔루션을 위해 어떤 방법으로 온-프레미스 클라이언트 관리 플랫폼에 연결해야 하는지를 확인할 수 있습니다. 아래 목록은 온-프레미스 인프라를 SaaS 솔루션에 연결할 때의 장단점을 이해하는 데 도움이 됩니다.
 
-## Intune(독립 실행형)
+## <a name="intune-standalone"></a>Intune(독립 실행형)
 
 **장점**
 
@@ -48,7 +48,7 @@ ms.openlocfilehash: 5fecc1493f447e507324da3f6a201377e39aee4e
 
 - 고급 디렉터리 서비스 연결 기능을 사용하기 위해 Azure Active Directory Premium에 연결해야 함
 
-## Office 365용 MDM
+## <a name="mdm-for-office-365"></a>Office 365용 MDM
 
 **장점**
 
@@ -61,7 +61,7 @@ ms.openlocfilehash: 5fecc1493f447e507324da3f6a201377e39aee4e
 
 - 다른 SaaS 솔루션 또는 응용 프로그램과의 모바일 응용 프로그램 관리 통합을 지원하지 않음
 
-## 하이브리드(ConfigMgr와 Intune)
+## <a name="hybrid-intune-with-configmgr"></a>하이브리드(ConfigMgr와 Intune)
 
 **장점**
 
@@ -75,6 +75,6 @@ ms.openlocfilehash: 5fecc1493f447e507324da3f6a201377e39aee4e
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

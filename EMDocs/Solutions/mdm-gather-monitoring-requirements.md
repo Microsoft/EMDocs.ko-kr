@@ -1,33 +1,33 @@
 ---
 title: "모니터링 요구 사항 수집"
-description: 
+description: "이 문서를 통해 Enterprise Mobility + Security를 사용하여 Microsoft 모바일 장치 관리 솔루션을 계획하고 디자인할 때 모바일 장치 관리 모니터링 옵션을 확인할 수 있습니다."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ac136523-8089-409b-b74d-2d4c0ce399d4
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: b1065b6f491c528807fd593b352026669287ae89
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 2a03416cf8255a29c0394746b3d5285057163d15
 
 
 ---
 
-# 모니터링 요구 사항 수집
+# <a name="gather-monitoring-requirements"></a>모니터링 요구 사항 수집
 
 >[!NOTE]
 >이 항목은 좀 더 큰 디자인 고려 사항 가이드의 일부입니다. 이 가이드의 맨 처음부터 시작하려면 [기본 항목](mdm-design-considerations-guide.md)을 확인하세요. 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
 
 모바일 장치에 대한 상태 및 이벤트 정보를 모니터링하고 캡처하는 작업은 사용자 및 장치가 회사 정책과 보안 전략을 준수하도록 하는 데 반드시 필요합니다. 이러한 작업은 정부 규제 요구 사항 및 업계 규정 준수 지침을 따라야 하는 조직에 특히 중요합니다.
 
-보고 기능 또한 조직에 인벤토리 관리를 지원하기 위한 소프트웨어, 하드웨어 및 소프트웨어 라이선스에 대한 귀중한 정보를 제공할 수 있습니다. 
+보고 기능 또한 조직에 인벤토리 관리를 지원하기 위한 소프트웨어, 하드웨어 및 소프트웨어 라이선스에 대한 귀중한 정보를 제공할 수 있습니다.
 
 모니터링 및 보고 지침을 설정할 때, 특히 조직의 모바일 장치 관리 솔루션에서 사용자가 개인 소유의 장치를 등록할 수 있을 때 사용자 개인 정보 보호의 중요성을 인식해야 합니다. 조직에서 개인 활동 또는 정보를 캡처, 모니터링, 보고 또는 공유할 수 없어야 합니다.
 
@@ -36,7 +36,7 @@ ms.openlocfilehash: b1065b6f491c528807fd593b352026669287ae89
 - **로깅:** 모바일 장치 및 모바일 장치 응용 프로그램 상태와 정보를 캡처하고 저장
 - **보고:** 주문형으로 만들 수 있는 표준 및 사용자 지정 가능 보고서, 자동 요약 및 대시보드 상태 보고서를 포함하는 보고서 또는 알림 표시
 
-## 모니터링 계획 관련 질문
+## <a name="monitoring-planning-questions"></a>모니터링 계획 관련 질문
 
 장치 모니터링에 대한 다음과 같은 질문에 답변하세요.
 
@@ -54,12 +54,12 @@ ms.openlocfilehash: b1065b6f491c528807fd593b352026669287ae89
 - 사용자 지정된 주문형 보고서가 필요한가요?
 - 장치가 등록 해제되면 특정 인벤토리 및 보고 이벤트를 캡처해야 하나요?
 - 장치가 등록 해제된 후에 레거시 인벤토리 및 보고 이벤트를 보관/유지해야 하나요?
- 
+
 >[!TIP]
 >각 응답을 적어두고 답변의 의미를 이해해야 합니다. 이후의 작업에서는 사용 가능한 옵션과 각 옵션의 장단점을 살펴봅니다.  이러한 질문에 답변하면 비즈니스 요구에 가장 적합한 옵션을 선택하는 데 도움이 됩니다.
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

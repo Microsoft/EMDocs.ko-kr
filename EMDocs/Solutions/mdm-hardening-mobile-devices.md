@@ -1,38 +1,38 @@
 ---
 title: "모바일 장치 보안 강화"
-description: 
+description: "이 문서에서는 모바일 장치 관리 시나리오에서 모바일 장치의 보안을 강화하기 위한 디자인 고려 사항을 제공합니다."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
-ms.topic: solution
+ms.date: 11/28/2016
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ade57c73-a8a2-497f-ad8d-5dfc3cba9e70
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 9ee7fc3539432039ee5a7fadac9c5b8475e8c924
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 050d92824ad2616440d9d4b972a812be0ab5a14a
 
 
 ---
 
-# 모바일 장치 보안 강화
+# <a name="hardening-mobile-devices"></a>모바일 장치 보안 강화
 
 >[!NOTE]
 >이 항목은 좀 더 큰 디자인 고려 사항 가이드의 일부입니다. 이 가이드의 맨 처음부터 시작하려면 [기본 항목](mdm-design-considerations-guide.md)을 확인하세요. 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
 
-비즈니스 요구 사항에 따라 기능을 강화하기 위한 모바일 장치용 구성 기준을 만들 경우 사용 편의성과 보안 간에 균형을 유지해야 합니다. 매우 엄격한 보안 강화 템플릿은 직원에게 사용 편의성 및 액세스 문제를 초래할 수 있으므로 자신의 장치에서 회사 리소스에 액세스하여 생산성을 높이려는 사용자의 목적에 저해됩니다. 
+비즈니스 요구 사항에 따라 기능을 강화하기 위한 모바일 장치용 구성 기준을 만들 경우 사용 편의성과 보안 간에 균형을 유지해야 합니다. 매우 엄격한 보안 강화 템플릿은 직원에게 사용 편의성 및 액세스 문제를 초래할 수 있으므로 자신의 장치에서 회사 리소스에 액세스하여 생산성을 높이려는 사용자의 목적에 저해됩니다.
 
 또한 모든 모바일 장치 플랫폼에서 모든 보안 정책을 사용할 수 있는 것은 아닙니다. 조직의 모바일 장치 플랫폼을 허용하는 우선 순위와 장치 보안을 강화하기 위한 보안 규정 준수 요구 사항 간을 균형 있게 조율해야 합니다.
 모바일 장치 보안 강화 방법 중 하나는 다른 보안 계층을 적용하는 것입니다. MDM 솔루션에 따라 각 계층에 사용할 수 있는 설정도 달라질 수 있습니다. 아래 그림은 이러한 계층화된 접근을 설정하는 방법의 예를 보여 줍니다.
 
 ![보안 계층](./media/MDM_Figure_12.png)
 
-## 다양한 영역의 모바일 장치 보안 강화
+## <a name="different-areas-of-mobile-device-hardening"></a>다양한 영역의 모바일 장치 보안 강화
 
 각 계층은 비즈니스 보안 요구 사항을 준수해야 하는 영역을 그룹화하는 데 사용할 수 있습니다. 예를 들어, 시스템 설정 보안을 강화하고 암호화를 구현하기 위한 전용 장치에 [보안 정책](/intune/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies)을 배포하도록 Intune을 구성할 수 있습니다. 또한 이 정책을 통해 액세스 허용 목록을 만들어 모바일 장치에서 [규격 앱](https://technet.microsoft.com/library/dn818906.aspx)만 설치하도록 할 수 있습니다.
 
@@ -53,7 +53,7 @@ ConfigMgr 온-프레미스 하이브리드 환경에서는 [구성 기준](https
 
 모바일 장치 플랫폼의 보안을 강화하면 사용자가 보안을 침해하지 않으면서 모바일 장치를 사용할 수 있도록 하면서 회사 데이터를 보호할 수 있습니다. 아래 표를 참조하면 조직의 데이터 보안 강화 요구 사항에 가장 잘 맞는 MDM 옵션을 선택하는 데 도움이 될 것입니다.
 
-## Intune(독립 실행형)
+## <a name="intune-standalone"></a>Intune(독립 실행형)
 
 **장점**
 
@@ -65,7 +65,7 @@ ConfigMgr 온-프레미스 하이브리드 환경에서는 [구성 기준](https
 - 현재 온-프레미스 MDM 플랫폼과 제대로 통합되지 않으므로 모바일 장치를 관리하는 데 사용할 수 있는 추가 관리 인터페이스가 제공됨
 - 일부 모바일 플랫폼에서 일부 정책을 사용할 수 없음
 
-## Office 365용 MDM
+## <a name="mdm-for-office-365"></a>Office 365용 MDM
 
 **장점**
 
@@ -78,7 +78,7 @@ ConfigMgr 온-프레미스 하이브리드 환경에서는 [구성 기준](https
 - 일부 모바일 플랫폼에서 일부 정책을 사용할 수 없음
 - Intune 만큼의 세분성 수준을 허용하지 않습니다.
 
-## 하이브리드(ConfigMgr와 Intune)
+## <a name="hybrid-intune-with-configmgr"></a>하이브리드(ConfigMgr와 Intune)
 
 **장점**
 
@@ -90,11 +90,11 @@ ConfigMgr 온-프레미스 하이브리드 환경에서는 [구성 기준](https
 
 - 회사에 최신 온-프레미스 ConfigMgr 인프라가 없는 경우 통합 전에 ConfigMgr의 계획, 설치 및 구성을 위한 리소스가 필요합니다.
 
->[!TIP] 
-> [Microsoft Intune에 대한 모바일 장치 관리 정책 설정](https://technet.microsoft.com/library/dn913730.aspx)에서 Microsoft Intune 모바일 장치 보안 정책에서 구성할 수 있는 모바일 장치 관리 설정에 대해 자세히 읽어보세요. 
+>[!TIP]
+> [Microsoft Intune에 대한 모바일 장치 관리 정책 설정](https://technet.microsoft.com/library/dn913730.aspx)에서 Microsoft Intune 모바일 장치 보안 정책에서 구성할 수 있는 모바일 장치 관리 설정에 대해 자세히 읽어보세요.
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 
