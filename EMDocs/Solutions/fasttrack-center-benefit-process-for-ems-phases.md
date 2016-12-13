@@ -2,16 +2,15 @@
 title: "등록 및 마이그레이션 단계"
 description: "FastTrack 센터 혜택의 단계"
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: NathBarn
+ms.author: NathBarn
 manager: angrobe
 ms.date: 11/07/2016
 ms.topic: article
 ms.prod: 
-ms.service: ems
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
-ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation

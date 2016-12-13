@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: bc7cdb8f-3485-45ae-9493-f840ad9ed3ea
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: 856d2d2ba9968aa0f4a0da4f4afcbf452260e548
@@ -40,7 +39,7 @@ ms.openlocfilehash: 856d2d2ba9968aa0f4a0da4f4afcbf452260e548
 
 **장점**
 
-- 모든 주요 모바일 장치 운영 체제(Android, iOS, Windows 10, Windows 8.x, 및 Windows Phone)에서 무선 및 VPN 프로필 지원 
+- 모든 주요 모바일 장치 운영 체제(Android, iOS, Windows 10, Windows 8.x, 및 Windows Phone)에서 무선 및 VPN 프로필 지원
 - Cisco, Juniper, Dell SonicWall, Checkpoint 등을 비롯하여 업계의 선두적인 VPN 연결 유형 지원
 - 무선 및 VPN 프로필은 보안 향상을 위해 SCEP 인증서 프로필에 통합될 수 있음
 - 다양한 유형의 사용자, 장치, 장치 운영 체제 또는 사용자 그룹 및 역할에 대한 사용자 지정된 무선 및 VPN 프로필 구성 지원
@@ -65,7 +64,7 @@ MDM for Office 365에서는 Wi-Fi 및 VPN 정책이 지원되지 않음
 
 **단점**
 
-- VPN 프로필을 지원하려면 온-프레미스 VPN 인프라를 배포 및 유지해야 함 
+- VPN 프로필을 지원하려면 온-프레미스 VPN 인프라를 배포 및 유지해야 함
 - ConfigMgr에서 [Wi-Fi 프로필](https://technet.microsoft.com/library/dn408646.aspx) 및 [VPN 프로필](https://technet.microsoft.com/library/dn408643.aspx)을 관리하려면 특정 보안 권한이 부여되어야 함
 
 다음을 검토하여 모바일 장치 메일 구성 관리 옵션에 대한 세부 정보를 살펴봅니다.

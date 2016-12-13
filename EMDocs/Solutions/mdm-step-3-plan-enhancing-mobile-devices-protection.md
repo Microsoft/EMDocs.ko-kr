@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: a4504456-a241-4380-ab92-3bc14c91347c
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: bbef17c4d072706a5704c871eee490fba5c9052c
@@ -27,7 +26,7 @@ ms.openlocfilehash: bbef17c4d072706a5704c871eee490fba5c9052c
 >이 항목은 좀 더 큰 디자인 고려 사항 가이드의 일부입니다. 이 가이드의 맨 처음부터 시작하려면 [기본 항목](mdm-design-considerations-guide.md)을 확인하세요. 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
 
 온-프레미스 및 원격 사용자는 자신의 모바일 장치에서 회사 리소스에 액세스하여 생산성을 높일 수 있지만 이렇게 하면 보안 위협이 증가합니다. 회사의 데이터를 보호하고 사용자 개인 정보를 유지하기 위해서는 이러한 보안 위협을 해소해야 합니다. 회사에서는 자체의 상황에 따라 이러한 요구 사항의 균형을 유지하는 방법을 결정해야 합니다. 규정 준수 규칙은 회사의 비즈니스 업종에 따라 다를 수 있으며 이로 인해 결정되는 설계 방식이 달라질 수 있습니다.
- 
+
 그러나 업계에 관계없이, 잘 이해하고 준수해야 하는 모바일 장치 관리의 일반적인 보안 측면이 있습니다. 이 옵션은 아래 그림에서 보여 줍니다.
 
 ![MDM 플랫폼에 대한 핵심 보안 기능](./media/MDM_Figure_08.png)
@@ -74,8 +73,6 @@ ms.openlocfilehash: bbef17c4d072706a5704c871eee490fba5c9052c
 - [데이터 분류](mdm-data-classification.md)
 - [인증 및 권한 부여](mdm-authentication-authorization.md)
 - [리소스에 대한 액세스 제어](mdm-access-control-resources.md)
-
-
 
 
 

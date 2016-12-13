@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: bf0d4210-5edc-4ad7-bcb5-372099049630
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 9347d0ff642a3ea4a337962b5ec10a0c4c6cdc66
@@ -98,7 +97,6 @@ ms.openlocfilehash: 9347d0ff642a3ea4a337962b5ec10a0c4c6cdc66
 - 개인 장치는 IT 부서에 의해 회사에 등록됩니까? 아니면 개인적으로 등록됩니까?
 - 사용자가 자신의 장치를 사용하여 서비스를 프로비저닝할 수 있도록 할 계획이 있습니까?
     - 그렇다면 관리 시스템은 기본적으로 사용자가 자신의 장치에서 이 작업을 수행할 수 있도록 합니까?
-
 
 
 

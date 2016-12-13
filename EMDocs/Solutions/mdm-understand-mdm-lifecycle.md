@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 901b52bf-2340-4847-aaff-c94fec9ee925
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: bca54803722814769b45cd30244b68121d72a114
@@ -39,7 +38,7 @@ ms.openlocfilehash: bca54803722814769b45cd30244b68121d72a114
 
 - 관리자가 관리하는 등록
 - 사용자/소유자 자체 등록
- 
+
 관리자가 관리하는 등록은 중앙 관리 등록 환경을 제공하며, 일반적으로 단일 디렉터리 계정을 사용하여 여러 장치의 대량 등록을 수행하는 방식을 기반으로 합니다. 이 방법은 많은 회사 소유의 장치를 모바일 장치 관리 솔루션에 등록해야 하는 경우에 유용합니다.
 
 자체 등록을 사용하면 장치 사용자/소유자는 모바일 장치 관리 솔루션에 장치를 등록합니다. 이 방법은 회사가 장치를 소유하는 시나리오에서도 사용할 수 있지만 일반적으로는 “BYOD(bring your own device)” 시나리오에서 사용됩니다. 일반적으로 이러한 등록 유형은 "푸시 기반" 등록 모델을 사용합니다. 이 모델에서는 사용자가 장치에서 회사 네트워크 또는 네트워크 리소스에 연결하려고 할 때 장치가 모바일 장치 관리 솔루션에 등록되도록 자동으로 트리거됩니다. 사용자는 조직의 네트워크 또는 리소스에 연결하기 전에 장치를 등록하도록 선택할 수도 있습니다.

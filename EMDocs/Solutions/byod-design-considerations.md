@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 639dfd46-33ea-4cfd-918d-f3d8e57645ed
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 3dbf7072bbc3baf6a97072f1cbbd15bd236349d3
@@ -47,7 +46,7 @@ ms.openlocfilehash: 3dbf7072bbc3baf6a97072f1cbbd15bd236349d3
 - AD FS(Active Directory Federation Services)
 - 동적 액세스 제어
 - Microsoft Rights Management 서비스
-- Azure Information Protection 
+- Azure Information Protection
 - SMB 암호화
 - SSO(Single Sign-On)
 - 작업 폴더
@@ -79,8 +78,6 @@ ms.openlocfilehash: 3dbf7072bbc3baf6a97072f1cbbd15bd236349d3
 문서의 나머지 부분에서는 디자인 고려 사항과 위의 표에 나열된 제품, 기술 및 서비스에 대해 설명합니다. 여러 가지 Microsoft 제품, 기술 및 서비스를 사용하여 다양한 디자인 고려 사항을 해결할 수 있는 경우 장단점에 대해서도 설명합니다.
 
 BYOD를 지원하는 인프라 디자인은 이전에 이 문서에서 제공된 질문과 대답 및 사용할 수 있는 기술 기능과 옵션을 종합합니다. 이 문서에서 설명하는 디자인에서는 Microsoft 기반 기술을 사용합니다. 그러나 디자인 옵션 및 고려 사항은 BYOD 모델을 포함하는 데 사용되는 모든 인프라에 적용할 수 있습니다.
-
-
 
 
 

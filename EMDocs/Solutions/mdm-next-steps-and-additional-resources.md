@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: eb38d461-bfb0-407c-a5e6-94fa728a86d6
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: 5c917ca88c5c33e4274b0437fbd57eb07865866f
@@ -28,14 +27,14 @@ ms.openlocfilehash: 5c917ca88c5c33e4274b0437fbd57eb07865866f
 
 요구 사항을 정의하고 모바일 장치 관리 솔루션에 대한 모든 옵션을 검토했으므로 사용자 및 조직에 맞는 지원 인프라를 배포하는 다음 단계를 진행할 수 있습니다.
 
-## <a name="mobile-device-management-solutions"></a>모바일 장치 관리 솔루션 
+## <a name="mobile-device-management-solutions"></a>모바일 장치 관리 솔루션
 
-사용자의 요구에 맞는 구체적인 솔루션 시나리오를 활용하면 모바일 장치 관리 인프라 배포의 세부 사항을 검토하고 계획하는 데 도움이 됩니다. 다음 솔루션은 가장 일반적인 몇 가지 모바일 장치 관리 시나리오에 대한 것입니다. 
+사용자의 요구에 맞는 구체적인 솔루션 시나리오를 활용하면 모바일 장치 관리 인프라 배포의 세부 사항을 검토하고 계획하는 데 도움이 됩니다. 다음 솔루션은 가장 일반적인 몇 가지 모바일 장치 관리 시나리오에 대한 것입니다.
 
-- [엔터프라이즈 환경에서 모바일 장치 및 PC 관리](https://technet.microsoft.com/library/dn582037.aspx) 솔루션은 Microsoft Intune에서 온-프레미스 System Center 2012 R2 Configuration Manager 인프라를 클라우드로 확장하여 모바일 장치를 관리하는 데 도움을 줍니다. 이 하이브리드 인프라를 사용하면 중소기업 및 대기업에서 BYOD 및 원격 액세스를 사용하면서 관리 복잡성을 최소화할 수 있습니다. 
+- [엔터프라이즈 환경에서 모바일 장치 및 PC 관리](https://technet.microsoft.com/library/dn582037.aspx) 솔루션은 Microsoft Intune에서 온-프레미스 System Center 2012 R2 Configuration Manager 인프라를 클라우드로 확장하여 모바일 장치를 관리하는 데 도움을 줍니다. 이 하이브리드 인프라를 사용하면 중소기업 및 대기업에서 BYOD 및 원격 액세스를 사용하면서 관리 복잡성을 최소화할 수 있습니다.
 - [Configuration Manager 2007를 위한 모바일 장치 관리](https://technet.microsoft.com/library/dn508400.aspx) 솔루션은 인프라가 System Center Configuration Manager 2007에 있는 경우 모바일 장치를 관리하는 데 도움이 됩니다. 이 솔루션에서는 System Center 2012 R2 Configuration Manager를 실행하는 단일 서버를 설정한 다음 Microsoft Intune을 실행하고 MDM 기능을 사용하는 방법을 보여 줍니다.
 - [소규모 환경에서 모바일 장치 관리](https://technet.microsoft.com/library/dn715906.aspx) 솔루션은 MDM을 지원해야 하는 중소기업을 위해 작성되었습니다. 이 솔루션에서는 Microsoft Intune을 사용하여 모바일 장치 관리 및 BYOD를 지원하도록 현재 인프라를 확장하는 방법을 설명합니다. 이 솔루션에서는 로컬 서버가 없는 독립 실행형 클라우드 전용 구성에서 Microsoft Intune을 사용할 때 지원되는 가장 간단한 시나리오를 설명합니다.
-        
+
 ## <a name="mobile-device-management-documentation"></a>모바일 장치 관리 설명서
 
 다음과 같은 개념 및 절차 계획, 배포 및 관리 콘텐츠는 모바일 장치 관리 솔루션을 구현할 때 유용합니다.

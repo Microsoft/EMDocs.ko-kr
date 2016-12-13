@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 77e7cab9-2fae-4857-be5d-2b6f57e981be
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: 417ff912c3e7ff50e0f8371dccbc3ad99c5832d2
@@ -56,7 +55,7 @@ ms.openlocfilehash: 417ff912c3e7ff50e0f8371dccbc3ad99c5832d2
 - 모바일 장치를 메일 시스템에서 분리해야 하는 경우 모바일 장치에서 어떻게 메일 데이터가 삭제되나요?
 - 관리자와 사용자 모두에게 메일 데이터나 메일 시스템에 대한 연결을 삭제하는 기능이 필요한가요?
 - 메일 데이터 삭제는 어떻게 확인되나요?
-- 온-프레미스 및 클라우드 기반 메일 시스템을 둘 다 사용하는 경우 모바일 장치 관리 솔루션에 어떻게 통합되나요? 
+- 온-프레미스 및 클라우드 기반 메일 시스템을 둘 다 사용하는 경우 모바일 장치 관리 솔루션에 어떻게 통합되나요?
 - 메일 프로필 또는 관리되는 액세스 정책이 IT 관점에서 볼 때 동일하게 관리되나요 또는 다르게 관리되나요? 사용자 메일 연결 환경은 사서함이 호스트되는 위치에 관계없이 동일한가요 아니면 이 위치에 따라 달라지나요?
 
 ## <a name="network-connectivity-management"></a>네트워크 연결 관리
@@ -72,7 +71,7 @@ ms.openlocfilehash: 417ff912c3e7ff50e0f8371dccbc3ad99c5832d2
 ### <a name="network-connectivity-management-planning-questions"></a>네트워크 연결 관리 계획 질문
 
 네트워크 연결관리에 대한 다음과 같은 질문에 답변하세요.
- 
+
 - 어떤 유형의 VPN 플랫폼을 온-프레미스 네트워크에 배포했나요?
 - VPN 플랫폼이 지원되거나 모바일 장치 관리 솔루션으로 통합될 수 있나요?
 - VPN 플랫폼이 기존의 비모바일 장치 관리 솔루션에 의해 이미 통합되어 있거나 지원될 경우 모바일 장치 관리 솔루션이 두 시스템과 통합되나요?

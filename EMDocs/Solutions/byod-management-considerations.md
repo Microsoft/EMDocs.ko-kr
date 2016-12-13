@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ba8cc256-2075-457f-a827-7ec9213c5235
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: da1652d5bb9a7b7176c74482bfc814aaf8902c3f
@@ -110,7 +109,7 @@ Configuration Manager 보고 기능에 대한 자세한 내용은 [Configuration
 
 사용자가 자신의 장치를 사용하여 새 앱을 개발하고 원격으로 액세스한 후 솔루션이 잘 계획되지 않으면 앱 성능이 저하될 수 있습니다. 이 디자인 고려 사항 가이드는 성능 고려 사항을 자세히 살펴보기 위한 것은 아니지만 관리 인프라에 대한 질문에는 대답해야 합니다.
 
-- 회사에서 사용하는 현재 관리 솔루션은 사용자의 장치에서 액세스한 앱을 지원하는 플랫폼의 저장소 및 계산 리소스를 관리할 수 있습니까? 
+- 회사에서 사용하는 현재 관리 솔루션은 사용자의 장치에서 액세스한 앱을 지원하는 플랫폼의 저장소 및 계산 리소스를 관리할 수 있습니까?
 - 회사에서 사용하는 현재 관리 솔루션에는 미리 설정된 규칙 집합에 따라 사용자의 장치에서 액세스한 앱을 지원하는 플랫폼의 계산 및 저장소 리소스를 늘리는 기능이 있습니까?
 현재 사용하는 관리 솔루션에서 이러한 두 요구 사항을 해결할 수 없는 경우 다음 표에 표시된 두 가지 핵심 요구 사항을 해결하여 계산 및 저장소를 관리할 수 있는 관리 솔루션을 사용하는 것이 좋습니다.
 
@@ -137,7 +136,7 @@ Configuration Manager 보고 기능에 대한 자세한 내용은 [Configuration
 
 System Center 2012 R2에는 리소스 풀링 및 탄력성을 사용하여 저장소 및 계산을 관리하는 기능이 있습니다. 또한 System Center 2012 R2에서는 저장소를 차이점 보관용 디스크의 최적화와 통합하여 많은 양의 디스크 데이터를 여러 가상 디스크에서 공유할 수 있도록 함으로써 저장소 요구 사항을 줄이고 저장소 비용을 최적화합니다. System Center 2012 R2를 사용하여 가상화되고 원격 사용자가 사용하는 앱에서 사용할 서버는 이 기술을 사용할 수 있습니다.
 
-System Center 2012 R2 저장소 기능에 대한 자세한 내용은 [System Center 2012 R2 VMM의 새로운 기능](https://technet.microsoft.com/library/dn246490.aspx)을 참조하세요. 
+System Center 2012 R2 저장소 기능에 대한 자세한 내용은 [System Center 2012 R2 VMM의 새로운 기능](https://technet.microsoft.com/library/dn246490.aspx)을 참조하세요.
 
 ## <a name="automation"></a>자동화
 
@@ -182,10 +181,10 @@ System Center 2012 R2의 가장 강력한 자동화 옵션은 Windows PowerShell
 
 온-프레미스의 중앙 집중식 관리에는 Configuration Manager를 사용할 수 있습니다. 이 옵션을 사용하면 IT 부서에서 기업 등록계약 기능을 사용하여 회사의 Configuration Manager Server에 장치를 등록할 수 있습니다. Configuration Manager를 사용하여 장치를 관리하는 방법에 대한 자세한 내용은 [Configuration Manager 및 Microsoft Intune을 사용하여 모바일 장치 관리](https://technet.microsoft.com/library/jj884158.aspx)를 참조하세요.
 
-Windows 기반 장치가 아닌 다른 플랫폼을 관리하려면 Microsoft Intune 클라우드 서비스를 사용할 수 있습니다. Microsoft Intune 회사 포털을 사용하여 사용이 허가된 앱을 등록, 관리 및 설치할 수 있습니다. 사용자는 자신의 장치에서 앱에 쉽게 액세스하여 설치할 수 있습니다. 
+Windows 기반 장치가 아닌 다른 플랫폼을 관리하려면 Microsoft Intune 클라우드 서비스를 사용할 수 있습니다. Microsoft Intune 회사 포털을 사용하여 사용이 허가된 앱을 등록, 관리 및 설치할 수 있습니다. 사용자는 자신의 장치에서 앱에 쉽게 액세스하여 설치할 수 있습니다.
 
->[!TIP] 
->Microsoft Intune에 대한 자세한 내용은 [Microsoft Intune page(Microsoft Intune 페이지)](/intune/understand-explore/introduction-to-microsoft-intune)를 참조하세요. 
+>[!TIP]
+>Microsoft Intune에 대한 자세한 내용은 [Microsoft Intune page(Microsoft Intune 페이지)](/intune/understand-explore/introduction-to-microsoft-intune)를 참조하세요.
 
 이러한 두 가지 옵션은 서로 다르지만 둘을 통합하여 단일 위치에서 앱 배포 및 프로비저닝을 제공할 수 있습니다. 다음 표를 사용하여 BYOD 디자인에 적합한 옵션을 식별합니다.
 
@@ -195,7 +194,6 @@ Windows 기반 장치가 아닌 다른 플랫폼을 관리하려면 Microsoft In
 | 회사 외부에 있는 장치에 앱을 배포하고 프로비저닝합니다.   | Microsoft Intune                                       |
 | 비Windows 장치에 앱을 배포하고 프로비저닝합니다.                   | Microsoft Intune                                       |
 | 앱을 온-프레미스에 위치한 장치에 배포하고 프로비전하며, 회사 외부에 있는 장치에 앱을 배포하고 프로비전하거나 Windows 이외의 장치에 앱을 배포하고 프로비전합니다.       | Configuration Manager와 통합된 Microsoft Intune
-                                                                    
 
 
 

@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ecb6271f-8f38-42bd-aae7-10ba5e17a5f1
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 7dbb0c9b1b2b3b29eb54ad8cdeee527d9d7f078f
@@ -27,7 +26,7 @@ ms.openlocfilehash: 7dbb0c9b1b2b3b29eb54ad8cdeee527d9d7f078f
 
 ## <a name="solution-definition"></a>솔루션 정의
 
-앞에서 확인한 문제를 해결하고 조직의 사용자가 자신의 장치를 회사로 가져와 해당 장치에서 회사 데이터에 액세스할 수 있도록 하려면 회사가 장치 중심 IT 방식에서 사용자 중심 IT 방식으로 전환해야 합니다. 이 가이드의 디자인 고려 사항은 다음과 같은 고유한 BYOD 인프라 솔루션을 정의할 때 사용할 수 있습니다. 
+앞에서 확인한 문제를 해결하고 조직의 사용자가 자신의 장치를 회사로 가져와 해당 장치에서 회사 데이터에 액세스할 수 있도록 하려면 회사가 장치 중심 IT 방식에서 사용자 중심 IT 방식으로 전환해야 합니다. 이 가이드의 디자인 고려 사항은 다음과 같은 고유한 BYOD 인프라 솔루션을 정의할 때 사용할 수 있습니다.
 
 - 사용자가 자신의 장치를 사용하여 회사 앱 및 데이터에 액세스할 수 있는 유연성을 제공합니다.
 - 온-프레미스 및 클라우드에서 회사 리소스에 액세스하고 있는 장치를 관리합니다.
@@ -51,7 +50,6 @@ ms.openlocfilehash: 7dbb0c9b1b2b3b29eb54ad8cdeee527d9d7f078f
 - [데이터 액세스 및 보호 요구 사항](byod-data-access-protection-reqs.md)
 - [관리 요구 사항](byod-management-reqs.md)
 - [앱 요구 사항](byod-app-reqs.md)
-
 
 
 

@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 717183b0b7f94277379ebbeee2136227d29f88ef
@@ -55,7 +54,7 @@ BYOD 인프라 솔루션을 디자인하려면 사용자의 요구 및 사용자
     - 원격 데스크톱을 사용하는 컴퓨터에 액세스합니다.
     - 온-프레미스에 있는 다른 컴퓨터에 액세스합니다.
 
-BYOD 인프라 솔루션에 보다 적합한 사용자 프로필을 결정해야 합니다. 사용자의 업무 요구 사항에 따라 여러 사용자의 프로필을 설정할 수 있습니다. 요구 사항은 각 개인에 따라 달라질 수 있으므로 BYOD 인프라 솔루션을 구현하는 데 사용되는 기술에서 모든 사용자 프로필을 수용할 수 있어야 합니다. 
+BYOD 인프라 솔루션에 보다 적합한 사용자 프로필을 결정해야 합니다. 사용자의 업무 요구 사항에 따라 여러 사용자의 프로필을 설정할 수 있습니다. 요구 사항은 각 개인에 따라 달라질 수 있으므로 BYOD 인프라 솔루션을 구현하는 데 사용되는 기술에서 모든 사용자 프로필을 수용할 수 있어야 합니다.
 
 ## <a name="devices"></a>장치
 
@@ -204,11 +203,10 @@ DRS를 사용하려면 관리 기능을 제공하지 않는다는 점을 알고 
     - 단점
         - [Microsoft NAP(Network Access Protection)](https://technet.microsoft.com/library/cc731276(v=ws.10).aspx)를 사용하여 구현하는 데 IPsec이 필요하며 이는 "모든 장치"를 지원해야 하는 BYOD 시나리오에서 문제가 될 수 있음
 
-> [!NOTE] 
+> [!NOTE]
 > Configuration Manager의 Wi-Fi 프로필에 대한 자세한 내용은 [Configuration Manager의 Wi-Fi 프로필 소개](https://technet.microsoft.com/library/dn261224.aspx)를 참조하세요.
 
 네트워크 위치는 사용자 및 장치 고려 사항에서 중요한 역할을 합니다. AD FS의 다단계 액세스 제어를 사용하여 응용 프로그램 단위 권한 부여 정책을 설정하면 사용자, 장치 및 네트워크 위치에 따라 액세스를 허용하거나 거부할 수 있습니다. 이 기능의 유효성을 확인하는 환경 설정 방법에 대한 자세한 내용은 [다단계 액세스 제어를 사용한 위험 관리](https://technet.microsoft.com/library/dn280936.aspx)를 참조하세요.
-
 
 
 

@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 0c1313b9-361f-4732-a92c-23d0dac07733
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: d5297dbb3d22feda4189bc120b2bb4537fa5f590
@@ -118,7 +117,6 @@ ms.openlocfilehash: d5297dbb3d22feda4189bc120b2bb4537fa5f590
 - 이러한 앱에 대해 개인 정보 분석을 수행했습니까?
 - 앱이 라이브 타일을 사용합니까?
     - 그렇다면 이러한 라이브 타일로 인해 실수로 정보 노출이 발생할 수 있습니까?
-
 
 
 

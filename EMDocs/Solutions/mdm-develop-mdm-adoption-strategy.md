@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 10172816-b52d-4a55-8803-6a6805126fab
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 925d3c462ff0010f3aea03dd35a5ba6f78bf9894
@@ -26,7 +25,7 @@ ms.openlocfilehash: 925d3c462ff0010f3aea03dd35a5ba6f78bf9894
 >[!NOTE]
 >이 항목은 좀 더 큰 디자인 고려 사항 가이드의 일부입니다. 이 가이드의 맨 처음부터 시작하려면 [기본 항목](mdm-design-considerations-guide.md)을 확인하세요. 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
 
-이 작업에서는 작업 1과 2에서 확인된 비즈니스 요구 사항을 충족하는 모바일 장치 관리 채택 전략을 개발합니다. 
+이 작업에서는 작업 1과 2에서 확인된 비즈니스 요구 사항을 충족하는 모바일 장치 관리 채택 전략을 개발합니다.
 
 ## <a name="device-ownership"></a>장치 소유권
 
@@ -34,7 +33,7 @@ ms.openlocfilehash: 925d3c462ff0010f3aea03dd35a5ba6f78bf9894
 
 ## <a name="employee-owns-the-device-byod"></a>직원이 장치 소유(BYOD)
 
-**장점** 
+**장점**
 
 - 회사에서 직원에게 모바일 장치를 사줄 필요가 없음
 - 일반적으로 직원들은 선택한 모바일 장치를 사용하게 되므로 생산성이 높아짐
@@ -48,7 +47,7 @@ ms.openlocfilehash: 925d3c462ff0010f3aea03dd35a5ba6f78bf9894
 
 ## <a name="company-owned-device"></a>회사 소유의 장치
 
-**장점** 
+**장점**
 
 - 장치 보안 강화 및 보안 제어를 포함하는 완전한 관리 기능
 - 모바일 장치에 대한 제어 증가
@@ -101,7 +100,7 @@ ms.openlocfilehash: 925d3c462ff0010f3aea03dd35a5ba6f78bf9894
 - Intune 및 ConfigMgr 간의 기본 통합
 - 중앙 콘솔을 사용하여 정책 배포, 온-프레미스 PC, 서버 및 모바일 장치 관리 가능
 
-**단점** 
+**단점**
 
 - Intune 및 ConfigMgr를 연결하기 위해 추가 구성 단계 필요
 - 조직의 온-프레미스에 최신 ConfigMgr 인프라가 없는 경우 통합 전에 이 플랫폼의 계획, 설치 및 구성 필요
@@ -128,7 +127,7 @@ ms.openlocfilehash: 925d3c462ff0010f3aea03dd35a5ba6f78bf9894
 
 **단점**
 
-- 온-프레미스 솔루션을 사용하는 경우 온-프레미스 장치 관리 솔루션과 제대로 통합되지 않아 모바일 장치를 관리할 때 사용할 수 있는 추가 관리 인터페이스가 제공됩니다. 
+- 온-프레미스 솔루션을 사용하는 경우 온-프레미스 장치 관리 솔루션과 제대로 통합되지 않아 모바일 장치를 관리할 때 사용할 수 있는 추가 관리 인터페이스가 제공됩니다.
 - 온-프레미스 MDM 플랫폼을 사용하여 만든 정책이 클라우드 서비스에 복제되지 않으므로 두 개의 관리 및 규정 준수 정책 집합이 필요합니다(온-프레미스 MDM 솔루션이 있는 경우).
 
 
@@ -167,10 +166,8 @@ ms.openlocfilehash: 925d3c462ff0010f3aea03dd35a5ba6f78bf9894
 
 사용자 동작을 이해하고 해당 위치를 식별하는 능력은 모바일 장치 관리 전략에 포함해야 하는 중요한 요소입니다. 장치를 추적하는 방법은 비즈니스 요구 사항 및 필요에 따라 달라집니다.  모바일 운영 체제마다 다른 추적 기능을 사용할 수 있으므로 지원하도록 선택한 모바일 장치 플랫폼에 따라 선택하는 옵션이 달라집니다. 예를 들어 규정 준수 요구 사항은 사용자의 위치를 추적하고 지오펜싱을 사용할 수 있도록 하는 모바일 장치 플랫폼 채택 우선 순위에 영향을 줄 수 있습니다.
 
->[!TIP] 
-> 지오펜싱을 사용하여 모바일 장치의 지리적 위치를 모니터링하고 해당 위치에 따라 장치 및 네트워크 리소스를 사용/사용하지 않도록 설정할 수 있습니다. 예를 들어 Windows 8.1은 앱에서 지리적 위치 영역을 정의하고 앱이 실행되고 있는 장치가 해당 영역으로 들어오거나 해당 영역을 빠져 나갈 때 시스템 경고를 표시하도록 할 수 있습니다. Windows 8.1의 이 기능에 대한 자세한 내용을 보려면 [지오펜싱 전체 프로세스(XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/dn342943.aspx)를 읽어보세요. 
-
-
+>[!TIP]
+> 지오펜싱을 사용하여 모바일 장치의 지리적 위치를 모니터링하고 해당 위치에 따라 장치 및 네트워크 리소스를 사용/사용하지 않도록 설정할 수 있습니다. 예를 들어 Windows 8.1은 앱에서 지리적 위치 영역을 정의하고 앱이 실행되고 있는 장치가 해당 영역으로 들어오거나 해당 영역을 빠져 나갈 때 시스템 경고를 표시하도록 할 수 있습니다. Windows 8.1의 이 기능에 대한 자세한 내용을 보려면 [지오펜싱 전체 프로세스(XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/dn342943.aspx)를 읽어보세요.
 
 
 

@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 991cd722-089c-4e8c-80b9-b82e405cc891
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: 3df9be3ef643303f4205aa1b6daf18fdf53762d8
@@ -52,7 +51,7 @@ ms.openlocfilehash: 3df9be3ef643303f4205aa1b6daf18fdf53762d8
 **단점**
 
 - 비모바일 장치에 대해 온-프레미스 관리 플랫폼을 사용하는 경우에만 모바일 장치를 프로비전하기 위한 추가 관리 인터페이스 필요
-- 클라우드 기반 서비스 및 온-프레미스 관리 플랫폼에 대한 별도의 장치 규정 준수 및 보안 정책 제공 
+- 클라우드 기반 서비스 및 온-프레미스 관리 플랫폼에 대한 별도의 장치 규정 준수 및 보안 정책 제공
 
 ## <a name="mdm-for-office-365"></a>Office 365용 MDM
 

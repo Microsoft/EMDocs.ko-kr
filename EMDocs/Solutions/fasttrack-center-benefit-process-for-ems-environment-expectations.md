@@ -2,16 +2,15 @@
 title: "원본 환경 요구 사항"
 description: "FastTrack 센터 혜택을 사용하기 위한 원본 환경 요구 사항"
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: NathBarn
+ms.author: NathBarn
 manager: angrobe
 ms.date: 11/07/2016
 ms.topic: article
 ms.prod: 
-ms.service: ems
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 9048f3e5-cc28-4744-bb5e-36f974abb261
-ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation

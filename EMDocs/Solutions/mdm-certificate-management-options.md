@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: c3d350b5-4437-4f3d-907f-57ce6a819a74
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: 2f0d445b35c6a7aea29684a0488decd92784c2ab
@@ -44,7 +43,7 @@ SCEP는 기본적으로 iOS, Windows 10 및 8.1, Windows Phone 10 및 8.1에서 
 6. NDES는 CA에 인증서 발급 요청을 보내고 NDES 역할로 인증서를 보냅니다.
 7. NDES 역할은 장치에 인증서를 보냅니다.
 
-작업 3의 질문에 대한 답변에 따라, 모바일 장치 관리 솔루션에서 인증서를 관리하는 방식을 결정할 수 있습니다. 현재 MDM for Office 365에서는 모바일 장치에 대한 인증서 프로필 관리를 지원하지 않습니다. 
+작업 3의 질문에 대한 답변에 따라, 모바일 장치 관리 솔루션에서 인증서를 관리하는 방식을 결정할 수 있습니다. 현재 MDM for Office 365에서는 모바일 장치에 대한 인증서 프로필 관리를 지원하지 않습니다.
 
 아래 목록은 Intune과 하이브리드 Intune 및 ConfigMgr 배포 시나리오에 대한 인증서 프로필 관리 장단점을 이해하는 데 도움이 됩니다.
 
@@ -77,7 +76,7 @@ SCEP는 기본적으로 iOS, Windows 10 및 8.1, Windows Phone 10 및 8.1에서 
 
 **단점**
 
-- 인증서 프로필을 사용하려면 일부 기존 온-프레미스 인프라가 있어야 합니다. 
+- 인증서 프로필을 사용하려면 일부 기존 온-프레미스 인프라가 있어야 합니다.
 - 다음 온-프레미스 인프라를 Intune에 통합해야 합니다.
  - 네트워크 장치 등록 서비스를 실행하는 서버
  - 엔터프라이즈 인증 기관

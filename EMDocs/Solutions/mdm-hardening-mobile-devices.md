@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ade57c73-a8a2-497f-ad8d-5dfc3cba9e70
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 050d92824ad2616440d9d4b972a812be0ab5a14a
@@ -26,7 +25,7 @@ ms.openlocfilehash: 050d92824ad2616440d9d4b972a812be0ab5a14a
 >[!NOTE]
 >이 항목은 좀 더 큰 디자인 고려 사항 가이드의 일부입니다. 이 가이드의 맨 처음부터 시작하려면 [기본 항목](mdm-design-considerations-guide.md)을 확인하세요. 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
 
-비즈니스 요구 사항에 따라 기능을 강화하기 위한 모바일 장치용 구성 기준을 만들 경우 사용 편의성과 보안 간에 균형을 유지해야 합니다. 매우 엄격한 보안 강화 템플릿은 직원에게 사용 편의성 및 액세스 문제를 초래할 수 있으므로 자신의 장치에서 회사 리소스에 액세스하여 생산성을 높이려는 사용자의 목적에 저해됩니다. 
+비즈니스 요구 사항에 따라 기능을 강화하기 위한 모바일 장치용 구성 기준을 만들 경우 사용 편의성과 보안 간에 균형을 유지해야 합니다. 매우 엄격한 보안 강화 템플릿은 직원에게 사용 편의성 및 액세스 문제를 초래할 수 있으므로 자신의 장치에서 회사 리소스에 액세스하여 생산성을 높이려는 사용자의 목적에 저해됩니다.
 
 또한 모든 모바일 장치 플랫폼에서 모든 보안 정책을 사용할 수 있는 것은 아닙니다. 조직의 모바일 장치 플랫폼을 허용하는 우선 순위와 장치 보안을 강화하기 위한 보안 규정 준수 요구 사항 간을 균형 있게 조율해야 합니다.
 모바일 장치 보안 강화 방법 중 하나는 다른 보안 계층을 적용하는 것입니다. MDM 솔루션에 따라 각 계층에 사용할 수 있는 설정도 달라질 수 있습니다. 아래 그림은 이러한 계층화된 접근을 설정하는 방법의 예를 보여 줍니다.
@@ -91,8 +90,8 @@ ConfigMgr 온-프레미스 하이브리드 환경에서는 [구성 기준](https
 
 - 회사에 최신 온-프레미스 ConfigMgr 인프라가 없는 경우 통합 전에 ConfigMgr의 계획, 설치 및 구성을 위한 리소스가 필요합니다.
 
->[!TIP] 
-> [Microsoft Intune에 대한 모바일 장치 관리 정책 설정](https://technet.microsoft.com/library/dn913730.aspx)에서 Microsoft Intune 모바일 장치 보안 정책에서 구성할 수 있는 모바일 장치 관리 설정에 대해 자세히 읽어보세요. 
+>[!TIP]
+> [Microsoft Intune에 대한 모바일 장치 관리 정책 설정](https://technet.microsoft.com/library/dn913730.aspx)에서 Microsoft Intune 모바일 장치 보안 정책에서 구성할 수 있는 모바일 장치 관리 설정에 대해 자세히 읽어보세요.
 
 
 

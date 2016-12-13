@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: a6319952-e9cd-4308-b9b9-b2e6005e6506
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: e8052d7c45b1b0a579dab9c17112907ade027f8f
@@ -68,7 +67,6 @@ ms.openlocfilehash: e8052d7c45b1b0a579dab9c17112907ade027f8f
 ### <a name="technical-support"></a>기술 지원 서비스
 - 네트워크/보안 팀이 정기적인 장치 준수 감사를 수용할 준비가 되었나요?
 - BYOD 구현을 지원하는 변경 관리 정책 및 절차가 마련되어 있나요?
-
 
 
 

@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: cbf0f54d2d288baf66f914ef8366a70448218607
@@ -34,7 +33,7 @@ Windows Server 2012 R2에서는 클라우드 폴더를 사용하여 사용자의
 
 저장소를 콘텐츠 컨테이너로 간주하는 경우 해당 콘텐츠의 소비를 보호하는 장점도 있습니다. 최종 사용자가 저장소에 상주하는 콘텐츠를 사용하는 방식에 영향을 주는 정책을 적용하여 데이터 누출을 방지할 수 있습니다. [AD RMS(Active Directory Rights Management Services)](https://technet.microsoft.com/library/hh831554.aspx)를 사용하면 IRM(정보 권한 관리)을 사용하는 문서를 보호하여 조직의 보안 전략을 강화할 수 있습니다. AD RMS에서는 개인 및 관리자가 IRM 정책을 통해 문서, 통합 문서 및 프리젠테이션에 대한 액세스 권한을 지정할 수 있습니다. 따라서 중요한 정보가 권한 없는 사용자에 의해 인쇄, 전달 또는 복사되는 것을 방지할 수 있습니다. IRM을 사용하여 파일에 대한 사용 권한을 제한한 후에는 파일에 대한 권한이 파일 자체에 저장되므로 정보의 위치에 관계없이 액세스 및 사용 제한이 적용됩니다.
 
-회사에서 파일 보호를 위해 클라우드 기반 솔루션을 사용하려는 경우 [Azure Information Protection](/information-protection/understand-explore/what-is-information-protection)을 사용할 수도 있습니다. Azure Information Protection은 파일과 메일을 보호하기 위해 암호화, ID 및 권한 부여 정책을 사용하여 회사의 중요한 정보를 보호하며 휴대폰, 태블릿, PC 등 여러 장치에서 작동합니다. 데이터가 조직 경계를 벗어나더라도 데이터가 계속 보호되므로 조직 내부와 외부에서 모두 정보를 보호할 수 있습니다. 
+회사에서 파일 보호를 위해 클라우드 기반 솔루션을 사용하려는 경우 [Azure Information Protection](/information-protection/understand-explore/what-is-information-protection)을 사용할 수도 있습니다. Azure Information Protection은 파일과 메일을 보호하기 위해 암호화, ID 및 권한 부여 정책을 사용하여 회사의 중요한 정보를 보호하며 휴대폰, 태블릿, PC 등 여러 장치에서 작동합니다. 데이터가 조직 경계를 벗어나더라도 데이터가 계속 보호되므로 조직 내부와 외부에서 모두 정보를 보호할 수 있습니다.
 
 드라이브 암호화를 위한 BitLocker 및 파일 암호화를 위한 [Encrypting File System (EFS)(EFS(파일 시스템 암호화))](https://technet.microsoft.com/library/cc700811.aspx) 같이 Windows 운영 체제에서 사용할 수 있는 다른 저장소 기술을 사용하여 전체적인 데이터 보호를 향상시킬 수도 있습니다. 다음 표에서는 저장소 보호의 장점 및 단점을 확인할 수 있습니다. 이러한 옵션은 함께 사용할 수 있다는 점에 유의하세요. 즉, 디자인 결정에 따라 이러한 저장소 보호 옵션이 모두 BYOD 인프라 솔루션에 필요할 수 있습니다.
 
@@ -95,7 +94,7 @@ Windows Server 2012 R2에서는 클라우드 폴더를 사용하여 사용자의
 이 다이어그램에는 BYOD 인프라에서 데이터 보호가 고려되어야 하는 핵심 영역이 강조 표시되어 있습니다. 이러한 영역은 다음 섹션에서 더 자세히 설명합니다.
 
 ### <a name="data-protection-locations-and-considerations"></a>데이터 보호 — 위치 및 고려 사항
-    
+
 아래 목록을 사용하여 데이터 위치에 따라 데이터 보호와 관련된 고려 사항을 이해합니다. 아래 목록의 숫자는 이전 다이어그램에 해당합니다.
 
 - (1) 데이터 센터의 미사용 데이터
@@ -219,7 +218,7 @@ Multi-Factor Authentication을 적용하려는 경우 회사는 AD FS의 기본
 
 외부 네트워크나 내부 네트워크에서 앱에 액세스하는 사용자에 대해 앱 단위 권한 부여를 적용하려는 경우 IT 부서는 웹 응용 프로그램 프록시를 사용할 수 있습니다. 웹 응용 프로그램 프록시를 사용하여 IT 부서는 AD FS와 함께 인증 및 권한 부여를 적용하는 특정 규칙을 만들 수 있습니다. 웹 응용 프로그램 프록시 게시는 모든 사용자 장치에 대해 작동하므로 개인 노트북, 태블릿 또는 스마트폰을 사용할 수 있습니다. 또한 게시된 앱에 액세스하기 위해 사용자가 자신의 장치에 추가 소프트웨어를 설치할 필요가 없습니다. 웹 응용 프로그램 프록시는 해당 프록시를 통해 게시된 모든 앱에서 역방향 프록시 역할을 합니다. 따라서 사용자 환경은 사용자의 장치가 앱에 직접 연결된 것처럼 동일합니다. 웹 응용 프로그램 프록시에 대한 자세한 내용은 [웹 응용 프로그램 프록시 개요](https://technet.microsoft.com/library/dn280944.aspx)를 참조하세요.
 
->[!NOTE] 
+>[!NOTE]
 > 하이브리드 시나리오에서 사용자 인증 및 권한 부여 환경을 원활하게 하려면 [하이브리드 ID 디자인 고려 사항 가이드](http://aka.ms/azhidcg)를 참조하세요.
 
 ## <a name="policy-and-compliance"></a>정책 및 준수
@@ -227,7 +226,7 @@ Multi-Factor Authentication을 적용하려는 경우 회사는 AD FS의 기본
 정책 및 규정 준수 고려 사항은 BYOD를 수용하는 모든 전략에서 가장 중요합니다. 일부 회사에는 비즈니스 규정으로 인해 이 모델에 맞지 않는 어려운 요구 사항이 있을 수 있습니다. 사용자 중심 전략으로 전환하려는 회사는 현재 정책과 BYOD 수용으로 이러한 정책이 어떻게 영향을 받을지를 이해해야 합니다. 데이터 분류 및 데이터가 장치 저장소에 저장된 상태인 경우에도 IT 부서에서 데이터 분류를 제어할 수 있는 방법과 관련된 요구 사항을 고려합니다. 데이터 분류를 고려할 때는 일부 작업(예: 파일 편집)이 수행 중인 동안에도 데이터를 분류할 수 있어야 합니다.
 
 모든 사용자에게 영향을 줄 임시 변경 작업이 발생하는 경우 IT 부서에서 신속하게 응답할 수 있도록 중앙 위치에서 정책을 적용해야 합니다. 또한 모바일 장치에 대한 강력한 감사 기능을 고려합니다. 위반이 발생할 경우 침해된 정책, 해당 정책을 침해한 사람 및 침해가 발생한 시간을 IT 부서에서 추적할 수 있어야 합니다.
-    
+
 ### <a name="policy-and-compliancecapabilities-and-considerations"></a>정책 및 규정 준수 — 기능 및 고려 사항
 
 아래 목록을 사용하여 정책 및 규정 준수 기능에 대한 고려 사항을 이해합니다.
