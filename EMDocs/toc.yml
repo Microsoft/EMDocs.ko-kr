@@ -50,28 +50,34 @@
         - name: "문제 해결"
           href: /advanced-threat-analytics/troubleshoot/
           homepage: /advanced-threat-analytics/troubleshoot/ata-troubleshooting
+
+    - name: "Intune Azure 미리 보기"
+      href: /intune-azure/
+      homepage: /intune-azure
+
     - name: "Intune"
       href: /intune/
       homepage: /intune
       items:
         - name: "이해 및 탐색"
           href: /intune/understand-explore/
-          homepage: /intune/understand/ways-to-do-enterprise-mobility
+          homepage: /intune/understand-explore/introduction-to-microsoft-intune
         - name: "계획 및 디자인"
           href: /intune/plan-design/
-          homepage: /intune/plandesign/plan-you-user-and-device-groups
+          homepage: /intune/plan-design/
         - name: "배포 및 사용"
           href: /intune/deploy-use/
-          homepage: /intune/deploy-use/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents
+          homepage: /intune/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune
         - name: "문제 해결"
           href: /intune/troubleshoot/
-          homepage: /intune/troubleshoot/troubleshoot-microsoft-intune
+          homepage: /intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune
         - name: "시작"
-          href: /intune/get-started/
+          href: /intune/get-started/get-started
           homepage: /intune/get-started/what-s-new-in-microsoft-intune
         - name: "앱 개발 및 사용자 지정"
           href: /intune/develop/
           homepage: /intune/develop/intune-app-sdk
+ 
 
     - name: "Azure Information Protection"
       href: /information-protection/
@@ -177,3 +183,10 @@
         - name: "소프트웨어 업데이트 관리"
           href: /sccm/sum/
           homepage: /sccm/sum/understand/software-updates-introduction
+        - name: "개발"
+          href: /sccm/develop/
+          homepage: /sccm/develop/core/misc/system-center-configuration-manager-sdk
+          items:
+            - name: "참조"
+              href: /sccm/develop/reference
+              homepage: /sccm/develop/reference/configuration-manager-reference
