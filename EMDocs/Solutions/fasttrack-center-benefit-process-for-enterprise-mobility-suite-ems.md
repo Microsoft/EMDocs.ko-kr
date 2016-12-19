@@ -20,7 +20,7 @@ ms.openlocfilehash: c8183efa009da5215149afdb9b94d4166b1c8030
 
 ---
 
-# <a name="fasttrack-center-benefit-process-for-enterprise-mobility-security-ems"></a>EMS(Enterprise Mobility + Security)용 FastTrack 센터 혜택 프로세스
+# <a name="fasttrack-center-benefit-process-for-enterprise-mobility--security-ems"></a>EMS(Enterprise Mobility + Security)용 FastTrack 센터 혜택 프로세스
 EMS용 FastTrack 센터 혜택에 대해 자격을 갖춘 조직의 사용자는 Microsoft 전문가와 원격으로 협업하여 Microsoft Azure Active Directory Premium, Microsoft Intune 및/또는 Azure Rights Management 환경을 사용할 수 있도록 준비할 수 있습니다. 또한 [FastTrack 사이트](http://fasttrack.microsoft.com/ems)를 통해 Azure Information Protection, Microsoft Cloud App Security 및 Microsoft Advanced Threat Analytics에 대한 도움말도 요청할 수 있습니다. 해당 조직의 적격 여부를 확인하려면 [FastTrack 센터 혜택 적격 서비스 및 플랜](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)을 참조하세요.
 
 

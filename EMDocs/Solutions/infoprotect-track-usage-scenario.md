@@ -25,7 +25,7 @@ ms.openlocfilehash: c2004b77928386ed46d947b96b69c1cb85d2e6fb
 
 이 상황에서 사용자는 문서를 공유할 뿐만 아니라 누가 문서에 액세스하는지 모니터링하고 필요한 경우 액세스를 취소하는 것이 일반적인 시나리오입니다. IT 관리자는 권한 있는 사용자 그룹과 데이터를 공유할 때도 이와 유사한 환경을 원합니다. 즉 데이터 사용 또는 남용을 계속 제어하고 적절한 조치를 취할 수 있기를 원합니다. Enterprise Mobility + Security로 어떻게 이 시나리오를 해결할 수 있는지 자세히 알아보세요.
 
-## <a name="how-can-enterprise-mobility-security-help-you"></a>Enterprise Mobility + Security는 어떤 이점이 있나요?
+## <a name="how-can-enterprise-mobility--security-help-you"></a>Enterprise Mobility + Security는 어떤 이점이 있나요?
 EMS(Enterprise Mobility + Security)는 ID, 장치, 앱, 데이터 등의 4단계 보호 기능으로 장치뿐 아니라 그 이상에서 기업 데이터를 보호하는 유일한 포괄적인 클라우드 솔루션입니다. EMS를 사용하면 모바일과 클라우드를 선호하는 환경에서 주요 문제 중 하나를 해결하는 데 도움이 됩니다. 즉, 제어 상태를 유지하면서 문제에 신속히 대응하는 조치를 취하는 방법입니다. EMS를 사용하면 직원들이 조직 내외부에서 안전하게 공동 작업을 수행할 수 있습니다. EMS를 사용하면 문서 소유자 및 관리자가 다른 사용자와 공유하는 중요한 파일에 대한 활동을 추적할 수 있습니다. 받는 사람이 파일을 열거나, 무단 사용자의 파일 액세스가 거부되는 등과 같은 활동을 볼 수 있습니다. 파일을 어디에서 액세스했는지 지리적 위치도 볼 수 있습니다. 사용자도 클릭 한 번으로 공유 파일에 대한 액세스를 취소할 수 있습니다.
 
 ### <a name="recommended-solution"></a>권장 솔루션

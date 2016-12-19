@@ -19,7 +19,7 @@ ms.openlocfilehash: 9f97e64ec3be78e17b05484d27b903e30c340ecf
 
 
 ---
-# <a name="learn-about-enterprise-mobility-security"></a>EMS(Enterprise Mobility + Security)에 대해 알아보기
+# <a name="learn-about-enterprise-mobility--security"></a>EMS(Enterprise Mobility + Security)에 대해 알아보기
 
  조직이 디지털 방식으로 전환하고 Microsoft는 이러한 전환을 보호하기 위한 새로운 방법을 제공하기로 약속했기 때문에 생산성, 공동 작업 및 엔터프라이즈 데이터를 보호하는 것은 매우 중요한 일입니다. Microsoft의 [SPE(Secure Productive Enterprise)](https://www.microsoft.com/secure-productive-enterprise/default.aspx)는 Office 365, EMS(Enterprise Mobility + Security) 및 Windows 10 Enterprise의 장점들을 모은 것으로 직원들의 업무 능력을 향상시키고 조직에게는 다음 영역에 특히 초점을 맞춘 디지털 전환을 유도하는 가장 믿을 수 있고 안전하며 생산성 높은 방법입니다.
 

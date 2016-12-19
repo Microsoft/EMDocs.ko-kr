@@ -26,7 +26,7 @@ ID는 있으면 좋은 것이 아니라 효율적인 작업의 핵심입니다. 
 
 이 새로운 세계에는 기존 도구로 완화할 수 없는 문제 및 고급 위협이 도사립니다. 새로운 경계가 사용자일 때는 네트워크만 보호하는 것은 소용 없습니다. 이 환경에서 보호되고 생산성을 유지하는 열쇠는 강력한 ID 솔루션입니다.
 
-## <a name="how-can-enterprise-mobility-security-help-you"></a>Enterprise Mobility + Security는 어떤 이점이 있나요?
+## <a name="how-can-enterprise-mobility--security-help-you"></a>Enterprise Mobility + Security는 어떤 이점이 있나요?
 EMS(Enterprise Mobility + Security)는 ID, 장치, 앱, 데이터 등의 4단계 보호 기능으로 장치뿐 아니라 그 이상에서 기업 데이터를 기본적으로 보호하는 유일한 포괄적인 클라우드 솔루션입니다. EMS는 모바일 우선, 클라우드 우선 세계의 핵심 과제 중 하나인, 클라우드 및 온-프레미스 자산에 걸쳐 작동하고 사용자의 생산성을 유지하는 단일 ID를 제공할 수 있는 방법을 해결하도록 도와줍니다.
 
 ### <a name="access-to-single-sign-on-applications"></a>Single Sign-On 응용 프로그램 액세스

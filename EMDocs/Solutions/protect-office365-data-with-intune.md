@@ -22,7 +22,7 @@ ms.openlocfilehash: 59bbc2cd3476c8632f8a72c9144eeedcdb141c42
 # <a name="protect-office-365-company-data-with-intune"></a>Intune을 사용하여 Office 365 회사 데이터 보호
 대부분 직원들이 모바일 장치에서 원하는 첫 번째 기능은 회사 메일 및 문서에 대한 액세스입니다. 또한 복잡한 단계를 거치거나 지원 센터에 문의하지 않고 설정을 진행할 수 있기 바랍니다. 반면, IT 부서는 골치 아프게 대규모의 온-프레미스 인프라를 유지 관리하지 않으면서 모든 위치에서 회사 데이터 보안을 유지하려고 합니다. EMS(Enterprise Mobility + Security)를 사용하면 직원들이 즐겨 사용하는 앱 및 장치로 직원 생산성을 유지할 수 있고 회사 데이터를 보호할 수 있습니다. 방법에 대해 계속 읽어보세요.
 
-## <a name="how-can-enterprise-mobility-security-ems-help-you"></a>EMS(Enterprise Mobility + Security)는 사용자에게 어떻게 도움을 줄 수 있나요?
+## <a name="how-can-enterprise-mobility--security-ems-help-you"></a>EMS(Enterprise Mobility + Security)는 사용자에게 어떻게 도움을 줄 수 있나요?
 EMS는 기본적으로 모든 사용자가 회사로 가져온 장치에서 Microsoft Office 메일, 파일 및 앱을 보호하도록 고안된 유일한 솔루션입니다. 내부에서 EMS는 ID, 장치, 앱 및 데이터를 아우르는 4계층의 보호를 제공함으로써 이동 중인 직원들에게 안전한 메일을 쉽게 전달할 수 있도록 합니다. EMS를 통해 직원들은 회사 메일 및 문서에 안전하고 원활하게 액세스할 수 있으며, Outlook, Word, Excel, PowerPoint 및 OneDrive와 같은 Office 모바일 앱을 통해 친숙한 메일 및 생산성 환경을 활용할 수 있습니다.
 
 Office 365는 사용자 환경을 그대로 유지하면서 어디로 이동하든 해당 위치에서 작업을 수행하려는 직원을 위해 고안되었습니다. EMS와 Office 365는 사용자에게 뛰어난 생산성 표준을 제공하고 IT 직원에게 긴밀히 통합된 데이터 제어 기능을 제공하는 완전 관리형 모바일 생산성 솔루션을 제공합니다.

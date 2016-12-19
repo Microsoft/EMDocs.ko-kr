@@ -22,7 +22,7 @@ ms.openlocfilehash: b0dd2c797fb6b33e10ef62fa74bb4c646e89bede
 # <a name="protect-on-premises-company-data-with-intune"></a>Intune으로 온-프레미스 회사 데이터 보호
 더 이상 방화벽만으로는 적절한 회사 보안 경계를 제공할 수 없습니다. 오늘날의 보안 경계에는 최종 사용자와 이 사용자가 회사 데이터를 액세스, 사용 및 공유하는 방법을 포함해야 합니다. 스마트폰, 태블릿, 랩톱 등 무엇으로 작업하든 정보 근로자는 어디서든 필요할 때 원하는 장치에서 리소스에 원활하게 액세스해야 합니다. 사용자에게 액세스 및 보호 기능을 제공하는 일은 회사 데이터도 보호해야 하는 IT 관리자에게 매우 어려운 일입니다. EMS(Enterprise Mobility + Security)를 사용하면 직원들이 즐겨 사용하는 앱 및 장치로 직원 생산성을 유지할 수 있고 온-프레미스 회사 데이터도 보호할 수 있습니다. 방법을 확인하려면 계속 읽어 보세요.
 
-## <a name="how-can-enterprise-mobility-security-ems-help-you"></a>EMS(Enterprise Mobility + Security)는 사용자에게 어떻게 도움을 줄 수 있나요?
+## <a name="how-can-enterprise-mobility--security-ems-help-you"></a>EMS(Enterprise Mobility + Security)는 사용자에게 어떻게 도움을 줄 수 있나요?
 EMS(Enterprise Mobility + Security)는 ID, 장치, 앱, 데이터 등의 4단계 보호 기능으로 장치뿐 아니라 그 이상에서 기업 데이터를 기본적으로 보호하는 유일한 포괄적인 클라우드 솔루션입니다. EMS를 사용하면 직원은 회사 메일과 문서에 안전하고 원활하게 액세스할 수 있고 IT는 회사 데이터 확실히 보호할 수 있습니다.
 
 ## <a name="recommended-solution"></a>권장 솔루션

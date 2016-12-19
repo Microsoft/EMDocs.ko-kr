@@ -29,7 +29,7 @@ ms.openlocfilehash: d76fa5c4857b12e2eb91de9fb3217ba78ea6a11f
 
 이 컨텍스트에서는 일반적으로 비즈니스에 맞게 보안 프로토콜을 조정하고 데이터 분류 및 보호 프로세스에서 최종 사용자 동작에 영향을 주는 동시에 직원이 데이터 사일로에서 내부적으로 공동 작업하고 타사 공급업체와 외부적으로 공동 작업하도록 지원해야 프로젝트가 있습니다. 
 
-## <a name="how-can-enterprise-mobility-security-help-you"></a>Enterprise Mobility + Security는 어떤 이점이 있나요?
+## <a name="how-can-enterprise-mobility--security-help-you"></a>Enterprise Mobility + Security는 어떤 이점이 있나요?
 
 EMS(Enterprise Mobility + Security)는 ID, 장치, 앱, 데이터 등의 4단계 보호 기능으로 장치뿐 아니라 그 이상에서 기업 데이터를 기본적으로 보호하는 유일한 포괄적인 클라우드 솔루션입니다. EMS는 모바일 우선, 클라우드 우선 환경의 핵심 과제 중 하나인, 업무 중인 직원에게 보안 전자 메일을 제공하는 문제를 해결하도록 도와줍니다. EMS를 사용하면 직원들이 조직 내외부에서 안전하게 공동 작업을 수행할 수 있습니다. EMS를 사용하면 IT 관리자가 [Azure 권한 관리](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms) 정책 템플릿을 사용하여 사용 현황을 전자 메일로 보낼 수 있습니다. 사용 권한은 온라인 및 오프라인뿐 아니라 조직 방화벽의 내부 및 외부에서도 보호가 이루어지도록 메시지 자체에 연결됩니다.
 
