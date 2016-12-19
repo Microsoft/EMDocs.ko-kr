@@ -2,25 +2,25 @@
 title: "다중 ID를 지원하는 응용 프로그램을 사용하는 방법"
 description: "다중 ID를 지원하는 앱을 사용하는 방법"
 keywords: 
-author: craigcaseyMSFT
-manager: jeffgilb
+author: NathBarn
+ms.author: NathBarn
+manager: angrobe
 ms.date: 09/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 586ecd93-b097-42a0-9229-bcf3b781021c
-ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e422a74e551753ddb579d98789670cd8c1811b80
-ms.openlocfilehash: 491616d76dc6616a2abe059b699448bec0e06e75
+ms.sourcegitcommit: dab9c133dd5a79afef07291405c2ac25218ca715
+ms.openlocfilehash: 597e1e4bf5d910a3339c8239efafda29b1463652
 
 
 ---
 
-# 다중 ID를 지원하는 앱을 사용하는 방법
+# <a name="how-to-use-apps-with-multi-identity-support"></a>다중 ID를 지원하는 앱을 사용하는 방법
 
 이 시나리오에서는 Microsoft Word를 예제로 사용합니다. Office 365에 포함된 다른 앱에도 이와 동일한 단계를 적용할 수 있습니다.
 1.  장치에서 **Word** 앱을 엽니다. 이 예제에서는 iOS 장치를 사용합니다.
@@ -46,11 +46,11 @@ ms.openlocfilehash: 491616d76dc6616a2abe059b699448bec0e06e75
 
   ![사용자가 Facebook에 텍스트를 붙여 넣을 수 있는 것을 보여 주는 스크린샷](./media/ft-multiID-6-copyText.png)
 
-### 더 자세한 내용을 원하세요?
+### <a name="want-to-learn-more"></a>더 자세한 내용을 원하세요?
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO3-->
 
 

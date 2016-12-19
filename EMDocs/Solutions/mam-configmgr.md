@@ -3,6 +3,7 @@ title: "Configuration Manager에서 모바일 앱 관리 정책 사용"
 description: "Configuration Manager에서 MAM(모바일 앱 관리) 정책을 사용하여 앱을 만들고 배포합니다."
 keywords: 
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 05/12/2016
 ms.topic: article
@@ -13,8 +14,8 @@ ms.assetid: 74288276-84d3-4d24-8307-7875491be9c9
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: faa30f461ff9a1a14d150bd85d86d37cd298570c
-ms.openlocfilehash: 68598a547304ca4bc0884156334b02914e517814
+ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
+ms.openlocfilehash: 55775d3b8570a2a30dd9486d1ce65c661a17f3cd
 
 
 ---
@@ -83,6 +84,6 @@ MAM 정책과 관련된 앱을 만들고 배포한 후에는 [MAM의 최종 사�
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 

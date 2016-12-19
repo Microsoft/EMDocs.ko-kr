@@ -3,6 +3,7 @@ title: "데이터 암호화 요구 사항 배포"
 description: "이 항목에서는 모바일 장치에서 데이터 암호화에 대한 디자인 고려 사항을 설명합니다. 이 항목은 모바일 장치 관리 디자인 고려 사항을 다루는 좀 더 큰 문서 집합의 일부입니다."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,8 +15,8 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 4f892c4b9269b40ee4931aef4baf499e08b5f5c5
+ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
+ms.openlocfilehash: 9d6194247048242509f4306e34fc805bc0b41466
 
 
 ---
@@ -83,6 +84,6 @@ Intune 및 ConfigMgr 기능을 결합하여 데이터 보호 기능을 강화하
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 
