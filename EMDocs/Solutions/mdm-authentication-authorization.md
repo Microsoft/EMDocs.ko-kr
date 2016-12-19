@@ -80,7 +80,7 @@ Azure AD MFA를 사용하여 사용자가 회사 리소스에 액세스할 때�
 
 - Intune 구독 구입 시 Azure AD 클라우드 서비스가 포함되지 않음
 
-## <a name="enterprise-mobility-security"></a>Enterprise Mobility + Security
+## <a name="enterprise-mobility--security"></a>Enterprise Mobility + Security
 
 **장점**
 
