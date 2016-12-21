@@ -3,19 +3,20 @@ title: "IT 관리자를 위한 최종 사용자 Intune 등록 지침"
 description: "IT 관리자를 위한 최종 사용자 Intune 등록 지침"
 keywords: 
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: jeffgilb
 ms.date: 09/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: ems
 ms.technology: 
 ms.assetid: 5c13446e-aa31-47df-ad9d-373be7660197
 ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e422a74e551753ddb579d98789670cd8c1811b80
-ms.openlocfilehash: 7d04b320606403530801de71a37d308cf378856f
+ms.sourcegitcommit: dab9c133dd5a79afef07291405c2ac25218ca715
+ms.openlocfilehash: 9c01c3c380edfa02d4055a84d59588552f092ea8
 
 
 ---
@@ -173,6 +174,6 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO3-->
 
 

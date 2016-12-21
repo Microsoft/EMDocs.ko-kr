@@ -3,19 +3,20 @@ title: "조직에서 관리하는 모바일 응용 프로그램을 사용하는 
 description: "조직에서 관리하는 모바일 앱을 사용하는 방법"
 keywords: 
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: jeffgilb
 ms.date: 09/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: ems
 ms.technology: 
 ms.assetid: 174348f0-dbc6-4204-8626-3c6f38b7bbde
 ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e422a74e551753ddb579d98789670cd8c1811b80
-ms.openlocfilehash: bf4d1604d28aef3a5f5b23efb112b867b2dee8c6
+ms.sourcegitcommit: dab9c133dd5a79afef07291405c2ac25218ca715
+ms.openlocfilehash: f9464790624d94d89c43aae3db35f58ffae6da01
 
 
 ---
@@ -81,6 +82,6 @@ ms.openlocfilehash: bf4d1604d28aef3a5f5b23efb112b867b2dee8c6
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO3-->
 
 

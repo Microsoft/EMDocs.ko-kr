@@ -3,18 +3,19 @@ title: "회사 전자 메일 첨부 파일 보호"
 description: "MAM(모바일 응용 프로그램 관리) 정책을 사용하여 메일 및 메일 첨부 파일의 콘텐츠를 보호합니다."
 keywords: 
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d1211e3ef25b73679c851bce7f5eca872520f023
-ms.openlocfilehash: f00fa25e5e0b03c098f78e4d5f1be0957cdea24f
+ms.sourcegitcommit: fd6318efea58b5b6b72de306339629b568bc902d
+ms.openlocfilehash: d293494570b08098468927fb9857c10a0e7d03ca
 
 
 ---
@@ -71,6 +72,6 @@ IT 관리자는 모바일 응용 프로그램 관리 정책을 만들고 앱에 
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 

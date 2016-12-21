@@ -27,7 +27,7 @@ ms.openlocfilehash: c61f68b5922373ffe5509ddb80a158d6a9757ff1
 데이터 위반 사례의 63% 이상에서 공격자는 약하거나 기본 설정 상태이거나 도난 당한 사용자 자격 증명을 통해 회사 네트워크에 액세스합니다.  Microsoft ID 기반 보안은 사용자 자격 증명에 중점을 두면서, 권한 있는 및 권한 없는 ID를 포함하는 모든 사용자 ID를 관리하고 보호하여 자격 증명이 도난 당했을 때 보호 기능을 보다 강력하게 강화합니다.
 
 
-## <a name="how-can-enterprise-mobility-security-help-you"></a>Enterprise Mobility + Security는 어떤 이점이 있나요?
+## <a name="how-can-enterprise-mobility--security-help-you"></a>Enterprise Mobility + Security는 어떤 이점이 있나요?
 
 EMS(Enterprise Mobility + Security) 보안 접근 방식은 위험 기반의 [조건부 액세스](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access/)를 통해 온-프레미스 및 클라우드의 모든 회사 리소스에 안전하게 액세스하기 위한 보호되는 단일 ID를 사용합니다. 이 접근 방식을 사용하여 IT 부서에서는 혁신적이고 수준 높은 위험 기반 조건부 액세스를 사용하여 첫 번째 관문에서 회사 리소스를 보호할 수 있습니다. EMS는 수천 개의 앱에 액세스하기 위한 보호되는 단일 ID를 제공하여 IT 부서에서 권한 있는 ID를 쉽게 관리하고 보호할 수 있도록 합니다.
 

@@ -16,6 +16,7 @@
 ### [공유 데이터의 사용을 추적하고 데이터 남용에 대응](infoprotect-track-usage-scenario.md)
 ## [관리되는 모바일 생산성](protect-office365-data-with-intune.md)
 ### [Intune을 사용하여 Office 365 회사 데이터 보호](protect-office365-data-with-intune.md)
+### [Intune으로 온-프레미스 회사 데이터 보호](protect-on-premises-data-with-intune.md)
 ## [설계 및 아키텍처 가이드](byod-design-considerations-guide.md)
 ### [BYOD 디자인 가이드](byod-design-considerations-guide.md)
 #### [인프라 솔루션 구상](byod-envisioning-the-byod-infrastructure-solution.md)
@@ -102,6 +103,6 @@
 ## [EMS 지원 질문과 대답](ems-support-faq.md)
 
 
-<!--HONumber=Dec16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

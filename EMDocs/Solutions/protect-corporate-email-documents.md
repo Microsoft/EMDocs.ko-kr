@@ -3,18 +3,19 @@ title: "회사 메일 및 문서 보호"
 description: "규정을 준수하는 장치만 회사 메일에 액세스하도록 허용하고 메일 및 첨부 파일의 콘텐츠를 보호합니다."
 keywords: 
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 78d8368e-1bfe-4ac4-991d-467321a76ed7
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d1211e3ef25b73679c851bce7f5eca872520f023
-ms.openlocfilehash: b3a0ce1b7a7465ca29888b4d332ede6b5a604fd6
+ms.sourcegitcommit: fd6318efea58b5b6b72de306339629b568bc902d
+ms.openlocfilehash: d71c2e0f31d7db2d3219ab9a947cce83e8070831
 
 
 ---
@@ -122,6 +123,6 @@ Azure AD 또는 Exchange에 대해 복잡한 인프라를 설치하지 않아도
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 

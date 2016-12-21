@@ -78,7 +78,7 @@ Intune 관리자가 [Intune 관리 콘솔](/intune/deploy-use/introduction-to-de
 
 - Intune 구독 구입 시 Azure AD 클라우드 서비스가 포함되지 않음
 
-## <a name="enterprise-mobility-security"></a>Enterprise Mobility + Security
+## <a name="enterprise-mobility--security"></a>Enterprise Mobility + Security
 
 **장점**
 

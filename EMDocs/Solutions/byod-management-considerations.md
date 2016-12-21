@@ -30,7 +30,7 @@ ms.openlocfilehash: da1652d5bb9a7b7176c74482bfc814aaf8902c3f
 
 사용자 장치에서의 관리 수준은 회사 정책 및 회사에서 채택할 BYOD 인프라에 따라 달라집니다. 회사에서 전체 지우기 기능을 제공하여 회사 리소스에 액세스할 수 있도록 설정하면 IT 부서는 모니터링된 모든 장치에서 이 설정을 적용해야 합니다. 또한 IT 부서에는 장치를 제조업체 기본값으로 초기화하여 필요한 경우 모든 개인 설정과 데이터를 지우는 기능이 필요합니다. 다음 섹션을 사용하여 BYOD 인프라에 필요한 모니터링 옵션을 결정합니다.
 
-### <a name="monitoring-options-advantages-and-disadvantages"></a>모니터링 옵션 - 장점 및 단점
+### <a name="monitoring-options--advantages-and-disadvantages"></a>모니터링 옵션 - 장점 및 단점
 
 아래 목록을 사용하여 각 모니터링 옵션의 장단점을 이해합니다.
 
@@ -70,7 +70,7 @@ Windows 선택적 지우기를 사용하여 IT 부서는 회사 또는 개인 �
 
 장치 인벤토리 및 사용자 지정 가능한 보고서를 제공할 수 있는 관리 솔루션을 사용하는 것이 좋습니다. 이 옵션을 선택하면 사용자의 장치에 대해 더 많은 정보를 검색해야 할 때 IT 부서에 보다 유연한 방식을 사용할 수 있습니다. IT 부서에는 온-프레미스 및 클라우드에서 등록된 모든 장치에 대한 보고서가 있어야 합니다. 관리 시스템의 보고 기능은 온-프레미스나 클라우드에 있을 수 있습니다. 또는 두 환경이 혼합될 수 있는데, 이런 경우를 하이브리드 솔루션이라고 합니다. 다음 표를 사용하여 회사에 적합한 보고 옵션을 결정합니다.
 
-### <a name="reporting-options-advantages-and-disadvantages"></a>보고 옵션 - 장점 및 단점
+### <a name="reporting-options--advantages-and-disadvantages"></a>보고 옵션 - 장점 및 단점
 
 아래 목록을 사용하여 각 보고 옵션의 장단점을 이해합니다.
 
@@ -113,7 +113,7 @@ Configuration Manager 보고 기능에 대한 자세한 내용은 [Configuration
 - 회사에서 사용하는 현재 관리 솔루션에는 미리 설정된 규칙 집합에 따라 사용자의 장치에서 액세스한 앱을 지원하는 플랫폼의 계산 및 저장소 리소스를 늘리는 기능이 있습니까?
 현재 사용하는 관리 솔루션에서 이러한 두 요구 사항을 해결할 수 없는 경우 다음 표에 표시된 두 가지 핵심 요구 사항을 해결하여 계산 및 저장소를 관리할 수 있는 관리 솔루션을 사용하는 것이 좋습니다.
 
-### <a name="compute-and-storage-management-capabilities-advantages-and-disadvantages"></a>계산 및 저장소 관리 기능 — 장점 및 단점
+### <a name="compute-and-storage-management-capabilities--advantages-and-disadvantages"></a>계산 및 저장소 관리 기능 — 장점 및 단점
 
 아래 목록을 사용하여 각 저장소 관리 기능의 장단점을 이해합니다.
 
@@ -145,7 +145,7 @@ System Center 2012 R2 저장소 기능에 대한 자세한 내용은 [System Cen
 표시된 모든 BYOD 하위 영역에서 자동화를 사용할 수 있지만 리소스를 자동화할 책임은 관리 하위 영역에 있습니다. 자동화는 운영 제체에서 기본 제공될 수 있습니다. 그러나 회사에서 사용할 관리 솔루션은 자동화의 결과를 모니터링하고 보고하면서 이러한 기능을 확장하고 일상적인 IT 작업을 축소할 방법을 제공해야 합니다.
 System Center 2012 R2의 가장 강력한 자동화 옵션은 Windows PowerShell입니다. System Center 2012 R2 자동화에 대한 자세한 내용은 [Windows PowerShell로 System Center 자동화](https://technet.microsoft.com/library/dn507037(v=sc.20).aspx)를 참조하세요. 그러나 작업 순서와 같이 더 간단하지만 매우 강력하지는 않은 작업 자동화 형식을 제공하는 다른 옵션도 사용할 수 있습니다. 다음 표를 사용하여 각 옵션의 장점 및 단점을 평가합니다.
 
-### <a name="automation-options-advantages-and-disadvantages"></a>자동화 옵션 — 장점 및 단점
+### <a name="automation-options--advantages-and-disadvantages"></a>자동화 옵션 — 장점 및 단점
 
 아래 목록을 사용하여 각 자동화 옵션의 장단점을 이해합니다.
 
