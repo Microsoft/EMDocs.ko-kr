@@ -37,7 +37,7 @@ Windows Server 2012 R2에서는 클라우드 폴더를 사용하여 사용자의
 
 드라이브 암호화를 위한 BitLocker 및 파일 암호화를 위한 [Encrypting File System (EFS)(EFS(파일 시스템 암호화))](https://technet.microsoft.com/library/cc700811.aspx) 같이 Windows 운영 체제에서 사용할 수 있는 다른 저장소 기술을 사용하여 전체적인 데이터 보호를 향상시킬 수도 있습니다. 다음 표에서는 저장소 보호의 장점 및 단점을 확인할 수 있습니다. 이러한 옵션은 함께 사용할 수 있다는 점에 유의하세요. 즉, 디자인 결정에 따라 이러한 저장소 보호 옵션이 모두 BYOD 인프라 솔루션에 필요할 수 있습니다.
 
-### <a name="storage-protection-options-advantages-and-disadvantages"></a>저장소 보호 옵션 — 장점 및 단점
+### <a name="storage-protection-options--advantages-and-disadvantages"></a>저장소 보호 옵션 — 장점 및 단점
 
 아래 목록을 사용하여 각 저장소 보호 옵션의 장단점을 이해합니다.
 
@@ -93,7 +93,7 @@ Windows Server 2012 R2에서는 클라우드 폴더를 사용하여 사용자의
 
 이 다이어그램에는 BYOD 인프라에서 데이터 보호가 고려되어야 하는 핵심 영역이 강조 표시되어 있습니다. 이러한 영역은 다음 섹션에서 더 자세히 설명합니다.
 
-### <a name="data-protection-locations-and-considerations"></a>데이터 보호 — 위치 및 고려 사항
+### <a name="data-protection--locations-and-considerations"></a>데이터 보호 — 위치 및 고려 사항
 
 아래 목록을 사용하여 데이터 위치에 따라 데이터 보호와 관련된 고려 사항을 이해합니다. 아래 목록의 숫자는 이전 다이어그램에 해당합니다.
 
@@ -121,7 +121,7 @@ Windows Server 2012 R2에서는 [HTTPS](https://msdn.microsoft.com/library/aa767
 
 다음 섹션을 사용하여 백 엔드 서버 통신의 디자인 요구 사항에 가장 잘 맞는 네트워크 보호 옵션을 평가합니다.
 
-### <a name="network-protection-options-advantages-and-disadvantages"></a>네트워크 보호 옵션 — 장점 및 단점
+### <a name="network-protection-options--advantages-and-disadvantages"></a>네트워크 보호 옵션 — 장점 및 단점
 
 아래 목록을 사용하여 각 네트워크 보호 옵션의 장단점을 이해합니다.
 
@@ -156,7 +156,7 @@ Windows Server 2012 R2에서는 [HTTPS](https://msdn.microsoft.com/library/aa767
 
 서로 다른 인증 리포지토리가 있게 될 하이브리드 환경에서 회사는 사용자가 현재 있는 위치 및 앱이 있는 위치에 관계없이 동일한 자격 증명을 사용하여 인증할 수 있도록 하는 방법을 고려해야 합니다. 클라우드 서비스 공급자를 사용하여 디렉터리를 복제하는 대신 온-프레미스에서 인증을 중앙 집중화하려는 경우 AD FS(Active Directory Federation Services) 사용을 고려합니다. 다음 섹션을 사용하여 BYOD 인프라의 디렉터리 옵션을 평가합니다.
 
-### <a name="directory-options-advantages-and-disadvantages"></a>디렉터리 옵션 — 장점 및 단점
+### <a name="directory-options--advantages-and-disadvantages"></a>디렉터리 옵션 — 장점 및 단점
 
 아래 목록을 사용하여 각 디렉터리 보호 옵션의 장단점을 이해합니다.
 

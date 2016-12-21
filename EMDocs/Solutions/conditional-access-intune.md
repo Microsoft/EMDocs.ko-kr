@@ -3,6 +3,7 @@ title: "Microsoft Intune으로 조건부 액세스 사용"
 description: "Intune에서 메일 및 기타 서비스 보안을 위해 조건부 액세스를 사용합니다."
 keywords: 
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
@@ -13,8 +14,8 @@ ms.assetid: 28662db2-faea-425f-ada9-04cf1d976fc2
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: faa30f461ff9a1a14d150bd85d86d37cd298570c
-ms.openlocfilehash: 5f7492c80640f6a814613e947aee169525aab161
+ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
+ms.openlocfilehash: 8c40e178b70bd6fb3110174edd4ad7bfabadc53e
 
 
 ---
@@ -99,6 +100,6 @@ Exchange 온-프레미스에 대한 조건부 액세스는 다음을 지원합�
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 

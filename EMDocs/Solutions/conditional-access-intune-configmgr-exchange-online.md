@@ -3,6 +3,7 @@ title: "조건부 액세스- Exchange Online, Intune, Configuration Manager"
 description: "Configuration Manager, Exchange Online 및 Intune을 사용하여 모바일 장치에서 메일 액세스를 관리하고 메일 데이터를 보호합니다."
 keywords: 
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
@@ -13,8 +14,8 @@ ms.assetid: 06921361-9475-46e6-9368-3cc44c84b22f
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: faa30f461ff9a1a14d150bd85d86d37cd298570c
-ms.openlocfilehash: 241c2b5bd124e463160971f431266a1c13c66f99
+ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
+ms.openlocfilehash: 197e7912d9fb03d5b9533a3f8aa384b2070faaae
 
 
 ---
@@ -150,6 +151,6 @@ SSRS 보고서를 보려면 주 서버에 보고 역할이 설치되어 있어�
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 

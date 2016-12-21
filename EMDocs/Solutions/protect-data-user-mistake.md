@@ -26,7 +26,7 @@ ms.openlocfilehash: 669042461511939695717de1d5d22c14c071923c
 
 사용자 실수로부터 회사 데이터를 보호하고 데이터 손실을 방지하는 데이터 제어 리소스는 사용자의 생산성을 유지하면서 리소스의 보안을 유지하기 위한 중요한 단계입니다.
 
-## <a name="how-can-enterprise-mobility-security-help-you"></a>Enterprise Mobility + Security는 어떤 이점이 있나요?
+## <a name="how-can-enterprise-mobility--security-help-you"></a>Enterprise Mobility + Security는 어떤 이점이 있나요?
 
 EMS(Enterprise Mobility + Security)를 통해 IT 부서는 온-프레미스와 클라우드에서 사용자, 장치 및 데이터 작업에 대한 보다 심도 깊은 가시성을 얻을 수 있습니다.  EMS를 사용하면 보다 강력한 제어 및 적용을 통해 사용자 실수로부터 회사 데이터를 보호할 수 있습니다.  IT 부서에서는 사용자, 업로드/다운로드 트래픽, 사용 패턴 및 검색된 응용 프로그램의 트랜잭션에 대한 강력한 보고 및 분석을 사용하여 위험 감지를 모니터링할 수 있습니다.
 

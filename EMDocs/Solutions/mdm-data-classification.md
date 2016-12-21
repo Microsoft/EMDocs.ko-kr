@@ -66,7 +66,7 @@ IT에서는 Intune를 사용하여 조건부 액세스를 통해 규정에 부�
 
 - 사용할 수 없음
 
-## <a name="enterprise-mobility-security"></a>Enterprise Mobility + Security
+## <a name="enterprise-mobility--security"></a>Enterprise Mobility + Security
 
 **장점**
 

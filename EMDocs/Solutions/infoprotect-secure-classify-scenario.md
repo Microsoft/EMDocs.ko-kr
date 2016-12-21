@@ -25,7 +25,7 @@ ms.openlocfilehash: fa48af13aac6e66fa111ac4c2156e0a23005028e
 
 Enterprise Mobility + Security로 어떻게 이 시나리오를 해결할 수 있는지 자세히 알아보세요.
 
-## <a name="how-can-enterprise-mobility-security-help-you"></a>Enterprise Mobility + Security는 어떤 이점이 있나요?
+## <a name="how-can-enterprise-mobility--security-help-you"></a>Enterprise Mobility + Security는 어떤 이점이 있나요?
  
 EMS(Enterprise Mobility + Security)는 ID, 장치, 앱, 데이터 등의 4단계 보호 기능으로 장치뿐 아니라 그 이상에서 기업 데이터를 보호하는 유일한 포괄적인 클라우드 솔루션입니다. EMS는 모바일 중심, 클라우드 중심 환경의 핵심 과제 중 하나인, 업무 중인 직원에게 보안 데이터를 제공하는 문제를 해결해 줍니다. EMS를 사용하면 직원들이 조직 내외부에서 안전하게 공동 작업을 수행할 수 있습니다. IT 관리자는 EMS를 통해 Azure Information Protection을 활용하여 파일 수준에서 회사 데이터의 보안을 유지할 수 있습니다. 이 기능을 사용하여 저장 위치, 공유 대상, 데이터가 정지 상태인지 전송 중인지에 관계없이, 항상 보호되도록 할 수 있습니다. 
 

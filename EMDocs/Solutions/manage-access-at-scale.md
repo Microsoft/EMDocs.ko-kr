@@ -24,7 +24,7 @@ ms.openlocfilehash: fa2795fb578c0d278d55cbff9f44c19ca2e13309
 # <a name="manage-access-at-scale"></a>대규모 액세스 관리
 Microsoft는 지금까지 많은 조직을 지원해 왔습니다. Microsoft는 어디서든 사용할 수 있는 ID뿐만 아니라 조직 내에서 IT를 자동화하고, 보호하고, 관리하는 다양한 도구도 제공합니다. 클라우드 컴퓨팅이 등장한 이후에도 사용자 암호 다시 설정에 관한 지원 센터 문의를 비롯하여 사용자 그룹 관리, 앱 요청 등의 다양한 IT 작업을 관리하고 제어해 달라는 요구는 여전합니다.
 
-## <a name="how-enterprise-mobility-security-can-help-you"></a>EMS(Enterprise Mobility + Security)의 이점
+## <a name="how-enterprise-mobility--security-can-help-you"></a>EMS(Enterprise Mobility + Security)의 이점
 EMS(Enterprise Mobility + Security)는 ID, 장치, 앱, 데이터 등의 4단계 보호 기능으로 장치뿐 아니라 그 이상에서 기업 데이터를 기본적으로 보호하는 유일한 포괄적인 클라우드 솔루션입니다. EMS는 모바일 중심, 클라우드 중심 환경의 핵심 과제 중 하나인, 다음과 같은 이점을 주는 포괄적인 Azure AD(Azure Active Directory) 내 도구를 제공하는 문제를 해결해 줍니다.
 - 고급 사용자 수명 주기 관리
 - IT 오버헤드 감소 및 비용 절감

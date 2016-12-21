@@ -3,18 +3,19 @@ title: "회사 메일 및 첨부 파일 보호를 위한 솔루션 구현"
 description: "회사 메일 콘텐츠와 첨부 파일을 보호하기 위한 솔루션을 준비 및 구현합니다."
 keywords: 
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: edc744d8-97d9-42e0-8906-6f0dedd8d629
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
-ms.openlocfilehash: 78fb7718a03cc394296a3125619813007a907574
+ms.sourcegitcommit: fd6318efea58b5b6b72de306339629b568bc902d
+ms.openlocfilehash: 7df900a8224c847eed28ad22cdaffbd6b424c4c8
 
 
 ---
@@ -98,6 +99,6 @@ Exchange Online 전용 구현의 경우에는 현재 구현에 따라 앞에서 
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Nov16_HO2-->
 
 

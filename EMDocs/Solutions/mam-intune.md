@@ -3,6 +3,7 @@ title: "Intune에서 모바일 앱 관리 정책 사용"
 description: "Intune에서 모바일 앱 관리 정책을 사용하여 앱을 만들고 배포합니다."
 keywords: 
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 05/12/2016
 ms.topic: article
@@ -13,8 +14,8 @@ ms.assetid: 6d7c4104-b85f-407e-8832-0e6bbac934f5
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: faa30f461ff9a1a14d150bd85d86d37cd298570c
-ms.openlocfilehash: 4a919dcc0e4b754cbbe8a88140e8b1e8dcc7f924
+ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
+ms.openlocfilehash: 2efaf8b6298cabd640f141675b5cefe3f77aaae7
 
 
 ---
@@ -117,6 +118,6 @@ MAM 정책과 관련된 앱을 만들고 배포한 후에는 [MAM의 최종 사�
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 
