@@ -2,9 +2,9 @@
 title: "iOS 장치에서의 조건부 액세스를 위한 최종 사용자 환경"
 description: "iOS 장치를 등록하는 최종 사용자 환경입니다."
 keywords: 
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: swadhwa
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -14,17 +14,17 @@ ms.assetid: 3c641ea8-2c0e-490e-b1de-831336f46d19
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: 400c1dc2af8d38c4ac61402691131aaf724e1499
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: f06e68a00fd97cb48aee21f6ed749f520d157e9b
 
 
 ---
 
-# iOS
+# <a name="ios"></a>iOS
 
 등록 프로세스 및 사용자에게 표시되는 화면은 최종 사용자 장치에서 실행 중인 OS 버전에 따라 약간 달라집니다. 이 항목에서는 iOS 장치를 등록하는 최종 사용자 환경을 설명합니다.
 
-## 등록
+## <a name="enrolling"></a>등록
 
 1.  사용자가 이미 Intune에 등록했으며 규정을 준수하는 경우에는 iOS 장치에서 차이가 없으며 계속해서 메일에 액세스할 수 있습니다. 아직 등록하지 않은 경우에는 사용자가 메일 앱을 시작하면 다음과 비슷한 격리 메시지가 나타납니다.
 
@@ -70,7 +70,7 @@ ms.openlocfilehash: 400c1dc2af8d38c4ac61402691131aaf724e1499
 
 -   지원 센터에 전화합니다.
 
-## 문제 및 해결 방법
+## <a name="issues-and-solutions"></a>문제 및 해결 방법
 기본적으로 8시간마다 장치를 검사하여 여전히 규격 장치인지 확인됩니다. 이전에 규격이던 장치가 나중에 비규격 장치로 판단되는 경우(예: 준수 정책 추가 또는 변경 시) 사용자는 다음 단계를 따라 장치를 준수 상태로 되돌릴 수 있습니다.
 
 1.  장치가 비규격 상태임을 알리는 메일 알림이나 장치 메시지가 사용자에게 수신됩니다. 이때 장치는 Exchange에서 격리됩니다.
@@ -91,11 +91,11 @@ ms.openlocfilehash: 400c1dc2af8d38c4ac61402691131aaf724e1499
 
     몇 분 내에 메일에 다시 액세스할 수 있습니다.
 
-### 추가 정보
+### <a name="where-to-go-from-here"></a>추가 정보
 최종 사용자 환경은 다른 모바일 장치와 약간 다릅니다. [Android](end-user-experience-conditional-access-android.md) 및 [Windows Phone](end-user-experience-conditional-access-winphone.md)의 최종 사용자 환경에 대한 자세한 정보를 확인할 수 있습니다.
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 
