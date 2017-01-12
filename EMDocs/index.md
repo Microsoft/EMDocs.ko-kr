@@ -1,176 +1,384 @@
----
-asset_id: 961350ed-a3f1-44f1-b239-b46345b8f620
+--- 
 layout: HubPage
 title: "Enterprise Mobility + Security 설명서 | Microsoft Docs"
 description: "Microsoft Enterprise Mobility + Security 기술 설명서"
-keywords: "microsoft docs, enterprise mobility 설명서, enterprise mobility 알아보기, enterprise mobility 가이드, enterprise mobility 기술 설명서"
-author: msswadhwa
-manager: swadhwa
-ms.date: 10/03/2016
-ms.topic: hubpage
-ms.suite: ems
 ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
 translationtype: Human Translation
-ms.sourcegitcommit: 2c3da9606e96e98246b097055f5e144faa2ae0a5
-ms.openlocfilehash: d194bb4a17d5bd97f9f47d56d35f4d5578c48ea4
-
+ms.sourcegitcommit: 43bf23ec5a695e83da7d559153ae7ba0bd342f85
+ms.openlocfilehash: c4f92867a5d31a0b8b8c5f7c498e3805a80c8ed9
 
 ---
-# Enterprise Mobility + Security 설명서  
-<article id="main">
-    <section id="hero-content" class="graph">
+<div id="main" class="v2">
+    <div class="container">
         <h1>Enterprise Mobility + Security 설명서</h1>
-        <h2>Microsoft Enterprise Mobility + Security에 대한 기술 설명서입니다. 이러한 문서는 Enterprise Mobility + Security에 포함된 솔루션과 제품을 이해하고 탐색하며, 서비스를 시작하고, 구현을 계획하는 데 도움이 됩니다. 또한 서비스를 배포 및 사용하고, 응용 프로그램을 개발하고, 문제를 해결하는 데 도움이 되는 자세한 기술 콘텐츠도 찾을 수 있습니다.</h2>
-        <h3>Enterprise Mobility + Security를 처음 사용하나요? <a href="http://go.microsoft.com/fwlink/?LinkId=816837" target="_blank">Microsoft Enterprise Mobility + Security 페이지 방문 &rarr;</a></h3>
-    </section>
-    <aside class="alert section-border">
-        <p>Enterprise Mobility + Security 30일 평가판에 등록</p>
-        <ol class="action-list">
-        <li><a href="http://go.microsoft.com/fwlink/?LinkId=816834" target="_blank" class="button-bordered button-translucent">무료 평가판</a></li>
-        </ol>
-    </aside>
-    <section id="featured" class="container">
-        <h2 class="section-heading"><span class="icon icon-lightbulb-checked"></span> 주요 콘텐츠</h2>
-        <div class="features row">
-            <ul class="column-half">
-                <li><mark><b>신규</b></mark> <a href="/information-protection/">일반 공급: Azure Information Protection</a></li>
-                <li><a href="/enterprise-mobility/solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems">EMS에 대한 FastTrack 혜택</a></li>
-                <li><a href="/intune/understand-explore/introduction-to-microsoft-intune">Microsoft Intune이란?</a></li>
-                <li><a href="/advanced-threat-analytics/understand-explore/what-is-ata">Advanced Threat Analytics란?</a></li>
-            </ul>
-            <ul class="column-half">
-                <li><a href="/active-directory/active-directory-whatis">Azure Active Directory란?</a></li>
-                <li><a href="/microsoft-identity-manager/understand-explore/microsoft-identity-manager-2016">Microsoft Identity Manager란?</a></li>
-                <li><a href="/information-protection/understand-explore/what-is-information-protection">Azure Information Protection이란?</a></li>
-                <li><a href="https://www.microsoft.com/itshowcase/Article/Content/588/Mobile-device-management-at-Microsoft" target="_blank">Microsoft의 모바일 장치 관리</a></li>
-            </ul>
-        </div>
-    </section>
-    <div id="journeys">
-        <section class="container">
-            <h2 class="section-heading"><span class="icon icon-inheritance"></span> 솔루션 및 제품</h2>
-            <ul class="journeys-list">
-                <li class="journey-step">
-                    <header class="journey-step-header row">
-                            <div class="title column-third">
-                                <span class="icon icon-connect"></span>
-                                <p>ID 및 액세스 관리</p>
-                            </div>
-                            <p class="description column-two-thirds">거의 모든 앱 또는 장치, 클라우드 또는 온-프레미스에 대한 엔터프라이즈 수준의 ID 및 액세스 관리입니다. Single Sign-On, 다단계 인증, 셀프 서비스 암호 등을 제공합니다.
-                            </p>
-                    </header>
-                    <section class="journey-step-elements content">
-                        <ul class="row">
-                            <li class="column column-third">
-                                <a href="/active-directory/">
-                                <h3>Azure Active Directory</h3>
-                                <p>온-프레미스 디렉터리를 동기화하고 Single Sign-On을 지원합니다.</p>
+        <ul class="pivots">
+            <li>
+                <a href="#products">제품 + 서비스</a>
+                <ul id="products">
+                    <li>
+                        <a  data-default="true" href="#all">모두</a>
+                        <ul id="all" class="cardsW">
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardText">
+                                                <h3>ID 및 액세스 관리</h3>
+                                                <p>
+                                                    <a href="/azure/active-directory/index">Azure Active Directory</a>
+                                                </p>
+                                                <p>
+                                                    <a href="/azure/multi-factor-authentication/index"> Multi-Factor Authentication </a>
+                                                </p>
+                                                <p>
+                                                    <a href="/microsoft-identity-manager/"> Microsoft Identity Manager </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardText">
+                                                <h3>장치 및 앱 관리</h3>
+                                                <p>
+                                                    <a href="/intune/"> Microsoft Intune </a>
+                                                </p>
+                                                <p>
+                                                    <a href="/sccm/"> System Center Configuration Manager </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardText">
+                                                <h3>정보 보호 + 보안</h3>
+                                                <p>
+                                                    <a href="/information-protection/"> Azure Information Protection </a>
+                                                </p>
+                                                <p>
+                                                    <a href="/advanced-threat-analytics/"> Advanced Threat Analytics </a>
+                                                </p>
+                                                <p>
+                                                    <a href="/cloud-app-security/"> Cloud App Security </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#identity">ID 및 액세스 관리</a>
+                        <ul id="identity" class="cardsC">
+                            <li>
+                                <a href="/azure/active-directory/index">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_identity-access-mgmt-1.svg" alt="Azure Active Directory" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Azure Active Directory</h3>
+                                                    <p>온-프레미스 디렉터리 동기화 및 Single Sign-On 사용</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </a>
                             </li>
-                            <li class="column column-third">
-                                <a href="/multi-factor-authentication/">
-                                <h3>다단계 인증</h3>
-                                <p>추가 수준의 인증으로 데이터 및 앱에 대한 액세스를 보호합니다.</p>
+                            <li>
+                                <a href="/azure/multi-factor-authentication/index">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_identity-access-mgmt-2.svg" alt="Multi-factor Authentication" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>다단계 인증</h3>
+                                                    <p>추가 수준의 인증으로 데이터 및 앱에 대한 액세스 보호</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </a>
                             </li>
-                            <li class="column column-third">
+                            <li>
                                 <a href="/microsoft-identity-manager/">
-                                <h3>Microsoft ID 관리자</h3>
-                                <p>안전하고 유연하며 클라우드가 지원되는 ID 및 액세스 관리를 구성합니다.</p>
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_identity-access-mgmt-3.svg" alt="Microsoft Identity Manager" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft ID 관리자</h3>
+                                                    <p>자동화된 워크플로, 셀프 서비스 등을 사용하여 ID 관리</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </a>
                             </li>
                         </ul>
-                    </section>
-                </li>
-                <li class="journey-step">
-                    <header class="journey-step-header row">
-                            <div class="title column-third">
-                                <span class="icon icon-mobile"></span>
-                                <p>모바일 장치 및 응용 프로그램 관리</p>
-                            </div>
-                            <p class="description column-two-thirds">거의 모든 장치에서 회사 응용 프로그램과 데이터에 대한 직원 액세스를 제어하는 데 유용한 클라우드 기반 엔터프라이즈 이동성 관리입니다.
-                            </p>
-                    </header>
-                    <section class="journey-step-elements content">
-                        <ul class="row">
-                            <li class="column column-third">
+                    </li>
+                    <li>
+                        <a href="#management">장치 및 앱 관리</a>
+                        <ul id="management" class="cardsC">
+                            <li>
                                 <a href="/intune/">
-                                <h3>Intune</h3>
-                                <p>장치에서 Intune의 MDM 및 MAM 기능을 사용하여 회사 앱 및 데이터를 관리 및 보호합니다.</p>
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_device-app-mgmt-1.svg" alt="Microsoft Intune" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft Intune</h3>
+                                                    <p>클라우드에서 모바일 장치, 앱 및 PC를 관리합니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </a>
                             </li>
-                            <li class="column column-third">
+                            <li>
                                 <a href="/sccm/">
-                                <h3>System Center Configuration Manager</h3>
-                                <p>Configuration Manager 온-프레미스 인프라를 사용하여 회사 컴퓨터, 서버 및 장치를 관리하고 보호합니다.</p>
-                                </a>
-                            </li>
-                          </ul>
-                    </section>
-                </li>
-                <li class="journey-step">
-                    <header class="journey-step-header row">
-                            <div class="title column-third">
-                                <span class="icon icon-shield"></span>
-                                <p>정보 보호 및 보안</p>
-                            </div>
-                            <p class="description column-two-thirds">회사 리소스에 대한 보다 안전한 액세스를 허용하고 조직 내부와 외부의 중요한 정보를 안전하게 공유하도록 하여 회사 데이터를 보호합니다.
-                            </p>
-                    </header>
-                    <section class="journey-step-elements content">
-                        <ul class="row">
-                            <li class="column column-third">
-                                <a href="/information-protection/">
-                                <h3>Azure Information Protection</h3>
-                                <p>메일 및 기타 중요한 데이터에 대해 분류하고, 레이블을 지정하고, 보호를 적용합니다.</p>
-                                </a>
-                            </li>
-                            <li class="column column-third">
-                                <a href="/advanced-threat-analytics/">
-                                <h3>Advanced Threat Analytics</h3>
-                                <p>동작 분석을 사용하여 위반 및 위협을 식별하고 공격 타임라인에 보고서를 만듭니다.</p>
-                                </a>
-                            </li>
-                            <li class="column column-third">
-                                <a href="/cloud-app-security/">
-                                <h3>Cloud App Security</h3>
-                                <p>더욱 심층적인 가시성, 포괄적인 제어 및 향상된 보호를 보장하기 위해 온-프레미스 시스템의 보안을 클라우드 응용 프로그램으로 가져옵니다.</p>
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_device-app-mgmt-2.svg" alt="System Center Configuration Manager" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>System Center Configuration Manager</h3>
+                                                    <p>클라우드 기반 장치와 함께 PC, Mac 및 UNIX/Linux 서버를 관리합니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </a>
                             </li>
                         </ul>
-                    </section>
-                </li>
-            </ul>
-        </section>
+                    </li>
+                    <li>
+                        <a href="#security">정보 보호 및 보안</a>
+                        <ul id="security" class="cardsC">
+                            <li>
+                                <a href="/information-protection/">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_info-protection-security-1.svg" alt="Azure Information Protection" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Azure Information Protection</h3>
+                                                    <p>생성 또는 업데이트 시 소스, 컨텍스트 및 콘텐츠를 기반으로 데이터를 분류합니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/advanced-threat-analytics/">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_info-protection-security-2.svg" alt="Advanced Threat Analytics" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Advanced Threat Analytics</h3>
+                                                    <p>동작 분석을 사용하여 위반 및 위협을 식별하고 공격 타임라인에 보고서를 만듭니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/cloud-app-security/">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_info-protection-security-3.svg" alt="Cloud App Security" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Cloud App Security</h3>
+                                                    <p>심층적인 정보를 얻고, 포괄적으로 제어하고, SaaS 보안을 강화합니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#solutions">솔루션</a>
+                <ul id="solutions">
+                    <li>
+                        <a href="#SolutionsPanel1"></a>
+                        <ul id="SolutionsPanel1" class="cardsC">
+                            <li>
+                                <div class="container">
+                                    <p>EMS(Enterprise Mobility + Security)에 포함된 항목과 이 항목을 통해 일반적인 비즈니스 문제를 해결하는 방법을 이해하는 데 도움이 되는 예제 시나리오입니다. 여기에서는 EMS에 대한 FastTrack 센터 혜택에 대한 정보도 찾고 EMS 지원에 대한 질문과 답변도 볼 수 있습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="/enterprise-mobility-security/solutions/learn-about-ems">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_solutions-1.svg" alt="Learn about EMS" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>EMS에 대해 알아보기</h3>
+                                                    <p>EMS에서 이동성과 클라우드로의 전환을 가능하게 하는 유연하고 포괄적인 이동성 및 보안 솔루션을 제공하는 방법을 알아보세요.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/enterprise-mobility-security/solutions/ems-get-started">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_solutions-2.svg" alt="Start using EMS" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>EMS 사용 시작</h3>
+                                                    <p>사용자가 즐겨 사용하는 앱과 장치에서 보안성과 생산성을 유지하는 데 도움을 주는 EMS 및 ID 기반 시나리오로 시작하세요.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/enterprise-mobility-security/solutions/enterprise-mobility-fasttrack-program">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_solutions-3.svg" alt="Get on the FastTrack" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>FastTrack을 이용</h3>
+                                                    <p>EMS에 대한 라이선스를 150개 이상 구입한 경우 Microsoft 전문가와 함께 EMS를 빠르게 시작할 수 있습니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/enterprise-mobility-security/solutions/byod-design-considerations-guide">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_solutions-4.svg" alt="Design and Architecture Guides" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>설계 및 아키텍처 가이드</h3>
+                                                    <p>BYOD에서 회사 데이터 보호에 이르는 모든 사항을 구현하기 위해 수행하는 단계 및 관련 질문에 대한 전문가의 조언을 얻으세요.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://channel9.msdn.com/Tags/emm">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_solutions-6.svg" alt="EMS Support FAQ" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Channel 9에서 비디오 시청</h3>
+                                                    <p>온라인으로 게시된 최신 비디오를 보세요.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/enterprise-mobility-security/solutions/ems-support-faq">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_solutions-6.svg" alt="EMS Support FAQ" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>EMS 지원 FAQ</h3>
+                                                    <p>EMS의 판매 전, 대금 청구, 구독 및 기술 지원에 대한 빠른 대답을 얻으세요.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
     </div>
-    <div class="section-border">
-        <section class="resources container">
-            <h2 class="section-heading"><span class="icon icon-note"></span> 시나리오 및 솔루션</h2>
-            <div class="resource-list row">
-              <ul class="column-half">
-                  <li><a href="/enterprise-mobility-security/solutions/ems-get-started">EMS 기술 시나리오</a></li>
-                  <li><a href="/enterprise-mobility-security/solutions/architecture-guidance-for-protecting-company-email-and-documents">회사 메일 및 문서 보호</a></li>
-                  <li><a href="https://support.office.com/en-us/article/Plan-for-Office-365-security-and-information-protection-capabilities-3d4ac4a1-3920-4ff9-918f-011f3ce60408?ui=en-US&rs=en-US&ad=US">Office 365 보안 및 보호 기능</a></li>
-              </ul>
-              <ul class="column-half">
-                  <li><a href="https://docs.microsoft.com/active-directory/active-directory-hybrid-identity-design-considerations-overview">하이브리드 ID 디자인 고려 사항 가이드</a></li>
-                  <li><a href="/enterprise-mobility-security/solutions/byod-design-considerations-guide">BYOD 디자인 고려 사항 가이드</a></li>
-                  <li><a href="/enterprise-mobility-security/solutions/mdm-design-considerations-guide">모바일 장치 관리 디자인 고려 사항 가이드</a></li>
-            </ul>
-            </div>            
-        </section>
-    </div>
-    <aside class="alert alert-social">
-        <p>최신 뉴스 계속 확인</p>
-        <ol class="action-list">
-            <li><a href="https://blogs.technet.microsoft.com/enterprisemobility/" target="_blank" class="button-bordered button-translucent">Enterprise Mobility + Security 블로그</a></li>
-            <li><a href="https://blogs.technet.microsoft.com/in_the_cloud/" target="_blank" class="button-bordered button-translucent">In The Cloud 블로그</a></li>
-        </ol>
-    </aside>
-</article>
 
 
-
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 
