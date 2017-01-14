@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,22 +14,22 @@ ms.assetid: e65a0662-33ff-4e8c-9305-a21e80ea0f69
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: c80c3b4aedd25c573b3f0fd9b78bd511981cec0f
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: eae78f8e5a4c5a1a0e44cf17fa320175ac622ac1
 
 
 ---
 
-# Intune 및 Configuration Manager와 함께 조건부 액세스 사용
+# <a name="use-conditional-access-with-intune-and-configuration-manager"></a>Intune 및 Configuration Manager와 함께 조건부 액세스 사용
 이 토픽에서는 메일 액세스를 관리하기 위해 회사에서 System Center Configuration Manager 및 Microsoft Exchange Server(온-프레미스, Exchange Online 또는 둘 다의 하이브리드 배포)를 이미 사용 중이라고 가정합니다. 이 솔루션은 기존 Configuration Manager 환경을 Intune과 결합하여 해당 위치와 관계없이 모든 유형의 장치에서 메일 액세스를 안전하게 관리합니다.
 
 > [!TIP]
->  [TechNet 갤러리](https://gallery.technet.microsoft.com/Deploying-Enterprise-16499404)에서 이 전체 항목의 다운로드 가능한 복사본을 가져오세요.
+> [TechNet 갤러리](https://gallery.technet.microsoft.com/Deploying-Enterprise-16499404)에서 이 전체 항목의 다운로드 가능한 복사본을 가져오세요.
 
-## 시작하기 전에
+## <a name="before-you-begin"></a>시작하기 전에
 조건부 액세스를 사용하기 전에 요구 사항을 올바로 갖추었는지 확인합니다.
 
-## Exchange Online:
+## <a name="for-exchange-online"></a>Exchange Online:
 Exchange Online에 대한 조건부 액세스에서는 다음을 실행하는 장치를 지원합니다.
 
 -   Windows 8.1 이상(Intune에 등록된 경우)
@@ -57,7 +57,7 @@ Intune 및 Office 365 고객의 경우에는 AAD DRS가 자동으로 활성화�
 
     이제 [Intune으로 Exchange Online을 배포](conditional-access-intune-exchange-online.md)하는 방법을 알아볼 준비가 되었습니다.
 
-## Exchange Server 온-프레미스의 경우
+## <a name="for-exchange-server-on-premises"></a>Exchange Server 온-프레미스의 경우
 Exchange 온-프레미스에 대한 조건부 액세스는 다음을 지원합니다.
 
 -   Windows 8 이상(Intune에 등록된 경우)
@@ -88,6 +88,6 @@ Exchange 온-프레미스에 대한 조건부 액세스는 다음을 지원합�
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 

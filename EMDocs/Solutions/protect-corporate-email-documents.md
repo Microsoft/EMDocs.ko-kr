@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,20 +14,20 @@ ms.assetid: 78d8368e-1bfe-4ac4-991d-467321a76ed7
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fd6318efea58b5b6b72de306339629b568bc902d
-ms.openlocfilehash: d71c2e0f31d7db2d3219ab9a947cce83e8070831
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: f209973d304e1a54393dc994e7c3785e4f751a88
 
 
 ---
 
-# 회사 메일 및 문서 보호
+# <a name="protecting-corporate-email-and-documents"></a>회사 메일 및 문서 보호
 회사 메일을 보호하는 주요 목적은 다음의 두 가지입니다.
 
 -   규정을 준수하는 장치만 회사 전자 메일에 액세스하도록 허용
 
 -   메일과 첨부 파일의 콘텐츠 보호
 
-## 규정을 준수하는 장치만 회사 전자 메일에 액세스하도록 허용
+## <a name="allow-only-compliant-devices-to-access-your-companys-email"></a>규정을 준수하는 장치만 회사 전자 메일에 액세스하도록 허용
 회사 데이터를 보호하는 과정에서 중요한 단계는 강력한 암호를 사용하지 않거나 탈옥했거나 암호화되지 않은 장치에 대한 액세스를 제한하는 것입니다. Microsoft Intune에서는 사용자가 회사 리소스 액세스 권한을 얻으려면 충족해야 하는 조건을 설정하는 기능을 제공합니다. 이러한 액세스 방식을 조건부 액세스라고 합니다.
 
 조건부 액세스는 Intune에서 설정 가능한 두 가지 정책 유형을 통해 결정됩니다.
@@ -42,7 +42,7 @@ ms.openlocfilehash: d71c2e0f31d7db2d3219ab9a947cce83e8070831
 
 **조건부 액세스 정책** 은 Exchange Online 또는 SharePoint Online과 같은 특정 서비스용으로 구성됩니다. 각 서비스에 대해 이러한 정책을 적용해야 하는 사용자 그룹을 정의할 수 있습니다. 예를 들어 재무 부서의 모든 직원은 규정을 준수하며 등록되어 있는 장치에서만 회사 전자 메일에 액세스할 수 있도록 정의할 수 있습니다.
 
-## 높은 수준의 최종 사용자 환경
+## <a name="high-level-end-user-experience"></a>높은 수준의 최종 사용자 환경
 솔루션을 구현하고 나면 최종 사용자는 관리되는 장치 및 규격 장치에서만 회사 메일에 액세스할 수 있습니다. 사용자가 장치에서 메일에 액세스할 수 있게 되면 회사 데이터는 앱 에코시스템 내에 포함되어 보호되며 의도한 사용자만 이 데이터를 사용할 수 있습니다. 장치가 비규격 장치가 되는 경우 언제든지 액세스 권한이 취소될 수 있습니다.
 
 특히 Intune에서 설정된 조건부 액세스 정책에서는 장치가 관리자가 설정한 규정 준수 정책에 부합할 때만 메일에 액세스할 수 있도록 합니다. 복사하여 붙여넣기, 개인 클라우드 저장소 서비스에 저장 등과 같은 작업은 모바일 응용 프로그램 관리 정책을 사용하여 제한할 수 있습니다. Azure Information Protection을 사용하면 의도한 수신자만 중요 메일 데이터와 첨부된 파일을 읽을 수 있도록 만들 수 있습니다. 최종 사용자 환경은 [조건부 액세스를 위한 최종 사용자 환경](end-user-experience-conditional-access.md)에 자세히 설명되어 있습니다.
@@ -50,17 +50,17 @@ ms.openlocfilehash: d71c2e0f31d7db2d3219ab9a947cce83e8070831
 
 조건부 액세스가 최종 사용자에게 주는 영향을 확인하려면 [이](https://www.youtube.com/watch?feature=player_embedded&v=lYx3YIezccg) 비디오(4분)를 시청하세요.
 
-## 아키텍처가 중요한 이유
+## <a name="why-architecture-matters"></a>아키텍처가 중요한 이유
 EMS 및 Office 365의 여러 구성 요소는 클라우드에서 실행되도록 작성 및 설계되었습니다. 따라서 확장성, 유동성, 손쉬운 관리 등 클라우드의 모든 이점이 제공됩니다.
 
 기업마다 요구 사항이 다르므로 EMS는 Active Directory, Exchange Server, System Center Configuration Manager 등의 기존 온-프레미스 인프라와 통합이 가능합니다. 따라서 온-프레미스 및 클라우드 리소스 둘 다에 대해 네트워크에 이미 설정된 자격 증명을 사용할 수 있습니다.
 
 다음 섹션에서는 클라우드에서 실행하도록 설계된 아키텍처에 대해 설명하고 온-프레미스 옵션에 대해 간략하게 살펴봅니다.
 
-### 전자 메일 액세스 흐름
+### <a name="email-access-flow"></a>전자 메일 액세스 흐름
 온라인에서 Exchange에 액세스하는 데 사용하는 전자 메일 응용 프로그램의 유형에 따라 전자 메일에 대한 보안 액세스 설정 경로가 약간 달라질 수 있습니다. 그러나 주요 구성 요소인 Azure AD(Azure Active Directory), Office 365/Exchange Online 및 Microsoft Intune은 동일합니다. IT 환경과 최종 사용자 환경도 비슷합니다. EMS는 현재 기본 전자 메일 앱과 iOS 및 Android용 Microsoft Outlook 앱을 지원합니다.
 
-### 기본 전자 메일 응용 프로그램에 대한 액세스 제어 흐름
+### <a name="access-control-flow-for-native-email-applications"></a>기본 전자 메일 응용 프로그램에 대한 액세스 제어 흐름
 Exchange Online에서 전자 메일에 액세스하려는 EAS(Exchange ActiveSync) 클라이언트에 대해 다음 속성을 평가합니다.
 
 -   장치가 Intune에서 관리되는지 여부
@@ -85,7 +85,7 @@ Exchange Online에서 전자 메일에 액세스하려는 EAS(Exchange ActiveSyn
 
 ![IOS 및 Android 장치에서 기본 메일 앱의 액세스 제어 흐름을 보여주는 그래프](./media/ProtectEmail/Access-Control-Flow-For-Native-Email-Apps.png)
 
-### Outlook 응용 프로그램에 대한 액세스 제어 흐름
+### <a name="access-control-flow-for-outlook-applications"></a>Outlook 응용 프로그램에 대한 액세스 제어 흐름
 EAS 클라이언트와 마찬가지로 Exchange Online에서 전자 메일에 액세스하려는 Outlook 전자 메일 앱에 대해 다음 속성을 평가합니다.
 
 -   장치가 Intune에서 관리되는지 여부
@@ -98,7 +98,7 @@ EAS 클라이언트와 마찬가지로 Exchange Online에서 전자 메일에 �
 
 ![Outlook 앱에서 액세스 제어 흐름을 보여주는 그래프](./media/ProtectEmail/Access-Control-Flow-For-Outlook-App.png)
 
-## IT 관리자 환경
+## <a name="the-it-admin-experience"></a>IT 관리자 환경
 Azure AD 또는 Exchange에 대해 복잡한 인프라를 설치하지 않아도 이러한 흐름을 설정할 수 있습니다. IT 관리자는 다음 작업을 수행하면 됩니다.
 
 -   장치의 준수 상태를 평가하는 데 사용되는 준수 정책을 구성하고 배포합니다.
@@ -109,7 +109,7 @@ Azure AD 또는 Exchange에 대해 복잡한 인프라를 설치하지 않아도
 
 경우에 따라 선택적인 설정 단계를 수행해야 할 수도 있습니다. 장치 액세스 및 상태를 관리하고 모니터링하는 데 사용되는 보고 기능을 사용하려면 서비스 커넥터에 대해 Microsoft Intune 서비스를 설정해야 합니다.
 
-## 최종 사용자 환경:
+## <a name="the-end-user-experience"></a>최종 사용자 환경:
 사용자가 처음으로 장치에서 전자 메일에 액세스하거나 이후 전자 메일을 동기화할 때는 장치 등록과 준수 상태를 확인합니다. 등록 또는 준수 문제 해결 프로세스는 안내 방식 환경에서 진행됩니다. 즉, 장치를 등록하고 정책을 준수하는 데 필요한 단계가 최종 사용자에게 표시되므로 IT 지원 센터에 도움을 요청할 필요가 없습니다.
 
 -   **장치가 등록되지 않은 경우** 로그인 페이지에 액세스가 거부되었으며 장치를 등록하라는 메시지가 표시됩니다. 등록한 장치는 Azure Active Directory에 자동으로 등록됩니다. Intune은 장치의 정책 준수 여부를 확인하여 미준수 문제를 해결할 수 있는 수정 단계를 제공합니다. 장치가 정책을 준수하는 것이 확인되면 Intune은 Azure Active Directory에 대해 장치 준수 상태를 설정합니다.
@@ -118,11 +118,11 @@ Azure AD 또는 Exchange에 대해 복잡한 인프라를 설치하지 않아도
 
 장치가 등록되어 있으며 정책을 준수하는 것으로 평가되면 몇 분 내에 전자 메일이 동기화됩니다.
 
-## 추가 정보
+## <a name="where-to-go-from-here"></a>추가 정보
 이제 회사 메일 및 문서 보호에 대해 이해했으므로 [메일 첨부 파일 보호](protect-email-attachments.md) 방법에 대해 알아볼 수 있습니다. 또는 준비가 된 경우 [회사 메일 보호를 위한 솔루션 구현](implement-solution.md)을 알아보세요.
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 
