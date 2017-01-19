@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fd6318efea58b5b6b72de306339629b568bc902d
-ms.openlocfilehash: d293494570b08098468927fb9857c10a0e7d03ca
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: a124d56eaa6cbca44551a7c3ea42166479523f9f
 
 
 ---
 
-# 전자 메일 및 첨부 파일의 데이터 유출 방지
+# <a name="protect-email-and-attachments-from-data-leakage"></a>전자 메일 및 첨부 파일의 데이터 유출 방지
 [회사 메일 및 문서 보호](protect-corporate-email-documents.md)에서는 규격 장치만 회사 메일에 액세스하도록 하는 방법을 설명했습니다. 그러나 액세스를 보호하는 것만으로는 전자 메일 및 전자 메일 첨부 파일의 내용을 보호할 수 없습니다. 해당 내용을 복사/이동하거나 다른 위치에 저장하거나 다른 사용자와 공유할 수 있기 때문입니다. EMS는 MAM(모바일 응용 프로그램 관리) 정책을 사용하여 이 문제를 해결합니다.
 
 관리되는 앱은 IT 관리자가 배포했으며 회사 보안 요구 사항을 따르는 앱입니다. IT 부서는 이러한 앱을 통해 배포, 인벤토리 또는 업데이트 등의 지속적 관리, 그리고 앱 및 앱과 연결된 데이터의 선택적 지우기를 직접 제어합니다. 또한 Intune에서는 MAM(모바일 응용 프로그램 관리) 정책 집합을 통해 다음과 같이 앱 기능을 수정하고 데이터 공유를 제한할 수 있습니다.
@@ -49,7 +49,7 @@ ms.openlocfilehash: d293494570b08098468927fb9857c10a0e7d03ca
 
     -   중요한 내용을 검색한 다음 전자 메일을 보내기 전에 보호 규칙을 적용하라는 경고를 보낸 사람에게 표시합니다.
 
-## 관리되는 앱 구성 요소
+## <a name="managed-app-components"></a>관리되는 앱 구성 요소
 
 -   **Microsoft Intune**에서는 정책을 구성하거나, 앱과 정책을 연결하거나, 앱 래핑 도구를 사용해 내부 앱이 모바일 응용 프로그램 관리 정책을 사용하도록 설정할 수 있습니다.
 
@@ -57,21 +57,21 @@ ms.openlocfilehash: d293494570b08098468927fb9857c10a0e7d03ca
 
 ![회사 포털 및 Microsoft Intune을 통해 관리되는 앱에 대한 정책을 처리하는 방법을 보여주는 그래픽](./media/ProtectEmail/CADataSheet-Diagram-Apps.png)
 
-## IT 관리자 환경
+## <a name="the-it-admin-experience"></a>IT 관리자 환경
 IT 관리자는 모바일 응용 프로그램 관리 정책을 만들고 앱에 정책을 연결한 다음 사용자나 장치에 앱을 배포합니다. 관리되는 앱을 장치에 설치하면 앱 제한이 적용됩니다. 관리되는 앱을 만들고 배포할 때는 추가적인 작업이 거의 또는 전혀 필요하지 않습니다.
 
 -   앱 SDK가 이미 포함된 기존 앱이 있으면 앱에 대해 제한을 적용할 수 있습니다. 따라서 다른 처리는 수행하지 않아도 되며 iTunes 또는 Google Play와 같은 앱 스토어로 이동되는 링크만 추가하면 됩니다. 관리되는 앱 목록을 확인하려면 [이 문서](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners)를 참조하세요.
 
 -   내부에서 만든 앱을 관리하려는 경우 Microsoft Intune 앱 래핑 도구를 사용해 앱을 다시 패키지하면 됩니다. 이 도구를 통해 앱을 다시 패키지하면 앱에 제한을 적용할 수 있습니다.
 
-## 최종 사용자 환경
+## <a name="the-end-user-experience"></a>최종 사용자 환경
 최종 사용자는 관리되는 앱을 설치한 다음 업무용으로 사용할 수 있습니다. 이 경우 관리되는 앱 간에만 데이터를 이동하거나 공유할 수 있습니다. 관리되는 앱 에코시스템 외부로의 데이터 이동은 차단됩니다.
 
-## 추가 정보
+## <a name="where-to-go-from-here"></a>추가 정보
 [회사 메일 및 문서](protect-corporate-email-documents.md) 및 메일 첨부 파일을 보호하는 방법에 대해 이해했으므로 [회사 메일을 보호하는 솔루션을 구현](implement-solution.md)하는 방법에 대해 알아볼 수 있습니다.
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 

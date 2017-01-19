@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: 28662db2-faea-425f-ada9-04cf1d976fc2
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: 8c40e178b70bd6fb3110174edd4ad7bfabadc53e
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: 033720647c8c284a415bd79cbc58b65e41d3e177
 
 
 ---
 
-# Microsoft Intune으로 조건부 액세스 사용
+# <a name="use-conditional-access-with-microsoft-intune"></a>Microsoft Intune으로 조건부 액세스 사용
 이 솔루션을 통해 Intune에서 조건부 액세스를 사용하여 지정한 조건에 따라 메일과 기타 서비스를 보호합니다.
 
 Intune으로 조건부 액세스 기능을 사용할 수는 방법에 대한 자세한 내용은 [Microsoft Intune으로 메일 및 O365 서비스에 대한 액세스 제한](/intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune)을 참조하세요.
@@ -28,7 +28,7 @@ Intune으로 조건부 액세스 기능을 사용할 수는 방법에 대한 자
 > [!TIP]
 > [TechNet 갤러리](https://gallery.technet.microsoft.com/protect-company-data-and-8c5e08b4)에서 이 전체 항목의 다운로드 가능한 복사본을 가져오세요.
 
-## 시작하기 전에
+## <a name="before-you-begin"></a>시작하기 전에
 다음과 같은 메일 입에서 Exchange Online 및 Exchange 온-프레미스에 대한 액세스를 제정할 수 있습니다.
 
 -   Android 4.0 이상/Samsung Knox 4.0 Standard 이상용 기본 제공 앱
@@ -43,7 +43,7 @@ Intune으로 조건부 액세스 기능을 사용할 수는 방법에 대한 자
 
 조건부 액세스를 사용하기 전에 요구 사항을 올바로 갖추었는지 확인합니다.
 
-## Exchange Online:
+## <a name="for-exchange-online"></a>Exchange Online:
 Exchange Online에 대한 조건부 액세스에서는 다음을 실행하는 장치를 지원합니다.
 
 -   Windows 8.1 이상(Intune에 등록된 경우)
@@ -71,7 +71,7 @@ Intune 및 Office 365 고객의 경우에는 AAD DRS가 자동으로 활성화�
 
     이제 [Intune으로 Exchange Online을 배포](conditional-access-intune-exchange-online.md)하는 방법을 알아볼 준비가 되었습니다.
 
-## Exchange Server 온-프레미스의 경우
+## <a name="for-exchange-server-on-premises"></a>Exchange Server 온-프레미스의 경우
 Exchange 온-프레미스에 대한 조건부 액세스는 다음을 지원합니다.
 
 -   Windows 8 이상(Intune에 등록된 경우)
@@ -100,6 +100,6 @@ Exchange 온-프레미스에 대한 조건부 액세스는 다음을 지원합�
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 

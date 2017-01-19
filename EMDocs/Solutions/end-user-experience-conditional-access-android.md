@@ -2,9 +2,9 @@
 title: "Android 장치에서의 조건부 액세스를 위한 최종 사용자 환경"
 description: "Android 장치를 등록하는 최종 사용자 환경입니다."
 keywords: 
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: swadhwa
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -14,17 +14,17 @@ ms.assetid: 0b5e4330-6fa5-445c-b73e-86ce5b9c7964
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: 637290ea42346fa231a67fec393cbea2a4a38629
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: fc06debb97cdbd3be1a241a711f36f6c530d65cf
 
 
 ---
 
-# Android
+# <a name="android"></a>Android
 
 등록 프로세스 및 사용자에게 표시되는 화면은 최종 사용자 장치에서 실행 중인 OS 버전에 따라 약간 달라집니다. 이 항목에서는 Android 장치를 등록하는 최종 사용자 환경을 설명합니다.
 
-## 등록
+## <a name="enrolling"></a>등록
 
 1.  메일에 액세스하려고 하면 먼저 다음 샘플과 유사한 격리 메일을 수신합니다.
 
@@ -86,7 +86,7 @@ ms.openlocfilehash: 637290ea42346fa231a67fec393cbea2a4a38629
 
 3.  지원 센터에 전화합니다.
 
-## 문제 및 해결 방법
+## <a name="issues-and-solutions"></a>문제 및 해결 방법
 기본적으로 8시간마다 장치를 검사하여 여전히 규격 장치인지 확인됩니다. 이전에 규격이던 장치가 나중에 비규격 장치로 판단되는 경우(예: 준수 정책 추가 또는 변경 시) 사용자는 다음 단계를 따라 장치를 준수 상태로 되돌릴 수 있습니다.
 
 1.  장치가 비규격 상태임을 알리는 메일 알림이나 장치 메시지가 사용자에게 수신됩니다. 이때 장치는 Exchange에서 격리됩니다.
@@ -103,11 +103,11 @@ ms.openlocfilehash: 637290ea42346fa231a67fec393cbea2a4a38629
 
 5.  문제가 해결되었다면 사용자는 **계속** 을 클릭하여 프로세스를 마칩니다. 몇 분 내에 메일에 다시 액세스할 수 있습니다.
 
-### 추가 정보
+### <a name="where-to-go-from-here"></a>추가 정보
 최종 사용자 환경은 다른 모바일 장치와 약간 다릅니다. [iOS](end-user-experience-conditional-access-ios.md) 및 [Windows Phone](end-user-experience-conditional-access-winphone.md)의 최종 사용자 환경에 대한 자세한 정보를 확인할 수 있습니다.
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 
