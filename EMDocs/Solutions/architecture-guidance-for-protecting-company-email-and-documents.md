@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: 66732b444e6a449256a7929324d7b26e3e814f15
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: 43594d947f3fa081a777eee6081c83b35621a9bf
 
 
 ---
 
-# 회사 메일 및 문서를 보호하기 위한 아키텍처 지침
+# <a name="architecture-guidance-for-protecting-company-email-and-documents"></a>회사 메일 및 문서를 보호하기 위한 아키텍처 지침
 이 항목은 최종 사용자 환경이 단순하고 생산성에 영향을 주지 않도록 하면서 회사를 위한 데이터 보호 방법에 대해 개괄하는 것으로 시작합니다. 그런 다음 Microsoft Enterprise Mobility + Security 솔루션을 사용하여 회사 메일에 안전하게 액세스하도록 돕고 메일 및 첨부 파일에 있는 회사 데이터를 보호하는 데 도움이 될 수 있는 방법에 대해 구체적으로 살펴볼 것입니다.
 
 이 섹션에서는 회사 메일 및 문서를 보호하기 위한 아키텍처에 대해 설명합니다. 솔루션 배포에 대한 지침은 [Learn more about how to deploy a solution for protecting company email and documents(회사 메일 및 문서를 보호하는 솔루션을 배포하는 방법에 대해 자세히 알아보기)](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md)를 참조하세요.
@@ -46,7 +46,7 @@ ms.openlocfilehash: 66732b444e6a449256a7929324d7b26e3e814f15
 
 최종 사용자는 개인 장치를 사용하여 회사 업무를 수행하기를 원하며, 가장 흔히 액세스하는 응용 프로그램은 전자 메일이므로 IT에서 가장 먼저 수행해야 하는 단계는 전자 메일의 중요 데이터가 손상되지 않도록 하면서 최종 사용자가 자신의 장치에서 회사 전자 메일에 액세스할 수 있도록 하는 것입니다.
 
-## 개요
+## <a name="overview"></a>개요
 Microsoft는 ID, 모바일 장치 관리, 앱 관리 및 데이터 보호를 위한 포괄적 솔루션인 EMS(Enterprise Mobility + Security)를 제공합니다. EMS는 IT 부서가 거의 모든 장치에서 전자 메일, 데이터 및 회사 응용 프로그램에 대한 액세스를 관리할 수 있도록 하는 계층형 보안 모델을 제공합니다.
 
 EMS는 다음과 같은 클라우드 서비스로 구성됩니다.
@@ -65,7 +65,7 @@ Intune에서 관리하는 앱에는 이 솔루션의 주요 요소인 Office 모
 
 직원이 다른 부서로 이동하거나 장치를 분실하는 경우 EMS는 장치에서 회사 데이터를 선택하여 원격으로 지우는 옵션을 제공합니다. 이 작업은 최종 사용자나 IT 관리자가 수행할 수 있습니다.
 
-## EMS에서 데이터를 보호하는 방법
+## <a name="how-ems-can-help-protect-your-data"></a>EMS에서 데이터를 보호하는 방법
 ID, 장치, 앱 및 데이터용 4계층 보안 모델은 필요한 사용자만 관리자가 구성한 준수 정책 집합을 충족하는 장치를 사용하여 관리되는 앱의 범위 내에서 회사 리소스에 액세스하는지를 확인합니다.
 
 ![ID, 장치, 앱 및 데이터에 대한 4개로 계층화된 보안 모델을 보여주는 그래픽](./media/ProtectEmail/Protecting_your_data.png)
@@ -78,7 +78,7 @@ ID, 장치, 앱 및 데이터용 4계층 보안 모델은 필요한 사용자만
 
 *Azure Information Protection(이전 서비스: Azure RMS)*에서는 파일 수준에서 데이터를 보호함으로써 보안 모델을 완성합니다. 데이터에 적용되는 보안 정책은 데이터를 이동하면 함께 이동하므로 데이터에 액세스하는 데 사용하는 장치와 관계없이 전송 중인 데이터와 보관 중인 데이터가 모두 안전하게 유지됩니다. 이러한 보호가 적용되는 계층이 보안 모델의 **데이터 계층** 입니다.
 
-## 추가 정보
+## <a name="where-to-go-from-here"></a>추가 정보
 - 평가용 계정을 등록하고 시작하려면 이 비디오를[시청](https://www.youtube.com/watch?v=ltcZvm4VOFU) 하세요.
 
 - [Mobile Device Management Design Considerations Guide(모바일 장치 관리 디자인 고려 사항 가이드)](mdm-design-considerations-guide.md)를 참고하여 모바일 장치 관리 디자인 요구 사항을 파악하세요.
@@ -100,6 +100,6 @@ ID, 장치, 앱 및 데이터용 4계층 보안 모델은 필요한 사용자만
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 
