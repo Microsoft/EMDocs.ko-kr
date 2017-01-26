@@ -14,8 +14,8 @@ ms.assetid: fd951f10-6404-43a3-8f2f-464f5b5003ac
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f6e0986ce867f1167e202c95535cca778ad30434
-ms.openlocfilehash: 8ca47fecd7d8cde512587ee01801290a0cb62bfb
+ms.sourcegitcommit: 46a7ebaf91f4bc10026b0ddc5c5a383c1b8633c7
+ms.openlocfilehash: f611ba88fb26ab113125912beb1a8d0c40160f47
 
 
 ---
@@ -27,8 +27,10 @@ ms.openlocfilehash: 8ca47fecd7d8cde512587ee01801290a0cb62bfb
 
 FastTrack 센터 프로세스 및 담당자에 대해 알아보려면 [EMS(Enterprise Mobility + Security)용 FastTrack 센터 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)를 참조하세요.
 
+조직 내의 EMS 도입을 촉진하도록 회사 로고와 함께 사용자 지정할 수 있는 EMS(Enterprise Mobility + Security) "방법" 가이드와 메일이 포함된 .zip 파일을 다운로드하려면 [FastTrack for EMS How To Guides & Emails to Customize](https://gallery.technet.microsoft.com/FastTrack-for-EMS-How-To-f170da4c)(EMS FastTrack 가이드와 메일을 사용자 지정하는 방법)를 참조하세요.
 
 
-<!--HONumber=Nov16_HO3-->
+
+<!--HONumber=Jan17_HO1-->
 
 

@@ -2,26 +2,25 @@
 title: "IT 관리자를 위한 최종 사용자 Intune 등록 지침"
 description: "IT 관리자를 위한 최종 사용자 Intune 등록 지침"
 keywords: 
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: jeffgilb
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
 ms.date: 09/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: ems
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 5c13446e-aa31-47df-ad9d-373be7660197
-ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: dab9c133dd5a79afef07291405c2ac25218ca715
-ms.openlocfilehash: 9c01c3c380edfa02d4055a84d59588552f092ea8
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: 698af6701d756beac696648addbef11d709764fa
 
 
 ---
 
-# IT 관리자를 위한 최종 사용자 Intune 등록 지침
+# <a name="end-user-intune-enrollment-instructions-for-it-administrators"></a>IT 관리자를 위한 최종 사용자 Intune 등록 지침
 
 이 문서에는 Microsoft Intune™에서 iOS 및 Android 장치를 등록하는 데 도움이 되도록 사용자에게 사용자 지정하여 제공할 수 있는 등록 지침이 포함되어 있습니다(Windows 장치의 경우 Intune에서 Windows 장치 사용 참조). 사용자에게 가장 적합하다고 생각되는 이 문서의 부분을 복사하는 것이 좋습니다. 예를 들어 각 장치 플랫폼을 위한 단일 문서를 생성하거나 더 많은 스크린샷을 추가할 수 있습니다.
 
@@ -30,12 +29,12 @@ ms.openlocfilehash: 9c01c3c380edfa02d4055a84d59588552f092ea8
 > [!NOTE]
 > Microsoft, Intune 및 Office 365는 Microsoft Corporation의 등록 상표입니다. iPhone, Mac 및 Apple은 Apple, Inc.의 상표입니다. Android는 Google Inc.의 상표입니다. Samsung KNOX는 Samsung Electronics Co., Ltd.의 상표입니다.
 
-## Intune에서 등록하는 이유
+## <a name="why-enroll-in-intune"></a>Intune에서 등록하는 이유
 등록할 때 모바일 장치를 사용하여 회사 또는 학교 파일 및 데이터에 액세스할 수 있습니다. 또한 선호하는 장치를 자유롭게 사용하여 작업을 완료하는 동안 IT 부서에서 해당 회사 또는 학교 리소스를 관리하고 보안을 유지할 수 있습니다.
 
 회사에서 장치를 사용하려면 회사 포털을 사용하여 Intune에서 장치를 등록합니다. 그런 다음 손쉽게 설치할 회사 앱을 찾고, 사용자가 추가한 다른 장치를 확인하며, IT 관리자의 연락처 정보를 찾을 수 있습니다. 회사 포털에 장치를 추가하면 IT 관리자가 장치의 회사 정보를 보호하기 위해 사용자의 장치를 관리할 수 있는 권한도 부여하는 것입니다. 등록을 시작하기 전에 Wi-Fi 또는 셀룰러와 인터넷의 연결 상태가 양호한지 확인합니다.
 
-## Intune 회사 포털 앱을 사용하여 Intune에서 Android 장치 등록
+## <a name="enroll-your-android-device-in-intune-using-the-intune-company-portal-app"></a>Intune 회사 포털 앱을 사용하여 Intune에서 Android 장치 등록
 
 이러한 등록 단계는 Samsung Knox Android 장치와 "네이티브"(Samsung Knox가 아닌) Android 장치에 대한 것입니다. Samsung Knox 장치가 있는지 확인하려면 **설정 > 휴대폰 정보**로 이동합니다. 여기에 나열된 "Knox"라는 단어가 보이지 않으면 네이티브 Android 장치가 있어야 합니다. 장치에 표시된 화면은 이 섹션의 화면과 약간 다르게 보일 수 있습니다.
 
@@ -57,10 +56,10 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 
   - **회사 포털에 연락처에 대한 액세스를 허용할까요?** 메시지가 표시되면 **허용**을 탭합니다. Microsoft는 결코 연락처에 액세스하지 않으므로 허용을 탭하는 것이 안전합니다. Google이 메시지 텍스트를 제어하므로 Microsoft에서 변경할 수 없습니다. 액세스를 허용하는 경우 회사 포털 앱이 장치에 발생한 문제를 해결하기 위해 데이터 로그에 액세스할 수 있습니다.
 
-        ![Screenshot asking user to allow portal to access contacts on an Android device](./media/ft-userEnrollAndroid-3-accessContacts.png)
+        ![포털이 Android 장치의 연락처에 액세스할 수 있도록 허용할지 묻는 스크린샷](./media/ft-userEnrollAndroid-3-accessContacts.png)
   - **회사 포털에서 통화를 하고 전화 통화를 관리하도록 허용할까요?** 메시지가 표시되면 **허용**을 탭합니다. Microsoft는 결코 전화를 걸거나 전화 통화를 관리하지 않으므로 허용을 탭하는 것이 안전합니다. Google이 메시지 텍스트를 제어하므로 Microsoft에서 변경할 수 없습니다. 액세스를 허용할 경우 회사 포털 앱에서 전화 번호 및 IMEI라는 ID를 볼 수 있도록 허용하는 것뿐입니다.
 
-        ![Screenshot asking user to allow portal to manage phone calls on an Android device](./media/ft-userEnrollAndroid-4-manageCalls.png)
+        ![포털이 Android 장치의 통화를 관리할 수 있도록 허용할지 묻는 스크린샷](./media/ft-userEnrollAndroid-4-manageCalls.png)
 
   **거부**를 탭하면 다음에 회사 포털 앱에 로그인할 때 메시지가 다시 표시되지만, **다시 묻지 않음** 확인란을 탭하여 이후 메시지를 해제할 수 있습니다. 나중에 액세스를 허용하려는 경우 **설정 > 앱 > 회사 포털 > 사용 권한 > 전화**로 이동한 다음 사용 권한을 설정합니다.
 6.  회사 또는 학교 계정과 암호를 사용하여 회사 포털 앱에 로그인하고 **로그인**을 탭합니다.
@@ -104,7 +103,7 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 16. 이제 Intune에 장치를 등록했으므로 회사 포털 앱으로 다시 이동합니다.
 17. 회사 앱을 설치하기 전에 **설정 > 보안**으로 이동하고 **알 수 없는 소스**를 설정합니다. 앱을 설치하기 전에 이 옵션을 설정하지 않으면 "설치가 차단되었습니다. 보안상의 이유로 휴대폰이 알 수 없는 소스에서 가져온 앱의 설치를 차단하도록 설정되었습니다."라는 메시지가 표시됩니다. 오류 대화 상자에서 **설정**을 탭하여 **알 수 없는 소스** 옵션으로 이동할 수 있습니다.
 
-## Intune에서 iOS 장치 등록
+## <a name="enroll-your-ios-device-in-intune"></a>Intune에서 iOS 장치 등록
 다음 지침에 따라 Intune에서 iOS 장치를 등록합니다. 등록에 대한 자세한 내용은 [Intune에서 회사 포털 앱을 설치하고 장치를 등록하면 어떻게 되나요?](https://technet.microsoft.com/library/mt598622(TechNet.10).aspx#BKMK_ios_what_happ_enroll)를 참조하세요. Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리자에게 등록 오류 보내기](https://technet.microsoft.com/library/mt598622(TechNet.10).aspx#BKMK_ios_error_enrolling_tbl)를 참조하세요.
 
 등록하기 전이나 이후에 장치 사용 방법을 가장 잘 설명하는 범주를 선택하라는 메시지가 표시될 수도 있습니다. IT 관리자는 이 범주를 사용하여 액세스할 수 있는 앱을 확인합니다.
@@ -153,7 +152,7 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 
 이제 Intune에 장치를 등록했으므로 회사 포털 앱으로 다시 이동합니다.
 
-## Intune에서 Mac OS X 장치 등록
+## <a name="enroll-your-mac-os-x-device-in-intune"></a>Intune에서 Mac OS X 장치 등록
 1.  Safari 브라우저를 사용하여 [회사 포털 웹 사이트](https://portal.manage.microsoft.com/)를 열고 알림 표시줄을 탭합니다.
 2.  **이 장치는 등록되지 않았거나 회사 포털에서 해당 장치를 식별할 수 없습니다.**를 탭합니다.
 
@@ -169,11 +168,11 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 
   ![Mac OS X 장치에서 관리 프로필이 확인되었음을 보여 주는 스크린샷](./media/ft-userEnrollMacOSx-4-profileVerified.png)
 
-### 더 자세한 내용을 원하세요?
+### <a name="want-to-learn-more"></a>더 자세한 내용을 원하세요?
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.
 
 
 
-<!--HONumber=Nov16_HO3-->
+<!--HONumber=Jan17_HO1-->
 
 

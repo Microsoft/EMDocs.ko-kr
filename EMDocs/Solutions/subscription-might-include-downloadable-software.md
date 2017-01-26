@@ -8,16 +8,16 @@ manager: jeffgilb
 ms.date: 06/08/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: ems
 ms.technology: 
 ms.assetid: 9d031fa7-9c07-48c5-b915-6525aea54870
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: a95670d089a8aa3cb05c4d2ff421b0af9c9c0b79
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: d78ac8d2d569b95b32650266fa64a0232bdeacbd
 
 ---
 
-# 유료 Microsoft Intune 또는 Enterprise Mobility 구독에는 특정 소프트웨어를 다운로드할 수 있는 라이선스가 포함되어 있을 수 있음
+# <a name="your-paid-microsoft-intune-or-enterprise-mobility-subscription-might-include-a-license-to-use-certain-downloadable-software"></a>유료 Microsoft Intune 또는 Enterprise Mobility 구독에는 특정 소프트웨어를 다운로드할 수 있는 라이선스가 포함되어 있을 수 있음
 
 유료 Microsoft Online Services 구독에는 다음 소프트웨어가 포함되어 있을 수 있습니다.  계약 약관을 검토하여 사용이 허가된 소프트웨어를 확인할 수 있습니다.
 
@@ -40,6 +40,6 @@ ms.openlocfilehash: a95670d089a8aa3cb05c4d2ff421b0af9c9c0b79
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 
