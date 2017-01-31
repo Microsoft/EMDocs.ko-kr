@@ -1,10 +1,10 @@
 ---
-title: "첫 번째 관문에서 보호 | Azure Active Directory ID 보호"
+title: "첫 번째 관문에서 보호 | Microsoft 문서"
 description: "Enterprise Mobility + Security에서 Microsoft Azure Active Directory Identity Protection 및 Azure Active Directory Privileged Identity Management 기능을 활용하여 ID를 보호함으로써 회사 리소스에 대한 액세스 보안을 유지하는 방법을 설명하는 시나리오입니다."
 author: yuridio
 ms.author: yurid
 manager: swadhwa
-ms.date: 12/07/2016
+ms.date: 01/23/2017
 ms.topic: solution
 ms.prod: 
 ms.service: active-directory
@@ -14,8 +14,8 @@ ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: microsoft-identity-manager
 translationtype: Human Translation
-ms.sourcegitcommit: 02b0e611805ad2214b1b108b8c466590aad7999a
-ms.openlocfilehash: c61f68b5922373ffe5509ddb80a158d6a9757ff1
+ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
+ms.openlocfilehash: 7912b13666c9b08af0c6d962fe1ea592335ca73d
 
 
 ---
@@ -112,7 +112,7 @@ Azure AD Privileged Identity Management에 액세스하려면 먼저 [Marketplac
 
 ### <a name="step-5-configure-azure-ad-privileged-identity-management"></a>5단계: Azure AD Privileged Identity Management 구성
 
-초기 구성은 **조직 보호** 블레이드에 표시된 3개 단계로 진행되는 [보안 마법사](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-security-wizard/)를 사용하여 수행됩니다.
+초기 구성은 **조직 보호** 블레이드에 표시된&3;개 단계로 진행되는 [보안 마법사](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-security-wizard/)를 사용하여 수행됩니다.
 
 ![보안 마법사](./media/protect-front-door/protect-front-door-fig9.png)
 
@@ -130,6 +130,6 @@ Azure AD Privileged Identity Management를 설치 및 구성했으므로 초기 
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

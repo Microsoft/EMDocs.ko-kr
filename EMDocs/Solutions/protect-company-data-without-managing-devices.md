@@ -1,10 +1,10 @@
 ---
-title: "Intune으로 장치를 관리하지 않고 회사 데이터 보호 | Microsoft Docs"
+title: "장치를 관리하지 않고 회사 데이터 보호 | Microsoft 문서"
 description: "EMS는 Microsoft Intune의 혁신적인 데이터 손실 방지 기능을 제공합니다. EMS를 사용하면 장치를 관리할 필요 없이 회사 데이터를 보호할 수 있고 직원이 익숙하게 느끼는 Office 365 앱의 최상의 사용자 경험을 그대로 유지할 수 있습니다."
 keywords: 
 author: jeffgilb
 manager: swadhwa
-ms.date: 12/15/2016
+ms.date: 01/23/2017
 ms.topic: solution
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: b46877f3-cf32-4919-ba63-4df55cd2af32
 ms.reviewer: vlpetros
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 83e901c3f5d9e6e35aea989de146e59ddc3354ef
-ms.openlocfilehash: 19d2c610417667aec3346ac7d25d2bac95c7d8ba
+ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
+ms.openlocfilehash: 5a0eef972374efefff886ab9dbf7b6a7e4f7aab7
 
 
 ---
@@ -40,7 +40,7 @@ Intune MDM에 사용자 장치를 등록하지 않고 Intune의 혁신적인 응
 
 - **Intune 모바일 앱 보호 정책을 사용하여 앱 데이터를 보호**합니다. 이 섹션에서는 관리 대상이 아닌 모바일 장치 사용자에게 데이터 손실 방지 기능(예: copy/paste/save as/PIN/encryption/selective wipe/etc.)을 제공하기 위해 Microsoft Intune 응용 프로그램 보호 정책을 만들고 배포하는 방법을 설명합니다. 
 
-- **Intune MAM 정책을 지원하는 모바일 앱만 Office 365 서비스에 액세스하도록 허용** 이 섹션에서는 Intune MAM 정책을 지원하는 모바일 앱만 Exchange Online과 같은 Office 365 서비스 액세스에 허용하는 정책을 만드는 방법을 배울 수 있습니다.
+- **Intune MAM 정책을 지원하는 모바일 앱만 Office 365 서비스에 액세스하도록 허용** 이 섹션에서는 Intune MAM 정책을 지원하는 모바일 앱만 Exchange Online과 같은 Office&365; 서비스 액세스에 허용하는 정책을 만드는 방법을 배울 수 있습니다.
 
 ## <a name="protect-app-data-with-intune-mobile-app-protection-policies"></a>Intune 모바일 앱 보호 정책을 사용하여 앱 데이터 보호
 
@@ -96,6 +96,6 @@ Exchange Online에 대한 조건부 액세스 정책이 있으면 사용자는 A
 
 
 
-<!--HONumber=Jan17_HO1-->
+<!--HONumber=Jan17_HO4-->
 
 

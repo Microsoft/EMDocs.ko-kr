@@ -1,10 +1,10 @@
 ---
-title: "Microsoft Intune을 사용하여 Office 365 회사 데이터 보호 | Microsoft 문서"
+title: "Office 365 회사 데이터 보호 | Microsoft 문서"
 description: "EMS와 Office 365는 사용자에게 뛰어난 생산성 표준을 제공하고 IT 직원에게 긴밀히 통합된 데이터 제어 기능을 제공하는 완전 관리형 모바일 생산성 솔루션을 제공합니다."
 keywords: 
 author: jeffgilb
 manager: swadhwa
-ms.date: 1/18/2017
+ms.date: 1/23/2017
 ms.topic: solution
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: cc0d2e1f-9c34-4dcb-ac1f-2f355e9ebb7e
 ms.reviewer: vlpetros
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 6f7b68c5be373752eaf272a05023e611e6ac5e5d
-ms.openlocfilehash: e81e3d5bdfdaf464de5c72aa6d87aa8d802674a5
+ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
+ms.openlocfilehash: d7e15962a95135dbb16cb41e2643c602b87039cf
 
 
 ---
@@ -145,6 +145,6 @@ Intune의 WIP 정책은 관리되는 Windows 10 장치에서 잠재적인 데이
 
 
 
-<!--HONumber=Jan17_HO3-->
+<!--HONumber=Jan17_HO4-->
 
 

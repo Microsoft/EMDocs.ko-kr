@@ -1,10 +1,10 @@
 ---
-title: "분류, 레이블 지정 및 보호를 사용하여 데이터 보호 | Azure Information Protection"
+title: "분류, 레이블 지정 및 보호를 사용하여 데이터 보안 유지 | Microsoft 문서"
 description: "Enterprise Mobility + Security에서 Microsoft Azure Information Protection 기능을 활용하여 어떻게 데이터를 분류하고, 레이블을 지정하고, 보호할 수 있는지를 설명하는 시나리오."
 author: yuridio
 ms.author: yurid
 manager: swadhwa
-ms.date: 12/07/2016
+ms.date: 01/23/17
 ms.topic: solution
 ms.prod: 
 ms.service: rights-management
@@ -13,21 +13,21 @@ ms.assetid: 65409d5c-4f1b-4026-86e9-e65e1c4fe2b4
 ms.reviewer: v-craic
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 21e63bcbff30443152d9359a7a284dc9e4e4190f
-ms.openlocfilehash: fa48af13aac6e66fa111ac4c2156e0a23005028e
+ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
+ms.openlocfilehash: 88359b6542ce8524095af2b7ce1df4674b655b82
 
 
 ---
 
-# <a name="secure-data-using-classification-labeling-and-protection"></a>분류, 레이블 지정 및 보호를 사용하여 데이터 보안 유지 
+# <a name="secure-data-using-classification-labeling-and-protection"></a>분류, 레이블 지정 및 보호를 사용하여 데이터 보안 유지
 
 오늘날 조직 경계를 너머 여러 장치를 통해 정보 공유가 진행되고 있습니다.  사용자들이 업무 수행에 중요한 데이터를 안전하게 공유할 수 있도록 하면서 이러한 프로세스 중에 중요한 회사 데이터가 노출되지 않도록 하는 것이 매우 중요합니다. 아웃소싱과 같은 추세가 늘어나면서 계약업체 및 공급업체와 회사 기밀 데이터를 공유해야 할 수 있습니다. 모든 콘텐츠에 동일한 보호가 필요한 것은 아니므로 기업은 보호가 필요한 데이터와 그렇지 않은 데이터를 식별해야 합니다.
 
 Enterprise Mobility + Security로 어떻게 이 시나리오를 해결할 수 있는지 자세히 알아보세요.
 
 ## <a name="how-can-enterprise-mobility--security-help-you"></a>Enterprise Mobility + Security는 어떤 이점이 있나요?
- 
-EMS(Enterprise Mobility + Security)는 ID, 장치, 앱, 데이터 등의 4단계 보호 기능으로 장치뿐 아니라 그 이상에서 기업 데이터를 보호하는 유일한 포괄적인 클라우드 솔루션입니다. EMS는 모바일 중심, 클라우드 중심 환경의 핵심 과제 중 하나인, 업무 중인 직원에게 보안 데이터를 제공하는 문제를 해결해 줍니다. EMS를 사용하면 직원들이 조직 내외부에서 안전하게 공동 작업을 수행할 수 있습니다. IT 관리자는 EMS를 통해 Azure Information Protection을 활용하여 파일 수준에서 회사 데이터의 보안을 유지할 수 있습니다. 이 기능을 사용하여 저장 위치, 공유 대상, 데이터가 정지 상태인지 전송 중인지에 관계없이, 항상 보호되도록 할 수 있습니다. 
+
+EMS(Enterprise Mobility + Security)는 ID, 장치, 앱, 데이터 등의&4;단계 보호 기능으로 장치뿐 아니라 그 이상에서 기업 데이터를 보호하는 유일한 포괄적인 클라우드 솔루션입니다. EMS는 모바일 중심, 클라우드 중심 환경의 핵심 과제 중 하나인, 업무 중인 직원에게 보안 데이터를 제공하는 문제를 해결해 줍니다. EMS를 사용하면 직원들이 조직 내외부에서 안전하게 공동 작업을 수행할 수 있습니다. IT 관리자는 EMS를 통해 Azure Information Protection을 활용하여 파일 수준에서 회사 데이터의 보안을 유지할 수 있습니다. 이 기능을 사용하여 저장 위치, 공유 대상, 데이터가 정지 상태인지 전송 중인지에 관계없이, 항상 보호되도록 할 수 있습니다.
 
 ## <a name="recommended-solution"></a>권장 솔루션
 
@@ -72,23 +72,23 @@ Azure Rights Management를 활성화하면 이 정보 보호 솔루션이 지원
 
 - 민감도에 따라 데이터 분류
 - 가장 중요한 데이터부터 시작
-- IT 부서에서 자동 규칙을 설정할 수 있으며 사용자가 구현할 수 있음 
+- IT 부서에서 자동 규칙을 설정할 수 있으며 사용자가 구현할 수 있음
 - 시각적 표시 및 보호 등의 작업 연결
 
 다음 다이어그램은 이러한 지침을 구현하는 방법의 예제를 보여 줍니다.
 
 ![분류](./media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig3.png)
 
-Azure Information Protection은 사용자 지정 가능한 기본 레이블과 함께 제공되지만 사용자의 Information Protection 표시줄에 표시되는 고유의 레이블 또는 하위 레이블을 [사용자 지정](/information-protection/deploy-use/configure-policy-new-label.md)하고 만들 수도 있습니다. 
+Azure Information Protection은 사용자 지정 가능한 기본 레이블과 함께 제공되지만 사용자의 Information Protection 표시줄에 표시되는 고유의 레이블 또는 하위 레이블을 [사용자 지정](/information-protection/deploy-use/configure-policy-new-label.md)하고 만들 수도 있습니다.
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > 레이블은 문서에 기록되는 메타데이터입니다. 레이블은 DLP 엔진과 같은 기타 시스템에서 읽을 수 있도록 일반 텍스트로 표시됩니다.
 
 다음 예제에서는 **Secret** 레이블 아래에서 생성된 사용자 지정 하위 레이블을 볼 수 있습니다.
 
 ![Label](./media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig4.png)
 
-레이블을 사용하는 방식(기본 또는 사용자 지정)을 정의한 후에는 [Rights Management 보호를 적용하도록 레이블을 구성](/information-protection/deploy-use/configure-policy-new-label.md)합니다. 
+레이블을 사용하는 방식(기본 또는 사용자 지정)을 정의한 후에는 [Rights Management 보호를 적용하도록 레이블을 구성](/information-protection/deploy-use/configure-policy-new-label.md)합니다.
 
 ### <a name="step-3-implement-content-based-automatic-classification"></a>3단계: 콘텐츠 기반 자동 분류 구현
 
@@ -111,6 +111,6 @@ IT 관리자는 데이터에 분류 및 보호를 자동으로 적용하기 위�
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 
