@@ -3,8 +3,8 @@ title: "Microsoft Intune을 사용하여 온-프레미스 데이터 보호 | Mic
 description: "EMS(Enterprise Mobility + Security)를 사용하면 직원들이 즐겨 사용하는 앱 및 장치로 직원 생산성을 유지할 수 있고 온-프레미스 회사 데이터도 보호할 수 있습니다."
 keywords: 
 author: jeffgilb
-manager: swadhwa
-ms.date: 01/23/2017
+manager: angrobe
+ms.date: 02/03/2017
 ms.topic: solution
 ms.prod: 
 ms.service: microsoft-intune
@@ -66,6 +66,7 @@ Exchange 온-프레미스에 대해 Intune 조건부 액세스 정책을 사용�
 -   Windows 10 Desktop 및 Mobile
 -   iOS&8;.0 이상
 -   Android(삼성 Knox Standard 4.0 이상 및 Android for Work)
+
 > [!NOTE]
 > Intune에서는 Google Play 스토어에 있는 Gmail 및 Nine Work 메일 앱에 대해 Android for Work 메일 프로필 구성을 지원합니다.
 
