@@ -1,7 +1,7 @@
 # 솔루션
 ## [EMS(Enterprise Mobility + Security)에 대해 알아보기](learn-about-ems.md)
 ## [EMS(Enterprise Mobility + Security) 사용 시작](ems-get-started.md)
-## [ID 및 액세스 관리](manage-access-at-scale.md)
+## [ID 및 액세스 관리](thousands-apps-one-identity.md)
 ### [수천 개의 응용 프로그램, 하나의 ID](thousands-apps-one-identity.md)
 ### [경계 없는 비즈니스 지원](enable-business-without-borders.md)
 ### [대규모 액세스 관리](manage-access-at-scale.md)
@@ -14,6 +14,7 @@
 ### [분류, 레이블 지정 및 보호를 사용하여 데이터 보안 유지](infoprotect-secure-classify-scenario.md)
 ### [내부 및 외부에서 중요한 데이터 공유](share-sensitive-data.md)
 ### [공유 데이터의 사용을 추적하고 데이터 남용에 대응](infoprotect-track-usage-scenario.md)
+### [데이터 보안 유지에서 Azure Information Protection의 역할](azure-information-protection-securing-data.md)
 ## [관리되는 모바일 생산성](protect-office365-data-with-intune.md)
 ### [Intune을 사용하여 Office 365 회사 데이터 보호](protect-office365-data-with-intune.md)
 ### [Intune으로 온-프레미스 회사 데이터 보호](protect-on-premises-data-with-intune.md)
@@ -99,6 +100,6 @@
 ## [EMS 지원 질문과 대답](ems-support-faq.md)
 
 
-<!--HONumber=Jan17_HO1-->
+<!--HONumber=Feb17_HO1-->
 
 
