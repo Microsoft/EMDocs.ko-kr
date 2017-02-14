@@ -1,25 +1,26 @@
 # 솔루션
 ## [EMS(Enterprise Mobility + Security)에 대해 알아보기](learn-about-ems.md)
 ## [EMS(Enterprise Mobility + Security) 사용 시작](ems-get-started.md)
-## [ID 및 액세스 관리](thousands-apps-one-identity.md)
+## [ID 및 액세스 관리]()
 ### [수천 개의 응용 프로그램, 하나의 ID](thousands-apps-one-identity.md)
 ### [경계 없는 비즈니스 지원](enable-business-without-borders.md)
 ### [대규모 액세스 관리](manage-access-at-scale.md)
 ### [클라우드 기반 보호](cloud-powered-protection.md)
-## [ID 기반 보안](protect-front-door.md)
+## [ID 기반 보안]()
 ### [첫 번째 관문에서 보호](protect-front-door.md)
 ### [사용자 실수로부터 데이터 보호](protect-data-user-mistake.md)
 ### [손상을 입기 전에 공격 감지](detect-attacks-before-damage.md)
-## [정보 보호](infoprotect-secure-classify-scenario.md)
+## [정보 보호]()
 ### [분류, 레이블 지정 및 보호를 사용하여 데이터 보안 유지](infoprotect-secure-classify-scenario.md)
 ### [내부 및 외부에서 중요한 데이터 공유](share-sensitive-data.md)
 ### [공유 데이터의 사용을 추적하고 데이터 남용에 대응](infoprotect-track-usage-scenario.md)
 ### [데이터 보안 유지에서 Azure Information Protection의 역할](azure-information-protection-securing-data.md)
-## [관리되는 모바일 생산성](protect-office365-data-with-intune.md)
+## [관리되는 모바일 생산성]()
 ### [Intune을 사용하여 Office 365 회사 데이터 보호](protect-office365-data-with-intune.md)
 ### [Intune으로 온-프레미스 회사 데이터 보호](protect-on-premises-data-with-intune.md)
 ### [Intune으로 장치를 관리하지 않고 회사 데이터 보호](protect-company-data-without-managing-devices.md)
-## [설계 및 아키텍처 가이드](byod-design-considerations-guide.md)
+### [Intune으로 BYOD를 사용 하도록 설정](enable-byod.md)
+## [설계 및 아키텍처 가이드]()
 ### [BYOD 디자인 가이드](byod-design-considerations-guide.md)
 #### [인프라 솔루션 구상](byod-envisioning-the-byod-infrastructure-solution.md)
 ##### [사용자 및 장치 요구 사항](byod-user-device-reqs.md)
@@ -100,6 +101,6 @@
 ## [EMS 지원 질문과 대답](ems-support-faq.md)
 
 
-<!--HONumber=Feb17_HO1-->
+<!--HONumber=Feb17_HO2-->
 
 
