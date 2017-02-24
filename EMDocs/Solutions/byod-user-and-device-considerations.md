@@ -5,7 +5,7 @@ keywords:
 author: YuriDio
 ms.author: yurid
 manager: swadhwa
-ms.date: 11/28/2016
+ms.date: 02/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -70,7 +70,7 @@ IT 부서는 장치에 대한 지식이 필요한지를 결정해야 합니다. 
 - 접근 방식 3(1+2): 각 사용자의 장치에 관리 에이전트를 등록하고 설치
 
 
-### <a name="unknown-to-known-device-options-advantages-and-disadvantages"></a>알려지지 않은 장치 및 알려진 장치 옵션 — 장점 및 단점
+### <a name="unknown-to-known-device-options--advantages-and-disadvantages"></a>알려지지 않은 장치 및 알려진 장치 옵션 — 장점 및 단점
 
 아래 목록을 사용하여 각 알려지지 않은 장치 및 알려진 장치 옵션의 장단점을 이해합니다.
 
@@ -117,7 +117,7 @@ DRS를 사용하려면 관리 기능을 제공하지 않는다는 점을 알고 
 
 사용자의 장치에서 인터넷을 통해 액세스할 수 있는 공용 클라우드에 회사 리소스가 있는 경우 트래픽이 처리되는 방식을 고려해야 합니다. 데이터가 사용자의 장치에서 클라우드 공급자로 전송되는 동안 암호화를 사용하는 것이 좋습니다. 사용자가 내부 리소스에 액세스하고 있으면 데이터 암호화도 사용해야 합니다.
 
-### <a name="network-connectivity-options-advantages-and-disadvantages"></a>네트워크 연결 옵션 — 장점 및 단점
+### <a name="network-connectivity-options--advantages-and-disadvantages"></a>네트워크 연결 옵션 — 장점 및 단점
 
 아래 목록을 사용하여 각 연결 옵션의 장단점을 이해합니다.
 

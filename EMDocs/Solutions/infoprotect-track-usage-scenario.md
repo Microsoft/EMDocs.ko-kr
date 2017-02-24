@@ -3,7 +3,7 @@ title: "공유 데이터의 사용을 추적하고 데이터 남용에 대응 | 
 description: "EMS(Enterprise Mobility + Security)를 사용하여 공유 데이터 사용을 추적하고 Azure Rights Management 기능을 활용하여 데이터 남용에 대응하는 방법을 설명하는 시나리오입니다."
 author: yuridio
 manager: swadhwa
-ms.date: 01/23/17
+ms.date: 02/23/2017
 ms.topic: solution
 ms.prod: 
 ms.service: rights-management
