@@ -4,7 +4,7 @@ description: "Enterprise Mobility + Security에서 Microsoft Azure Information P
 author: yuridio
 ms.author: yurid
 manager: swadhwa
-ms.date: 01/23/17
+ms.date: 02/21/17
 ms.topic: solution
 ms.prod: 
 ms.service: rights-management
@@ -13,8 +13,8 @@ ms.assetid: 65409d5c-4f1b-4026-86e9-e65e1c4fe2b4
 ms.reviewer: v-craic
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
-ms.openlocfilehash: 88359b6542ce8524095af2b7ce1df4674b655b82
+ms.sourcegitcommit: 34d04195000f7cdb5a9efdfa31788a12cc8d8d5b
+ms.openlocfilehash: a2fc2e045c413707ad9d53e738b1eec6457c3a95
 
 
 ---
@@ -60,7 +60,7 @@ Azure Information Protection을 사용하여 조직에서는 데이터 생성 �
 
 ### <a name="step-1-preparing-for-document-protection-and-content-classification"></a>1단계: 문서 보호 및 콘텐츠 분류 준비
 
-이 솔루션을 구현하기 전에 [Azure Information Protection에 대한 요구 사항](/information-protection/get-started/requirements.md)을 검토하고 Azure Rights Management가 활성화되어 있는지 확인합니다. 활성화되면 Azure Portal에 다음과 같은 화면이 표시됩니다.
+이 솔루션을 구현하기 전에 [Azure Information Protection에 대한 요구 사항](/information-protection/get-started/requirements)을 검토하고 Azure Rights Management가 활성화되어 있는지 확인합니다. 활성화되면 Azure Portal에 다음과 같은 화면이 표시됩니다.
 
 ![Azure 포털](./media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig2.png)
 
@@ -79,7 +79,7 @@ Azure Rights Management를 활성화하면 이 정보 보호 솔루션이 지원
 
 ![분류](./media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig3.png)
 
-Azure Information Protection은 사용자 지정 가능한 기본 레이블과 함께 제공되지만 사용자의 Information Protection 표시줄에 표시되는 고유의 레이블 또는 하위 레이블을 [사용자 지정](/information-protection/deploy-use/configure-policy-new-label.md)하고 만들 수도 있습니다.
+Azure Information Protection은 사용자 지정 가능한 기본 레이블과 함께 제공되지만 사용자의 Information Protection 표시줄에 표시되는 고유의 레이블 또는 하위 레이블을 [사용자 지정](/information-protection/deploy-use/configure-policy-new-label)하고 만들 수도 있습니다.
 
 > [!IMPORTANT]
 > 레이블은 문서에 기록되는 메타데이터입니다. 레이블은 DLP 엔진과 같은 기타 시스템에서 읽을 수 있도록 일반 텍스트로 표시됩니다.
@@ -88,13 +88,13 @@ Azure Information Protection은 사용자 지정 가능한 기본 레이블과 �
 
 ![Label](./media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig4.png)
 
-레이블을 사용하는 방식(기본 또는 사용자 지정)을 정의한 후에는 [Rights Management 보호를 적용하도록 레이블을 구성](/information-protection/deploy-use/configure-policy-new-label.md)합니다.
+레이블을 사용하는 방식(기본 또는 사용자 지정)을 정의한 후에는 [Rights Management 보호를 적용하도록 레이블을 구성](/information-protection/deploy-use/configure-policy-new-label)합니다.
 
 ### <a name="step-3-implement-content-based-automatic-classification"></a>3단계: 콘텐츠 기반 자동 분류 구현
 
 Azure Information Protection을 사용하면 데이터 분류 및 보호 컨트롤이 Office 및 기타 일반 응용 프로그램에 통합됩니다. 이 통합에서는 사용자가 작업하는 데이터를 보호하기 위한 간단한 원클릭 옵션을 제공합니다. Azure Portal에서 "신용 카드 번호" 또는 "주민등록번호"와 같은 미리 정의된 패턴을 자동 분류 조건으로 적용할 수 있습니다. 또는 텍스트 패턴 및 정규식을 사용하여 사용자 지정 문자열이나 패턴을 정의할 수 있습니다.
 
-레이블에 대한 조건을 구성할 때 문서/메일에 자동으로 레이블을 할당하거나 사용자에게 권장하는 레이블을 선택하라는 메시지를 표시할 수 있습니다. 이 구성을 수행하는 방법에 대한 자세한 내용은 [Azure Information Protection에 대한 자동 및 권장 분류 조건을 구성하는 방법](/information-protection/deploy-use/configure-policy-classification.md)
+레이블에 대한 조건을 구성할 때 문서/메일에 자동으로 레이블을 할당하거나 사용자에게 권장하는 레이블을 선택하라는 메시지를 표시할 수 있습니다. 이 구성을 수행하는 방법에 대한 자세한 내용은 [Azure Information Protection에 대한 자동 및 권장 분류 조건을 구성하는 방법](/information-protection/deploy-use/configure-policy-classification)
 
 
 ### <a name="step-4-configure-conditions-for-automatic-and-recommended-classification"></a>4단계: 자동 및 권장 분류의 조건 구성
@@ -107,10 +107,10 @@ IT 관리자는 데이터에 분류 및 보호를 자동으로 적용하기 위�
 - 주민등록번호
 - IBAN(국제 은행 계좌 번호)
 
-이러한 유형의 구현에 대한 자세한 내용은 [기본 제공 조건에 대한 정보](/information-protection/deploy-use/configure-policy-classification.md#information-about-the-built-in-conditions)를 참조하세요.
+이러한 유형의 구현에 대한 자세한 내용은 [기본 제공 조건에 대한 정보](/information-protection/deploy-use/configure-policy-classification#information-about-the-built-in-conditions)를 참조하세요.
 
 
 
-<!--HONumber=Jan17_HO4-->
+<!--HONumber=Feb17_HO4-->
 
 
