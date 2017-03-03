@@ -1,10 +1,10 @@
 ---
-title: "손상을 입기 전에 공격 감지 | Azure Active Directory 정보 보호"
+title: "손상을 입기 전에 공격 감지 | Microsoft 문서"
 description: "Enterprise Mobility + Security를 통해 Advanced Threats Analytics, Cloud App Security, Azure Active Directory Premium을 활용하여 공격으로 인한 손상이 발생하기 전에 해당 공격으로부터 기업 데이터를 보호할 수 있는 방법을 설명하는 시나리오입니다."
 author: yuridio
 ms.author: yurid
 manager: swadhwa
-ms.date: 12/7/2016
+ms.date: 01/23/2017
 ms.topic: solution
 ms.prod: 
 ms.service: active-directory
@@ -14,8 +14,8 @@ ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: advanced-threat-analytics, cloud-app-security
 translationtype: Human Translation
-ms.sourcegitcommit: 0fd6f5b47ecd3aacbd0fd0c9cf76b90dcd68eaf4
-ms.openlocfilehash: 449df764d3979f8030f8d35d8f6920dedb64b239
+ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
+ms.openlocfilehash: 420df3bfcc0fca07bf4f7b068f4d49015ace048f
 
 
 ---
@@ -26,7 +26,7 @@ ms.openlocfilehash: 449df764d3979f8030f8d35d8f6920dedb64b239
 강력한 검색 시스템은 심도있는 가시성과 지속적인 동작 통계를 통해 의심스러운 활동을 발견하고 위협을 파악해야 합니다. 이렇게 하면 IT에서 검색된 공격에 대한 즉각적인 조치를 수행하고 강력한 지원을 통해 복구 작업을 간소화합니다.
 
 
-## <a name="how-can-enterprise-mobility-security-help-you"></a>Enterprise Mobility + Security는 어떤 이점이 있나요?
+## <a name="how-can-enterprise-mobility--security-help-you"></a>Enterprise Mobility + Security는 어떤 이점이 있나요?
 Microsoft Enterprise Mobility + Security를 사용하면 IT에서는 온-프레미스와 클라우드에서 혁신적인 행동 분석과 변칙 감지 기술을 사용하여 조직에서 공격자를 식별할 수 있습니다.  시스템에서 알려진 악의적인 공격 및 알려진 보안 취약성을 감지하도록 IT를 지원하게 됩니다.
 
 ## <a name="recommended-solution"></a>권장 솔루션
@@ -108,6 +108,6 @@ Cloud App Security 대시보드에 액세스하면 경고에 대한 전용 섹�
 
 
 
-<!--HONumber=Dec16_HO1-->
+<!--HONumber=Jan17_HO4-->
 
 

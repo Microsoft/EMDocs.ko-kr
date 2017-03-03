@@ -2,30 +2,29 @@
 title: "암호를 관리하는 방법"
 description: "자신의 암호를 관리하는 방법"
 keywords: 
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: jeffgilb
-ms.date: 09/28/2016
+author: NathBarn
+ms.author: NathBarn
+manager: angrobe
+ms.date: 02/01/2017
 ms.topic: article
 ms.prod: 
-ms.service: ems
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 162e59f3-33a2-44b5-a59f-24612dc743f3
-ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: dab9c133dd5a79afef07291405c2ac25218ca715
-ms.openlocfilehash: 665d0eabcadcb78d7f12e018c4ab1b1927976a3d
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: 6831444169da8aa83ca5b08fdfb8f847124f844c
 
 
 ---
 
-# 자신의 암호를 관리하는 방법
+# <a name="how-to-manage-your-own-password"></a>자신의 암호를 관리하는 방법
 
 Office 365 또는 Microsoft 계정을 사용하여 회사 리소스에 액세스하는 조직의 사용자(관리자 아님)인 경우 암호와 관련된 일반적인 문제를 해결하는 방법을 알아보려면 아래 섹션을 읽어보세요.
 
-## 암호 재설정을 위한 등록 방법
+## <a name="how-to-register-for-password-reset"></a>암호 재설정을 위한 등록 방법
 암호 재설정을 위한 가장 빠른 등록 방법은 [http://aka.ms/ssprsetup](http://aka.ms/ssprsetup)으로 이동하는 것입니다.
 
 1.  [http://aka.ms/ssprsetup](http://aka.ms/ssprsetup)으로 이동합니다.
@@ -43,7 +42,7 @@ Office 365 또는 Microsoft 계정을 사용하여 회사 리소스에 액세스
 > [!IMPORTANT]
 > 관리자가 둘 이상의 옵션을 등록할 수 있도록 허용하는 경우 휴대폰을 분실하거나 메일에 대한 액세스 권한을 손실하는 경우를 대비하여 백업 옵션도 등록하는 것이 좋습니다.
 
-## 암호를 재설정하는 방법
+## <a name="how-to-reset-your-password"></a>암호를 재설정하는 방법
 회사 또는 학교 계정 로그인 화면에서 회사 또는 학교 계정 암호를 재설정하려면 아래 단계를 따르세요.
 
 > [!IMPORTANT]
@@ -55,7 +54,7 @@ Office 365 또는 Microsoft 계정을 사용하여 회사 리소스에 액세스
 ![사용자의 사용자 ID나 암호가 인식되지 않는 경우 받는 첫 번째 메시지를 보여 주는 스크린샷](./media/ft-mngPW-6-resetPWbegin.png)
 2.  "귀하는 누구인가요?" 페이지에서 회사 또는 학교 계정 ID를 입력하고 CAPTCHA를 전달하여 로봇이 아님을 증명합니다.
 ![사용자에게 사용자 ID와 표시된 captcha 코드를 입력하도록 요청하는 메시지를 보여 주는 스크린샷](./media/ft-mngPW-7-enterID.png)
-3.   **다음**을 클릭합니다.
+3.  **다음**을 클릭합니다.
 4.  암호를 재설정하는 옵션을 선택합니다. 관리자가 시스템을 구성한 방법에 따라 다음 선택 항목 중 하나 이상이 표시될 수 있습니다.
  - **내 암호 확인용 메일 주소로 메일 보내기** - 6자리 코드가 포함된 메일을 암호 확인용 메일 또는 인증 메일(사용자가 선택)로 보냅니다.
   - **내 휴대폰으로 문자 메시지 보내기** - 6자리 코드가 포함된 문자 메시지를 휴대폰 또는 인증 메일(사용자가 선택)로 보냅니다.
@@ -76,11 +75,11 @@ Office 365 또는 Microsoft 계정을 사용하여 회사 리소스에 액세스
 ![암호 다시 설정 프로세스가 완료되었음을 보여 주는 스크린샷](./media/ft-mngPW-13-success.png)
 암호를 다시 설정하는 동안 문제가 발생했나요? [일반적인 문제 및 해결 방법](https://azure.microsoft.com/en-us/documentation/articles/active-directory-passwords-update-your-own-password/#common-problems-and-their-solutions)에 대해 읽어보세요.
 
-### 더 자세한 내용을 원하세요?
+### <a name="want-to-learn-more"></a>더 자세한 내용을 원하세요?
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.
 
 
 
-<!--HONumber=Nov16_HO3-->
+<!--HONumber=Jan17_HO1-->
 
 

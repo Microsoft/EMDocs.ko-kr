@@ -2,28 +2,27 @@
 title: "조직에서 관리하는 모바일 응용 프로그램을 사용하는 방법"
 description: "조직에서 관리하는 모바일 앱을 사용하는 방법"
 keywords: 
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: jeffgilb
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
 ms.date: 09/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: ems
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 174348f0-dbc6-4204-8626-3c6f38b7bbde
-ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: dab9c133dd5a79afef07291405c2ac25218ca715
-ms.openlocfilehash: f9464790624d94d89c43aae3db35f58ffae6da01
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: c426653ebb7848a86fdb7a884cd88d01bd8601ee
 
 
 ---
 
-# 조직에서 관리하는 모바일 앱을 사용하는 방법
+# <a name="how-to-use-mobile-apps-managed-by-your-organization"></a>조직에서 관리하는 모바일 앱을 사용하는 방법
 
-## iOS 장치에서 OneDrive 액세스
+## <a name="accessing-onedrive-on-an-ios-device"></a>iOS 장치에서 OneDrive 액세스
 
 이 섹션에서는 비즈니스용 OneDrive를 예제로 사용하여 사용자 환경이 Intune에서 관리하는 응용 프로그램에서 어떻게 약간 변경될 수 있는지를 보여 줍니다.
 
@@ -51,7 +50,7 @@ ms.openlocfilehash: f9464790624d94d89c43aae3db35f58ffae6da01
 > [!NOTE]
 > 배포된 정책을 변경하는 경우 다음에 앱을 열 때 변경 내용이 적용됩니다.
 
-## Android 장치의 OneDrive 액세스
+## <a name="accessing-onedrive-on-an-android-device"></a>Android 장치의 OneDrive 액세스
 이 섹션에서는 비즈니스용 OneDrive를 예제로 사용하여 사용자 환경이 Intune에서 관리하는 응용 프로그램에서 어떻게 약간 변경될 수 있는지를 보여 줍니다.
 1.  **비즈니스용 OneDrive** 앱을 시작하여 로그인 페이지를 엽니다.
 > [!NOTE]
@@ -77,11 +76,11 @@ ms.openlocfilehash: f9464790624d94d89c43aae3db35f58ffae6da01
   ![Android 사용자에게 앱의 PIN을 설정할 것인지 묻는 메시지를 보여 주는 스크린샷](./media/ft-useMngdApps-9-setNewPIN.png)
 8.  PIN이 설정 및 확인되고 나면 이제 앱 정책에 의해 관리되는 **비즈니스용 OneDrive**를 계속 사용할 수 있습니다.
 
-### 더 자세한 내용을 원하세요?
+### <a name="want-to-learn-more"></a>더 자세한 내용을 원하세요?
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.
 
 
 
-<!--HONumber=Nov16_HO3-->
+<!--HONumber=Jan17_HO1-->
 
 

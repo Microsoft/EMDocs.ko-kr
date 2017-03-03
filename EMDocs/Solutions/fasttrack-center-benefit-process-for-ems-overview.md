@@ -5,7 +5,7 @@ keywords:
 author: NathBarn
 ms.author: NathBarn
 manager: angrobe
-ms.date: 11/07/2016
+ms.date: 02/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.assetid: e60e3714-5120-41e2-9878-83ac75107967
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 52bdc7e5b67f9aeae2142d2b8bb2f8ed474dcc8d
-ms.openlocfilehash: d4cc34daa08f3db2508c08b51ca70651cf832015
+ms.sourcegitcommit: 59e06bc9534edf816618e2644d5870f549f32742
+ms.openlocfilehash: aece953566d06fa2b8d97cdb82866ab02df97f13
 
 
 ---
@@ -37,7 +37,7 @@ Microsoft Azure Active Directory Premium 및 Microsoft Intune용 FastTrack 센�
 
 프로세스의 작동 방식은 다음과 같습니다.
 
-- 사용자가 적격 서비스 라이선스를 구매한 뒤 Microsoft가 등록 지원을 위해 사용자에게 연락합니다. 조직이 이러한 서비스를 배포할 준비가 되어 있는 경우 [FastTrack 센터](http://fasttrack.microsoft.com/) 에서 지원을 요청할 수도 있습니다. 지원을 요청하려면에 회사 또는 학교 계정으로 [FastTrack 센터](http://fasttrack.microsoft.com/)에 로그인한 후 대시보드로 이동하여 화면 왼쪽에 있는 **도움 필요**를 확장하고 메시지에 따라 요청을 완료합니다. 등록 지원이 시작되면 Microsoft는 온라인 모임 일정을 설정합니다.
+- 사용자가 적격 서비스 라이선스를 구매한 뒤 Microsoft가 등록 지원을 위해 사용자에게 연락합니다. 조직이 이러한 서비스를 배포할 준비가 되어 있는 경우 [FastTrack 센터](http://fasttrack.microsoft.com/) 에서 지원을 요청할 수도 있습니다. 지원을 요청하려면 회사 또는 학교 계정으로 [FastTrack 센터](http://fasttrack.microsoft.com/)에 로그인한 후 대시보드로 이동하여 페이지 오른쪽 아래에 있는 **도움 필요** 링크를 확장하고 메시지에 따라 요청을 완료합니다. 등록 지원이 시작되면 Microsoft는 온라인 모임 일정을 설정합니다.
 
 -   Microsoft 등록 팀에서는 사용자를 위해 모든 Microsoft 온라인 서비스의 공통적인 핵심 기능과 적격 서비스 각각의 등록을 지원합니다.
 
@@ -57,6 +57,6 @@ Microsoft Azure Active Directory Premium 및 Microsoft Intune용 FastTrack 센�
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 

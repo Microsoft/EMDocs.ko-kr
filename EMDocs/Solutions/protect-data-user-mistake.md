@@ -1,10 +1,10 @@
 ---
-title: "사용자 실수로부터 데이터 보호 | Azure Active Directory 정보 보호"
+title: "사용자 실수로부터 데이터 보호 | Microsoft 문서"
 description: "Enterprise Mobility + Security를 통해 Cloud App Security 및 Azure Information Protection 기능을 활용하여 사용자 실수로부터 회사 데이터를 보호하고 데이터 손실을 방지할 수 있는 방법을 설명하는 시나리오입니다."
 author: yuridio
 ms.author: yurid
 manager: swadhwa
-ms.date: 10/24/2016
+ms.date: 01/23/2017
 ms.topic: solution
 ms.prod: 
 ms.service: cloud-app-security
@@ -14,8 +14,8 @@ ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: information-protection
 translationtype: Human Translation
-ms.sourcegitcommit: 02b0e611805ad2214b1b108b8c466590aad7999a
-ms.openlocfilehash: 669042461511939695717de1d5d22c14c071923c
+ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
+ms.openlocfilehash: 3fddd5487061b4090be32f70ac202e9c8ba45719
 
 
 ---
@@ -116,6 +116,6 @@ Azure Information Protection을 사용하면 데이터 분류 및 보호 컨트�
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 
