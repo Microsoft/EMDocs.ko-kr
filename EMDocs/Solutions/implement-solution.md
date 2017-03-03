@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,16 +14,16 @@ ms.assetid: edc744d8-97d9-42e0-8906-6f0dedd8d629
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fd6318efea58b5b6b72de306339629b568bc902d
-ms.openlocfilehash: 7df900a8224c847eed28ad22cdaffbd6b424c4c8
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: 4a7537775ce2c6c19850720f789ea5882d062aec
 
 
 ---
 
-# 메일 및 첨부 파일 보호를 위한 솔루션 구현
+# <a name="implementing-your-solution-for-protecting-email-and-attachments"></a>메일 및 첨부 파일 보호를 위한 솔루션 구현
 이 문서는 회사 메일 콘텐츠와 첨부 파일을 보호하기 위한 솔루션을 준비 및 구현하는 데 도움이 됩니다.
 
-## 구현을 계획할 때 고려해야 할 사항
+## <a name="what-you-should-consider-when-planning-your-implementation"></a>구현을 계획할 때 고려해야 할 사항
 
 -   **장치 플랫폼 지원**: Intune에서 지원하지 않는 플랫폼에서 메일 액세스를 허용할지도 고려해야 합니다. Intune 모바일 장치 관리는 다음 운영 체제를 지원합니다.
 
@@ -77,12 +77,12 @@ ms.openlocfilehash: 7df900a8224c847eed28ad22cdaffbd6b424c4c8
 
     -   Ping 등의 타사 페더레이션 서비스도 작동합니다. 구현 전에 테스트를 진행하는 것이 좋습니다.
 
-## 온-프레미스 구현
+## <a name="on-premises-implementation"></a>온-프레미스 구현
 System Center Configuration Manager, Active Directory 및/또는 Exchange Server의 기존 구현이 있는 경우 Intune, Azure AD 및 Office 365와 통합하여 기존 인프라를 확장할 수 있습니다. 이러한 하이브리드 구현을 사용하면 온-프레미스와 클라우드의 장치에 대해 일관된 관리 환경을 제공할 수 있습니다. Intune 및 Configuration Manager는 장치 상태에 따라 제한된 전자 메일 액세스를 허용하는 유사한 기능 집합을 제공합니다.
 
 Exchange Online 전용 구현의 경우에는 현재 구현에 따라 앞에서 설명한 클라우드 기반 솔루션을 사용하거나 하이브리드 구현을 사용할 수 있습니다. 계정 팀과 논의하여 사용할 구현을 결정하세요.
 
-## 작업 및 사고 대응
+## <a name="operations-and-incidence-response"></a>작업 및 사고 대응
 솔루션을 구현한 후에는 환경을 관리하고 보안 위험 가능성을 파악해야 합니다. Intune 및 Azure AD에는 모두 보안 사고를 모니터링하고 사고 발생 시 신속하게 대응하는 데 사용할 수 있는 모니터링 및 보고 도구가 있습니다.
 
 아래에는 몇 가지 보고 기능이 나와 있습니다.
@@ -91,7 +91,7 @@ Exchange Online 전용 구현의 경우에는 현재 구현에 따라 앞에서 
 
 -   Azure AD에는 감사 및 작업 로깅 기능이 있습니다. 암호 변경, 사용자 관리 등의 작업을 모니터링할 수 있습니다. Azure Active Directory Premium에는 고급 비정상 상태 보안 보고서 및 경고가 포함되어 있습니다. 이러한 경고는 로그인 활동, 일관성이 없는 액세스 패턴 및 잠재적 위협 영역을 보여 주는 상세 기계 학습 기반 보고서를 기준으로 합니다.
 
-## 추가 정보
+## <a name="where-to-go-from-here"></a>추가 정보
 회사 메일 콘텐츠 및 첨부 파일 보호를 위한 솔루션을 배포하는 방법의 단계별 지침은 특정 환경에 따라 다음 항목 중 하나를 참조하세요.
 
 - [Microsoft Intune으로 조건부 액세스 사용](conditional-access-intune.md)
@@ -99,6 +99,6 @@ Exchange Online 전용 구현의 경우에는 현재 구현에 따라 앞에서 
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 

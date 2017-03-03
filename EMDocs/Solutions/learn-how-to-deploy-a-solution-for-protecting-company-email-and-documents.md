@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: 2e10af43-3138-45c0-b2f7-14a1d2bfb237
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fd6318efea58b5b6b72de306339629b568bc902d
-ms.openlocfilehash: 232939cbf147b27732991a817827036963289b67
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: 7f7a8c8fc0333461359440781adc8a6240e9f4bb
 
 
 ---
 
-# 회사 메일 및 문서를 보호하는 솔루션을 배포하는 방법
+# <a name="learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents"></a>회사 메일 및 문서를 보호하는 솔루션을 배포하는 방법
 더 많은 회사에서 직원이 모바일 장치를 통해 메일, 문서, 회사 리소스에 액세스함으로써 생산성을 높이도록 만들고 있습니다. 하지만 회사 메일 및 문서 내에 저장되는 기밀 데이터의 양으로 인해 회사는 상당한 보안 위험에 직면하고 있습니다.
 
 이 가이드에서는 IT 전문가들이 구성 중 하나에서 조건부 액세스를 적용할 수 있도록 회사에 맞는 최고의 해결 방법을 파악하고 배포할 수 있도록 그 방법을 설명합니다. 이렇게 하면 회사 데이터에 대한 보호를 유지하는 동시에 직원들은 모바일 장치를 사용하여 회사 메일에 액세스할 수 있습니다.
@@ -30,7 +30,7 @@ ms.openlocfilehash: 232939cbf147b27732991a817827036963289b67
 > [!TIP]
 > [TechNet 갤러리](https://gallery.technet.microsoft.com/Deploying-Enterprise-16499404)에서 이 전체 항목의 다운로드 가능한 복사본을 가져오세요.
 
-## 소개
+## <a name="introduction"></a>소개
 회사의 데이터를 보호하는 일은 매우 중요하며 점점 더 많은 직원들이 모바일 장치를 사용하여 메일 및 메일 첨부 파일을 포함한 회사 리소스에 액세스함에 따라 더 어려운 과제가 되고 있습니다. IT 관리자는 직원들의 모바일 장치가 회사의 물리적 위치를 벗어나는 경우에도 회사 데이터를 보호해야 합니다.
 
 Microsoft EMS(Microsoft Enterprise Mobility + Security)는 회사 메일과 문서에 대해 ID, 장치, 응용 프로그램 및 데이터의 4개 계층으로 구성된 포괄적인 보호를 제공함으로써 이러한 과제를 해결하고 있습니다. EMS는 직원들이 Microsoft Intune에서 관리되며 IT 정책을 준수하는 장치에서만 회사 메일에 액세스할 수 있게 만듭니다.
@@ -46,7 +46,7 @@ Microsoft EMS(Microsoft Enterprise Mobility + Security)는 회사 메일과 문�
     > [!NOTE]
     > 메일 프로필을 만들어 배포한 다음 이 메일 프로필을 Intune로 관리해야 함을 지정하는 규정 준수 정책을 설정할 수 있습니다(권장 사항). 이렇게 하면 더 이상 사용되지 않는 장치에서 메일을 초기화할 수 있으며 iOS의 경우 Intune에서 관리되는 응용 프로그램에서만 첨부 파일을 열 수 있습니다. 자세한 내용은 [5단계: 규정 준수 정책을 만들어 사용자에게 배포](conditional-access-intune-configmgr-exchange.md)를 참조하세요.
 
-### 이 문서에서 다루는 솔루션
+### <a name="solutions-covered-in-this-article"></a>이 문서에서 다루는 솔루션
 이 섹션에서는 각 솔루션, 즉 Intune 구현을 포함한 Configuration Manager, Intune 자체, 모바일 응용 프로그램 관리 및 Azure Information Protection에 대해 심층적인 개요를 제공합니다.
 
 -   **조건부 액세스를 사용하여 메일 액세스 관리:** Configuration Manager와 Intune의 하이브리드를 사용하거나 Intune 자체를 Exchange Online 또는 Exchange Server 온-프레미스와 함께 사용하여 위치에 관계없이 모든 유형의 PC 및 모바일 장치에서 조건부 액세스를 관리 및 적용할 수 있습니다. 이러한 유형의 환경에서 조건부 액세스를 적용하면 회사 데이터 보안을 그대로 유지하면서 사용자의 생산성을 높이도록 만들 수 있습니다.
@@ -55,15 +55,15 @@ Microsoft EMS(Microsoft Enterprise Mobility + Security)는 회사 메일과 문�
 
 -   **데이터 손실 방지 정책에 적합한 Azure Information Protection:** Azure Information Protection(이전 서비스: Azure RMS)은 암호화, ID 및 권한 부여 정책을 통해 휴대폰, 태블릿, PC 등의 여러 장치에서 파일과 메일의 보안을 확보합니다. 데이터가 회사 경계를 벗어나더라도 데이터 보호가 유지되기 때문에 회사 내부와 외부에서 모두 정보를 보호할 수 있습니다.
 
-### 원하는 구현 평가
+### <a name="evaluating-your-desired-implementation"></a>원하는 구현 평가
 모바일 장치 관리를 위한 모든 다양한 디자인 및 구성 옵션으로, 회사 요구에 가장 잘 부합하는 조합을 결정하기가 어렵습니다. [모바일 장치 관리 디자인 고려 사항 가이드](mdm-design-considerations-guide.md)를 참조하면 모바일 장치 관리 디자인 요구 사항을 이해하고, 회사의 비즈니스 및 기술 요구 사항에 가장 적합한 솔루션을 디자인하기 위해 수행하는 일련의 단계와 작업을 세부적으로 살펴볼 수 있습니다.
 
-### 높은 수준의 최종 사용자 환경
+### <a name="high-level-end-user-experience"></a>높은 수준의 최종 사용자 환경
 솔루션을 구현하고 나면 최종 사용자는 관리되는 장치 **및** 규격 장치에서만 회사 메일에 액세스할 수 있습니다. 사용자가 장치에서 메일에 액세스할 수 있게 되면 회사 데이터는 앱 에코시스템 내에 포함되어 보호되며 의도한 사용자만 이 데이터를 사용할 수 있습니다. 장치가 비규격 장치가 되는 경우 언제든지 액세스 권한이 취소될 수 있습니다.
 
 특히 Intune에서 설정된 조건부 액세스 정책에서는 장치가 관리자가 설정한 규정 준수 정책에 부합할 때만 메일에 액세스할 수 있도록 합니다. 복사하여 붙여넣기, 개인 클라우드 저장소 서비스에 저장 등과 같은 작업은 모바일 응용 프로그램 관리 정책을 사용하여 제한할 수 있습니다. Azure Information Protection을 사용하면 의도한 수신자만 중요 메일 데이터와 첨부된 파일을 읽을 수 있도록 만들 수 있습니다. 최종 사용자 환경은 [조건부 액세스를 위한 최종 사용자 환경](end-user-experience-conditional-access.md)에 자세히 설명되어 있습니다.
 
-### 추가 정보
+### <a name="where-to-go-from-here"></a>추가 정보
 이제 이 항목을 살펴보았으므로 환경에 따라 회사 이메일 및 문서를 보호하기 위한 특정 솔루션의 배포 방법을 더 자세히 알아볼 수 있습니다.
 
 - [Microsoft Intune으로 조건부 액세스 사용](conditional-access-intune.md)
@@ -71,6 +71,6 @@ Microsoft EMS(Microsoft Enterprise Mobility + Security)는 회사 메일과 문�
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 

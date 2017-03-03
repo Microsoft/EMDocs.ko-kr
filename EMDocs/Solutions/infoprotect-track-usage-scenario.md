@@ -1,9 +1,9 @@
 ---
-title: "공유 데이터의 사용을 추적하고 데이터 남용에 대응 | Azure Rights Management"
+title: "공유 데이터의 사용을 추적하고 데이터 남용에 대응 | Microsoft 문서"
 description: "EMS(Enterprise Mobility + Security)를 사용하여 공유 데이터 사용을 추적하고 Azure Rights Management 기능을 활용하여 데이터 남용에 대응하는 방법을 설명하는 시나리오입니다."
 author: yuridio
 manager: swadhwa
-ms.date: 12/7/2016
+ms.date: 02/23/2017
 ms.topic: solution
 ms.prod: 
 ms.service: rights-management
@@ -12,8 +12,8 @@ ms.assetid: c7e6e01a-5796-4bd7-a0c5-847ecfc08a1e
 ms.reviewer: v-craic
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 02b0e611805ad2214b1b108b8c466590aad7999a
-ms.openlocfilehash: c2004b77928386ed46d947b96b69c1cb85d2e6fb
+ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
+ms.openlocfilehash: cca39a029b31f619a49b605ed28ab73a58e5c73b
 
 
 
@@ -26,7 +26,7 @@ ms.openlocfilehash: c2004b77928386ed46d947b96b69c1cb85d2e6fb
 이 상황에서 사용자는 문서를 공유할 뿐만 아니라 누가 문서에 액세스하는지 모니터링하고 필요한 경우 액세스를 취소하는 것이 일반적인 시나리오입니다. IT 관리자는 권한 있는 사용자 그룹과 데이터를 공유할 때도 이와 유사한 환경을 원합니다. 즉 데이터 사용 또는 남용을 계속 제어하고 적절한 조치를 취할 수 있기를 원합니다. Enterprise Mobility + Security로 어떻게 이 시나리오를 해결할 수 있는지 자세히 알아보세요.
 
 ## <a name="how-can-enterprise-mobility--security-help-you"></a>Enterprise Mobility + Security는 어떤 이점이 있나요?
-EMS(Enterprise Mobility + Security)는 ID, 장치, 앱, 데이터 등의 4단계 보호 기능으로 장치뿐 아니라 그 이상에서 기업 데이터를 보호하는 유일한 포괄적인 클라우드 솔루션입니다. EMS를 사용하면 모바일과 클라우드를 선호하는 환경에서 주요 문제 중 하나를 해결하는 데 도움이 됩니다. 즉, 제어 상태를 유지하면서 문제에 신속히 대응하는 조치를 취하는 방법입니다. EMS를 사용하면 직원들이 조직 내외부에서 안전하게 공동 작업을 수행할 수 있습니다. EMS를 사용하면 문서 소유자 및 관리자가 다른 사용자와 공유하는 중요한 파일에 대한 활동을 추적할 수 있습니다. 받는 사람이 파일을 열거나, 무단 사용자의 파일 액세스가 거부되는 등과 같은 활동을 볼 수 있습니다. 파일을 어디에서 액세스했는지 지리적 위치도 볼 수 있습니다. 사용자도 클릭 한 번으로 공유 파일에 대한 액세스를 취소할 수 있습니다.
+EMS(Enterprise Mobility + Security)는 ID, 장치, 앱, 데이터 등의&4;단계 보호 기능으로 장치뿐 아니라 그 이상에서 기업 데이터를 보호하는 유일한 포괄적인 클라우드 솔루션입니다. EMS를 사용하면 모바일과 클라우드를 선호하는 환경에서 주요 문제 중 하나를 해결하는 데 도움이 됩니다. 즉, 제어 상태를 유지하면서 문제에 신속히 대응하는 조치를 취하는 방법입니다. EMS를 사용하면 직원들이 조직 내외부에서 안전하게 공동 작업을 수행할 수 있습니다. EMS를 사용하면 문서 소유자 및 관리자가 다른 사용자와 공유하는 중요한 파일에 대한 활동을 추적할 수 있습니다. 받는 사람이 파일을 열거나, 무단 사용자의 파일 액세스가 거부되는 등과 같은 활동을 볼 수 있습니다. 파일을 어디에서 액세스했는지 지리적 위치도 볼 수 있습니다. 사용자도 클릭 한 번으로 공유 파일에 대한 액세스를 취소할 수 있습니다.
 
 ### <a name="recommended-solution"></a>권장 솔루션
 Azure Rights Management를 통합하여 사용자가 보호된 문서를 어떻게 사용하는지 추적할 수 있습니다. 필요한 경우 공유를 중지하고 싶을 때 이러한 문서에 대한 액세스 권한을 취소할 수도 있습니다. 이 기능은 RMS 그룹, 보호된 항목 공유 옵션 및 사용 추적을 사용하여 Office 응용 프로그램 (Word, Excel, Outlook 및 PowerPoint)에 사용할 수 있습니다. Windows 시스템의 경우에는 파일 탐색기를 사용할 수도 있으며, 지원되는 다른 모든 장치에서 웹 브라우저를 사용하 여 사용량을 추적할 수 있습니다. 추적 및 해지는 다음 다이어그램에 표시된 것처럼 문서 수명 주기에서 모니터링 및 응답 단계의 일부입니다.
@@ -75,6 +75,6 @@ Office 응용 프로그램(Word, Excel 및 PowerPoint)을 사용하여 보호된
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

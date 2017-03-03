@@ -2,26 +2,25 @@
 title: "다단계 인증에 등록하는 방법"
 description: "추가 보안 확인의 기본 방법을 설정하는 방법"
 keywords: 
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: jeffgilb
+author: NathBarn
+ms.author: NathBarn
+manager: angrobe
 ms.date: 09/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: ems
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 06e21ca9-ed6a-4f6e-a7e2-5445aaeb3552
-ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: dab9c133dd5a79afef07291405c2ac25218ca715
-ms.openlocfilehash: 4c8f2d3dbe72a4bf3d948f074b55b6ba4b936522
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: b7164b33bf9d4bdb7584de9cbb78711e922a10c4
 
 
 ---
 
-# 추가 보안 확인의 기본 방법을 설정하는 방법
+# <a name="how-to-set-up-your-preferred-method-for-additional-security-verification"></a>추가 보안 확인의 기본 방법을 설정하는 방법
 
 
 
@@ -48,7 +47,7 @@ _Azure Authenticator 앱을 다음과 같은 두 가지 모드로 작동하여 �
 
 Azure Authenticator 앱은 [Windows Phone](http://www.windowsphone.com/en-us/store/app/azure-authenticator/03a5b2bf-6066-418f-b569-e8aecbc06e50), [Android](https://play.google.com/store/apps/details?id=com.azure.authenticator) 및 [iOS](https://itunes.apple.com/us/app/azure-authenticator/id983156458)에 사용할 수 있습니다.
 
-## 휴대폰(문자 또는 통화)
+## <a name="mobile-phone-text-or-call"></a>휴대폰(문자 또는 통화)
 기본 연락 방법으로 휴대폰을 사용하려는 경우 다음 단계를 사용할 수 있습니다. 이러한 단계에서는 휴대폰에서 통화 또는 문자를 연락 방법으로 사용하여 다단계 인증을 설정하는 과정을 안내합니다.
 
 1. **1단계: 어떻게 연락해야 하나요?**에서 **인증 전화**를 선택합니다.
@@ -58,7 +57,7 @@ Azure Authenticator 앱은 [Windows Phone](http://www.windowsphone.com/en-us/sto
 3.  **국가 또는 지역** 상자 옆의 상자에 휴대폰 번호를 입력합니다. 지역 번호를 포함합니다.
 공백은 허용되지만, 문장 부호는 허용되지 않습니다. 예를 들어 5554445555 및 555 444 5555는 허용되지만, 555-444-5555 및 (555) 444 5555는 허용되지 않습니다.
 4.  휴대폰에서 사용할 모드(문자 또는 통화)를 선택합니다.
-5.   **다음**을 클릭합니다.
+5.  **다음**을 클릭합니다.
 6.  **지금 확인** 단추를 클릭합니다. 그러면 휴대폰으로 전화를 걸거나 문자를 보내기 시작합니다. 휴대폰을 가지고 있어야 합니다. 선택한 모드(문자 또는 통화)에 따라 응답 방식이 달라집니다.
  - 문자 모드를 선택한 경우 6자리 코드가 문자로 전송됩니다. 브라우저에 표시된 입력란에 이 코드를 입력합니다.
 
@@ -66,7 +65,7 @@ Azure Authenticator 앱은 [Windows Phone](http://www.windowsphone.com/en-us/sto
  - 통화 모드를 선택한 경우 전화를 받게 됩니다. 전화의 우물 정자를 눌러 전화에 응답합니다.
 
         ![Screenshot prompting user to answer their phone to continue enrollment process](./media/ft-enrollMFA-4-phoneCode.png)
-7.  **다음**을 클릭합니다.
+7. **다음**을 클릭합니다.
 8.  이제 연락 방법이 설정되었습니다. 다음으로는 Outlook 2010 또는 이전 버전과 같은 비 브라우저 앱에 대해 앱 암호를 설정합니다. 이러한 앱을 사용하지 않는 경우 **완료**를 클릭합니다. 그렇지 않은 경우 다음 단계를 **계속**합니다.
 9. 이러한 앱을 사용하는 경우 제공된 앱 암호를 **복사**합니다.
 
@@ -74,14 +73,14 @@ Azure Authenticator 앱은 [Windows Phone](http://www.windowsphone.com/en-us/sto
 10. 클립보드에 복사했던 암호를 비 브라우저 응용 프로그램에 붙여넣습니다.
 11. **완료**를 클릭합니다.
 
-## 사무실 전화 통화
+## <a name="office-phone-call"></a>사무실 전화 통화
 이 문서의 이 섹션에서는 기본 연락 방법으로 사무실 전화를 사용하도록 Azure Multi-Factor Authentication을 설정하는 과정을 안내합니다.
 1. 드롭다운 목록에서 사무실 전화를 선택합니다.
 
   ![사용자가 사무실 전화로 연락받기를 원하는 모습을 보여 주는 스크린샷](./media/ft-enrollMFA-6-officePhone.png)
 2.  드롭다운 목록에서 국가를 지정하고 사무실 전화 번호를 입력합니다.
 3.  **연락받기**를 클릭합니다. 그러면 사무실 전화로 전화를 걸기 시작합니다. 휴대폰 근처에 있어야 합니다.
-4.   **다음**을 클릭합니다.
+4.  **다음**을 클릭합니다.
 5.  이제 연락 방법이 설정되었습니다. 다음으로는 Outlook 2010 또는 이전 버전과 같은 비 브라우저 앱에 대해 앱 암호를 설정합니다. 이러한 앱을 사용하지 않는 경우 **완료**를 클릭합니다. 그렇지 않은 경우 다음 단계를 **계속**합니다.
 7.  이러한 앱을 사용하는 경우 제공된 앱 암호를 복사합니다.
 8.  클립보드에 복사했던 암호를 비 브라우저 응용 프로그램에 붙여넣습니다.
@@ -89,7 +88,7 @@ Azure Authenticator 앱은 [Windows Phone](http://www.windowsphone.com/en-us/sto
   ![앱 암호를 입력하라는 메시지를 보여 주는 스크린샷](./media/ft-enrollMFA-7-pastePW.png)
 9.  **완료**를 클릭합니다.
 
-## 모바일 응용 프로그램
+## <a name="mobile-application"></a>모바일 응용 프로그램
 이 문서의 이 섹션에서는 기본 연락 방법으로 모바일 앱을 사용하도록 Azure Multi-Factor Authentication을 설정하는 과정을 안내합니다.
 
 Azure Authenticator 앱은 Windows Phone, Android 및 iOS에 사용할 수 있습니다.
@@ -109,7 +108,7 @@ Azure Authenticator 앱은 Windows Phone, Android 및 iOS에 사용할 수 있�
   ![휴대폰으로 전송된 코드를 확인하라는 메시지를 보여 주는 스크린샷](./media/ft-enrollMFA-10-verifyActivation.png)
 6.  **닫기**를 클릭합니다. 이 과정을 마치면 확인이 정상적으로 완료됩니다.
 7.  이제 모바일 앱에 액세스할 수 없는 경우를 대비해 휴대폰 번호를 입력하는 것이 좋습니다.
-8.  드롭다운 목록에서 국가를 지정하고 국가 옆에 있는 상자에 휴대폰 번호를 입력합니다.  **다음**을 클릭합니다.
+8.  드롭다운 목록에서 국가를 지정하고 국가 옆에 있는 상자에 휴대폰 번호를 입력합니다. **다음**을 클릭합니다.
 9.  이제 연락 방법이 설정되었습니다. 다음으로는 Outlook 2010 또는 이전 버전과 같은 비 브라우저 앱에 대해 앱 암호를 설정합니다. 이러한 앱을 사용하지 않는 경우 **완료**를 클릭합니다. 그렇지 않은 경우 다음 단계를 **계속**합니다.
 10. 이러한 앱을 사용하는 경우 제공된 앱 암호를 복사합니다.
 11. 클립보드에 복사했던 암호를 비 브라우저 응용 프로그램에 붙여넣습니다.
@@ -117,11 +116,11 @@ Azure Authenticator 앱은 Windows Phone, Android 및 iOS에 사용할 수 있�
   ![앱 암호를 입력하라는 메시지를 보여 주는 스크린샷](./media/ft-enrollMFA-11-securityVerification.png)
 12. **완료**를 클릭합니다.
 
-### 더 자세한 내용을 원하세요?
+### <a name="want-to-learn-more"></a>더 자세한 내용을 원하세요?
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.
 
 
 
-<!--HONumber=Nov16_HO3-->
+<!--HONumber=Jan17_HO1-->
 
 

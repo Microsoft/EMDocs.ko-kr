@@ -1,10 +1,10 @@
 ---
-title: "내부 및 외부에서 중요한 데이터 공유 | Azure Information Protection"
+title: "내부 및 외부에서 중요한 데이터 공유 | Microsoft 문서"
 description: "Enterprise Mobility + Security를 통해 Microsoft Azure Information Protection 기능을 활용하여 내부 및 외부에서 중요한 데이터를 공유하는 방법을 설명하는 시나리오입니다."
 author: yuridio
 ms.author: yurid
 manager: swadhwa
-ms.date: 12/07/2016
+ms.date: 01/23/2017
 ms.topic: solution
 ms.prod: 
 ms.service: rights-management
@@ -13,8 +13,8 @@ ms.assetid: a996fbf8-ece4-40bc-b866-d4606c230027
 ms.reviewer: v-craic
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 02b0e611805ad2214b1b108b8c466590aad7999a
-ms.openlocfilehash: d76fa5c4857b12e2eb91de9fb3217ba78ea6a11f
+ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
+ms.openlocfilehash: 3d84bbe6d252976e1a3152f65003787e37d408c8
 
 
 ---
@@ -23,15 +23,15 @@ ms.openlocfilehash: d76fa5c4857b12e2eb91de9fb3217ba78ea6a11f
 
 많은 데이터 위반이 사이버 공격으로 인해 발생하지만 전문가들은 그보다 훨씬 많은 데이터 위반이 사람의 실수, 즉 직원이 중요한 비즈니스 데이터를 실수로 유출한 결과에서 비롯된다는 점에 동의합니다. 올바른 보안 정보 및 데이터 손실 방지 프로토콜을 갖추고 있다면 이러한 종류의 위반을 거의 모두 방지할 수 있습니다.
 
-기업과 사용자에게 데이터 공유는 불가피하고 필요하지만 이로 인해 “다른 사람과 공유하는 데이터의 유출을 최소화하면서 여러 장치 간에 데이터 공유를 지원하는 방법”이라는 업계에서 가장 중대한 과제 중 하나가 발생합니다. 중요한 데이터를 파트너, 고객 등 외부 소스와 공유해야 하는 경우 위협 환경은 훨씬 광범위해집니다. 
+기업과 사용자에게 데이터 공유는 불가피하고 필요하지만 이로 인해 “다른 사람과 공유하는 데이터의 유출을 최소화하면서 여러 장치 간에 데이터 공유를 지원하는 방법”이라는 업계에서 가장 중대한 과제 중 하나가 발생합니다. 중요한 데이터를 파트너, 고객 등 외부 소스와 공유해야 하는 경우 위협 환경은 훨씬 광범위해집니다.
 
 ![다이어그램](./media/share-sensitive-data/share-sensitive-data-fig1.png)
 
-이 컨텍스트에서는 일반적으로 비즈니스에 맞게 보안 프로토콜을 조정하고 데이터 분류 및 보호 프로세스에서 최종 사용자 동작에 영향을 주는 동시에 직원이 데이터 사일로에서 내부적으로 공동 작업하고 타사 공급업체와 외부적으로 공동 작업하도록 지원해야 프로젝트가 있습니다. 
+이 컨텍스트에서는 일반적으로 비즈니스에 맞게 보안 프로토콜을 조정하고 데이터 분류 및 보호 프로세스에서 최종 사용자 동작에 영향을 주는 동시에 직원이 데이터 사일로에서 내부적으로 공동 작업하고 타사 공급업체와 외부적으로 공동 작업하도록 지원해야 프로젝트가 있습니다.
 
 ## <a name="how-can-enterprise-mobility--security-help-you"></a>Enterprise Mobility + Security는 어떤 이점이 있나요?
 
-EMS(Enterprise Mobility + Security)는 ID, 장치, 앱, 데이터 등의 4단계 보호 기능으로 장치뿐 아니라 그 이상에서 기업 데이터를 기본적으로 보호하는 유일한 포괄적인 클라우드 솔루션입니다. EMS는 모바일 우선, 클라우드 우선 환경의 핵심 과제 중 하나인, 업무 중인 직원에게 보안 전자 메일을 제공하는 문제를 해결하도록 도와줍니다. EMS를 사용하면 직원들이 조직 내외부에서 안전하게 공동 작업을 수행할 수 있습니다. EMS를 사용하면 IT 관리자가 [Azure 권한 관리](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms) 정책 템플릿을 사용하여 사용 현황을 전자 메일로 보낼 수 있습니다. 사용 권한은 온라인 및 오프라인뿐 아니라 조직 방화벽의 내부 및 외부에서도 보호가 이루어지도록 메시지 자체에 연결됩니다.
+EMS(Enterprise Mobility + Security)는 ID, 장치, 앱, 데이터 등의&4;단계 보호 기능으로 장치뿐 아니라 그 이상에서 기업 데이터를 기본적으로 보호하는 유일한 포괄적인 클라우드 솔루션입니다. EMS는 모바일 우선, 클라우드 우선 환경의 핵심 과제 중 하나인, 업무 중인 직원에게 보안 전자 메일을 제공하는 문제를 해결하도록 도와줍니다. EMS를 사용하면 직원들이 조직 내외부에서 안전하게 공동 작업을 수행할 수 있습니다. EMS를 사용하면 IT 관리자가 [Azure 권한 관리](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms) 정책 템플릿을 사용하여 사용 현황을 전자 메일로 보낼 수 있습니다. 사용 권한은 온라인 및 오프라인뿐 아니라 조직 방화벽의 내부 및 외부에서도 보호가 이루어지도록 메시지 자체에 연결됩니다.
 
 ## <a name="recommended-solution"></a>권장 솔루션
 
@@ -49,7 +49,7 @@ Azure 권한 관리를 Exchange Online의 권한 관리와 통합하면 EMS에�
 
 Azure RMS를 지원하도록 Exchange Online을 구성하려면 Exchange Online에 대해 IRM(정보 권한 관리) 서비스를 구성해야 합니다. 다음 단계에 따라 이 솔루션을 구현할 수 있습니다.
 
-1. Exchange와의 통합: 
+1. Exchange와의 통합:
     - Exchange Online: Exchange Online에서 Azure RMS 사용
     - Exchange 온-프레미스: Azure 권한 관리 커넥터 배포
 2. Exchange를 사용하여 보호된 Office 문서 보내기
@@ -60,7 +60,7 @@ Azure RMS를 지원하도록 Exchange Online을 구성하려면 Exchange Online�
 
 ### <a name="step-1-integration-with-exchange"></a>1단계: Exchange와의 통합
 
-권한 관리 보호는 Azure 권한 관리 정책 템플릿을 전자 메일 메시지에 적용함으로써 전자 메일에 적용됩니다. 이 통합을 지원하는 첫 번째 단계는 Exchange의 위치(클라우드(Exchange Online) 또는 온-프레미스)에 따라 다릅니다. 
+권한 관리 보호는 Azure 권한 관리 정책 템플릿을 전자 메일 메시지에 적용함으로써 전자 메일에 적용됩니다. 이 통합을 지원하는 첫 번째 단계는 Exchange의 위치(클라우드(Exchange Online) 또는 온-프레미스)에 따라 다릅니다.
 
 #### <a name="enable-rights-management-integration-with-exchange-online"></a>Exchange Online과의 권한 관리 통합 지원
 
@@ -74,7 +74,7 @@ Azure RMS를 지원하도록 Exchange Online을 구성하려면 Exchange Online�
 
 Exchange 온-프레미스와의 권한 관리 통합을 구성하려면 Microsoft Rights Management(RMS) 커넥터를 구성해야 합니다. 이 커넥터를 통해 기존 온-프레미스 Exchange Server가 클라우드 기반 Microsoft Rights Management 서비스(Azure RMS)에서 IRM(정보 권한 관리) 기능을 사용하도록 할 수 있습니다. 하이브리드 시나리오에서 일부 사용자가 온라인 서비스에 연결하더라도 이 커넥터를 사용할 수 있습니다.
 
-[RMS 커넥터를 설치하기 위한 필수 구성 요소](https://docs.microsoft.com/rights-management/deploy-use/deploy-rms-connector#prerequisites-for-the-rms-connector)를 검토하고 [Azure 권한 관리 커넥터 설치 및 구성](https://docs.microsoft.com/rights-management/deploy-use/install-configure-rms-connector) 문서에 설명된 5가지 단계를 따릅니다.
+[RMS 커넥터를 설치하기 위한 필수 구성 요소](https://docs.microsoft.com/rights-management/deploy-use/deploy-rms-connector#prerequisites-for-the-rms-connector)를 검토하고 [Azure 권한 관리 커넥터 설치 및 구성](https://docs.microsoft.com/rights-management/deploy-use/install-configure-rms-connector) 문서에 설명된&5;가지 단계를 따릅니다.
 
 ### <a name="step-2-send-a-protected-document-using-exchange"></a>2단계: Exchange를 사용하여 보호된 문서 보내기
 
@@ -92,11 +92,11 @@ Office 문서를 공유하려면(예: Word에서 직접) 다음 이미지에 표
 
 ![전자 메일](./media/share-sensitive-data/share-sensitive-data-fig5.png)
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > 이 시나리오에 대한 자세한 내용은 Microsoft Ignite에서 [Azure Information Protection을 사용하여 안전하게 공동 작업](https://myignite.microsoft.com/videos/49947) 프레젠테이션을 참조하세요.
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 
