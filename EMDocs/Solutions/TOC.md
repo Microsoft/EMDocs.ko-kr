@@ -10,6 +10,7 @@
 ### [첫 번째 관문에서 보호](protect-front-door.md)
 ### [사용자 실수로부터 데이터 보호](protect-data-user-mistake.md)
 ### [손상을 입기 전에 공격 감지](detect-attacks-before-damage.md)
+### [시뮬레이션 플레이북 공격](ata-attack-simulation-playbook.md)
 ## [정보 보호]()
 ### [분류, 레이블 지정 및 보호를 사용하여 데이터 보안 유지](infoprotect-secure-classify-scenario.md)
 ### [내부 및 외부에서 중요한 데이터 공유](share-sensitive-data.md)
