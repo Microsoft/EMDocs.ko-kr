@@ -81,6 +81,10 @@
           href: /intune/whats-new/
           homepage: /intune/whats-new/whats-new-in-microsoft-intune
 
+        - name: "교육에 Intune"
+          href: /intune-education/
+          homepage: /intune-education
+
 
     - name: "Azure Information Protection"
       href: /information-protection/
