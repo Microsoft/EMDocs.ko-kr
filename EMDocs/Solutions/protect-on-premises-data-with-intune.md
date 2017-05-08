@@ -13,9 +13,11 @@ ms.assetid: ebf7be63-4ac2-4158-9772-58f15416ccb7
 ms.reviewer: vlpetros
 ms.suite: ems
 ms.custom: active-directory
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: 64c859600ba74da47d70a9c58bc261dec4411513
+ms.contentlocale: ko-kr
+ms.lasthandoff: 01/24/2017
 
 
 ---
@@ -23,7 +25,7 @@ ms.openlocfilehash: 64c859600ba74da47d70a9c58bc261dec4411513
 더 이상 방화벽만으로는 적절한 회사 보안 경계를 제공할 수 없습니다. 오늘날의 보안 경계에는 최종 사용자와 이 사용자가 회사 데이터를 액세스, 사용 및 공유하는 방법을 포함해야 합니다. 스마트폰, 태블릿, 랩톱 등 무엇으로 작업하든 정보 근로자는 어디서든 필요할 때 원하는 장치에서 리소스에 원활하게 액세스해야 합니다. 사용자에게 액세스 및 보호 기능을 제공하는 일은 회사 데이터도 보호해야 하는 IT 관리자에게 매우 어려운 일입니다. EMS(Enterprise Mobility + Security)를 사용하면 직원들이 즐겨 사용하는 앱 및 장치로 직원 생산성을 유지할 수 있고 온-프레미스 회사 데이터도 보호할 수 있습니다. 방법을 확인하려면 계속 읽어 보세요.
 
 ## <a name="how-can-enterprise-mobility--security-ems-help-you"></a>EMS(Enterprise Mobility + Security)는 사용자에게 어떻게 도움을 줄 수 있나요?
-EMS(Enterprise Mobility + Security)는 ID, 장치, 앱, 데이터 등의&4;단계 보호 기능으로 장치뿐 아니라 그 이상에서 기업 데이터를 기본적으로 보호하는 유일한 포괄적인 클라우드 솔루션입니다. EMS를 사용하면 직원은 회사 메일과 문서에 안전하고 원활하게 액세스할 수 있고 IT는 회사 데이터 확실히 보호할 수 있습니다.
+EMS(Enterprise Mobility + Security)는 ID, 장치, 앱, 데이터 등의 4단계 보호 기능으로 장치뿐 아니라 그 이상에서 기업 데이터를 기본적으로 보호하는 유일한 포괄적인 클라우드 솔루션입니다. EMS를 사용하면 직원은 회사 메일과 문서에 안전하고 원활하게 액세스할 수 있고 IT는 회사 데이터 확실히 보호할 수 있습니다.
 
 ## <a name="recommended-solution"></a>권장 솔루션
 Microsoft Intune을 사용하면 리소스 액세스 프로필을 원격으로 구성하여 메일 계정을 자동 프로비전하고 WiFi 또는 VPN 설정과 같은 프로필에 액세스하고 장치에서 신뢰할 수 있는 구성만 수신하여 설치하도록 인증서 프로필을 제공할 수 있습니다.
@@ -62,9 +64,9 @@ Exchange 온-프레미스에 대해 Intune 조건부 액세스 정책을 사용�
 ### <a name="configure-exchange-email-settings-for-native-email-apps-on-managed-devices"></a>관리되는 장치에서 기본 메일 앱에 대한 Exchange 메일 설정 구성
 다음과 같은 장치에서 메일 프로필 구성 정책을 만들고 사용자에게 배포하여 간단히 [기본 메일 앱 설정을 구성](https://docs.microsoft.com/intune/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune)할 수 있습니다.
 
--   Windows Phone&8; 이상
+-   Windows Phone 8 이상
 -   Windows 10 Desktop 및 Mobile
--   iOS&8;.0 이상
+-   iOS 8.0 이상
 -   Android(삼성 Knox Standard 4.0 이상 및 Android for Work)
 
 > [!NOTE]
@@ -80,8 +82,8 @@ Intune으로 메일 구성 설정을 제공하여 온-프레미스 Exchange 서�
 
 조직에서 사용하는 다음과 같은 장치 유형에 대해 [Exchange 온-프레미스에 대한 조건부 액세스 정책을 구성](https://docs.microsoft.com/intune/deploy-use/restrict-access-to-exchange-onpremises-with-microsoft-intune#configure-a-conditional-access-policy)할 수 있습니다.
 
--   Windows Phone&8;.1 이상
--   iOS&8;.0 이상
+-   Windows Phone 8.1 이상
+-   iOS 8.0 이상
 -   Android(4.0 이상 및 삼성 Knox Standard 4.0)
 -   Android for Work(현재 Gmail 및 Nine Work 앱 메일 프로필만 지원)
 -   관리되는 Windows PC의 메일 응용 프로그램
@@ -96,8 +98,8 @@ Intune으로 메일 구성 설정을 제공하여 온-프레미스 Exchange 서�
 Intune Wi-Fi 구성 정책을 사용하면 [무선 네트워크 설정을 사용자에게 쉽게 배포](https://docs.microsoft.com/intune/deploy-use/wi-fi-connections-in-microsoft-intune)할 수 있습니다. 이러한 설정을 사용하면 다음과 같은 지원되는 장치에서 사용자가 Wi-Fi 설정을 수동으로 구성하지 않고 회사 네트워크에 쉽게 연결할 수 있습니다.
 
 -   Android(4.0 이상, 삼성 Knox Standard, Android for Work)<sup>1</sup>
--   iOS&8;.0 이상<sup>1</sup>
--   Mac OS X&10;.9 이상<sup>1</sup>
+-   iOS 8.0 이상<sup>1</sup>
+-   Mac OS X 10.9 이상<sup>1</sup>
 -   Windows 장치(Windows 8.1 이상 PC, Windows Phone 8.1 또는 Windows 10 Mobile 이상)<sup>2</sup>
 
 > <sup>1</sup>기본 제공 Intune Wi-Fi 구성 정책을 사용할 수 있습니다.
@@ -110,8 +112,8 @@ VPN 연결은 사용자가 모바일 장치에서 회사 리소스에 원격으�
 다음과 같은 장치에서 [Intune에서 지원하는 여러 VPN 연결 형식](https://docs.microsoft.com/intune/deploy-use/vpn-connections-in-microsoft-intune#vpn-connection-types)에 대한 VPN 설정을 구성할 수 있습니다.
 
 -   Android(4.0 이상, 삼성 Knox Standard, Android for Work)
--   iOS&8;.0 이상
--   Mac OS X&10;.9 이상
+-   iOS 8.0 이상
+-   Mac OS X 10.9 이상
 -   Windows 장치(Windows 8.1 이상 PC, Windows Phone 8.1 및 Windows 10 Mobile 이상)
 
 ### <a name="protect-network-access"></a>네트워크 액세스 보호
@@ -131,11 +133,11 @@ VPN, Wi-Fi 또는 메일 프로필을 통해 사용자에게 회사 리소스 �
 
 다음과 같은 장치 플랫폼에서 **PKCS #12(.PFX)** 또는 **SCEP(단순 인증서 등록 프로토콜)** 인증서 프로필을 만들고 배포하여 인증 인증서를 요구하는 장치에 사용할 수 있습니다.
 
--   iOS&8;.0 이상
--   Mac OS X&10;.9 이상
+-   iOS 8.0 이상
+-   Mac OS X 10.9 이상
 -   Android(4.0 이상 및 Android for Work)
 -   Window 8.1 이상
--   Windows Phone&8;.1 이상
+-   Windows Phone 8.1 이상
 -   Windows 10(데스크톱 및 모바일) 이상
 
 회사에 대해 인증서 기반 인증을 수행하려면 엔터프라이즈 CA(인증 기관)가 필요하지만 SCEP 또는 .PFX 인증서를 사용하여 회사 리소스에 대한 액세스 보안을 유지하려면 충족해야 하는 다른 필수 조건도 있습니다.
@@ -153,9 +155,4 @@ VPN, Wi-Fi 또는 메일 프로필을 통해 사용자에게 회사 리소스 �
 [EMS(Enterprise Mobility + Security) 사용 시작](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
 [Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

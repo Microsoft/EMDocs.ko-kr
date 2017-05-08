@@ -12,9 +12,11 @@ ms.technology: techgroup-identity
 ms.assetid: 2f906e2e-3d99-40e6-b5cc-8d903fcda444
 ms.reviewer: v-craic
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: bf2418b68e40b60508447fc5400f4acfc5c6b1b3
 ms.openlocfilehash: 17f2a0b6991d05af2a6f000af48e9fc085221a4d
+ms.contentlocale: ko-kr
+ms.lasthandoff: 02/14/2017
 
 
 ---
@@ -81,7 +83,7 @@ Azure Information Protection 보호 기능의 기본 사항은 보호된 콘텐�
 
 ![악성 프로그램](./media/azure-information-protection-securing-data/aip-securing-data-fig3.png)
 
-여기서 의도는 사용자 ID의 보안을 향상하는 것이며, 이렇게 하면 Rogue 응용 프로그램이 사용자의 ID를 하이재킹하는 기능을 완화하는 데 도움이 됩니다. Azure Active Directory는 사용자 ID의 보안을 유지하는 데 도움이 될 수 있는 몇 가지 솔루션을 제공합니다(예:&2;단계 인증 사용). 또한 Azure Activity Directory ID 보호의 일부로 제공되며 사용자 ID의 보안을 유지하기 위해 탐색해야 하는 다른 기능도 있습니다.
+여기서 의도는 사용자 ID의 보안을 향상하는 것이며, 이렇게 하면 Rogue 응용 프로그램이 사용자의 ID를 하이재킹하는 기능을 완화하는 데 도움이 됩니다. Azure Active Directory는 사용자 ID의 보안을 유지하는 데 도움이 될 수 있는 몇 가지 솔루션을 제공합니다(예: 2단계 인증 사용). 또한 Azure Activity Directory ID 보호의 일부로 제공되며 사용자 ID의 보안을 유지하기 위해 탐색해야 하는 다른 기능도 있습니다.
 
 ID 보안 유지는 Azure Information Protection의 범위를 벗어나며 관리자 책임 영역에 속합니다.
 
@@ -122,9 +124,4 @@ Azure Information Protection은 응용 프로그램이 문서와 연결된 권�
 - [분류, 레이블 지정 및 보호를 사용하여 데이터 보안 유지](infoprotect-secure-classify-scenario.md)
 - [내부 및 외부에서 중요한 데이터 공유](share-sensitive-data.md)
 - [공유 데이터의 사용을 추적하고 데이터 남용에 대응](infoprotect-track-usage-scenario.md)
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 
