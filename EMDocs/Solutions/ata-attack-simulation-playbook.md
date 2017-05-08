@@ -12,9 +12,10 @@ ms.technology: techgroup-identity
 ms.assetid: da5eda7c-29bb-429f-9366-72495667c010
 ms.reviewer: v-craic
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: cff5b87f6c5d0b9aa987631fefe5bf74e3a43862
 ms.openlocfilehash: 41672ccdbd2c868add70e423b7dbc8048713259b
+ms.contentlocale: ko-kr
 ms.lasthandoff: 03/14/2017
 
 
@@ -41,7 +42,7 @@ ms.lasthandoff: 03/14/2017
 
 ## <a name="configuring-your-lab-environment"></a>랩 환경 구성
 
-뒷부분의 실험을 비롯하여 모든 실험에서 이러한 지침을 자세히 따르는 것이 좋습니다.  수행할 몇 가지 설정, 특히&4;대의 컴퓨터,&3;명의 사용자 및 일부 연구 소프트웨어는 인터넷을 차단할 수 있습니다.
+뒷부분의 실험을 비롯하여 모든 실험에서 이러한 지침을 자세히 따르는 것이 좋습니다.  수행할 몇 가지 설정, 특히 4대의 컴퓨터, 3명의 사용자 및 일부 연구 소프트웨어는 인터넷을 차단할 수 있습니다.
 
 ATA를 설치하고 90일 평가판을 구하는 방법에 대한 자세한 내용은 [Advanced Threat Analytics 평가판](http://aka.ms/ataeval)을 참조하십시오. 
 
@@ -147,7 +148,7 @@ Contoso의 도메인 관리자인 Nuck Chorris는 *Admin-PC* 워크스테이션�
 | Admin-PC | - NuckC |
 | Victim-PC | - JeffV 및 RonHD(지원 센터 시나리오를 통해 만들어짐) |
 
-이 시점에서 랩 환경이 준비되어 있습니다. 현재 랩 상태는 도메인 손상으로부터&1;-exploit-away(#&1;ea)인 위치에 있습니다.  다음으로, 단일 손상이 일반적으로 멈출 줄 모르는 의욕을 가진 악의적 사용자에 의해 인터넷에서 액세스할 수 있는 응용 프로그램을 대상으로 사용자 환경 내 가장 낮은 권한 수준의 자산에서 발생한다는 것을 알 수 있습니다.  이 시점에서 [침입 가정](https://blogs.msdn.microsoft.com/azuresecurity/2015/10/19/an-insiders-look-at-the-security-of-microsoft-azure-assume-the-breach/) 방법론이 대두되는 것입니다.
+이 시점에서 랩 환경이 준비되어 있습니다. 현재 랩 상태는 도메인 손상으로부터 1-exploit-away(# 1ea)인 위치에 있습니다.  다음으로, 단일 손상이 일반적으로 멈출 줄 모르는 의욕을 가진 악의적 사용자에 의해 인터넷에서 액세스할 수 있는 응용 프로그램을 대상으로 사용자 환경 내 가장 낮은 권한 수준의 자산에서 발생한다는 것을 알 수 있습니다.  이 시점에서 [침입 가정](https://blogs.msdn.microsoft.com/azuresecurity/2015/10/19/an-insiders-look-at-the-security-of-microsoft-azure-assume-the-breach/) 방법론이 대두되는 것입니다.
 
 ## <a name="executing-the-attack"></a>공격 실행
 
@@ -330,7 +331,7 @@ IP 192.168.10.30은 이미 이 가이드에서 이전에 설명한 SMB 열거 �
 
 이제 *RonHD*를 통해 [Overpass-the-Hash]() 공격을 사용하여 측면 확대를 수행할 시간입니다. 공격자가 WDigest를 사용하지 않도록 설정되지 않은 환경에 있으면 공격자는 이미 일반 텍스트 암호를 알고 있으므로 이 공격의 의미가 없어지게 됩니다.  그러나 이 랩의 목적에 따라 일반 텍스트 암호를 모르거나 이 암호에 액세스할 수 없다고 가정됩니다.
 
-Overpass-the-Hash라는 기법을 사용하면 NTLM 해시를 가져와 Kerberos\Active Directory를 통해 TGT(Ticket Granting Ticket)를 얻을 수 있습니다.  TGT를 사용하면 Ron**HD로 가장하여*RonHD*가 액세스할 수 있는 모든 도메인 리소스에 액세스할 수 있습니다.  
+Overpass-the-Hash라는 기법을 사용하면 NTLM 해시를 가져와 Kerberos\Active Directory를 통해 TGT(Ticket Granting Ticket)를 얻을 수 있습니다.  TGT를 사용하면 Ron**HD로 가장하여* RonHD*가 액세스할 수 있는 모든 도메인 리소스에 액세스할 수 있습니다.  
 
 "작업: Victim-PC에서 자격 증명 덤프"에서 이전에 수집한 *RonHD*의 NTLM 해시를 victim-pc.txt에서 복사합니다. 그런 다음 *Victim-PC*로 이동하여 *mimikatz*가 파일 시스템에서 저장된 위치에 액세스하고 다음 명령을 실행합니다.
 

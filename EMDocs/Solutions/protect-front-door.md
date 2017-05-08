@@ -13,9 +13,11 @@ ms.assetid: c9aeabcf-db9b-4a35-b1bc-61331c464165
 ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: microsoft-identity-manager
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: 7912b13666c9b08af0c6d962fe1ea592335ca73d
+ms.contentlocale: ko-kr
+ms.lasthandoff: 01/24/2017
 
 
 ---
@@ -112,7 +114,7 @@ Azure AD Privileged Identity Management에 액세스하려면 먼저 [Marketplac
 
 ### <a name="step-5-configure-azure-ad-privileged-identity-management"></a>5단계: Azure AD Privileged Identity Management 구성
 
-초기 구성은 **조직 보호** 블레이드에 표시된&3;개 단계로 진행되는 [보안 마법사](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-security-wizard/)를 사용하여 수행됩니다.
+초기 구성은 **조직 보호** 블레이드에 표시된 3개 단계로 진행되는 [보안 마법사](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-security-wizard/)를 사용하여 수행됩니다.
 
 ![보안 마법사](./media/protect-front-door/protect-front-door-fig9.png)
 
@@ -127,9 +129,4 @@ Azure AD Privileged Identity Management를 설치 및 구성했으므로 초기 
 ![권한 있는 역할](./media/protect-front-door/protect-front-door-fig10.png)
 
 이 대시보드에서는 [보안 경고](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-configure-security-alerts/) 및 [액세스 검토](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-start-security-review/)와 같은 현재 활동을 볼 수 있습니다. 또한 이 대시보드에서 Azure AD Privileged Identity Management에 대한 하나 이상의 사용자 액세스 권한을 [추가](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-give-access-to-pim/) 또는 [제거](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-give-access-to-pim/#remove-another-users-access-rights-for-managing-pim)할 수 있습니다.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 
