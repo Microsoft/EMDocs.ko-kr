@@ -12,9 +12,11 @@ ms.technology: techgroup-identity
 ms.assetid: 65409d5c-4f1b-4026-86e9-e65e1c4fe2b4
 ms.reviewer: v-craic
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 34d04195000f7cdb5a9efdfa31788a12cc8d8d5b
 ms.openlocfilehash: a2fc2e045c413707ad9d53e738b1eec6457c3a95
+ms.contentlocale: ko-kr
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -27,7 +29,7 @@ Enterprise Mobility + Security로 어떻게 이 시나리오를 해결할 수 �
 
 ## <a name="how-can-enterprise-mobility--security-help-you"></a>Enterprise Mobility + Security는 어떤 이점이 있나요?
 
-EMS(Enterprise Mobility + Security)는 ID, 장치, 앱, 데이터 등의&4;단계 보호 기능으로 장치뿐 아니라 그 이상에서 기업 데이터를 보호하는 유일한 포괄적인 클라우드 솔루션입니다. EMS는 모바일 중심, 클라우드 중심 환경의 핵심 과제 중 하나인, 업무 중인 직원에게 보안 데이터를 제공하는 문제를 해결해 줍니다. EMS를 사용하면 직원들이 조직 내외부에서 안전하게 공동 작업을 수행할 수 있습니다. IT 관리자는 EMS를 통해 Azure Information Protection을 활용하여 파일 수준에서 회사 데이터의 보안을 유지할 수 있습니다. 이 기능을 사용하여 저장 위치, 공유 대상, 데이터가 정지 상태인지 전송 중인지에 관계없이, 항상 보호되도록 할 수 있습니다.
+EMS(Enterprise Mobility + Security)는 ID, 장치, 앱, 데이터 등의 4단계 보호 기능으로 장치뿐 아니라 그 이상에서 기업 데이터를 보호하는 유일한 포괄적인 클라우드 솔루션입니다. EMS는 모바일 중심, 클라우드 중심 환경의 핵심 과제 중 하나인, 업무 중인 직원에게 보안 데이터를 제공하는 문제를 해결해 줍니다. EMS를 사용하면 직원들이 조직 내외부에서 안전하게 공동 작업을 수행할 수 있습니다. IT 관리자는 EMS를 통해 Azure Information Protection을 활용하여 파일 수준에서 회사 데이터의 보안을 유지할 수 있습니다. 이 기능을 사용하여 저장 위치, 공유 대상, 데이터가 정지 상태인지 전송 중인지에 관계없이, 항상 보호되도록 할 수 있습니다.
 
 ## <a name="recommended-solution"></a>권장 솔루션
 
@@ -108,9 +110,4 @@ IT 관리자는 데이터에 분류 및 보호를 자동으로 적용하기 위�
 - IBAN(국제 은행 계좌 번호)
 
 이러한 유형의 구현에 대한 자세한 내용은 [기본 제공 조건에 대한 정보](/information-protection/deploy-use/configure-policy-classification#information-about-the-built-in-conditions)를 참조하세요.
-
-
-
-<!--HONumber=Feb17_HO4-->
-
 

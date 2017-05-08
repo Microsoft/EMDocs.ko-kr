@@ -12,9 +12,11 @@ ms.technology:
 ms.assetid: cc0d2e1f-9c34-4dcb-ac1f-2f355e9ebb7e
 ms.reviewer: vlpetros
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: d7e15962a95135dbb16cb41e2643c602b87039cf
+ms.contentlocale: ko-kr
+ms.lasthandoff: 01/24/2017
 
 
 ---
@@ -23,7 +25,7 @@ ms.openlocfilehash: d7e15962a95135dbb16cb41e2643c602b87039cf
 대부분 직원들이 모바일 장치에서 원하는 첫 번째 기능은 회사 메일 및 문서에 대한 액세스입니다. 또한 복잡한 단계를 거치거나 지원 센터에 문의하지 않고 설정을 진행할 수 있기 바랍니다. 반면, IT 부서는 골치 아프게 대규모의 온-프레미스 인프라를 유지 관리하지 않으면서 모든 위치에서 회사 데이터 보안을 유지하려고 합니다. EMS(Enterprise Mobility + Security)를 사용하면 직원들이 즐겨 사용하는 앱 및 장치로 직원 생산성을 유지할 수 있고 회사 데이터를 보호할 수 있습니다. 방법에 대해 계속 읽어보세요.
 
 ## <a name="how-can-enterprise-mobility--security-ems-help-you"></a>EMS(Enterprise Mobility + Security)는 사용자에게 어떻게 도움을 줄 수 있나요?
-EMS는 기본적으로 모든 사용자가 회사로 가져온 장치에서 Microsoft Office 메일, 파일 및 앱을 보호하도록 고안된 유일한 솔루션입니다. 내부에서 EMS는 ID, 장치, 앱 및 데이터를 아우르는&4;계층의 보호를 제공함으로써 이동 중인 직원들에게 안전한 메일을 쉽게 전달할 수 있도록 합니다. EMS를 통해 직원들은 회사 메일 및 문서에 안전하고 원활하게 액세스할 수 있으며, Outlook, Word, Excel, PowerPoint 및 OneDrive와 같은 Office 모바일 앱을 통해 친숙한 메일 및 생산성 환경을 활용할 수 있습니다.
+EMS는 기본적으로 모든 사용자가 회사로 가져온 장치에서 Microsoft Office 메일, 파일 및 앱을 보호하도록 고안된 유일한 솔루션입니다. 내부에서 EMS는 ID, 장치, 앱 및 데이터를 아우르는 4계층의 보호를 제공함으로써 이동 중인 직원들에게 안전한 메일을 쉽게 전달할 수 있도록 합니다. EMS를 통해 직원들은 회사 메일 및 문서에 안전하고 원활하게 액세스할 수 있으며, Outlook, Word, Excel, PowerPoint 및 OneDrive와 같은 Office 모바일 앱을 통해 친숙한 메일 및 생산성 환경을 활용할 수 있습니다.
 
 Office 365는 사용자 환경을 그대로 유지하면서 어디로 이동하든 해당 위치에서 작업을 수행하려는 직원을 위해 고안되었습니다. EMS와 Office 365는 사용자에게 뛰어난 생산성 표준을 제공하고 IT 직원에게 긴밀히 통합된 데이터 제어 기능을 제공하는 완전 관리형 모바일 생산성 솔루션을 제공합니다.
 
@@ -79,7 +81,7 @@ Exchange Online으로 이동되도록 조건부 액세스 정책을 구성한 �
 ![Exchange Online에서 조건부 액세스가 작동하는 방식을 보여 주는 이미지](..\Solutions\media\protect-office365-data-with-intune\protect-office365-data-with-intune-fig1.png)
 
 ### <a name="secure-access-to-sharepoint-online"></a>SharePoint Online에 대한 액세스 보호
-Intune에서는 조건부 액세스를 사용하여 [SharePoint Online 파일 액세스에 대해 보안을 유지](https://docs.microsoft.com/intune/deploy-use/restrict-access-to-sharepoint-online-with-microsoft-intune)할 수 있습니다. 메일에 대한 액세스를 보호하는 것처럼, 액세스 허용을 위해 충족해야 하는&2;가지 정책을 설정해야 합니다. 하나는 장치에서 회사 정책이 준수되도록 하는 장치 준수 정책이고, 다른 하나는 서비스 액세스를 위해 충족해야 하는 조건을 설정하는 조건부 액세스 정책입니다.
+Intune에서는 조건부 액세스를 사용하여 [SharePoint Online 파일 액세스에 대해 보안을 유지](https://docs.microsoft.com/intune/deploy-use/restrict-access-to-sharepoint-online-with-microsoft-intune)할 수 있습니다. 메일에 대한 액세스를 보호하는 것처럼, 액세스 허용을 위해 충족해야 하는 2가지 정책을 설정해야 합니다. 하나는 장치에서 회사 정책이 준수되도록 하는 장치 준수 정책이고, 다른 하나는 서비스 액세스를 위해 충족해야 하는 조건을 설정하는 조건부 액세스 정책입니다.
 
 사용자가 관리되지 않는 장치를 사용하여 Intune 조건부 액세스 정책에 의해 보호되는 SharePoint Online 서비스에 연결하려고 하면 다음 현상이 발생합니다.
 1.  사용자의 SharePoint Online 리소스 액세스가 거부되고, 대신 보안을 강화하라는 메시지와 Intune 관리에 장치를 등록하기 위한 링크가 표시됩니다.
@@ -99,7 +101,7 @@ Intune MAM(모바일 앱 관리) 정책을 사용하여 사용자의 iOS 및 And
 > [!TIP]
 > Intune MAM 정책은 사용자에게 Intune 라이선스가 할당되어 있다면 MDM(모바일 장치 관리) 솔루션과는 별도로 사용할 수 있습니다. 즉, 장치를 Intune 관리에 등록하든 하지 않든, Microsoft 이외의 MDM 서비스로 장치를 관리하든, 회사 데이터를 보호할 수 있습니다.
 
-관리자는 [Azure 관리 포털에서 Intune MAM 앱 정책 설정을 구성](https://docs.microsoft.com/intune/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune)합니다. MAM 정책에 포함된&2;가지 유형의 설정은 *데이터 재배치* 및 *액세스* 설정입니다. 데이터 재배치 정책은 보호되는 앱의 데이터를 사용하는 방법을 정의합니다. 예를 들어 "다른 이름으로 저장"이나 잘라내기, 복사, 붙여넣기 기능을 방지할 수 있습니다. 액세스 정책 설정은 직원이 앱을 사용하는 데 필요하다고 생각되는 장치 보안 수준을 결정합니다. 이러한 설정을 사용할 경우 추가 앱 PIN을 요구하거나 앱이 무단 해제되었거나 루팅된 장치에서 실행되지 않도록 할 수 있습니다.
+관리자는 [Azure 관리 포털에서 Intune MAM 앱 정책 설정을 구성](https://docs.microsoft.com/intune/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune)합니다. MAM 정책에 포함된 2가지 유형의 설정은 *데이터 재배치* 및 *액세스* 설정입니다. 데이터 재배치 정책은 보호되는 앱의 데이터를 사용하는 방법을 정의합니다. 예를 들어 "다른 이름으로 저장"이나 잘라내기, 복사, 붙여넣기 기능을 방지할 수 있습니다. 액세스 정책 설정은 직원이 앱을 사용하는 데 필요하다고 생각되는 장치 보안 수준을 결정합니다. 이러한 설정을 사용할 경우 추가 앱 PIN을 요구하거나 앱이 무단 해제되었거나 루팅된 장치에서 실행되지 않도록 할 수 있습니다.
 
 다음 스크린샷은 Intune MAM 정책을 사용하여 앱을 보호하는 몇 가지 방법을 보여 줍니다. 이 예제에서는 앱에 액세스하기 위해 PIN이 요구되고(액세스 설정) 관리되지 않는 앱에 회사 정보를 붙여넣지 못하게 하여(데이터 재배치 설정) 회사 데이터를 보호합니다.
 
@@ -142,9 +144,4 @@ Intune의 WIP 정책은 관리되는 Windows 10 장치에서 잠재적인 데이
 [EMS(Enterprise Mobility + Security) 사용 시작](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
 [Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

@@ -12,9 +12,11 @@ ms.technology: techgroup-identity
 ms.assetid: a996fbf8-ece4-40bc-b866-d4606c230027
 ms.reviewer: v-craic
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: 3d84bbe6d252976e1a3152f65003787e37d408c8
+ms.contentlocale: ko-kr
+ms.lasthandoff: 01/24/2017
 
 
 ---
@@ -31,7 +33,7 @@ ms.openlocfilehash: 3d84bbe6d252976e1a3152f65003787e37d408c8
 
 ## <a name="how-can-enterprise-mobility--security-help-you"></a>Enterprise Mobility + Security는 어떤 이점이 있나요?
 
-EMS(Enterprise Mobility + Security)는 ID, 장치, 앱, 데이터 등의&4;단계 보호 기능으로 장치뿐 아니라 그 이상에서 기업 데이터를 기본적으로 보호하는 유일한 포괄적인 클라우드 솔루션입니다. EMS는 모바일 우선, 클라우드 우선 환경의 핵심 과제 중 하나인, 업무 중인 직원에게 보안 전자 메일을 제공하는 문제를 해결하도록 도와줍니다. EMS를 사용하면 직원들이 조직 내외부에서 안전하게 공동 작업을 수행할 수 있습니다. EMS를 사용하면 IT 관리자가 [Azure 권한 관리](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms) 정책 템플릿을 사용하여 사용 현황을 전자 메일로 보낼 수 있습니다. 사용 권한은 온라인 및 오프라인뿐 아니라 조직 방화벽의 내부 및 외부에서도 보호가 이루어지도록 메시지 자체에 연결됩니다.
+EMS(Enterprise Mobility + Security)는 ID, 장치, 앱, 데이터 등의 4단계 보호 기능으로 장치뿐 아니라 그 이상에서 기업 데이터를 기본적으로 보호하는 유일한 포괄적인 클라우드 솔루션입니다. EMS는 모바일 우선, 클라우드 우선 환경의 핵심 과제 중 하나인, 업무 중인 직원에게 보안 전자 메일을 제공하는 문제를 해결하도록 도와줍니다. EMS를 사용하면 직원들이 조직 내외부에서 안전하게 공동 작업을 수행할 수 있습니다. EMS를 사용하면 IT 관리자가 [Azure 권한 관리](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms) 정책 템플릿을 사용하여 사용 현황을 전자 메일로 보낼 수 있습니다. 사용 권한은 온라인 및 오프라인뿐 아니라 조직 방화벽의 내부 및 외부에서도 보호가 이루어지도록 메시지 자체에 연결됩니다.
 
 ## <a name="recommended-solution"></a>권장 솔루션
 
@@ -74,7 +76,7 @@ Azure RMS를 지원하도록 Exchange Online을 구성하려면 Exchange Online�
 
 Exchange 온-프레미스와의 권한 관리 통합을 구성하려면 Microsoft Rights Management(RMS) 커넥터를 구성해야 합니다. 이 커넥터를 통해 기존 온-프레미스 Exchange Server가 클라우드 기반 Microsoft Rights Management 서비스(Azure RMS)에서 IRM(정보 권한 관리) 기능을 사용하도록 할 수 있습니다. 하이브리드 시나리오에서 일부 사용자가 온라인 서비스에 연결하더라도 이 커넥터를 사용할 수 있습니다.
 
-[RMS 커넥터를 설치하기 위한 필수 구성 요소](https://docs.microsoft.com/rights-management/deploy-use/deploy-rms-connector#prerequisites-for-the-rms-connector)를 검토하고 [Azure 권한 관리 커넥터 설치 및 구성](https://docs.microsoft.com/rights-management/deploy-use/install-configure-rms-connector) 문서에 설명된&5;가지 단계를 따릅니다.
+[RMS 커넥터를 설치하기 위한 필수 구성 요소](https://docs.microsoft.com/rights-management/deploy-use/deploy-rms-connector#prerequisites-for-the-rms-connector)를 검토하고 [Azure 권한 관리 커넥터 설치 및 구성](https://docs.microsoft.com/rights-management/deploy-use/install-configure-rms-connector) 문서에 설명된 5가지 단계를 따릅니다.
 
 ### <a name="step-2-send-a-protected-document-using-exchange"></a>2단계: Exchange를 사용하여 보호된 문서 보내기
 
@@ -94,9 +96,4 @@ Office 문서를 공유하려면(예: Word에서 직접) 다음 이미지에 표
 
 > [!IMPORTANT]
 > 이 시나리오에 대한 자세한 내용은 Microsoft Ignite에서 [Azure Information Protection을 사용하여 안전하게 공동 작업](https://myignite.microsoft.com/videos/49947) 프레젠테이션을 참조하세요.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 
