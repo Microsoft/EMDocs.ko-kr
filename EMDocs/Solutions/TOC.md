@@ -22,6 +22,7 @@
 ### [Intune으로 장치를 관리하지 않고 회사 데이터 보호](protect-company-data-without-managing-devices.md)
 ### [Intune으로 BYOD를 사용 하도록 설정](enable-byod.md)
 ### [Intune으로 회사 소유 장치 관리](issue-corp-devices.md)
+### [Intune으로 사용 제한된 공유 장치 솔루션 사용 설정](limited-use-shared-devices.md)
 ## [설계 및 아키텍처 가이드]()
 ### [BYOD 디자인 가이드](byod-design-considerations-guide.md)
 #### [인프라 솔루션 구상](byod-envisioning-the-byod-infrastructure-solution.md)
