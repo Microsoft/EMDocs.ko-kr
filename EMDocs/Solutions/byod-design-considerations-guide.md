@@ -4,8 +4,8 @@ description: "이 문서에서는 Bring Your Own Device에 대한 소개 및 디
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 01/04/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: ed940ba8-866c-477f-a59b-beb620300a79
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 242b1a6468bfc9524acdb3c497078128dd26864b
 ms.openlocfilehash: 0744ef860fb1fd06507c9e24af9c676551c54f12
+ms.contentlocale: ko-kr
+ms.lasthandoff: 01/05/2017
 
 
 ---
@@ -74,9 +76,4 @@ ms.openlocfilehash: 0744ef860fb1fd06507c9e24af9c676551c54f12
 대규모 인프라가 있는 조직은 IT 부서에서 장치를 완전히 제어하는 장치 자체 관리에서 IT 부서의 장치 제어 권한을 줄이는 동시에 회사 데이터 액세스에 대한 사용자의 요구를 해결해야 하는 모델로 전환하기 전에 요구 사항을 확인해야 합니다. 이런 경우를 종종 장치 중심에서 사용자 중심 IT로 전환이라고 합니다. 또한 기존 앱과 새 앱 또는 기존 앱에서 클라우드 환경으로 전환하는 경우에 동일한 고려 사항 및 요구 사항을 신중하게 계획해야 합니다. 그림 1에서는 BYOD 문제 영역의 개념 다이어그램과 이 가이드에서 설명한 영역을 보여 줍니다.
 
 ![문제 도메인](./media/BYOD_Figure1.png)
-
-
-
-<!--HONumber=Jan17_HO1-->
-
 

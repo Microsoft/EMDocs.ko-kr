@@ -4,8 +4,8 @@ description: "이 항목에서는 모바일 장치에서 데이터 암호화에 
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 10/3/2016
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 1072858e-dc0a-44ad-a512-d938f20310b6
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
 ms.openlocfilehash: a7382ec71d94d0b08cc4c89e8dbe90bcd1a4c1d7
+ms.contentlocale: ko-kr
+ms.lasthandoff: 01/05/2017
 
 
 ---
@@ -80,9 +82,4 @@ Intune 모바일 응용 프로그램 관리 정책과 연결된 앱의 경우에
 - 조직에 최신 온-프레미스 ConfigMgr 인프라가 없는 경우 통합 전에 이 플랫폼의 계획, 설치 및 구성 필요
 
 Intune 및 ConfigMgr 기능을 결합하여 데이터 보호 기능을 강화하고 암호화를 구성하는 방법을 자세히 알아보려면 [Configuration Manager 및 Intune을 사용하여 모바일 장치의 암호화 관리](http://blogs.technet.com/b/pauljones/archive/2014/08/04/managing-encryption-on-mobile-devices-with-configuration-manager-and-intune.aspx)를 읽어보세요.
-
-
-
-<!--HONumber=Jan17_HO1-->
-
 

@@ -4,8 +4,8 @@ description: "이 문서에서는 모바일 장치 관리 시나리오에 사용
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 11/28/2016
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 31b98333-5a3d-49ba-a25e-66447df68035
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: ff3b086f2ad076776e7cff918ef4bb26161427fd
+ms.contentlocale: ko-kr
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -93,9 +95,4 @@ Azure AD MFA를 사용하여 사용자가 회사 리소스에 액세스할 때�
 **단점**
 
 - 클라우드 기반 솔루션을 채택하지 않는 고객은 사용할 수 없음
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

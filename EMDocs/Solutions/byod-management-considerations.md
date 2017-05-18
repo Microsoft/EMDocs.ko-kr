@@ -4,8 +4,8 @@ description: "이 문서에서는 Bring Your Own Device 시나리오에 사용�
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 02/23/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: ba8cc256-2075-457f-a827-7ec9213c5235
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: da1652d5bb9a7b7176c74482bfc814aaf8902c3f
+ms.contentlocale: ko-kr
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -194,9 +196,4 @@ Windows 기반 장치가 아닌 다른 플랫폼을 관리하려면 Microsoft In
 | 회사 외부에 있는 장치에 앱을 배포하고 프로비저닝합니다.   | Microsoft Intune                                       |
 | 비Windows 장치에 앱을 배포하고 프로비저닝합니다.                   | Microsoft Intune                                       |
 | 앱을 온-프레미스에 위치한 장치에 배포하고 프로비전하며, 회사 외부에 있는 장치에 앱을 배포하고 프로비전하거나 Windows 이외의 장치에 앱을 배포하고 프로비전합니다.       | Configuration Manager와 통합된 Microsoft Intune
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

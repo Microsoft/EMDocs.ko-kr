@@ -4,8 +4,8 @@ description: "이 문서에서는 모바일 장치 관리 시나리오에 사용
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 11/28/2016
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 50bd37fe-30b5-4a45-9c36-0b907dd13cc2
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 030d0c1dca506ac7757e8c26910ea4725a1b9c2c
+ms.contentlocale: ko-kr
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -90,9 +92,4 @@ EDP는 엔터프라이즈 데이터를 암호화하므로 데이터 분리를 �
 - 조직에 최신 온-프레미스 ConfigMgr 인프라가 없는 경우 통합 전에 이 플랫폼의 계획, 설치 및 구성 필요
 
 각 모바일 장치 플랫폼에 대한 선택적 초기화 후에 데이터 제거되고 유지되는 방식을 이해하려면 [Microsoft Intune을 사용하여 전체 또는 선택적 초기화를 통해 데이터 보호 지원](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune) 문서를 읽어보세요. 하이브리드 환경인 경우 ConfigMgr가 이 작업을 수행하는 데 어떻게 도움이 되는지 확인하려면 [Configuration Manager를 사용하여 모바일 장치를 원격으로 초기화하는 방법](https://technet.microsoft.com/library/dn956981.aspx) 문서를 읽어보세요.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 
