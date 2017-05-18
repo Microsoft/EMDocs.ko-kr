@@ -4,8 +4,8 @@ description: "이 문서에서는 Bring Your Own Device 시나리오에 사용�
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 11/28/2016
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 4b871c74-fec8-45e2-8b45-6ef0e62f7cc6
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 2e00204f4be8183fdb8502e13b1ef06d1b7df084
+ms.contentlocale: ko-kr
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -41,7 +43,7 @@ BYOD 시나리오용으로 특별히 개발된 앱에 대한 패턴이 있으므
 
 원격 사용자용 앱은 둘 이상의 플랫폼에서 실행되고, 최대한 간단해야 하며, 사용자의 장치에 대한 최소 액세스가 필요하다는 점을 고려하면 옵션의 범위를 웹 기반 앱 및 최신 앱으로 좁혀야 합니다. 다음 섹션은 솔루션에 사용할 앱 환경을 결정하도록 보조합니다.
 
-### <a name="app-experience-options-advantages-and-disadvantages"></a>앱 환경 옵션 — 장점 및 단점
+### <a name="app-experience-options--advantages-and-disadvantages"></a>앱 환경 옵션 — 장점 및 단점
 
 아래 목록을 사용하여 각 앱 환경 옵션의 장단점을 이해합니다.
 
@@ -70,7 +72,7 @@ BYOD 시나리오용으로 특별히 개발된 앱에 대한 패턴이 있으므
         - 이 새로운 형식을 사용하여 앱을 개발하려면 개발자가 자신의 지식을 확장해야 할 수 있음
 
 
-### <a name="app-requirements-considerations"></a>앱 요구 사항 — 고려 사항
+### <a name="app-requirements--considerations"></a>앱 요구 사항 — 고려 사항
 
 원격 사용자가 자신의 장치에서 사용하기 위해 조정되어야 할 앱을 평가하고 이러한 요구 사항이 사용자에게 제공되었는지 확인합니다. 아래에 앱 요구 사항 목록 및 각 요구 사항에 대한 고려 사항이 있습니다.
 
@@ -98,7 +100,7 @@ BYOD 시나리오용으로 특별히 개발된 앱에 대한 패턴이 있으므
 
 플랫폼마다 앱에 서명하고 게시하는 경우의 요구 사항이 서로 다르며, IT 부서는 특정 플랫폼에서 실행되는 앱의 전체 수명 주기를 평가해야 하므로 이는 IT 리소스에 직접 영향을 줍니다. 또한 BYOD 인프라 솔루션에 대한 앱의 플랫폼 요구 사항에 액세스해야 합니다. 다음 섹션에는 앱 플랫폼 요구 사항에 대한 주요 고려 사항이 포함되어 있습니다.
 
-### <a name="app-platform-requirements-considerations"></a>앱 플랫폼 요구 사항 — 고려 사항
+### <a name="app-platform-requirements--considerations"></a>앱 플랫폼 요구 사항 — 고려 사항
 
 아래에 앱 플랫폼 요구 사항 목록 및 각 요구 사항에 대한 고려 사항이 있습니다.
 
@@ -131,7 +133,7 @@ BYOD 시나리오용으로 특별히 개발된 앱에 대한 패턴이 있으므
 
 사용자에게 배포될 앱에 대한 고려 사항을 제공하려면 회사 액세스와 관련된 요구 사항을 이해해야 합니다. 사용자가 다른 회사 리소스에 액세스할 필요가 없거나 회사 네트워크 내부에 있는 동안 모든 회사 리소스에 대한 전체 액세스 권한이 필요하지 않는 경우에도 배포 시나리오에는 회사 리소스에 항상 연결되어 있어야 하는 앱이 포함됩니다. 각 앱에 대한 배포 옵션을 확인하고 회사에 기본적으로 사용되는 방법을 평가합니다. 다음 섹션에는 의사 결정 기준의 일부로 사용할 수 있는 가장 일반적인 배포 옵션이 포함되어 있습니다.
 
-### <a name="deployment-options-advantages-and-disadvantages"></a>배포 옵션 — 장점 및 단점
+### <a name="deployment-options--advantages-and-disadvantages"></a>배포 옵션 — 장점 및 단점
 
 아래 목록을 사용하여 각 배포 옵션의 장단점을 이해합니다.
 
@@ -163,7 +165,7 @@ BYOD 시나리오용으로 특별히 개발된 앱에 대한 패턴이 있으므
         - 일반적으로 클라우드 서비스 구독이 필요합니다.
         - 온-프레미스 배포 솔루션과의 통합은 클라우드 서비스에 따라 달라질 수 있습니다.
 
-### <a name="app-deployment-requirements-considerations"></a>앱 배포 요구 사항 — 고려 사항
+### <a name="app-deployment-requirements--considerations"></a>앱 배포 요구 사항 — 고려 사항
 
 BYOD 인프라 솔루션에 대한 앱의 배포 요구 사항에도 액세스해야 합니다. 다음 목록에는 몇 가지 주요 앱 배포 고려 사항이 포함되어 있습니다.
 
@@ -236,9 +238,4 @@ BYOD 인프라 디자인에 사용할 앱 배포 및 환경에 대한 결정은 
 자신의 장치를 사용하고 있는 사용자가 사용하게 될 모든 앱에 보안 개발 수명 주기를 사용해야 합니다. 보안은 개발 프로세스의 모든 단계에 포함되어야 하며 잠재적인 모든 위협을 고려해야 합니다. [STRIDE](https://msdn.microsoft.com/magazine/cc163519.aspx) 및 기타 보안 전략은 [Microsoft SDL(보안 개발 수명 주기)](https://www.microsoft.com/security/sdl/process/requirements.aspx)을 사용하여 개발 수명 주기로 통합할 수 있습니다. 현재 인프라를 BYOD의 전체적인 보안 전략과 통합하는 방식은 중요한 고려 사항입니다. 현재 환경에서 앱에 안전한 기반을 제공할 수 있습니까? 이 새로운 도입으로 발생할 잠재적인 취약성을 완화하기 위해 회사에서 타사 보안 솔루션을 구입해야 합니까?
 
 보안 고려 사항은 자신의 장치를 사용하는 사용자가 사용하게 될 앱에 중요합니다. Active Directory 보안 그룹에 따라 사용자 지정 컬렉션을 사용하여 특정 액세스 요구 사항이 있는 몇 가지 앱의 대상 사용자를 제한함으로써 해당 앱을 설치할 수 있는 사용자를 제한하는 것이 좋습니다. 또한 보안을 사용하면 사용자가 동일한 사용자 이름 및 암호를 사용하여 회사 리소스에 액세스할 수 있도록 하여 사용자 환경을 향상시킬 수 있으며, 이는 AD FS를 사용하여 수행할 수 있습니다. 보안은 이러한 앱의 배포를 디자인할 때도 중요합니다. 사용자 등록을 설정하기 전에 인증서 및 테스트용 로드 키를 얻어 배포해야 합니다. 다른 팀과 협력하여 앱 인증 프로세스를 원활하게 진행합니다.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

@@ -4,8 +4,8 @@ description: "이 문서에서는 모바일 장치 관리 시나리오에 사용
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 11/28/2016
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: c799a6c4-fe0a-4148-8e75-29e6ffdb7e6e
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 916404d1aaad5b4db01dff84c544e3364b7ec6ee
+ms.contentlocale: ko-kr
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -72,9 +74,4 @@ Intune 및 Office 365는 클라우드 기반 서비스이므로 사용자가 Mic
 **단점**
 
 - 조직에 최신 온-프레미스 ConfigMgr 인프라가 없는 경우 통합 전에 이 플랫폼의 계획, 설치 및 구성 필요
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

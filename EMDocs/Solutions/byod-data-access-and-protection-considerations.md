@@ -4,8 +4,8 @@ description: "이 문서에서는 Bring Your Own Device 시나리오에서 데�
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 02/23/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: cbf0f54d2d288baf66f914ef8366a70448218607
+ms.contentlocale: ko-kr
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -248,9 +250,4 @@ Multi-Factor Authentication을 적용하려는 경우 회사는 AD FS의 기본
 동적 액세스 제어 기능을 사용하면 파일의 자동 및 수동 분류를 사용하여 데이터를 식별할 수 있습니다. 예를 들어 조직 전체에서 파일 서버의 데이터에 태그를 지정할 수 있습니다. 또한 중앙 액세스 정책을 사용하는 safety-net 정책을 적용하여 파일에 대한 액세스를 제어할 수 있습니다. 동적 액세스 제어는 중요한 문서에 자동 RMS 암호화를 사용하는 방식으로도 RMS(권한 관리 서비스) 보호를 활용합니다. 예를 들어 HIPAA(Health Insurance Portability and Accountability Act) 정보를 포함하는 모든 문서를 암호화하도록 RMS를 구성할 수 있습니다. 법정 조사 및 감사를 위해 규정 준수 보고 및 법정 분석에 중앙 감사 정책을 활용할 수 있습니다. 매우 중요한 정보에 액세스한 사람을 식별할 수 있습니다.
 
 파일 서버 역할의 기능인 동적 액세스 제어를 통해 IT 부서는 위의 표에 표시된 기능을 사용할 수 있습니다. 동적 액세스 제어에 대한 자세한 내용은 [동적 액세스 제어: 시나리오 개요](https://technet.microsoft.com/library/hh831717.aspx)를 참조하세요.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

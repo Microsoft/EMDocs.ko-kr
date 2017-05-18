@@ -4,8 +4,8 @@ description: "이 문서에서는 Bring Your Own Device 시나리오에서 본�
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 02/23/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 717183b0b7f94277379ebbeee2136227d29f88ef
+ms.contentlocale: ko-kr
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -207,9 +209,4 @@ DRS를 사용하려면 관리 기능을 제공하지 않는다는 점을 알고 
 > Configuration Manager의 Wi-Fi 프로필에 대한 자세한 내용은 [Configuration Manager의 Wi-Fi 프로필 소개](https://technet.microsoft.com/library/dn261224.aspx)를 참조하세요.
 
 네트워크 위치는 사용자 및 장치 고려 사항에서 중요한 역할을 합니다. AD FS의 다단계 액세스 제어를 사용하여 응용 프로그램 단위 권한 부여 정책을 설정하면 사용자, 장치 및 네트워크 위치에 따라 액세스를 허용하거나 거부할 수 있습니다. 이 기능의 유효성을 확인하는 환경 설정 방법에 대한 자세한 내용은 [다단계 액세스 제어를 사용한 위험 관리](https://technet.microsoft.com/library/dn280936.aspx)를 참조하세요.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

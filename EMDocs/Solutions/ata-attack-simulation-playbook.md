@@ -4,7 +4,7 @@ description: "이 가이드를 통해 고객들은 Windows 운영 체제에 대�
 author: yuridio
 ms.author: yurid
 manager: mbaldwin
-ms.date: 03/13/2017
+ms.date: 05/18/2017
 ms.topic: solution
 ms.prod: 
 ms.service: advanced-threat-analytics

@@ -4,8 +4,8 @@ description: "이 문서에서는 Bring Your Own Device 시나리오에 사용�
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 02/21/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 29eddc34-5ca5-4169-89b6-8137b03ab7f0
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 9aafb6a87f629f61d04596830ae0cc5cee944696
+ms.contentlocale: ko-kr
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -91,9 +93,4 @@ ms.openlocfilehash: 9aafb6a87f629f61d04596830ae0cc5cee944696
     - 그렇다면 이러한 규정은 온-프레미스 리소스에 대한 현재 데이터 액세스 정책을 어떻게 도출합니까?
 - 회사에 [Mobile Device Management (MDM)(MDM(모바일 장치 관리))](mdm-design-considerations-guide.md) 및 [Mobile Application Management (MAM)(MAM(모바일 응용 프로그램 관리))](https://blogs.technet.microsoft.com/cbernier/2016/01/05/microsoft-intune-mobile-application-management-mam-standalone/)에 대한 정책이 있습니까?
 - 회사에 소송 또는 범죄 수사 시 장치 몰수에 대한 정책이 있습니까?
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

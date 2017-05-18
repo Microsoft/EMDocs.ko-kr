@@ -4,8 +4,8 @@ description: "이 문서에서는 모바일 장치 관리 시나리오에 사용
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 11/28/2016
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 1cdc3cdf-cb71-46d5-99fd-05ec96771b81
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 482c5baa2fe33c02d4466f38ef05964f64eee2cd
+ms.contentlocale: ko-kr
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -60,9 +62,4 @@ MDM 솔루션을 설계할 때는 다음을 고려하세요.
     - 그러한 경우 MDM 솔루션에서 장치 증명을 관리할 수 있나요?
 
 기본 제공된 Windows Server 2012 R2 기능과 ConfigMgr를 함께 사용하여 회사 리소스에 대한 액세스 권한을 제공하는 방법을 보다 잘 이해하려면 [어느 위치에서든 모든 장치에서 회사 리소스에 안전하게 액세스](https://technet.microsoft.com/library/dn550982)를 읽어보세요.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

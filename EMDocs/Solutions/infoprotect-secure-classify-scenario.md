@@ -3,8 +3,8 @@ title: "분류, 레이블 지정 및 보호를 사용하여 데이터 보안 유
 description: "Enterprise Mobility + Security에서 Microsoft Azure Information Protection 기능을 활용하여 어떻게 데이터를 분류하고, 레이블을 지정하고, 보호할 수 있는지를 설명하는 시나리오."
 author: yuridio
 ms.author: yurid
-manager: swadhwa
-ms.date: 02/21/17
+manager: mbaldwin
+ms.date: 05/18/17
 ms.topic: solution
 ms.prod: 
 ms.service: rights-management

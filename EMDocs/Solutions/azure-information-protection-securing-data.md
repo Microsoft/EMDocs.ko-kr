@@ -4,7 +4,7 @@ description: "이 문서에서는 조직의 데이터 보안 유지에서 Azure 
 author: yuridio
 ms.author: yurid
 manager: mbaldwin
-ms.date: 02/23/2017
+ms.date: 05/18/2017
 ms.topic: solution
 ms.prod: 
 ms.service: rights-management
