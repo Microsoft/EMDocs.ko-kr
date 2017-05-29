@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: a124d56eaa6cbca44551a7c3ea42166479523f9f
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -69,9 +71,4 @@ IT 관리자는 모바일 응용 프로그램 관리 정책을 만들고 앱에 
 
 ## <a name="where-to-go-from-here"></a>추가 정보
 [회사 메일 및 문서](protect-corporate-email-documents.md) 및 메일 첨부 파일을 보호하는 방법에 대해 이해했으므로 [회사 메일을 보호하는 솔루션을 구현](implement-solution.md)하는 방법에 대해 알아볼 수 있습니다.
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 

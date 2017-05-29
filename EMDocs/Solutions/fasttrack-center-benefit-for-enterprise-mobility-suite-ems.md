@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 484156c7-c3c4-469d-b718-9fa33d9d0ec2
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 52bdc7e5b67f9aeae2142d2b8bb2f8ed474dcc8d
-ms.openlocfilehash: 677fde4eb3c0bf95fab971acbd2f42c3571d24e8
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
+ms.openlocfilehash: 96e31a0915b9fc95ac305181f85f2b8ebbc07d4b
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -56,9 +58,4 @@ Office 365용 FastTrack에 대한 정보를 찾고 있나요? [Office 365용 Fas
 |Microsoft Azure Information Protection (E3 및 E5)|제한됨</br>성공 플랜만 해당 및 도움말 보기 팀을 통한 도움말 요청|
 |Microsoft Advanced Threat Analytics|제한됨</br>성공 플랜만 해당 및 도움말 보기 팀을 통한 도움말 요청|
 |Microsoft Cloud App Security|제한됨</br>성공 플랜만 해당 및 도움말 보기 팀을 통한 도움말 요청|
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

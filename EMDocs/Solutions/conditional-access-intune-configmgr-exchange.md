@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 56b6cd2d-3dea-468b-9f1c-92717c9ec5f5
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: 446078327ee3fe309dc6dea33db315b79fa38cae
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: 9778ccfc6a2c7583e0659c76e7ada91711517243
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -107,7 +109,7 @@ Configuration Manager는 Exchange 조직의 커넥터를 하나만 지원합니�
 > [!IMPORTANT]
 > Exchange Server 커넥터를 설치하기 전에 사용 중인 Microsoft Exchange 버전이 Configuration Manager에서 지원되는지 확인합니다. 자세한 내용은 [Configuration Manager에 대해 지원되는 구성](https://technet.microsoft.com/library/gg682077.aspx)을 참조하세요.
 
- [Configuration Manager와 Exchange를 사용하여 모바일 장치를 관리하는 방법](https://technet.microsoft.com/library/gg682001.aspx) 의 단계에 따라 Exchange Server 커넥터를 설치 및 구성합니다.
+[Configuration Manager와 Exchange를 사용하여 모바일 장치를 관리하는 방법](https://technet.microsoft.com/library/gg682001.aspx) 의 단계에 따라 Exchange Server 커넥터를 설치 및 구성합니다.
 
 ### <a name="step-3-run-a-full-synchronization-to-discover-users"></a>3단계: 전체 동기화를 실행하여 사용자를 검색합니다.
 
@@ -115,7 +117,7 @@ Configuration Manager는 Exchange 조직의 커넥터를 하나만 지원합니�
 
 2.  2단계에서 설치한 Exchange Server 커넥터를 선택합니다.
 
-3.   **지금 동기화**를 클릭합니다.
+3.  **지금 동기화**를 클릭합니다.
 
     ![Configuration Manager 콘솔에서 전체 동기화를 실행하는 위치를 보여주는 스크린샷](./media/ProtectEmail/Hybrid-Onprem-Run-FullSync.png)
 
@@ -126,10 +128,10 @@ Configuration Manager 추적 로그 도구를 사용하여 Configuration Manager
 ### <a name="step-4-create-user-collections"></a>4단계: 사용자 컬렉션을 만듭니다.
 조건부 액세스 정책의 대상으로 지정할 Intune 사용자 그룹을 결정합니다. 그런 다음 조건부 액세스 정책에서 대상으로 지정하거나 제외할 사용자 그룹에 대한 사용자 컬렉션을 만듭니다. 나중에 조건부 액세스를 적용할 때 이러한 그룹을 지정합니다.
 
- [Configuration Manager에서 컬렉션을 만드는 방법](https://technet.microsoft.com/library/gg712295.aspx) 의 단계에 따라 사용자 컬렉션을 만듭니다.
+[Configuration Manager에서 컬렉션을 만드는 방법](https://technet.microsoft.com/library/gg712295.aspx) 의 단계에 따라 사용자 컬렉션을 만듭니다.
 
 ### <a name="step-5-create-compliance-policies-and-deploy-to-users"></a>5단계: 규정 준수 정책을 만들어 사용자에게 배포합니다.
-규정 준수 정책은 장치가 조건부 액세스 정책을 준수하는 것으로 간주되기 위해 준수해야 하는 규칙 및 설정을 정의합니다.  [Configuration Manager의 규정 준수 정책](https://technet.microsoft.com/library/mt131417.aspx) 의 단계에 따라 규정 준수 정책을 만듭니다.
+규정 준수 정책은 장치가 조건부 액세스 정책을 준수하는 것으로 간주되기 위해 준수해야 하는 규칙 및 설정을 정의합니다. [Configuration Manager의 규정 준수 정책](https://technet.microsoft.com/library/mt131417.aspx) 의 단계에 따라 규정 준수 정책을 만듭니다.
 
 더 이상 회사에 속하지 않아 iOS 장치에서 모든 회사 메일을 제거하는 기능을 원하는 경우 메일 프로필을 만들고 배포한 다음 메일 프로필이 Intune에서 관리되도록 지정하는 규정 준수 정책을 설정해야 합니다. 이 규정 준수 정책에서 대상으로 하는 사용자 집합과 동일한 사용자 집합에 메일 프로필을 배포해야 합니다.
 
@@ -157,7 +159,7 @@ Configuration Manager 추적 로그 도구는 [System Center 2012 R2 Configurati
 ## <a name="reporting"></a>보고
 Configuration Manager 콘솔을 사용하여 Exchange Connector에서 검색된 장치에 대한 특정 정보를 볼 수 있습니다. 조건부 액세스가 적용된 장치의 경우 각 장치의 현재 상태, 각 장치가 Exchange 서버와 연결된 마지막 시간 등을 볼 수 있습니다.
 
-Configuration Manager 콘솔에서 **자산 및 호환성**을 클릭한 다음 **장치**를 클릭합니다.  **Exchange 액세스 상태** 열에서 각 장치의 현재 상태(차단 또는 허용됨)를 볼 수 있습니다. 아직 표시되지 않는 경우 열 제목 표시줄 영역에서 마우스 오른쪽 단추를 클릭하여 이 열을 추가합니다.  **Exchange Server에 대해 마지막으로 성공한 동기화 시간** 열을 추가하여 Exchange에서 보고된, 각 장치에 대해 마지막으로 성공한 동기화 시간을 볼 수도 있습니다.
+Configuration Manager 콘솔에서 **자산 및 호환성**을 클릭한 다음 **장치**를 클릭합니다. **Exchange 액세스 상태** 열에서 각 장치의 현재 상태(차단 또는 허용됨)를 볼 수 있습니다. 아직 표시되지 않는 경우 열 제목 표시줄 영역에서 마우스 오른쪽 단추를 클릭하여 이 열을 추가합니다. **Exchange Server에 대해 마지막으로 성공한 동기화 시간** 열을 추가하여 Exchange에서 보고된, 각 장치에 대해 마지막으로 성공한 동기화 시간을 볼 수도 있습니다.
 
 ![Configuration Manager 콘솔에서 장치 목록을 보여주는 스크린샷](./media/ProtectEmail/Hybrid-Onprem-Verify-Devices-State.png)
 
@@ -173,7 +175,7 @@ SSRS 보고서를 보려면 주 서버에 보고 역할이 설치되어 있어�
 
 3.  시스템 역할 선택 페이지에서 **보고 서비스 지점** 확인란을 선택합니다. 보고 서비스 지점은 클라이언트 관리와 관련된 보고서를 표시합니다.
 
-4.   **다음**을 클릭합니다.
+4.  **다음**을 클릭합니다.
 
 다음은 구성 정책의 배포 상태를 보여 줍니다.
 
@@ -184,9 +186,4 @@ SSRS 보고서를 보려면 주 서버에 보고 역할이 설치되어 있어�
 
 ## <a name="where-to-go-from-here"></a>추가 정보
 모바일 장치의 회사 메일 및 메일 데이터를 보호하기 위한 솔루션을 배포한 후에 [조건부 액세스의 최종 사용자 환경](end-user-experience-conditional-access.md)에 대해 자세히 알아볼 수 있습니다. 이렇게 하면 최종 사용자가 특정 장치를 등록할 때 발생할 수 있는 문제에 대비하는 데 도움이 됩니다.
-
-
-
-<!--HONumber=Dec16_HO4-->
-
 
