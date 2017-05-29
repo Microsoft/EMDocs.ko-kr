@@ -11,9 +11,11 @@ ms.prod:
 ms.service: ems
 ms.technology: 
 ms.assetid: 9d031fa7-9c07-48c5-b915-6525aea54870
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: 25da2d6e50a6e3623a7b34d29d29751e10068d4e
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/29/2017
 
 ---
 
@@ -25,8 +27,8 @@ ms.openlocfilehash: 25da2d6e50a6e3623a7b34d29d29751e10068d4e
 | ------------- |-------------|
 |Enterprise Mobility Suite |    Advanced Threat Analytics |
 |Enterprise Mobility Suite |    Microsoft ID 관리자 |
-|Microsoft Intune | System Center Configuration Manager |
-|Azure Active Directory Premium |   Microsoft ID 관리자 |
+|Microsoft Intune |    System Center Configuration Manager |
+|Azure Active Directory Premium |    Microsoft ID 관리자 |
 
 위 소프트웨어를 다운로드하는 위치는 Microsoft 온라인 서비스를 구매한 방법에 따라 다릅니다.
 
@@ -37,9 +39,4 @@ ms.openlocfilehash: 25da2d6e50a6e3623a7b34d29d29751e10068d4e
 어떤 소프트웨어를 사용해도 되는지 잘 모르겠으면 계정 관리자 또는 파트너에 문의하거나 [Microsoft Online Services 지원](https://technet.microsoft.com/en-us/dn932057.aspx)에 연락하세요.
 
 그 밖에 평가판에 등록한 경우에는 [TechNet Evaluation Center](https://www.microsoft.com/evalcenter/try)에서 이러한 평가판 버전을 얻을 수 있습니다.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

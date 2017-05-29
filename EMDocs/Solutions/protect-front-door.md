@@ -14,10 +14,10 @@ ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: microsoft-identity-manager
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
-ms.openlocfilehash: 7912b13666c9b08af0c6d962fe1ea592335ca73d
+ms.sourcegitcommit: bc112d81a2b0e59f9ae67efe2a914b0c64ac76ba
+ms.openlocfilehash: 851a99829280b85d632e79400d53c357692b74ef
 ms.contentlocale: ko-kr
-ms.lasthandoff: 01/24/2017
+ms.lasthandoff: 05/29/2017
 
 
 ---

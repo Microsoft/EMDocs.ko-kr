@@ -16,7 +16,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: d7e15962a95135dbb16cb41e2643c602b87039cf
 ms.contentlocale: ko-kr
-ms.lasthandoff: 01/24/2017
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -84,9 +84,9 @@ Exchange Online으로 이동되도록 조건부 액세스 정책을 구성한 �
 Intune에서는 조건부 액세스를 사용하여 [SharePoint Online 파일 액세스에 대해 보안을 유지](https://docs.microsoft.com/intune/deploy-use/restrict-access-to-sharepoint-online-with-microsoft-intune)할 수 있습니다. 메일에 대한 액세스를 보호하는 것처럼, 액세스 허용을 위해 충족해야 하는 2가지 정책을 설정해야 합니다. 하나는 장치에서 회사 정책이 준수되도록 하는 장치 준수 정책이고, 다른 하나는 서비스 액세스를 위해 충족해야 하는 조건을 설정하는 조건부 액세스 정책입니다.
 
 사용자가 관리되지 않는 장치를 사용하여 Intune 조건부 액세스 정책에 의해 보호되는 SharePoint Online 서비스에 연결하려고 하면 다음 현상이 발생합니다.
-1.  사용자의 SharePoint Online 리소스 액세스가 거부되고, 대신 보안을 강화하라는 메시지와 Intune 관리에 장치를 등록하기 위한 링크가 표시됩니다.
-2.  사용자가 액세스 거부 메시지에서 제공된 링크를 따라 장치를 등록합니다.
-3.  장치가 등록되고 회사 정책을 준수하는 것으로 확인되면 회사 SharePoint Online 데이터에 대한 모든 액세스 권한이 복원됩니다.
+1.    사용자의 SharePoint Online 리소스 액세스가 거부되고, 대신 보안을 강화하라는 메시지와 Intune 관리에 장치를 등록하기 위한 링크가 표시됩니다.
+2.    사용자가 액세스 거부 메시지에서 제공된 링크를 따라 장치를 등록합니다.
+3.    장치가 등록되고 회사 정책을 준수하는 것으로 확인되면 회사 SharePoint Online 데이터에 대한 모든 액세스 권한이 복원됩니다.
 
 ![SharePoint Online에서 조건부 액세스가 작동하는 방식을 보여 주는 이미지](..\Solutions\media\protect-office365-data-with-intune\protect-office365-data-with-intune-fig2.png)
 
@@ -105,9 +105,9 @@ Intune MAM(모바일 앱 관리) 정책을 사용하여 사용자의 iOS 및 And
 
 다음 스크린샷은 Intune MAM 정책을 사용하여 앱을 보호하는 몇 가지 방법을 보여 줍니다. 이 예제에서는 앱에 액세스하기 위해 PIN이 요구되고(액세스 설정) 관리되지 않는 앱에 회사 정보를 붙여넣지 못하게 하여(데이터 재배치 설정) 회사 데이터를 보호합니다.
 
-1.  관리되는 앱(이 예제에서 iOS용 Yammer)가 처음으로 시작되면 사용자는 앱에 액세스하기 위해 PIN을 만들도록 요구됩니다. 그런 다음 앱이 시작될 때마다 해당 PIN을 입력해야 합니다.
-2.  사용자는 Yammer 대화와 같은 회사 데이터를 복사한 후 관리되는 다른 앱에 붙여 넣을 수 있습니다.
-3.  그러나 사용자가 해당 콘텐츠를 문자 메시지(또는 다른 관리되지 않는 앱)에 붙여 넣으려고 하면 붙여넣기 기능을 사용할 수 없습니다.  
+1.    관리되는 앱(이 예제에서 iOS용 Yammer)가 처음으로 시작되면 사용자는 앱에 액세스하기 위해 PIN을 만들도록 요구됩니다. 그런 다음 앱이 시작될 때마다 해당 PIN을 입력해야 합니다.
+2.    사용자는 Yammer 대화와 같은 회사 데이터를 복사한 후 관리되는 다른 앱에 붙여 넣을 수 있습니다.
+3.    그러나 사용자가 해당 콘텐츠를 문자 메시지(또는 다른 관리되지 않는 앱)에 붙여 넣으려고 하면 붙여넣기 기능을 사용할 수 없습니다.  
 
 ![MAM 정책의 작동 방식을 보여 주는 이미지](..\Solutions\media\protect-office365-data-with-intune\protect-office365-data-with-intune-fig3.png)
 
@@ -123,9 +123,9 @@ Intune의 WIP 정책은 관리되는 Windows 10 장치에서 잠재적인 데이
 [WIP 구성 정책 설정](https://docs.microsoft.com/intune/deploy-use/microsoft-intune-policy-reference#windows-configuration-policies)을 사용하여 Intune 관리자 콘솔 내에서 다른 수준의 제어 및 감사를 설정할 수 있습니다. 데이터 보호 수준 범위는 **자동**(WIP 활동만 로그)에서 보호된 앱의 콘텐츠 공유를 완전히 금지하는 **차단**까지입니다. **재정의**는 경고를 나타내면서 보호되지 않는 앱과 회사 데이터를 공유할 수 있도록 하지만 나중에 검토할 수 있도록 이러한 모든 작업을 로깅하는 중간 수준의 설정입니다.
 
 다음은 Intune WIP 정책으로 관리되는 Windows 10 장치의 회사 데이터를 보호하는 방법입니다.
-1.  새 WIP 정책이 생성되고 Intune 관리자 콘솔에서 사용자에게 배포됩니다.
-2.  이 예제에서 Microsoft Word에 대한 AppLocker 정보는 허용 앱 목록에 Word 2016을 추가하는 데 사용되고, 정책 제한 수준은 재정의로 설정된 후 정책이 사용자에게 배포됩니다.
-3.  사용자는 보호되는 Word 2016 문서에서 복사한 회사 데이터를 보호되지 않는 새 메모장 인스턴스에 붙여 넣으려고 합니다. 작업을 업무용에서 개인용 분류로 변경할 예정인지와 작업을 추적되도록 할 것인지를 묻는 메시지가 바로 표시됩니다.
+1.    새 WIP 정책이 생성되고 Intune 관리자 콘솔에서 사용자에게 배포됩니다.
+2.    이 예제에서 Microsoft Word에 대한 AppLocker 정보는 허용 앱 목록에 Word 2016을 추가하는 데 사용되고, 정책 제한 수준은 재정의로 설정된 후 정책이 사용자에게 배포됩니다.
+3.    사용자는 보호되는 Word 2016 문서에서 복사한 회사 데이터를 보호되지 않는 새 메모장 인스턴스에 붙여 넣으려고 합니다. 작업을 업무용에서 개인용 분류로 변경할 예정인지와 작업을 추적되도록 할 것인지를 묻는 메시지가 바로 표시됩니다.
 
 ![WIP 정책의 작동 방식을 보여 주는 이미지](..\Solutions\media\protect-office365-data-with-intune\protect-office365-data-with-intune-fig5.png)
 

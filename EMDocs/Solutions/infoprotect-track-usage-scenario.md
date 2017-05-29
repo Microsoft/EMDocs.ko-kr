@@ -12,10 +12,10 @@ ms.assetid: c7e6e01a-5796-4bd7-a0c5-847ecfc08a1e
 ms.reviewer: v-craic
 ms.suite: ems
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
-ms.openlocfilehash: cca39a029b31f619a49b605ed28ab73a58e5c73b
+ms.sourcegitcommit: bc112d81a2b0e59f9ae67efe2a914b0c64ac76ba
+ms.openlocfilehash: 81e6b6479dcca1a82b37cfc4c832f36e33ac1b7b
 ms.contentlocale: ko-kr
-ms.lasthandoff: 01/24/2017
+ms.lasthandoff: 05/29/2017
 
 
 

@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 52bdc7e5b67f9aeae2142d2b8bb2f8ed474dcc8d
-ms.openlocfilehash: c8183efa009da5215149afdb9b94d4166b1c8030
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
+ms.openlocfilehash: 3ba92f5fa1b625757e08998bab3c09a813400727
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -51,9 +53,4 @@ EMS용 FastTrack 센터 혜택에 대해 자격을 갖춘 조직의 사용자는
     -   Azure AD Connect 도구로 Active Directory에서 동기화. 이 옵션은 단일 Active Directory 포리스트 구성을 사용하는 고객을 위한 것입니다.
 
     -   온-프레미스 Active Directory에서Windows Server 2012 R2 AD FS(Active Directory Federation Services) 2.0 이상으로 페더레이션
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

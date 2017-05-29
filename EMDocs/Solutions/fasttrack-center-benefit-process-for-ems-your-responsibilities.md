@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 61241368440bea9a12bbac136466250da91da997
-ms.openlocfilehash: 847a6aa06ef34004f8de52c2e71f560112c8885a
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
+ms.openlocfilehash: ecd83c311deca5050599a4eb55d45d0094d656f1
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -62,9 +64,9 @@ ms.openlocfilehash: 847a6aa06ef34004f8de52c2e71f560112c8885a
 
 -   모든 공개 SSL(Secure Sockets Layer) 인증서를 제공 및 구성합니다.
 
--   Configuration Manager를 Microsoft Intune의 Configuration Manager와의 통합에 필요한 최소 요구 사항으로 설정하거나 업그레이드합니다.
+-     Configuration Manager를 Microsoft Intune의 Configuration Manager와의 통합에 필요한 최소 요구 사항으로 설정하거나 업그레이드합니다.
 
--   Intune에서 Wi-Fi 및 VPN 프로필 배포를 위해 필요한 경우 인증 기관, Wi-Fi 및 VPN 인프라를 제공하고 구성합니다.
+-     Intune에서 Wi-Fi 및 VPN 프로필 배포를 위해 필요한 경우 인증 기관, Wi-Fi 및 VPN 인프라를 제공하고 구성합니다.
 
 -   최종 사용자가 액세스할 수 있는 Microsoft Intune 회사 포털에 구성되고 표시될 조직의 TOU(사용 약관)를 작성합니다.
 
@@ -113,9 +115,4 @@ ms.openlocfilehash: 847a6aa06ef34004f8de52c2e71f560112c8885a
 **더 자세한 내용을 원하세요?**
 
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

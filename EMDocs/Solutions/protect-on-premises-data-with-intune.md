@@ -14,10 +14,10 @@ ms.reviewer: vlpetros
 ms.suite: ems
 ms.custom: active-directory
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
-ms.openlocfilehash: 64c859600ba74da47d70a9c58bc261dec4411513
+ms.sourcegitcommit: 5ea7cc0c6c7b8286077c0bbc4251a22d138ed8e2
+ms.openlocfilehash: 98acda761b353eacb2ce861dcef2f39385691021
 ms.contentlocale: ko-kr
-ms.lasthandoff: 01/24/2017
+ms.lasthandoff: 05/29/2017
 
 
 ---

@@ -13,9 +13,11 @@ ms.assetid: de0a7e70-008b-45c1-bba8-f033b1f62194
 ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: advanced-threat-analytics, cloud-app-security
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: 420df3bfcc0fca07bf4f7b068f4d49015ace048f
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -105,9 +107,4 @@ Cloud App Security 대시보드에 액세스하면 경고에 대한 전용 섹�
 ![Cloud App Security에서 검색된 잘못된 부분을 보여 주는 스크린샷.](./media/detect-attacks-before-damage/detect-attacks-before-damage-fig8.png)
 
 이 페이지에서는 경고를 트리거한 사용자, IP 주소, 사용자의 그룹 구성원, 그리고 의심스러운 동작에 대한 자세한 내용을 확인할 수 있습니다. 실패한 로그온 시도, 로그온이 발생한 위치 및 로그온 시도 수행하는 데 사용된 앱을 포함하여 이 활동에 대한 자세한 정보를 볼 수 있습니다.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

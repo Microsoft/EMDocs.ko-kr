@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 61241368440bea9a12bbac136466250da91da997
-ms.openlocfilehash: 50389fcdfc8f8dd9d2c565b60990449b442d90aa
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
+ms.openlocfilehash: 0c404c758f66fba9ded4672fad904ba3987958b5
+ms.contentlocale: ko-kr
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -160,9 +162,4 @@ Intune의 경우 Microsoft는 Microsoft Intune을 사용하여 장치를 관리�
 **더 자세한 내용을 원하세요?**
 
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 
