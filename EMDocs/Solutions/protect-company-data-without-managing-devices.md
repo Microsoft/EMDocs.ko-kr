@@ -4,7 +4,7 @@ description: "EMS는 Microsoft Intune의 혁신적인 데이터 손실 방지 �
 keywords: 
 author: jeffgilb
 manager: swadhwa
-ms.date: 01/23/2017
+ms.date: 6/7/2017
 ms.topic: solution
 ms.prod: 
 ms.service: microsoft-intune

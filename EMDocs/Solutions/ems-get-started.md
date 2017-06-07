@@ -4,7 +4,7 @@ description:
 keywords: 
 author: jeffgilb
 manager: swadhwa
-ms.date: 11/10/2016
+ms.date: 6/7/2017
 ms.topic: solution
 ms.prod: 
 ms.service: active-directory
@@ -15,9 +15,11 @@ ms.suite: ems
 ms.custom: advanced-threat-analytics,cloud-app-security,information-protection,microsoft-identity-manager,microsoft-intune,rights-management
 experimental: true
 experiment_id: jeffgilb-length-20161110
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: ed952bd866758978ed4348c70da826eb519b4733
 ms.openlocfilehash: 78b0119b52ca1459fd644d093bf7f364b80e8ce1
+ms.contentlocale: ko-kr
+ms.lasthandoff: 12/08/2016
 
 
 ---
@@ -91,9 +93,4 @@ EMS는 고급 회사 데이터 보호를 비즈니스의 리듬에 맞게 통합
 [EMS(Enterprise Mobility + Security)에 대해 알아보기](learn-about-ems.md)
 
 [EMS 무료 사용](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-security-trial)
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 
