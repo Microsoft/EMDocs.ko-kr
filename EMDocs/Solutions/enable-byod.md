@@ -4,7 +4,7 @@ description:
 keywords: 
 author: jeffgilb
 manager: angrobe
-ms.date: 2/10/2017
+ms.date: 6/7/2017
 ms.topic: solution
 ms.prod: 
 ms.service: microsoft-intune
@@ -12,9 +12,11 @@ ms.technology:
 ms.assetid: 6d31eebe-81d2-4c6b-bfec-fbd536096dda
 ms.reviewer: vlpetros
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: b4edb16e4ef00b7376af800ab542f42c0e530197
 ms.openlocfilehash: 9defe28a74bc3e53f6ae5dc33b33396e47247265
+ms.contentlocale: ko-kr
+ms.lasthandoff: 02/13/2017
 
 
 ---
@@ -134,9 +136,4 @@ Intune의 응용 프로그램 보호 정책을 사용하면 장치 등록 여부
 [EMS(Enterprise Mobility + Security) 사용 시작](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
 [Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 

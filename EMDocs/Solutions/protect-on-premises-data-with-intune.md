@@ -4,7 +4,7 @@ description: "EMS(Enterprise Mobility + Security)를 사용하면 직원들이 �
 keywords: 
 author: jeffgilb
 manager: angrobe
-ms.date: 02/03/2017
+ms.date: 6/7/2017
 ms.topic: solution
 ms.prod: 
 ms.service: microsoft-intune
