@@ -4,9 +4,10 @@ title: "Enterprise Mobility + Security 설명서 | Microsoft Docs"
 description: "Microsoft Enterprise Mobility + Security 기술 설명서"
 ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
 hide_bc: true
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 524272bb9454816c10ceddbb0eb56a4a27491889
 ms.openlocfilehash: ce56224ca38b3889650dcb0e008bf6f1b5aedee6
+ms.contentlocale: ko-kr
 ms.lasthandoff: 03/27/2017
 
 ---
@@ -40,7 +41,7 @@ ms.lasthandoff: 03/27/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="/intune/">
+                                <a href="/intune/index">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
