@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 6c7088a9-ca88-4ff2-97a6-f842691fd3c7
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 88625a3bc5ac5f1a877650f73185721674e0f28d
+ms.contentlocale: ko-kr
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -72,9 +74,4 @@ ms.openlocfilehash: 88625a3bc5ac5f1a877650f73185721674e0f28d
 
 ## <a name="where-to-go-from-here"></a>추가 정보
 MAM의 전체 프로세스에 익숙해졌으면 [Intune에서 모바일 앱 관리 정책 사용](mam-intune.md) 또는 [Configuration Manager에서 모바일 앱 관리 정책 사용](mam-configmgr.md) 준비가 완료된 것입니다. 또는 [MAM 정책의 최종 사용자 환경](end-user-experience-mam.md)에 대해 알아볼 수 있습니다.
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 

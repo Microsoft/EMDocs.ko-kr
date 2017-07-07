@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 3e186dd2-e17c-40d8-b160-48038b2c6593
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
 ms.openlocfilehash: 580d2e909813390fbc86d3ca8edaf88f0f19a6d7
+ms.contentlocale: ko-kr
+ms.lasthandoff: 01/05/2017
 
 
 ---
@@ -40,9 +42,4 @@ ms.openlocfilehash: 580d2e909813390fbc86d3ca8edaf88f0f19a6d7
 ## <a name="windows-phone"></a>Windows Phone
 
 [이 항목](end-user-experience-conditional-access-winphone.md)에서는 조건부 액세스를 사용하도록 설정한 이후에 최종 사용자가 Windows Phone을 사용해 메일에 액세스하려고 시도하는 경우 최종 사용자 환경에 대해 설명합니다.
-
-
-
-<!--HONumber=Jan17_HO1-->
-
 

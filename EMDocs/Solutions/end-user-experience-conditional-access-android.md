@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 0b5e4330-6fa5-445c-b73e-86ce5b9c7964
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
 ms.openlocfilehash: fc06debb97cdbd3be1a241a711f36f6c530d65cf
+ms.contentlocale: ko-kr
+ms.lasthandoff: 01/05/2017
 
 
 ---
@@ -105,9 +107,4 @@ ms.openlocfilehash: fc06debb97cdbd3be1a241a711f36f6c530d65cf
 
 ### <a name="where-to-go-from-here"></a>추가 정보
 최종 사용자 환경은 다른 모바일 장치와 약간 다릅니다. [iOS](end-user-experience-conditional-access-ios.md) 및 [Windows Phone](end-user-experience-conditional-access-winphone.md)의 최종 사용자 환경에 대한 자세한 정보를 확인할 수 있습니다.
-
-
-
-<!--HONumber=Jan17_HO1-->
-
 

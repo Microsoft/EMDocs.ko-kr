@@ -15,7 +15,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: 25da2d6e50a6e3623a7b34d29d29751e10068d4e
 ms.contentlocale: ko-kr
-ms.lasthandoff: 05/29/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 
@@ -27,8 +27,8 @@ ms.lasthandoff: 05/29/2017
 | ------------- |-------------|
 |Enterprise Mobility Suite |    Advanced Threat Analytics |
 |Enterprise Mobility Suite |    Microsoft ID 관리자 |
-|Microsoft Intune |    System Center Configuration Manager |
-|Azure Active Directory Premium |    Microsoft ID 관리자 |
+|Microsoft Intune | System Center Configuration Manager |
+|Azure Active Directory Premium |   Microsoft ID 관리자 |
 
 위 소프트웨어를 다운로드하는 위치는 Microsoft 온라인 서비스를 구매한 방법에 따라 다릅니다.
 

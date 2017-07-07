@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: e65a0662-33ff-4e8c-9305-a21e80ea0f69
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: eae78f8e5a4c5a1a0e44cf17fa320175ac622ac1
+ms.contentlocale: ko-kr
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -85,9 +87,4 @@ Exchange 온-프레미스에 대한 조건부 액세스는 다음을 지원합�
   이제 [Intune으로 Exchange Server 온-프레미스를 배포](conditional-access-intune-exchange.md)하는 방법을 알아볼 준비가 되었습니다.
 
 사용자 환경에서 Exchange Online 및 온-프레미스를 포함하는 경우 [Microsoft Intune 및 Configuration Manager를 사용하여 Exchange Online 및 온-프레미스 배포](conditional-access-intune-configmgr-coexist.md)를 참고할 수 있습니다.
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 

@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: edc744d8-97d9-42e0-8906-6f0dedd8d629
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 4a7537775ce2c6c19850720f789ea5882d062aec
+ms.contentlocale: ko-kr
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -96,9 +98,4 @@ Exchange Online 전용 구현의 경우에는 현재 구현에 따라 앞에서 
 
 - [Microsoft Intune으로 조건부 액세스 사용](conditional-access-intune.md)
 - [Microsoft Intune 및 Configuration Manager와 함께 조건부 액세스 사용](conditional-access-intune-configmgr.md)
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 
