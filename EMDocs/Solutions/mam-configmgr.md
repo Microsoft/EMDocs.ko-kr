@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 74288276-84d3-4d24-8307-7875491be9c9
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: d0bc5fb61b481256d816df7c898ade798379aa19
+ms.contentlocale: ko-kr
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -81,9 +83,4 @@ MAM 정책과 연결된 앱을 만들고 배포한 후에는 [앱을 모니터�
 ## <a name="where-to-go-from-here"></a>추가 정보
 
 MAM 정책과 관련된 앱을 만들고 배포한 후에는 [MAM의 최종 사용자 환경](end-user-experience-mam.md)에 대해 자세히 알아볼 수 있습니다. 이렇게 하면 발생할 수 있는 모든 문제에 대비하는 데 도움이 됩니다.
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 

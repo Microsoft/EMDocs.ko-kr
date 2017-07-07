@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 43594d947f3fa081a777eee6081c83b35621a9bf
+ms.contentlocale: ko-kr
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -97,9 +99,4 @@ ID, 장치, 앱 및 데이터용 4계층 보안 모델은 필요한 사용자만
 - [Azure Information Protection이란?](/information-protection/understand-explore/what-is-azure-rms)
 
 - [응용 프로그램이 Azure Information Protection을 지원하는 방식](/information-protection/understand-explore/applications-support)
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 

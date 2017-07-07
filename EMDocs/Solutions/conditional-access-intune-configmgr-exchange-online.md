@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 06921361-9475-46e6-9368-3cc44c84b22f
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 47f4298d833bcc910f769046ec018f270e75d246
+ms.contentlocale: ko-kr
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -148,9 +150,4 @@ SSRS 보고서를 보려면 주 서버에 보고 역할이 설치되어 있어�
 
 ## <a name="where-to-go-from-here"></a>추가 정보
 모바일 장치의 회사 메일 및 메일 데이터를 보호하기 위한 솔루션을 배포한 후에 [조건부 액세스의 최종 사용자 환경](end-user-experience-conditional-access.md)에 대해 자세히 알아볼 수 있습니다. 이렇게 하면 최종 사용자가 특정 장치를 등록할 때 발생할 수 있는 문제에 대비하는 데 도움이 됩니다.
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 
