@@ -2,10 +2,10 @@
 title: "Enterprise Mobility + Security 지원 FAQ"
 description: 
 keywords: 
-author: jeffgilb
-ms.author: jeffgilb
-manager: femila
-ms.date: 3/13/2017
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
+ms.date: 6/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: ems
@@ -13,26 +13,37 @@ ms.technology:
 ms.assetid: 7bfee675-ec69-479c-bda2-f807bbb55712
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: fd285c1ff3049dd2150c4339f2a2164a82584447
-ms.openlocfilehash: 8d90947a9de98eaaa7373e49649795765b2f6777
-ms.lasthandoff: 03/13/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: abcb3e7df267e81b43c81ed9c94d955602a67dc6
+ms.openlocfilehash: 2b11d1d3118ce7a2414513b56cf6cfce1b2877ce
+ms.contentlocale: ko-kr
+ms.lasthandoff: 07/07/2017
 
 
 ---
 
-# <a name="enterprise-mobility--security-support-faqs"></a>Enterprise Mobility + Security 지원 FAQ
+<a id="enterprise-mobility--security-support-faqs" class="xliff"></a>
+# Enterprise Mobility + Security 지원 FAQ
 EMS(Enterprise Mobility + Security)를 지지하기 위해 전세계적 사전 판매, 청구, 구독 및 기술 지원이 제공됩니다. 관리자는 [Office 365 포털](https://portal.office.com/Default.aspx?SkipSspr=true)을 이용하거나 [Office 365 지원](https://support.office.com/article/Contact-Office-365-for-business-support-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=c1f4c670-18b3-41ec-81c9-e8d383caa6ad)에 연락하여 지원을 요청할 수 있습니다.
 
-## <a name="answers-to-common-ems-support-questions"></a>EMS 지원과 관련된 일반적인 질문과 답변
+<a id="answers-to-common-ems-support-questions" class="xliff"></a>
+## EMS 지원과 관련된 일반적인 질문과 답변
 
 **Enterprise Mobility + Security 지원 요청을 제출하려면 Azure 지원 계획을 구입해야 하나요?**
 
-해당 지원은 Enterprise Mobility + Security에 포함되어 있습니다. Office 365 포털을 이용하면 Azure Active Directory Premium, Azure Information Protection 및 Microsoft Intune에 대한 지원 요청을 제출할 수 있습니다. Office 365 포털은 EMS에 계획된 지원 환경을 제공합니다. 하지만 *기술 지원이 포함된 구독*을 선택하면 지원 계획을 구입하지 않고도 Azure 포털을 통해 Azure Active Directory Premium 및 Azure Information Protection 지원 요청을 제출할 수 있습니다.
+해당 지원은 Enterprise Mobility + Security에 포함되어 있습니다. Office 365 포털을 이용하면 Azure Active Directory Premium, Azure Information Protection 및 Microsoft Intune에 대한 지원 요청을 제출할 수 있습니다. Office 365 포털은 EMS에 계획된 지원 환경을 제공합니다. 하지만 *기술 지원이 포함된 구독*을 선택하면 지원 계획을 구입하지 않고도 Azure Portal을 통해 Azure Active Directory Premium, Azure Information Protection 및 Microsoft Intune 지원 요청을 제출할 수 있습니다.
 
 **Microsoft Intune 지원을 받으려면 어떻게 하나요?**
 
-Enterprise Mobility + Security 고객이면 Office 365 포털에서 Microsoft Intune에 대한 지원 요청을 제출할 수 있습니다. [Microsoft Intune 지원 옵션에 대해 자세히 알아보세요.](https://docs.microsoft.com/intune/troubleshoot/how-to-get-support-for-microsoft-intune)
+Enterprise Mobility + Security 고객이면 Office 365 포털에서 Intune에 대한 지원 요청을 제출할 수 있습니다. [Intune 지원 옵션에 대해 자세히 알아보세요](https://docs.microsoft.com/intune/get-support).
+
+**Azure Information Protection 지원을 받으려면 어떻게 하나요?**
+
+Enterprise Mobility + Security 고객이면 Azure Portal이나 Office 365 포털에서 Azure information Protection에 대한 지원 요청을 제출할 수 있습니다. [Intune 지원 옵션에 대해 자세히 알아보세요](https://docs.microsoft.com/information-protection/get-started/information-support#to-contact-microsoft-support).
+
+**Azure Active Directory 지원을 받으려면 어떻게 하나요?**
+
+Enterprise Mobility + Security 고객이면 Azure Portal이나 Office 365 포털에서 Azure AD Premium 1 및 Premium 2에 대한 지원 요청을 제출할 수 있습니다. Intune 지원 옵션에 대해 자세히 알아보세요. [Azure Active Directory에 대한 지원을 받는 방법에 대해 알아보세요](https://docs.microsoft.com/azure/active-directory/active-directory-troubleshooting-support-howto).
 
 **Office 365 포털에서 지원 요청을 제출할 수 없습니다. 지원을 요청하는 데 사용할 수 있는 전화 번호가 있나요?**
 
@@ -54,7 +65,8 @@ Office 365 지원에서 사용자 거주 지역에 해당하는 지원 전화 �
 
 라이선스 할당을 위해 Azure 포털로 이동합니다. 그런 다음 환영 전자 메일의 지침에 따라 새 Enterprise Mobility + Security 라이선스를 관리해 주세요.
 
-## <a name="additional-help-for-other-questions"></a>기타 질문에 대한 추가 도움말
+<a id="additional-help-for-other-questions" class="xliff"></a>
+## 기타 질문에 대한 추가 도움말
 [Azure Active Directory 지원 포럼](https://social.msdn.microsoft.com/forums/home?forum=windowsazuread)
 
 [Azure Information Protection 지원 포럼](http://www.yammer.com/AskIPTeam)
