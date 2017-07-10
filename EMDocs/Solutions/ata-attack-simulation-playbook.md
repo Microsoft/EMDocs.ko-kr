@@ -4,7 +4,7 @@ description: "이 가이드를 통해 고객들은 Windows 운영 체제에 대�
 author: yuridio
 ms.author: yurid
 manager: mbaldwin
-ms.date: 05/18/2017
+ms.date: 06/06/2017
 ms.topic: solution
 ms.prod: 
 ms.service: advanced-threat-analytics
@@ -13,15 +13,16 @@ ms.assetid: da5eda7c-29bb-429f-9366-72495667c010
 ms.reviewer: v-craic
 ms.suite: ems
 ms.translationtype: Human Translation
-ms.sourcegitcommit: cff5b87f6c5d0b9aa987631fefe5bf74e3a43862
-ms.openlocfilehash: 41672ccdbd2c868add70e423b7dbc8048713259b
+ms.sourcegitcommit: b14dcbddb611dc49da2f92cf3f1aca1593af11c0
+ms.openlocfilehash: 923f827a8c122af393b1909ba55bb73c650d62fc
 ms.contentlocale: ko-kr
-ms.lasthandoff: 03/14/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 
-# <a name="advanced-threat-analytics-attack-simulation-playbook"></a>ATA(Advanced Threat Analytics) 공격 시뮬레이션 플레이북
+<a id="advanced-threat-analytics-attack-simulation-playbook" class="xliff"></a>
+# ATA(Advanced Threat Analytics) 공격 시뮬레이션 플레이북
 
 이 가이드는 Pass-the-Hash, Pass-the-Ticket, Overpass-the-Hash 등과 같은 자격 증명 도용 및 공개적으로 사용 가능한 연구 도구를 사용하여 이러한 작업을 수행하는 방법에 대해 알아볼 수 있도록 도와줍니다. 이 시뮬레이션 플레이북은 공격자가 사용하는 유효한 인터넷 도구로 작성된 시나리오를 기반으로 하며, 그래프형 사고 방식으로 공격자처럼 생각하고 도용한 자격 증명으로 환경 내에서 이동하며, Microsoft ATA(Advanced Threat Analytics)를 사용하여 사용자 환경에서 이러한 활동을 감지하는 방법을 보여주기 위해서 제공됩니다.
 
@@ -40,7 +41,8 @@ ms.lasthandoff: 03/14/2017
 > [!IMPORTANT]
 > 이 가이드에 제공되는 단계는 랩 환경에서만 수행해야 합니다. 프로덕션 환경에서는 수행하면 안 됩니다.
 
-## <a name="configuring-your-lab-environment"></a>랩 환경 구성
+<a id="configuring-your-lab-environment" class="xliff"></a>
+## 랩 환경 구성
 
 뒷부분의 실험을 비롯하여 모든 실험에서 이러한 지침을 자세히 따르는 것이 좋습니다.  수행할 몇 가지 설정, 특히 4대의 컴퓨터, 3명의 사용자 및 일부 연구 소프트웨어는 인터넷을 차단할 수 있습니다.
 
@@ -50,14 +52,16 @@ ATA를 설치하고 90일 평가판을 구하는 방법에 대한 자세한 내�
 > 이 가이드는 ATA 1.7 버전을 기준으로 작성되었습니다.
 
 
-### <a name="scenario"></a>시나리오
+<a id="scenario" class="xliff"></a>
+### 시나리오
 
 이 랩의 예에서는 JeffV가 자신의 워크스테이션 관리자입니다.  많은 IT 상점에서는 관리자 권한으로 실행되는 사용자 계층이 여전히 존재합니다.  이 시나리오에서는 악의적 사용자가 침입 후 작업을 수행할 환경에서 관리자 액세스 권한을 이미 가지고 있기 때문에 로컬 권한 상승 공격이 필요하지 않습니다. 
  
 그러나 IT 상점에서 관리자가 아닌 계정을 사용하여 권한을 축소하는 경우에도 로컬 권한 상승을 위해 다른 형태의 공격(알려진 응용 프로그램 취약점, 제로 데이 등)이 실행됩니다. 이 경우 이 가이드에서는 악의적 사용자가 Victim-PC에서 로컬 권한 상승을 수행했다고 가정합니다.  이 가상 랩에서는 JeffV에게 스피어피싱 전자 메일을 보내 이 작업이 수행되었습니다. 자세한 내용은 이 가이드의 뒷부분에 설명되어 있습니다.
 
 
-### <a name="servers-and-workstations"></a>서버 및 워크스테이션
+<a id="servers-and-workstations" class="xliff"></a>
+### 서버 및 워크스테이션
 
 아래에는 필요한 컴퓨터 및 이 연습에서 사용된 구성이 나와 있습니다.  이러한 컴퓨터는 모두 Windows 10 Hyper-V에서 게스트 가상 컴퓨터(VM)로 준비됩니다.  아래 구성을 따르는 경우(권장) VM을 동일한 가상 스위치에 배치해야 합니다.
 
@@ -71,7 +75,8 @@ ATA를 설치하고 90일 평가판을 구하는 방법에 대한 자세한 내�
 이 랩의 도메인 이름은 "CONTOSO.LOCAL"입니다. 도메인을 만든 다음 이 컴퓨터를 도메인에 가입시킵니다. 네 대의 컴퓨터가 모두 가동되고 도메인에 가입되면 다음 섹션으로 이동하여 가상의 사용자를 환경에 추가합니다.
 
 
-### <a name="users-configuration"></a>사용자 구성
+<a id="users-configuration" class="xliff"></a>
+### 사용자 구성
 
 이제 Helpdesk 및 Domain Administrators에 대해 다양한 역할을 만듭니다.  이러한 역할을 만드는 의도는 직무를 분리하기 위해서지만 환경 간 이 두 그룹을 초월하는 보안 종속성을 이해하는 것이 까다롭기 때문에 자격 증명 도용, 측면 확대 또는 도메인 권한 상승을 방지하기에는 이 방법이 충분하지 않다는 것을 이 가이드의 뒷부분에서 확인하게 됩니다. 
 
@@ -102,13 +107,14 @@ Contoso의 도메인 관리자인 Nuck Chorris는 *Admin-PC* 워크스테이션�
 ![관리자 속성 2](./media/ata-attack-simulation-playbook/ata-attack-simulation-playbook-fig2.png)
 
 
-### <a name="security-research-tools"></a>보안 연구 도구
+<a id="security-research-tools" class="xliff"></a>
+### 보안 연구 도구
 
 이 랩을 구성하려면 도구를 *Victim-PC* 컴퓨터에 다운로드한 후 *C:\tools*에 설치해야 합니다.
 
 - [Mimikatz](https://github.com/gentilkiwi/mimikatz)
 - [PowerSploit](https://github.com/PowerShellMafia/PowerSploit)
-- [PsExec](https://technet.microsoft.com/en-us/pxexec) 
+- [PsExec](https://technet.microsoft.com/en-us/sysinternals/bb897553.aspx) 
 - [NetSess.exe](http://www.joeware.net/freetools)
 
 도구 폴더 화면은 다음과 비슷합니다.
@@ -121,7 +127,8 @@ Contoso의 도메인 관리자인 Nuck Chorris는 *Admin-PC* 워크스테이션�
 
 이 랩의 목적에 따라 *Victim-PC* 컴퓨터에서 모든 바이러스 백신 프로그램을 종료합니다. 바이러스 백신 프로그램을 종료하는 것이 결과를 왜곡하는 것처럼 보일 수 있지만 이러한 도구의 소스 코드는 무료로 사용할 수 있으므로 공격자가 바이러스 백신 프로그램 서명 기반 감지를 피하기 위해 소스 코드를 수정할 수 있습니다. 또한 악의적 사용자는 컴퓨터에서 로컬 관리자 권한을 얻자마자 바이러스 백신 프로그램을 보다 쉽게 우회할 수 있습니다.  이 시점의 목표는 나머지 조직을 보호하는 것입니다. 손상된 하나의 컴퓨터로 인해 도메인 권한 상승 및 도메인 손상이 야기되면 안 됩니다.
 
-### <a name="environment-topology"></a>환경 토폴로지
+<a id="environment-topology" class="xliff"></a>
+### 환경 토폴로지
 
 이 시점에서 랩 화면은 다음과 비슷합니다.
 
@@ -129,7 +136,8 @@ Contoso의 도메인 관리자인 Nuck Chorris는 *Admin-PC* 워크스테이션�
 
 이 가이드의 앞 부분에서 언급했듯이 *Domain Admins* 및 *Helpdesk*의 역할은 서로 다르지만 데모 동안 악의적 사용자가 쉽게 이용할 수 있는 연구 도구로 전체 환경을 악용하는 데 필요한 것은 단지 하나의 보안 종속성 연결고리라는 것을 알게 될 것입니다(이 경우 사용자 *RonHD*).
 
-### <a name="helpdesk-simulation"></a>지원 센터 시뮬레이션
+<a id="helpdesk-simulation" class="xliff"></a>
+### 지원 센터 시뮬레이션
 
 지원 센터 직원이 다른 컴퓨터에 로그인하는 일반적인 지원 센터 시나리오를 시뮬레이트하려면 *RonHD*로 *Victim-PC*에 로그인한 다음 *JeffV*로 다시 로그인하십시오.  이 워크스테이션에서 권한 있는 자격 증명 관리를 시뮬레이트하려면 "사용자 전환" 메커니즘을 사용하십시오.
 
@@ -139,7 +147,7 @@ Contoso의 도메인 관리자인 Nuck Chorris는 *Admin-PC* 워크스테이션�
 이 랩에서 다른 방법으로도 이 관리 워크플로를 시뮬레이트할 수 있습니다(예: 명령줄에서 배치 스크립트 서비스 계정, 예약된 작업, RDP 세션 또는 'runas' 만들기).  보안 작업에서는 누군가 또는 어떠한 대상이 이러한 리소스를 관리해야 하며, 관리란 로컬 관리자 권한을 의미합니다. 이 랩의 목적을 고려하면서 시간을 최적화하기 위해 이 워크플로를 시뮬레이트하는 가장 빠른 방법이 선택되었습니다.
 
 > [!IMPORTANT]
-> 이 시점에서 *Victim-PC*를 로그아웃하거나 다시 시작하지 마십시오. 그럴 경우 메모리에서 *RonHD*의 자격 증명이 지워지고 *지원 센터* 시나리오를 다시 재현해야 합니다. 
+> 이 시점에서 *Victim-PC*를 로그아웃하거나 다시 시작하지 마세요. 그럴 경우 메모리에서 *RonHD*의 자격 증명이 지워지고 *지원 센터* 시나리오를 다시 재현해야 합니다. 
 
 아래 표에는 각 컴퓨터에 저장된 자격 증명이 요약되어 있습니다.
 
@@ -150,11 +158,13 @@ Contoso의 도메인 관리자인 Nuck Chorris는 *Admin-PC* 워크스테이션�
 
 이 시점에서 랩 환경이 준비되어 있습니다. 현재 랩 상태는 도메인 손상으로부터 1-exploit-away(# 1ea)인 위치에 있습니다.  다음으로, 단일 손상이 일반적으로 멈출 줄 모르는 의욕을 가진 악의적 사용자에 의해 인터넷에서 액세스할 수 있는 응용 프로그램을 대상으로 사용자 환경 내 가장 낮은 권한 수준의 자산에서 발생한다는 것을 알 수 있습니다.  이 시점에서 [침입 가정](https://blogs.msdn.microsoft.com/azuresecurity/2015/10/19/an-insiders-look-at-the-security-of-microsoft-azure-assume-the-breach/) 방법론이 대두되는 것입니다.
 
-## <a name="executing-the-attack"></a>공격 실행
+<a id="executing-the-attack" class="xliff"></a>
+## 공격 실행
 
 이 가이드의 이 섹션에서는 실제 도구를 사용하고 악의적 사용자의 침입 후 활동을 시뮬레이트합니다.
 
-### <a name="beachhead-via-spearphish"></a>스피어피싱을 통한 Beachhead
+<a id="beachhead-via-spearphish" class="xliff"></a>
+### 스피어피싱을 통한 Beachhead
 
 이 공격 시뮬레이션의 경우, 악의적 사용자가 환경의 특정 컴퓨터에서 로컬 관리자 권한을 획득했다고 가정됩니다.  이 동작은 다른 방법을 사용하여 수행될 수도 있지만, 조직에 대한 스피어피싱 캠페인을 통해 수행되는 경우가 많습니다. 
 
@@ -165,11 +175,13 @@ Contoso의 도메인 관리자인 Nuck Chorris는 *Admin-PC* 워크스테이션�
 
 보안 환경에서는 단일 호스트가 손실되어도 전체 도메인이나 포리스트 손상으로 이어지지 않습니다.  악의적 사용자의 다음 단계를 감지하는 것은 "침입 후" 영역에서 필수적입니다.
 
-### <a name="reconnaissance"></a>정찰
+<a id="reconnaissance" class="xliff"></a>
+### 정찰
 
 악의적인 사용자가 환경에 들어오면 정찰을 시작합니다.  이 단계에서 악의적 사용자는 설정 및 관심 있는 컴퓨터를 검색하고, 보안 그룹 및 관심 있는 기타 활성 디렉터리 개체를 열거하는 등 환경을 연구하는 데 시간을 할애하여 자신의 목적에 따라 사용자 환경을 구축합니다.
 
-#### <a name="dns-reconnaissance"></a>DNS 정찰
+<a id="dns-reconnaissance" class="xliff"></a>
+#### DNS 정찰
 
 대부분의 악의적 사용자가 수행할 첫 번째 작업 중 하나는 DNS에서 모든 내용을 수신하려고 시도하는 것이며 Microsoft ATA는 이 작업을 감지할 수 있습니다.
 
@@ -197,11 +209,13 @@ ATA는 DNS 트래픽의 구문을 계속 분석하므로 성공 여부에 관계
  
 위에 표시된 ATA 경고 메시지의 의심스러운 활동에 파란색 물방울 모양이 표시될 수 있습니다. 이는 소비된 데이터와 분석가의 피드백 둘 다를 바탕으로 ATA가 지속적으로 학습하고 있음을 의미합니다.  분석가 피드백은 ATA 및 의심스러운 활동 감지를 사용자 환경에 맞게 사용자 정의하여 시간이 지남에 따라 양성으로 확인되는 활동을 제거하고 노이즈를 줄이는 데 도움이 됩니다.
 
-#### <a name="directory-services-enumeration"></a>디렉터리 서비스 열거
+<a id="directory-services-enumeration" class="xliff"></a>
+#### 디렉터리 서비스 열거
 
 [SAMR(Security Account Manager Remote Protocol)](https://msdn.microsoft.com/library/cc245477.aspx)은 도메인의 사용자 및 그룹에 관리 기능을 제공합니다.  사용자, 그룹 및 권한 간의 관계를 파악하고 있는 것은 악의적 사용자에게 매우 중요할 수 있습니다.  인증된 모든 사용자는 이러한 명령을 실행할 수 있습니다. SAMR 설정 및 해당 정찰을 Local Administrators 그룹의 구성원인 사용자에게만 제한하는 방법에 대한 자세한 내용은 [이 백서](https://gallery.technet.microsoft.com/SAMRi10-Hardening-Remote-48d94b5b#content)를 참조하십시오.
 
-#### <a name="enumerate-all-users-and-groups"></a>모든 사용자 및 그룹 열거
+<a id="enumerate-all-users-and-groups" class="xliff"></a>
+#### 모든 사용자 및 그룹 열거
 
 사용자와 그룹을 열거하는 것은 악의적 사용자에게 매우 유용합니다.  사용자 이름과 그룹 이름을 아는 것도 유용할 수 있습니다.  공격자는 정찰 단계에서 가능한 한 많은 정보를 얻고자 합니다.
 
@@ -224,7 +238,8 @@ ATA는 DNS 트래픽의 구문을 계속 분석하므로 성공 여부에 관계
 
 ![정찰](./media/ata-attack-simulation-playbook/ata-attack-simulation-playbook-fig11.png)
 
-#### <a name="enumerate-high-privileged-accounts"></a>권한 수준이 높은 계정 열거
+<a id="enumerate-high-privileged-accounts" class="xliff"></a>
+#### 권한 수준이 높은 계정 열거
 
 이 시점에서 공격자는 사용자 목록과 그룹 목록을 모두 보유합니다.  그러나 누가 어느 그룹에 속하는지 파악하는 것도 중요합니다. 특히 *Enterprise Admins* 및 *Domain Admins*와 같이 권한 수준이 높은 그룹의 경우 중요합니다. 랩 환경에서 이 정보를 얻으려면 *Victim-PC*에서 *JeffV*로 로그인하고 아래 명령을 실행합니다.
 
@@ -249,7 +264,8 @@ ATA는 DNS 트래픽의 구문을 계속 분석하므로 성공 여부에 관계
 
 위에 표시된 예에서 *Enterprise Admins* 그룹에는 하나의 계정이 있습니다. 이 경우 이는 기본값이기 때문에 매우 유용한 정보는 아닐 수 있지만 공격자는 계정에 대해 훨씬 많은 지식을 보유하게 되고 자격 증명을 손상시키려는 사용자를 식별하게 됩니다.
 
-### <a name="smb-session-enumeration"></a>SMB 세션 열거
+<a id="smb-session-enumeration" class="xliff"></a>
+### SMB 세션 열거
 
 이 시점에서 공격자는 자격 증명을 손상시키고자 하는 사람을 알고 있지만 현재 정보를 통해 자격 증명을 손상시키는 방법을 정확하게 알지 못합니다. SMB 열거를 사용하면 이러한 계정이 노출된 정확한 위치를 얻을 수 있습니다.
 
@@ -273,7 +289,8 @@ Microsoft ATA를 사용하면 공격자와 동일한 관련 데이터를 가져�
 
 Microsoft ATA가 제공하는 데이터는 보안 인식을 향상시키는 데 중요하며 공격에 보다 신속하게 대응할 수 있도록 도와줍니다.
 
-### <a name="lateral-movement"></a>측면 확대
+<a id="lateral-movement" class="xliff"></a>
+### 측면 확대
 
 이 단계의 목표는 *NuckC*의 컴퓨터 자격 증명이 노출된, 이전에 검색된 IP 주소(192.168.10.30)에 액세스하는 것입니다. 이 작업을 수행하려면 *Victim-PC*에 있는 메모리 내 자격 증명을 열거합니다. *Victim-PC*가 *JeffV*의 자격 증명에만 노출된 것은 아닙니다. 공격자가 검색하는 데 유용할 수 있는 여러 다른 계정이 있습니다. 
 
@@ -331,7 +348,7 @@ IP 192.168.10.30은 이미 이 가이드에서 이전에 설명한 SMB 열거 �
 
 이제 *RonHD*를 통해 [Overpass-the-Hash]() 공격을 사용하여 측면 확대를 수행할 시간입니다. 공격자가 WDigest를 사용하지 않도록 설정되지 않은 환경에 있으면 공격자는 이미 일반 텍스트 암호를 알고 있으므로 이 공격의 의미가 없어지게 됩니다.  그러나 이 랩의 목적에 따라 일반 텍스트 암호를 모르거나 이 암호에 액세스할 수 없다고 가정됩니다.
 
-Overpass-the-Hash라는 기법을 사용하면 NTLM 해시를 가져와 Kerberos\Active Directory를 통해 TGT(Ticket Granting Ticket)를 얻을 수 있습니다.  TGT를 사용하면 Ron**HD로 가장하여* RonHD*가 액세스할 수 있는 모든 도메인 리소스에 액세스할 수 있습니다.  
+Overpass-the-Hash라는 기법을 사용하면 NTLM 해시를 가져와 Kerberos\Active Directory를 통해 TGT(Ticket Granting Ticket)를 얻을 수 있습니다.  TGT를 사용하면 Ron**HD로 가장하여 *RonHD*가 액세스할 수 있는 모든 도메인 리소스에 액세스할 수 있습니다.  
 
 "작업: Victim-PC에서 자격 증명 덤프"에서 이전에 수집한 *RonHD*의 NTLM 해시를 victim-pc.txt에서 복사합니다. 그런 다음 *Victim-PC*로 이동하여 *mimikatz*가 파일 시스템에서 저장된 위치에 액세스하고 다음 명령을 실행합니다.
 
@@ -367,7 +384,8 @@ Overpass-the-Hash라는 기법을 사용하면 NTLM 해시를 가져와 Kerberos
 
 ![비정상적인 프로토콜](./media/ata-attack-simulation-playbook/ata-attack-simulation-playbook-fig24.png) 
 
-### <a name="domain-escalation"></a>도메인 권한 상승
+<a id="domain-escalation" class="xliff"></a>
+### 도메인 권한 상승
 
 이제 공격자는 *Admin-PC*에 액세스할 수 있습니다. 이 컴퓨터는 이전 정찰에서 높은 권한 수준을 가진 계정인 *NuckC*를 손상시키는 훌륭한 공격 벡터로 식별된 컴퓨터입니다. 공격자는 이제 *Admin-PC*로 이동하여 도메인 내에서 자신의 권한을 상승시키려고 합니다.
 
@@ -454,7 +472,8 @@ Microsoft ATA에서 *Victim-PC*의 DC1에 대해 원격 실행을 감지했습�
 
 ![원격 실행](./media/ata-attack-simulation-playbook/ata-attack-simulation-playbook-fig33.png) 
 
-### <a name="domain-dominance"></a>도메인 우위
+<a id="domain-dominance" class="xliff"></a>
+### 도메인 우위
 
 공격자는 도메인 우위를 차지했으며, 관리자로서 모든 코드를 실행할 수 있으며 도메인의 모든 리소스에 액세스할 수 있습니다.
  
@@ -536,7 +555,8 @@ Microsoft ATA는 공격을 감지할 뿐만 아니라 공격을 해결하기 위
 
 KRBTGT를 사용하여 가짜 티켓에 서명하는 것은 Golden Ticket 공격으로 알려져 있으며 ATA에서는 이 공격도 감지합니다.  그러나 범위 및 서명 기반 감지 목적에 비춰볼 때 이 가이드의 범위를 벗어납니다.
 
-## <a name="conclusion"></a>결론
+<a id="conclusion" class="xliff"></a>
+## 결론
 
 Microsoft ATA는 다른 어느 곳에서도 제공되지 않는, 네트워크 방어에 대한 정보와 통찰력을 제공하며,  ID 평면을 사용자 환경에서 침입 후 활동을 발견하는 강력한 감지 도구로 바꿔놓았습니다.  Microsoft ATA는 매크로 이벤트를 요약하고 응집된 공격 스토리로 신속하게 전환할 수 있도록 도와줍니다.
 
