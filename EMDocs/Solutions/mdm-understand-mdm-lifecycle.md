@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 901b52bf-2340-4847-aaff-c94fec9ee925
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: bca54803722814769b45cd30244b68121d72a114
-
-
+ms.openlocfilehash: 24cd67176f90baaf5fd1b7d2dc0174a058fbad2f
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="understand-the-mdm-lifecycle"></a>MDM 수명 주기 이해
 
 >[!NOTE]
@@ -138,9 +137,3 @@ MDM 수명 주기 관리를 계획하려면 장치 등록 및 구성에 대해 �
 
 >[!TIP]
 >각 응답을 적어두고 답변의 의미를 이해해야 합니다. 이후의 작업에서는 사용 가능한 옵션과 각 옵션의 장단점을 살펴봅니다.  이러한 질문에 답변하면 비즈니스 요구에 가장 적합한 옵션을 선택하는 데 도움이 됩니다.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

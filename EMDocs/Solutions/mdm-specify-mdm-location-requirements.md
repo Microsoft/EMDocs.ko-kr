@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: c8824726-082e-417a-8522-183a69328ae4
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: cf9b0a04e00ddf991e0f068144a1993f9fb88527
-
-
+ms.openlocfilehash: d5e7d0231795558aadc96786741e710a3352d097
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="specify-your-mobile-device-management-location-requirements"></a>모바일 장치 관리 요구 사항 지정
 
 >[!NOTE]
@@ -39,9 +38,3 @@ ms.openlocfilehash: cf9b0a04e00ddf991e0f068144a1993f9fb88527
 
 >[!TIP]
 > 각 응답을 적어두고 답변의 의미를 이해해야 합니다. 다음 섹션에서는 사용 가능한 옵션과 각 옵션의 장단점을 살펴봅니다.  이러한 질문에 답변하면서 비즈니스 요구에 적합한 최상의 솔루션을 선택할 수 있게 됩니다.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

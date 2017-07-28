@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: ed940ba8-866c-477f-a59b-beb620300a79
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 242b1a6468bfc9524acdb3c497078128dd26864b
-ms.openlocfilehash: 0744ef860fb1fd06507c9e24af9c676551c54f12
-ms.contentlocale: ko-kr
-ms.lasthandoff: 01/05/2017
-
-
+ms.openlocfilehash: ad3f594ceb00e7094cc60ff878996f36be17efd4
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="byod-design-considerations-guide"></a>BYOD 디자인 고려 사항 가이드
 
 직원이 사용하는 장치의 확산으로 대부분의 기업은 사용자가 자신의 장치를 사용하도록 허용하면서 해당 장치에 상주하는 회사 데이터를 보호하려면 어떻게 해야 하는지와 같은 큰 딜레마에 직면하고 있습니다. 기업은 직접 장치를 소유하고 직원에게 제공하던 기존 모델에서 직원이 일부 업무 작업에 자신의 개인 장치를 사용하는 모델로 전환하고 있습니다. 이 모델을 종종 [BYOD(Bring Your Own Device)](https://technet.microsoft.com/library/dn645493.aspx)라고 합니다. 이 모델에서는 직원이 자신의 개인 장치를 일부 업무 작업에 사용할 수 있지만 회사에서 장치의 일부 측면을 관리하여 회사 데이터의 보안을 보장하도록 직원이 허용한 경우에 한합니다. 종종 회사에서 사용자 지정 정책을 적용하거나 장치의 강화를 수행하거나 회사 정책에 의해 설정된 운영 체제를 표준화하도록 사용자가 허용함을 의미합니다. Microsoft에서 제공하는 [작업 스타일 변환을 위한 CIO 고려 사항](http://download.microsoft.com/documents/uk/enterprise/it-trends/Considerations_for_a_Workstyle_Transformation.pdf) 문서를 읽은 운영진과 의사 결정권자는 사용자가 자신의 장치를 사용하여 업무의 생산성을 높일 수 있는 모델을 수용할 경우의 장점을 확인할 수 있습니다.
@@ -76,4 +73,3 @@ ms.lasthandoff: 01/05/2017
 대규모 인프라가 있는 조직은 IT 부서에서 장치를 완전히 제어하는 장치 자체 관리에서 IT 부서의 장치 제어 권한을 줄이는 동시에 회사 데이터 액세스에 대한 사용자의 요구를 해결해야 하는 모델로 전환하기 전에 요구 사항을 확인해야 합니다. 이런 경우를 종종 장치 중심에서 사용자 중심 IT로 전환이라고 합니다. 또한 기존 앱과 새 앱 또는 기존 앱에서 클라우드 환경으로 전환하는 경우에 동일한 고려 사항 및 요구 사항을 신중하게 계획해야 합니다. 그림 1에서는 BYOD 문제 영역의 개념 다이어그램과 이 가이드에서 설명한 영역을 보여 줍니다.
 
 ![문제 도메인](./media/BYOD_Figure1.png)
-

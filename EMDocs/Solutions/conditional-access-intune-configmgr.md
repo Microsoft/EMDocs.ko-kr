@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: e65a0662-33ff-4e8c-9305-a21e80ea0f69
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: eae78f8e5a4c5a1a0e44cf17fa320175ac622ac1
-ms.contentlocale: ko-kr
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="use-conditional-access-with-intune-and-configuration-manager"></a>Intune 및 Configuration Manager와 함께 조건부 액세스 사용
 이 토픽에서는 메일 액세스를 관리하기 위해 회사에서 System Center Configuration Manager 및 Microsoft Exchange Server(온-프레미스, Exchange Online 또는 둘 다의 하이브리드 배포)를 이미 사용 중이라고 가정합니다. 이 솔루션은 기존 Configuration Manager 환경을 Intune과 결합하여 해당 위치와 관계없이 모든 유형의 장치에서 메일 액세스를 안전하게 관리합니다.
 
@@ -87,4 +84,3 @@ Exchange 온-프레미스에 대한 조건부 액세스는 다음을 지원합�
   이제 [Intune으로 Exchange Server 온-프레미스를 배포](conditional-access-intune-exchange.md)하는 방법을 알아볼 준비가 되었습니다.
 
 사용자 환경에서 Exchange Online 및 온-프레미스를 포함하는 경우 [Microsoft Intune 및 Configuration Manager를 사용하여 Exchange Online 및 온-프레미스 배포](conditional-access-intune-configmgr-coexist.md)를 참고할 수 있습니다.
-

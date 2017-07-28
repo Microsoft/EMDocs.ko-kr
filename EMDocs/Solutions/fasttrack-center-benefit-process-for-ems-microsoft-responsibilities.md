@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
 ms.openlocfilehash: 77e668d5f638ee2e4b9a9e81a1f9181252fde8b9
-ms.contentlocale: ko-kr
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="microsoft-responsibilities"></a>Microsoft의 책임
 
 등록 시 Microsoft에서 이행해야 하는 의무는 다음과 같습니다.
@@ -209,4 +206,3 @@ ms.lasthandoff: 07/07/2017
 **더 자세한 내용을 원하세요?**
 
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-

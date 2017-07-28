@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 56b6cd2d-3dea-468b-9f1c-92717c9ec5f5
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 9778ccfc6a2c7583e0659c76e7ada91711517243
-ms.contentlocale: ko-kr
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="deploy-exchange-server-on-premises-with-microsoft-intune-and-configuration-manager"></a>Microsoft Intune 및 Configuration Manager가 포함된 Exchange Server 온-프레미스 배포
 [회사 메일 및 문서를 보호하기 위한 아키텍처 지침](architecture-guidance-for-protecting-company-email-and-documents.md)을 참고했으므로 솔루션 배포를 진행할 준비가 되었습니다.
 
@@ -186,4 +183,3 @@ SSRS 보고서를 보려면 주 서버에 보고 역할이 설치되어 있어�
 
 ## <a name="where-to-go-from-here"></a>추가 정보
 모바일 장치의 회사 메일 및 메일 데이터를 보호하기 위한 솔루션을 배포한 후에 [조건부 액세스의 최종 사용자 환경](end-user-experience-conditional-access.md)에 대해 자세히 알아볼 수 있습니다. 이렇게 하면 최종 사용자가 특정 장치를 등록할 때 발생할 수 있는 문제에 대비하는 데 도움이 됩니다.
-

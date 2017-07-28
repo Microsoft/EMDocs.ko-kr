@@ -12,15 +12,12 @@ ms.technology: techgroup-identity
 ms.assetid: 65409d5c-4f1b-4026-86e9-e65e1c4fe2b4
 ms.reviewer: v-craic
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 34d04195000f7cdb5a9efdfa31788a12cc8d8d5b
-ms.openlocfilehash: a2fc2e045c413707ad9d53e738b1eec6457c3a95
-ms.contentlocale: ko-kr
-ms.lasthandoff: 02/22/2017
-
-
+ms.openlocfilehash: 98bedbc50843cb7cfc284f5f29d40ca8b298f11a
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="secure-data-using-classification-labeling-and-protection"></a>분류, 레이블 지정 및 보호를 사용하여 데이터 보안 유지
 
 오늘날 조직 경계를 너머 여러 장치를 통해 정보 공유가 진행되고 있습니다.  사용자들이 업무 수행에 중요한 데이터를 안전하게 공유할 수 있도록 하면서 이러한 프로세스 중에 중요한 회사 데이터가 노출되지 않도록 하는 것이 매우 중요합니다. 아웃소싱과 같은 추세가 늘어나면서 계약업체 및 공급업체와 회사 기밀 데이터를 공유해야 할 수 있습니다. 모든 콘텐츠에 동일한 보호가 필요한 것은 아니므로 기업은 보호가 필요한 데이터와 그렇지 않은 데이터를 식별해야 합니다.
@@ -110,4 +107,3 @@ IT 관리자는 데이터에 분류 및 보호를 자동으로 적용하기 위�
 - IBAN(국제 은행 계좌 번호)
 
 이러한 유형의 구현에 대한 자세한 내용은 [기본 제공 조건에 대한 정보](/information-protection/deploy-use/configure-policy-classification#information-about-the-built-in-conditions)를 참조하세요.
-

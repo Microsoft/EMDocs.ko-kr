@@ -12,15 +12,12 @@ ms.technology:
 ms.assetid: cc0d2e1f-9c34-4dcb-ac1f-2f355e9ebb7e
 ms.reviewer: vlpetros
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
-ms.openlocfilehash: d7e15962a95135dbb16cb41e2643c602b87039cf
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/29/2017
-
-
+ms.openlocfilehash: c57332d427eec2d591fdaf527a783f5e58d457d9
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="protect-office-365-company-data-with-intune"></a>Intune을 사용하여 Office 365 회사 데이터 보호
 대부분 직원들이 모바일 장치에서 원하는 첫 번째 기능은 회사 메일 및 문서에 대한 액세스입니다. 또한 복잡한 단계를 거치거나 지원 센터에 문의하지 않고 설정을 진행할 수 있기 바랍니다. 반면, IT 부서는 골치 아프게 대규모의 온-프레미스 인프라를 유지 관리하지 않으면서 모든 위치에서 회사 데이터 보안을 유지하려고 합니다. EMS(Enterprise Mobility + Security)를 사용하면 직원들이 즐겨 사용하는 앱 및 장치로 직원 생산성을 유지할 수 있고 회사 데이터를 보호할 수 있습니다. 방법에 대해 계속 읽어보세요.
 
@@ -144,4 +141,3 @@ Intune의 WIP 정책은 관리되는 Windows 10 장치에서 잠재적인 데이
 [EMS(Enterprise Mobility + Security) 사용 시작](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
 [Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-

@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 43594d947f3fa081a777eee6081c83b35621a9bf
-ms.contentlocale: ko-kr
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="architecture-guidance-for-protecting-company-email-and-documents"></a>회사 메일 및 문서를 보호하기 위한 아키텍처 지침
 이 항목은 최종 사용자 환경이 단순하고 생산성에 영향을 주지 않도록 하면서 회사를 위한 데이터 보호 방법에 대해 개괄하는 것으로 시작합니다. 그런 다음 Microsoft Enterprise Mobility + Security 솔루션을 사용하여 회사 메일에 안전하게 액세스하도록 돕고 메일 및 첨부 파일에 있는 회사 데이터를 보호하는 데 도움이 될 수 있는 방법에 대해 구체적으로 살펴볼 것입니다.
 
@@ -99,4 +96,3 @@ ID, 장치, 앱 및 데이터용 4계층 보안 모델은 필요한 사용자만
 - [Azure Information Protection이란?](/information-protection/understand-explore/what-is-azure-rms)
 
 - [응용 프로그램이 Azure Information Protection을 지원하는 방식](/information-protection/understand-explore/applications-support)
-

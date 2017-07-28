@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: a124d56eaa6cbca44551a7c3ea42166479523f9f
-ms.contentlocale: ko-kr
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="protect-email-and-attachments-from-data-leakage"></a>전자 메일 및 첨부 파일의 데이터 유출 방지
 [회사 메일 및 문서 보호](protect-corporate-email-documents.md)에서는 규격 장치만 회사 메일에 액세스하도록 하는 방법을 설명했습니다. 그러나 액세스를 보호하는 것만으로는 전자 메일 및 전자 메일 첨부 파일의 내용을 보호할 수 없습니다. 해당 내용을 복사/이동하거나 다른 위치에 저장하거나 다른 사용자와 공유할 수 있기 때문입니다. EMS는 MAM(모바일 응용 프로그램 관리) 정책을 사용하여 이 문제를 해결합니다.
 
@@ -71,4 +68,3 @@ IT 관리자는 모바일 응용 프로그램 관리 정책을 만들고 앱에 
 
 ## <a name="where-to-go-from-here"></a>추가 정보
 [회사 메일 및 문서](protect-corporate-email-documents.md) 및 메일 첨부 파일을 보호하는 방법에 대해 이해했으므로 [회사 메일을 보호하는 솔루션을 구현](implement-solution.md)하는 방법에 대해 알아볼 수 있습니다.
-

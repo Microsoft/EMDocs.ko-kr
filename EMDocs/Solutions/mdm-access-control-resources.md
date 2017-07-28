@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 5967876b-3c08-4498-a0a6-0225b562d35f
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 782f6dac4a366312ce0a6d04735262908df6fe72
-ms.contentlocale: ko-kr
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: acdca6a0357487456ccbe28e6977e61943cebffa
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="access-control-to-resources"></a>리소스에 대한 액세스 제어
 
 >[!NOTE]
@@ -91,4 +88,3 @@ Intune 관리자가 [Intune 관리 콘솔](/intune/deploy-use/introduction-to-de
 **단점**
 
 - 조직에 최신 온-프레미스 ConfigMgr 인프라가 없는 경우 통합 전에 이 플랫폼의 계획, 설치 및 구성 필요
-

@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: ade57c73-a8a2-497f-ad8d-5dfc3cba9e70
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 050d92824ad2616440d9d4b972a812be0ab5a14a
-ms.contentlocale: ko-kr
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 7f67dbb9e304888bc781d383648191312c8ae616
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="hardening-mobile-devices"></a>모바일 장치 보안 강화
 
 >[!NOTE]
@@ -94,4 +91,3 @@ ConfigMgr 온-프레미스 하이브리드 환경에서는 [구성 기준](https
 
 >[!TIP]
 > [Microsoft Intune에 대한 모바일 장치 관리 정책 설정](https://technet.microsoft.com/library/dn913730.aspx)에서 Microsoft Intune 모바일 장치 보안 정책에서 구성할 수 있는 모바일 장치 관리 설정에 대해 자세히 읽어보세요.
-

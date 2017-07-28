@@ -12,15 +12,12 @@ ms.technology:
 ms.assetid: e9e695ec-5608-43bb-bbfb-808b869b1567
 ms.reviewer: vlpetros
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: b5be7105266a7f455e1482a814929f65a130db82
-ms.openlocfilehash: 6b220f4992651b5f3c107b5b958c47900515b77f
-ms.contentlocale: ko-kr
-ms.lasthandoff: 03/08/2017
-
-
+ms.openlocfilehash: 51e8edb18d68618c147ba5011dc1f047cdb43cac
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="manage-company-owned-devices-with-intune"></a>Intune으로 회사 소유 장치 관리
 
 현대의 직장에서 직원의 이동성 경험에 관한 기대치를 충족할 수 있는 옵션에는 여러 가지고 있으며, 그 중에 BYOD(Bring Your Own Device) 프로그램도 포함됩니다. 그러나 대부분의 조직에서는 회사 데이터에 액세스하는 데 사용되는 장치를 더 엄밀하게 제어하고자 합니다. 이러한 시나리오에서 기업은 IT 부서에서 직원들에게 관리되는 모바일 장치를 제공하는 CYOD(Choose Your Own Device) 전략을 구현할 수 있습니다.
@@ -162,4 +159,3 @@ Intune의 응용 프로그램 보호 정책을 사용하면 장치 등록 여부
 [EMS(Enterprise Mobility + Security) 사용 시작](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
 [Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-

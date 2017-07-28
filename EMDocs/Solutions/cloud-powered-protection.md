@@ -14,13 +14,12 @@ ms.assetid: 46654ab0-0d0a-47ad-8715-b149a1092a37
 ROBOTS: 
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: cd45c4acdcc477d235e21bd6af5d1c2e265a6435
-ms.openlocfilehash: bcdf21f80b921e2788168e7d53b5618619b79539
-
-
+ms.openlocfilehash: 0ed7704a832f3567f14c6eec5ae7da9ea5e9f22a
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="cloud-powered-protection"></a>클라우드 기반 보호
 Microsoft는 10여년 동안 클라우드 기반 ID의 보안을 유지해 왔으며, Azure Active Directory를 통해 이러한 보호 시스템을 엔터프라이즈 고객에게 제공함으로써 향상된 보안과 관리 기능으로 사용자와 관리자의 책임을 유지하도록 지원하고 있습니다.
 
@@ -107,9 +106,3 @@ Microsoft는 이 분야에 계속 투자하고 있으며, 지속적으로 기존
 - [Azure AD 조건부 액세스를 구현하는 방법](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access/)에 대해 알아봅니다.
 - [MFA 및 위치 정책](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-azuread-connected-apps/)에 대해 알아봅니다.
 - [장치 기반 정책](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-policy-connected-applications/)에 대해 알아봅니다.
-
-
-
-<!--HONumber=Nov16_HO3-->
-
-

@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 6d7c4104-b85f-407e-8832-0e6bbac934f5
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 418aa02b98040a8a74313513f05b231a20ea472a
-ms.contentlocale: ko-kr
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="use-mobile-app-management-policies-in-intune"></a>Intune에서 모바일 앱 관리 정책 사용
 많은 회사에서 Microsoft Intune을 사용하는 주된 이유 중 하나는 사용자가 작업을 완료하는 데 필요한 앱을 배포하기 위해서입니다. 앱을 배포하려면 먼저 [장치를 관리하도록 설정](https://docs.microsoft.com/intune/deploy-use/enroll-devices-in-microsoft-intune)해야 합니다.
 
@@ -117,4 +114,3 @@ Intune 콘솔을 통해 앱 배포를 모니터링하고 정책 충돌을 해결
 ## <a name="where-to-go-from-here"></a>추가 정보
 
 MAM 정책과 관련된 앱을 만들고 배포한 후에는 [MAM의 최종 사용자 환경](end-user-experience-mam.md)에 대해 자세히 알아볼 수 있습니다. 이렇게 하면 발생할 수 있는 모든 문제에 대비하는 데 도움이 됩니다.
-

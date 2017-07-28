@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: bbc9f6ea-fc92-468d-bb5b-60c67949ca28
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
 ms.openlocfilehash: 001a2de2d35f218258180fff31b7923ee5c79acd
-ms.contentlocale: ko-kr
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="end-user-experience-of-mobile-app-management-policies"></a>모바일 앱 관리 정책의 최종 사용자 환경
 MAM 정책은 앱이 회사 컨텍스트에서 사용되는 경우에만 적용됩니다. 관리되는 앱의 작동 방식을 파악할 수 있도록 사용자를 교육하려면 다음 예제 시나리오를 읽어보세요.
 
@@ -66,4 +63,3 @@ MAM 정책은 앱이 회사 컨텍스트에서 사용되는 경우에만 적용�
 
 ## <a name="where-to-go-from-here"></a>추가 정보
 [다중 ID가 지원되는 앱 사용](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#using-apps-with-multi-identity-support), [사용자 계정 관리](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#managing-user-accounts) 및 [Rights Management 공유 앱을 사용하여 미디어 파일 보기](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app)를 비롯하여 다른 최종 사용자 환경에 대해 읽어볼 수 있는 다양한 리소스가 있습니다.
-

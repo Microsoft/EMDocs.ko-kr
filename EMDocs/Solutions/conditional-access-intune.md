@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 28662db2-faea-425f-ada9-04cf1d976fc2
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 033720647c8c284a415bd79cbc58b65e41d3e177
-ms.contentlocale: ko-kr
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="use-conditional-access-with-microsoft-intune"></a>Microsoft Intune으로 조건부 액세스 사용
 이 솔루션을 통해 Intune에서 조건부 액세스를 사용하여 지정한 조건에 따라 메일과 기타 서비스를 보호합니다.
 
@@ -99,4 +96,3 @@ Exchange 온-프레미스에 대한 조건부 액세스는 다음을 지원합�
 > 최신 버전의 온-프레미스 Exchange 커넥터를 사용하고 있는지 확인합니다. Intune 콘솔에서 사용할 수 있는 온-프레미스 Exchange 커넥터는 Intune 테넌트에 고유하며 다른 테넌트에 사용할 수 없습니다. 또한 테넌트를 위한 Exchange Connector가 여러 컴퓨터 아닌 정확히 하나의 컴퓨터에 설치되어 있는지 확인해야 합니다.
 
   이제 [Intune으로 Exchange Server 온-프레미스를 배포](conditional-access-intune-exchange.md)하는 방법을 알아볼 준비가 되었습니다.
-

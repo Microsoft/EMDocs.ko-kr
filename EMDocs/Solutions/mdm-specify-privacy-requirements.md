@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: d02d3ec2-706a-4e03-977c-b7c06cbd4ebd
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 14f3c9958c2c959df8c6537728e8237a1f226760
-ms.contentlocale: ko-kr
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: c24cfb3798aaa1c82263c25a025cd9dc4ef654d4
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="specify-your-privacy-requirements"></a>개인 정보 보호 요구 사항 지정
 
 >[!NOTE]
@@ -55,4 +52,3 @@ ms.lasthandoff: 11/28/2016
         - 여기에 해당할 경우 모바일 장치 관리 플랫폼 선택에 앞서 이러한 요구 사항을 열거해 봅니다.
 
 Intune을 비롯한 Microsoft 클라우드 서비스에서 사용자의 개인 정보 보호를 유지하는 방법을 보다 잘 이해하려면 [Microsoft Online Services개인 정보 취급 방침](http://www.microsoft.com/server-cloud/products/intune-trust-center/privacy.aspx)을 읽어보세요.
-

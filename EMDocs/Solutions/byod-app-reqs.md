@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 0c1313b9-361f-4732-a92c-23d0dac07733
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: d5297dbb3d22feda4189bc120b2bb4537fa5f590
-ms.contentlocale: ko-kr
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 64d000d8d4313f9b10d145564eef3d2d2cbff5ed
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="app-requirements"></a>앱 요구 사항
 
 모든 조직은 다양한 기술적 역량을 사용하여 리소스가 최적화된 방식으로 자신의 작업을 수행하도록 하며, 대부분의 경우 기본 도구는 앱입니다. 이러한 기능은 다양한 기술을 사용하여 특정 목표를 달성하는 다중 플랫폼 방식으로 결합하거나, 작업을 수행하거나 특정 프로세스를 자동화할 수 있는 사용자 지정 앱을 만들어 결합할 수 있습니다. BYOD 전략을 디자인할 때 앱은 중요한 고려 사항입니다. 사용자는 다양한 폼 팩터를 사용하여 이러한 앱을 사용하므로 이러한 앱에서 지원하는 다양한 기능을 고려해야 합니다. 아래 그림에서는 사용자 및 장치가 앱을 사용하여 데이터를 사용하는 방법과 앱 하위 영역의 각 구성 요소에 대한 고려 사항을 보여 줍니다.
@@ -119,4 +116,3 @@ ms.lasthandoff: 11/28/2016
 - 이러한 앱에 대해 개인 정보 분석을 수행했습니까?
 - 앱이 라이브 타일을 사용합니까?
     - 그렇다면 이러한 라이브 타일로 인해 실수로 정보 노출이 발생할 수 있습니까?
-

@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: a25f7407-92a0-4588-b5f7-a7bad9cdd070
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 3e930a5a9a39b15a4ce39c5cfa1e37038917f842
-
-
+ms.openlocfilehash: 5ea6bd936a464bd6f89be622d652f011a3acdd24
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="device-management-options"></a>장치 관리 옵션
 
 >[!NOTE]
@@ -95,9 +94,3 @@ Intune 및 ConfigMgr를 통한 모바일 장치 관리 작업은 관리 정책�
 - 현재 ConfigMgr 인프라가 구성되지 않은 조직의 경우 Intune과 통합하기 전에 계획, 설치 및 구성 필요
 - Android 장치용 VPN 및 메일 프로필이 현재 지원되지 않음
 - 관리되는 브라우저 지원이 현재 지원되지 않음
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

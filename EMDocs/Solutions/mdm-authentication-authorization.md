@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 31b98333-5a3d-49ba-a25e-66447df68035
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: ff3b086f2ad076776e7cff918ef4bb26161427fd
-ms.contentlocale: ko-kr
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 29baf40311d0be0fac589ae2e50136d1012d647e
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="authentication-and-authorization"></a>인증 및 권한 부여
 
 >[!NOTE]
@@ -95,4 +92,3 @@ Azure AD MFA를 사용하여 사용자가 회사 리소스에 액세스할 때�
 **단점**
 
 - 클라우드 기반 솔루션을 채택하지 않는 고객은 사용할 수 없음
-

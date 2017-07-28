@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
 ms.openlocfilehash: 0c404c758f66fba9ded4672fad904ba3987958b5
-ms.contentlocale: ko-kr
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="onboarding-and-migration-phases"></a>등록 및 마이그레이션 단계
 [FastTrack 센터 혜택 적격 서비스 및 플랜](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)을 통해 사용할 Microsoft Azure Active Directory Premium 및/또는 Microsoft Intune을 가져올 때는 프로세스와 관련한 몇 가지 단계가 있습니다. 다음 섹션에서는 등록 프로세스의 각 단계를 설명합니다.
 
@@ -162,4 +159,3 @@ Intune의 경우 Microsoft는 Microsoft Intune을 사용하여 장치를 관리�
 **더 자세한 내용을 원하세요?**
 
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-

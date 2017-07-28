@@ -13,13 +13,11 @@ ms.assetid: ebf7be63-4ac2-4158-9772-58f15416ccb7
 ms.reviewer: vlpetros
 ms.suite: ems
 ms.custom: active-directory
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5ea7cc0c6c7b8286077c0bbc4251a22d138ed8e2
-ms.openlocfilehash: 98acda761b353eacb2ce861dcef2f39385691021
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/29/2017
-
-
+ms.openlocfilehash: 7c835faa3fe56fdc9cf42f0569fefe1acfa22eda
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
 # <a name="protect-on-premises-company-data-with-intune"></a>Intune으로 온-프레미스 회사 데이터 보호
 더 이상 방화벽만으로는 적절한 회사 보안 경계를 제공할 수 없습니다. 오늘날의 보안 경계에는 최종 사용자와 이 사용자가 회사 데이터를 액세스, 사용 및 공유하는 방법을 포함해야 합니다. 스마트폰, 태블릿, 랩톱 등 무엇으로 작업하든 정보 근로자는 어디서든 필요할 때 원하는 장치에서 리소스에 원활하게 액세스해야 합니다. 사용자에게 액세스 및 보호 기능을 제공하는 일은 회사 데이터도 보호해야 하는 IT 관리자에게 매우 어려운 일입니다. EMS(Enterprise Mobility + Security)를 사용하면 직원들이 즐겨 사용하는 앱 및 장치로 직원 생산성을 유지할 수 있고 온-프레미스 회사 데이터도 보호할 수 있습니다. 방법을 확인하려면 계속 읽어 보세요.
@@ -155,4 +153,3 @@ VPN, Wi-Fi 또는 메일 프로필을 통해 사용자에게 회사 리소스 �
 [EMS(Enterprise Mobility + Security) 사용 시작](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
 [Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-

@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 29eddc34-5ca5-4169-89b6-8137b03ab7f0
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 9aafb6a87f629f61d04596830ae0cc5cee944696
-ms.contentlocale: ko-kr
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: f90989708013339a0bf31157075678739e3197b5
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="data-access-and-protection-requirements"></a>데이터 액세스 및 보호 요구 사항
 
 사용자가 자신의 장치에서 회사 리소스에 액세스할 수 있도록 할 때 가장 중요한 요소 중 하나는 회사의 데이터를 보존하고 해당 정보를 안전하게 유지하는 것입니다. 회사에는 데이터를 위치에 관계없이 안전하게 유지하기 위해 적용해야 하는 다양한 규정 준수 요구 사항이 있을 수 있습니다. 다음 그림에서는 데이터에 액세스할 때 사용자와 장치 간의 상호 작용과 이 하위 영역에 대해 고려해야 하는 구성 요소를 보여 줍니다.
@@ -93,4 +90,3 @@ ms.lasthandoff: 11/28/2016
     - 그렇다면 이러한 규정은 온-프레미스 리소스에 대한 현재 데이터 액세스 정책을 어떻게 도출합니까?
 - 회사에 [Mobile Device Management (MDM)(MDM(모바일 장치 관리))](mdm-design-considerations-guide.md) 및 [Mobile Application Management (MAM)(MAM(모바일 응용 프로그램 관리))](https://blogs.technet.microsoft.com/cbernier/2016/01/05/microsoft-intune-mobile-application-management-mam-standalone/)에 대한 정책이 있습니까?
 - 회사에 소송 또는 범죄 수사 시 장치 몰수에 대한 정책이 있습니까?
-

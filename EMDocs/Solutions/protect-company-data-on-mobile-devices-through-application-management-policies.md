@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 6c7088a9-ca88-4ff2-97a6-f842691fd3c7
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 88625a3bc5ac5f1a877650f73185721674e0f28d
-ms.contentlocale: ko-kr
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="protect-company-data-on-mobile-devices-through-app-management-policies"></a>앱 관리 정책을 통해 모바일 장치에서 회사 데이터 보호
 회사의 데이터를 보호하는 일은 매우 중요하며 점점 더 많은 직원들이 모바일 장치를 사용하여 메일 및 메일 첨부 파일을 포함한 회사 리소스에 액세스함에 따라 더 어려운 과제가 되고 있습니다. IT 관리자는 직원들의 모바일 장치가 회사의 물리적 위치를 벗어나는 경우에도 회사 데이터를 보호해야 합니다.
 
@@ -74,4 +71,3 @@ ms.lasthandoff: 07/07/2017
 
 ## <a name="where-to-go-from-here"></a>추가 정보
 MAM의 전체 프로세스에 익숙해졌으면 [Intune에서 모바일 앱 관리 정책 사용](mam-intune.md) 또는 [Configuration Manager에서 모바일 앱 관리 정책 사용](mam-configmgr.md) 준비가 완료된 것입니다. 또는 [MAM 정책의 최종 사용자 환경](end-user-experience-mam.md)에 대해 알아볼 수 있습니다.
-

@@ -13,14 +13,12 @@ ms.technology:
 ms.assetid: 54082b94-1d21-44d5-9fba-af6e04397def
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 04a5fa735c75dd7abe2caecdb69a60598c7aec8e
-
-
+ms.openlocfilehash: d53e761566189c5c775b129746bb8e5bf9cb59d6
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
-
 # <a name="device-enrollment-options"></a>장치 등록 옵션
 
 >[!NOTE]
@@ -44,9 +42,3 @@ Intune 독립 실행형은 Intune 또는 온-프레미스 ConfigMgr 인프라일
 | 보안 | BYOD 전략을 지원하는 경우 적절한 보안 제어 장치가 없을 때 관리자가 중요한 사용자 개인 정보를 보거나 노출할 수 있습니다. | 최신 모바일 장치 사용자는 이러한 중앙 집중식 관리가 번거롭고 불편하다고 느끼게 되어 등록 보안 및 규정 준수를 손상시킬 수 있는 사용자 정의 해결 방안을 따를 수 있음 |
 
 조직에서는 이러한 등록 시나리오를 모두 허용하여 부서 또는 상황별로 유연하게 다른 방법을 사용하도록 할 수 있습니다. 이 경우 모바일 장치 관리 솔루션은 두 시나리오를 모두 지원할 수 있어야 합니다.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

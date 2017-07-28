@@ -13,13 +13,11 @@ ms.assetid: f1421a9b-25e6-469e-b6b3-a2a068e9ac46
 ms.reviewer: mhamerof
 ms.suite: ems
 ms.custom: advanced-threat-analytics,cloud-app-security,information-protection,microsoft-identity-manager,microsoft-intune,rights-management
-ms.translationtype: Human Translation
-ms.sourcegitcommit: ed952bd866758978ed4348c70da826eb519b4733
-ms.openlocfilehash: 9f97e64ec3be78e17b05484d27b903e30c340ecf
-ms.contentlocale: ko-kr
-ms.lasthandoff: 12/08/2016
-
-
+ms.openlocfilehash: 19e4cc46998bf7142692b05f90c7ea5243caa4db
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
 # <a name="learn-about-enterprise-mobility--security"></a>EMS(Enterprise Mobility + Security)에 대해 알아보기
 
@@ -116,4 +114,3 @@ You already get corporate application isolation and management, automatic encryp
 [Microsoft Enterprise Mobility + Security 페이지 방문](http://go.microsoft.com/fwlink/?LinkId=816837)
 
 [EMS(Enterprise Mobility + Security) 사용 시작](ems-get-started.md)
-

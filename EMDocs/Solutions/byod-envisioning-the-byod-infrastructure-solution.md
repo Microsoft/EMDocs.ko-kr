@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: ecb6271f-8f38-42bd-aae7-10ba5e17a5f1
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 7dbb0c9b1b2b3b29eb54ad8cdeee527d9d7f078f
-ms.contentlocale: ko-kr
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 0bd85cff9c2f1c17e7e6a1a4868c769eecd5be70
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 #<a name="envisioning-the-byod-infrastructure-solution"></a>BYOD 인프라 솔루션 구상
 
 해결하려는 BYOD 문제를 명확하게 정의한 후 문제에 대한 솔루션을 정의하고 솔루션의 세부 요구 사항을 정의할 수 있습니다.
@@ -52,4 +49,3 @@ ms.lasthandoff: 11/28/2016
 - [데이터 액세스 및 보호 요구 사항](byod-data-access-protection-reqs.md)
 - [관리 요구 사항](byod-management-reqs.md)
 - [앱 요구 사항](byod-app-reqs.md)
-

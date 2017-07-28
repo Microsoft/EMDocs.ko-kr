@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 586ecd93-b097-42a0-9229-bcf3b781021c
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
 ms.openlocfilehash: 6ab1230db73e7de791497a69b030e27e80dc8b9d
-ms.contentlocale: ko-kr
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="how-to-use-apps-with-multi-identity-support"></a>다중 ID를 지원하는 앱을 사용하는 방법
 
 이 시나리오에서는 Microsoft Word를 예제로 사용합니다. Office 365에 포함된 다른 앱에도 이와 동일한 단계를 적용할 수 있습니다.
@@ -50,4 +47,3 @@ ms.lasthandoff: 07/07/2017
 
 ### <a name="want-to-learn-more"></a>더 자세한 내용을 원하세요?
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.
-

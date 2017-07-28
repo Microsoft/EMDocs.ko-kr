@@ -12,15 +12,12 @@ ms.technology:
 ms.assetid: b46877f3-cf32-4919-ba63-4df55cd2af32
 ms.reviewer: vlpetros
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
-ms.openlocfilehash: 5a0eef972374efefff886ab9dbf7b6a7e4f7aab7
-ms.contentlocale: ko-kr
-ms.lasthandoff: 05/29/2017
-
-
+ms.openlocfilehash: b17952c8b7b5e0ab6d02d647740c33a5a54484ea
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="protect-company-data-without-managing-devices-with-intune"></a>Intune으로 장치를 관리하지 않고 회사 데이터 보호
 현재 우리는 직원들이 이동 중에도 모바일 장치에서 회사 데이터와 생산성 도구에 액세스할 수 있어야 하는 세상에 살고 있습니다. 모바일 장치의 인기와 중요성 때문에 많은 조직이 뛰어난 최종 사용자 환경을 유지하면서 Office 모바일 앱의 데이터 손실을 방지하여 Office 365 데이터 보호를 강화할 방안을 찾고 있습니다. IT 조직은 Office 365에 대한 액세스를 보호하고, 조직이 소유하거나 관리하지 않는 모바일 장치와 앱에서 회사 데이터의 데이터 손실을 방지해야 합니다. 문제는 IT 조직은 회사 데이터 보안을 확보해야 하지만 대다수 직원은 IT 조직의 직원 장치 통제로 인해 자신들의 프라이버시가 손상되지 않을까 우려합니다.
 
@@ -95,4 +92,3 @@ Exchange Online에 대한 조건부 액세스 정책이 있으면 사용자는 A
 [EMS(Enterprise Mobility + Security) 사용 시작](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
 [Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-

@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 0b5e4330-6fa5-445c-b73e-86ce5b9c7964
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
-ms.openlocfilehash: fc06debb97cdbd3be1a241a711f36f6c530d65cf
-ms.contentlocale: ko-kr
-ms.lasthandoff: 01/05/2017
-
-
+ms.openlocfilehash: 9a6d883e2c803ead2dd74094ef4ab81194dc61d7
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="android"></a>Android
 
 등록 프로세스 및 사용자에게 표시되는 화면은 최종 사용자 장치에서 실행 중인 OS 버전에 따라 약간 달라집니다. 이 항목에서는 Android 장치를 등록하는 최종 사용자 환경을 설명합니다.
@@ -84,7 +81,7 @@ ms.lasthandoff: 01/05/2017
 
 1.  첫째, 장치가 등록되었는지 확인합니다. 등록되지 않았다면 사용자는 위의 단계를 따릅니다.
 
-2.   **준수 확인**을 클릭하여 장치의 준수 상태를 확인합니다. 규정 준수 오류가 식별되면 사용자는 이를 해결하는 방법과 관련한 모바일 장치별 지침에 따릅니다(예: 암호 재설정).
+2.  **준수 확인**을 클릭하여 장치의 준수 상태를 확인합니다. 규정 준수 오류가 식별되면 사용자는 이를 해결하는 방법과 관련한 모바일 장치별 지침에 따릅니다(예: 암호 재설정).
 
 3.  지원 센터에 전화합니다.
 
@@ -107,4 +104,3 @@ ms.lasthandoff: 01/05/2017
 
 ### <a name="where-to-go-from-here"></a>추가 정보
 최종 사용자 환경은 다른 모바일 장치와 약간 다릅니다. [iOS](end-user-experience-conditional-access-ios.md) 및 [Windows Phone](end-user-experience-conditional-access-winphone.md)의 최종 사용자 환경에 대한 자세한 정보를 확인할 수 있습니다.
-

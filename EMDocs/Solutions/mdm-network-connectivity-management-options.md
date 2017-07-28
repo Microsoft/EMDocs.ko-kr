@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: bc7cdb8f-3485-45ae-9493-f840ad9ed3ea
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 856d2d2ba9968aa0f4a0da4f4afcbf452260e548
-
-
+ms.openlocfilehash: b2758b96f5ace6e36d435a8c0d7523e2fa216a9d
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="network-connectivity-management-options"></a>네트워크 연결 관리 옵션
 
 >[!NOTE]
@@ -71,9 +70,3 @@ MDM for Office 365에서는 Wi-Fi 및 VPN 정책이 지원되지 않음
 
 - Intune: [무선](/Intune/deploy-use/wi-fi-connections-in-microsoft-intune) 및 [VPN](/Intune/deploy-use/vpn-connections-in-microsoft-intune) 프로필을 사용하도록 설정
 - ConfigMgr: [무선](https://technet.microsoft.com/library/dn261221.aspx) 및 [VPN](https://technet.microsoft.com/library/dn261217.aspx) 프로필을 사용하도록 설정
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

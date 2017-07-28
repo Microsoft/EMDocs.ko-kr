@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 7083b6b8-27a3-427b-b505-25d007d63cdd
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 770a72932d98c4b9d4b5ce9607bad07c7b6798cb
-
-
+ms.openlocfilehash: 65ecf2d73107237bc586b6827dea5c1466eb3ac0
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="mobile-device-management-design-considerations-guide"></a>모바일 장치 관리 디자인 고려 사항 가이드
 
 MDM(모바일 장치 관리) 솔루션에 대한 다양한 설계 및 구성 옵션을 고려할 때 조직의 요구에 가장 잘 맞는 솔루션을 결정하는 일은 어려울 수 있습니다. 이 설계 가이드는 MDM 설계 요구 사항을 이해하도록 도와주고, 조직의 비즈니스 및 기술 요구에 가장 잘 맞는 MDM 솔루션을 설계하기 위해 진행할 수 있는 일련의 단계와 작업을 자세히 설명합니다.
@@ -67,9 +66,3 @@ MDM(모바일 장치 관리) 솔루션에 대한 다양한 설계 및 구성 옵
 
 ## <a name="looking-for-a-downloadable-version"></a>다운로드 가능한 버전을 찾고 있나요?
 이 전체 가이드의 다운로드 가능 복사본을 가져오려면 [TechNet 갤러리](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582)를 방문하세요.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

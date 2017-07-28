@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
 ms.openlocfilehash: ecd83c311deca5050599a4eb55d45d0094d656f1
-ms.contentlocale: ko-kr
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="your-responsibilities"></a>사용자의 책임
 
 등록 시 고객이 이행해야 하는 의무는 다음과 같습니다.
@@ -115,4 +112,3 @@ ms.lasthandoff: 07/07/2017
 **더 자세한 내용을 원하세요?**
 
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-

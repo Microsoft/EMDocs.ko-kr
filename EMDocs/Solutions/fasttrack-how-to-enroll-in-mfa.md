@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 06e21ca9-ed6a-4f6e-a7e2-5445aaeb3552
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 66be84d00e73f98217abfb2537bb52ebac94727a
 ms.openlocfilehash: 7120b4ce41e0f9560bdecb3a98da0bd02171fabb
-ms.contentlocale: ko-kr
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="how-to-set-up-your-preferred-method-for-additional-security-verification"></a>추가 보안 확인의 기본 방법을 설정하는 방법
 
 
@@ -120,4 +117,3 @@ Azure Authenticator 앱은 Windows Phone, Android 및 iOS에 사용할 수 있�
 
 ### <a name="want-to-learn-more"></a>더 자세한 내용을 원하세요?
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.
-

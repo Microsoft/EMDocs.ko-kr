@@ -13,13 +13,11 @@ ms.assetid: 1df56825-c0d1-48ac-a294-5ebd1667bc38
 ms.reviewer: mhamerof
 ms.suite: ems
 ms.custom: advanced-threat-analytics,cloud-app-security,information-protection,microsoft-identity-manager,microsoft-intune,rights-management
-ms.translationtype: Human Translation
-ms.sourcegitcommit: ed952bd866758978ed4348c70da826eb519b4733
-ms.openlocfilehash: 78b0119b52ca1459fd644d093bf7f364b80e8ce1
-ms.contentlocale: ko-kr
-ms.lasthandoff: 12/08/2016
-
-
+ms.openlocfilehash: a0252f0ea933bdc6398de47ff5bf49d9a2ea69d4
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
 # <a name="start-using-enterprise-mobility--security"></a>EMS(Enterprise Mobility + Security) 사용 시작
 
@@ -91,4 +89,3 @@ EMS는 고급 회사 데이터 보호를 비즈니스의 리듬에 맞게 통합
 [EMS(Enterprise Mobility + Security)에 대해 알아보기](learn-about-ems.md)
 
 [EMS 무료 사용](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-security-trial)
-

@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 5380e56c-9c48-459e-aea5-95ad90dbb7d1
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 68a42159dfbf6b0d435b0543466d4cec26e55b67
-
-
+ms.openlocfilehash: b80bc794df43effc05656e7ec0b39cbf476b151e
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="identify-saas-requirements"></a>SaaS 요구 사항 식별
 
 >[!NOTE]
@@ -116,9 +115,3 @@ SaaS 관리 수명 주기 계획의 일부로, 클라우드 유형에 대해 다
 
 >[!TIP]
 >각 응답을 적어두고 답변의 의미를 이해해야 합니다. 이후의 작업에서는 사용 가능한 옵션과 각 옵션의 장단점을 살펴봅니다.  이러한 질문에 답변하면 비즈니스 요구에 가장 적합한 옵션을 선택하는 데 도움이 됩니다.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

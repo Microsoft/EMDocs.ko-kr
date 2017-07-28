@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 2e10af43-3138-45c0-b2f7-14a1d2bfb237
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 7f7a8c8fc0333461359440781adc8a6240e9f4bb
-ms.contentlocale: ko-kr
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents"></a>회사 메일 및 문서를 보호하는 솔루션을 배포하는 방법
 더 많은 회사에서 직원이 모바일 장치를 통해 메일, 문서, 회사 리소스에 액세스함으로써 생산성을 높이도록 만들고 있습니다. 하지만 회사 메일 및 문서 내에 저장되는 기밀 데이터의 양으로 인해 회사는 상당한 보안 위험에 직면하고 있습니다.
 
@@ -70,4 +67,3 @@ Microsoft EMS(Microsoft Enterprise Mobility + Security)는 회사 메일과 문�
 
 - [Microsoft Intune으로 조건부 액세스 사용](conditional-access-intune.md)
 - [Microsoft Intune 및 Configuration Manager와 함께 조건부 액세스 사용](conditional-access-intune-configmgr.md)
-

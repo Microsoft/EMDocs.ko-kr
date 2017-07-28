@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 423c1de5-db20-4327-8c3b-a39b830cb58b
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: ae5b9b0953988820d7c9517292c9a4a56382c6e7
-
-
+ms.openlocfilehash: 0739654b21c1957a7796293797708bb39b02f02f
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="byod-summary-and-additional-resources"></a>BYOD 요약 및 추가 리소스
 
 현재 환경에서 요구 사항 및 제약 조건을 식별하고 이 문서에 자세히 설명되어 있는 각 디자인 고려 사항을 평가한 후 고유한 요구에 가장 잘 맞는 BYOD 인프라 디자인을 만들 수 있습니다. 그런 다음 테스트 환경에서 BYOD 인프라 디자인을 구현하고 테스트한 다음 프로덕션에 배포할 수 있습니다.
@@ -34,9 +33,3 @@ BYOD 시나리오와 관련된 솔루션은 다음 리소스를 참조하세요.
 - [BYOD 이해: 구현 방식](https://channel9.msdn.com/Shows/TechNet+Radio/TechNet-Radio-Part-2-Understanding-BYOD-How-to-Make-it-Happen)
 - [BYOD 및 디자인 고려 사항](https://channel9.msdn.com/Shows/TechNet+Radio/TechNet-Radio-Part-3-BYOD-and-Design-Considerations)
 - [모바일 장치 관리 디자인 고려 사항 가이드](http://aka.ms/mdmdcg)
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-
