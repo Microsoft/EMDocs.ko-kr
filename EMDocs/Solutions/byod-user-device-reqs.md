@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: a6319952-e9cd-4308-b9b9-b2e6005e6506
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: e8052d7c45b1b0a579dab9c17112907ade027f8f
-ms.contentlocale: ko-kr
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 331f973fc5fb7d335eda0a2310ba5bd6b9540f87
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="user-and-device-requirements"></a>사용자 및 장치 요구 사항
 
 사용자가 자신의 장치에서 회사 리소스에 액세스할 수 있도록 하려면 먼저 사용자 환경의 이러한 리소스 소비자 및 IT 부서와 협력하여 다음 섹션의 질문에 대답합니다. 아래 그림에서는 최종 목표가 데이터에 액세스하여 사용하는 것인 사용자와 장치 간의 상호 작용을 보여 줍니다. 이 다이어그램에서 지리적 위치를 나타내지는 않습니다. 지리적 위치는 중요한 고려 사항(이 가이드의 뒷부분에서 설명)이지만 이 그림의 목적은 사용자 및 장치라는 핵심 구성 요소를 보여 주는 것입니다. 이러한 통신이 수행되려면 디자인을 고려해야 합니다.
@@ -69,4 +66,3 @@ ms.lasthandoff: 11/28/2016
 ### <a name="technical-support"></a>기술 지원 서비스
 - 네트워크/보안 팀이 정기적인 장치 준수 감사를 수용할 준비가 되었나요?
 - BYOD 구현을 지원하는 변경 관리 정책 및 절차가 마련되어 있나요?
-

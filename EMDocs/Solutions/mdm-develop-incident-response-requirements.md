@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 6f9fd9b3-492b-48e1-871c-e5abefe1293a
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: a9bb76fdff02b8ded31fe3e1811678138ffd5504
-ms.contentlocale: ko-kr
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: ff338a02c6b78c42d215b7ec72768a5e8b4013cd
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="develop-your-incident-response-requirements"></a>사고 대응 요구 사항 파악
 
 >[!NOTE]
@@ -47,4 +44,3 @@ MDM 솔루션을 설계할 때 다음과 같은 질문을 제기하여 사고가
 - 모바일 장치가 손상되었고 해당 장치가 회사 네트워크에 악성 앱을 확산하지 못하게 해야 할 경우 MDM 솔루션에서 손상된 장치를 빠르게 포함할 수 있는 정책을 적용하도록 허용하나요?
 - MDM 솔루션에서 사전 조치를 통해 문제를 해결하기 위해 잠재적인 공격에 대비할 수 있는 계획을 세울 수 있나요?
 - MDM 솔루션에서 관리 콘솔을 사용하여 파일이 언제 맬웨어에 감염되었는지를 식별할 수 있나요?
-

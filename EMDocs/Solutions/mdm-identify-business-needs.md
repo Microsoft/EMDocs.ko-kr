@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 85783069-14fb-4ead-a159-657d694eb1a7
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 35c9101de6df041b906660743654a8b137d4a542
-ms.contentlocale: ko-kr
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: e109d6025513fde7a9cf09afc6e6dbb31222c467
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="identify-your-business-needs"></a>비즈니스 요구 사항 식별
 
 >[!NOTE]
@@ -82,4 +79,3 @@ ms.lasthandoff: 11/28/2016
 
 >[!TIP]
 > 각 응답을 적어두고 답변의 의미를 이해해야 합니다. 다음 섹션에서는 사용 가능한 옵션과 각 옵션의 장단점을 살펴봅니다.  이러한 질문에 답변하면서 비즈니스 요구에 적합한 최상의 솔루션을 선택할 수 있게 됩니다.
-

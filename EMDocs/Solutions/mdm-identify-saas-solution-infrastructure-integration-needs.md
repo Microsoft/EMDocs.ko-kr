@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 26b15471-b496-4404-934d-67e621655bca
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: c21b0a8c413c4e7299e8026f55a3e43e7f825f82
-
-
+ms.openlocfilehash: 8732046974da72071690123def19d707865fc5d8
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="identify-saas-solution-infrastructure-integration-needs"></a>SaaS 솔루션 인프라 통합 요구 식별
 
 >[!NOTE]
@@ -77,9 +76,3 @@ SaaS 관리 수명 주기 계획의 일환으로, 기존 클라이언트 관리 
 
 >[!TIP]
 >각 응답을 적어두고 답변의 의미를 이해해야 합니다. 이후의 작업에서는 사용 가능한 옵션과 각 옵션의 장단점을 살펴봅니다.  이러한 질문에 답변하면 비즈니스 요구에 가장 적합한 옵션을 선택하는 데 도움이 됩니다.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

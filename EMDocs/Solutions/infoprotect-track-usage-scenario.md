@@ -11,16 +11,12 @@ ms.technology: techgroup-identity
 ms.assetid: c7e6e01a-5796-4bd7-a0c5-847ecfc08a1e
 ms.reviewer: v-craic
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: bc112d81a2b0e59f9ae67efe2a914b0c64ac76ba
 ms.openlocfilehash: 81e6b6479dcca1a82b37cfc4c832f36e33ac1b7b
-ms.contentlocale: ko-kr
-ms.lasthandoff: 07/07/2017
-
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="track-usage-of-shared-data-and-respond-to-data-abuse"></a>공유 데이터의 사용을 추적하고 데이터 남용에 대응
 
 공유 데이터에 대한 가시성 유지 및 제어는 데이터 사용 또는 남용을 추적하는 데 중요합니다. 오늘날에는 데이터 공유가 더욱 광범위하게 이루어지고 있으며, 조직은 비즈니스 요구를 해결하기 위해 도메인 외부에서 데이터를 공유해야 합니다.
@@ -74,4 +70,3 @@ Office 응용 프로그램(Word, Excel 및 PowerPoint)을 사용하여 보호된
 ![문서에 대한 액세스를 취소할 수 있는 액세스 취소 폼을 보여주는 그래픽입니다.](./media/infoprotect-track-usage-scenario/infoprotect-track-usage-scenario-fig5.png)
 
 이 문서에 대한 액세스가 취소되었음을 받는 사람에게 알리는 옵션을 사용할 수 있으며, 이 문서가 취소된 이유에 대한 설명을 곁들일 수 있습니다.
-

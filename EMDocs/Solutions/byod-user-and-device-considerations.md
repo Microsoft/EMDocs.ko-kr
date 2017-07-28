@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 717183b0b7f94277379ebbeee2136227d29f88ef
-ms.contentlocale: ko-kr
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 99b39ded38f8980103c57b0359ab5f3c3ee4ef53
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="user-and-device-considerations"></a>사용자 및 장치 고려 사항
 
 첫 번째로 해결해야 하는 사용자 및 장치 문제는 회사 리소스에 안전하게 액세스할 때 사용 중인 기술이 사용자 환경에 영향을 주는 방식입니다. 보안 관점뿐만 아니라 앱 개발 측면에서 다양한 장치의 사용자 환경 문제 해결은 매우 어려울 수 있습니다. 데이터가 전송되는 동안 데이터 누출을 방지하는 데 필요한 적절한 수준의 네트워크 보안을 제공하려면 장치와 회사 리소스 간의 통신 채널을 고려해야 합니다.
@@ -209,4 +206,3 @@ DRS를 사용하려면 관리 기능을 제공하지 않는다는 점을 알고 
 > Configuration Manager의 Wi-Fi 프로필에 대한 자세한 내용은 [Configuration Manager의 Wi-Fi 프로필 소개](https://technet.microsoft.com/library/dn261224.aspx)를 참조하세요.
 
 네트워크 위치는 사용자 및 장치 고려 사항에서 중요한 역할을 합니다. AD FS의 다단계 액세스 제어를 사용하여 응용 프로그램 단위 권한 부여 정책을 설정하면 사용자, 장치 및 네트워크 위치에 따라 액세스를 허용하거나 거부할 수 있습니다. 이 기능의 유효성을 확인하는 환경 설정 방법에 대한 자세한 내용은 [다단계 액세스 제어를 사용한 위험 관리](https://technet.microsoft.com/library/dn280936.aspx)를 참조하세요.
-

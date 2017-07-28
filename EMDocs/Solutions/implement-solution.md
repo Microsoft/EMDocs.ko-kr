@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: edc744d8-97d9-42e0-8906-6f0dedd8d629
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 4a7537775ce2c6c19850720f789ea5882d062aec
-ms.contentlocale: ko-kr
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="implementing-your-solution-for-protecting-email-and-attachments"></a>메일 및 첨부 파일 보호를 위한 솔루션 구현
 이 문서는 회사 메일 콘텐츠와 첨부 파일을 보호하기 위한 솔루션을 준비 및 구현하는 데 도움이 됩니다.
 
@@ -98,4 +95,3 @@ Exchange Online 전용 구현의 경우에는 현재 구현에 따라 앞에서 
 
 - [Microsoft Intune으로 조건부 액세스 사용](conditional-access-intune.md)
 - [Microsoft Intune 및 Configuration Manager와 함께 조건부 액세스 사용](conditional-access-intune-configmgr.md)
-

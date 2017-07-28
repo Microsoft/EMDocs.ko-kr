@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: ac136523-8089-409b-b74d-2d4c0ce399d4
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 2a03416cf8255a29c0394746b3d5285057163d15
-
-
+ms.openlocfilehash: b6020cf872fdd6f98fe24f10ecb028dd9bc0300f
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="gather-monitoring-requirements"></a>모니터링 요구 사항 수집
 
 >[!NOTE]
@@ -57,9 +56,3 @@ ms.openlocfilehash: 2a03416cf8255a29c0394746b3d5285057163d15
 
 >[!TIP]
 >각 응답을 적어두고 답변의 의미를 이해해야 합니다. 이후의 작업에서는 사용 가능한 옵션과 각 옵션의 장단점을 살펴봅니다.  이러한 질문에 답변하면 비즈니스 요구에 가장 적합한 옵션을 선택하는 데 도움이 됩니다.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

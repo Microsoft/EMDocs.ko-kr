@@ -12,15 +12,12 @@ ms.technology: techgroup-identity
 ms.assetid: 2f906e2e-3d99-40e6-b5cc-8d903fcda444
 ms.reviewer: v-craic
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: bf2418b68e40b60508447fc5400f4acfc5c6b1b3
-ms.openlocfilehash: 17f2a0b6991d05af2a6f000af48e9fc085221a4d
-ms.contentlocale: ko-kr
-ms.lasthandoff: 02/14/2017
-
-
+ms.openlocfilehash: 267a69648014d53307d255533f64ee579f4141fa
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="the-role-of-azure-information-protection-in-securing-data"></a>데이터 보안 유지에서 Azure Information Protection의 역할
 
 [AIP(Azure Information Protection)](/information-protection/understand-explore/what-is-information-protection)는 고객에게 데이터를 분류하고 데이터의 레이블을 지정하고 암호화를 사용하여 데이터를 보호하는 기능을 제공합니다. Azure Information Protection을 통해 IT 관리자는 다음과 같이 할 수 있습니다.
@@ -124,4 +121,3 @@ Azure Information Protection은 응용 프로그램이 문서와 연결된 권�
 - [분류, 레이블 지정 및 보호를 사용하여 데이터 보안 유지](infoprotect-secure-classify-scenario.md)
 - [내부 및 외부에서 중요한 데이터 공유](share-sensitive-data.md)
 - [공유 데이터의 사용을 추적하고 데이터 남용에 대응](infoprotect-track-usage-scenario.md)
-

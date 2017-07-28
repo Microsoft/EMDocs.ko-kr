@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 32ef7e4e-41b6-4e40-b9d9-6d2bfb464a99
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 85a05de72b2ba0dd52c9ebe1da274a5783fba34f
-
-
+ms.openlocfilehash: 9501b4f9a2a584e6a54571019a2a3726523cfc5f
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="step-1---identify-your-mobile-device-management-requirements"></a>1단계 - 모바일 장치 관리 요구 사항 파악
 
 >[!NOTE]
@@ -34,9 +33,3 @@ ms.openlocfilehash: 85a05de72b2ba0dd52c9ebe1da274a5783fba34f
 - [비즈니스 요구 사항 식별](mdm-identify-business-needs.md)
 - [위치 요구 사항 지정](mdm-specify-mdm-location-requirements.md)
 - [채택 전략 개발](mdm-develop-mdm-adoption-strategy.md)
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

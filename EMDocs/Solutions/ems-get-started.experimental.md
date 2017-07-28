@@ -13,15 +13,12 @@ ms.assetid: 9938ab0e-19b8-49a2-91b5-61d69eb3dc01
 ms.reviewer: mhamerof
 ms.suite: ems
 ms.custom: advanced-threat-analytics,cloud-app-security,information-protection,microsoft-identity-manager,microsoft-intune,rights-management
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
 ms.openlocfilehash: 7f82e8b0644765fc8cc14024cd65ef99733f1ecb
-ms.contentlocale: ko-kr
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="start-using-enterprise-mobility--security"></a>EMS(Enterprise Mobility + Security) 사용 시작
 
 디지털 전환을 모색하는 조직은 새로운 위협과 도전으로부터 스스로를 보호해야 하는 한편, IT는 계속해서 효율을 추구하고 적은 노력으로 더 많은 성과를 달성해야 한다는 요구를 받고 있습니다. 또한 클라우드 우선 모바일 중심의 세계에서 사용자는 어느 위치에서 어떤 장치로든 생산성을 높일 수 있어야 합니다. EMS로 다음에 도움이 되는 전체적인 솔루션을 얻을 수 있습니다.
@@ -145,4 +142,3 @@ Azure Information Protection 레이블을 사용하여 문서와 전자 메일�
 [EMS(Enterprise Mobility + Security)에 대해 알아보기](learn-about-ems.md)
 
 [EMS 무료 사용](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-security-trial)
-

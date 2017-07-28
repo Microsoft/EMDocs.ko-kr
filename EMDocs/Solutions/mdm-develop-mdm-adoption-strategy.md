@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 10172816-b52d-4a55-8803-6a6805126fab
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 925d3c462ff0010f3aea03dd35a5ba6f78bf9894
-
-
+ms.openlocfilehash: 9cd4d977bc09b710af636d791b60dae1a9e86a73
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="develop-your-mobile-device-management-adoption-strategy"></a>모바일 장치 관리 채택 전략 개발
 
 >[!NOTE]
@@ -168,9 +167,3 @@ ms.openlocfilehash: 925d3c462ff0010f3aea03dd35a5ba6f78bf9894
 
 >[!TIP]
 > 지오펜싱을 사용하여 모바일 장치의 지리적 위치를 모니터링하고 해당 위치에 따라 장치 및 네트워크 리소스를 사용/사용하지 않도록 설정할 수 있습니다. 예를 들어 Windows 8.1은 앱에서 지리적 위치 영역을 정의하고 앱이 실행되고 있는 장치가 해당 영역으로 들어오거나 해당 영역을 빠져 나갈 때 시스템 경고를 표시하도록 할 수 있습니다. Windows 8.1의 이 기능에 대한 자세한 내용을 보려면 [지오펜싱 전체 프로세스(XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/dn342943.aspx)를 읽어보세요.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

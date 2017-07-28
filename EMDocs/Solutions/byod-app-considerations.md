@@ -13,16 +13,12 @@ ms.technology:
 ms.assetid: 4b871c74-fec8-45e2-8b45-6ef0e62f7cc6
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 2e00204f4be8183fdb8502e13b1ef06d1b7df084
-ms.contentlocale: ko-kr
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 1963fd2b0cba97cbcc5396574cdb4e90a2b36884
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
-
 # <a name="app-considerations"></a>앱 고려 사항
 
 BYOD에 대한 앱 고려 사항은 회사 목표, 제약 조건 및 리소스에 따라 달라질 수 있습니다. 회사는 현재 앱, 앱을 개발하는 데 사용된 기술, ,모든 장치에서 앱을 실행하는 데 필요한 요구 사항 및 사용자가 모든 위치에서 액세스할 수 있도록 하는 데 반드시 필요한 앱을 평가해야 합니다. 최신 앱은 Windows 기반 앱으로 제공되고 배포할 때만큼 리소스를 많이 사용하지 않지만 비용은 앱 개발 및 관리와 여전히 관련이 있습니다.
@@ -238,4 +234,3 @@ BYOD 인프라 디자인에 사용할 앱 배포 및 환경에 대한 결정은 
 자신의 장치를 사용하고 있는 사용자가 사용하게 될 모든 앱에 보안 개발 수명 주기를 사용해야 합니다. 보안은 개발 프로세스의 모든 단계에 포함되어야 하며 잠재적인 모든 위협을 고려해야 합니다. [STRIDE](https://msdn.microsoft.com/magazine/cc163519.aspx) 및 기타 보안 전략은 [Microsoft SDL(보안 개발 수명 주기)](https://www.microsoft.com/security/sdl/process/requirements.aspx)을 사용하여 개발 수명 주기로 통합할 수 있습니다. 현재 인프라를 BYOD의 전체적인 보안 전략과 통합하는 방식은 중요한 고려 사항입니다. 현재 환경에서 앱에 안전한 기반을 제공할 수 있습니까? 이 새로운 도입으로 발생할 잠재적인 취약성을 완화하기 위해 회사에서 타사 보안 솔루션을 구입해야 합니까?
 
 보안 고려 사항은 자신의 장치를 사용하는 사용자가 사용하게 될 앱에 중요합니다. Active Directory 보안 그룹에 따라 사용자 지정 컬렉션을 사용하여 특정 액세스 요구 사항이 있는 몇 가지 앱의 대상 사용자를 제한함으로써 해당 앱을 설치할 수 있는 사용자를 제한하는 것이 좋습니다. 또한 보안을 사용하면 사용자가 동일한 사용자 이름 및 암호를 사용하여 회사 리소스에 액세스할 수 있도록 하여 사용자 환경을 향상시킬 수 있으며, 이는 AD FS를 사용하여 수행할 수 있습니다. 보안은 이러한 앱의 배포를 디자인할 때도 중요합니다. 사용자 등록을 설정하기 전에 인증서 및 테스트용 로드 키를 얻어 배포해야 합니다. 다른 팀과 협력하여 앱 인증 프로세스를 원활하게 진행합니다.
-

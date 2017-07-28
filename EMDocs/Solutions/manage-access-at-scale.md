@@ -14,13 +14,12 @@ ms.assetid: 0292919a-af10-4a25-8916-c704aed643f6
 ROBOTS: 
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: fdb0852611551daaa2aad7d3839a3431abd8b445
 ms.openlocfilehash: fa2795fb578c0d278d55cbff9f44c19ca2e13309
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="manage-access-at-scale"></a>대규모 액세스 관리
 Microsoft는 지금까지 많은 조직을 지원해 왔습니다. Microsoft는 어디서든 사용할 수 있는 ID뿐만 아니라 조직 내에서 IT를 자동화하고, 보호하고, 관리하는 다양한 도구도 제공합니다. 클라우드 컴퓨팅이 등장한 이후에도 사용자 암호 다시 설정에 관한 지원 센터 문의를 비롯하여 사용자 그룹 관리, 앱 요청 등의 다양한 IT 작업을 관리하고 제어해 달라는 요구는 여전합니다.
 
@@ -125,9 +124,3 @@ Azure AD Connect Health는 [Azure Portal](https://ms.portal.azure.com)에서 사
 AD Connect Health 성능 모니터링은 모니터링되는 DC의 성능을 서로 비교하고 여러 다른 메트릭을 비교하는 간편한 방법을 제공합니다.
 
 ![선택한 도메인 컨트롤러의 성능 모니터링을 보여 주는 스크린샷](./media/manage-access-at-scale/manage-access-at-scale-fig8.png)
-
-
-
-<!--HONumber=Dec16_HO2-->
-
-

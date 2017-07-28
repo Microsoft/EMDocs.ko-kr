@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: f3486381-66d5-469a-93a3-013eaaa17c07
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 94c02152e553bdeba1bd1568c409d816ac078e9a
-ms.contentlocale: ko-kr
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: fd0d97871dfca2f1b1b94d32d4961e12c51e8126
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="data-classification"></a>데이터 분류
 
 >[!NOTE]
@@ -81,4 +78,3 @@ IT에서는 Intune를 사용하여 조건부 액세스를 통해 규정에 부�
 **단점**
 
 - 클라우드 기반 솔루션을 채택하지 않는 고객은 사용할 수 없음
-

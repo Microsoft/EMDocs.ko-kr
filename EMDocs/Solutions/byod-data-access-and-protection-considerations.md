@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: cbf0f54d2d288baf66f914ef8366a70448218607
-ms.contentlocale: ko-kr
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 9eb47bcc9b64495759727b7211161b0945bda8b2
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="data-access-and-protection-considerations"></a>데이터 액세스 및 보호 고려 사항
 
 중요한 데이터의 손실은 회사의 업무상 매우 위험하며, BYOD의 등장으로 정보는 이전보다 더 많은 장소에 상주하게 되었습니다. 따라서 위협 환경이 더 커지고 적절히 완화되어야 하는 위험은 더 많아졌습니다. 중요한 데이터 보호를 규제하는 광범위한 법률, 회사 및 산업 규정으로 인해 데이터 보호는 복잡한 프로세스가 될 수 있습니다. 따라서 이러한 법적 요구 사항, 회사 내부 정책 및 산업 규정을 고려하는 것이 중요합니다.
@@ -250,4 +247,3 @@ Multi-Factor Authentication을 적용하려는 경우 회사는 AD FS의 기본
 동적 액세스 제어 기능을 사용하면 파일의 자동 및 수동 분류를 사용하여 데이터를 식별할 수 있습니다. 예를 들어 조직 전체에서 파일 서버의 데이터에 태그를 지정할 수 있습니다. 또한 중앙 액세스 정책을 사용하는 safety-net 정책을 적용하여 파일에 대한 액세스를 제어할 수 있습니다. 동적 액세스 제어는 중요한 문서에 자동 RMS 암호화를 사용하는 방식으로도 RMS(권한 관리 서비스) 보호를 활용합니다. 예를 들어 HIPAA(Health Insurance Portability and Accountability Act) 정보를 포함하는 모든 문서를 암호화하도록 RMS를 구성할 수 있습니다. 법정 조사 및 감사를 위해 규정 준수 보고 및 법정 분석에 중앙 감사 정책을 활용할 수 있습니다. 매우 중요한 정보에 액세스한 사람을 식별할 수 있습니다.
 
 파일 서버 역할의 기능인 동적 액세스 제어를 통해 IT 부서는 위의 표에 표시된 기능을 사용할 수 있습니다. 동적 액세스 제어에 대한 자세한 내용은 [동적 액세스 제어: 시나리오 개요](https://technet.microsoft.com/library/hh831717.aspx)를 참조하세요.
-

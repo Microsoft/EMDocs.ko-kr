@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 991cd722-089c-4e8c-80b9-b82e405cc891
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 3df9be3ef643303f4205aa1b6daf18fdf53762d8
-
-
+ms.openlocfilehash: 93cb2c9af3aecdb409ab2ec1a8cb7f8d1d7bf8ab
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="device-provisioning-options"></a>장치 프로비전 옵션
 
 >[!NOTE]
@@ -81,9 +80,3 @@ ms.openlocfilehash: 3df9be3ef643303f4205aa1b6daf18fdf53762d8
 - Intune을 온-프레미스 ConfigMgr 인프라와 연결하기 위한 추가적인 구성이 필요합니다.
 
 Intune에서 [모바일 장치 등록을 사용하도록 설정](/Intune/deploy-use/enroll-devices-in-microsoft-intune)하는 방법을 검토하고 모바일 장치 등록 및 프로비저닝 옵션을 자세히 알아보고, 이러한 요구 사항 및 절차를 비교하여 ConfigMgr 및 MDM for Office 365 [모바일 장치 등록을 사용하도록 설정](https://technet.microsoft.com/library/jj884158.aspx)해야 합니다.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

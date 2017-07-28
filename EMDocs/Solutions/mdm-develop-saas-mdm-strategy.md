@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: b3cefcc5-b045-48f9-91f5-6d282a4428f3
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 735874e0f5c30628fbc4bdcdce18e6db3a2ec735
-
-
+ms.openlocfilehash: 9e23ce7f0b20e05c2216addcbbe4e719e64bc7f6
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="develop-saas-mobile-device-management-strategy"></a>SaaS 모바일 장치 관리 전략 개발
 
 >[!NOTE]
@@ -75,9 +74,3 @@ ms.openlocfilehash: 735874e0f5c30628fbc4bdcdce18e6db3a2ec735
 선택적 초기화 후에 제거되는 데이터 및 장치에 남아 있는 데이터에 미치는 영향을 이해하려면 **[Microsoft Intune을 사용하여 원격 초기화, 원격 잠금 또는 암호 재설정으로 데이터 보호 지원](https://technet.microsoft.com/library/jj676679.aspx)** 문서를 읽어보세요. 하이브리드 환경인 경우 ConfigMgr가 이 작업을 수행하는 데 어떻게 도움이 되는지 확인하려면 [Configuration Manager를 사용하여 모바일 장치를 원격으로 초기화하는 방법](https://technet.microsoft.com/library/dn956981.aspx) 문서를 읽어보세요.
 
 SaaS 솔루션 기능 및 요구 사항에 대한 자세한 내용을 보려면 **[Microsoft Intune 서비스 설명](https://technet.microsoft.com/library/dn600286.aspx)**을 검토하여 [MDM for Office 365](https://technet.microsoft.com/library/faa7d8e5-645d-4d59-839c-c8d4c1869e4a(v=technet.10).aspx) 및 [하이브리드](https://technet.microsoft.com/library/jj884158.aspx) Intune 및 ConfigMgr 인프라에서의 SaaS 지원 차이를 이해하세요.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

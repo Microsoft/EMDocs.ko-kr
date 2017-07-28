@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 639dfd46-33ea-4cfd-918d-f3d8e57645ed
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 3dbf7072bbc3baf6a97072f1cbbd15bd236349d3
-ms.contentlocale: ko-kr
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 90adc7c2cdbb566467fc1e5daf91d970ed618f39
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="design-considerations"></a>디자인 고려 사항
 
 이 문서의 BYOD 인프라 솔루션 구상에 자세히 설명되어 있는 요구 사항을 이해하면 BYOD 인프라 디자인의 요구 사항을 구현하는 데 적절한 제품 및 기술을 선택할 수 있습니다. 다음 표에는 BYOD 인프라 솔루션을 구현하는 데 사용할 수 있는 Microsoft 제품, 기술 및 서비스가 나열되어 있습니다.
@@ -80,4 +77,3 @@ ms.lasthandoff: 11/28/2016
 문서의 나머지 부분에서는 디자인 고려 사항과 위의 표에 나열된 제품, 기술 및 서비스에 대해 설명합니다. 여러 가지 Microsoft 제품, 기술 및 서비스를 사용하여 다양한 디자인 고려 사항을 해결할 수 있는 경우 장단점에 대해서도 설명합니다.
 
 BYOD를 지원하는 인프라 디자인은 이전에 이 문서에서 제공된 질문과 대답 및 사용할 수 있는 기술 기능과 옵션을 종합합니다. 이 문서에서 설명하는 디자인에서는 Microsoft 기반 기술을 사용합니다. 그러나 디자인 옵션 및 고려 사항은 BYOD 모델을 포함하는 데 사용되는 모든 인프라에 적용할 수 있습니다.
-

@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: bf0d4210-5edc-4ad7-bcb5-372099049630
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 9347d0ff642a3ea4a337962b5ec10a0c4c6cdc66
-ms.contentlocale: ko-kr
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 18540a0fa2fd1852e416adc9f0ced0f1c8d13893
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="management-requirements"></a>관리 요구 사항
 
 장치 관리는 사용자 중심 전략의 기본 요수 중 하나이며 회사의 요구 사항에 따라 평가되어야 합니다. 회사의 성장 수준에 따라 관리 시스템이 이미 있을 수 있으며, 회사에서 채택한 BYOD 시나리오를 적용하려면 이러한 시스템을 확장해야 합니다. 아래 그림에서는 사용자, 장치 및 데이터를 관리할 때의 관리 상호 작용을 보여 줍니다. 관리 하위 영역의 각 구성 요소를 고려해야 합니다.
@@ -99,4 +96,3 @@ ms.lasthandoff: 11/28/2016
 - 개인 장치는 IT 부서에 의해 회사에 등록됩니까? 아니면 개인적으로 등록됩니까?
 - 사용자가 자신의 장치를 사용하여 서비스를 프로비저닝할 수 있도록 할 계획이 있습니까?
     - 그렇다면 관리 시스템은 기본적으로 사용자가 자신의 장치에서 이 작업을 수행할 수 있도록 합니까?
-

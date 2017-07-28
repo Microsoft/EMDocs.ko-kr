@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 162e59f3-33a2-44b5-a59f-24612dc743f3
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
 ms.openlocfilehash: 1bf552e92104a7872099e555df12993dd4258293
-ms.contentlocale: ko-kr
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="how-to-manage-your-own-password"></a>자신의 암호를 관리하는 방법
 
 Office 365 또는 Microsoft 계정을 사용하여 회사 리소스에 액세스하는 조직의 사용자(관리자 아님)인 경우 암호와 관련된 일반적인 문제를 해결하는 방법을 알아보려면 아래 섹션을 읽어보세요.
@@ -79,4 +76,3 @@ Office 365 또는 Microsoft 계정을 사용하여 회사 리소스에 액세스
 
 ### <a name="want-to-learn-more"></a>더 자세한 내용을 원하세요?
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.
-

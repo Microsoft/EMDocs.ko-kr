@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 77e7cab9-2fae-4857-be5d-2b6f57e981be
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 417ff912c3e7ff50e0f8371dccbc3ad99c5832d2
-
-
+ms.openlocfilehash: 67f2fb5648d64a53517ae6eaa3d4661570dd39a9
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="determine-network-requirements"></a>네트워크 요구 사항 확인
 
 >[!NOTE]
@@ -109,9 +108,3 @@ ms.openlocfilehash: 417ff912c3e7ff50e0f8371dccbc3ad99c5832d2
 
 >[!TIP]
 >각 응답을 적어두고 답변의 의미를 이해해야 합니다. 이후의 작업에서는 사용 가능한 옵션과 각 옵션의 장단점을 살펴봅니다.  이러한 질문에 답변하면 비즈니스 요구에 가장 적합한 옵션을 선택하는 데 도움이 됩니다.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

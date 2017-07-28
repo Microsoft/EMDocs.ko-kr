@@ -13,15 +13,12 @@ ms.assetid: c9aeabcf-db9b-4a35-b1bc-61331c464165
 ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: microsoft-identity-manager
-ms.translationtype: Human Translation
-ms.sourcegitcommit: bc112d81a2b0e59f9ae67efe2a914b0c64ac76ba
 ms.openlocfilehash: 851a99829280b85d632e79400d53c357692b74ef
-ms.contentlocale: ko-kr
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="protect-at-the-front-door"></a>첫 번째 관문에서 보호
 
 과거에는 전형적인 보안 솔루션으로 회사를 충분히 보호할 수 있었습니다. 그렇지만 모바일 산업이 증가하면서 공격 가능 범위가 커지고, 클라우드로 전환하면서 다른 사용자, 장치, 앱 및 데이터와의 직원 상호 작용이 훨씬 더 복잡해졌습니다. 이제 회사를 진정으로 보호하기 위해서는 온-프레미스 및 클라우드에서 발생하는 모든 종류의 위협으로부터 보호하고, 이러한 위협을 감지하고 대처할 수 있는 전체적이고 혁신적인 보안 접근 방법을 적용해야 합니다.
@@ -129,4 +126,3 @@ Azure AD Privileged Identity Management를 설치 및 구성했으므로 초기 
 ![권한 있는 역할](./media/protect-front-door/protect-front-door-fig10.png)
 
 이 대시보드에서는 [보안 경고](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-configure-security-alerts/) 및 [액세스 검토](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-start-security-review/)와 같은 현재 활동을 볼 수 있습니다. 또한 이 대시보드에서 Azure AD Privileged Identity Management에 대한 하나 이상의 사용자 액세스 권한을 [추가](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-give-access-to-pim/) 또는 [제거](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-give-access-to-pim/#remove-another-users-access-rights-for-managing-pim)할 수 있습니다.
-

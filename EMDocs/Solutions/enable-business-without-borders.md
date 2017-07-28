@@ -14,13 +14,12 @@ ms.assetid: 38e9802b-d8c0-4f5c-b89d-8ce1e04f7387
 ROBOTS: 
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: fdb0852611551daaa2aad7d3839a3431abd8b445
 ms.openlocfilehash: 8f79e391813c7a15e522f07ff27a2f6abd8536cc
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="enable-business-without-borders"></a>경계 없는 비즈니스 지원
 ID는 있으면 좋은 것이 아니라 효율적인 작업의 핵심입니다. 조직에서는 모든 장치 및 모든 위치에서 조직의 모든 데이터 및 응용 프로그램에 액세스할 수 있는 직원의 역량을 강화해야 합니다. 사용자는 서로 협력하고 파트너와 공동 작업을 수행해야 하며 고객과 연결해야 합니다. 이들이 사용하는 도구는 더 이상 보호되고 제어되는 환경에 있는 것이 아니라 공용 클라우드에서 찾을 수 있습니다.
 
@@ -60,9 +59,3 @@ Azure AD B2B 공동 작업은 협력할 파트너의 메일 주소와 사용할 
 다음 단계에서는 앞에서 설명한 각 Azure AD B2B 공동 작업을 구현하는 방법을 설명합니다. 각 링크는 조직에서 구현할 여러 지침/단계 집합이 포함된 다양한 문서 집합을 나타냅니다.
 - [Azure AD B2B 공동 작업을 사용하는 방법](https://azure.microsoft.com/documentation/articles/active-directory-b2b-detailed-walkthrough/)에 대해 알아봅니다.
 - [CSV 파일을 사용하여 파트너 사용자 정보를 지정하는 방법](https://azure.microsoft.com/en-us/documentation/articles/active-directory-b2b-references-csv-file-format/)에 대해 알아봅니다.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
-

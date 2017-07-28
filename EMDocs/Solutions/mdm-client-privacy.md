@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: c799a6c4-fe0a-4148-8e75-29e6ffdb7e6e
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 916404d1aaad5b4db01dff84c544e3364b7ec6ee
-ms.contentlocale: ko-kr
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: a6bec4e31a346d5b489d9a4fe40ee1b16d1742f9
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 #<a name="client-privacy"></a>클라이언트 개인 정보
 
 >[!NOTE]
@@ -74,4 +71,3 @@ Intune 및 Office 365는 클라우드 기반 서비스이므로 사용자가 Mic
 **단점**
 
 - 조직에 최신 온-프레미스 ConfigMgr 인프라가 없는 경우 통합 전에 이 플랫폼의 계획, 설치 및 구성 필요
-

@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: ba8cc256-2075-457f-a827-7ec9213c5235
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: da1652d5bb9a7b7176c74482bfc814aaf8902c3f
-ms.contentlocale: ko-kr
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 3c933645b8cb7018f486925a16ee8d78cd1f0b7a
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="management-considerations"></a>관리 고려 사항
 
 관리 도메인은 BYOD 모델을 지원하는 인프라에서 반드시 필요합니다. BYOD 요구를 완벽하게 지원하려면 관리 도메인을 통해 IT 부서에서 리소스를 모니터링하고, 보고 기능을 제공하며, 계산 및 저장소 리소스를 관리하고, 장치 구성 및 자동화를 설정하며, 앱 개발 및 프로비저닝을 관리할 수 있어야 합니다.
@@ -196,4 +193,3 @@ Windows 기반 장치가 아닌 다른 플랫폼을 관리하려면 Microsoft In
 | 회사 외부에 있는 장치에 앱을 배포하고 프로비저닝합니다.   | Microsoft Intune                                       |
 | 비Windows 장치에 앱을 배포하고 프로비저닝합니다.                   | Microsoft Intune                                       |
 | 앱을 온-프레미스에 위치한 장치에 배포하고 프로비전하며, 회사 외부에 있는 장치에 앱을 배포하고 프로비전하거나 Windows 이외의 장치에 앱을 배포하고 프로비전합니다.       | Configuration Manager와 통합된 Microsoft Intune
-

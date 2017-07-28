@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: c3d350b5-4437-4f3d-907f-57ce6a819a74
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 2f0d445b35c6a7aea29684a0488decd92784c2ab
-
-
+ms.openlocfilehash: c08087f411440fbc57b1220131dc1c6fc2cdd90c
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="certificate-management-options"></a>인증서 관리 옵션
 
 >[!NOTE]
@@ -83,9 +82,3 @@ SCEP는 기본적으로 iOS, Windows 10 및 8.1, Windows Phone 10 및 8.1에서 
  - NDES를 실행하는 서버에 설치된 Intune NDES 커넥터
 
 모바일 장치 인증서 관리 옵션에 대한 자세한 내용을 보려면 [인증서 프로필을 사용하도록 설정](/Intune/deploy-use/secure-resource-access-with-certificate-profiles)하는 방법을 읽고 이러한 요구 사항 및 절차를 System Center 2012 R2 Configuration Manager의 [인증서 프로필을 사용하도록 설정](https://technet.microsoft.com/library/dn261202.aspx)과 비교합니다.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

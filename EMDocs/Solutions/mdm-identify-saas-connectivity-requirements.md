@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 6afbce4c-7500-4387-a19c-dff52c152097
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 3cea66edad4cb791342cb193495629fa4ce27d0d
-
-
+ms.openlocfilehash: 9cc654fadde9494e364d3bc1513bc5bf3c78f6a2
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="identify-saas-connectivity-requirements"></a>SaaS 연결 요구 사항 식별
 
 >[!NOTE]
@@ -72,9 +71,3 @@ ms.openlocfilehash: 3cea66edad4cb791342cb193495629fa4ce27d0d
 
 - 현재 ConfigMgr 인프라가 구성되지 않은 조직의 경우 Intune과 통합하기 전에 계획, 설치 및 구성이 필요합니다.
 - ConfigMgr를 사용하는 조직의 경우 추가 온-프레미스 배포 요구 사항 및 구성 변경이 필요함
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

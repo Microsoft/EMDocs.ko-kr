@@ -12,13 +12,11 @@ ms.technology:
 ms.assetid: d78e2b94-8ad3-4703-b7f0-db070288a20b
 ms.reviewer: vlpetros
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d4362764cad9264c513ca745c45b96590b18928f
-ms.openlocfilehash: 98efafde6981fa8cb0c49c4b22729c64c8386754
-ms.contentlocale: ko-kr
-ms.lasthandoff: 03/24/2017
-
-
+ms.openlocfilehash: 66586ce378ab3faff29286bd032ac4099647494b
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
 # <a name="enable-a-limited-use-shared-device-solution-with-intune"></a>Intune으로 사용 제한된 공유 장치 솔루션 사용 설정
 때로는 직원이 특정 설정 및 앱만 필요한 기본 작업을 완료하기 위해 앱 및 회사 데이터에 액세스하는 데 장치를 공유해야 합니다. 이러한 경우는 흔히 소매점, 제조 작업장 및 운송 산업에서 볼 수 있습니다. 또한 어떤 경우에는 직원이 아니라 고객이 컨퍼런스, 호텔 로비, 학교 또는 도서관과 같은 장소에서 공개적으로 액세스할 수 있는 장치를 사용하여 리소스에 대화형으로 액세스해야 하기도 합니다. 자체 실행 프레젠테이션만 표시하거나 오가는 사람에게 정적 정보만 제공해야 하는 경우도 할 수 있습니다.
@@ -132,4 +130,3 @@ Windows 장치에 대한 정책을 만들려면 Intune 관리 콘솔의 정책 �
 [EMS(Enterprise Mobility + Security) 사용 시작](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
 [Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-

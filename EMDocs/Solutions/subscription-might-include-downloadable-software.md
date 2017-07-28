@@ -11,14 +11,12 @@ ms.prod:
 ms.service: ems
 ms.technology: 
 ms.assetid: 9d031fa7-9c07-48c5-b915-6525aea54870
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: 25da2d6e50a6e3623a7b34d29d29751e10068d4e
-ms.contentlocale: ko-kr
-ms.lasthandoff: 07/07/2017
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="your-paid-microsoft-intune-or-enterprise-mobility-subscription-might-include-a-license-to-use-certain-downloadable-software"></a>유료 Microsoft Intune 또는 Enterprise Mobility 구독에는 특정 소프트웨어를 다운로드할 수 있는 라이선스가 포함되어 있을 수 있음
 
 유료 Microsoft Intune 또는 Enterprise Mobility 구독에는 특정 소프트웨어를 다운로드할 수 있는 라이선스가 포함되어 있을 수 있습니다. 계약 약관을 검토하여 사용이 허가된 소프트웨어를 확인할 수 있습니다.
@@ -39,4 +37,3 @@ ms.lasthandoff: 07/07/2017
 어떤 소프트웨어를 사용해도 되는지 잘 모르겠으면 계정 관리자 또는 파트너에 문의하거나 [Microsoft Online Services 지원](https://technet.microsoft.com/en-us/dn932057.aspx)에 연락하세요.
 
 그 밖에 평가판에 등록한 경우에는 [TechNet Evaluation Center](https://www.microsoft.com/evalcenter/try)에서 이러한 평가판 버전을 얻을 수 있습니다.
-

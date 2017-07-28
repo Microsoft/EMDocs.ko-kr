@@ -12,15 +12,12 @@ ms.technology: techgroup-identity
 ms.assetid: a996fbf8-ece4-40bc-b866-d4606c230027
 ms.reviewer: v-craic
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: 3d84bbe6d252976e1a3152f65003787e37d408c8
-ms.contentlocale: ko-kr
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="share-sensitive-data-internally-and-externally"></a>내부 및 외부에서 중요한 데이터 공유
 
 많은 데이터 위반이 사이버 공격으로 인해 발생하지만 전문가들은 그보다 훨씬 많은 데이터 위반이 사람의 실수, 즉 직원이 중요한 비즈니스 데이터를 실수로 유출한 결과에서 비롯된다는 점에 동의합니다. 올바른 보안 정보 및 데이터 손실 방지 프로토콜을 갖추고 있다면 이러한 종류의 위반을 거의 모두 방지할 수 있습니다.
@@ -96,4 +93,3 @@ Office 문서를 공유하려면(예: Word에서 직접) 다음 이미지에 표
 
 > [!IMPORTANT]
 > 이 시나리오에 대한 자세한 내용은 Microsoft Ignite에서 [Azure Information Protection을 사용하여 안전하게 공동 작업](https://myignite.microsoft.com/videos/49947) 프레젠테이션을 참조하세요.
-
