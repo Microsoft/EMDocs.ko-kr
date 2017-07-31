@@ -1,5 +1,1 @@
-<Token xmlns:xlink="http://www.w3.org/1999/xlink">MDM for Office 365</Token>
-
-<!--HONumber=Jul16_HO3-->
-
-
+<Token xmlns:xlink="http://www.w3.org/1999/xlink">Office 365용 MDM</Token>

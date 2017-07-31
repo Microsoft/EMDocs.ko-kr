@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 74288276-84d3-4d24-8307-7875491be9c9
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: d0bc5fb61b481256d816df7c898ade798379aa19
-ms.contentlocale: ko-kr
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="use-mobile-app-management-policies-in-configuration-manager"></a>Configuration Manager에서 모바일 앱 관리 정책 사용
 System Center 2012 Configuration Manager SP2부터 응용 프로그램 관리 정책을 사용하면 배포하는 앱의 기능을 회사의 규정 준수 및 보안 정책에 맞게 수정할 수 있습니다. 예를 들어 제한된 앱 내에서의 잘라내기/복사/붙여넣기 작업을 제한하거나 모든 웹 링크를 관리되는 브라우저 안에서 열도록 앱을 구성할 수 있습니다. 앱 관리 정책은 다음 장치를 지원합니다.
 
@@ -39,7 +36,7 @@ System Center 2012 Configuration Manager SP2부터 응용 프로그램 관리 �
 앱에 제한을 적용하려면 Microsoft Intune 앱 SDK(소프트웨어 개발 키트)를 통합해야 합니다. 이러한 유형의 앱은 두 가지 방법으로 얻을 수 있습니다.
 
 - **정책 관리 앱 사용**(Android 및 iOS): 앱 SDK가 기본으로 제공됩니다. 이 유형의 앱을 추가하려면 iTunes 스토어, Google Play 등의 앱 스토어에 있는 앱의 링크를 지정합니다. 이러한 앱 유형은 추가로 처리할 필요가 없습니다. iOS 및 Android 장치에 대해 사용 가능한 정책 관리 앱의 목록은 [Microsoft Intune 모바일 응용 프로그램 갤러리](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners)를 참조하세요.
-- **'래핑된' 앱 사용**(Android 및 iOS): Microsoft Intune 앱 래핑 도구를 사용하여 앱 SDK를 포함하도록 다시 패키지된 앱입니다. 이 도구는 일반적으로 사내에서 작성된 회사 앱을 처리하는 데 사용되며, 앱 스토어에서 다운로드한 앱을 처리하는 데 사용할 수는 없습니다. [Microsoft Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리용 iOS 앱 준비](https://docs.microsoft.com/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool) 및 [Microsoft Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리용 Android 앱 준비](https://docs.microsoft.com/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool) 항목을 참조하세요.
+- **‘래핑된’ 앱 사용**(Android 및 iOS): Microsoft Intune 앱 줄 바꿈 도구를 사용하여 앱 SDK를 포함하도록 다시 패키지된 앱입니다. 이 도구는 일반적으로 사내에서 작성된 회사 앱을 처리하는 데 사용되며, 앱 스토어에서 다운로드한 앱을 처리하는 데 사용할 수는 없습니다. [Microsoft Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리용 iOS 앱 준비](https://docs.microsoft.com/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool) 및 [Microsoft Intune 앱 래핑 도구를 사용하여 모바일 응용 프로그램 관리용 Android 앱 준비](https://docs.microsoft.com/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool) 항목을 참조하세요.
 
 ## <a name="create-and-deploy-an-app-in-configuration-manager-with-a-mobile-app-management-policy"></a>Configuration Manager에서 모바일 앱 관리 정책을 사용하여 앱 만들기 및 배포
 
@@ -83,4 +80,3 @@ MAM 정책과 연결된 앱을 만들고 배포한 후에는 [앱을 모니터�
 ## <a name="where-to-go-from-here"></a>추가 정보
 
 MAM 정책과 관련된 앱을 만들고 배포한 후에는 [MAM의 최종 사용자 환경](end-user-experience-mam.md)에 대해 자세히 알아볼 수 있습니다. 이렇게 하면 발생할 수 있는 모든 문제에 대비하는 데 도움이 됩니다.
-
