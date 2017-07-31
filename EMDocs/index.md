@@ -1,15 +1,14 @@
---- 
+---
 layout: HubPage
 title: "Enterprise Mobility + Security 설명서 | Microsoft Docs"
 description: "Microsoft Enterprise Mobility + Security 기술 설명서"
 ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
-hide_bc: true
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 524272bb9454816c10ceddbb0eb56a4a27491889
-ms.openlocfilehash: ce56224ca38b3889650dcb0e008bf6f1b5aedee6
-ms.contentlocale: ko-kr
-ms.lasthandoff: 03/27/2017
-
+hide_bc: True
+ms.openlocfilehash: 6dc5bd67d9804e6d62380a0f0688adebbac5f8fc
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 07/25/2017
 ---
 <div id="main" class="v2">
     <div class="container">
