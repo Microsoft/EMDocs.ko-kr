@@ -14,10 +14,10 @@ ms.assetid: 7bfee675-ec69-479c-bda2-f807bbb55712
 ms.reviewer: 
 ms.suite: ems
 ms.openlocfilehash: 2b11d1d3118ce7a2414513b56cf6cfce1b2877ce
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.sourcegitcommit: a30ec511aede871310357f771498079e18286c8e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 09/12/2017
 ---
 # <a name="enterprise-mobility--security-support-faqs"></a>Enterprise Mobility + Security 지원 FAQ
 EMS(Enterprise Mobility + Security)를 지지하기 위해 전세계적 사전 판매, 청구, 구독 및 기술 지원이 제공됩니다. 관리자는 [Office 365 포털](https://portal.office.com/Default.aspx?SkipSspr=true)을 이용하거나 [Office 365 지원](https://support.office.com/article/Contact-Office-365-for-business-support-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=c1f4c670-18b3-41ec-81c9-e8d383caa6ad)에 연락하여 지원을 요청할 수 있습니다.
