@@ -1,34 +1,31 @@
 ---
-title: "Microsoft 365 Enterprise 설명서 | Microsoft Docs"
+title: "Microsoft 365 Enterprise 서비스 개요 | Microsoft Docs"
 description: "이 콘텐츠는 Microsoft 365 Enterprise에 대한 개요와 엔터프라이즈 사용 권장을 제공합니다."
 author: jeffgilb
 manager: femila
 ms.prod: microsoft-365-business
 ms.topic: article
-ms.date: 08/01/2017
+ms.date: 08/23/2017
 ms.author: jeffgilb
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: e5d8dd792837456b7e760653c6574dc87f173128
-ms.sourcegitcommit: 3bfff5fcd8746d8d6ea6e2d494ca8742f54e973f
+ms.openlocfilehash: fd15e4215ec60a510cb5d6892b53f11f94fec84d
+ms.sourcegitcommit: 5b34af60e3aac19d618f1c6297da91e2c050a374
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/02/2017
+ms.lasthandoff: 09/09/2017
 ---
-# <a name="microsoft-365-enterprise-documentation"></a>Microsoft 365 Enterprise 설명서
-Microsoft 365 Enterprise는 Office 365, Windows 10 및 EMS(Enterprise Mobility + Security)를 비롯한 완벽하고 지능적인 솔루션으로, 모든 사용자가 독창적이고 안전하게 함께 작업할 수 있도록 합니다. 
-
-Microsoft 365 Enterprise는 대규모 조직용으로 설계되었으며 Office 365 Enterprise, Windows 10 Enterprise 및 EMS를 통합합니다. 
-
+# <a name="microsoft-365-enterprise-services-and-concepts"></a>Microsoft 365 Enterprise 서비스 및 개념
+Microsoft 365 Enterprise는 대규모 조직용으로 설계되었으며 Office 365 Enterprise, Windows 10 Enterprise 및 EMS를 통합합니다.
 
 ## <a name="microsoft-365-services-overview"></a>Microsoft 365 서비스 개요
 
 이 단원에서는 Microsoft 365 Enterprise에 포함된 EMS 및 Office 365 서비스에 대한 개요를 제공하고 조직의 필요에 따라 가장 잘 활용하는 방법을 이해하는 데 필요한 핵심 개념도 소개합니다. 이러한 서비스는 Microsoft 클라우드 엔터프라이즈 관리자가 회사 직원의 ID와 장치를 보호할 뿐만 아니라 회사 데이터(전송 중인 데이터 및 미사용 데이터 둘 다) 자체에 대한 액세스도 제어할 수 있는 기능을 제공합니다.
- 
+
 |서비스|설명|
 |-------|-----------|
 |[Microsoft Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-whatis)|Azure AD는 다단계 인증, 장치 등록, 셀프 서비스 암호 관리, 셀프 서비스 그룹 관리, 역할 기반 액세스 제어, 응용 프로그램 사용 모니터링, 다양한 감사, 보안 모니터링 및 경고 등 전체 ID 관리 기능을 제공합니다.|
-|[Azure AD ID 보호](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-identityprotection)|이 서비스를 사용하면 조직의 ID에 영향을 미치는 잠재적인 취약점을 검색하고 낮음, 보통 및 높음 로그인 위험 및 사용자 위험에 대해 조건부 액세스 정책을 통해 자동화된 응답을 구성할 수 있습니다.|
+|[Azure AD ID 보호](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection)|이 서비스를 사용하면 조직의 ID에 영향을 미치는 잠재적인 취약점을 검색하고 낮음, 보통 및 높음 로그인 위험 및 사용자 위험에 대해 조건부 액세스 정책을 통해 자동화된 응답을 구성할 수 있습니다.|
 |[Azure AD Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure)|이 서비스를 사용하면 조직은 권한 있는 작업에 영구 액세스 권한이 있는 사용자 수를 최소화할 수 있습니다. Azure AD Privileged Identity Management는 적격 관리자 개념을 소개합니다. 적격 관리자는 매일이 아니라 가끔 권한 있는 액세스가 필요한 사용자여야 합니다. 역할은 사용자가 액세스를 필요로 할 때까지 비활성화 상태이다가 활성화 프로세스를 완료하면 미리 결정된 시간 동안 활성 관리자가 됩니다.|
 |[Azure Information Protection](https://docs.microsoft.com/information-protection/understand-explore/what-is-information-protection)| Azure Information Protection은 EMS E5 제품의 일환으로 제공되는 클라우드 기반 솔루션으로 조직에서 문서와 메일을 분류하고 레이블을 지정하며 보호하는 데 도움이 됩니다. 이 기능은 규칙 및 조건을 정의하는 관리자는 자동으로, 사용자는 수동으로 수행할 수 있으며, 사용자가 권장 사항을 제공받은 경우에는 자동 또는 수동으로 수행할 수 있습니다. Azure Information Protection 레이블을 사용하여 문서와 전자 메일을 분류할 수 있습니다. 이 작업을 수행하면 데이터가 저장된 위치나 데이터를 공유한 사용자가 누구인지와 관계없이 항상 분류를 식별할 수 있게 됩니다. <br><br>Azure Information Protection 정책 설정은 [Azure Rights Management](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)로 보호됩니다. 레이블이 적용되는 방법과 마찬가지로 Rights Management를 사용하여 적용된 보호 기능은 조직, 네트워크, 파일 서버, 응용 프로그램 내/외의 위치와 관계없이 문서와 메일에 계속 적용됩니다.|
 |[Microsoft Intune](https://docs.microsoft.com/intune/understand-explore/introduction-to-microsoft-intune)|Intune은 직원이 회사 데이터를 보호하면서 생산성을 높일 수 있도록 하는 클라우드 기반 엔터프라이즈 이동성 관리(EMM) 서비스입니다. Intune은 ID 및 액세스 제어에 대해 Azure AD와 긴밀하게 통합되며 장치 및 응용 프로그램 관리에 사용됩니다. [Intune의 장치 관리](https://docs.microsoft.com/intune/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies) 기능은 Windows PC를 비롯하여 사용자의 장치를 구성하고 보호하는 데 사용됩니다. <br><br>Intune 장치 관리 기능은 사용자가 개인 휴대폰, 태블릿 또는 PC를 등록할 수 있는 [BYOD(Bring Your Own Device)](https://docs.microsoft.com/enterprise-mobility-security/solutions/enable-byod) 등록과 자동 등록, 공유 장치 또는 사전 승인된 등록 요구 사항 구성 같은 관리 시나리오를 사용할 수 있는 [COD(회사 소유 장치)](https://docs.microsoft.com/enterprise-mobility-security/solutions/issue-corp-devices) 등록을 모두 지원합니다. 추가 보안을 위해 장치를 등록하려면 MFA가 필요할 수 있습니다. 관리로 등록되면 Intune은 장치 기능 및 설정을 구성하여 회사 리소스에 대해 보안 액세스를 사용할 수 있습니다.|
@@ -49,12 +46,16 @@ Microsoft 365 Enterprise는 대규모 조직용으로 설계되었으며 Office 
 |Microsoft ID 브로커|Microsoft는 여러 공급업체의 응용 프로그램에서 자격 증명 브리징을 허용하는 모든 모바일 플랫폼용 응용 프로그램을 제공하고, 자격 증명의 유효성을 검사하는 단일 보안 위치를 필요로 하는 향상된 특별 기능을 허용합니다. 이러한 기능을 브로커라고 합니다. iOS 및 Android에서 이러한 브로커는 Microsoft Authenticator 및 Intune 회사 포털 앱을 통해 제공됩니다. Windows 10에서 이 기능은 운영 체제에 기본 제공된 계정 선택(기술적으로 웹 인증 브로커라고 함)에 의해 제공됩니다.|
 
 ## <a name="security-best-practices-and-recommendations"></a>보안 모범 사례 및 권장 사항
+모든 고객 환경에 꼭 맞는 단일 권장 사항은 없지만 [권장 보안 정책 및 구성](microsoft-365-policies-configurations.md) 문서에서는 이해가 필요한 중요 보안 모범 사례 개념을 소개합니다. 또한 직원들의 보안과 생산성을 모두 유지하기 위해 Microsoft 클라우드 내에서 정책 및 구성을 적용하는 방법에 대한 일반적인 Microsoft 권장 사항에 대해서도 다룹니다.
 
 ### <a name="baseline-recommended-security-policies-and-configurations"></a>권장되는 보안 정책 및 구성
-모든 고객 환경에 가장 적합한 유일한 권장 사항은 없지만, [권장되는 보안 정책 및 구성](microsoft-365-policies-configurations.md)은 직원의 안전성과 생산성을 모두 보장하기 위해 Microsoft 클라우드 내에서 Microsoft 365 Enterprise 정책 및 구성 설정을 적용하는 방법에 대한 일반적인 Microsoft 권장 사항을 설명합니다. 
+[일반 ID 및 장치에 액세스 정책 권장 사항](identity-access-policies.md)에서는 Microsoft 365 Enterprise를 보호하기 위한 일반적인 권장 사항에 대해 설명합니다. 조건부 액세스에 대한 기술적인 필수 구성 요소뿐만 아니라 사용자에게 최상의 SSO 환경을 제공하기 위해 Microsoft에서 권장하는 기본 플랫폼 클라이언트 구성에 대해서도 설명합니다.
 
-### <a name="secure-email-recommended-policies"></a>권장되는 보안 메일 정책
-이 문서의 [권장되는 보안 메일 정책](secure-email-recommended-policies.md)에서는 최신 인증 및 조건부 액세스를 지원하는 조직의 메일 및 메일 클라이언트를 보호하는 데 도움이 되는 정책 권장 사항을 제공합니다. 조건부 액세스에 대한 기술적인 필수 구성 요소뿐만 아니라 사용자에게 최상의 SSO 환경을 제공하기 위해 Microsoft에서 권장하는 기본 플랫폼 클라이언트 구성에 대해서도 설명합니다.
+### <a name="exchange-online-access-policies"></a>Exchange Online 액세스 정책
+[이메일 보호를 위한 정책 권장 사항](secure-email-recommended-policies.md)에서는 최신 인증 및 조건부 액세스를 지원하는 조직의 메일 및 메일 클라이언트를 보호하는 데 도움이 되는 Microsoft 권장 사항을 제공합니다. [일반 ID 및 액세스 권장 사항](identity-access-policies.md)에 추가되는 내용입니다.
+
+### <a name="sharepoint-online-access-policies"></a>SharePoint Online 액세스 정책
+[일반 ID 및 액세스 권장 사항](identity-access-policies.md)과 [이메일 보호를 위한 정책 권장 사항](secure-email-recommended-policies.md)과 함께 [SharePoint Online 파일 액세스](sharepoint-file-access-policies.md)를 보호하기 위해 제공되는 권장 사항입니다. 이 문서에서는 Exchange Online 이메일과 SharePoint Online 파일 액세스를 모두 보호하기 위해, 만들어야 하는 새로운 정책과 기존 정책의 수정 방법을 설명합니다.
 
 ## <a name="learn-more"></a>자세한 정보
-[Microsoft 365 Enterprise 제품 페이지](https://www.microsoft.com/microsoft-365/enterprise) 
+[Microsoft 365 Enterprise 제품 페이지](https://www.microsoft.com/microsoft-365/enterprise)
