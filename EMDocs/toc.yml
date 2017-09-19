@@ -101,13 +101,13 @@
               homepage: /information-protection/get-started/requirements-for-azure-rights-management
             - name: 계획 및 디자인
               href: /information-protection/plan-design/
-              homepage: /information-protection/plan-design/azure-rights-management-deployment-roadmap
+              homepage: /information-protection/plan-design/deployment-roadmap
             - name: 서비스 배포 및 사용
               href: /information-protection/deploy-use/
-              homepage: /information-protection/deploy-use/activating-azure-rights-management
+              homepage: /information-protection/deploy-use/activate-service
             - name: 클라이언트 배포 및 사용
               href: /information-protection/rms-client/
-              homepage: /information-protection/rms-client/rights-management-rms-client
+              homepage: /information-protection/rms-client/use-client
             - name: 앱 개발 및 사용자 지정
               href: /information-protection/develop/
               homepage: /information-protection/develop/developers-guide
