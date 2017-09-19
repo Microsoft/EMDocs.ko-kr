@@ -30,7 +30,7 @@ EMS(Enterprise Mobility + Security)는 ID, 장치, 앱, 데이터 등의 4단계
 
 ### <a name="access-to-single-sign-on-applications"></a>Single Sign-On 응용 프로그램 액세스
 ID 페더레이션과 Single Sign-On을 사용하는 경우 사용자는 단일 로그인 자격 증명 및 암호 집합을 사용할 수 있으므로 IT 부서에서 사용자 ID를 보다 효율적으로 관리할 수 있습니다.
-### <a name="multi-factor-authentication"></a>Multi-factor Authentication
+### <a name="multi-factor-authentication"></a>다단계 인증
 또한 사용자가 새 장치를 회사로 가져올 수 있으며, 이 경우 IT 부서에서는 네트워크에 연결된 장치가 적절한 자격 증명을 가진 개인이 소유하고 제어하는지에 대한 유효성을 검사할 수 있습니다. MFA(다단계 인증)는 보호 계층을 제공하는 데 도움이 됩니다.
 ### <a name="self-service-group-management"></a>셀프 서비스 그룹 관리
 사용자가 암호를 잊어버린 경우 고유한 암호를 다시 설정할 수 있으므로 IT 부서의 부담이 줄어들며 신속한 문제 해결을 통해 사용자의 효율성이 증가합니다.
