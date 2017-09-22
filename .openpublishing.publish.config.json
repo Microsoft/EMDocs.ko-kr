@@ -40,7 +40,8 @@
     }
   ],
   "notification_subscribers": [
-    ""
+    "CnE_Content_Brno@moravia.com",
+    "CnE_UE_Bugfixing_ENG@moravia.com"
   ],
   "branches_to_filter": [
     "master-oldev",
