@@ -10,10 +10,10 @@ ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
 ms.openlocfilehash: 14f22a558e2e437f1491033eb33858b377eeca9d
-ms.sourcegitcommit: d8588b191a4f9daea73698426dd632e7997140dc
+ms.sourcegitcommit: 3ce5a7e7e86e286f2b82a970d7f0c8e6ff3028f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/13/2017
+ms.lasthandoff: 09/23/2017
 ---
 # <a name="microsoft-365-enterprise-overview"></a>Microsoft 365 Enterprise 개요
 Microsoft 365 Enterprise는 대규모 조직을 위해 설계되었으며 Office 365 Enterprise, Window s 10 Enterprise 및 EMS(Enterprise Mobility + Security)와 통합하여 모든 사용자가 독창적이고 안전하게 함께 작업할 수 있도록 합니다. Microsoft 365 Enterprise에는 Windows 10 엔터프라이즈 버전 및 Office 365 ProPlus를 통한 Office 응용 프로그램이 포함됩니다.
