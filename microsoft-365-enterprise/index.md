@@ -11,11 +11,11 @@ ms.prod: microsoft-365-enterprise
 ms.date: 09/25/2017
 title: "Microsoft 365 Enterprise 설명서 및 리소스"
 description: "Microsoft 365 엔터프라이즈 IT 관리자, 정보 근로자 및 파트너가 사용할 수 있는 제품 설명서 및 리소스에 알아봅니다."
-ms.openlocfilehash: 98ab81ac7fa259d46c59d9d82ca35b8c152bbb02
-ms.sourcegitcommit: 713199277733ef415791a3eb5262e4704ffb3311
+ms.openlocfilehash: a2bc1313441a4834b53861abc2e2d6c11d17f701
+ms.sourcegitcommit: 7cda3016f871aa370d1d786a2112c9256e2df209
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 09/29/2017
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -688,7 +688,7 @@ ms.lasthandoff: 09/28/2017
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub-iw-producthelp/iw-product-help-office-help-3.svg" alt="Office Help" />
+                                                        <img src="media/hub-iw-producthelp/iw-product-help-office-help-3b.svg" alt="Office Help" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1005,7 +1005,7 @@ ms.lasthandoff: 09/28/2017
                 <ul id="partner">
                     <li>
                         <a data-default="true" href="#partner">시작</a>
-                        <ul id="partner" class="cardsC">
+                        <ul id="partner" class="cardsW">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Microsoft 365 Enterprise 파트너를 사용할 수 있는 리소스를 찾고 계신가요? 여기에서 시작하세요.</p>
@@ -1062,6 +1062,78 @@ ms.lasthandoff: 09/28/2017
                                                 <div class="cardText">
                                                     <h3>FastTrack 및 파트너</h3>
                                                     <p>사용자와 고객이 Microsoft 365로 이동하는 데 도움이 되는 모범 사례, 도구, 원격 지원 및 리소스의 전체 패키지를 만나보세요.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#developer">개발자</a>
+                <ul id="developer">
+                    <li>
+                        <a data-default="true" href="#developer">시작</a>
+                        <ul id="developer" class="cardsW">
+                            <li class="fullSpan">
+                                <div class="container intro">
+                                    <p>엔터프라이즈 앱 개발에 관한 정보를 찾는 앱 개발자인가요? 여기에서 시작하세요.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="https://developer.microsoft.com/office" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="media/hub-developer/developer-office-dev-center.svg" alt="Office Dev Center" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Office 개발자 센터</h3>
+                                                    <p>Office 제품 및 서비스에 대한 솔루션을 개발하기 위한 지침을 찾아보세요.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://developer.microsoft.com/graph" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="media/hub-developer/ms365enterprise-developer-graph.svg" alt="Microsoft Graph" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft Graph</h3>
+                                                    <p>Microsoft Graph로 더 효율적인 생산성 앱을 빌드하는 방법에 대해 알아보세요. 예제, 문서, 빠른 시작, 샘플 및 SDK 등을 찾아보세요.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/en-us/windows/uwp/enterprise/" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="media/hub-developer/ms365enterprise-developer-uwp-apps.svg" alt="Develop enterprise UWP apps" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>엔터프라이즈 UWP 앱 개발</h3>
+                                                    <p>보안, 데이터 바인딩 및 엔터프라이즈, 네트워킹 및 데이터 직렬화 등 Windows 10 UWP(유니버설 Windows 플랫폼) 앱의 주요 엔터프라이즈 기능에 대한 개요를 확인하세요.</p>
                                                 </div>
                                             </div>
                                         </div>
