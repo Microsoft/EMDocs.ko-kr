@@ -4,18 +4,18 @@ hide_bc: True
 author: CelesteDG
 ms.author: celested
 ms.topic: hub-page
-keywords: Microsoft 365, Microsoft 365 Enterprise, Office 365, Windows 10 Enterprise, EMS, Enterprise Mobility + Security, Enterprise
+keywords: "Microsoft 365, Microsoft 365 Enterprise, Microsoft 365 문서, Office 365, Windows 10 Enterprise, EMS, Enterprise Mobility + Security, enterprise"
 ms.localizationpriority: high
 audience: microsoft-business
 ms.prod: microsoft-365-enterprise
 ms.date: 09/25/2017
 title: "Microsoft 365 Enterprise 설명서 및 리소스"
 description: "Microsoft 365 엔터프라이즈 IT 관리자, 정보 근로자 및 파트너가 사용할 수 있는 제품 설명서 및 리소스에 알아봅니다."
-ms.openlocfilehash: f39cabc6887f6bcd98fa6438fc6e85d9e8253385
-ms.sourcegitcommit: 3ce5a7e7e86e286f2b82a970d7f0c8e6ff3028f3
+ms.openlocfilehash: 98ab81ac7fa259d46c59d9d82ca35b8c152bbb02
+ms.sourcegitcommit: 713199277733ef415791a3eb5262e4704ffb3311
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2017
+ms.lasthandoff: 09/28/2017
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -27,7 +27,7 @@ ms.lasthandoff: 09/23/2017
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img data-hoverimage="/media/common/ih_whats-new.svg" src="/media/common/ih_whats-new.png" alt="Learn about Microsoft 365 Enterprise" />
+                                        <img data-hoverimage="/media/common/i_whats-new.svg" src="/media/common/i_whats-new.png" alt="Learn about Microsoft 365 Enterprise" />
                                     </div>
                                 </div>
                                 <div class="cardText">
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/23/2017
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img data-hoverimage="/media/common/ih_get-started.svg" src="/media/common/ih_get-started.png" alt="Start FastTrack for Microsoft 365" />
+                                        <img data-hoverimage="/media/common/i_get-started.svg" src="/media/common/i_get-started.png" alt="Start FastTrack for Microsoft 365" />
                                     </div>
                                 </div>
                                 <div class="cardText">
@@ -235,7 +235,7 @@ ms.lasthandoff: 09/23/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="http://fasttrack.microsoft.com" target="_blank">
+                                <a href="https://support.office.com/article/05cbe533-2181-4e95-a4b0-52cd7695fafc" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -245,8 +245,8 @@ ms.lasthandoff: 09/23/2017
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Microsoft 팀 구현 가이드 - 제공 예정</h3>
-                                                    <p>가이드 및 도구 집합을 참조하여 Microsoft 팀을 구현하고 관리하세요. 워크샵을 따라 하면 조직이 Microsoft 팀과 함께 시작할 수 있도록 도울 수 있습니다.</p>
+                                                    <h3>관리자 도움말: Microsoft Teams FAQ</h3>
+                                                    <p>Microsoft Teams 관리에 대한 질문이 있나요? 여기에서 시작하세요.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -292,7 +292,7 @@ ms.lasthandoff: 09/23/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="http://fasttrack.microsoft.com" target="_blank">
+                                <a href="https://fasttrack.microsoft.com/microsoft365/capabilities?view=collaboration" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -302,7 +302,7 @@ ms.lasthandoff: 09/23/2017
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>공동 작업을 위한 FastTrack - 제공 예정</h3>
+                                                    <h3>공동 작업을 위한 FastTrack</h3>
                                                     <p>Microsoft 365 공동 작업 기능을 위한 사례, 도구, 리소스 및 전문가를 만나보세요.</p>
                                                 </div>
                                             </div>
@@ -352,7 +352,7 @@ ms.lasthandoff: 09/23/2017
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>SharePoint Online 사이트 및 파일 보호</h3>
-                                                    <p>SharePoint Online 팀 사이트 및 파일 보호를 구성하기 위한 권장 사항 및 SharePoint Online 팀 사이트에 대한 권장 구성을 알아보세요.</p>
+                                                    <p>SharePoint Online 팀 사이트 및 파일을 보호하기 위한 권장 사항을 확인하고 개발/테스트 환경을 포함한 구성 단계를 수행하세요.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -379,7 +379,7 @@ ms.lasthandoff: 09/23/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="http://fasttrack.microsoft.com" target="_blank">
+                                <a href="https://fasttrack.microsoft.com/microsoft365/capabilities?view=security" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -389,7 +389,7 @@ ms.lasthandoff: 09/23/2017
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>보안에 대한 FastTrack - 제공 예정</h3>
+                                                    <h3>보안에 대한 FastTrack</h3>
                                                     <p>Microsoft 365 보안 기능을 위한 사례, 도구, 리소스 및 전문가를 만나보세요.</p>
                                                 </div>
                                             </div>
@@ -561,7 +561,7 @@ ms.lasthandoff: 09/23/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="http://fasttrack.microsoft.com" target="_blank">
+                                <a href="https://fasttrack.microsoft.com/microsoft365/capabilities?view=devices" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -571,7 +571,7 @@ ms.lasthandoff: 09/23/2017
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>장치에 대한 FastTrack - 제공 예정</h3>
+                                                    <h3>장치에 대한 FastTrack</h3>
                                                     <p>Microsoft 365가 탑재된 장치 기능에 관한 사례, 도구, 리소스 및 전문가를 만나보세요.</p>
                                                 </div>
                                             </div>
@@ -610,7 +610,7 @@ ms.lasthandoff: 09/23/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="http://fasttrack.microsoft.com" target="_blank">
+                                <a href="https://fasttrack.microsoft.com/microsoft365/capabilities?view=voice" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -620,7 +620,7 @@ ms.lasthandoff: 09/23/2017
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>음성에 대한 FastTrack - 제공 예정</h3>
+                                                    <h3>음성에 대한 FastTrack</h3>
                                                     <p>Microsoft 365 음성 기능을 위한 사례, 도구, 리소스 및 전문가를 만나보세요.</p>
                                                 </div>
                                             </div>
@@ -650,7 +650,7 @@ ms.lasthandoff: 09/23/2017
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub-iw-producthelp/iw-producthelp-getstarted-office.svg" alt="Get started with Office" />
+                                                        <img src="media/hub-iw-producthelp/iw-product-help-get-started-office-1.svg" alt="Get started with Office" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -669,7 +669,7 @@ ms.lasthandoff: 09/23/2017
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub-iw-producthelp/iw-producthelp-officetraining.svg" alt="Office Training Center" />
+                                                        <img src="media/hub-iw-producthelp/iw-product-help-office-training-2.svg" alt="Office Training Center" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -688,7 +688,7 @@ ms.lasthandoff: 09/23/2017
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub-iw-producthelp/iw-producthelp-office.svg" alt="Office Help" />
+                                                        <img src="media/hub-iw-producthelp/iw-product-help-office-help-3.svg" alt="Office Help" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -707,7 +707,7 @@ ms.lasthandoff: 09/23/2017
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub-itadmin-devices/admin-devices-win10-deploy-1.svg" alt="Windows 10 end user help" />
+                                                        <img src="media/hub-iw-producthelp/iw-product-help-windows-help-4.svg" alt="Windows 10 end user help" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -764,7 +764,7 @@ ms.lasthandoff: 09/23/2017
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub-itadmin-devices/admin-devices-win10-intune-4.svg" alt="User help for Intune" />
+                                                        <img src="media/hub-iw-producthelp/iw-product-help-intune-7.svg" alt="User help for Intune" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -784,11 +784,11 @@ ms.lasthandoff: 09/23/2017
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>직원 및 다른 사용자는 <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">Microsoft 365 Enterprise 생산성 라이브러리</a>에서 큐레이트 교육을 받고, 동영상을 시청하고, 권장 사항을 숙지하는 등의 활동을 할 수 있습니다.</p>
-                                    <p><b>제공 예정:</b> 시작하는 데 유용한 다음 링크를 따르세요.</p>
+                                    <p>시작하는 데 도움이 되는 링크는 다음과 같습니다.</p>
                                 </div>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
+                                <a href="https://www.microsoft.com/en-US/microsoft-365/success/productivitylibrary/work-more-securely-from-anywhere-on-almost-any-device" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -807,7 +807,7 @@ ms.lasthandoff: 09/23/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
+                                <a href="https://www.microsoft.com/en-US/microsoft-365/success/productivitylibrary/meet-and-collaborate-with-ease" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -826,7 +826,7 @@ ms.lasthandoff: 09/23/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
+                                <a href="https://www.microsoft.com/en-US/microsoft-365/success/productivitylibrary/work-in-email-solo-or-as-a-group" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -845,7 +845,7 @@ ms.lasthandoff: 09/23/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
+                                <a href="https://www.microsoft.com/en-US/microsoft-365/success/productivitylibrary/choose-the-right-collaboration-tool-for-your-group" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -864,7 +864,7 @@ ms.lasthandoff: 09/23/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
+                                <a href="https://www.microsoft.com/en-US/microsoft-365/success/productivitylibrary/create-impactful-content-together" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -883,7 +883,7 @@ ms.lasthandoff: 09/23/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
+                                <a href="https://www.microsoft.com/en-US/microsoft-365/success/productivitylibrary/share-sites-and-content" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -902,7 +902,7 @@ ms.lasthandoff: 09/23/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
+                                <a href="https://www.microsoft.com/en-US/microsoft-365/success/productivitylibrary/gain-insight-into-your-work-habits-to-manage-your-time-better" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -921,7 +921,7 @@ ms.lasthandoff: 09/23/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
+                                <a href="https://www.microsoft.com/en-US/microsoft-365/success/productivitylibrary/communicate-with-your-team-in-real-time-to-gain-input-and-consensus" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -940,7 +940,7 @@ ms.lasthandoff: 09/23/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
+                                <a href="https://www.microsoft.com/en-US/microsoft-365/success/productivitylibrary/provide-a-chat-based-workspace" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -959,7 +959,7 @@ ms.lasthandoff: 09/23/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
+                                <a href="https://www.microsoft.com/en-US/microsoft-365/success/productivitylibrary/create-and-impress-loyal-customers-by-understanding-their-preferences" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -978,7 +978,7 @@ ms.lasthandoff: 09/23/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/microsoft-365/success/" target="_blank">
+                                <a href="https://www.microsoft.com/en-US/microsoft-365/success/productivitylibrary/help-employees-filter-relevant-information-and-find-answers-faster" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
