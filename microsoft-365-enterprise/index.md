@@ -11,11 +11,11 @@ ms.prod: microsoft-365-enterprise
 ms.date: 09/25/2017
 title: "Microsoft 365 Enterprise 설명서 및 리소스"
 description: "Microsoft 365 엔터프라이즈 IT 관리자, 정보 근로자 및 파트너가 사용할 수 있는 제품 설명서 및 리소스에 알아봅니다."
-ms.openlocfilehash: a2bc1313441a4834b53861abc2e2d6c11d17f701
-ms.sourcegitcommit: 7cda3016f871aa370d1d786a2112c9256e2df209
+ms.openlocfilehash: d8e1842574b3edf56249a4db0084ad90724320d5
+ms.sourcegitcommit: 586bfc33601ccc5f3c05ff5c4157eddb9eef4479
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/18/2017
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -328,7 +328,7 @@ ms.lasthandoff: 09/29/2017
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub-itadmin-security/admin-security-configurations-1.svg" alt="Identity and device access configurations" />
+                                                        <img src="media/hub-itadmin-security/admin-security-identity-access-configs-1.svg" alt="Identity and device access configurations" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -353,6 +353,25 @@ ms.lasthandoff: 09/29/2017
                                                 <div class="cardText">
                                                     <h3>SharePoint Online 사이트 및 파일 보호</h3>
                                                     <p>SharePoint Online 팀 사이트 및 파일을 보호하기 위한 권장 사항을 확인하고 개발/테스트 환경을 포함한 구성 단계를 수행하세요.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/windows/threat-protection" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub-itadmin-security/admin-security-windows10-threats-5.svg" alt="Security guidance for political campaigns, nonprofits, and other agile organizations" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>엔터프라이즈를 위한 위협 방지 및 보안</h3>
+                                                    <p>Windows 10에서 위협으로부터 조직을 보호하는 방법에 대해 알아보세요.</p>
                                                 </div>
                                             </div>
                                         </div>
