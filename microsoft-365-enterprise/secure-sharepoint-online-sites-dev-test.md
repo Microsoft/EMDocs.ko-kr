@@ -158,7 +158,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
  * 개인
  * 중요
  * 극비
-7. **홈 > 레이블 ** 창에서 **레이블 게시**를 클릭합니다.
+7. **홈 > 레이블**  창에서 **레이블 게시**를 클릭합니다.
 8. **게시할 레이블 선택** 창에서 **게시할 레이블 선택**을 클릭합니다.
 9. **레이블 선택** 창에서 **추가**를 클릭하고, 네 가지 레이블을 모두 선택하고, **완료**를 클릭합니다.
 10. **게시할 레이블 선택** 창에서 **다음**을 클릭합니다.
@@ -272,7 +272,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 10. **레이블** 창에서 **+ 추가**를 클릭하고, **중요** 레이블을 선택하고, **추가**를 클릭한 다음 **완료**를 클릭합니다.
 11. **Choose the types of content to protect(보호할 콘텐츠 형식 선택)** 창에서 **저장**을 클릭합니다.
 12. **Customize the types of sensitive info you want to protect(보호할 중요 정보 유형 사용자 지정)** 창에서 **다음**을 클릭합니다.
-13. **중요한 정보를 발견하면 ** 창에서 **팁 및 전자 메일 사용자 지정**을 클릭합니다.
+13. **중요한 정보를 발견하면**  창에서 **팁 및 전자 메일 사용자 지정**을 클릭합니다.
 14. **Customize policy tips and email notifications(정책 팁 및 전자 메일 알림 사용자 지정)** 창에서 **Customize the policy tip text(정책 팁 텍스트 사용자 지정)**를 클릭합니다.
 15. 텍스트 상자에서 다음과 같이 입력하거나 붙여넣은 다음 **확인**을 클릭합니다.
  * 조직 외부의 사용자와 공유하려면 파일을 다운로드한 다음 파일을 엽니다. **파일**, **문서 보호**, **암호 설정**을 차례로 클릭한 다음 강력한 암호를 지정합니다. 암호를 별도의 전자 메일 또는 다른 통신 수단으로 보냅니다.
@@ -336,7 +336,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 11. **레이블** 창에서 **+ 추가**를 클릭하고, **극비** 레이블을 선택하고, **추가**를 클릭한 다음 **완료**를 클릭합니다.
 12. **Choose the types of content to protect(보호할 콘텐츠 형식 선택)** 창에서 **저장**을 클릭합니다.
 13. **Customize the types of sensitive info you want to protect(보호할 중요 정보 유형 사용자 지정)** 창에서 **다음**을 클릭합니다.
-14. **중요한 정보를 발견하면 ** 창에서 **팁 및 전자 메일 사용자 지정**을 클릭합니다.
+14. **중요한 정보를 발견하면**  창에서 **팁 및 전자 메일 사용자 지정**을 클릭합니다.
 15. **Customize policy tips and email notifications(정책 팁 및 전자 메일 알림 사용자 지정)** 창에서 **Customize the policy tip text(정책 팁 텍스트 사용자 지정)**를 클릭합니다.
 16. 텍스트 상자에서 다음과 같이 입력하거나 붙여넣은 다음 **확인**을 클릭합니다.
  * 조직 외부의 사용자와 공유하려면 파일을 다운로드한 다음 파일을 엽니다. **파일**, **문서 보호**, **암호 설정**을 차례로 클릭한 다음 강력한 암호를 지정합니다. 암호를 별도의 전자 메일 또는 다른 통신 수단으로 보냅니다.
