@@ -13,11 +13,11 @@ ms.assetid: 0af3894c-7b0e-4c0c-8874-31e041d81300
 ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: information-protection
-ms.openlocfilehash: 4c6c81cd9d59f402c1ce458e54063e2986324c5b
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: 5836807982072f9115e49db17c8c6560c23d2c11
+ms.sourcegitcommit: a7fd3ad8a351e9cc72ea37486342a273ed29b883
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 11/03/2017
 ---
 # <a name="protect-data-against-user-mistakes"></a>사용자 실수로부터 데이터 보호
 
@@ -60,15 +60,15 @@ EMS(Enterprise Mobility + Security)를 통해 IT 부서는 온-프레미스와 �
 
 오늘날 대부분의 기업에서 클라우드 응용 프로그램을 사용하므로 조만간 온-프레미스보다 클라우드에 저장되는 회사 데이터가 더 많아질 것입니다. 대부분의 경우 사용자는 회사의 동의 없이 또는 회사에서 모르게 자신의 장치에서 SaaS 응용 프로그램을 사용할 것이므로 이로 인해 클라우드의 섀도 IT 사용이 증가할 것입니다. 이러한 결론은 직원의 80%가 승인되지 않은 SaaS 응용 프로그램을 업무에 사용하고 있음을 보여 주는 조사에 따른 것입니다. [Cloud App Security](https://technet.microsoft.com/library/mt657567.aspx)는 조직에서 사용 중인 모든 클라우드 응용 프로그램에 대한 자세한 개요를 제공합니다. 응용 프로그램에 액세스하는 모든 사용자와 IP 주소를 식별하며, 13,000개 이상의 클라우드 응용 프로그램에 대한 위험 평가를 수행하고, 60개가 넘는 매개 변수에 따라 각 응용 프로그램에 대한 자동화된 위험 점수를 제공합니다. 
 
-1단계에 따라 사용자 환경에서 클라우드 응용 프로그램을 검색하고 이러한 응용 프로그램을 제어하는 정책을 구현합니다. 이 솔루션의 두 번째 단계에서는 데이터를 보호하고 분류하여 사용자의 실수와 데이터의 잘못된 사용을 완화하기 위해 [Azure Information Protection](https://docs.microsoft.com/en-us/information-protection/get-started/requirements)을 구현합니다.
+1단계에 따라 사용자 환경에서 클라우드 응용 프로그램을 검색하고 이러한 응용 프로그램을 제어하는 정책을 구현합니다. 이 솔루션의 두 번째 단계에서는 데이터를 보호하고 분류하여 사용자의 실수와 데이터의 잘못된 사용을 완화하기 위해 [Azure Information Protection](https://docs.microsoft.com/information-protection/get-started/requirements)을 구현합니다.
 
 ### <a name="step-1-discover-cloud-apps-in-use-and-control-them-with-policy"></a>1단계: 사용 중인 클라우드 응용 프로그램 검색 및 정책을 통한 제어
 
-Cloud App Security를 사용하기 위한 첫 번째 단계는 [응용 프로그램을 검색](https://technet.microsoft.com/en-us/library/mt657567.aspx)하는 것입니다. 이 단계를 건너뛰면 분석하고 정책을 사용하여 제한할 응용 프로그램이 없게 됩니다. 검색 프로세스를 시작하지 않은 경우 Cloud App Security 대시보드의 검색 옵션에 다음과 같은 메시지가 표시됩니다.
+Cloud App Security를 사용하기 위한 첫 번째 단계는 [응용 프로그램을 검색](https://technet.microsoft.com/library/mt657567.aspx)하는 것입니다. 이 단계를 건너뛰면 분석하고 정책을 사용하여 제한할 응용 프로그램이 없게 됩니다. 검색 프로세스를 시작하지 않은 경우 Cloud App Security 대시보드의 검색 옵션에 다음과 같은 메시지가 표시됩니다.
 
 ![사용자가 Cloud Discovery 로그를 아직 업로드하지 않았다는 메시지를 보여 주는 스크린샷](./media/protect-data-user-mistake/protect-data-user-mistake-fig2-1.png)
 
-조직에서 사용 중인 응용 프로그램을 검색하는 것은 중요한 회사 데이터를 보호하기 위한 첫 번째 단계입니다. 검색 프로세스가 완료되면 [Cloud Discovery 대시보드](https://technet.microsoft.com/en-us/library/mt727946.aspx) 아래에 검색된 응용 프로그램 목록이 표시됩니다.
+조직에서 사용 중인 응용 프로그램을 검색하는 것은 중요한 회사 데이터를 보호하기 위한 첫 번째 단계입니다. 검색 프로세스가 완료되면 [Cloud Discovery 대시보드](https://technet.microsoft.com/library/mt727946.aspx) 아래에 검색된 응용 프로그램 목록이 표시됩니다.
 
 ![Cloud Discovery 대시보드와 검색된 응용 프로그램 목록을 보여 주는 스크린샷](./media/protect-data-user-mistake/protect-data-user-mistake-fig3.png)
 
@@ -88,7 +88,7 @@ Cloud App Security를 사용하기 위한 첫 번째 단계는 [응용 프로그
 
 ### <a name="step-2-protect-data-on-premises-or-in-the-cloud"></a>2단계: 온-프레미스 및 클라우드에서 데이터 보호
 
-이 솔루션을 구현하기 전에 [Azure Information Protection](https://docs.microsoft.com/en-us/information-protection/get-started/infoprotect-tutorial-step1)에 대한 요구 사항을 검토하세요.
+이 솔루션을 구현하기 전에 [Azure Information Protection](https://docs.microsoft.com/information-protection/get-started/infoprotect-tutorial-step1)에 대한 요구 사항을 검토하세요.
 
 Microsoft의 Azure Information Protection을 사용하면 데이터를 만들 때 데이터를 분류하고 레이블을 지정할 수 있습니다. 그런 다음 중요한 데이터에 보호(암호화+인증+사용 권한)를 적용할 수 있습니다. 분류 레이블과 보호는 영구적이므로 데이터와 함께 이동합니다. 따라서 저장된 위치 또는 공유 대상에 상관없이 항상 식별 가능하고 보호됩니다. 정보 보호 정책 및 레이블을 구현하려고 할 때 다음 지침을 따르세요.
 
@@ -109,15 +109,15 @@ Azure Information Protection은 사용자 지정 가능한 기본 레이블과 �
 !["Secret" 레이블 아래에 생성된 사용자 지정 하위 레이블을 보여 주는 스크린샷 ](./media/protect-data-user-mistake/protect-data-user-mistake-fig7.png)
 
 
-레이블을 사용하는 방식(기본 또는 사용자 지정)을 정의한 후에는 [Rights Management 보호를 적용하도록 레이블을 구성](https://docs.microsoft.com/en-us/rights-management/information-protection/configure-policy-protection#to-configure-a-label-to-apply-rights-management-protection)합니다.
+레이블을 사용하는 방식(기본 또는 사용자 지정)을 정의한 후에는 [Rights Management 보호를 적용하도록 레이블을 구성](https://docs.microsoft.com/rights-management/information-protection/configure-policy-protection#to-configure-a-label-to-apply-rights-management-protection)합니다.
 
 Azure Information Protection을 사용하면 데이터 분류 및 보호 컨트롤이 Office 및 기타 일반 응용 프로그램에 통합됩니다. 이 통합에서는 사용자가 작업하는 데이터를 보호하기 위한 간단한 원클릭 옵션을 제공합니다. Azure Portal에서 관리자는 "신용 카드 번호" 또는 "주민등록번호"와 같은 미리 정의된 패턴을 자동 분류 조건으로 적용할 수 있습니다. 또는 텍스트 패턴 및 정규식을 사용하여 사용자 지정 문자열이나 패턴을 정의할 수 있습니다.
 
-레이블에 대한 조건을 구성할 때 문서/메일에 자동으로 레이블을 할당하거나 사용자에게 권장하는 레이블을 선택하라는 메시지를 표시할 수 있습니다. 이 구성을 수행하는 방법에 대한 자세한 내용은 [Azure Information Protection에 대한 자동 및 권장 분류 조건을 구성하는 방법](https://docs.microsoft.com/en-us/rights-management/information-protection/configure-policy-classification)
+레이블에 대한 조건을 구성할 때 문서/메일에 자동으로 레이블을 할당하거나 사용자에게 권장하는 레이블을 선택하라는 메시지를 표시할 수 있습니다. 이 구성을 수행하는 방법에 대한 자세한 내용은 [Azure Information Protection에 대한 자동 및 권장 분류 조건을 구성하는 방법](https://docs.microsoft.com/rights-management/information-protection/configure-policy-classification)
 
 > [!NOTE]
-> 데이터 분류 및 보호에 대한 자세한 내용은 [분류, 레이블 지정 및 보호를 사용하여 데이터 보안 유지](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/infoprotect-secure-classify-scenario)를 참조하세요.
+> 데이터 분류 및 보호에 대한 자세한 내용은 [분류, 레이블 지정 및 보호를 사용하여 데이터 보안 유지](https://docs.microsoft.com/enterprise-mobility-security/solutions/infoprotect-secure-classify-scenario)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 
-Microsoft Cloud App Security는 클라우드 응용 프로그램에서 작업 및 데이터를 검색하고 모니터링하며 제어하고 보호하기 위한 전체적인 솔루션을 제공합니다. Cloud App Security로 IT 관리자는 Azure Information Protection을 사용하여 Cloud App Security 콘솔에서 직접 암호화할 수 있습니다. Azure Information Protection과의 통합을 통해, 필요 시 SharePoint Online 및 비즈니스용 OneDrive에 저장된 파일에 대한 일반 보호를 적용할 수 있습니다. Cloud App Security 및 Azure Information Protection 간의 통합에 대한 자세한 내용은 [Azure Information Protection 통합](https://docs.microsoft.com/en-us/cloud-app-security/azip-integration)을 읽어보세요.
+Microsoft Cloud App Security는 클라우드 응용 프로그램에서 작업 및 데이터를 검색하고 모니터링하며 제어하고 보호하기 위한 전체적인 솔루션을 제공합니다. Cloud App Security로 IT 관리자는 Azure Information Protection을 사용하여 Cloud App Security 콘솔에서 직접 암호화할 수 있습니다. Azure Information Protection과의 통합을 통해, 필요 시 SharePoint Online 및 비즈니스용 OneDrive에 저장된 파일에 대한 일반 보호를 적용할 수 있습니다. Cloud App Security 및 Azure Information Protection 간의 통합에 대한 자세한 내용은 [Azure Information Protection 통합](https://docs.microsoft.com/cloud-app-security/azip-integration)을 읽어보세요.
