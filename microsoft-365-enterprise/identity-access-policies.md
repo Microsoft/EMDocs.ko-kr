@@ -5,15 +5,15 @@ author: barlanmsft
 manager: angrobe
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 08/30/2017
+ms.date: 10/27/2017
 ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: db8a35ca3c36c43ed47ca04a8dfe336cfe154618
-ms.sourcegitcommit: d8588b191a4f9daea73698426dd632e7997140dc
+ms.openlocfilehash: 46a63151471a10b578ffaf3bddb27ddfcd5500a5
+ms.sourcegitcommit: feb1e385af0bc2a2eba56e5c2d1e8b4ba8866126
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/13/2017
+ms.lasthandoff: 10/27/2017
 ---
 # <a name="general-identity-and-device-access-policy-recommendations"></a>일반적인 ID 및 장치 액세스 정책 권장 사항
 이 문서에서는 Microsoft 365 Enterprise 보안을 유지할 수 있는 일반적인 권장 정책을 설명합니다. 조건부 액세스에 대한 기술적인 필수 구성 요소뿐만 아니라 사용자에게 최상의 SSO 환경을 제공하기 위해 Microsoft에서 권장하는 기본 플랫폼 클라이언트 구성에 대해서도 설명합니다.
@@ -180,7 +180,7 @@ Office 365 환경의 모든 또는 특정 데이터 집합에 대해 증가된 �
 ### <a name="user-impact"></a>사용자 영향
 대부분의 조직의 경우, Office 365 파일에 로그인할 것으로 예상되는 시기와 조건에 맞게 사용자에 대한 기대치를 설정할 수 있어야 합니다.
 
-* SSO(Single Sign-On) 세션의 최대 수명은 1일입니다. 사용자는 세션이 완료된 후 MFA를 사용하여 다시 인증을 받아야 합니다.
+* 높은 규제로 구성된 사용자는 세션이 완료된 후 MFA를 사용하여 다시 인증을 받아야 합니다.
 * 위험에 처한 사용자가 로그인하면 성공적으로 MFA를 완료한 후 암호 변경을 요구합니다.
 * Exchange Online에 대한 인증 토큰을 요청하는 경우:
   * 사용자에 대해 새 세션을 시작할 때마다 MFA를 수행할 것을 요구합니다.  
