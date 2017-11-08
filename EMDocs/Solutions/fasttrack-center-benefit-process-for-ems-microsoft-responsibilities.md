@@ -5,7 +5,7 @@ keywords:
 author: NathBarn
 ms.author: NathBarn
 manager: angrobe
-ms.date: 02/01/2017
+ms.date: 10/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
 ms.reviewer: 
 ms.suite: ems
-ms.openlocfilehash: 77e668d5f638ee2e4b9a9e81a1f9181252fde8b9
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: a68182e4175ca3fe69377319d34f899f3abb7d25
+ms.sourcegitcommit: 6296730f948ec5205fe81adb3585026d169e51f9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 10/24/2017
 ---
 # <a name="microsoft-responsibilities"></a>Microsoft의 책임
 
@@ -109,7 +109,16 @@ ms.lasthandoff: 07/25/2017
 -   다중 포리스트 환경의 경우:
 
     -   Azure AD Connect 동기화를 설치하고, 다중 포리스트 시나리오를 설정합니다.
+-   단일 및 다중 포리스트 환경의 경우:
+    -   필요한 경우 Azure Active Directory 통과 인증을 구성합니다.
+    -   필요한 경우 Azure Active Directory 원활한 SSO(Single Sign-On)를 구성합니다. 
+        > [!NOTE]
+        > 다중 포리스트 환경에 대한 Azure Active Directory 통과 인증은 Active Directory 포리스트 간에 포리스트 트러스트가 있는 경우 및 이름 접미사 라우팅이 올바르게 구성된 경우에 지원됩니다. 추가 에이전트를 여러 온-프레미스 서버에 설치하여 로그인 요청에 고가용성을 제공할 수 있습니다. 
 
+    - 자세한 내용은 [Azure Active Directory 통과 인증: 빠른 시작](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-quick-start#step-1-check-prerequisites) 및 [Azure Active Directory 원활할 Single Sign-On: 빠른 시작](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso-quick-start#step-1-check-prerequisites)을 참조하세요.
+    - 통과 인증 제한에 대한 자세한 내용은 [Azure Active Directory 통과 인증: 현재 제한 사항](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-current-limitations)을 참조하세요.
+    - 원활한 SSO 문제에 대한 자세한 내용은 [Azure Active Directory 원활한 Single Sign-On 문제 해결](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-sso)을 참조하세요.
+  
         > [!NOTE]
         > 암호 해시 동기화 및 비밀번호 쓰기 저장은 다중 포리스트를 지원합니다. 그러나 다른 쓰기 저장 시나리오는 지원되지 않습니다.
 
@@ -152,6 +161,8 @@ ms.lasthandoff: 07/25/2017
   - ID 보호
 
   - Privileged Identity Management
+  
+  - Azure Active Directory 조건부 액세스 
 
   - 관리자를 위한 사용량 및 보안 보고서.
 
