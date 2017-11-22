@@ -145,7 +145,7 @@
                         - name: 구조
                           href: /information-protection/sdk/2.1/api/win/structures/
                           homepage: /information-protection/sdk/2.1/api/win/structures
-        - name: Microsoft ID 관리자
+        - name: Microsoft  Identity  Manager
           href: /microsoft-identity-manager/
           homepage: /microsoft-identity-manager
           items:
@@ -171,6 +171,9 @@
             - name: 모바일 장치 관리
               href: /sccm/mdm/
               homepage: /sccm/mdm/understand/hybrid-mobile-device-management
+            - name: Microsoft Deployment Toolkit
+              href: /sccm/mdt/
+              homepage: /sccm/mdt/whats-new-in-mdt
             - name: 운영 체제 배포
               href: /sccm/osd/
               homepage: /sccm/osd/understand/introduction-to-operating-system-deployment

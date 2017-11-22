@@ -13,13 +13,13 @@ ms.workload:
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
-ms.date: 08/28/2017
+ms.date: 11/14/2017
 ms.author: josephd
-ms.openlocfilehash: a8541e02b94d038fd3e97e59f052cd8158d82227
-ms.sourcegitcommit: 5b34af60e3aac19d618f1c6297da91e2c050a374
+ms.openlocfilehash: d6e1c50deb4b5c94859f6dcf420038251e10f4fa
+ms.sourcegitcommit: 684c942047754e93378e271f5b1a659a9752f0ba
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="architecture-models-and-posters-for-microsoft-365-enterprise"></a>Microsoft 365 Enterprise용 아키텍처 모델 및 포스터
 
@@ -51,9 +51,6 @@ Microsoft는 클라우드 서비스 전반에 걸쳐 다양한 보호 기능을 
 
 [PDF](http://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365 file protection.pdf) | [Visio](http://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365 file protection.vsdx)
 
-### <a name="windows-10-protection-solutions"></a>Windows 10 보호 솔루션
-**출시 예정**
-
 ### <a name="information-protection-for-office-365"></a>Office 365 정보 보호
 
  [![정보 보호](./media/architecture-models-posters/image3.png)](https://www.microsoft.com/download/details.aspx?id=54429)
@@ -63,18 +60,19 @@ Microsoft는 클라우드 서비스 전반에 걸쳐 다양한 보호 기능을 
 ## <a name="windows-10-and-office-365-proplus-deployment-and-change-management"></a>Windows 10 및 Office 365 ProPlus 배포 및 변경 관리
 Windows 10 및 Office 365 ProPlus는 클라우드에 최적화되어 있으며 경쟁 클라이언트 이상으로 기업 조직에 가치를 제공합니다. 이러한 리소스는 최신 데스크톱을 배포, 보호 및 변경 관리하기 위한 종단 간 솔루션을 설계하는 방법을 보여 줍니다.
 
+### <a name="deploy-a-modern-and-secure-desktop"></a>안전한 최신 데스크톱 배포
+
+[![안전한 최신 데스크톱](./media/architecture-models-posters/image13.png)](https://www.microsoft.com/download/details.aspx?id=55987)
+
+
+[PDF](http://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.pdf) | [Visio](http://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.vsdx) 
+
 ### <a name="change-management-for-office-365-clients"></a>Office 365 클라이언트에 대한 변경 관리
 
  [![변경 관리](./media/architecture-models-posters/image4.png)](https://www.microsoft.com/download/details.aspx?id=49141)
 
 
 [PDF](https://go.microsoft.com/fwlink/p/?LinkId=626681) | [Visio](https://go.microsoft.com/fwlink/p/?LinkId=626680) | [문서](https://technet.microsoft.com/library/mt584223.aspx) | [더 많은 언어](https://www.microsoft.com/download/details.aspx?id=49141)
-
-### <a name="deploy-a-modern-and-secure-desktop"></a>안전한 최신 데스크톱 배포
-**출시 예정**
-
-### <a name="deploy-office-365-proplus"></a>Office 365 ProPlus 배포
-**출시 예정**
 
 ## <a name="microsoft-cloud-for-enterprise-architects-series"></a>엔터프라이즈 설계자용 Microsoft 클라우드 시리즈
 Microsoft는 통합될 가능성이 가장 높은 광범위한 클라우드 서비스 집합을 제공합니다. 이러한 리소스는 IT 설계자, 솔루션 설계자 및 IT 의사 결정자를 위한 일반적인 방법을 보여 줍니다.
@@ -99,29 +97,20 @@ Microsoft는 온라인 서비스의 디자인 및 관리에 대한 최첨단 모
 
 ### <a name="microsoft-cloud-networking-for-enterprise-architects"></a>엔터프라이즈 설계자용 Microsoft Cloud Networking
 클라우드 마이그레이션은 회사 네트워크 내부 및 외부의 트래픽 흐름에 대한 양과 특성을 변경합니다. 또한 보안 위험을 완화하는 방법에도 영향을 줍니다. Office 365, Microsoft Intune 또는 Dynamics 365 채택 및 Azure PaaS 및 IaaS에 LOB(기간 업무) 응용 프로그램 배포로 인해 영향을 받는 네트워크 인프라 구성 요소에 대해 알아보세요.
-
-
- [![Cloud Networking](./media/architecture-models-posters/image7.png)](https://www.microsoft.com/download/details.aspx?id=54425)
+ 
+|**항목**|**설명**|
+|:-----|:-----|
+| [![Cloud Networking](./media/architecture-models-posters/image7.png)](https://www.microsoft.com/download/details.aspx?id=54425)|이 모델에 포함된 항목은 다음과 같습니다. <ul><li>클라우드 연결을 위해 네트워크 확장</li><li>Microsoft 클라우드 연결의 공통 요소</li><li>Microsoft 클라우드 연결을 위한 ExpressRoute</li><li>Microsoft SaaS(Office 365, Microsoft Intune 및 Dynamics CRM Online)용 네트워킹 설계</li><li>Azure PaaS용 네트워킹 설계</li>Azure IaaS용 네트워킹 설계<li></ul></li>이 아키텍처 포스터에 기반한 새 Microsoft Virtual Academy 과정인 [Microsoft 클라우드 서비스에 대한 네트워크 최적화](https://mva.microsoft.com/training-courses/optimize-your-network-for-microsoft-cloud-offerings-17743)를 이용해 보세요.|
 
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=842073) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=842074) | [문서](https://technet.microsoft.com/library/mt733214.aspx) | [더 많은 언어](https://www.microsoft.com/download/details.aspx?id=54425)
 
-이 모델에는 다음과 같은 페이지가 있습니다.
-
-* **클라우드 연결에 대한 네트워크 진화** - 클라우드 마이그레이션은 회사 네트워크 내부 및 외부의 트래픽 흐름에 대한 양과 특성을 변경합니다. 또한 보안 위험을 완화하는 방법에도 영향을 줍니다.
-* **Microsoft 클라우드 연결의 공통 요소** - 네트워킹을 Microsoft 클라우드와 통합하여 다양한 서비스에 최적의 액세스를 제공합니다.
-* **Microsoft 클라우드 연결에 대한 ExpressRoute** - ExpressRoute는 Microsoft 클라우드에 처리량이 높은 개인 전용 네트워크 연결을 제공합니다.
-* **Microsoft SaaS(Office 365, Microsoft Intune 및 Dynamics CRM Online)에 대한 네트워킹 설계** - Microsoft SaaS 서비스에 대한 네트워크를 최적화하려면 인터넷 에지, 클라이언트 장치 및 일반적인 IT 작업을 신중하게 분석해야 합니다.
-* **Azure PaaS에 대한 네트워킹 설계** - Azure PaaS 앱에 대한 네트워크를 최적화하려면 적절한 인터넷 대역폭이 필요하며, 여러 사이트 또는 앱에서 네트워크 트래픽이 분산되어야 합니다.
-* **Azure IaaS에 대한 네트워킹 설계** - 서브넷, 주소 공간, 라우팅, DNS, 부하 분산 그리고 온-프레미스 네트워크, 다른 VNet 및 인터넷에 대한 연결을 포함한 서버 기반 IT 작업을 호스팅하기 위해 최적의 Azure VNet(가상 네트워크)을 만드는 디자인 프로세스를 단계별로 수행합니다.
-
-이 아키텍처 포스터에 기반한 새 Microsoft Virtual Academy 과정인 [Microsoft 클라우드 서비스에 대한 네트워크 최적화](https://mva.microsoft.com/training-courses/optimize-your-network-for-microsoft-cloud-offerings-17743)를 이용해 보세요.
 
 ### <a name="microsoft-hybrid-cloud-for-enterprise-architects"></a>엔터프라이즈 설계자용 Microsoft Hybrid Cloud
 하이브리드 클라우드 솔루션은 비즈니스 및 IT 요구 사항을 클라우드로 마이그레이션하거나 전반적인 IT 전략의 일환으로 클라우드 플랫폼과 서비스를 기존 온-프레미스 인프라와 통합하는 경로로 사용할 수 있습니다. Office 365 작업, PaaS 작업 및 IaaS LOB 솔루션용 하이브리드 솔루션에 대해 알아보세요.
 
 |**항목**|**설명**|
 |:-----|:-----|
-| [![Hybrid Cloud](./media/architecture-models-posters/image8.png)](https://www.microsoft.com/download/details.aspx?id=54424)|이 모델에 포함된 항목은 다음과 같습니다. <ul><li>최고의 비즈니스용 모바일 앱 </li><li>모바일 앱 개발을 위한 플랫폼, 서비스 및 리소스 </li><li>모바일 장치에서 클라우드 기반 응용 프로그램 및 데이터에 대한 액세스 관리 </li><li>Office 365 MDM, Azure Active Directory Premium 및 Intune에 대한 기능 및 플랫폼 지원 비교</ul></li>|
+| [![Hybrid Cloud](./media/architecture-models-posters/image8.png)](https://www.microsoft.com/download/details.aspx?id=54424)|이 모델에 포함된 항목은 다음과 같습니다. <ul><li>하이브리드 클라우드 개요 </li><li>Microsoft 하이브리드 클라우드 시나리오의 아키텍처 </li><li>Microsoft SaaS(Office 365)용 하이브리드 클라우드 시나리오 </li><li>Azure PaaS용 하이브리드 클라우드 시나리오 </li><li>Azure IaaS용 하이브리드 클라우드 시나리오 </ul></li>|
 
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=842082) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=842083) | [문서](https://technet.microsoft.com/library/mt750500.aspx) | [더 많은 언어](https://www.microsoft.com/download/details.aspx?id=54424)
 
@@ -139,7 +128,7 @@ Microsoft는 모바일 작업자를 위한 지원을 다양하게 제공합니�
 
 |**항목**|**설명**|
 |:-----|:-----|
-| [![Cloud Storage](./media/architecture-models-posters/image10.png)](https://www.microsoft.com/download/details.aspx?id=49552)|이 모델에 포함된 항목은 다음과 같습니다. <ul><li>클라우드 저장소 및 주요 시나리오를 사용하는 이유 </li><li>기존 서비스와 함께 번들로 제공되는 즉시 이동 가능한 클라우드 저장소 옵션(최소 구성으로 즉시 사용 가능) </li><li>일부 어셈블리에는 사용자 지정 맞춤에 대한 추가 구성 또는 코딩을 통해 저장소 솔루션의 시작점으로 사용할 수 있는 저장소 옵션이 필요했습니다. </li><li>사전 지식이 없어도 처음부터 저장소 문서 블록으로 저장소를 작성하여 사용자 고유의 앱용 저장소 솔루션 또는 저장소를 만듭니다.</ul></li>|
+| [![Cloud Storage](./media/architecture-models-posters/image10.png)](https://www.microsoft.com/download/details.aspx?id=49552)|이 모델에 포함된 항목은 다음과 같습니다. <ul><li>클라우드 저장소 및 주요 시나리오를 사용하는 이유 </li><li>기존 서비스와 함께 제공되는 클라우드 저장소 옵션 </li><li>저장소 솔루션에 대한 시작점으로 사용할 수 있는 저장소 옵션 </li><li>사용자 고유의 저장소 솔루션 또는 앱용 저장소를 만드는 데 사용되는 저장소 구성 요소</ul></li>|
 
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=842079) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=842080) | [더 많은 언어](https://www.microsoft.com/download/details.aspx?id=49552)
 
@@ -148,7 +137,7 @@ Microsoft는 모바일 작업자를 위한 지원을 다양하게 제공합니�
 
 |**항목**|**설명**|
 |:-----|:-----|
-| [![클라우드의 Contoso](./media/architecture-models-posters/image11.png)](https://www.microsoft.com/download/details.aspx?id=54427)|이 모델에 포함된 항목은 다음과 같습니다. <ul><li>클라우드 저장소 및 주요 시나리오를 사용하는 이유 </li><li>기존 서비스와 함께 번들로 제공되는 즉시 이동 가능한 클라우드 저장소 옵션(최소 구성으로 즉시 사용 가능) </li><li>일부 어셈블리에는 사용자 지정 맞춤에 대한 추가 구성 또는 코딩을 통해 저장소 솔루션의 시작점으로 사용할 수 있는 저장소 옵션이 필요했습니다.</li><li>사전 지식이 없어도 처음부터 저장소 문서 블록으로 저장소를 작성하여 사용자 고유의 앱용 저장소 솔루션 또는 저장소를 만듭니다.</ul></li>|
+| [![클라우드의 Contoso](./media/architecture-models-posters/image11.png)](https://www.microsoft.com/download/details.aspx?id=54427)|이 모델에 포함된 항목은 다음과 같습니다. <ul><li>Contoso Corporation 개요 </li><li>Contoso의 IT 인프라 및 요구 사항 </li><li>Contoso의 클라우드 네트워킹</li><li>Contoso의 클라우드 ID</li><li>Contoso의 구독, 라이선스 및 사용자 계정</li><li>Contoso의 클라우드 보안</li><li>Contoso의 엔터프라이즈 클라우드 시나리오</ul></li>|
 
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=842085) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=842086) | [문서](https://technet.microsoft.com/library/mt775341.aspx) | [더 많은 언어](https://www.microsoft.com/download/details.aspx?id=54427)
 

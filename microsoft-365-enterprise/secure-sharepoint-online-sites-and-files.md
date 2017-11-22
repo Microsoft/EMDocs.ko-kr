@@ -1,6 +1,6 @@
 ---
 title: "SharePoint Online 사이트 및 파일 보호 | Microsoft Docs"
-description: "SharePoint Online 및 Office 365에서 파일을 보호하기 위한 구성 권장 사항입니다."
+description: "Office 365에서 SharePoint Online 팀 사이트의 파일을 보호하기 위한 구성 권장 사항입니다."
 services: active-directory
 keywords: Office 365, Windows 10, Enterprise Mobility + Security, Microsoft 365 Enterprise
 documentationcenter: 
@@ -13,13 +13,13 @@ ms.workload:
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
-ms.date: 08/28/2017
+ms.date: 11/15/2017
 ms.author: josephd
-ms.openlocfilehash: f26ee8b2d33c9b22bfe72443be2caae4ebf4a6e4
-ms.sourcegitcommit: 5b34af60e3aac19d618f1c6297da91e2c050a374
+ms.openlocfilehash: 1bfa989d3929092c254972d3066246e1548ce198
+ms.sourcegitcommit: 684c942047754e93378e271f5b1a659a9752f0ba
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="secure-sharepoint-online-sites-and-files"></a>SharePoint Online 사이트 및 파일 보호
 
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/09/2017
 ## <a name="capability-overview"></a>기능 개요
 SharePoint Online 팀 사이트에 대한 권장 사항은 다양한 Office 365 기능을 활용합니다. 극비 사이트의 경우 Azure Information Protection을 사용하는 것이 좋습니다. 이는 EMS(Enterprise Mobility + Security)에 포함되어 있습니다. 
 
-아래 다이어그램에서는 4가지 SharePoint Online 팀 사이트에 권장되는 구성을 보여 줍니다.
+이 다이어그램에서는 4가지 SharePoint Online 팀 사이트에 권장되는 구성을 보여 줍니다.
 
  ![권장되는 SharePoint 구성](./media/secure-sharepoint-online-sites-and-files/capabilityoverview.png)
 
@@ -101,7 +101,9 @@ SharePoint Online 및 비즈니스용 OneDrive에 대한 장치 액세스 설정
 |DLP 정책|||레이블이 중요 계층으로 지정된 파일을 조직 외부로 보낼 때 사용자에게 경고합니다. <br>신용 카드 번호 또는 기타 개인 데이터와 같은 중요 데이터 형식의 외부 공유를 차단하기 위해 이러한 데이터 형식(구성한 사용자 지정 데이터 형식 포함)에 대한 추가 DLP 정책을 구성할 수 있습니다.|사용자가 극비 계층으로 레이블이 지정된 파일을 외부 조직으로 보내지 못하도록 차단합니다. 사용자(파일을 공유하는 사용자 포함)는 근거를 제공하여 이 설정을 재정의할 수 있습니다.|
 |Azure Information Protection||||Azure Information Protection을 사용하여 파일에 대한 권한을 자동으로 암호화하고 부여합니다. 파일이 누출되는 경우 이러한 보호는 해당 파일과 함께 이동합니다. Office 365는 Azure Information Protection으로 암호화된 파일을 읽을 수 없습니다. 또한 DLP 정책은 메타데이터(레이블 포함)에만 작동할 수 있지만 파일의 내용(예: 파일 내의 신용 카드 번호)에는 작동할 수 없습니다.|
 
-네 가지 유형의 SharePoint Online 팀 사이트를 이 솔루션에 배포하는 방법에 대한 자세한 내용은 [3계층 보호 사이트 배포](deploy-sites-for-three-tiers-of-protection.md)를 참조하세요.
+네 가지 유형의 SharePoint Online 팀 사이트를 이 솔루션에 배포하는 단계는 [3계층 보호 사이트 배포](deploy-sites-for-three-tiers-of-protection.md)를 참조하세요.
+
+데모, 개념 증명 또는 개발/테스트를 위해 이를 설정하는 단계별 지침은 [개발/테스트 환경의 SharePoint Online 사이트 보호](secure-sharepoint-online-sites-dev-test.md)를 참조하세요.
 
 ## <a name="office-365-classification-and-labels"></a>Office 365 분류 및 레이블
 중요 데이터가 있는 환경에서는 Office 365 레이블을 사용하는 것이 좋습니다. Office 365 레이블을 구성하고 게시한 후에는 다음을 수행할 수 있습니다.
@@ -110,7 +112,6 @@ SharePoint Online 및 비즈니스용 OneDrive에 대한 장치 액세스 설정
 * 특정 조건과 일치하는 경우 콘텐츠에 레이블을 자동으로 적용합니다.
 * Office 365 레이블에 기반한 DLP 정책을 만듭니다.
 * 조직의 사용자가 웹, Outlook 2010 이상, 비즈니스용 OneDrive, SharePoint Online 및 Office 365 그룹에서 Outlook 콘텐츠에 레이블을 수동으로 적용할 수 있게 합니다. 사용자는 종종 자신이 사용하고 있는 콘텐츠의 형식을 가장 잘 알고 있기 때문에 콘텐츠를 분류하여 적절한 DLP 정책을 적용할 수 있습니다.
-
 
  ![Office 365 레이블](./media/secure-sharepoint-online-sites-and-files/labels.png)
  
@@ -121,21 +122,23 @@ SharePoint Online 및 비즈니스용 OneDrive에 대한 장치 액세스 설정
 * 개인
 * 내부 공용
 
-이러한 레이블은 이 문서의 앞부분에 있는 그림과 차트에서 권장된 사이트와 매핑됩니다. 이 솔루션에서 DLP 정책을 구성하여 중요 및 극비 레이블이 지정된 파일을 누출하지 못하도록 방지하는 것이 좋습니다.
+이러한 레이블은 이 문서의 앞부분에 있는 그림과 차트에서 권장된 사이트와 매핑됩니다. 이 솔루션에서 DLP 정책을 구성하여 중요 및 극비 레이블이 지정된 파일을 조직 외부로 유출하지 못하도록 방지하는 것이 좋습니다.
 
-이 솔루션을 통해 Office 365 레이블 및 DLP 정책을 구성하는 방법에 대한 자세한 내용은 [Office 365 레이블 및 DLP(데이터 손실 방지)를 사용하여 파일 보호](protect-files-with-o365-labels-dlp.md)를 참조하세요.
+이 솔루션에서 Office 365 레이블 및 DLP 정책을 구성하는 단계는 [Office 365 레이블 및 DLP(데이터 손실 방지)를 사용하여 SharePoint Online 파일 보호](protect-files-with-o365-labels-dlp.md)를 참조하세요.
+
+데모, 개념 증명 또는 개발/테스트를 위해 이를 설정하는 단계별 지침은 [개발/테스트 환경의 SharePoint Online 사이트 보호](secure-sharepoint-online-sites-dev-test.md)를 참조하세요.
 
 ## <a name="azure-information-protection"></a>Azure Information Protection
-Azure Information Protection을 사용하여 어디서나 파일과 동반하는 레이블과 보호를 적용합니다. 이 솔루션의 경우 극비 레이블을 사용하여 최고 수준의 보안으로 보호해야 하는 파일에 대한 권한을 암호화하고 부여하는 것이 좋습니다. 
+Azure Information Protection을 사용하여 어디서나 파일과 동반하는 레이블과 보호를 적용합니다. 이 솔루션의 경우 Azure Information Protection 범위 지정 정책 및 극비 레이블의 하위 레이블을 사용하여 최고 수준의 보안으로 보호해야 하는 파일에 대한 권한을 암호화하고 부여하는 것이 좋습니다. 
 
-Office 365에 저장된 파일에 Azure Rights Management 암호화가 적용되어 있으면 이 파일의 내용을 처리할 수 없습니다. 즉 공동 작성, eDiscovery, 검색, Delve 및 기타 공동 작업 기능이 작동하지 않습니다. DLP 정책은 Office 365 레이블에 기반한 작업을 수행할 수 있지만 파일 내용에는 적용되지 않습니다.
+Office 365에 저장된 파일에 Azure Information Protection 암호화가 적용되어 있으면 이 파일의 내용을 처리할 수 없습니다. 즉 공동 작성, eDiscovery, 검색, Delve 및 기타 공동 작업 기능이 작동하지 않습니다. DLP 정책은 메타데이터(Office 365 레이블 포함)에만 작동할 수 있지만 파일의 내용(예: 파일 내의 신용 카드 번호)에는 작동할 수 없습니다.
 
  ![Office 365 레이블](./media/secure-sharepoint-online-sites-and-files/azureinfoprotect.png)
 
 그림에서 보여 주듯이 다음과 같이 설명됩니다.
 
-* Microsoft Azure Portal에서 Azure Information Protection를 구성합니다. Azure Information Protection 전역 정책에서 극비 레이블을 구성하는 것이 좋습니다.
-* Azure Information Protection 레이블은 Office 응용 프로그램의 **민감도** 도구 모음으로 표시됩니다. 
+* Microsoft Azure Portal에서 Azure Information Protection 정책 및 레이블을 구성합니다. 범위 지정 정책의 하위 레이블을 구성하는 것이 좋습니다.
+* Azure Information Protection 레이블은 Office 응용 프로그램에서 **Information Protection** 막대로 표시됩니다. 
 
 ### <a name="adding-permissions-for-external-users"></a>외부 사용자에 대한 권한 추가
 Azure Information Protection으로 보호된 파일에 대한 액세스 권한을 외부 사용자에게 부여할 수 있는 두 가지 방법이 있습니다. 이 두 가지 방법에서는 모두 Azure AD 계정이 외부 사용자에게 있어야 합니다. 외부 사용자가 Azure AD를 사용하는 조직의 구성원이 아닌 경우 [https://aka.ms/aip-signup](https://aka.ms/aip-signup) 등록 페이지를 사용하여 Azure AD 계정을 개별로 가져올 수 있습니다.
@@ -147,15 +150,10 @@ Azure Information Protection으로 보호된 파일에 대한 액세스 권한�
  조직(예: Fabrikam.com), Azure AD 그룹(조직 내의 재무 그룹) 또는 개별 사용자의 모든 사용자를 추가할 수 있습니다. 예를 들어 조절기의 외부 팀을 레이블 보호에 추가할 수 있습니다. 이 방법을 사용하면 외부 엔터티가 보호에 추가된 후 레이블로 보호된 파일에 대한 권한만 부여됩니다.
 
 ### <a name="deploying-and-using-azure-information-protection"></a>Azure Information Protection 배포 및 사용
-이 솔루션에서 AIP(Azure Information Protection)를 구성하는 방법에 대한 자세한 내용은 [AIP를 사용하여 파일 보호](protect-files-with-aip.md)를 참조하세요.
+이 솔루션에서 Azure Information Protection을 구성하는 단계는 [Azure Information Protection을 사용하여 SharePoint Online 파일 보호](protect-files-with-aip.md)를 참조하세요.
+
+데모, 개념 증명 또는 개발/테스트를 위해 이를 설정하는 단계별 지침은 [개발/테스트 환경의 SharePoint Online 사이트 보호](secure-sharepoint-online-sites-dev-test.md)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계 
 
-[정치적 캠페인, 비영리 조직, 및 기타 기밀 조직에 대 한 Microsoft 보안 지침](https://technet.microsoft.com/library/mt493213.aspx)
-
-[보안 솔루션](https://technet.microsoft.com/library/mt784690.aspx)
-
-[클라우드 채택 및 하이브리드 솔루션](https://technet.microsoft.com/library/dn262744.aspx)
-
-[개발/테스트 환경의 SharePoint Online 사이트 보호](secure-sharepoint-online-sites-dev-test.md)
- 
+[3단계 보호를 위한 사이트 배포](deploy-sites-for-three-tiers-of-protection.md)
