@@ -1,6 +1,6 @@
 ---
 title: "3계층 보호 사이트 배포 | Microsoft Docs"
-description: "다양한 정보 보호 수준에 맞게 SharePoint Online 팀 사이트를 만들고 구성합니다."
+description: "Office 365에서 다양한 정보 보호 수준에 맞게 SharePoint Online 팀 사이트를 만들고 구성합니다."
 services: active-directory
 keywords: Office 365, Windows 10, Enterprise Mobility + Security, Microsoft 365 Enterprise
 documentationcenter: 
@@ -13,13 +13,13 @@ ms.workload:
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
-ms.date: 08/28/2017
+ms.date: 09/11/2017
 ms.author: josephd
-ms.openlocfilehash: 6d19a8b2fa39806e2a03ca8e3eb9ffae15605cc4
-ms.sourcegitcommit: 5b34af60e3aac19d618f1c6297da91e2c050a374
+ms.openlocfilehash: 0c4e7eaf6449b551a0a6222d475b2c42f49550f9
+ms.sourcegitcommit: 684c942047754e93378e271f5b1a659a9752f0ba
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="deploy-sites-for-three-tiers-of-protection"></a>3계층 보호 사이트 배포
 
@@ -49,7 +49,7 @@ ms.lasthandoff: 09/09/2017
 ### <a name="private"></a>개인
 개인 액세스 및 권한이 있는 초기 SharePoint Online 팀 사이트를 만들려면 다음을 수행합니다.
 
-1. SharePoint Online 팀 사이트(SharePoint Online 관리자)를 관리하는 데에도 사용할 계정으로 **Office 365 포털**에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
+1. 필요할 경우 SharePoint Online 팀 사이트(SharePoint Online 관리자)를 관리하는 데에도 사용할 계정으로 **Office 365 포털**에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
 2. 타일 목록에서 **SharePoint**를 클릭합니다.
 3. 브라우저의 새 **SharePoint** 탭에서 + **사이트 만들기**를 클릭합니다.
 4. **사이트 만들기** 페이지에서 **팀 사이트**를 클릭합니다.
@@ -76,7 +76,7 @@ ms.lasthandoff: 09/09/2017
  권장되는 액세스 그룹 집합은 사이트 구성원, 사이트 뷰어 및 사이트 관리자에 대해 하나씩 구성된 액세스 그룹 집합입니다.
 * 액세스 그룹 내에서 중첩된 그룹을 사용할지 여부
 
-예를 들어 권장되는 그룹 구조와 권한 수준은 다음과 같습니다.
+예를 들어 권장되는 SharePoint 그룹 구조와 권한 수준은 다음과 같습니다.
 
 |**SharePoint 그룹**|**권한 수준**|**액세스 그룹(예제)**|
 |:-----|:-----|:-----|
@@ -98,7 +98,7 @@ SharePoint 그룹 및 권한 수준은 기본적으로 팀 사이트에 대해 �
 
 그리고 나서 다음 단계를 사용하여 SharePoint Online 팀 사이트를 만듭니다.
 
-1. SharePoint Online 팀 사이트(SharePoint Online 관리자)를 관리하는 데에도 사용할 계정으로 **Office 365 포털**에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
+1. 필요할 경우 SharePoint Online 팀 사이트(SharePoint Online 관리자)를 관리하는 데에도 사용할 계정으로 **Office 365 포털**에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
 2. 타일 목록에서 **SharePoint**를 클릭합니다.
 3. 브라우저의 새 **SharePoint 탭**에서 + **사이트 만들기**를 클릭합니다.
 4. **사이트 만들기** 페이지에서 **팀 사이트**를 클릭합니다.
@@ -109,7 +109,7 @@ SharePoint 그룹 및 권한 수준은 기본적으로 팀 사이트에 대해 �
 
 그리고 나서 새 SharePoint Online 팀 사이트에서 다음 단계를 사용하여 권한을 구성합니다.
 
-1. IT 관리자 또는 사이트에 대한 액세스 요청에 응답하고 처리할 책임이 있는 다른 사용자(_belindan@contoso.com_ - UPN의 한 가지 예)의 UPN(사용자 계정 이름)을 결정합니다. 해당 UPN을 아래에 작성합니다.
+1. IT 관리자 또는 사이트에 대한 액세스 요청에 응답하고 처리할 책임이 있는 다른 사용자(belindan@contoso.com - UPN의 한 가지 예)의 UPN(사용자 계정 이름)을 결정합니다. 해당 UPN을 아래에 작성합니다.
 2. 도구 모음에서 설정 아이콘을 클릭한 다음 **사이트 권한**을 클릭합니다.
 3. **사이트 권한** 창에서 **고급 권한 설정**을 클릭합니다.
 4. 브라우저의 새 **권한** 탭에서 **액세스 요청 설정**을 클릭합니다.
@@ -187,16 +187,9 @@ SharePoint 그룹 및 권한 수준은 기본적으로 팀 사이트에 대해 �
 
 사이트 구성원은 이제 액세스 그룹 중 하나의 그룹 구성원 자격을 통해 사이트의 리소스에서 안전하게 공동 작업할 수 있습니다. 
 
-자세한 내용은 [Office 365 레이블 및 DLP(데이터 손실 방지)를 사용하여 파일 보호](protect-files-with-o365-labels-dlp.md)를 참조하세요.
-
 ## <a name="next-steps"></a>다음 단계
-[정치적 캠페인, 비영리 조직, 및 기타 기밀 조직에 대 한 Microsoft 보안 지침](https://technet.microsoft.com/library/mt493213.aspx)
 
-[SharePoint Online 사이트 및 파일 보호](secure-sharepoint-online-sites-and-files.md)
-
-[개발/테스트 환경의 SharePoint Online 사이트 보호](secure-sharepoint-online-sites-dev-test.md)
-
-[클라우드 채택 및 하이브리드 솔루션](https://technet.microsoft.com/library/dn262744.aspx)
+[Office 365 레이블 및 DLP를 사용하여 파일 보호](protect-files-with-o365-labels-dlp.md)
 
 
 

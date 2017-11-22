@@ -12,11 +12,11 @@ ms.technology: techgroup-identity
 ms.assetid: 2f906e2e-3d99-40e6-b5cc-8d903fcda444
 ms.reviewer: v-craic
 ms.suite: ems
-ms.openlocfilehash: 267a69648014d53307d255533f64ee579f4141fa
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: 03b6cbb8ab575b5cae99403f68579108ab2239a8
+ms.sourcegitcommit: 9e30dab85116767c71b911827d839a433418b9b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 11/09/2017
 ---
 # <a name="the-role-of-azure-information-protection-in-securing-data"></a>데이터 보안 유지에서 Azure Information Protection의 역할
 
@@ -113,11 +113,3 @@ Azure Information Protection은 응용 프로그램이 문서와 연결된 권�
 - **Windows AppLocker**: 악성 앱이 없는 관리되고 제어되는 환경을 가능하게 함
 - **Azure AD ID 보호**: 사용자 ID의 신뢰를 향상함
 - **EMS 조건부 액세스**: 장치 및 ID의 신뢰를 향상함
-
-## <a name="additional-resources"></a>추가 리소스
-
-아래 시나리오는 Azure Information Protection이 데이터를 보호하는 데 도움을 주는 방법에 대한 자세한 내용을 설명합니다.
-
-- [분류, 레이블 지정 및 보호를 사용하여 데이터 보안 유지](infoprotect-secure-classify-scenario.md)
-- [내부 및 외부에서 중요한 데이터 공유](share-sensitive-data.md)
-- [공유 데이터의 사용을 추적하고 데이터 남용에 대응](infoprotect-track-usage-scenario.md)
