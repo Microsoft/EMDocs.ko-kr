@@ -13,15 +13,15 @@ ms.technology:
 ms.assetid: 5c13446e-aa31-47df-ad9d-373be7660197
 ms.reviewer: 
 ms.suite: ems
-ms.openlocfilehash: 395ed9dafde409d2357bfe7f72283bb7eff24820
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: 29dae4030d38fed20585715de68492d37c1b67cf
+ms.sourcegitcommit: 5cde65a0e614800ebd9c8479437dc9dd846c8cd8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 11/29/2017
 ---
 # <a name="end-user-intune-enrollment-instructions-for-it-administrators"></a>IT 관리자를 위한 최종 사용자 Intune 등록 지침
 
-이 문서에는 Microsoft Intune™에서 iOS 및 Android 장치를 등록하는 데 도움이 되도록 사용자에게 사용자 지정하여 제공할 수 있는 등록 지침이 포함되어 있습니다(Windows 장치의 경우 Intune에서 Windows 장치 사용 참조). 사용자에게 가장 적합하다고 생각되는 이 문서의 부분을 복사하는 것이 좋습니다. 예를 들어 각 장치 플랫폼을 위한 단일 문서를 생성하거나 더 많은 스크린샷을 추가할 수 있습니다.
+이 문서에는 Microsoft Intune™에서 iOS 및 Android 장치를 등록하는 데 도움이 되도록 사용자에게 사용자 지정하여 제공할 수 있는 등록 지침이 포함되어 있습니다(Windows 장치의 경우 [Intune에서 Windows 장치 사용 참조](/intune-user-help/using-your-windows-device-with-intune)). 사용자에게 가장 적합하다고 생각되는 이 문서의 부분을 복사하는 것이 좋습니다. 예를 들어 각 장치 플랫폼을 위한 단일 문서를 생성하거나 더 많은 스크린샷을 추가할 수 있습니다.
 
 이러한 작성된 지침 외에 Intune 최종 사용자 동영상([https://channel9.msdn.com/Series/IntuneEnrollment](https://channel9.msdn.com/Series/IntuneEnrollment)에 있음)의 하이퍼링크를 포함할 수도 있습니다.
 

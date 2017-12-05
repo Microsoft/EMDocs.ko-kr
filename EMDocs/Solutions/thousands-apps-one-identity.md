@@ -14,11 +14,11 @@ ms.assetid: dd879a14-919e-431b-89b9-c035c83a6899
 ROBOTS: 
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-ms.openlocfilehash: 27f71a706990997908a13b34477a1aa87ba698ab
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: b995c17749d1eaf6ae9561980ff87b97f7f5e1a0
+ms.sourcegitcommit: 5cde65a0e614800ebd9c8479437dc9dd846c8cd8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 11/29/2017
 ---
 # <a name="thousands-of-apps-one-identity"></a>수천 개의 응용 프로그램, 하나의 ID
 Azure AD(Azure Active Directory)는 클라우드 리소스와 온-프레미스 리소스 모두에 액세스하는 SaaS(Software as a Service) 응용 프로그램 사용자에게 공통 ID를 제공하여 사용자의 생산성을 개선합니다.
@@ -112,6 +112,6 @@ Azure 응용 프로그램 갤러리에 나열되어 있는지 여부에 상관�
 - **Azure.com의 앱 갤러리**
   - https://azure.microsoft.com/marketplace/active-directory/
 - **SaaS 응용 프로그램 목록**(통합 기능 포함)
-  - https://aadappgallery.azurewebsites.net/M
+  - https://aadappgallery.azurewebsites.net/Default.aspx?Microsoft_Integrated_Synchronization=on
 - **SaaS 응용 프로그램 자습서**
   - https://azure.microsoft.com/documentation/articles/active-directory-saas-tutorial-list/
