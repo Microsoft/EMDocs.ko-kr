@@ -8,14 +8,14 @@ keywords: "Microsoft 365, Microsoft 365 Enterprise, Microsoft 365 문서, Office
 ms.localizationpriority: high
 audience: microsoft-business
 ms.prod: microsoft-365-enterprise
-ms.date: 09/25/2017
+ms.date: 12/10/2017
 title: "Microsoft 365 Enterprise 설명서 및 리소스"
 description: "Microsoft 365 엔터프라이즈 IT 관리자, 정보 근로자 및 파트너가 사용할 수 있는 제품 설명서 및 리소스에 알아봅니다."
-ms.openlocfilehash: d8e1842574b3edf56249a4db0084ad90724320d5
-ms.sourcegitcommit: 586bfc33601ccc5f3c05ff5c4157eddb9eef4479
+ms.openlocfilehash: ea8c8cc2adedec9515bc1307e80b929b503053eb
+ms.sourcegitcommit: feafa54c1fb5266d123bda8f4f15a929814f4714
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2017
+ms.lasthandoff: 12/10/2017
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -1141,18 +1141,18 @@ ms.lasthandoff: 10/18/2017
                                 </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/en-us/windows/uwp/enterprise/" target="_blank">
+                                <a href="https://developer.microsoft.com/windows/enterprise" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub-developer/ms365enterprise-developer-uwp-apps.svg" alt="Develop enterprise UWP apps" />
+                                                        <img src="media/hub-developer/ms365enterprise-developer-uwp-apps.svg" alt="Windows Dev Center" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>엔터프라이즈 UWP 앱 개발</h3>
-                                                    <p>보안, 데이터 바인딩 및 엔터프라이즈, 네트워킹 및 데이터 직렬화 등 Windows 10 UWP(유니버설 Windows 플랫폼) 앱의 주요 엔터프라이즈 기능에 대한 개요를 확인하세요.</p>
+                                                    <h3>Windows 개발자 센터</h3>
+                                                    <p>Windows 10의 주요 엔터프라이즈 기능에 대한 개요를 확인하고, UWP(Universal Windows Platform) 앱 개발을 위한 리소스를 확인하세요.</p>
                                                 </div>
                                             </div>
                                         </div>
