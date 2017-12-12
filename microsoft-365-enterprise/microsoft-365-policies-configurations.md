@@ -9,11 +9,11 @@ ms.date: 08/30/2017
 ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: d08bc136e3842e8384e5c562df1a2fb543786ced
-ms.sourcegitcommit: feb1e385af0bc2a2eba56e5c2d1e8b4ba8866126
+ms.openlocfilehash: 70eb0ba8a887a703ee8c723a3a4584f3bedc1e7f
+ms.sourcegitcommit: 3cc06a29762d99a3649fb3cc80f9534dc6396d80
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 12/11/2017
 ---
 # <a name="recommended-security-policies-and-configurations"></a>권장되는 보안 정책 및 구성
 
@@ -91,7 +91,7 @@ Azure AD 및 AD FS는 MFA 클레임을 사용하여 MFA를 통해 인증을 수�
 ### <a name="windows-devices"></a>Windows 장치
 Azure는 온-프레미스와 Azure AD에 대해 모두 가장 원활한 SSO 경험을 제공하도록 설계되었으므로 Windows 10(버전 1703 이상)을 사용하는 것이 좋습니다. 회사 또는 학교에서 발급한 장치는 Azure AD에 직접 가입하도록 구성하거나 조직이 온-프레미스 AD 도메인 가입을 사용하는 경우 해당 장치를 [Azure AD에 자동으로 등록하도록 구성](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup)해야 합니다.
 
-BYOD Windows 장치의 경우 사용자는 "회사 또는 학교 계정 추가"를 사용할 수 있습니다. BYOD Windows 장치의 경우 사용자는 "회사 또는 학교 계정 추가"를 사용할 수 있습니다. 참고로 Windows 10의 Chrome 브라우저 사용자는 사용자가 Edge/IE와 같은 원활한 로그인 경험을 얻을 수 있도록 [확장 기능을 설치](https://chrome.google.com/webstore/detail/windows-10-accounts/ppnbnpeolgkicgegkbkbjmhlideopiji?utm_source=chrome-app-launcher-info-dialog)해야 합니다. 또한 조직이 도메인에 가입된 Windows 7 장치를 가지고 있는 경우 Azure AD에 장치를 등록하려면 Windows 10이 아닌 컴퓨터에 대해 Microsoft Workplace Join [패키지를 설치](https://www.microsoft.com/download/details.aspx?id=53554)할 수 있습니다.
+BYOD Windows 장치의 경우 사용자는 "회사 또는 학교 계정 추가"를 사용할 수 있습니다. 참고로 Windows 10의 Chrome 브라우저 사용자는 사용자가 Edge/IE와 같은 원활한 로그인 경험을 얻을 수 있도록 [확장 기능을 설치](https://chrome.google.com/webstore/detail/windows-10-accounts/ppnbnpeolgkicgegkbkbjmhlideopiji?utm_source=chrome-app-launcher-info-dialog)해야 합니다. 또한 조직이 도메인에 가입된 Windows 7 장치를 가지고 있는 경우 Azure AD에 장치를 등록하려면 Windows 10이 아닌 컴퓨터에 대해 Microsoft Workplace Join [패키지를 설치](https://www.microsoft.com/download/details.aspx?id=53554)할 수 있습니다.
 
 ### <a name="ios-devices"></a>iOS 장치
 조건부 액세스 또는 MFA 정책을 배포하기 전에 사용자 장치에 [Microsoft Authenticator 앱](https://docs.microsoft.com/azure/multi-factor-authentication/end-user/microsoft-authenticator-app-how-to)을 설치하는 것이 좋습니다. 적어도 사용자에게 회사 또는 학교 계정을 추가하여 Azure AD에 [장치를 등록하라고 요구할 때](https://docs.microsoft.com/azure/multi-factor-authentication/end-user/multi-factor-authentication-end-user-first-time) 또는 Intune 회사 포털 앱을 설치하여 사용자의 장치를 관리 대상으로 등록할 때 앱을 설치해야 합니다. 이는 구성된 조건부 액세스 정책에 따라 달라집니다.
