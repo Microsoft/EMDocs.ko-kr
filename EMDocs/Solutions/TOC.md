@@ -8,7 +8,6 @@
 ### [첫 번째 관문에서 보호](protect-front-door.md)
 ### [사용자 실수로부터 데이터 보호](protect-data-user-mistake.md)
 ### [손상을 입기 전에 공격 감지](detect-attacks-before-damage.md)
-### [시뮬레이션 플레이북 공격](ata-attack-simulation-playbook.md)
 ## [정보 보호](azure-information-protection-securing-data.md)
 ### [데이터 보안 유지에서 Azure Information Protection의 역할](azure-information-protection-securing-data.md)
 ## [EMS(Enterprise Mobility + Security)용 FastTrack 센터 혜택](enterprise-mobility-fasttrack-program.md)
