@@ -5,15 +5,15 @@ author: barlanmsft
 manager: angrobe
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 10/27/2017
+ms.date: 12/10/2017
 ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: 46a63151471a10b578ffaf3bddb27ddfcd5500a5
-ms.sourcegitcommit: feb1e385af0bc2a2eba56e5c2d1e8b4ba8866126
+ms.openlocfilehash: a25903de35ad349a09056ab24da5e00cd1a07695
+ms.sourcegitcommit: 3cc06a29762d99a3649fb3cc80f9534dc6396d80
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 12/11/2017
 ---
 # <a name="general-identity-and-device-access-policy-recommendations"></a>일반적인 ID 및 장치 액세스 정책 권장 사항
 이 문서에서는 Microsoft 365 Enterprise 보안을 유지할 수 있는 일반적인 권장 정책을 설명합니다. 조건부 액세스에 대한 기술적인 필수 구성 요소뿐만 아니라 사용자에게 최상의 SSO 환경을 제공하기 위해 Microsoft에서 권장하는 기본 플랫폼 클라이언트 구성에 대해서도 설명합니다.
@@ -23,7 +23,7 @@ ms.lasthandoff: 10/27/2017
 권장되는 정책을 성공적으로 배포하려면 Azure Portal에서 앞서 말한 필수 구성 요소에 맞는 조치를 취해야 합니다. 특히 다음을 수행해야 합니다.
 * Azure ID 보호에서 위험 점수를 올바르게 생성할 수 있도록 명명된 네트워크 구성
 * 모든 사용자에게 다단계 인증(MFA)에 맞게 등록하도록 요구
-* 사용자가 직접 암호를 재설정할 수 있도록 암호 동기화 및 셀프 서비스 암호 재설정 구성
+* 사용자가 직접 암호를 재설정할 수 있도록 암호 해시 동기화 및 셀프 서비스 암호 재설정 구성
 
 특정 사용자 그룹을 대상으로 특별한 Azure AD 및 Intune 정책을 만들 수 있습니다. 이전에 준비된 방법으로 정의한 정책을 롤아웃하는 것이 좋습니다. 이렇게 하면 정책을 기준으로 정책 및 지원 팀의 성능에 대해 증분 방식으로 유효성을 검사할 수 있습니다.
 
@@ -31,9 +31,10 @@ ms.lasthandoff: 10/27/2017
 ## <a name="prerequisites"></a>전제 조건
 
 이 문서의 나머지 부분에서 설명하는 정책을 구현하기 전에 조직이 충족해야 하는 몇 가지 필수 구성 요소가 있습니다.
+* [암호 해시 동기화 구성](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-implement-password-synchronization). 유출된 자격 증명을 검색하여 위험 기반 조건부 액세스를 적용하는 조치를 취하기 위해 이 구성을 사용해야 합니다. **참고:** 이 구성은 조직에서 관리 인증(예: PTA(통과 인증)) 또는 페더레이션 인증을 사용하는지와 관계없이 필수입니다.
 * [명명된 네트워크 구성](https://docs.microsoft.com/azure/active-directory/active-directory-known-networks-azure-portal). Azure AD ID 보호는 모든 사용 가능한 세션 데이터를 수집하고 분석하여 위험 점수를 생성합니다. 네트워크에 대한 조직의 공용 IP 범위를 Azure AD 명명된 네트워크 구성에 지정하는 것이 좋습니다. 이러한 범위에서 시작하는 트래픽에는 감소된 위험 점수를 지정하므로 회사 환경 외부에서 오는 트래픽은 더 높은 위험 점수로 처리됩니다.
 * [다단계 인증(MFA)을 사용하여 모든 사용자 등록](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-manage-users-and-devices). Azure AD ID 보호에서는 Azure MFA를 사용하여 추가 보안 확인을 수행하도록 합니다. 모든 사용자가 Azure MFA에 미리 등록하도록 요구하는 것이 좋습니다.
-* [도메이에 가입된 Windows 컴퓨터에 대해 자동 장치 등록 사용](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup). 조건부 액세스를 통해 서비스에 연결하는 장치가 도메인에 가입되거나 호환되는 장치가 되도록 할 수 있습니다. Windows 컴퓨터에서 이 기능을 지원하려면 Azure AD를 사용하여 장치를 등록해야 합니다.  이 문서에서는 자동 장치 등록을 구성하는 방법에 대해 설명합니다.  참고로 AD FS는 요구 사항입니다.
+* [도메이에 가입된 Windows 컴퓨터에 대해 자동 장치 등록 사용](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup). 조건부 액세스를 통해 서비스에 연결하는 장치가 도메인에 가입되거나 호환되는 장치가 되도록 할 수 있습니다. Windows 컴퓨터에서 이 기능을 지원하려면 Azure AD를 사용하여 장치를 등록해야 합니다.  이 문서에서는 자동 장치 등록을 구성하는 방법에 대해 설명합니다.
 * **사용자의 지원 팀 준비**. MFA를 완료할 수 없는 사용자에 대한 계획을 시행합니다. 이러한 사용자를 정책 제외 그룹에 추가하거나 이들에 대한 새 MFA 정보를 등록하면 됩니다. 이러한 보안에 중요한 변경을 하기 전에 실제 사용자가 요청을 하도록 해야 합니다. 사용자의 관리자에 대해 승인을 통해 도움을 주도록 요구하는 것이 효과적인 단계입니다.
 * [온-프레미스 AD에 대한 암호 쓰기 저장 구성](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started). 암호 쓰기 저장을 사용하여 Azure AD는 높은 계정 손상 위험이 검색된 경우 사용자가 자신의 온-프레미스 암호를 변경하도록 요구할 수 있습니다. Azure AD Connect를 둘 중의 한 가지 방법으로 사용하여 이 기능을 활성화할 수 있습니다. Azure AD Connect 설정 마법사의 선택적 기능 화면에서 암호 쓰기 저장을 사용하도록 설정하거나 Windows PowerShell을 통해 사용하도록 설정할 수 있습니다.  
 * [최신 인증 사용](https://support.office.com/article/Enable-or-disable-modern-authentication-in-Exchange-Online-58018196-f918-49cd-8238-56f57f38d662) 및 [레거시 끝점 보호](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-supported-apps).  조건부 액세스는 최신 인증을 사용하는 모바일 및 데스크톱 응용 프로그램에서 모두 작동합니다. 응용 프로그램이 레거시 인증 프로토콜을 사용하는 경우 적용하는 조건과 상관없이 액세스 권한을 획득할 수 있습니다. 조건부 액세스 규칙 및 다른 응용 프로그램 진입점을 보호하기 위해 실행해야 하는 단계를 사용할 수 있는 응용 프로그램을 알고 있어야 합니다.
