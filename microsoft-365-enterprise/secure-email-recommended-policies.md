@@ -5,34 +5,46 @@ author: barlanmsft
 manager: angrobe
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 08/30/2017
+ms.date: 01/18/2018
 ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: b2650e0c792c32cb4bc43556be9efc30ed9609e3
-ms.sourcegitcommit: 684c942047754e93378e271f5b1a659a9752f0ba
+ms.openlocfilehash: c86f8f86d134d77e45ab7a59564b9f0d4821ed38
+ms.sourcegitcommit: eb3521981c5dec164ce2a14b4d4d53830b5ba461
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/18/2018
 ---
 # <a name="policy-recommendations-for-securing-email"></a>메일을 보호하기 위한 정책 권장 사항
 
 이 문서에서는 최신 인증 및 조건부 액세스를 지원하는 조직의 메일 및 메일 클라이언트를 보호하는 데 도움이 되는 권장 정책을 설명합니다. [일반 ID 및 액세스 권장 사항](identity-access-policies.md)에 추가되는 내용입니다.
 
-다음 권장 사항은 요구의 세분성에 따라 적용할 수 있는 세 가지 메일 보안 및 보호 계층 **기준**, **중요** 및 **높은 규제**를 기준으로 합니다. [권장되는 보안 정책 및 구성 소개](microsoft-365-policies-configurations.md)에서 이러한 권장 사항을 참조하여 이러한 보안 계층, 권장되는 클라이언트 운영 체제에 대해 더 자세히 알아볼 수 있습니다.
+다음 권장 사항은 요구의 세분성에 따라 적용할 수 있는 세 가지 메일 보안 및 보호 계층을 기준으로 합니다.
 
->[!NOTE]
->이러한 권장 사항의 일부로 만드는 모든 보안 그룹은 Office 기능을 사용하도록 설정한 상태에서 만들어야 합니다. 이 지침은 SharePoint에서 문서를 보호할 때 AIP 배포를 위해 특히 중요합니다.
+- **기준**: 본인의 데이터에 액세스하는 ID와 장치뿐만 아니라 데이터를 보호하기 위해서도 최소 표준을 설정하는 것이 좋습니다. Microsoft에서는 많은 조직의 요구를 충족하는 강력한 기본 보호를 제공합니다. 일부 조직에서는 기본 요구 사항을 충족하기 위해 추가 기능이 필요합니다.
+- **중요**: 일부 고객은 높은 수준에서 보호해야 하는 데이터 하위 집합을 포함하고 있습니다. Office 365 환경의 특정 데이터 집합에 대해 증가된 보호를 적용할 수 있습니다. 중요 데이터에 액세스하는 ID와 장치를 유사한 보안 수준으로 보호하는 것이 좋습니다. 
+- **높은 규제**: 일부 조직에는 높은 수준의 대외비, 거래 비밀 또는 규제 대상 데이터인 아주 적은 양의 데이터가 있을 수 있습니다. Microsoft는 ID와 장치에 대한 추가된 보호를 포함하여 조직이 이러한 요구 사항을 충족하는 데 도움이 되는 기능을 제공합니다.
+
+자세한 내용은 [권장되는 보안 정책 및 구성 소개](microsoft-365-policies-configurations.md) 항목을 참조하세요.
+
+> [!IMPORTANT]
+> 이러한 권장 사항의 일부로 만드는 모든 보안 그룹은 Office 기능을 사용하도록 설정한 상태에서 만들어야 합니다. 이 지침은 SharePoint에서 문서를 보호할 때 AIP(Azure Information Protection) 배포를 위해 특히 중요합니다.
 >
 >![보안 그룹에 대해 활성화되는 Office 기능](./media/security-group.png)
 >
 
 ## <a name="baseline"></a>기준
-새 조건부 액세스 정책을 만들려면 관리자 자격 증명을 사용하여 Microsoft Azure Portal에 로그인합니다. 그런 다음 **Azure Active Directory > 보안 > 조건부 액세스**로 이동합니다.
+새 조건부 액세스 정책을 만들려면 
 
-다음 스크린 샷과 같이 새 정책을 추가할 수 있습니다(+추가).
+1. [Azure Portal](https://portal.azure.com)로 이동한 다음 자격 증명을 사용하여 로그인합니다. 정상적으로 로그인되면 Azure 대시보드가 표시됩니다.
 
-![기준 CA 정책 만들기](./media/secure-email/baseline-ca-policy.png)
+2. 왼쪽 메뉴에서 **Azure Active Directory**를 선택합니다.
+
+3. **보안** 섹션 아래에서 **조건부 액세스**를 선택합니다.
+
+4. 아래 스크린샷에 표시된 대로 **새 정책**을 선택합니다.
+
+![기준 CA 정책 만들기](./media/secure-email/CA-EXO-policy-1.png)
 
 다음 테이블에서는 각 보호 수준에 요구되는 정책을 표현하는 데 필요한 적합한 설정을 설명합니다.
 
@@ -56,43 +68,53 @@ ms.lasthandoff: 11/17/2017
 
 ### <a name="require-a-compliant-or-domain-joined-device"></a>호환되거나 도메인에 가입된 장치 필요
 
-Exchange Online용 새 Intune 조건부액세스 정책을 만들려면 사용자의 관리자 자격 증명을 사용하여 [Microsoft 관리 포털(http://manage.microsoft.com)](http://manage.microsoft.com/)에 로그인한 다음 **정책 > 조건부 액세스 > Exchange Online 정책**으로 이동합니다.
+Exchange Online에 대해 조건부 액세스 정책을 만들려면,
 
-![Exchange Online 정책](./media/secure-email/exchange-online-policy.png)
+1. [Azure Portal](https://portal.azure.com)로 이동한 다음 자격 증명을 사용하여 로그인합니다. 정상적으로 로그인되면 Azure 대시보드가 표시됩니다.
 
-호환되거나 도메인에 가입된 장치를 요구하려면 Intune 관리 포털에서 Exchange Online에 대해 명시적으로 조건부 액세스 정책을 설정해야 합니다.
+2. 왼쪽 메뉴에서 **Azure Active Directory**를 선택합니다.
 
-|Categories|유형|속성|값|참고|
-|:---------|:---|:---------|:-----|:----|
-|**응용 프로그램 액세스**|Outlook 및 최신 인증을 사용하는 기타 앱|모든 플랫폼|True|선택|
-|||Windows는 다음 요구 사항을 충족해야 함|장치가 도메인에 가입되어 있거나 호환되어야 함|선택됨(목록)|
-|||선택한 플랫폼|False||
-||Outlook Web Access(OWA)|Outlook과 동일한 플랫폼에서 호환되지 않는 장치 차단|True|Check|
-||기본 인증을 사용하는 Exchange ActiveSync 앱|Microsoft Intune에서 지원하는 플랫폼에서 비규격 장치 차단|True|Check|
-|||Microsoft Intune에서 지원하지 않는 플랫폼에서 다른 모든 장치 차단|True|Check|
-|**정책 배포**|대상 그룹|이 정책의 대상으로 지정할 Active Directory 그룹 선택|||
-|||모든 사용자|False||
-|||선택된 보안 그룹|True|선택|
-|||수정|대상 사용자를 포함하는 특정 보안 그룹 선택||
-||제외 그룹|이 정책에서 제외할 Active Directory 그룹 선택(대상이 지정된 그룹 목록의 구성원 재정의)|||
-|||제외 사용자 없음|True|선택|
-|||선택된 보안 그룹|False|||
+3. **보안** 섹션 아래에서 **조건부 액세스**를 선택합니다.
 
-### <a name="mobile-application-management-conditional-access-for-exchange-online"></a>Exchange Online에 대한 모바일 응용 프로그램 관리용 조건부 액세스
+4. **새 정책**을 선택합니다.
 
-모바일 앱을 관리하려면 Intune 관리 포털에서 Exchange Online에 대해 명시적으로 조건부 액세스 정책을 설정해야 합니다.
+5. 정책 이름을 입력한 다음 정책을 적용할 **사용자 및 그룹**을 선택합니다.
 
-모바일 앱을 관리하려면 사용자의 관리자 자격 증명을 사용하여 Microsoft Azure Portal에 로그인한 다음 **Intune 앱 보호 > 설정 > 조건부 액세스 > Exchange Online**으로 이동합니다.
+6. **클라우드 앱**을 선택합니다.
 
-|Categories|유형|속성|값|참고|
-|:---------|:---|:---------|:-----|:----|
-|**앱 액세스**|허용되는 앱|앱 액세스 사용|Intune 앱 정책을 지원하는 앱 허용|선택됨(목록) – Intune 앱 정책에서 지원하는 앱/플랫폼 조합의 목록 표시|
-|**사용자 액세스**|허용되는 앱|제한된 사용자 그룹|사용자 그룹 추가 – 대상 사용자를 포함하는 특정 보안 그룹 선택|파일럿 사용자를 포함한 보안 그룹으로 시작|
-|||예외 사용자 그룹|예외 보안 그룹|||
+7. **앱 선택**을 선택하고, **클라우드 앱** 목록에서 **Office 365 Exchange Online**을 선택하고 **선택**을 클릭합니다. **Office 365 Exchange Online** 앱을 선택한 후 **완료**를 클릭합니다.
 
-#### <a name="apply-to"></a>적용 대상
+8. **액세스 제어** 섹션에서 **권한 부여**를 선택합니다.
 
-파일럿 프로젝트가 완료된 후 이 정책을 조직의 모든 사용자에게 적용해야 합니다.
+9. **액세스 권한 부여**를 선택하고 **준수 상태로 표시된 장치 필요** 및 **도메인 조인 필요(하이브리드 Azure AD)**를 둘 다 선택한 후 **선택**을 선택합니다.
+
+10. **만들기**를 클릭하여 Exchange Online 조건부 액세스 정책을 만듭니다.
+
+    > [!NOTE]
+    > Azure의 Intune에서부터, Azure Active Directory 워크로드에서 모든 조건부 액세스 정책을 만들어야 합니다. Intune은 편의를 위해 포털에서 Azure AD 조건부 액세스 정책 워크로드에 대한 링크를 제공합니다.
+
+    > [!IMPORTANT]
+    > Intune 클래식 포털에서 이전에 만든 조건부 액세스 정책을 Azure Portal의 Intune으로 마이그레이션하는 데 도움이 필요한 경우 [Intune 클래식 포털에서 Azure Portal로 조건부 액세스 정책 다시 할당](https://docs.microsoft.com/intune/conditional-access-intune-reassign) 항목을 참조하세요. 
+
+### <a name="app-based-conditional-access-for-exchange-online"></a>Exchange Online에 대한 앱 기반 조건부 액세스
+
+Azure Portal에서 Intune의 Exchange Online에 대한 앱 기반 조건부 액세스 정책을 설정하여 보안 계층을 하나 이상 추가할 수 있습니다. Exchange Online에 대한 앱 기반 조건부 액세스를 적용하는 경우 사용자가 회사 메일에 액세스하기 위해 특정 앱(예: Microsoft Outlook 앱)을 사용해야 합니다.
+
+앱 기반 조건부 액세스 정책을 추가하려면,
+
+1. [Azure Portal](https://portal.azure.com)로 이동한 다음 Intune 자격 증명을 사용하여 로그인합니다. 정상적으로 로그인되면 Azure 대시보드가 표시됩니다.
+
+2. 왼쪽 메뉴에서 **추가 서비스**를 선택한 다음 "**Intune**"을 입력합니다.
+
+3. **Intune 앱 보호**를 선택합니다.
+
+4. **Intune 모바일 응용 프로그램 관리** 블레이드에서 **모든 설정**을 선택합니다.
+
+5. **조건부 액세스** 섹션에서 **Exchange Online**을 선택합니다.
+
+6. **Intune 앱 정책을 지원하는 앱 허용**을 선택한 후 앱(E.g. Microsoft Outlook)을 선택합니다.
+
+7. **제한된 사용자 그룹**을 선택하고 **그룹 선택**을 클릭하고 정책을 적용할 사용자 또는 그룹을 선택한 후 **선택**을 클릭합니다.
 
 ## <a name="sensitive"></a>중요
 
@@ -117,7 +139,7 @@ Exchange Online용 새 Intune 조건부액세스 정책을 만들려면 사용�
 ### <a name="require-a-compliant-or-domain-joined-device"></a>호환되거나 도메인에 가입된 장치 필요
 (기준 지침 참조)
 
-### <a name="mobile-application-management-conditional-access-for-exchange-online"></a>Exchange Online에 대한 모바일 응용 프로그램 관리용 조건부 액세스
+### <a name="app-based-conditional-access-for-exchange-online"></a>Exchange Online에 대한 앱 기반 조건부 액세스
 
 (기준 지침 참조)
 
@@ -144,7 +166,7 @@ Exchange Online용 새 Intune 조건부액세스 정책을 만들려면 사용�
 
 ### <a name="require-a-compliant-or-domain-joined-device"></a>호환되거나 도메인에 가입된 장치 필요
 (기준 지침 참조)
-### <a name="mobile-application-management-conditional-access-for-exchange-online"></a>Exchange Online에 대한 모바일 응용 프로그램 관리용 조건부 액세스
+### <a name="app-based-conditional-access-for-exchange-online"></a>Exchange Online에 대한 앱 기반 조건부 액세스
 (기준 지침 참조)
 #### <a name="apply-to"></a>적용 대상
 파일럿 프로젝트가 완료된 후 높은 규제를 받는다고 생각하는 메일에 대한 액세스 권한을 요구하는 조직의 사용자에게 이 정책을 적용해야 합니다.
@@ -156,7 +178,7 @@ Exchange Online용 새 Intune 조건부액세스 정책을 만들려면 사용�
 
 |Categories|유형|속성|값|참고|
 |:---------|:---|:---------|:-----|:----|
-|**할당**|Users|포함|모든 사용자|선택|
+|**할당**|사용자|포함|모든 사용자|선택|
 |||제외|없음||
 ||조건|사용자 위험|높은|선택|
 |**컨트롤**|액세스|액세스 허용|True|선택|
@@ -176,7 +198,7 @@ Exchange Online용 새 Intune 조건부액세스 정책을 만들려면 사용�
 
 다음 스크린 샷과 같이 새 정책을 추가합니다(+추가).
 
-![Intune 모바일 응용 프로그램 관리](./media/secure-email/intune-mobile-app-mgmt.png)
+![Intune 모바일 응용 프로그램 관리](./media/secure-email/CA-EXO-policy-2.png)
 
 >[!NOTE]
 >iOS와 Android 간에 앱 보호 정책 옵션에 약간의 차이가 있습니다. 아래 정책은 명시적으로 Android용입니다.
@@ -186,7 +208,7 @@ Exchange Online용 새 Intune 조건부액세스 정책을 만들려면 사용�
 
 |Categories|유형|속성|값|참고|
 |:---------|:---|:---------|:-----|:----|
-|**일반**|메일|Name|Android에 대한 보안 메일 정책|정책 이름 입력|
+|**일반**|메일|이름|Android에 대한 보안 메일 정책|정책 이름 입력|
 |||설명||정책을 설명하는 텍스트 입력|
 |||플랫폼|Android|iOS와 Android 간에 앱 보호 정책 옵션에 약간의 차이가 있음; 이 정책은 명시적으로 Android용임|
 |**앱**|응용 프로그램|앱|Outlook|선택됨(목록)|
@@ -212,11 +234,13 @@ Exchange Online용 새 Intune 조건부액세스 정책을 만들려면 사용�
 
 완료되면 반드시 “만들기"를 클릭하십시오. 위 단계를 반복하고 선택한 플랫폼(드롭다운)을 iOS로 바꿉니다. 그러면 앱 정책 두 개가 생성되므로 정책을 만든 다음 정책에 그룹을 할당하고 배포합니다.
 
+- 자세한 내용은 [앱 보호 정책을 만들고 할당하는 방법](https://docs.microsoft.com/intune/app-protection-policies)을 참조하세요.
+
 ### <a name="intune-mobile-device-management"></a>Intune 모바일 장치 관리
-사용자의 관리자 자격 증명을 사용하여 [Microsoft 관리 포털(http://manage.microsoft.com)](https://manage.microsoft.com/)에 로그인하여 다음 구성 및 준수 정책을 만듭니다.
+Intune 자격 증명으로 [Azure Portal의 Intune](https://portal.azure.com)에 로그인하여 다음 장치 구성 프로필 및 장치 정책 준수를 만듭니다.
 
 #### <a name="ios-email-profile"></a>iOS 메일 프로필
-[Intune 관리 포털(https://manage.microsoft.com)](https://manage.microsoft.com/)의 **정책 > 구성 정책 > 추가 > iOS 메일 정책**에서 다음 구성 정책을 만듭니다.
+[Azure Portal의 Intune](https://portal.azure.com)의 **[장치 구성] > [프로필] > [프로필 만들기] > [플랫폼(iOS)] > [프로필 유형(이메일)]**에서 다음 장치 구성 프로필을 만들 수 있습니다.
 
 |Categories|유형|속성|값|참고|
 |:---------|:---|:---------|:-----|:----|
@@ -232,26 +256,8 @@ Exchange Online용 새 Intune 조건부액세스 정책을 만들려면 사용�
 |||타사 응용 프로그램에서 메일을 전송할 수 있음|True||
 |||최근에 사용한 전자 메일 주소를 동기화합니다.|True|Check|
 
-#### <a name="ios-app-sharing-profile"></a>iOS 앱 공유 프로필
-[Intune 관리 포털(https://manage.microsoft.com)](https://manage.microsoft.com/)의 **정책 > 구성 정책 > 추가 > iOS 앱 공유 정책**에서 다음 구성 정책을 만듭니다.
-
-|Categories|유형|속성|값|참고|
-|:---------|:---|:---------|:-----|:----|
-|**Security**|모두|모두|구성되지 않음||
-|**클라우드**|모두|모두|구성되지 않음||
-|**응용 프로그램**|브라우저|모두|구성되지 않음||
-||앱|앱 설치 허용|구성되지 않음||
-|||앱 스토어에 액세스하려면 암호 필요|구성되지 않음||
-|||앱에서 모두 바로 구매|구성되지 않음||
-|||다른 관리되는 앱에서 관리되는 문서 허용(iOS 8.0 이상)|아니요|선택됨 - 드롭다운|
-|||다른 관리되는 앱에서 관리되지 않는 문서 허용|구성되지 않음||
-|||비디오 회의 허용|구성되지 않음||
-|||사용자가 새로운 엔터프라이즈 앱 작성자를 신뢰하도록 허용|구성되지 않음||
-||게임|모두|구성되지 않음||
-||미디어 콘텐츠|모두|구성되지 않음|||
-
 #### <a name="android-email-profile"></a>Android 메일 프로필
-[Intune 관리 포털(https://manage.microsoft.com)](https://manage.microsoft.com/)의 **정책 > 구성 정책 > 추가 > Android 메일 정책**에서 다음 구성 정책을 만듭니다.
+[Azure Portal의 Intune](https://portal.azure.com)의 **[장치 구성] > [프로필] > [프로필 만들기] > [플랫폼(Android)] > [프로필 유형(이메일)]**에서 다음 장치 구성 프로필을 만들 수 있습니다.
 
 |Categories|유형|속성|값|참고|
 |:---------|:---|:---------|:-----|:----|
@@ -272,7 +278,7 @@ Exchange Online용 새 Intune 조건부액세스 정책을 만들려면 사용�
 |||참고|True|Check|
 
 #### <a name="android-for-work-email-profile"></a>Android for Work 메일 프로필
-[Intune 관리 포털(https://manage.microsoft.com)](https://manage.microsoft.com/)의 **정책 > 정책 구성 > 추가 > Android > 메일 프로필(Android for Work - Gmail)**에서 다음 구성 정책을 만듭니다.
+[Azure Portal의 Intune](https://portal.azure.com)의 **[장치 구성] > [프로필] > [프로필 만들기] > [플랫폼(Android for Work)] > [프로필 유형(이메일)]**에서 다음 장치 구성 프로필을 만들 수 있습니다.
 
 |Categories|유형|속성|값|참고|
 |:---------|:---|:---------|:-----|:----|
@@ -284,25 +290,8 @@ Exchange Online용 새 Intune 조건부액세스 정책을 만들려면 사용�
 ||동기화 설정|동기화할 전자 메일의 일 수|2주|선택됨 - 드롭다운|
 |||SSL 사용|True|Check|
 
-#### <a name="android-for-work-app-sharing-profile"></a>Android for Work 앱 공유 프로필
-[Intune 관리 포털(https://manage.microsoft.com)](https://manage.microsoft.com/)의 **정책 > 구성 정책 > 추가 > Android for Work 앱 공유 정책**에서 다음 구성 정책을 만듭니다.
-
-|Categories|유형|속성|값|참고|
-|:---------|:---|:---------|:-----|:----|
-|**Security**|암호|최소 암호 길이|구성되지 않음||
-|||업무용 프로필을 삭제하기 전까지 허용되는 로그인 반복 오류 횟수|구성되지 않음||
-|||장치가 잠기기 전까지 비활성 상태인 시간(분)|구성되지 않음||
-|||암호 만료(일)|구성되지 않음||
-|||암호 기록 기억|구성되지 않음||
-|||모바일 장치의 잠금을 해제하는 데 암호 필요|구성되지 않음||
-|||지문 잠금 해제 허용(Android 6.0 이상)|구성되지 않음||
-|||Smart Lock 및 기타 신뢰 에이전트 허용(Android 6.0 이상)|구성되지 않음||
-||업무용 프로필 설정|회사와 개인 프로필 간의 데이터 공유 허용|업무용 프로필의 앱에서 개인 프로필의 공유 요청을 처리할 수 있음|선택됨 - 드롭다운|
-|||장치가 잠겼을 때 회사 프로필 알림 숨김(Android 6.0 이상)|구성되지 않음||
-|||기본 앱 사용 권한 정책 설정(Android 6.0 이상)|구성되지 않음|||
-
 #### <a name="device-compliance-policy"></a>장치 준수 정책
-[Intune 관리 포털(https://manage.microsoft.com)](https://manage.microsoft.com/)의 **정책 > 준수 정책 > 추가**에서 다음 구성 정책을 만듭니다.
+[Azure Portal의 Intune](https://portal.azure.com)의 **[장치 정책 준수] > [정책] > [정책 만들기] > [플랫폼(iOS, Android 또는 기타)] > [설정]**에서 다음 장치 정책 준수를 만들 수 있습니다.
 
 |Categories|유형|속성|값|참고|
 |:---------|:---|:---------|:-----|:----|
