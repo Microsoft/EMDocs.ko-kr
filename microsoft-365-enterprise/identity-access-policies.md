@@ -7,13 +7,13 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 12/10/2017
 ms.author: barlan
-ms.reviewer: jsnow
+ms.reviewer: martincoetzer
 ms.custom: it-pro
-ms.openlocfilehash: a25903de35ad349a09056ab24da5e00cd1a07695
-ms.sourcegitcommit: 3cc06a29762d99a3649fb3cc80f9534dc6396d80
+ms.openlocfilehash: 54b3308b334f60e47e78bdf4bc194495fe348814
+ms.sourcegitcommit: 8d42bd1ec3d7bf5f873a7b681b0fea73a748b413
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="general-identity-and-device-access-policy-recommendations"></a>일반적인 ID 및 장치 액세스 정책 권장 사항
 이 문서에서는 Microsoft 365 Enterprise 보안을 유지할 수 있는 일반적인 권장 정책을 설명합니다. 조건부 액세스에 대한 기술적인 필수 구성 요소뿐만 아니라 사용자에게 최상의 SSO 환경을 제공하기 위해 Microsoft에서 권장하는 기본 플랫폼 클라이언트 구성에 대해서도 설명합니다.
@@ -45,10 +45,10 @@ ms.lasthandoff: 12/11/2017
 
 |플랫폼|클라이언트|버전/참고|Azure Information Protection|
 |:-------|:-----|:------------|:--------------------|
-|**Windows**|Outlook|2016, 2013 [최신 인증 사용](https://support.office.com/article/Enable-Modern-Authentication-for-Office-2013-on-Windows-devices-7dc1c01a-090f-4971-9677-f1b192d6c910)|예|
+|**Windows**|Outlook|2016, 2013 [최신 인증 사용](https://support.office.com/article/Enable-Modern-Authentication-for-Office-2013-on-Windows-devices-7dc1c01a-090f-4971-9677-f1b192d6c910), [필수 업데이트](https://support.office.com/en-us/article/Outlook-Updates-472c2322-23a4-4014-8f02-bbc09ad62213)|예|
 |**iOS**|Outlook|[최신](https://itunes.apple.com/us/app/microsoft-outlook-email-and-calendar/id951937596?mt=8)|아니요|
-|**Android**|Outlook|[최신](https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&hl=en)|아니요|
-|**macOS**|공개 미리 보기||아니요|
+|**OWA(Outlook Web Access)**|Outlook|[최신](https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&hl=en)|아니요|
+|**macOS**|Outlook|2016|아니요|
 |**Linux**|지원되지 않음||아니요|
 
 Azure Information Protection의 보호된 문서에 액세스하려면 추가 소프트웨어가 필요할 수 있습니다. Azure Information Protection을 사용하여 보호된 문서를 만들고 보려면 [지원되는 소프트웨어 및 문서 형식](https://docs.microsoft.com/information-protection/get-started/requirements-applications)을 사용해야 합니다.
@@ -100,7 +100,7 @@ Azure Information Protection의 보호된 문서에 액세스하려면 추가 �
 |:--------------------|:----------|
 |**사용자 PC 관리 요구**|사용자에게 자신의 Windows PC를 Active Directory 도메인에 가입하거나 Microsoft Intune 또는 System Center Configuration Manager를 사용하여 자신의 PC를 관리 대상으로 등록하도록 요구합니다.|
 |**도메인에 가입된 PC에 대해 그룹 정책 개체(GPO) 또는 구성 관리자 정책을 통해 보안 설정 적용**|관리되는 PC를 BitLocker, 바이러스 백신 및 방화벽을 사용하도록 구성하는 정책을 배포합니다.|
-|**사용자 모바일 장치 관리 요구**|메일에 액세스하는 데 사용하는 사용자 장치를 Intune에 의해 관리하거나 **또는** 회사 메일을 Outlook Mobile 같은 Intune 앱 보호 정책에 의해 보호되는 모바일 메일 앱을 통해서만 액세스하도록 요구합니다.|
+|**사용자 모바일 장치 관리 요구**|메일에 액세스하는 데 사용하는 사용자 장치를 Intune에 의해 관리하거나 **또는** 회사 메일을 Outlook for iOS 또는 Android 같은 Intune 앱 보호 정책에 의해 보호되는 모바일 메일 앱을 통해서만 액세스하도록 요구합니다.|
 |**관리되는 장치에 대한 Intune 장치 준수 정책 적용**|관리되는 회사 모바일 장치 및 Intune 관리되는 PC에 대해 최소 길이 6의 PIN, 장치 암호화, 문제 없는 장치(무단 해제되거나 루팅되지 않은, 상태 증명 전달)를 요구하고 사용 가능한 경우 Lookout 또는 SkyCure 등 타사 MTP에서 **낮은** 위험으로 결정된 장치를 요구하는 Intune 장치 준수 정책을 적용합니다.|
 |**관리되지 않는 장치에서 실행하는 관리되는 앱에 대해 Intune 앱 보호 정책 적용**|관리되지 않는 개인 모바일 장치에서 실행하는 관리되는 앱에 대해 최소 길이 6의 PIN, 장치 암호화, 그리고 장치가 문제 없음(무단 해제되거나 루팅되지 않은, 상태 증명 전달)을 요구하는 Intune 앱 보호 정책을 적용합니다.|
 
@@ -139,7 +139,7 @@ Office 365 환경의 모든 또는 특정 데이터 집합에 대해 증가된 �
 |:--------------------|:----------|
 |**사용자 PC 관리 요구**|메일 액세스를 허용하기 전에 사용자에 대해 자신의 PC를 Active Directory 도메인에 가입하거나 Intune 또는 구성 관리자를 사용하여 자신의 PC를 관리 대상으로 등록하고 해당 장치가 정책을 준수하도록 할 것을 요구합니다.|
 |**도메인에 가입된 PC에 대해 그룹 정책 개체(GPO) 또는 구성 관리자 정책을 통해 보안 설정 적용**|관리되는 PC를 BitLocker, 바이러스 백신 및 방화벽을 사용하도록 구성하는 정책을 배포합니다.|
-|**사용자 모바일 장치 관리 요구**|메일에 액세스하는 데 사용하는 사용자 장치를 Intune에 의해 관리하거나 **또는** 회사 메일을 Outlook Mobile 같은 Intune 앱 보호 정책에 의해 보호되는 모바일 메일 앱을 통해서만 액세스하도록 요구합니다.|
+|**사용자 모바일 장치 관리 요구**|메일에 액세스하는 데 사용하는 사용자 장치를 Intune에 의해 관리하거나 **또는** 회사 메일을 Outlook for iOS 또는 Android 같은 Intune 앱 보호 정책에 의해 보호되는 모바일 메일 앱을 통해서만 액세스하도록 요구합니다.|
 |**관리되는 장치에 대한 Intune 장치 준수 정책 적용**|관리되는 회사 모바일 장치 및 Intune 관리되는 PC에 대해 최소 길이 6의 PIN, 장치 암호화, 문제 없는 장치(무단 해제되거나 루팅되지 않은, 상태 증명 전달)를 요구하고 사용 가능한 경우 Lookout 또는 SkyCure 등 타사 MTP에서 **낮은** 위험으로 결정된 장치를 요구하는 Intune 장치 준수 정책을 적용합니다.|
 |**관리되지 않는 장치에서 실행하는 관리되는 앱에 대해 Intune 앱 보호 정책 적용**|관리되지 않는 개인 모바일 장치에서 실행하는 관리되는 앱에 대해 최소 길이 6의 PIN, 장치 암호화, 그리고 장치가 문제 없음(무단 해제되거나 루팅되지 않은, 상태 증명 전달)을 요구하는 Intune 앱 보호 정책을 적용합니다.|
 
@@ -175,7 +175,7 @@ Office 365 환경의 모든 또는 특정 데이터 집합에 대해 증가된 �
 |:--------------------|:----------|
 |**사용자 PC 관리 요구**|메일 액세스를 허용하기 전에 사용자에 대해 자신의 Windows PC를 Active Directory 도메인에 가입하거나 **또는** Intune 또는 구성 관리자를 사용하여 자신의 PC를 관리 대상으로 등록하고 해당 장치가 정책을 준수하도록 할 것을 요구합니다.|
 |**도메인에 가입된 PC에 대해 그룹 정책 개체(GPO) 또는 구성 관리자 정책을 통해 보안 설정 적용**|관리되는 PC를 BitLocker, 바이러스 백신 및 방화벽을 사용하도록 구성하는 정책을 배포합니다.|
-|**사용자 모바일 장치 관리 요구**|Office 365 메일 및 파일에 액세스하는 데 사용하는 장치를 Intune에 의해 관리하거나 회사 메일을 Outlook Mobile 같은 Intune 앱 보호 정책에 의해 보호되는 모바일 메일 앱을 통해서만 액세스하도록 요구합니다.|
+|**사용자 모바일 장치 관리 요구**|Office 365 메일 및 파일에 액세스하는 데 사용하는 장치를 Intune에 의해 관리하거나 회사 메일을 Outlook for iOS 또는 Android 같은 Intune 앱 보호 정책에 의해 보호되는 모바일 메일 앱을 통해서만 액세스하도록 요구합니다.|
 |**관리되는 장치에 대한 Intune 장치 준수 정책 적용**|관리되는 회사 모바일 장치 및 Intune 관리되는 PC에 대해 최소 길이 6의 PIN, 장치 암호화, 문제 없는 장치(무단 해제되거나 루팅되지 않은, 상태 증명 전달)를 요구하고 사용 가능한 경우 Lookout 또는 SkyCure 등 타사 MTP에서 낮은 위험으로 결정된 장치를 요구하는 Intune 장치 준수 정책을 적용합니다.|
 
 ### <a name="user-impact"></a>사용자 영향
