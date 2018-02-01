@@ -1,19 +1,19 @@
 ---
 title: "권장되는 보안 정책 및 구성 - Microsoft 365 Enterprise | Microsoft docs"
 description: "보안 메일, 문서 및 앱 정책 및 구성을 배포하기 위한 Microsoft 권장 사항과 핵심 개념을 설명합니다."
-author: barlanmsft
-manager: angrobe
+author: dougeby
+manager: dougeby
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2017
 ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: 70eb0ba8a887a703ee8c723a3a4584f3bedc1e7f
-ms.sourcegitcommit: 3cc06a29762d99a3649fb3cc80f9534dc6396d80
+ms.openlocfilehash: a7f6ab6765be5462c652feb006839f0839b1136e
+ms.sourcegitcommit: 8d42bd1ec3d7bf5f873a7b681b0fea73a748b413
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="recommended-security-policies-and-configurations"></a>권장되는 보안 정책 및 구성
 
@@ -110,7 +110,7 @@ BYOD Windows 장치의 경우 사용자는 "회사 또는 학교 계정 추가"�
 
 ![보안과 생산성의 절충](./media/policies-configurations/security-triad.png)
 
-권장 사항은 다음 SFU 보안 3원소 원칙을 기준으로 합니다.
+제공된 권장 사항은 다음 SFU 보안 3원소 원칙을 기준으로 합니다.
 
 * 대상 고객을 안다 - 작업 기능/보안 수준별로 유연하게
 * 보안 정책을 적시에 적용하고 의미 있도록 함
