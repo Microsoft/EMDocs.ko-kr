@@ -36,7 +36,7 @@ Office 365용 FastTrack에 대한 정보를 찾고 있나요? [Office 365용 Fas
 
 |계획|서비스 혜택을 받을 자격이 되십니까?|
 |--------|-------------------------------------|
-|Enterprise Mobility + Security |예*|
+|Enterprise Mobility + Security |예\*|
 |Enterprise Mobility + Security(Secure Productive Enterprise의 일부)|예*|
 |Microsoft Azure Active Directory Premium(E3 및 E5)**|예|
 |Microsoft Intune**|예|
