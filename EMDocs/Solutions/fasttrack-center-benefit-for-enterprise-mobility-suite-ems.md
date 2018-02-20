@@ -38,16 +38,16 @@ Office 365용 FastTrack에 대한 정보를 찾고 있나요? [Office 365용 Fas
 |--------|-------------------------------------|
 |Enterprise Mobility + Security |예\*|
 |Enterprise Mobility + Security(Secure Productive Enterprise의 일부)|예*|
-|Microsoft Azure Active Directory Premium(E3 및 E5)**|예|
-|Microsoft Intune**|예|
-|Microsoft Intune for Education** |예 |
-|Microsoft Azure Information Protection (E3 및 E5)**|제한됨</br>성공 플랜만 해당 및 [Fast Track 센터](https://fasttrack.microsoft.com/)의 **Need Help**(도움 요청)를 통한 지원 요청|
-|Microsoft Advanced Threat Analytics**|제한됨</br>성공 플랜만 해당 및 [Fast Track 센터](https://fasttrack.microsoft.com/)의 **Need Help**(도움 요청)를 통한 지원 요청|
-|Microsoft Cloud App Security**|제한됨</br>성공 플랜만 해당 및 [Fast Track 센터](https://fasttrack.microsoft.com/)의 **Need Help**(도움 요청)를 통한 지원 요청|
+|Microsoft Azure Active Directory Premium(E3 및 E5)**  |예|
+|Microsoft Intune**  |예|
+|Microsoft Intune for Education**   |예 |
+|Microsoft Azure Information Protection (E3 및 E5)**  |제한됨</br>성공 플랜만 해당 및 [Fast Track 센터](https://fasttrack.microsoft.com/)의 **Need Help**(도움 요청)를 통한 지원 요청|
+|Microsoft Advanced Threat Analytics**  |제한됨</br>성공 플랜만 해당 및 [Fast Track 센터](https://fasttrack.microsoft.com/)의 **Need Help**(도움 요청)를 통한 지원 요청|
+|Microsoft Cloud App Security**  |제한됨</br>성공 플랜만 해당 및 [Fast Track 센터](https://fasttrack.microsoft.com/)의 **Need Help**(도움 요청)를 통한 지원 요청|
 
 &ast; 혜택 받을 자격이 있는 클라우드 서비스에만 사용 가능. 다음 표를 참조하세요.
 
-** 독립 실행형 플랜으로 구입
+**  독립 실행형 플랜으로 구입
 
 &nbsp;
 
