@@ -1,4 +1,4 @@
-- name: 문서
+- name: Docs
   href: /
   homepage: /
   items:
@@ -50,6 +50,9 @@
             - name: 문제 해결
               href: /advanced-threat-analytics/troubleshoot/
               homepage: /advanced-threat-analytics/troubleshoot/ata-troubleshooting
+        - name: Azure Threat Protection
+          href: /azure-threat-protection/
+          homepage: /azure-advanced-threat-protection
         - name: Microsoft 365 Enterprise
           href: /microsoft-365-enterprise/
           homepage: /microsoft-365-enterprise
@@ -145,7 +148,7 @@
                         - name: 구조
                           href: /information-protection/sdk/2.1/api/win/structures/
                           homepage: /information-protection/sdk/2.1/api/win/structures
-        - name: Microsoft  Identity  Manager
+        - name: Microsoft Identity Manager
           href: /microsoft-identity-manager/
           homepage: /microsoft-identity-manager
           items:
