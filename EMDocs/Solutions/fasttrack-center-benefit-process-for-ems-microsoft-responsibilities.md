@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
 ms.reviewer: 
 ms.suite: ems
-ms.openlocfilehash: a68182e4175ca3fe69377319d34f899f3abb7d25
-ms.sourcegitcommit: 6296730f948ec5205fe81adb3585026d169e51f9
+ms.openlocfilehash: 102ff22c60aa58cddbc07ddd485a57e9e7340a92
+ms.sourcegitcommit: 024fad70d2c4976f039e3e572c7334927375b17e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="microsoft-responsibilities"></a>Microsoft의 책임
 
@@ -102,9 +102,9 @@ ms.lasthandoff: 10/24/2017
 
 -   단일 포리스트 환경의 경우:
 
-    -   필요한 경우 AD DS(Active Directory 도메인 서비스) 및 Azure AD Connect 간의 디렉터리 동기화 설치.
+    -   필요한 경우 AD DS(Active Directory Domain Services) 및 Azure AD Connect 간의 디렉터리 동기화 설치.
 
-    -   Azure AD Connect 도구를 사용하여 암호 동기화 구성.
+    -   Azure AD Connect 도구를 사용하여 인증 방법(암호 해시 동기화 또는 통과 인증) 구성
 
 -   다중 포리스트 환경의 경우:
 
@@ -148,7 +148,7 @@ ms.lasthandoff: 10/24/2017
 
   - Azure Multi-Factor Authentication.
 
-  - [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/)에서 SaaS(Software as a Service) 응용 프로그램 하나와 SSO의 통합
+  - [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/)에서 최대 3개 이상의 SaaS(Software as a Service) 응용 프로그램과 SSO 통합
 
   - 사용자 지정된 로그온 화면(로고, 텍스트 및 이미지 포함)
 

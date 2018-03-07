@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
 ms.reviewer: 
 ms.suite: ems
-ms.openlocfilehash: 0c404c758f66fba9ded4672fad904ba3987958b5
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: 38cb0503eb6444ed577703e2c7ab6c981369ff07
+ms.sourcegitcommit: f77ccfb11b8ae3105de2bc18a5664ee6c11a553c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="onboarding-and-migration-phases"></a>등록 및 마이그레이션 단계
 [FastTrack 센터 혜택 적격 서비스 및 플랜](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)을 통해 사용할 Microsoft Azure Active Directory Premium 및/또는 Microsoft Intune을 가져올 때는 프로세스와 관련한 몇 가지 단계가 있습니다. 다음 섹션에서는 등록 프로세스의 각 단계를 설명합니다.
@@ -28,7 +28,6 @@ ms.lasthandoff: 07/25/2017
 
 
 ## <a name="initiate-phase"></a>시작 단계
-
 적절한 수량의 라이선스를 구매한 후 구매 확인 메일의 지침에 따라 라이선스를 기존 테넌트나 새 테넌트에 연결하세요. Microsoft에서 FastTrack 센터 혜택의 적용 자격 여부를 확인하며 시작 지원을 위한 연락을 시도합니다. 조직이 이러한 서비스를 배포할 준비가 되어 있는 경우 [FastTrack 센터](http://fasttrack.microsoft.com/) 에서 지원을 요청할 수도 있습니다.
 
 지원을 요청하려면에 회사 또는 학교 계정으로 [FastTrack 센터](http://fasttrack.microsoft.com/)에 로그인한 후 대시보드로 이동하여 화면 왼쪽에 있는 **도움 필요**를 확장하고 메시지에 따라 요청을 완료합니다. 등록 지원이 시작되면 Microsoft는 온라인 모임 일정을 설정합니다.
@@ -39,9 +38,9 @@ ms.lasthandoff: 07/25/2017
 
 ## <a name="assess-phase"></a>평가 단계
 
-등록 프로세스가 시작되면 Microsoft는 사용자와 협업하여 원본 환경 및 요구 사항을 평가합니다. 환경을 평가하기 위한 도구가 실행되고 Microsoft는 사용자가 온-프레미스 Active Directory, 인터넷 브라우저, 클라이언트 장치의 운영 체제, DNS(Domain Name System), 네트워크, 인프라 및 ID 시스템을 평가하여 등록을 위해 변경해야 하는 내용이 있는지 확인하는 과정을 안내합니다.
+등록 프로세스가 시작되면 FastTrack 팀은 사용자와 협업하여 원본 환경 및 요구 사항을 평가합니다. 환경을 평가하기 위한 도구가 실행되고 FastTrack 팀은 사용자가 온-프레미스 Active Directory, 인터넷 브라우저, 클라이언트 장치의 운영 체제, DNS(Domain Name System), 네트워크, 인프라 및 ID 시스템을 평가하여 등록을 위해 변경해야 하는 내용이 있는지 확인하는 과정을 안내합니다.
 
-또한 Microsoft가 적격 서비스의 성공적인 도입에 도움이 되는 방법에 대한 안내로 사용자를 연결합니다.
+또한 FastTrack Center는 적격 서비스의 성공적인 도입에 도움이 되는 방법에 대한 지침에 사용자를 연결합니다.
 
 Microsoft는 사용자의 현재 설정을 기준으로 하여 EMS 또는 개별 클라우드 서비스에 등록하기 위한 최소 요구 사항에 부합하도록 원본 환경을 업그레이드하는 수정 플랜을 제공합니다. 또한 수정 단계를 위한 검사점 호출도 적절히 설정합니다.
 
@@ -64,12 +63,17 @@ Microsoft는 사용자의 현재 설정을 기준으로 하여 EMS 또는 개별
 ![온보딩 활성화 단계 - 핵심 기능](./media/ft-enable-phase-core-01.png)
 
 ![온보딩 활성화 단계 - 핵심 기능](./media/ft-enable-phase-core-02.png)
+> [!NOTE]
+> 관리되는 인증 방법이 포함되지만 암호 해시 동기화로 제한되지 않습니다.
+
+> [!NOTE]
+> ID 통합은 활동 시간이며 관리 또는 페더레이션과 같은 기존 인증 방법의 마이그레이션 또는 서비스 해제를 포함하지 않습니다. 
 
 ### <a name="enable-phase---azure-ad-premium"></a>활성화 단계 - Azure AD Premium
 
 Azure AD Premium 환경은 필요에 따라 Azure Active Directory Connect 도구 디렉터리 동기화 및 AD FS(Active Directory Federation Services)를 사용하여 설정할 수 있습니다.
 
-온-프레미스 ID를 클라우드에 동기화하는 작업이 포함된 Azure AD Premium 시나리오에서는 구독에 IT 관리자와 사용자 추가, 관리 사전 요구 사항 구성, Azure AD Premium 설정, Azure AD Connect 도구를 사용하는 디렉터리 동기화 및 AD FS 설정, 테스트 사용자 구성, 해당 서비스에 대한 핵심 사용 사례 확인 기능을 제공하여 사용자를 지원합니다.
+온-프레미스 ID를 클라우드에 동기화하는 작업이 포함된 Azure AD Premium 시나리오에서는 구독에 IT 관리자와 사용자 추가, 관리 사전 요구 사항 구성, Azure AD Premium 설정, Azure AD Connect 도구를 사용하여 관리되는 인증 및 AD FS에서 디렉터리 동기화 설정, 테스트 사용자 구성 및 해당 서비스에 대한 핵심 사용 사례 확인 기능을 제공하여 사용자를 지원합니다.
 
 Azure AD Premium 설치에는 다음과 같은 기능을 사용하도록 설정하는 것이 포함됩니다.
 
@@ -77,7 +81,7 @@ Azure AD Premium 설치에는 다음과 같은 기능을 사용하도록 설정�
 
 -   Azure MFA(Azure Multi-Factor Authentication)
 
--   [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/)에서 SaaS(Software as a Service) 앱 하나와 SSO(Single Sign On)의 통합
+-   [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/)에서 최대 3개 이상의 SaaS(Software as a Service) 응용 프로그램과 SSO(Single Sign On) 통합
 
 -   사용자 지정된 로그온 화면(로고, 텍스트 및 이미지 포함)
 
@@ -90,6 +94,8 @@ Azure AD Premium 설치에는 다음과 같은 기능을 사용하도록 설정�
 -   ID 보호
 
 -   Privileged Identity Management
+
+-   Azure Active Directory 조건부 액세스
 
 -   관리자를 위한 사용량 및 보안 보고서.
 
