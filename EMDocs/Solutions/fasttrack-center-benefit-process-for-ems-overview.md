@@ -13,15 +13,15 @@ ms.technology:
 ms.assetid: e60e3714-5120-41e2-9878-83ac75107967
 ms.reviewer: 
 ms.suite: ems
-ms.openlocfilehash: 783d5747b55623ed10abf00a0413bbe6b9ed47a3
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: 73eba9ac70a39db1af85b1e5dac5ebbb2da958f9
+ms.sourcegitcommit: f77ccfb11b8ae3105de2bc18a5664ee6c11a553c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="fasttrack-center-benefit-overview"></a>FastTrack 센터 혜택 개요
 
-Microsoft Azure Active Directory Premium 및 Microsoft Intune용 FastTrack 센터 혜택을 사용하면 조직의 사용자가 Microsoft 전문가와 원격으로 협업하여 사용자 환경을 사용할 수 있도록 준비하고 조직 내 공개 및 사용 계획을 세울 수 있습니다. 적격성에 대한 자세한 내용은 [EMS(Enterprise Mobility + Security)용 FastTrack 센터 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)를 참조하세요.
+Microsoft Azure Active Directory Premium 및 Microsoft Intune용 FastTrack 센터 혜택을 사용하면 조직의 사용자가 FastTrack 전문가와 원격으로 협업하여 사용자 환경을 사용할 수 있도록 준비하고 조직 내 공개 및 사용 계획을 세울 수 있습니다. 적격성에 대한 자세한 내용은 [EMS(Enterprise Mobility + Security)용 FastTrack 센터 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)를 참조하세요.
 
 
 등록의 두 가지 주요 구성 요소는 다음과 같습니다.
@@ -36,19 +36,19 @@ Microsoft Azure Active Directory Premium 및 Microsoft Intune용 FastTrack 센�
 
 프로세스의 작동 방식은 다음과 같습니다.
 
-- 사용자가 적격 서비스 라이선스를 구매한 뒤 Microsoft가 등록 지원을 위해 사용자에게 연락합니다. 조직이 이러한 서비스를 배포할 준비가 되어 있는 경우 [FastTrack 센터](http://fasttrack.microsoft.com/) 에서 지원을 요청할 수도 있습니다. 지원을 요청하려면 회사 또는 학교 계정으로 [FastTrack 센터](http://fasttrack.microsoft.com/)에 로그인한 후 대시보드로 이동하여 페이지 오른쪽 아래에 있는 **도움 필요** 링크를 확장하고 메시지에 따라 요청을 완료합니다. 등록 지원이 시작되면 Microsoft는 온라인 모임 일정을 설정합니다.
+- 사용자가 적격 서비스 라이선스를 구매한 뒤 FastTrack Center가 등록 지원을 위해 사용자에게 연락합니다. 조직이 이러한 서비스를 배포할 준비가 되어 있는 경우 [FastTrack 센터](http://fasttrack.microsoft.com/) 에서 지원을 요청할 수도 있습니다. 지원을 요청하려면 회사 또는 학교 계정으로 [FastTrack 센터](http://fasttrack.microsoft.com/)에 로그인한 후 대시보드로 이동하여 페이지 오른쪽 아래에 있는 **도움 필요** 링크를 확장하고 메시지에 따라 요청을 완료합니다. 등록 지원이 시작되면 Microsoft는 온라인 모임 일정을 설정합니다.
 
--   Microsoft 등록 팀에서는 사용자를 위해 모든 Microsoft 온라인 서비스의 공통적인 핵심 기능과 적격 서비스 각각의 등록을 지원합니다.
+-   FastTrack 팀에서는 사용자를 위해 모든 Microsoft 온라인 서비스의 공통적인 핵심 기능과 적격 서비스 각각의 등록을 지원합니다.
 
-모든 등록 지원은 Microsoft 직원 담당자가 원격으로 제공합니다.
+모든 등록 지원은 FastTrack 직원 담당자가 원격으로 제공합니다.
 
--   Microsoft는 도구, 설명서 및 지침을 함께 사용하여 다양한 등록 작업을 원격으로 지원합니다.
+-   FastTrack은 도구, 설명서 및 지침을 함께 사용하여 다양한 등록 작업을 원격으로 지원합니다.
 
 -   등록 지원은 FastTrack 센터에서 제공하며 지정된 지역의 정상 업무 시간 동안 이용할 수 있습니다.
 
 -   온보딩 지원은 중국어(번체), 중국어(간체), 영어, 프랑스어, 독일어, 이탈리아어, 일본어, 한국어, 포르투갈어(브라질), 스페인어, 태국어 및 베트남어로 제공됩니다.
 
--   Microsoft는 사용자나 사용자의 담당자와 직접 협업할 수 있습니다.
+-   FastTrack 팀은 사용자나 사용자의 담당자와 직접 협업할 수 있습니다.
 
 **더 자세한 내용을 원하세요?**
 

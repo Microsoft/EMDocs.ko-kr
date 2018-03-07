@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
 ms.reviewer: 
 ms.suite: ems
-ms.openlocfilehash: ecd83c311deca5050599a4eb55d45d0094d656f1
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: 02bbc73649604736bca8c6da167653d904218fad
+ms.sourcegitcommit: f77ccfb11b8ae3105de2bc18a5664ee6c11a553c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="your-responsibilities"></a>사용자의 책임
 
@@ -69,7 +69,7 @@ ms.lasthandoff: 07/25/2017
 
 ## <a name="initiate-phase"></a>시작 단계
 
--   Microsoft 팀과 함께 적격 서비스에 대한 등록 작업을 시작합니다.
+-   FastTrack 팀과 함께 적격 서비스에 대한 등록 작업을 시작합니다.
 
 -   참여 준비 모임에 참가하고, 조직의 참가자를 관리 및 안내하고, 수정 타임라인을 확인합니다.
 
@@ -77,7 +77,7 @@ ms.lasthandoff: 07/25/2017
 
 -   필요한 평가 작업을 완료하기 위해 적합한 관련자(프로젝트 관리자 포함)를 식별합니다.
 
--   (선택 사항) 사용 중인 환경이나 EMS 또는 개별 클라우드 서비스 구독에 대해 평가 도구를 실행할 때 지침이 필요한 경우 사용자의 화면을 Microsoft와 공유합니다.
+-   (선택 사항) 사용 중인 환경이나 EMS 또는 개별 클라우드 서비스 구독에 대해 평가 도구를 실행할 때 지침이 필요한 경우 사용자의 화면을 FastTrack 팀과 공유합니다.
 
 -   수정 검사 목록을 만들고 인프라, 네트워크, 관리, 디렉터리 동기화 준비, 네트워크 보안 및 페더레이션 ID 항목을 비롯한 전체 플랜 작업에 기여하는 모임에 참여합니다.
 
@@ -95,19 +95,21 @@ ms.lasthandoff: 07/25/2017
 
 ## <a name="enable-phase"></a>활성화 단계
 
--   (선택 사항) 사용 중인 환경이나 EMS 또는 개별 클라우드 서비스 구독에 대해 평가 도구를 실행할 때 지침이 필요한 경우 사용자의 화면을 Microsoft와 공유합니다. 필요에 따라 리소스를 관리합니다.
+-   (선택 사항) 사용 중인 환경이나 EMS 또는 개별 클라우드 서비스 구독에 대해 평가 도구를 실행할 때 지침이 필요한 경우 사용자의 화면을 FastTrack 팀과 공유합니다. 필요에 따라 리소스를 관리합니다.
 
--   Microsoft의 지침에 따라 네트워크 관련 항목을 구성합니다.
+-   FastTrack 팀의 지침에 따라 네트워크 관련 항목을 구성합니다.
 
--   Microsoft의 지침에 따라 디렉터리 준비 작업을 진행하고 디렉터리 동기화를 구성합니다.
+-   FastTrack 팀의 지침에 따라 디렉터리 준비 작업을 진행하고 디렉터리 동기화를 구성합니다.
 
--   Microsoft의 지침에 따라 보안 관련 인프라(방화벽 포트 등)를 구성합니다.
+-   관리 또는 페더레이션과 같은 인증 방법을 구성합니다. 
+
+-   FastTrack 팀의 지침에 따라 보안 관련 인프라(방화벽 포트 등)를 구성합니다.
 
 -   적절한 클라이언트 인프라를 구현합니다.
 
--   Microsoft의 지침에 따라 사용자 프로비저닝 접근 방식을 구현합니다.
+-   FastTrack 팀의 지침에 따라 사용자 프로비전 접근 방식을 구현합니다.
 
--   Microsoft의 지침에 따라 다양한 서비스를 사용하도록 설정합니다.
+-   FastTrack 팀의 지침에 따라 다양한 서비스를 사용하도록 설정합니다.
 
 **더 자세한 내용을 원하세요?**
 

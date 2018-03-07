@@ -13,14 +13,14 @@ ms.technology:
 ms.assetid: 484156c7-c3c4-469d-b718-9fa33d9d0ec2
 ms.reviewer: 
 ms.suite: ems
-ms.openlocfilehash: 5da41f3d440d7a6463f2a6e23dcd0613f522efe2
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: 097dfcd7b862735a53d629d7e099a68044d590c7
+ms.sourcegitcommit: f77ccfb11b8ae3105de2bc18a5664ee6c11a553c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="fasttrack-center-benefit-eligible-services-and-plans"></a>FastTrack 센터 혜택 적격 서비스 및 플랜
-적격 플랜을 통해 EMS(Enterprise Mobility + Security) 또는 해당 개별 클라우드 서비스에 대해 라이선스를 150개 이상 구매하면 서비스 혜택을 이용할 수 있습니다. 서비스 혜택을 사용하면 Microsoft 전문가와 협업하여 적격 서비스를 평가, 수정 및 활성화할 수 있습니다.
+적격 플랜을 통해 EMS(Enterprise Mobility + Security) 또는 해당 개별 클라우드 서비스에 대해 라이선스를 150개 이상 구매하면 서비스 혜택을 이용할 수 있습니다. 서비스 혜택을 사용하면 FastTrack 전문가와 협업하여 적격 서비스를 평가, 수정 및 활성화할 수 있습니다.
 
 FastTrack 센터 프로세스 및 담당자에 대해 알아보려면 [EMS(Enterprise Mobility + Security)용 FastTrack 센터 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)를 참조하세요.
 
@@ -36,18 +36,18 @@ Office 365용 FastTrack에 대한 정보를 찾고 있나요? [Office 365용 Fas
 
 |계획|서비스 혜택을 받을 자격이 되십니까?|
 |--------|-------------------------------------|
-|Enterprise Mobility + Security |예\*|
+|Enterprise Mobility + Security |예*|
 |Enterprise Mobility + Security(Secure Productive Enterprise의 일부)|예*|
-|Microsoft Azure Active Directory Premium(E3 및 E5)**  |예|
-|Microsoft Intune**  |예|
-|Microsoft Intune for Education**   |예 |
-|Microsoft Azure Information Protection (E3 및 E5)**  |제한됨</br>성공 플랜만 해당 및 [Fast Track 센터](https://fasttrack.microsoft.com/)의 **Need Help**(도움 요청)를 통한 지원 요청|
-|Microsoft Advanced Threat Analytics**  |제한됨</br>성공 플랜만 해당 및 [Fast Track 센터](https://fasttrack.microsoft.com/)의 **Need Help**(도움 요청)를 통한 지원 요청|
-|Microsoft Cloud App Security**  |제한됨</br>성공 플랜만 해당 및 [Fast Track 센터](https://fasttrack.microsoft.com/)의 **Need Help**(도움 요청)를 통한 지원 요청|
+|Microsoft Azure Active Directory Premium(E3 및 E5)**|예|
+|Microsoft Intune**|예|
+|Microsoft Intune for Education** |예 |
+|Microsoft Azure Information Protection (E3 및 E5)**|제한됨</br>성공 플랜만 해당 및 [Fast Track 센터](https://fasttrack.microsoft.com/)의 **Need Help**(도움 요청)를 통한 지원 요청|
+|Microsoft Advanced Threat Analytics**|제한됨</br>성공 플랜만 해당 및 [Fast Track 센터](https://fasttrack.microsoft.com/)의 **Need Help**(도움 요청)를 통한 지원 요청|
+|Microsoft Cloud App Security**|제한됨</br>성공 플랜만 해당 및 [Fast Track 센터](https://fasttrack.microsoft.com/)의 **Need Help**(도움 요청)를 통한 지원 요청|
 
 &ast; 혜택 받을 자격이 있는 클라우드 서비스에만 사용 가능. 다음 표를 참조하세요.
 
-**  독립 실행형 플랜으로 구입
+** 독립 실행형 플랜으로 구입
 
 &nbsp;
 
