@@ -1,25 +1,26 @@
 ---
-title: "등록 및 마이그레이션 단계"
-description: "FastTrack 센터 혜택의 단계"
-keywords: 
-author: NathBarn
-ms.author: NathBarn
-manager: angrobe
-ms.date: 02/01/2017
+title: 등록 및 마이그레이션 단계
+description: FastTrack 센터 혜택의 단계
+keywords: ''
+author: andredm7
+ms.author: andredm
+manager: ''
+ms.date: 03/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 38cb0503eb6444ed577703e2c7ab6c981369ff07
-ms.sourcegitcommit: f77ccfb11b8ae3105de2bc18a5664ee6c11a553c
+ms.openlocfilehash: 7d73513b80778ec91c9b3bee284175aa43751afc
+ms.sourcegitcommit: ffa46a69834de317e99a58146492e06c6aa4901a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/22/2018
 ---
-# <a name="onboarding-and-migration-phases"></a>등록 및 마이그레이션 단계
+# <a name="onboarding-phases"></a>온보딩 단계
+
 [FastTrack 센터 혜택 적격 서비스 및 플랜](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)을 통해 사용할 Microsoft Azure Active Directory Premium 및/또는 Microsoft Intune을 가져올 때는 프로세스와 관련한 몇 가지 단계가 있습니다. 다음 섹션에서는 등록 프로세스의 각 단계를 설명합니다.
 
 등록은 다음과 같이 크게 네 가지 단계로 구성됩니다.
@@ -28,11 +29,21 @@ ms.lasthandoff: 02/28/2018
 
 
 ## <a name="initiate-phase"></a>시작 단계
-적절한 수량의 라이선스를 구매한 후 구매 확인 메일의 지침에 따라 라이선스를 기존 테넌트나 새 테넌트에 연결하세요. Microsoft에서 FastTrack 센터 혜택의 적용 자격 여부를 확인하며 시작 지원을 위한 연락을 시도합니다. 조직이 이러한 서비스를 배포할 준비가 되어 있는 경우 [FastTrack 센터](http://fasttrack.microsoft.com/) 에서 지원을 요청할 수도 있습니다.
 
-지원을 요청하려면에 회사 또는 학교 계정으로 [FastTrack 센터](http://fasttrack.microsoft.com/)에 로그인한 후 대시보드로 이동하여 화면 왼쪽에 있는 **도움 필요**를 확장하고 메시지에 따라 요청을 완료합니다. 등록 지원이 시작되면 Microsoft는 온라인 모임 일정을 설정합니다.
+적절한 수량의 라이선스를 구매한 후 구매 확인 메일의 지침에 따라 라이선스를 기존 테넌트나 새 테넌트에 연결하세요. Microsoft에서 FastTrack 센터 혜택의 적용 자격 여부를 확인하며 시작 지원을 위한 연락을 시도합니다.
 
-이 단계에서 Microsoft는 등록 프로세스를 논의하고, 데이터를 확인하고, 준비 모임 일정을 정합니다.
+> [!NOTE] 
+> 조직이 이러한 서비스를 배포할 준비가 되어 있는 경우 [FastTrack 센터](http://fasttrack.microsoft.com/) 에서 지원을 요청할 수도 있습니다.
+
+### <a name="to-request-assistance"></a>지원을 요청하려면
+
+1. [FastTrack 센터](http://fasttrack.microsoft.com/)로 이동하여 회사 또는 학교 계정으로 로그인합니다.
+
+2. 고객 대시보드에서 페이지의 오른쪽 맨 아래에 있는 **FastTrack로 이동**을 선택합니다.
+
+3. FastTrack 대시보드에서 페이지 오른쪽 아래에 있는 **도움 요청**을 확장한 다음, 프롬프트에 따라 요청을 완료합니다.
+
+온보딩 지원이 시작되면 FastTrack은 온라인 회의 일정을 설정하여 온보딩 프로세스에 대해 논의하고 데이터를 확인하며 시작 회의를 설정합니다.
 
 ![온보딩 시작 단계](./media/ft-initiate-phase.png)
 
@@ -119,9 +130,6 @@ Intune의 경우 Microsoft는 Microsoft Intune을 사용하여 장치를 관리�
 
     -   System Center Configuration Manager의 기존 구현이 있고 Intune으로 관리 기능을 확장하려는 경우 Configuration Manager를 MDM 기관으로 설정합니다.
 
-        > [!NOTE]
-        > 최종 사용자가 소유한 장치, 공유 장치 또는 키오스크 유형 장치에서만 MDM을 활용하려는 경우에는 MDM 기관을 설정할 필요가 없습니다.
-
 -   다음에 대한 MDM 지침을 제공합니다.
 
     -   MDM 관리 정책의 유효성을 검사하는 데 사용할 테스트 그룹 구성.
@@ -138,9 +146,9 @@ Intune의 경우 Microsoft는 Microsoft Intune을 사용하여 장치를 관리�
 
     -   각각의 [지원되는 각 플랫폼](https://technet.microsoft.com/library/dn600287.aspx) 장치를 Intune 또는 Configuration Manager with Microsoft Intune 서비스에 등록.
 
--   다음에 대한 모바일 응용 프로그램 관리(MAM) 지침을 제공합니다.
+-   다음에 대해 Intune 앱 보호(앱 관리) 지침을 제공.
 
-    -   지원되는 각 플랫폼에 대한 MAM 정책 구성.
+    -   지원되는 각 플랫폼에 대해 앱 보호 정책 구성.
 
     -   관리되는 앱에 대한 조건부 액세스 정책 구성.
 
@@ -154,6 +162,9 @@ Intune의 경우 Microsoft는 Microsoft Intune을 사용하여 장치를 관리�
 
     -   Intune에서 사용할 수 있는 소프트웨어 및 하드웨어 보고서 사용.
 
+    > [!IMPORTANT]
+    > FastTrack은 Intune을 사용한 Windows 10 클래식 PC 관리를 지원하지 않습니다. FastTrack은 Intune 모바일 장치 관리(MDM)를 통한 Windows 10 장치 관리만 지원합니다.
+
 또한 Microsoft가 적격 서비스의 성공적인 도입에 도움이 되는 방법에 대한 안내로 사용자를 연결합니다.
 
 ![온보딩 활성화 단계 - Intune](./media/ft-enable-phase_intune_mam.png)
@@ -162,6 +173,9 @@ Intune의 경우 Microsoft는 Microsoft Intune을 사용하여 장치를 관리�
 
 ![온보딩 활성화 단계 - Intune](./media/ft-enable-phase-intune-mdm-mam-sccm.png)
 
-**더 자세한 내용을 원하세요?**
+> [!NOTE]
+> **자세히 알아보고 싶습니까?** [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)를 참조하세요.
 
-[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
+## <a name="next-steps"></a>다음 단계
+
+[EMS용 FastTrack 혜택 - Microsoft의 책임](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)

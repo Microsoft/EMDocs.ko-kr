@@ -1,23 +1,23 @@
 ---
-title: "사용자의 책임"
-description: "FastTrack 센터 혜택을 사용 시의 고객 책임"
-keywords: 
-author: NathBarn
-ms.author: NathBarn
-manager: angrobe
-ms.date: 02/01/2017
+title: 사용자의 책임
+description: FastTrack 센터 혜택을 사용 시의 고객 책임
+keywords: ''
+author: andredm7
+ms.author: andredm
+manager: ''
+ms.date: 03/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 02bbc73649604736bca8c6da167653d904218fad
-ms.sourcegitcommit: f77ccfb11b8ae3105de2bc18a5664ee6c11a553c
+ms.openlocfilehash: fe9ee9f1eeb36e4f1df8d1bd2da63ab08e515098
+ms.sourcegitcommit: ffa46a69834de317e99a58146492e06c6aa4901a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="your-responsibilities"></a>사용자의 책임
 
@@ -111,6 +111,11 @@ ms.lasthandoff: 02/28/2018
 
 -   FastTrack 팀의 지침에 따라 다양한 서비스를 사용하도록 설정합니다.
 
-**더 자세한 내용을 원하세요?**
+> [!NOTE]
+> **더 자세한 내용을 원하세요?** [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)를 참조하세요.
 
-[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
+## <a name="see-also"></a>참고 항목
+
+- [EMS용 FastTrack 혜택](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)
+- [Office 365용 FastTrack 혜택](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx)
+

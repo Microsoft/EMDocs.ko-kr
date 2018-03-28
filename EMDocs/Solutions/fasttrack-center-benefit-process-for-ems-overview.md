@@ -1,28 +1,27 @@
 ---
-title: "개요"
-description: "개요"
-keywords: 
-author: NathBarn
-ms.author: NathBarn
+title: 개요
+description: 개요
+keywords: ''
+author: andredm7
+ms.author: andredm
 manager: angrobe
-ms.date: 02/01/2017
+ms.date: 03/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: e60e3714-5120-41e2-9878-83ac75107967
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 73eba9ac70a39db1af85b1e5dac5ebbb2da958f9
-ms.sourcegitcommit: f77ccfb11b8ae3105de2bc18a5664ee6c11a553c
+ms.openlocfilehash: fe44be0fb38e47456fff063511944551dba5b4eb
+ms.sourcegitcommit: ffa46a69834de317e99a58146492e06c6aa4901a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="fasttrack-center-benefit-overview"></a>FastTrack 센터 혜택 개요
 
 Microsoft Azure Active Directory Premium 및 Microsoft Intune용 FastTrack 센터 혜택을 사용하면 조직의 사용자가 FastTrack 전문가와 원격으로 협업하여 사용자 환경을 사용할 수 있도록 준비하고 조직 내 공개 및 사용 계획을 세울 수 있습니다. 적격성에 대한 자세한 내용은 [EMS(Enterprise Mobility + Security)용 FastTrack 센터 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)를 참조하세요.
-
 
 등록의 두 가지 주요 구성 요소는 다음과 같습니다.
 
@@ -50,6 +49,9 @@ Microsoft Azure Active Directory Premium 및 Microsoft Intune용 FastTrack 센�
 
 -   FastTrack 팀은 사용자나 사용자의 담당자와 직접 협업할 수 있습니다.
 
-**더 자세한 내용을 원하세요?**
+> [!NOTE]
+> **자세히 알아보고 싶습니까?** [Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility)를 참조하세요.
 
-[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
+## <a name="next-steps"></a>다음 단계
+
+[EMS용 FastTrack 센터 혜택 - 원본 환경 기대 사항](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
