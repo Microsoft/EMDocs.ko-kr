@@ -5,7 +5,7 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 03/21/2018
+ms.date: 03/09/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: 484156c7-c3c4-469d-b718-9fa33d9d0ec2
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 31f3afb2954d48d3a13176fade4c3b3ed22ef095
-ms.sourcegitcommit: ffa46a69834de317e99a58146492e06c6aa4901a
+ms.openlocfilehash: eb31a82d7b2bc7b2e92a3a7b0b1f41bf07c4e182
+ms.sourcegitcommit: f045537a12763cd6164c4ae42f7b4a45c4ca040b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="fasttrack-center-benefit-eligible-services-and-plans"></a>FastTrack 센터 혜택 적격 서비스 및 플랜
 적격 플랜을 통해 EMS(Enterprise Mobility + Security) 또는 해당 개별 클라우드 서비스에 대해 라이선스를 150개 이상 구매하면 서비스 혜택을 이용할 수 있습니다. 서비스 혜택을 사용하면 FastTrack 전문가와 협업하여 적격 서비스를 평가, 수정 및 활성화할 수 있습니다.

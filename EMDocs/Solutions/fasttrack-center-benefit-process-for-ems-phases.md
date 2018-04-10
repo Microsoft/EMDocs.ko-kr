@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 7d73513b80778ec91c9b3bee284175aa43751afc
-ms.sourcegitcommit: ffa46a69834de317e99a58146492e06c6aa4901a
+ms.openlocfilehash: c12542c9eed9daaa5a76241ce5045751b8473551
+ms.sourcegitcommit: f045537a12763cd6164c4ae42f7b4a45c4ca040b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="onboarding-phases"></a>온보딩 단계
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 03/22/2018
 
 적절한 수량의 라이선스를 구매한 후 구매 확인 메일의 지침에 따라 라이선스를 기존 테넌트나 새 테넌트에 연결하세요. Microsoft에서 FastTrack 센터 혜택의 적용 자격 여부를 확인하며 시작 지원을 위한 연락을 시도합니다.
 
-> [!NOTE] 
+> [!NOTE]
 > 조직이 이러한 서비스를 배포할 준비가 되어 있는 경우 [FastTrack 센터](http://fasttrack.microsoft.com/) 에서 지원을 요청할 수도 있습니다.
 
 ### <a name="to-request-assistance"></a>지원을 요청하려면
@@ -78,7 +78,7 @@ Microsoft는 사용자의 현재 설정을 기준으로 하여 EMS 또는 개별
 > 관리되는 인증 방법이 포함되지만 암호 해시 동기화로 제한되지 않습니다.
 
 > [!NOTE]
-> ID 통합은 활동 시간이며 관리 또는 페더레이션과 같은 기존 인증 방법의 마이그레이션 또는 서비스 해제를 포함하지 않습니다. 
+> ID 통합은 활동 시간이며 관리 또는 페더레이션과 같은 기존 인증 방법의 마이그레이션 또는 서비스 해제를 포함하지 않습니다.
 
 ### <a name="enable-phase---azure-ad-premium"></a>활성화 단계 - Azure AD Premium
 
@@ -107,10 +107,6 @@ Azure AD Premium 설치에는 다음과 같은 기능을 사용하도록 설정�
 -   Privileged Identity Management
 
 -   Azure Active Directory 조건부 액세스
-
--   관리자를 위한 사용량 및 보안 보고서.
-
--   관리 알림 및 경고
 
 ![등록 활성화 단계 - Azure AD Premium](./media/ft-enable-phase_aad-premium_adconnect_adfed.png)
 
@@ -178,4 +174,4 @@ Intune의 경우 Microsoft는 Microsoft Intune을 사용하여 장치를 관리�
 
 ## <a name="next-steps"></a>다음 단계
 
-[EMS용 FastTrack 혜택 - Microsoft의 책임](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
+[EMS용 FastTrack 혜택 - Microsoft의 책임](fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities.md)
