@@ -1,24 +1,24 @@
 ---
-title: "수천 개의 응용 프로그램, 하나의 ID"
-description: "이 문서에서는 Enterprise Mobility + Security를 통해 Azure Active Directory 내의 도구를 활용하여 업계의 모든 웹 기반 응용 프로그램에 걸쳐 작동하는 단일 ID를 제공할 수 있는 방법을 설명합니다."
-keywords: 
+title: 수천 개의 응용 프로그램, 하나의 ID
+description: 이 문서에서는 Enterprise Mobility + Security를 통해 Azure Active Directory 내의 도구를 활용하여 업계의 모든 웹 기반 응용 프로그램에 걸쳐 작동하는 단일 ID를 제공할 수 있는 방법을 설명합니다.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 12/07/2016
 ms.topic: solution
-ms.prod: 
+ms.prod: ''
 ms.service: active-directory
-ms.technology: 
+ms.technology: ''
 ms.assetid: dd879a14-919e-431b-89b9-c035c83a6899
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-ms.openlocfilehash: b995c17749d1eaf6ae9561980ff87b97f7f5e1a0
-ms.sourcegitcommit: 5cde65a0e614800ebd9c8479437dc9dd846c8cd8
+ms.openlocfilehash: 7710b1465256e99b9a0f7fa05af780af079731ae
+ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="thousands-of-apps-one-identity"></a>수천 개의 응용 프로그램, 하나의 ID
 Azure AD(Azure Active Directory)는 클라우드 리소스와 온-프레미스 리소스 모두에 액세스하는 SaaS(Software as a Service) 응용 프로그램 사용자에게 공통 ID를 제공하여 사용자의 생산성을 개선합니다.
@@ -102,11 +102,11 @@ Azure 응용 프로그램 갤러리에 나열되어 있는지 여부에 상관�
 ## <a name="how-to-implement-this-solution"></a>이 솔루션을 구현하는 방법
 다음 단계에서는 앞에서 설명한 각 Azure AD 기능을 구현하는 방법을 설명합니다. 각 링크는 조직에서 구현할 여러 지침/단계 집합이 포함된 다양한 문서 집합을 나타냅니다.
 1. [응용 프로그램 프록시에서 Single Sign-On 사용](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-sso-using-kcd/)
-- [온-프레미스 응용 프로그램에 대한 보안 원격 액세스 제공](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-get-started/)
-  - [Azure AD 응용 프로그램 프록시에서 사용자 지정 도메인 사용](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-custom-domains/)
-  - [응용 프로그램 프록시에서 클레임 인식 응용 프로그램 사용](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-claims-aware-apps/)
-  - [응용 프로그램 프록시를 사용하여 게시한 앱에 대한 조건부 액세스 사용](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-conditional-access/)
-- [Azure AD로 사용자 고유 앱 가져오기](https://blogs.technet.microsoft.com/enterprisemobility/2015/06/17/bring-your-own-app-with-azure-ad-self-service-saml-configuration-now-in-preview/)
+2. [온-프레미스 응용 프로그램에 대한 보안 원격 액세스 제공](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-get-started/)
+   - [Azure AD 응용 프로그램 프록시에서 사용자 지정 도메인 사용](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-custom-domains/)
+   - [응용 프로그램 프록시에서 클레임 인식 응용 프로그램 사용](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-claims-aware-apps/)
+   - [응용 프로그램 프록시를 사용하여 게시한 앱에 대한 조건부 액세스 사용](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-conditional-access/)
+3. [Azure AD로 사용자 고유 앱 가져오기](https://blogs.technet.microsoft.com/enterprisemobility/2015/06/17/bring-your-own-app-with-azure-ad-self-service-saml-configuration-now-in-preview/)
 
 ## <a name="additional-resources"></a>추가 리소스
 - **Azure.com의 앱 갤러리**
