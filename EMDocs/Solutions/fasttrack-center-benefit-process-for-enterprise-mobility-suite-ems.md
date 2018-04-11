@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 53f96bd0ea1579ef7597d74690a2bac005c132c0
-ms.sourcegitcommit: ffa46a69834de317e99a58146492e06c6aa4901a
+ms.openlocfilehash: e26aa24ea38c9ec2fa0dabe9044256fa5bfd9b4a
+ms.sourcegitcommit: f045537a12763cd6164c4ae42f7b4a45c4ca040b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="fasttrack-center-benefit-process-for-enterprise-mobility--security-ems"></a>EMS(Enterprise Mobility + Security)용 FastTrack 센터 혜택 프로세스
 EMS용 FastTrack 센터 혜택에 대해 자격을 갖춘 조직의 사용자는 FastTrack 전문가와 원격으로 협업하여 Microsoft Azure Active Directory Premium 및 Microsoft Intune을 사용할 수 있도록 준비할 수 있습니다. 또한 [FastTrack 사이트](http://fasttrack.microsoft.com/ems)를 통해 Azure Information Protection, Microsoft Cloud App Security 및 Microsoft Advanced Threat Analytics에 대한 도움말도 요청할 수 있습니다. 해당 조직의 적격 여부를 확인하려면 [FastTrack 센터 혜택 적격 서비스 및 플랜](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)을 참조하세요.
@@ -31,7 +31,7 @@ EMS용 FastTrack 센터 혜택에 대해 자격을 갖춘 조직의 사용자는
 
 -   [등록 프로세스의 단계](fasttrack-center-benefit-process-for-ems-phases.md)
 
--   각 단계에 대한 [Microsoft의 책임](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
+-   각 단계에 대한 [FastTrack 책임](fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities.md)
 
 -   각 단계에 대한 [고객의 책임](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
 
