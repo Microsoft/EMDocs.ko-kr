@@ -18,6 +18,6 @@
 ### [FastTrack 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)
 #### [개요](fasttrack-center-benefit-process-for-ems-overview.md)
 #### [원본 환경 요구 사항](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
-#### [등록 및 마이그레이션 단계](fasttrack-center-benefit-process-for-ems-phases.md)
+#### [온보딩 단계](fasttrack-center-benefit-process-for-ems-phases.md)
 #### [FastTrack 책임](fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities.md)
 #### [사용자의 책임](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)

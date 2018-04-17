@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: 162e59f3-33a2-44b5-a59f-24612dc743f3
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 0d4d4c9419fb027b87ceb92fcabb8af17f983f63
-ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
+ms.openlocfilehash: 0146fc11fb08c1c7d4442cc78a7af8aa8d2dcdab
+ms.sourcegitcommit: 5ce9b7a0ebac0c5f626b0273fa93fd02589a7452
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-manage-your-own-password"></a>자신의 암호를 관리하는 방법
 
@@ -32,7 +32,7 @@ Office 365 또는 Microsoft 계정을 사용하여 회사 리소스에 액세스
 ![blahblah를 보여 주는 스크린샷](./media/ft-mngPW-1-setup.png)
 4.  드롭다운에서 국가 코드를 선택하고 지역 번호를 포함한 전체 전화 번호를 입력합니다.
 ![국가 코드를 선택하는 방법을 보여 주는 스크린샷 ](./media/ft-mngPW-2-enterNumber.png)![전화 번호를 입력하는 위치를 보여 주는 스크린샷](./media/ft-mngPW-3-enterNumber2.png)
-5.  **문자 받기** 또는 **내게 전화 걸기** 옵션 중 하나를 선택합니다. 이 경우 휴대폰으로 6자리 코드를 전송하는 **문자 받기**를 선택합니다. 코드가 휴대폰에 도착할 때까지 기다립니다.
+5.  **문자 받기** 또는 **내게 전화 걸기** 옵션 중 하나를 선택합니다. 이 경우 휴대폰으로 6자리 코드를 전송하는 **문자 받기**를 선택합니다. 코드가 휴대폰에 도착할 때까지 기다립니다.  
 ![휴대폰에 전송된 6자리 코드를 보여 주는 스크린샷](./media/ft-mngPW-4-textCode.png)
 6.  코드가 도착하면 입력 상자에 코드를 입력한 다음 "확인"을 클릭합니다.
 7.  **감사합니다.**가 표시되면 이것으로 끝입니다! 이제 언제든지 [https://passwordreset.microsoftonline.com](https://passwordreset.microsoftonline.com)으로 이동하여 암호 재설정을 위해 등록한 방법을 사용할 수 있습니다. ![등록이 완료되면 받는 감사 메시지를 보여 주는 스크린샷](./media/ft-mngPW-5-thanks.png)
@@ -62,7 +62,7 @@ Office 365 또는 Microsoft 계정을 사용하여 회사 리소스에 액세스
    ![사용자에게 확인을 위해 연락을 받을 방법을 선택하도록 요청하는 메시지를 보여 주는 스크린샷](./media/ft-mngPW-8-answerQuestions.png)
 5. 여기서는 예제로 **내 휴대폰으로 문자 메시지 보내기**를 사용합니다. 전화 기반 옵션을 사용하는 경우 먼저 전화 번호를 확인해야 문자 메시지를 보낼 수 있습니다. 전체 전화 번호를 입력한 후 **다음**을 클릭하여 전화 번호가 올바른지 확인하고 문자 메시지를 보냅니다.
    ![사용자가 확인 문자 메시지를 받을 전화 번호를 입력해야 함을 보여 주는 스크린샷](./media/ft-mngPW-9-textNumber.png)
-6. 문자 메시지를 받으면 코드를 전송한 번호가 아니라 메시지 본문에 있는 확인 코드를 사용하도록 합니다. 문자 메시지가 도착하기까지 몇 분 정도 걸릴 수 있으므로 커피 한잔 하면서 기다리세요!
+6. 문자 메시지를 받으면 코드를 전송한 번호가 아니라 메시지 본문에 있는 확인 코드를 사용하도록 합니다. 문자 메시지가 도착하기까지 몇 분 정도 걸릴 수 있으므로 커피 한잔 하면서 기다리세요!  
    ![받은 확인 코드를 보여 주는 스크린샷](./media/ft-mngPW-10-verificationCode.png)
 7. 이제 방금 휴대폰으로 받은 코드를 페이지의 입력 상자에 입력합니다.
    ![사용자가 방금 받은 확인 코드를 입력해야 함을 보여 주는 스크린샷](./media/ft-mngPW-11-enterCode.png)
