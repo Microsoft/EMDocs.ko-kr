@@ -153,7 +153,7 @@ Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리
 
 ## <a name="enroll-your-mac-os-x-device-in-intune"></a>Intune에서 Mac OS X 장치 등록
 1. Safari 브라우저를 사용하여 [회사 포털 웹 사이트](https://portal.manage.microsoft.com/)를 열고 알림 표시줄을 탭합니다.
-2. **이 장치는 등록되지 않았거나 회사 포털에서 해당 장치를 식별할 수 없습니다.**를 탭합니다.
+2. **이 장치는 등록되지 않았거나 회사 포털에서 해당 장치를 식별할 수 없습니다.** 를 탭합니다.
 
    ![회사 포털에서 Mac OS X 장치를 식별할 수 없음을 보여 주는 스크린샷](./media/ft-userEnrollMacOSx-1-enrollBegin.png)
 3. **설치**를 탭하여 장치 등록을 시작합니다.
