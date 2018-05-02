@@ -28,14 +28,14 @@ Office 365 또는 Microsoft 계정을 사용하여 회사 리소스에 액세스
 
 1.  [http://aka.ms/ssprsetup](http://aka.ms/ssprsetup)으로 이동합니다.
 2.  사용자 이름과 암호를 입력합니다.
-3.  **지금 설정하세요.**를 클릭하여 등록 옵션을 선택합니다. 이 경우 **인증 전화**를 등록하는 과정을 보여드리겠습니다.
+3.  **지금 설정하세요.** 를 클릭하여 등록 옵션을 선택합니다. 이 경우 **인증 전화**를 등록하는 과정을 보여드리겠습니다.
 ![blahblah를 보여 주는 스크린샷](./media/ft-mngPW-1-setup.png)
 4.  드롭다운에서 국가 코드를 선택하고 지역 번호를 포함한 전체 전화 번호를 입력합니다.
 ![국가 코드를 선택하는 방법을 보여 주는 스크린샷 ](./media/ft-mngPW-2-enterNumber.png)![전화 번호를 입력하는 위치를 보여 주는 스크린샷](./media/ft-mngPW-3-enterNumber2.png)
 5.  **문자 받기** 또는 **내게 전화 걸기** 옵션 중 하나를 선택합니다. 이 경우 휴대폰으로 6자리 코드를 전송하는 **문자 받기**를 선택합니다. 코드가 휴대폰에 도착할 때까지 기다립니다.  
 ![휴대폰에 전송된 6자리 코드를 보여 주는 스크린샷](./media/ft-mngPW-4-textCode.png)
 6.  코드가 도착하면 입력 상자에 코드를 입력한 다음 "확인"을 클릭합니다.
-7.  **감사합니다.**가 표시되면 이것으로 끝입니다! 이제 언제든지 [https://passwordreset.microsoftonline.com](https://passwordreset.microsoftonline.com)으로 이동하여 암호 재설정을 위해 등록한 방법을 사용할 수 있습니다. ![등록이 완료되면 받는 감사 메시지를 보여 주는 스크린샷](./media/ft-mngPW-5-thanks.png)
+7.  **감사합니다.** 가 표시되면 이것으로 끝입니다! 이제 언제든지 [https://passwordreset.microsoftonline.com](https://passwordreset.microsoftonline.com)으로 이동하여 암호 재설정을 위해 등록한 방법을 사용할 수 있습니다. ![등록이 완료되면 받는 감사 메시지를 보여 주는 스크린샷](./media/ft-mngPW-5-thanks.png)
 
 > [!IMPORTANT]
 > 관리자가 둘 이상의 옵션을 등록할 수 있도록 허용하는 경우 휴대폰을 분실하거나 메일에 대한 액세스 권한을 손실하는 경우를 대비하여 백업 옵션도 등록하는 것이 좋습니다.
