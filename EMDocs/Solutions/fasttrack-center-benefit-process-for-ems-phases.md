@@ -5,7 +5,7 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 03/21/2018
+ms.date: 04/27/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: c12542c9eed9daaa5a76241ce5045751b8473551
-ms.sourcegitcommit: f045537a12763cd6164c4ae42f7b4a45c4ca040b
+ms.openlocfilehash: e63644b2e8db81f6293dbad4ca4de14dbe40ecac
+ms.sourcegitcommit: 0863dce817862f00068614f2c62698784eb76d84
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="onboarding-phases"></a>온보딩 단계
 
@@ -75,10 +75,10 @@ Microsoft는 사용자의 현재 설정을 기준으로 하여 EMS 또는 개별
 
 ![온보딩 활성화 단계 - 핵심 기능](./media/ft-enable-phase-core-02.png)
 > [!NOTE]
-> 관리되는 인증 방법이 포함되지만 암호 해시 동기화로 제한되지 않습니다.
+> WAP는 웹 응용 프로그램 프록시를 나타냅니다. SSL은 Secure Sockets Layer의 약어입니다. SDS는 학교 데이터 동기화를 나타냅니다. SDS에 대한 자세한 내용은 [Welcome to Microsoft School Data Sync](https://go.microsoft.com/fwlink/?linkid=871480)(Microsoft 학교 데이터 동기화 시작)를 참조하세요.
 
 > [!NOTE]
-> ID 통합은 활동 시간이며 관리 또는 페더레이션과 같은 기존 인증 방법의 마이그레이션 또는 서비스 해제를 포함하지 않습니다.
+> 관리되는 인증 방법이 포함되지만 암호 해시 동기화로 제한되지 않습니다. ID 통합은 활동 시간이며 관리 또는 페더레이션과 같은 기존 인증 방법의 마이그레이션 또는 서비스 해제를 포함하지 않습니다.
 
 ### <a name="enable-phase---azure-ad-premium"></a>활성화 단계 - Azure AD Premium
 
@@ -139,6 +139,17 @@ Intune의 경우 Microsoft는 Microsoft Intune을 사용하여 장치를 관리�
         -   조직에 기존 인증 기관, Wi-Fi 또는 VPN(가상 사설망) 인프라가 있는 경우 메일, 무선 네트워크 및 VPN 프로필 배포.
 
         -   해당되는 경우 Microsoft Intune Exchange Connector 설정.
+
+        -   Intune 데이터 웨어하우스에 연결
+
+        -   Intune을 다음과 통합:
+            -   원격 지원을 위한 Team Viewer(Team Viewer 구독 필요).
+
+            -   MTD(Mobile Threat Defense) 파트너 솔루션(Mobile Threat Defense 구독 필요).
+
+            -   Telecom Expense Management 솔루션(Telecom Expense Management 솔루션 구독 필요).
+
+            -   Windows Defender Advanced Threat Protection(Windows E5 또는 Microsoft 365 E5 라이선스 필요).
 
     -   각각의 [지원되는 각 플랫폼](https://technet.microsoft.com/library/dn600287.aspx) 장치를 Intune 또는 Configuration Manager with Microsoft Intune 서비스에 등록.
 

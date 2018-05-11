@@ -5,7 +5,7 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 03/21/2018
+ms.date: 04/27/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: fe9ee9f1eeb36e4f1df8d1bd2da63ab08e515098
-ms.sourcegitcommit: ffa46a69834de317e99a58146492e06c6aa4901a
+ms.openlocfilehash: bba697474155bbd85927da8af86d72dcc5aad531
+ms.sourcegitcommit: 0863dce817862f00068614f2c62698784eb76d84
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="your-responsibilities"></a>사용자의 책임
 
@@ -66,6 +66,10 @@ ms.lasthandoff: 03/22/2018
 -   Intune에서 Wi-Fi 및 VPN 프로필 배포를 위해 필요한 경우 인증 기관, Wi-Fi 및 VPN 인프라를 제공하고 구성합니다.
 
 -   최종 사용자가 액세스할 수 있는 Microsoft Intune 회사 포털에 구성되고 표시될 조직의 TOU(사용 약관)를 작성합니다.
+
+-   Team Viewer, Mobile Threat Defense 및 Telecom Expense Management 솔루션 구독에 등록하세요.
+
+-   Windows Defender Advanced Threat Protection 라이선스에 등록하세요. (Windows E5 또는 Microsoft E5 라이선스).
 
 ## <a name="initiate-phase"></a>시작 단계
 
