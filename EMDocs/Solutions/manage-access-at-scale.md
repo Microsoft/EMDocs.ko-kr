@@ -1,24 +1,24 @@
 ---
-title: "대규모 액세스 관리"
-description: "이 문서에서는 Enterprise Mobility + Security를 통해 Azure Active Directory 내의 도구를 활용하여 ID 액세스를 관리할 수 있는 조직의 역량을 강화하는 방법을 설명합니다."
-keywords: 
+title: 대규모 액세스 관리
+description: 이 문서에서는 Enterprise Mobility + Security를 통해 Azure Active Directory 내의 도구를 활용하여 ID 액세스를 관리할 수 있는 조직의 역량을 강화하는 방법을 설명합니다.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 12/07/2016
 ms.topic: solution
-ms.prod: 
+ms.prod: ''
 ms.service: active-directory
-ms.technology: 
+ms.technology: ''
 ms.assetid: 0292919a-af10-4a25-8916-c704aed643f6
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-ms.openlocfilehash: fa2795fb578c0d278d55cbff9f44c19ca2e13309
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: aba57397c4e66d03f89a7e9c9d872903520f5c0c
+ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="manage-access-at-scale"></a>대규모 액세스 관리
 Microsoft는 지금까지 많은 조직을 지원해 왔습니다. Microsoft는 어디서든 사용할 수 있는 ID뿐만 아니라 조직 내에서 IT를 자동화하고, 보호하고, 관리하는 다양한 도구도 제공합니다. 클라우드 컴퓨팅이 등장한 이후에도 사용자 암호 다시 설정에 관한 지원 센터 문의를 비롯하여 사용자 그룹 관리, 앱 요청 등의 다양한 IT 작업을 관리하고 제어해 달라는 요구는 여전합니다.
@@ -43,7 +43,7 @@ Azure AD는 동적 그룹 구성원 자격 규칙 및 앱 관리 기능을 활�
 ![Azure AD Connect가 Windows Server Active Directory와 Azure Active Directory 간에 사용자 및 그룹을 동기화하는 방식을 보여 주는 그래픽](./media/manage-access-at-scale/manage-access-at-scale-fig1.png)
 
 ### <a name="application-management"></a>응용 프로그램 관리
-매일 사용하는 각 앱에 대한 암호를 기억하고 싶은 사용자는 얼마나 될까요? [Single Sign-On](https://azure.microsoft.com/en-us/documentation/articles/active-directory-appssoaccess-whatis/)이 일반적인 문제를 해결합니다. 단일 사용자 계정 및 암호를 사용하여 여러 SaaS 응용 프로그램에 로그인할 수 있습니다. Single Sign-On을 조직 내의 모든 응용 프로그램에 자동으로 프로비전할 수 있습니다. 이 기능은 Office 365와 같은 Microsoft 클라우드 앱과 Salesforce, ServiceNow, Workday 같은 타사 앱에 사용할 수 있습니다.
+매일 사용하는 각 앱에 대한 암호를 기억하고 싶은 사용자는 얼마나 될까요? [Single Sign-On](https://azure.microsoft.com/documentation/articles/active-directory-appssoaccess-whatis/)이 일반적인 문제를 해결합니다. 단일 사용자 계정 및 암호를 사용하여 여러 SaaS 응용 프로그램에 로그인할 수 있습니다. Single Sign-On을 조직 내의 모든 응용 프로그램에 자동으로 프로비전할 수 있습니다. 이 기능은 Office 365와 같은 Microsoft 클라우드 앱과 Salesforce, ServiceNow, Workday 같은 타사 앱에 사용할 수 있습니다.
 
 Single Sign-On에 대한 자세한 정보는 다음과 같습니다.
 
@@ -98,7 +98,7 @@ Azure AD를 사용하여 Microsoft 및 타사 SaaS 응용 프로그램을 추가
 
 Azure AD Premium을 사용할 경우 사용자에게 암호 재설정 셀프 서비스 포털 기능을 제공하여 IT 관리자 이상의 작업을 수행할 수 있습니다. 디렉터리 내의 모든 사용자에게 동일한 수준의 관리 기능을 확장하는 사용자 암호 재설정 정책을 빠르게 적용할 수 있습니다.
 
-Azure AD 테넌트에서 [필수 구성 요소, 암호 셀프 서비스 포털을 사용하도록 설정하고 구성하는 방법](https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-manage-groups/)에 대해 자세히 알아보세요.
+Azure AD 테넌트에서 [필수 구성 요소, 암호 셀프 서비스 포털을 사용하도록 설정하고 구성하는 방법](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-manage-groups/)에 대해 자세히 알아보세요.
 
 ## <a name="how-to-use-azure-ad-connect-health"></a>Azure AD Connect Health를 사용하는 방법
 [Azure AD Connect Health 설명서](https://azure.microsoft.com/en-in/documentation/articles/active-directory-aadconnect-health/)를 확인하여 조직에서 이 기능을 사용하기 위해 사용할 수 있는 도구, 해당 기능 및 작업 단계를 알아볼 수 있습니다.

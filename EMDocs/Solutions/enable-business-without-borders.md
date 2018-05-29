@@ -1,24 +1,24 @@
 ---
-title: "경계 없는 비즈니스 지원"
-description: "이 문서에서는 Enterprise Mobility + Security를 통해 클라우드 및 온-프레미스 자산에 걸쳐 작동하고 Azure Active Directory 내의 도구를 활용하여 사용자의 생산성을 유지하는 단일 ID를 제공할 수 있는 방법을 설명합니다."
-keywords: 
+title: 경계 없는 비즈니스 지원
+description: 이 문서에서는 Enterprise Mobility + Security를 통해 클라우드 및 온-프레미스 자산에 걸쳐 작동하고 Azure Active Directory 내의 도구를 활용하여 사용자의 생산성을 유지하는 단일 ID를 제공할 수 있는 방법을 설명합니다.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 12/07/2016
 ms.topic: solution
-ms.prod: 
+ms.prod: ''
 ms.service: active-directory
-ms.technology: 
+ms.technology: ''
 ms.assetid: 38e9802b-d8c0-4f5c-b89d-8ce1e04f7387
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-ms.openlocfilehash: 8f79e391813c7a15e522f07ff27a2f6abd8536cc
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: 756df8b2432788ba1152c5ef5a195d84cd6cf82b
+ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="enable-business-without-borders"></a>경계 없는 비즈니스 지원
 ID는 있으면 좋은 것이 아니라 효율적인 작업의 핵심입니다. 조직에서는 모든 장치 및 모든 위치에서 조직의 모든 데이터 및 응용 프로그램에 액세스할 수 있는 직원의 역량을 강화해야 합니다. 사용자는 서로 협력하고 파트너와 공동 작업을 수행해야 하며 고객과 연결해야 합니다. 이들이 사용하는 도구는 더 이상 보호되고 제어되는 환경에 있는 것이 아니라 공용 클라우드에서 찾을 수 있습니다.
@@ -30,7 +30,7 @@ EMS(Enterprise Mobility + Security)는 ID, 장치, 앱, 데이터 등의 4단계
 
 ### <a name="access-to-single-sign-on-applications"></a>Single Sign-On 응용 프로그램 액세스
 ID 페더레이션과 Single Sign-On을 사용하는 경우 사용자는 단일 로그인 자격 증명 및 암호 집합을 사용할 수 있으므로 IT 부서에서 사용자 ID를 보다 효율적으로 관리할 수 있습니다.
-### <a name="multi-factor-authentication"></a>다단계 인증
+### <a name="multi-factor-authentication"></a>Multi-factor Authentication
 또한 사용자가 새 장치를 회사로 가져올 수 있으며, 이 경우 IT 부서에서는 네트워크에 연결된 장치가 적절한 자격 증명을 가진 개인이 소유하고 제어하는지에 대한 유효성을 검사할 수 있습니다. MFA(다단계 인증)는 보호 계층을 제공하는 데 도움이 됩니다.
 ### <a name="self-service-group-management"></a>셀프 서비스 그룹 관리
 사용자가 암호를 잊어버린 경우 고유한 암호를 다시 설정할 수 있으므로 IT 부서의 부담이 줄어들며 신속한 문제 해결을 통해 사용자의 효율성이 증가합니다.
@@ -58,4 +58,4 @@ Azure AD B2B 공동 작업은 협력할 파트너의 메일 주소와 사용할 
 ## <a name="how-to-implement-this-solution"></a>이 솔루션을 구현하는 방법
 다음 단계에서는 앞에서 설명한 각 Azure AD B2B 공동 작업을 구현하는 방법을 설명합니다. 각 링크는 조직에서 구현할 여러 지침/단계 집합이 포함된 다양한 문서 집합을 나타냅니다.
 - [Azure AD B2B 공동 작업을 사용하는 방법](https://azure.microsoft.com/documentation/articles/active-directory-b2b-detailed-walkthrough/)에 대해 알아봅니다.
-- [CSV 파일을 사용하여 파트너 사용자 정보를 지정하는 방법](https://azure.microsoft.com/en-us/documentation/articles/active-directory-b2b-references-csv-file-format/)에 대해 알아봅니다.
+- [CSV 파일을 사용하여 파트너 사용자 정보를 지정하는 방법](https://azure.microsoft.com/documentation/articles/active-directory-b2b-references-csv-file-format/)에 대해 알아봅니다.

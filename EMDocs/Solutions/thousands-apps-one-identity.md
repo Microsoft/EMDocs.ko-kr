@@ -14,11 +14,11 @@ ms.assetid: dd879a14-919e-431b-89b9-c035c83a6899
 ROBOTS: ''
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-ms.openlocfilehash: 7710b1465256e99b9a0f7fa05af780af079731ae
-ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
+ms.openlocfilehash: 6aca218a4607579ce97f057ca6f67b344eae7894
+ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="thousands-of-apps-one-identity"></a>수천 개의 응용 프로그램, 하나의 ID
 Azure AD(Azure Active Directory)는 클라우드 리소스와 온-프레미스 리소스 모두에 액세스하는 SaaS(Software as a Service) 응용 프로그램 사용자에게 공통 ID를 제공하여 사용자의 생산성을 개선합니다.
@@ -95,17 +95,17 @@ Azure 응용 프로그램 갤러리에 나열되어 있는지 여부에 상관�
 ![Azure AD 응용 프로그램 갤러리를 사용하여 조직의 응용 프로그램을 추가하는 방법을 보여 주는 스크린샷](./media/thousands-apps-one-identity/thousands-apps-one-identity-fig4.png)
 
 ### <a name="secure-remote-access-to-on-premises-apps"></a>온-프레미스 응용 프로그램에 대한 보안 원격 액세스
-[Azure AD 응용 프로그램 프록시](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-enable/)는 온-프레미스에서 호스트되는 웹 응용 프로그램에 대한 SSO(Single Sign-On) 및 보안 원격 액세스를 제공합니다. 여기에는 SharePoint 사이트, Outlook Web Access 또는 다른 모든 LOB 웹 응용 프로그램이 포함될 수 있습니다. 이러한 온-프레미스 웹 응용 프로그램은 O365에서 사용되는 동일한 ID 및 제어 플랫폼인 Azure AD와 통합됩니다.
+[Azure AD 응용 프로그램 프록시](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-enable/)는 온-프레미스에서 호스트되는 웹 응용 프로그램에 대한 SSO(Single Sign-On) 및 보안 원격 액세스를 제공합니다. 여기에는 SharePoint 사이트, Outlook Web Access 또는 다른 모든 LOB 웹 응용 프로그램이 포함될 수 있습니다. 이러한 온-프레미스 웹 응용 프로그램은 O365에서 사용되는 동일한 ID 및 제어 플랫폼인 Azure AD와 통합됩니다.
 
 이 경우 최종 사용자는 네트워크 인프라를 변경하거나 VPN 없이도 O365 및 기타 Azure AD와 통합된 SaaS 응용 프로그램과 동일한 방식으로 온-프레미스 응용 프로그램에 액세스할 수 있습니다.
 
 ## <a name="how-to-implement-this-solution"></a>이 솔루션을 구현하는 방법
 다음 단계에서는 앞에서 설명한 각 Azure AD 기능을 구현하는 방법을 설명합니다. 각 링크는 조직에서 구현할 여러 지침/단계 집합이 포함된 다양한 문서 집합을 나타냅니다.
-1. [응용 프로그램 프록시에서 Single Sign-On 사용](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-sso-using-kcd/)
-2. [온-프레미스 응용 프로그램에 대한 보안 원격 액세스 제공](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-get-started/)
-   - [Azure AD 응용 프로그램 프록시에서 사용자 지정 도메인 사용](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-custom-domains/)
-   - [응용 프로그램 프록시에서 클레임 인식 응용 프로그램 사용](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-claims-aware-apps/)
-   - [응용 프로그램 프록시를 사용하여 게시한 앱에 대한 조건부 액세스 사용](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-conditional-access/)
+1. [응용 프로그램 프록시에서 Single Sign-On 사용](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-sso-using-kcd/)
+2. [온-프레미스 응용 프로그램에 대한 보안 원격 액세스 제공](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-get-started/)
+   - [Azure AD 응용 프로그램 프록시에서 사용자 지정 도메인 사용](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-custom-domains/)
+   - [응용 프로그램 프록시에서 클레임 인식 응용 프로그램 사용](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-claims-aware-apps/)
+   - [응용 프로그램 프록시를 사용하여 게시한 앱에 대한 조건부 액세스 사용](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-conditional-access/)
 3. [Azure AD로 사용자 고유 앱 가져오기](https://blogs.technet.microsoft.com/enterprisemobility/2015/06/17/bring-your-own-app-with-azure-ad-self-service-saml-configuration-now-in-preview/)
 
 ## <a name="additional-resources"></a>추가 리소스

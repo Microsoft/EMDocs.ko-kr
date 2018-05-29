@@ -1,24 +1,24 @@
 ---
-title: "클라우드 기반 보호"
-description: "이 문서에서는 Enterprise Mobility + Security를 통해 Azure Active Directory 내의 도구를 활용하여 사전에 ID를 보호하도록 지원하고 조직의 보안 위협에 대응할 수 있는 포괄적인 보안 도구 집합을 제공하는 방법을 설명합니다."
-keywords: 
+title: 클라우드 기반 보호
+description: 이 문서에서는 Enterprise Mobility + Security를 통해 Azure Active Directory 내의 도구를 활용하여 사전에 ID를 보호하도록 지원하고 조직의 보안 위협에 대응할 수 있는 포괄적인 보안 도구 집합을 제공하는 방법을 설명합니다.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/24/2016
 ms.topic: solution
-ms.prod: 
+ms.prod: ''
 ms.service: active-directory
-ms.technology: 
+ms.technology: ''
 ms.assetid: 46654ab0-0d0a-47ad-8715-b149a1092a37
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-ms.openlocfilehash: 0ed7704a832f3567f14c6eec5ae7da9ea5e9f22a
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: 28fc9de2c33972231a3e62c464153de0e202e06b
+ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="cloud-powered-protection"></a>클라우드 기반 보호
 Microsoft는 10여년 동안 클라우드 기반 ID의 보안을 유지해 왔으며, Azure Active Directory를 통해 이러한 보호 시스템을 엔터프라이즈 고객에게 제공함으로써 향상된 보안과 관리 기능으로 사용자와 관리자의 책임을 유지하도록 지원하고 있습니다.
@@ -76,7 +76,7 @@ Azure Marketplace로 가서 “ID 보호”를 검색하여 Azure AD ID 보호�
 
 Microsoft는 이 분야에 계속 투자하고 있으며, 지속적으로 기존 위험 이벤트의 감지 정확도를 개선하고 새로운 위험 이벤트 유형을 추가할 계획입니다. 예를 들어 불가능한 이동 위험 이벤트를 조사할 수 있습니다.
 
-자세한 내용은 [Azure AD ID Playbook](https://azure.microsoft.com/en-us/documentation/articles/active-directory-identityprotection-playbook/)에서 확인할 수 있습니다.
+자세한 내용은 [Azure AD ID Playbook](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection-playbook/)에서 확인할 수 있습니다.
 
 다음은 ID 보호 대시보드에서 제공되는 몇 가지 위험 이벤트의 예입니다.
 
@@ -87,7 +87,7 @@ Microsoft는 이 분야에 계속 투자하고 있으며, 지속적으로 기존
 
 !["불가능한 이동" 위험 이벤트의 위치를 보여 주는 Azure AD ID 보호 대시보드의 스크린샷](./media/cloud-powered-protection/cloud-powered-protection-fig2.png)
 
-자세한 내용은 [Azure Active Directory ID 보호에서 감지되는 위험 이벤트 유형](https://azure.microsoft.com/en-us/documentation/articles/active-directory-identityprotection-risk-events-types/)에서 확인할 수 있습니다.
+자세한 내용은 [Azure Active Directory ID 보호에서 감지되는 위험 이벤트 유형](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection-risk-events-types/)에서 확인할 수 있습니다.
 
 #### <a name="remediation"></a>수정
 인시던트를 개별적으로 처리하는 것 외에 Azure AD ID 보호에서는 사용자 위험 수정 정책을 구성하여 자동 관리 방식으로 가능한 문제를 해결할 수 있는 기능을 제공합니다. 정책 설정 내에서 개별 사용자, 그룹 또는 모든 사용자를 대상으로 지정할 수 있습니다. 또한 정책을 트리거하는 특정 조건을 설정할 수 있습니다.
@@ -99,7 +99,7 @@ Microsoft는 이 분야에 계속 투자하고 있으며, 지속적으로 기존
 - Azure MFA 등록
 - 암호 변경
 
-자세한 내용은 [Azure AD ID 보호](https://azure.microsoft.com/en-us/documentation/articles/active-directory-identityprotection/) 및 이 [엔터프라이즈 이동성 및 보안 블로그 게시물](https://blogs.technet.microsoft.com/enterprisemobility/2016/09/07/azuread-identity-protection-azure-ad-privileged-identity-management-and-azure-ad-premium-p2-will-be-generally-available-sept-15th/)에서 확인할 수 있습니다.
+자세한 내용은 [Azure AD ID 보호](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection/) 및 이 [엔터프라이즈 이동성 및 보안 블로그 게시물](https://blogs.technet.microsoft.com/enterprisemobility/2016/09/07/azuread-identity-protection-azure-ad-privileged-identity-management-and-azure-ad-premium-p2-will-be-generally-available-sept-15th/)에서 확인할 수 있습니다.
 
 ### <a name="azure-ad-conditional-access"></a>Azure AD 조건부 액세스
 아래 링크는 MFA(다단계 인증), 위치 및 장치 정책에 따라 Azure AD 조건부 액세스를 사용하기 위한 정보를 제공합니다.

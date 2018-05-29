@@ -1,23 +1,23 @@
 ---
-title: "손상을 입기 전에 공격 감지 | Microsoft 문서"
-description: "Enterprise Mobility + Security를 통해 Advanced Threats Analytics, Cloud App Security, Azure Active Directory Premium을 활용하여 공격으로 인한 손상이 발생하기 전에 해당 공격으로부터 기업 데이터를 보호할 수 있는 방법을 설명하는 시나리오입니다."
+title: 손상을 입기 전에 공격 감지 | Microsoft 문서
+description: Enterprise Mobility + Security를 통해 Advanced Threats Analytics, Cloud App Security, Azure Active Directory Premium을 활용하여 공격으로 인한 손상이 발생하기 전에 해당 공격으로부터 기업 데이터를 보호할 수 있는 방법을 설명하는 시나리오입니다.
 author: yuridio
 ms.author: yurid
 manager: swadhwa
 ms.date: 01/23/2017
 ms.topic: solution
-ms.prod: 
+ms.prod: ''
 ms.service: active-directory
-ms.technology: 
+ms.technology: ''
 ms.assetid: de0a7e70-008b-45c1-bba8-f033b1f62194
 ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: advanced-threat-analytics, cloud-app-security
-ms.openlocfilehash: 420df3bfcc0fca07bf4f7b068f4d49015ace048f
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: c8d94bb0ff5fdbb45670d93c31a3da0f5b1a859d
+ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="detect-attacks-before-they-cause-damage"></a>손상을 입기 전에 공격 감지
 보안 상태가 강력하더라도 심각한 손상이 발생하기 전에 위협을 식별할 수 있으려면 가동 중인 고급 검색 시스템이 필요합니다. 조직에서는 온-프레미스와 클라우드에서 의심스러운 활동을 검색할 수 있도록 Microsoft 보안 인텔리전스를 원활하게 활용할 수 있습니다.
@@ -29,7 +29,7 @@ ms.lasthandoff: 07/25/2017
 Microsoft Enterprise Mobility + Security를 사용하면 IT에서는 온-프레미스와 클라우드에서 혁신적인 행동 분석과 변칙 감지 기술을 사용하여 조직에서 공격자를 식별할 수 있습니다.  시스템에서 알려진 악의적인 공격 및 알려진 보안 취약성을 감지하도록 IT를 지원하게 됩니다.
 
 ## <a name="recommended-solution"></a>권장 솔루션
-이 시나리오에 대한 요구 사항을 해결하기 위해 EMS에서는 [Advanced Threats Analytics](https://docs.microsoft.com/en-us/advanced-threat-analytics/), [Cloud App Security](https://docs.microsoft.com/en-us/cloud-app-security/what-is-cloud-app-security) 및 [Azure Active Directory Premium](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-get-started-premium)을 사용합니다. 이러한 기술에 구현하여 조직은 다음을 수행할 수 있게 됩니다.
+이 시나리오에 대한 요구 사항을 해결하기 위해 EMS에서는 [Advanced Threats Analytics](https://docs.microsoft.com/advanced-threat-analytics/), [Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) 및 [Azure Active Directory Premium](https://docs.microsoft.com/azure/active-directory/active-directory-get-started-premium)을 사용합니다. 이러한 기술에 구현하여 조직은 다음을 수행할 수 있게 됩니다.
 
 - 기계 학습을 활용한 혁신적인 행동 분석과 변칙 감지 기술을 사용하여 비정상적인 동작을 검색하거나 식별
 - 알려진 악의적인 공격(예: Pass-the-Hash, Pass-the-Ticket) 및 알려진 보안 취약성 검색
@@ -51,12 +51,12 @@ IT는 온-프레미스 또는 클라우드에서 ID, 데이터, 응용 프로그
 
 이 새로운 사이버 보안 공격 선상에서 현재 위협을 완화하기 위해 IT는 동작 분석 및 기계 학습을 활용하는 혁신적인 위협 검색 솔루션을 필요로 합니다.  ATA 및 Cloud App Security를 활용하여 온-프레미스와 클라우드에서 공격을 검색함으로써 IT는 심각한 손상이 발생하기 전에 사고에 신속하게 대응할 수 있습니다.
 
-ATA를 설치 하기 전에 먼저 일반적인 고려 사항을 확인하려면 온-프레미스에서 ATA를 구현하기 전에 [ATA 용량 계획](https://docs.microsoft.com/en-us/advanced-threat-analytics/plan-design/ata-capacity-planning)과 [ATA 필수 구성 요소](https://docs.microsoft.com/en-us/advanced-threat-analytics/plan-design/ata-prerequisites)를 읽어보세요. [사전 설치 검사 목록](https://docs.microsoft.com/en-us/advanced-threat-analytics/deploy-use/preinstall-ata)을 사용하여 인프라에서 ATA를 받을 준비가 되어 있는지 검증합니다. 계획 및 유효성 검사 단계를 완료하면 [ATA를 배포](https://docs.microsoft.com/en-us/advanced-threat-analytics/deploy-use/install-ata-step1)할 준비가 됩니다. ATA가 사용자 환경에 배포되면 구성이 최소화되어 즉시 사용 중인 환경에 대해 학습을 시작하고 알려진 악의적인 공격이 발견되면 경고를 트리거합니다. 1단계에 따라 [ATA](https://docs.microsoft.com/en-us/advanced-threat-analytics/understand-explore/what-is-ata)를 사용하여 온-프레미스에서 의심스러운 활동을 식별해 보세요.
+ATA를 설치 하기 전에 먼저 일반적인 고려 사항을 확인하려면 온-프레미스에서 ATA를 구현하기 전에 [ATA 용량 계획](https://docs.microsoft.com/advanced-threat-analytics/plan-design/ata-capacity-planning)과 [ATA 필수 구성 요소](https://docs.microsoft.com/advanced-threat-analytics/plan-design/ata-prerequisites)를 읽어보세요. [사전 설치 검사 목록](https://docs.microsoft.com/advanced-threat-analytics/deploy-use/preinstall-ata)을 사용하여 인프라에서 ATA를 받을 준비가 되어 있는지 검증합니다. 계획 및 유효성 검사 단계를 완료하면 [ATA를 배포](https://docs.microsoft.com/advanced-threat-analytics/deploy-use/install-ata-step1)할 준비가 됩니다. ATA가 사용자 환경에 배포되면 구성이 최소화되어 즉시 사용 중인 환경에 대해 학습을 시작하고 알려진 악의적인 공격이 발견되면 경고를 트리거합니다. 1단계에 따라 [ATA](https://docs.microsoft.com/advanced-threat-analytics/understand-explore/what-is-ata)를 사용하여 온-프레미스에서 의심스러운 활동을 식별해 보세요.
 
-클라우드 앱에 대한 위협을 검색하기 위해 이 시나리오에서는 [Cloud App Security](https://docs.microsoft.com/en-us/cloud-app-security/what-is-cloud-app-security)를 사용합니다. Cloud App Security 설치를 위해 [일반 설치 지침](https://docs.microsoft.com/en-us/cloud-app-security/general-setup)을 따르고, Cloud App Security 클라우드 앱 카탈로그에 대한 트래픽 로그를 분석을 위해 [클라우드 검색](https://docs.microsoft.com/en-us/cloud-app-security/set-up-cloud-discovery) 옵션을 사용해야 합니다. 2단계에서는 Cloud App Security를 사용하여 위협 및 규정 준수 위반을 검색합니다.
+클라우드 앱에 대한 위협을 검색하기 위해 이 시나리오에서는 [Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)를 사용합니다. Cloud App Security 설치를 위해 [일반 설치 지침](https://docs.microsoft.com/cloud-app-security/general-setup)을 따르고, Cloud App Security 클라우드 앱 카탈로그에 대한 트래픽 로그를 분석을 위해 [클라우드 검색](https://docs.microsoft.com/cloud-app-security/set-up-cloud-discovery) 옵션을 사용해야 합니다. 2단계에서는 Cloud App Security를 사용하여 위협 및 규정 준수 위반을 검색합니다.
 
 ## <a name="how-to-implement-this-solution"></a>이 솔루션을 구현하는 방법
-다음 단계에 따라 [Advanced Threats Analytics](https://docs.microsoft.com/en-us/advanced-threat-analytics/) 및 [Cloud App Security](https://docs.microsoft.com/en-us/cloud-app-security/what-is-cloud-app-security)를 구현할 수 있습니다.
+다음 단계에 따라 [Advanced Threats Analytics](https://docs.microsoft.com/advanced-threat-analytics/) 및 [Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)를 구현할 수 있습니다.
 
 - 1단계: Microsoft ATA(Advanced Threat Analytics)를 사용하여 온-프레미스에서 의심스러운 활동 검색
 - 2단계: Cloud App Security를 사용하여 클라우드 앱에 대한 위협 및 규정 준수 위반 검색  
@@ -64,11 +64,11 @@ ATA를 설치 하기 전에 먼저 일반적인 고려 사항을 확인하려면
 ### <a name="step-1-using-ata-to-detect-suspicious-activity"></a>1단계: ATA를 사용하여 의심스러운 활동 검색
 기존의 보안 도구를 통한 지속적인 보고를 받고 이 중 중요하고 관련 있는 경고를 찾는 것은 부담스러울 수 있습니다. 대신 ATA는 사용이 쉽고, 드릴다운이 간단하고, 소셜 미디어 피드와 유사한 보고서 양식을 제공하여 IT에서 가장 중요한 것을 빠르게 집중할 수 있도록 지원합니다. 이 데이터 수를 타임라인으로 나타내면 누가 어떤 정보에 언제 어떻게 액세스하는지에 대한 효율적인 관점과 인사이트를 제공합니다.
 
-ATA에서 [공격 타임라인](https://docs.microsoft.com/en-us/advanced-threat-analytics/deploy-use/working-with-suspicious-activities)을 열면 의심스러운 활동이 포함된 종합 보고서가 표시되어 이 활동과 권장 사항에 대한 [엔터티](https://docs.microsoft.com/en-us/advanced-threat-analytics/plan-design/ata-architecture)를 볼 수 있습니다.
+ATA에서 [공격 타임라인](https://docs.microsoft.com/advanced-threat-analytics/deploy-use/working-with-suspicious-activities)을 열면 의심스러운 활동이 포함된 종합 보고서가 표시되어 이 활동과 권장 사항에 대한 [엔터티](https://docs.microsoft.com/advanced-threat-analytics/plan-design/ata-architecture)를 볼 수 있습니다.
 
 ![의심스러운 활동에 대한 보고서에서 공격 타임라인 스크린샷.](./media/detect-attacks-before-damage/detect-attacks-before-damage-fig3.png)
 
-이 예제에서는 Pass-the-Ticket 공격을 사용하는 신원 도용이 의심되는 이벤트가 있습니다. 초기 문제 해결 단계에 사용할 수 있는 권장 사항 목록도 있습니다. 이 예제에서는 서버 SHAREDADMIN-SRV에서 EXTVENDOR-TS로의 관리자 Keberos 티켓이 도난당하여 DC01에 액세스하는 데 사용되었기 때문에 ATA에서 경고를 제공합니다. 이 이벤트의 개체를 클릭하여 조사 프로세스를 심도 있게 진행할 수 있습니다. 예를 들어 외부 공급 업체 터미널 서버(EXTVENDOR TS)를 클릭하여 이 서버와 관련된 모든 [의심스러운 활동](https://docs.microsoft.com/en-us/advanced-threat-analytics/deploy-use/working-with-suspicious-activities)에 액세스할 수 있습니다.
+이 예제에서는 Pass-the-Ticket 공격을 사용하는 신원 도용이 의심되는 이벤트가 있습니다. 초기 문제 해결 단계에 사용할 수 있는 권장 사항 목록도 있습니다. 이 예제에서는 서버 SHAREDADMIN-SRV에서 EXTVENDOR-TS로의 관리자 Keberos 티켓이 도난당하여 DC01에 액세스하는 데 사용되었기 때문에 ATA에서 경고를 제공합니다. 이 이벤트의 개체를 클릭하여 조사 프로세스를 심도 있게 진행할 수 있습니다. 예를 들어 외부 공급 업체 터미널 서버(EXTVENDOR TS)를 클릭하여 이 서버와 관련된 모든 [의심스러운 활동](https://docs.microsoft.com/advanced-threat-analytics/deploy-use/working-with-suspicious-activities)에 액세스할 수 있습니다.
 
 ATA는 결정 엔진과 검색 엔진 모두에서 기계 학습을 사용하여 사용자와 엔티티에 대한 일반적인 동작 패턴 이해를 설정합니다. 이 기능은 거대한 공격을 일으키는 매개체 전체에 대해 정확하고 시기 적절한 경고를 제공하게 하는 ATA의 고유한 기능입니다.
 
@@ -89,17 +89,17 @@ Cloud App Security 대시보드에 액세스하면 경고에 대한 전용 섹�
 
 ![미해결 경고가 포함된 Cloud App Security 대시보드의 스크린샷.](./media/detect-attacks-before-damage/detect-attacks-before-damage-fig6.png)
 
-경고 메뉴를 클릭하면 [경고 센터](https://docs.microsoft.com/en-us/cloud-app-security/monitor-alerts)에 액세스할 수 있습니다. 경고 센터에서는 위협 검색, 권한 있는 계정 및 규정 준수 위반을 비롯하여 다양한 분야의 경고를 수집합니다.
+경고 메뉴를 클릭하면 [경고 센터](https://docs.microsoft.com/cloud-app-security/monitor-alerts)에 액세스할 수 있습니다. 경고 센터에서는 위협 검색, 권한 있는 계정 및 규정 준수 위반을 비롯하여 다양한 분야의 경고를 수집합니다.
 
 ![각 경고의 목록을 표시하는 경고 센터의 스크린샷.](./media/detect-attacks-before-damage/detect-attacks-before-damage-fig5.png)
 
 경고 센터에서는 잘못된 부분, 위협 검색 규정 준수 위반 및 권한 있는 계정을 포함하여 Cloud App Security에서 식별하는 모든 징후를 수집합니다. Cloud App Security의 고급 기계 학습 추론 방식을 통해 각 사용자가 클라우드 앱을 조작하는 방식, 그리고 행동 분석을 통해 각 트랜잭션에서 위험을 평가하는 방식을 살펴볼 수 있습니다.
 
-경고를 조사하는 경우 경고 이름을 클릭하면 해당 경고에 대한 자세한 내용을 볼 수 있습니다. 다음 예제에서는 경고가 참조하는 일치하는 [정책 파일](https://docs.microsoft.com/en-us/cloud-app-security/data-protection-policies) *공유된 기밀 파일 공개*에서 일치하는 항목을 참조합니다. 데이터 누출을 일으킬 수 있으므로 우선 순위가 높은 것으로 간주됩니다.   
+경고를 조사하는 경우 경고 이름을 클릭하면 해당 경고에 대한 자세한 내용을 볼 수 있습니다. 다음 예제에서는 경고가 참조하는 일치하는 [정책 파일](https://docs.microsoft.com/cloud-app-security/data-protection-policies) *공유된 기밀 파일 공개*에서 일치하는 항목을 참조합니다. 데이터 누출을 일으킬 수 있으므로 우선 순위가 높은 것으로 간주됩니다.   
 
 ![경고 중 하나에 대한 특정 세부 정보 스크린샷.](./media/detect-attacks-before-damage/detect-attacks-before-damage-fig7.png)
 
-앞의 예제는 정책 위반에 대해 살펴보았습니다. Cloud App Security는 또한 [잘못된 부분](https://docs.microsoft.com/en-us/cloud-app-security/anomaly-detection-policy#anomaly-detection-policy-reference)을 검색할 수도 있습니다. Cloud App Security에는 새 사용자, 활동, 장치 또는 위치에 대해 비정상으로 플래그를 지정하지 않는 7일 간의 초기 학습 기간이 있습니다. 검색하고 나면 각 세션과 이전 달에 감지된 활동(사용자가 활성 상태였던 시기, IP 주소, 장치)이 비교되고 위험 점수가 각 활동에 할당됩니다. 이 경고 유형에 대한 설명을 일반적인 이상 검색이라고 하며, 경고를 클릭하면 다음과 비슷한 화면이 표시됩니다.
+앞의 예제는 정책 위반에 대해 살펴보았습니다. Cloud App Security는 또한 [잘못된 부분](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy#anomaly-detection-policy-reference)을 검색할 수도 있습니다. Cloud App Security에는 새 사용자, 활동, 장치 또는 위치에 대해 비정상으로 플래그를 지정하지 않는 7일 간의 초기 학습 기간이 있습니다. 검색하고 나면 각 세션과 이전 달에 감지된 활동(사용자가 활성 상태였던 시기, IP 주소, 장치)이 비교되고 위험 점수가 각 활동에 할당됩니다. 이 경고 유형에 대한 설명을 일반적인 이상 검색이라고 하며, 경고를 클릭하면 다음과 비슷한 화면이 표시됩니다.
 
 ![Cloud App Security에서 검색된 잘못된 부분을 보여 주는 스크린샷.](./media/detect-attacks-before-damage/detect-attacks-before-damage-fig8.png)
 

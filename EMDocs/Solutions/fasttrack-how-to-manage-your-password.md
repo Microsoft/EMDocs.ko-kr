@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: 162e59f3-33a2-44b5-a59f-24612dc743f3
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 0146fc11fb08c1c7d4442cc78a7af8aa8d2dcdab
-ms.sourcegitcommit: 5ce9b7a0ebac0c5f626b0273fa93fd02589a7452
+ms.openlocfilehash: bc2ea11b240fabc94241c9569c8f8df15dd598d4
+ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="how-to-manage-your-own-password"></a>자신의 암호를 관리하는 방법
 
@@ -71,7 +71,7 @@ Office 365 또는 Microsoft 계정을 사용하여 회사 리소스에 액세스
    ![사용자가 새 암호를 입력한 다음 확인해야 함을 보여 주는 스크린샷](./media/ft-mngPW-12-clickFinish.png)
 10. 성공 페이지가 표시되면 계속하셔도 좋습니다! 이제 새 암호를 사용하여 로그인할 수 있습니다.
     ![암호 다시 설정 프로세스가 완료되었음을 보여 주는 스크린샷](./media/ft-mngPW-13-success.png)
-    암호를 다시 설정하는 동안 문제가 발생했나요? [일반적인 문제 및 해결 방법](https://azure.microsoft.com/en-us/documentation/articles/active-directory-passwords-update-your-own-password/#common-problems-and-their-solutions)에 대해 읽어보세요.
+    암호를 다시 설정하는 동안 문제가 발생했나요? [일반적인 문제 및 해결 방법](https://azure.microsoft.com/documentation/articles/active-directory-passwords-update-your-own-password/#common-problems-and-their-solutions)에 대해 읽어보세요.
 
 ### <a name="want-to-learn-more"></a>더 자세한 내용을 원하세요?
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.
