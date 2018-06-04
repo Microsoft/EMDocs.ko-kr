@@ -5,7 +5,7 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 03/26/2018
+ms.date: 04/27/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,12 +13,12 @@ ms.technology: ''
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: b984f825ba2c799f7a6e5585e038e017df3ee417
-ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
+ms.openlocfilehash: b9fb99c2c5bd640a033684096bd8f189a09b1698
+ms.sourcegitcommit: 0863dce817862f00068614f2c62698784eb76d84
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2018
-ms.locfileid: "30848243"
+ms.lasthandoff: 04/28/2018
+ms.locfileid: "32045254"
 ---
 # <a name="fasttrack-responsibilities"></a>FastTrack 책임
 
@@ -166,7 +166,7 @@ ms.locfileid: "30848243"
 > [!IMPORTANT]
 > FastTrack은 Intune을 사용한 Windows 10 클래식 PC 관리를 지원하지 않습니다. FastTrack은 Intune 모바일 장치 관리(MDM)를 통한 Windows 10 관리만 지원합니다.
 
-다음에 대한 지침을 제공합니다.
+다음에 대한 **지침**을 제공합니다.
 
 -   온-프레미스 Active Directory 또는 클라우드 ID(Azure Active Directory)를 활용하여 Intune에서 사용할 ID 구성.
 
@@ -210,7 +210,14 @@ ms.locfileid: "30848243"
 
     -   Intune 데이터 웨어하우스에 연결.
 
-    -   원격 지원, 모바일 위협 방지 파트너 및 Telecom Expense 파트너(Intune 구독에 포함되지 않은 타사 제품 라이선스)를 위해 Intune과 Team Viewer를 통합.
+    -   Intune을 다음과 통합:
+        -   원격 지원을 위한 Team Viewer(Team Viewer 구독 필요).
+
+        -   Mobile Threat Defense 파트너 솔루션(Mobile Threat Defense 파트너 솔루션 구독 필요).
+
+        -   Telecom Expense Management 솔루션(Telecom Expense Management 솔루션 구독 필요).
+
+        -   Windows Defender Advanced Threat Protection(Windows E5 또는 Microsoft 365 E5 라이선스 필요).
 
     -   적용 가능한 지원되는 플랫폼을 위해 소프트웨어 업데이트 구성.
 
