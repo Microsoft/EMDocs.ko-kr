@@ -5,7 +5,7 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 04/27/2018
+ms.date: 06/01/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,11 +13,12 @@ ms.technology: ''
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: e63644b2e8db81f6293dbad4ca4de14dbe40ecac
-ms.sourcegitcommit: 0863dce817862f00068614f2c62698784eb76d84
+ms.openlocfilehash: d3d66f6a790140a9b461d5a63398a81a3485f9fc
+ms.sourcegitcommit: 3a51276eebdd8f1f18994a7efdcaa22e394180df
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34569564"
 ---
 # <a name="onboarding-phases"></a>온보딩 단계
 
@@ -172,11 +173,41 @@ Intune의 경우 Microsoft는 Microsoft Intune을 사용하여 장치를 관리�
     > [!IMPORTANT]
     > FastTrack은 Intune을 사용한 Windows 10 클래식 PC 관리를 지원하지 않습니다. FastTrack은 Intune 모바일 장치 관리(MDM)를 통한 Windows 10 장치 관리만 지원합니다.
 
-또한 Microsoft가 적격 서비스의 성공적인 도입에 도움이 되는 방법에 대한 안내로 사용자를 연결합니다.
+#### <a name="co-management"></a>공동 관리
+
+FastTrack은 Configuration Manager와 Intune을 둘 다 사용하여 Windows 10 장치를 동시에 관리할 수 있도록 준비하는 과정을 안내합니다. 정확한 단계는 원본 환경에 따라 다르며, 단계는 다음을 포함할 수 있습니다.
+
+- 공동 관리의 이점 설명.
+
+- 최종 사용자에게 라이선스 허여. FastTrack은 필요한 경우 Microsoft 클라우드 서비스 테넌트에 대해 볼륨 라이선스를 활성화하는 방법에 대한 지원도 제공합니다.
+
+- 온-프레미스 Active Directory 및/또는 클라우드 ID를 활용하여 Intune에서 사용할 ID 구성.
+
+- Intune 구독에 사용자 추가, IT 관리자 역할 정의 및 사용자와 장치 그룹 만들기.
+
+- System Center Configuration Manager(하이브리드)와 통합된 Intune에서 Intune 독립 실행형으로 이동하는 방법에 대한 지침 제공.
+
+- MDM 자동 등록을 위한 Azure Active Directory 설정에 대한 지침 제공.
+
+- 하이브리드 Azure Active Directory 조인 설정에 대한 지침 제공.
+
+- 클라우드 관리 게이트웨이를 설정하는 방법에 대한 지침 제공.
+
+- Configuration Manager 콘솔에서 공동 관리를 사용하도록 설정.
+
+- Intune으로 전환할 지원되는 워크로드 구성.
+
+- Intune에 등록된 장치에 Configuration Manager 클라이언트 설치.
+
+- 환경에서 공동 관리 활동을 모니터링하는 방법에 대한 지침 제공.
+
+또한 FastTrack은 적합한 서비스의 성공적인 채택을 유도하는 방법에 대한 지침을 제공합니다.
 
 ![온보딩 활성화 단계 - Intune](./media/ft-enable-phase_intune_mam.png)
 
 ![온보딩 활성화 단계 - Intune](./media/ft-enable-phase_intune_mdm-mam_cloudonly.png)
+
+![온보딩 활성화 단계 - 공동 관리](./media/ft-9-enable-phase-comanagement.png)
 
 ![온보딩 활성화 단계 - Intune](./media/ft-enable-phase-intune-mdm-mam-sccm.png)
 

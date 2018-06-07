@@ -5,7 +5,7 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 04/27/2018
+ms.date: 06/01/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,11 +13,12 @@ ms.technology: ''
 ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: bba697474155bbd85927da8af86d72dcc5aad531
-ms.sourcegitcommit: 0863dce817862f00068614f2c62698784eb76d84
+ms.openlocfilehash: ef6e0021018087b6550ecff4c01d4aab68b32b15
+ms.sourcegitcommit: 3a51276eebdd8f1f18994a7efdcaa22e394180df
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34569530"
 ---
 # <a name="your-responsibilities"></a>사용자의 책임
 
@@ -57,7 +58,7 @@ ms.lasthandoff: 04/28/2018
 
 -   테스트 환경을 구성 및 유지 관리합니다.
 
--   서비스 팩 및 인프라 서버에 필수적인 기타 업데이트를 설치합니다.
+-   인프라 서버에 서비스 팩/CU(누적 업데이트) 및 기타 필수 업데이트를 설치합니다.
 
 -   모든 공개 SSL(Secure Sockets Layer) 인증서를 제공 및 구성합니다.
 
@@ -66,6 +67,10 @@ ms.lasthandoff: 04/28/2018
 -   Intune에서 Wi-Fi 및 VPN 프로필 배포를 위해 필요한 경우 인증 기관, Wi-Fi 및 VPN 인프라를 제공하고 구성합니다.
 
 -   최종 사용자가 액세스할 수 있는 Microsoft Intune 회사 포털에 구성되고 표시될 조직의 TOU(사용 약관)를 작성합니다.
+
+-   Configuration Manager 사이트 서버 및 Configuration Manager 클라이언트를 최신 빌드 버전으로 업그레이드합니다(필요한 경우).
+
+-   Microsoft Intune과의 통합이 필요한 경우 타사 구독(예: Mobile Threat Defense, Telecom Expense Management 등)에 등록합니다.
 
 -   Team Viewer, Mobile Threat Defense 및 Telecom Expense Management 솔루션 구독에 등록하세요.
 

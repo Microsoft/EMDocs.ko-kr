@@ -5,7 +5,7 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 04/27/2018
+ms.date: 06/01/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,12 +13,12 @@ ms.technology: ''
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: b9fb99c2c5bd640a033684096bd8f189a09b1698
-ms.sourcegitcommit: 0863dce817862f00068614f2c62698784eb76d84
+ms.openlocfilehash: 212acc335e4c0a21c2a6f72c3df1226ebc21e156
+ms.sourcegitcommit: 3a51276eebdd8f1f18994a7efdcaa22e394180df
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2018
-ms.locfileid: "32045254"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34569547"
 ---
 # <a name="fasttrack-responsibilities"></a>FastTrack 책임
 
@@ -176,7 +176,7 @@ ms.locfileid: "32045254"
 
 -   관리 요구 사항에 따라 다음과 같이 모바일 장치 관리(MDM) 기관 구성.
 
-    -   Intune이 유일한 MDM 솔루션일 때 Intune을 MDM 기관으로 설정.
+    -   Intune을 MDM 기관으로 설정.
 
     -   System Center Configuration Manager의 기존 구현이 있고 Intune으로 관리 기능을 확장하려는 경우 Configuration Manager를 MDM 기관으로 설정합니다.
 
@@ -222,6 +222,44 @@ ms.locfileid: "32045254"
     -   적용 가능한 지원되는 플랫폼을 위해 소프트웨어 업데이트 구성.
 
     -   사용자 채택 계획을 위한 리소스.
+
+### <a name="enable-phase---co-management"></a>활성화 단계 - 공동 관리
+
+다음에 대한 지침을 제공합니다.
+
+-   최종 사용자 라이선싱.
+
+-   Intune 구독에 사용자 추가, IT 관리자 역할 정의 및 사용자와 장치 그룹 만들기(Intune이 설치되지 않은 경우).
+
+-   MDM 자동 등록을 위한 Azure Active Directory 설정.
+
+-   하이브리드 Azure Active Directory 조인 설정.
+
+-   클라우드 관리 게이트웨이 설정.
+
+-   Intune 구독에 사용자 추가, IT 관리자 역할 정의 및 사용자와 장치 그룹 만들기.
+
+-   Intune 준비(Intune이 설치되지 않은 경우):
+
+    -   관리 요구 사항에 따라 다음과 같이 모바일 장치 관리(MDM) 기관 구성.
+
+    -   Intune을 MDM 기관으로 설정.
+
+    -   MDM 관리 정책의 유효성을 검사하는 데 사용할 테스트 그룹 구성.
+
+    -   Intune 관리 포털을 탐색하여 사용자 및 장치에 대한 정보 찾기.
+
+    -   Intune 역할 설정(예: 지원 센터, 운영자, 관리자 등)
+
+    -   지원되는 각 플랫폼에 대해 Intune 앱 보호 정책 구성 및 배포.
+
+    -   Intune에 Windows 10 장치 등록.
+
+- Configuration Manager 콘솔에서 공동 관리를 사용하도록 설정.
+
+- 워크로드를 Intune으로 전환.
+
+- 환경에서 공동 관리 활동 모니터링.
 
 > [!NOTE]
 > **자세히 알아보고 싶습니까?** [Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility)를 참조하세요.
