@@ -19,6 +19,7 @@ ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/24/2018
+ms.locfileid: "34474108"
 ---
 # <a name="manage-access-at-scale"></a>대규모 액세스 관리
 Microsoft는 지금까지 많은 조직을 지원해 왔습니다. Microsoft는 어디서든 사용할 수 있는 ID뿐만 아니라 조직 내에서 IT를 자동화하고, 보호하고, 관리하는 다양한 도구도 제공합니다. 클라우드 컴퓨팅이 등장한 이후에도 사용자 암호 다시 설정에 관한 지원 센터 문의를 비롯하여 사용자 그룹 관리, 앱 요청 등의 다양한 IT 작업을 관리하고 제어해 달라는 요구는 여전합니다.

@@ -18,6 +18,7 @@ ms.sourcegitcommit: f045537a12763cd6164c4ae42f7b4a45c4ca040b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/05/2018
+ms.locfileid: "30817681"
 ---
 # <a name="fasttrack-center-benefit-eligible-services-and-plans"></a>FastTrack 센터 혜택 적격 서비스 및 플랜
 적격 플랜을 통해 EMS(Enterprise Mobility + Security) 또는 해당 개별 클라우드 서비스에 대해 라이선스를 150개 이상 구매하면 서비스 혜택을 이용할 수 있습니다. 서비스 혜택을 사용하면 FastTrack 전문가와 협업하여 적격 서비스를 평가, 수정 및 활성화할 수 있습니다.

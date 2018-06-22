@@ -1,12 +1,12 @@
 ---
-title: "데이터 보안 유지에서 Azure Information Protection의 역할 | Microsoft 문서"
-description: "이 문서에서는 조직의 데이터 보안 유지에서 Azure Information Protection의 역할을 설명합니다."
+title: 데이터 보안 유지에서 Azure Information Protection의 역할 | Microsoft 문서
+description: 이 문서에서는 조직의 데이터 보안 유지에서 Azure Information Protection의 역할을 설명합니다.
 author: yuridio
 ms.author: yurid
 manager: mbaldwin
 ms.date: 05/18/2017
 ms.topic: solution
-ms.prod: 
+ms.prod: ''
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 2f906e2e-3d99-40e6-b5cc-8d903fcda444
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 9e30dab85116767c71b911827d839a433418b9b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/09/2017
+ms.locfileid: "24101413"
 ---
 # <a name="the-role-of-azure-information-protection-in-securing-data"></a>데이터 보안 유지에서 Azure Information Protection의 역할
 

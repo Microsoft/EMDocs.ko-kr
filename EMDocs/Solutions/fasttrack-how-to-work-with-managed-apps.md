@@ -18,6 +18,7 @@ ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/06/2018
+ms.locfileid: "30848158"
 ---
 # <a name="how-to-use-mobile-apps-managed-by-your-organization"></a>조직에서 관리하는 모바일 앱을 사용하는 방법
 

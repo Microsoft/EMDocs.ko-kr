@@ -1,12 +1,12 @@
 ---
-title: "사용자 실수로부터 데이터 보호 | Microsoft 문서"
-description: "Enterprise Mobility + Security를 통해 Cloud App Security 및 Azure Information Protection 기능을 활용하여 사용자 실수로부터 회사 데이터를 보호하고 데이터 손실을 방지할 수 있는 방법을 설명하는 시나리오입니다."
+title: 사용자 실수로부터 데이터 보호 | Microsoft 문서
+description: Enterprise Mobility + Security를 통해 Cloud App Security 및 Azure Information Protection 기능을 활용하여 사용자 실수로부터 회사 데이터를 보호하고 데이터 손실을 방지할 수 있는 방법을 설명하는 시나리오입니다.
 author: yuridio
 ms.author: yurid
 manager: mbaldwin
 ms.date: 05/18/2017
 ms.topic: solution
-ms.prod: 
+ms.prod: ''
 ms.service: cloud-app-security
 ms.technology: techgroup-identity
 ms.assetid: 0af3894c-7b0e-4c0c-8874-31e041d81300
@@ -18,6 +18,7 @@ ms.sourcegitcommit: a7fd3ad8a351e9cc72ea37486342a273ed29b883
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/03/2017
+ms.locfileid: "23981110"
 ---
 # <a name="protect-data-against-user-mistakes"></a>사용자 실수로부터 데이터 보호
 

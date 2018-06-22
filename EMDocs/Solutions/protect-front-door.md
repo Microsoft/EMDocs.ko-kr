@@ -1,12 +1,12 @@
 ---
-title: "첫 번째 관문에서 보호 | Microsoft 문서"
-description: "Enterprise Mobility + Security에서 Microsoft Azure Active Directory Identity Protection 및 Azure Active Directory Privileged Identity Management 기능을 활용하여 ID를 보호함으로써 회사 리소스에 대한 액세스 보안을 유지하는 방법을 설명하는 시나리오입니다."
+title: 첫 번째 관문에서 보호 | Microsoft 문서
+description: Enterprise Mobility + Security에서 Microsoft Azure Active Directory Identity Protection 및 Azure Active Directory Privileged Identity Management 기능을 활용하여 ID를 보호함으로써 회사 리소스에 대한 액세스 보안을 유지하는 방법을 설명하는 시나리오입니다.
 author: yuridio
 ms.author: yurid
 manager: mbaldwin
 ms.date: 05/18/2017
 ms.topic: solution
-ms.prod: 
+ms.prod: ''
 ms.service: active-directory
 ms.technology: techgroup-identity
 ms.assetid: c9aeabcf-db9b-4a35-b1bc-61331c464165
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/25/2017
+ms.locfileid: "20629029"
 ---
 # <a name="protect-at-the-front-door"></a>첫 번째 관문에서 보호
 

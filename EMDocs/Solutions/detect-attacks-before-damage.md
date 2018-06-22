@@ -18,6 +18,7 @@ ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/24/2018
+ms.locfileid: "34474091"
 ---
 # <a name="detect-attacks-before-they-cause-damage"></a>손상을 입기 전에 공격 감지
 보안 상태가 강력하더라도 심각한 손상이 발생하기 전에 위협을 식별할 수 있으려면 가동 중인 고급 검색 시스템이 필요합니다. 조직에서는 온-프레미스와 클라우드에서 의심스러운 활동을 검색할 수 있도록 Microsoft 보안 인텔리전스를 원활하게 활용할 수 있습니다.

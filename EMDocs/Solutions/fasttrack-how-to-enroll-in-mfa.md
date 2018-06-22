@@ -18,6 +18,7 @@ ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/06/2018
+ms.locfileid: "30848090"
 ---
 # <a name="how-to-set-up-your-preferred-method-for-additional-security-verification"></a>추가 보안 확인의 기본 방법을 설정하는 방법
 

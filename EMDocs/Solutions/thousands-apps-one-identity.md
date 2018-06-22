@@ -19,6 +19,7 @@ ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/24/2018
+ms.locfileid: "34474023"
 ---
 # <a name="thousands-of-apps-one-identity"></a>수천 개의 응용 프로그램, 하나의 ID
 Azure AD(Azure Active Directory)는 클라우드 리소스와 온-프레미스 리소스 모두에 액세스하는 SaaS(Software as a Service) 응용 프로그램 사용자에게 공통 ID를 제공하여 사용자의 생산성을 개선합니다.

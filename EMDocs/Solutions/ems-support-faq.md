@@ -18,6 +18,7 @@ ms.sourcegitcommit: 1fd9d6f672b25c50e7165793b518fe02912338d5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/16/2018
+ms.locfileid: "29925541"
 ---
 # <a name="enterprise-mobility--security-support-faqs"></a>Enterprise Mobility + Security 지원 FAQ
 EMS(Enterprise Mobility + Security)를 지지하기 위해 전세계적 사전 판매, 청구, 구독 및 기술 지원이 제공됩니다.  자세한 내용은 아래를 참조하세요.

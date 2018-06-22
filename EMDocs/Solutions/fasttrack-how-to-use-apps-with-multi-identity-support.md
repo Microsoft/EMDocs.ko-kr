@@ -18,6 +18,7 @@ ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/06/2018
+ms.locfileid: "30848022"
 ---
 # <a name="how-to-use-apps-with-multi-identity-support"></a>다중 ID를 지원하는 앱을 사용하는 방법
 

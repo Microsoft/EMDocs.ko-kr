@@ -18,6 +18,7 @@ ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/06/2018
+ms.locfileid: "30848107"
 ---
 # <a name="end-user-intune-enrollment-instructions-for-it-administrators"></a>IT 관리자를 위한 최종 사용자 Intune 등록 지침
 

@@ -1,23 +1,24 @@
 ---
-title: "US Government용 Enterprise Mobility + Security 서비스 설명"
-description: "EMS GCC High 계획은 월간 구독이며 사용자별로 라이선스가 부여됩니다."
-keywords: 
+title: US Government용 Enterprise Mobility + Security 서비스 설명
+description: EMS GCC High 계획은 월간 구독이며 사용자별로 라이선스가 부여됩니다.
+keywords: ''
 author: dougeby
 ms.author: dougeby
 manager: dougeby
 ms.date: 3/1/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: ems
-ms.technology: 
+ms.technology: ''
 ms.assetid: de61a788-f45d-47bb-a047-e92b64b1ee03
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
 ms.openlocfilehash: da6b79835b9891b15fcb97d90f6d6263f231b356
 ms.sourcegitcommit: 6399d25da998e54605082faff5f8b2304a851e4e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/02/2018
+ms.locfileid: "29721447"
 ---
 # <a name="enterprise-mobility--security-for-us-government-service-description"></a>US Government용 Enterprise Mobility + Security 서비스 설명 
 Microsoft에서는 미국 공공 부문의 고유하고 진화하는 요구 사항에 대한 대응으로 미국 정부 고객을 위해 Enterprise Mobility + Security 계획을 만들었습니다. 이 문서에서는 EMS 계획에 지정된 기능에 대한 개요를 제공합니다.  
