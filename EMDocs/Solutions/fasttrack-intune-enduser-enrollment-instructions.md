@@ -13,12 +13,12 @@ ms.technology: ''
 ms.assetid: 5c13446e-aa31-47df-ad9d-373be7660197
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: b7adfe06ba063c9df152eb21d913cb9c43127c6b
-ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
+ms.openlocfilehash: 268ab59474a117b2809baec0906ed3738d509914
+ms.sourcegitcommit: b93dc7df0f9978ac7bb8fe8e3d3cc15635ceb0e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2018
-ms.locfileid: "30848107"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38147599"
 ---
 # <a name="end-user-intune-enrollment-instructions-for-it-administrators"></a>IT 관리자를 위한 최종 사용자 Intune 등록 지침
 
@@ -38,7 +38,7 @@ ms.locfileid: "30848107"
 
 이러한 등록 단계는 Samsung Knox Android 장치와 "네이티브"(Samsung Knox가 아닌) Android 장치에 대한 것입니다. Samsung Knox 장치가 있는지 확인하려면 **설정 > 휴대폰 정보**로 이동합니다. 여기에 나열된 "Knox"라는 단어가 보이지 않으면 네이티브 Android 장치가 있어야 합니다. 장치에 표시된 화면은 이 섹션의 화면과 약간 다르게 보일 수 있습니다.
 
-Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리자에게 등록 오류 보내기](https://technet.microsoft.com/en-US/library/mt502762(TechNet.10).aspx#BKMK_andr_send_enroll_errors)를 참조하세요.
+Intune에서 장치를 등록하는 동안 오류가 발생할 경우 [IT 관리자에게 등록 오류 보내기](https://technet.microsoft.com/library/mt502762(TechNet.10).aspx#BKMK_andr_send_enroll_errors)를 참조하세요.
 
 등록하기 전이나 이후에 장치 사용 방법을 가장 잘 설명하는 범주를 선택하라는 메시지가 표시될 수도 있습니다. IT 관리자는 이 범주를 사용하여 액세스할 수 있는 앱을 확인합니다.
 1. [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal)에서 장치에 무료 Microsoft Intune 회사 포털 앱을 설치합니다.
