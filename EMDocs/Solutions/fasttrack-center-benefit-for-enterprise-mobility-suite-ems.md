@@ -13,19 +13,19 @@ ms.technology: ''
 ms.assetid: 484156c7-c3c4-469d-b718-9fa33d9d0ec2
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: eb31a82d7b2bc7b2e92a3a7b0b1f41bf07c4e182
-ms.sourcegitcommit: f045537a12763cd6164c4ae42f7b4a45c4ca040b
+ms.openlocfilehash: 5f1e470e32262e65ac9ef7d2d0cb6dce3de9c139
+ms.sourcegitcommit: 8209dd3332db21aa1b38f8a6311d8853938e7ad8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2018
-ms.locfileid: "30817681"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39320900"
 ---
 # <a name="fasttrack-center-benefit-eligible-services-and-plans"></a>FastTrack 센터 혜택 적격 서비스 및 플랜
 적격 플랜을 통해 EMS(Enterprise Mobility + Security) 또는 해당 개별 클라우드 서비스에 대해 라이선스를 150개 이상 구매하면 서비스 혜택을 이용할 수 있습니다. 서비스 혜택을 사용하면 FastTrack 전문가와 협업하여 적격 서비스를 평가, 수정 및 활성화할 수 있습니다.
 
 - FastTrack 센터 프로세스 및 담당자에 대해 알아보려면 [EMS(Enterprise Mobility + Security)용 FastTrack 센터 혜택 프로세스](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)를 참조하세요.
 
-- Office 365용 FastTrack에 대한 정보를 찾고 있나요? [Office 365용 FastTrack 센터 혜택](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx)을 참조하세요.
+- Office 365용 FastTrack에 대한 정보를 찾고 있나요? [Office 365용 FastTrack 센터 혜택](https://docs.microsoft.com/fasttrack/fasttrack-benefit-for-office-365)을 참조하세요.
 
 ## <a name="eligible-services"></a>적격 서비스
 

@@ -13,12 +13,12 @@ ms.technology: ''
 ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: ef6e0021018087b6550ecff4c01d4aab68b32b15
-ms.sourcegitcommit: 3a51276eebdd8f1f18994a7efdcaa22e394180df
+ms.openlocfilehash: 35686bdd73e10fabfbb84ca84152c593473c8a99
+ms.sourcegitcommit: 8209dd3332db21aa1b38f8a6311d8853938e7ad8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34569530"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39320866"
 ---
 # <a name="your-responsibilities"></a>사용자의 책임
 
@@ -126,5 +126,5 @@ ms.locfileid: "34569530"
 ## <a name="see-also"></a>참고 항목
 
 - [EMS용 FastTrack 혜택](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)
-- [Office 365용 FastTrack 혜택](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx)
+- [Office 365용 FastTrack 혜택](https://docs.microsoft.com/fasttrack/fasttrack-benefit-for-office-365)
 
