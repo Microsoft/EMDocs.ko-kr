@@ -8,17 +8,16 @@ ms.date: 05/18/2017
 ms.topic: solution
 ms.prod: ''
 ms.service: active-directory
-ms.technology: techgroup-identity
 ms.assetid: c9aeabcf-db9b-4a35-b1bc-61331c464165
 ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: microsoft-identity-manager
-ms.openlocfilehash: 851a99829280b85d632e79400d53c357692b74ef
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: f3092623cb8cd7fbfbb525a79ac91c6d93f80ecb
+ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/25/2017
-ms.locfileid: "20629029"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51196902"
 ---
 # <a name="protect-at-the-front-door"></a>첫 번째 관문에서 보호
 
@@ -44,7 +43,7 @@ EMS(Enterprise Mobility + Security) 보안 접근 방식은 위험 기반의 [�
 
 다음 다이어그램에서는 이 시나리오와 관련된 기능과 리소스 보호를 위해 이러한 기능이 사용되는 방식을 요약해서 보여 줍니다.
 
-![리소스 보호](./media/protect-front-door/protect-front-door-fig1.png)
+![리소스 보호](https://github.com/MicrosoftDocs/EMDocs/blob/live/EMDocs/Solutions/media/protect-front-door/protect-front-door-fig1.png)
 
 ## <a name="how-to-implement-this-solution"></a>이 솔루션을 구현하는 방법
 
@@ -68,7 +67,7 @@ EMS(Enterprise Mobility + Security) 보안 접근 방식은 위험 기반의 [�
 
 이 솔루션을 구현하기 전에 [Azure AD Premium 라이선스가](https://azure.microsoft.com/documentation/articles/active-directory-get-started-premium/)가 최종 사용자에게 할당되어 있는지 확인합니다. 페더레이션된 도메인을 사용하며 클라우드의 암호 변경이 온-프레미스에 다시 기록되도록 하려는 경우 [암호 쓰기 저장](https://azure.microsoft.com/documentation/articles/active-directory-passwords-getting-started/)을 사용하도록 설정해야 합니다. 이러한 요구 사항의 검토를 마친 후 Marketplace에서 설치하여 [Azure AD ID 보호를 사용하도록 설정](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection-enable/)합니다. 이 설치가 끝나면 다음 그림에 나와 있는 것처럼 빈 상태일 수 있는 Azure AD ID 보호 대시보드에 액세스할 수 있습니다.
 
-![Azure AD ID 보호](./media/protect-front-door/protect-front-door-fig2.png)
+![Azure AD ID 보호](https://github.com/MicrosoftDocs/EMDocs/blob/live/EMDocs/Solutions/media/protect-front-door/protect-front-door-fig2.png)
 
 ### <a name="step-2-configure-azure-ad-identity-protection"></a>2단계: Azure AD ID 보호 구성
 
@@ -80,11 +79,11 @@ Azure AD ID 보호를 구현하려는 경우 먼저 다음 정책을 정의해�
 
 이러한 정책은 다음 그림과 같이 Azure AD ID 보호 대시보드의 **구성** 섹션에 있습니다.
 
-![정책](./media/protect-front-door/protect-front-door-fig3.png)
+![정책](https://github.com/MicrosoftDocs/EMDocs/blob/live/EMDocs/Solutions/media/protect-front-door/protect-front-door-fig3.png)
 
 또한 보안 정책을 구성하는 것 경고를 받는 사용자를 사용자 지정할 수도 있습니다. 다음 그림과 같이 Azure AD ID 보호 대시보드의 설정 섹션에서 **경고** 옵션을 사용해야 합니다.
 
-![경고](./media/protect-front-door/protect-front-door-fig4.png)
+![경고](https://github.com/MicrosoftDocs/EMDocs/blob/live/EMDocs/Solutions/media/protect-front-door/protect-front-door-fig4.png)
 
 이 구성에서 이러한 사용자는 사용자 위험 수준이 **높은**일 때만 경고를 받습니다.
 
@@ -92,11 +91,11 @@ Azure AD ID 보호를 구현하려는 경우 먼저 다음 정책을 정의해�
 
 지속적인 모니터링은 모든 보안 작업의 필수적인 부분입니다. Azure AD ID 보호의 [조사](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection/#investigation) 기능을 활용하여 IT 부서에서는 알림 및 수정 권장 지침을 포함하는 유용한 Machine Learning 기반 위협 요소 탐지 결과를 얻을 수 있습니다. Azure AD ID 보호 대시보드를 사용하여 현재 환경을 신속하게 평가하고 그 중요성에 따라 해결해야 하는 문제를 쉽게 식별할 수 있습니다. 또는 Azure AD ID 보호 대시보드의 조사 섹션 아래에 있는 다음 영역에서 조사 범위를 좁힐 수 있습니다.
 
-![조사](./media/protect-front-door/protect-front-door-fig5.png)
+![조사](https://github.com/MicrosoftDocs/EMDocs/blob/live/EMDocs/Solutions/media/protect-front-door/protect-front-door-fig5.png)
 
 관리자가 각 영역의 조사에서 [사용자 위험](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection/#mitigating-user-risk-events)을 완화하거나 [로그인 이벤트](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection/#mitigating-sign-in-risk-events)를 완화하기 위한 작업을 수행할 수 있습니다. 예를 들어 [비정상적 위치로 이동 불가능](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection-risk-events-types/#impossible-travel-to-atypical-locations)과 같은 보안 이벤트(다음 화면의 두 번째 이벤트)를 식별하는 경우 암호를 강제로 재설정하도록 하는 것과 같이 이 위협을 [수정](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection/#remediating-user-risk-events)하기 위한 작업을 수행할 수 있습니다.
 
-![위험 이벤트](./media/protect-front-door/protect-front-door-fig6.png)
+![위험 이벤트](https://github.com/MicrosoftDocs/EMDocs/blob/live/EMDocs/Solutions/media/protect-front-door/protect-front-door-fig6.png)
 
 [Azure AD Premium 액세스 및 사용 현황 보고서](https://azure.microsoft.com/documentation/articles/active-directory-view-access-usage-reports/)를 활용하여 사용자의 동작 및 잠재적인 위협 요소에 대한 자세한 정보를 얻을 수 있습니다.
 
@@ -104,17 +103,17 @@ Azure AD ID 보호를 구현하려는 경우 먼저 다음 정책을 정의해�
 
 Azure AD Privileged Identity Management에 액세스하려면 먼저 [Marketplace에서 설치](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-getting-started/)해야 합니다. Azure AD Privileged Identity Management 및 Azure MFA(Multi-Factor Authentication)는 함께 작동하여 IT 부서에서 보안 응용 프로그램 및 서비스에 액세스할 수 있도록 지원합니다. Azure AD Privileged Identity Management를 설치한 후에는 MFA를 사용할 수 있는지 확인하게 위해 테스트가 수행됩니다. 계정을 확인하는 옵션을 클릭하면 자격 증명을 입력해야 하는 웹 페이지로 이동됩니다. 계정이 아직 MFA를 지원하지 않는 경우 다음 화면과 유사한 메시지가 나타납니다.
 
-![로그온 화면](./media/protect-front-door/protect-front-door-fig7.png)
+![로그온 화면](https://github.com/MicrosoftDocs/EMDocs/blob/live/EMDocs/Solutions/media/protect-front-door/protect-front-door-fig7.png)
 
 **지금 설정**을 클릭하고 마법사를 따릅니다. 확인을 위해 휴대폰 또는 전화 번호를 입력해야 합니다. 이 마법사를 마치면 확인 완료 메시지가 나타납니다.
 
-![확인](./media/protect-front-door/protect-front-door-fig8.png)
+![확인](https://github.com/MicrosoftDocs/EMDocs/blob/live/EMDocs/Solutions/media/protect-front-door/protect-front-door-fig8.png)
 
 ### <a name="step-5-configure-azure-ad-privileged-identity-management"></a>5단계: Azure AD Privileged Identity Management 구성
 
 초기 구성은 **조직 보호** 블레이드에 표시된 3개 단계로 진행되는 [보안 마법사](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-security-wizard/)를 사용하여 수행됩니다.
 
-![보안 마법사](./media/protect-front-door/protect-front-door-fig9.png)
+![보안 마법사](https://github.com/MicrosoftDocs/EMDocs/blob/live/EMDocs/Solutions/media/protect-front-door/protect-front-door-fig9.png)
 
 첫 번째 단계에서는 Azure AD Privileged Identity Management에서 검색된 [권한 있는 역할](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-roles/)을 검토합니다. 두 번째 단계는 영구 권한 있는 역할이 할당된 조직의 사용자 수를 줄여 보안 취약성을 직접적으로 최소화하기 위한 것입니다. 마지막 단계에서는 권한 있는 역할에 포함된 사용자에 대한 변경 내용을 검토할 수 있습니다.
 
@@ -124,6 +123,6 @@ Azure AD Privileged Identity Management에 액세스하려면 먼저 [Marketplac
 
 Azure AD Privileged Identity Management를 설치 및 구성했으므로 초기 평가를 수행하여 현재 역할 스키마 및 경고를 확인할 수 있습니다. **권한 ID 관리** 블레이드에서 **권한 있는 역할 관리**를 클릭하면 다음 그림과 유사한 대시보드가 표시됩니다.
 
-![권한 있는 역할](./media/protect-front-door/protect-front-door-fig10.png)
+![권한 있는 역할](https://github.com/MicrosoftDocs/EMDocs/blob/live/EMDocs/Solutions/media/protect-front-door/protect-front-door-fig10.png)
 
 이 대시보드에서는 [보안 경고](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-configure-security-alerts/) 및 [액세스 검토](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-start-security-review/)와 같은 현재 활동을 볼 수 있습니다. 또한 이 대시보드에서 Azure AD Privileged Identity Management에 대한 하나 이상의 사용자 액세스 권한을 [추가](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-give-access-to-pim/) 또는 [제거](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-give-access-to-pim/#remove-another-users-access-rights-for-managing-pim)할 수 있습니다.

@@ -2,27 +2,24 @@
 title: 다단계 인증에 등록하는 방법
 description: 추가 보안 확인의 기본 방법을 설정하는 방법
 keywords: ''
-author: NathBarn
-ms.author: NathBarn
+author: dougeby
+ms.author: dougeby
 manager: angrobe
 ms.date: 02/01/2017
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: ''
 ms.assetid: 06e21ca9-ed6a-4f6e-a7e2-5445aaeb3552
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: c9871f9495fcd698eeeb08d0bcd639ef97c46b6b
-ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
+ms.openlocfilehash: 8543aed330ca711668754be8f585a4dbb0a1ec37
+ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2018
-ms.locfileid: "30848090"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51196681"
 ---
 # <a name="how-to-set-up-your-preferred-method-for-additional-security-verification"></a>추가 보안 확인의 기본 방법을 설정하는 방법
-
-
 
 ID를 확인하기 위해 암호와 휴대폰의 응답을 모두 사용하도록 관리자가 계정을 구성한 경우에는 추가 보안 확인 설정이 사용됩니다. 관리자가 추가 보안 확인이 필요하도록 계정을 구성한 경우 자동 등록 프로세스를 완료해야 로그인할 수 있습니다.
 
@@ -31,7 +28,6 @@ ID를 확인하기 위해 암호와 휴대폰의 응답을 모두 사용하도�
 ![계정에 대한 추가 보안 확인에 등록하라는 메시지를 보여 주는 스크린샷](./media/ft-enrollMFA-1-beginProcess.png)
 
 등록 프로세스를 통해 기본 ID 확인 방법을 지정할 수 있습니다. 이 방법은 아래 표에 나열된 다음 옵션일 수 있습니다. 연습을 비롯한 자세한 내용을 보려면 방법 중 하나를 클릭하면 됩니다.
-
 
 |메서드|설명|
 |------------|----------------------------------|
@@ -48,6 +44,7 @@ _Azure Authenticator 앱을 다음과 같은 두 가지 모드로 작동하여 �
 Azure Authenticator 앱은 [Windows Phone](http://www.windowsphone.com/en-us/store/app/azure-authenticator/03a5b2bf-6066-418f-b569-e8aecbc06e50), [Android](https://play.google.com/store/apps/details?id=com.azure.authenticator) 및 [iOS](https://itunes.apple.com/us/app/azure-authenticator/id983156458)에 사용할 수 있습니다.
 
 ## <a name="mobile-phone"></a>휴대폰
+
 기본 연락 방법으로 휴대폰(문자 또는 통화)을 사용하려는 경우 다음 단계를 사용할 수 있습니다. 이러한 단계에서는 휴대폰에서 통화 또는 문자를 연락 방법으로 사용하여 다단계 인증을 설정하는 과정을 안내합니다.
 
 1. **1단계: 어떻게 연락해야 하나요?** 에서 **인증 전화**를 선택합니다.
@@ -74,7 +71,9 @@ Azure Authenticator 앱은 [Windows Phone](http://www.windowsphone.com/en-us/sto
 11. **완료**를 클릭합니다.
 
 ## <a name="office-phone-call"></a>사무실 전화 통화
+
 이 문서의 이 섹션에서는 기본 연락 방법으로 사무실 전화를 사용하도록 Azure Multi-Factor Authentication을 설정하는 과정을 안내합니다.
+
 1. 드롭다운 목록에서 사무실 전화를 선택합니다.
 
    ![사용자가 사무실 전화로 연락받기를 원하는 모습을 보여 주는 스크린샷](./media/ft-enrollMFA-6-officePhone.png)
@@ -89,6 +88,7 @@ Azure Authenticator 앱은 [Windows Phone](http://www.windowsphone.com/en-us/sto
 8. **완료**를 클릭합니다.
 
 ## <a name="mobile-application"></a>모바일 응용 프로그램
+
 이 문서의 이 섹션에서는 기본 연락 방법으로 모바일 앱을 사용하도록 Azure Multi-Factor Authentication을 설정하는 과정을 안내합니다.
 
 Azure Authenticator 앱은 Windows Phone, Android 및 iOS에 사용할 수 있습니다.
@@ -117,4 +117,5 @@ Azure Authenticator 앱은 Windows Phone, Android 및 iOS에 사용할 수 있�
 12. **완료**를 클릭합니다.
 
 ### <a name="want-to-learn-more"></a>더 자세한 내용을 원하세요?
+
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.

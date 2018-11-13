@@ -4,21 +4,20 @@ description: Enterprise Mobility + Security를 통해 Cloud App Security 및 Azu
 author: yuridio
 ms.author: yurid
 manager: mbaldwin
-ms.date: 05/18/2017
-ms.topic: solution
+ms.date: 09/18/2018
+ms.topic: conceptual
 ms.prod: ''
 ms.service: cloud-app-security
-ms.technology: techgroup-identity
 ms.assetid: 0af3894c-7b0e-4c0c-8874-31e041d81300
 ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: information-protection
-ms.openlocfilehash: 5836807982072f9115e49db17c8c6560c23d2c11
-ms.sourcegitcommit: a7fd3ad8a351e9cc72ea37486342a273ed29b883
+ms.openlocfilehash: 5b1e5d113546da0df64e7777c0031543a7096a72
+ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2017
-ms.locfileid: "23981110"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51196698"
 ---
 # <a name="protect-data-against-user-mistakes"></a>사용자 실수로부터 데이터 보호
 
@@ -110,7 +109,7 @@ Azure Information Protection은 사용자 지정 가능한 기본 레이블과 �
 !["Secret" 레이블 아래에 생성된 사용자 지정 하위 레이블을 보여 주는 스크린샷 ](./media/protect-data-user-mistake/protect-data-user-mistake-fig7.png)
 
 
-레이블을 사용하는 방식(기본 또는 사용자 지정)을 정의한 후에는 [Rights Management 보호를 적용하도록 레이블을 구성](https://docs.microsoft.com/rights-management/information-protection/configure-policy-protection#to-configure-a-label-to-apply-rights-management-protection)합니다.
+레이블을 사용하는 방식(기본 또는 사용자 지정)을 정의한 후에는 [Rights Management 보호를 적용하도록 레이블을 구성](/azure/information-protection/configure-policy-protection#to-configure-a-label-to-apply-rights-management-protection)합니다.
 
 Azure Information Protection을 사용하면 데이터 분류 및 보호 컨트롤이 Office 및 기타 일반 응용 프로그램에 통합됩니다. 이 통합에서는 사용자가 작업하는 데이터를 보호하기 위한 간단한 원클릭 옵션을 제공합니다. Azure Portal에서 관리자는 "신용 카드 번호" 또는 "주민등록번호"와 같은 미리 정의된 패턴을 자동 분류 조건으로 적용할 수 있습니다. 또는 텍스트 패턴 및 정규식을 사용하여 사용자 지정 문자열이나 패턴을 정의할 수 있습니다.
 

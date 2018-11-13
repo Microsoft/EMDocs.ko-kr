@@ -8,20 +8,19 @@ ms.date: 05/18/2017
 ms.topic: solution
 ms.prod: ''
 ms.service: rights-management
-ms.technology: techgroup-identity
 ms.assetid: 2f906e2e-3d99-40e6-b5cc-8d903fcda444
 ms.reviewer: v-craic
 ms.suite: ems
-ms.openlocfilehash: 03b6cbb8ab575b5cae99403f68579108ab2239a8
-ms.sourcegitcommit: 9e30dab85116767c71b911827d839a433418b9b5
+ms.openlocfilehash: 9b4c2fff65b717fcc1b1c37ee8da724f94ceb7f6
+ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2017
-ms.locfileid: "24101413"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51196715"
 ---
 # <a name="the-role-of-azure-information-protection-in-securing-data"></a>데이터 보안 유지에서 Azure Information Protection의 역할
 
-[AIP(Azure Information Protection)](/information-protection/understand-explore/what-is-information-protection)는 고객에게 데이터를 분류하고 데이터의 레이블을 지정하고 암호화를 사용하여 데이터를 보호하는 기능을 제공합니다. Azure Information Protection을 통해 IT 관리자는 다음과 같이 할 수 있습니다.
+[AIP(Azure Information Protection)](/azure/information-protection/what-is-information-protection)는 고객에게 데이터를 분류하고 데이터의 레이블을 지정하고 암호화를 사용하여 데이터를 보호하는 기능을 제공합니다. Azure Information Protection을 통해 IT 관리자는 다음과 같이 할 수 있습니다.
 
 - 미리 설정된 규칙에 따라 메일 및 문서를 자동으로 분류
 - 사용자 지정 머리글, 바닥글 및 워터마크와 같은 콘텐츠에 표식 추가
@@ -34,7 +33,7 @@ ms.locfileid: "24101413"
 이러한 기능을 통해 엔터프라이즈는 데이터에 대해 더 향상된 종단 간 제어가 가능합니다. 이 컨텍스트에서 Azure Information Protection은 회사의 데이터 보안 유지에 중요한 역할을 합니다.
 
 > [!IMPORTANT]
-> Azure Information Protection이 작동하는 방식에 대한 자세한 내용은 [Azure RMS는 어떤 방식으로 작동합니까? 기본적인 이해](/information-protection/understand-explore/how-does-it-work)
+> Azure Information Protection이 작동하는 방식에 대한 자세한 내용은 [Azure RMS는 어떤 방식으로 작동합니까? 기본적인 이해](/azure/information-protection/how-does-it-work)
 
 ## <a name="the-state-of-enterprise-protection-today"></a>현재 엔터프라이즈 보호 상태
 
@@ -73,11 +72,11 @@ Azure Information Protection 보호 기능의 기본 사항은 보호된 콘텐�
 
 ![권한 없음](./media/azure-information-protection-securing-data/aip-securing-data-fig2.png)
 
-이 시나리오의 요점은 Azure Information Protection이 권한이 없는 사용자의 공격을 막을 수 있다는 점입니다. Azure Information Protection의 암호화 컨트롤에 대한 자세한 내용은 [Azure RMS에서 사용하는 암호화 컨트롤: 알고리즘 및 키 길이](/information-protection/understand-explore/how-does-it-work)를 참조하세요.
+이 시나리오의 요점은 Azure Information Protection이 권한이 없는 사용자의 공격을 막을 수 있다는 점입니다. Azure Information Protection의 암호화 컨트롤에 대한 자세한 내용은 [Azure RMS에서 사용하는 암호화 컨트롤: 알고리즘 및 키 길이](/azure/information-protection/how-does-it-work)를 참조하세요.
 
 ### <a name="access-by-malicious-programs-on-behalf-of-users"></a>사용자를 대신하여 악성 프로그램에서 액세스
 
-사용자를 대신하여 악성 프로그램에서 액세스하는 경우 일반적으로 사용자가 알지 못하는 어떤 일이 발생하는 것입니다. 트로이 목마, 바이러스 및 기타 맬웨어는 사용자를 대신하여 행동을 취할 수 있는 악성 프로그램의 대표적인 예입니다. 이러한 프로그램이 사용자의 ID를 가장하거나 조치를 취할 수 있는 사용자의 권한을 활용할 수 있는 경우 [Azure Information Protection SDK](/information-protection/develop/developers-guide)를 사용하여 자신도 모르는 사용자를 대신하여 콘텐츠 암호를 해독할 수 있습니다. 이 작업은 사용자의 컨텍스트에서 수행되므로 이 공격을 막는 간단한 방법은 없습니다.
+사용자를 대신하여 악성 프로그램에서 액세스하는 경우 일반적으로 사용자가 알지 못하는 어떤 일이 발생하는 것입니다. 트로이 목마, 바이러스 및 기타 맬웨어는 사용자를 대신하여 행동을 취할 수 있는 악성 프로그램의 대표적인 예입니다. 이러한 프로그램이 사용자의 ID를 가장하거나 조치를 취할 수 있는 사용자의 권한을 활용할 수 있는 경우 [Azure Information Protection SDK](/azure/information-protection/develop/developers-guide)를 사용하여 자신도 모르는 사용자를 대신하여 콘텐츠 암호를 해독할 수 있습니다. 이 작업은 사용자의 컨텍스트에서 수행되므로 이 공격을 막는 간단한 방법은 없습니다.
 
 ![악성 프로그램](./media/azure-information-protection-securing-data/aip-securing-data-fig3.png)
 

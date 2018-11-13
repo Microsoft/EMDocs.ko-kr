@@ -8,17 +8,16 @@ ms.date: 01/23/2017
 ms.topic: solution
 ms.prod: ''
 ms.service: active-directory
-ms.technology: ''
 ms.assetid: de0a7e70-008b-45c1-bba8-f033b1f62194
 ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: advanced-threat-analytics, cloud-app-security
-ms.openlocfilehash: c8d94bb0ff5fdbb45670d93c31a3da0f5b1a859d
-ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
+ms.openlocfilehash: 26276999420e809a041f36214890539e49b59079
+ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2018
-ms.locfileid: "34474091"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51196749"
 ---
 # <a name="detect-attacks-before-they-cause-damage"></a>손상을 입기 전에 공격 감지
 보안 상태가 강력하더라도 심각한 손상이 발생하기 전에 위협을 식별할 수 있으려면 가동 중인 고급 검색 시스템이 필요합니다. 조직에서는 온-프레미스와 클라우드에서 의심스러운 활동을 검색할 수 있도록 Microsoft 보안 인텔리전스를 원활하게 활용할 수 있습니다.

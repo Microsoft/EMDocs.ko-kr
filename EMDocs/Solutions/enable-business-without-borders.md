@@ -9,17 +9,16 @@ ms.date: 12/07/2016
 ms.topic: solution
 ms.prod: ''
 ms.service: active-directory
-ms.technology: ''
 ms.assetid: 38e9802b-d8c0-4f5c-b89d-8ce1e04f7387
 ROBOTS: ''
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-ms.openlocfilehash: 756df8b2432788ba1152c5ef5a195d84cd6cf82b
-ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
+ms.openlocfilehash: 0f2cc13a746a69eccccc1be3de8dd6f4998ab7c7
+ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2018
-ms.locfileid: "34474006"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51196494"
 ---
 # <a name="enable-business-without-borders"></a>경계 없는 비즈니스 지원
 ID는 있으면 좋은 것이 아니라 효율적인 작업의 핵심입니다. 조직에서는 모든 장치 및 모든 위치에서 조직의 모든 데이터 및 응용 프로그램에 액세스할 수 있는 직원의 역량을 강화해야 합니다. 사용자는 서로 협력하고 파트너와 공동 작업을 수행해야 하며 고객과 연결해야 합니다. 이들이 사용하는 도구는 더 이상 보호되고 제어되는 환경에 있는 것이 아니라 공용 클라우드에서 찾을 수 있습니다.

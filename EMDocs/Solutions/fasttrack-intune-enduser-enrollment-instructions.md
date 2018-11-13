@@ -2,23 +2,22 @@
 title: IT 관리자를 위한 최종 사용자 Intune 등록 지침
 description: IT 관리자를 위한 최종 사용자 Intune 등록 지침
 keywords: ''
-author: nathbarn
-ms.author: nathbarn
+author: dougeby
+ms.author: dougeby
 manager: angrobe
 ms.date: 02/01/2017
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: ''
 ms.assetid: 5c13446e-aa31-47df-ad9d-373be7660197
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 268ab59474a117b2809baec0906ed3738d509914
-ms.sourcegitcommit: b93dc7df0f9978ac7bb8fe8e3d3cc15635ceb0e2
+ms.openlocfilehash: 2b9f32d79ab00c55962df67cab9bc2bad9549c44
+ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38147599"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51196817"
 ---
 # <a name="end-user-intune-enrollment-instructions-for-it-administrators"></a>IT 관리자를 위한 최종 사용자 Intune 등록 지침
 

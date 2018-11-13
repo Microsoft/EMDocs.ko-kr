@@ -9,17 +9,16 @@ ms.date: 10/24/2016
 ms.topic: solution
 ms.prod: ''
 ms.service: active-directory
-ms.technology: ''
 ms.assetid: 46654ab0-0d0a-47ad-8715-b149a1092a37
 ROBOTS: ''
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-ms.openlocfilehash: 28fc9de2c33972231a3e62c464153de0e202e06b
-ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
+ms.openlocfilehash: 463a1dfd075e2ec40295d318b34a56824b7ea643
+ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2018
-ms.locfileid: "34473989"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51196528"
 ---
 # <a name="cloud-powered-protection"></a>클라우드 기반 보호
 Microsoft는 10여년 동안 클라우드 기반 ID의 보안을 유지해 왔으며, Azure Active Directory를 통해 이러한 보호 시스템을 엔터프라이즈 고객에게 제공함으로써 향상된 보안과 관리 기능으로 사용자와 관리자의 책임을 유지하도록 지원하고 있습니다.

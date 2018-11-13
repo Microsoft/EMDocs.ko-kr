@@ -2,23 +2,22 @@
 title: 조직에서 관리하는 모바일 응용 프로그램을 사용하는 방법
 description: 조직에서 관리하는 모바일 앱을 사용하는 방법
 keywords: ''
-author: nathbarn
-ms.author: nathbarn
+author: dougeby
+ms.author: dougeby
 manager: angrobe
 ms.date: 02/01/2017
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: ''
 ms.assetid: 174348f0-dbc6-4204-8626-3c6f38b7bbde
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 99329f3dccd12621a36580ba6538a7e31ad43efc
-ms.sourcegitcommit: 4cea4bc674e4c7946394aa14aab9939e31ed88fe
+ms.openlocfilehash: 29aaab0743bbc42ec3a6297e5c8174dbdc977fe7
+ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39149971"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51196511"
 ---
 # <a name="how-to-use-mobile-apps-managed-by-your-organization"></a>조직에서 관리하는 모바일 앱을 사용하는 방법
 
@@ -51,6 +50,7 @@ ms.locfileid: "39149971"
    > 배포된 정책을 변경하는 경우 다음에 앱을 열 때 변경 내용이 적용됩니다.
 
 ## <a name="accessing-onedrive-on-an-android-device"></a>Android 장치의 OneDrive 액세스
+
 이 섹션에서는 비즈니스용 OneDrive를 예제로 사용하여 사용자 환경이 Intune에서 관리하는 응용 프로그램에서 어떻게 약간 변경될 수 있는지를 보여 줍니다.
 1. **비즈니스용 OneDrive** 앱을 시작하여 로그인 페이지를 엽니다.
    > [!NOTE]
@@ -68,9 +68,9 @@ ms.locfileid: "39149971"
    ![Android 사용자에게 Intune 회사 포털을 다운로드하기 위해 Google Play 스토어로 이동할 것인지 묻는 메시지를 보여 주는 스크린샷](./media/ft-useMngdApps-7-installPortal.png)
 
    회사 포털 앱은 데이터를 안전하게 보호하는 데 도움이 됩니다.
-   
+
    ![Android 사용자에게 Intune 회사 포털을 설치할 것인지 묻는 메시지를 보여 주는 스크린샷](./media/ft-useMngdApps-8-intunePortal.png)
-   
+
 5. 설치를 완료한 후 **동의함**을 선택하여 약관에 동의합니다.
 6. **비즈니스용 OneDrive** 앱이 자동으로 시작됩니다.
 7. 다음에 비즈니스용 OneDrive를 열면 정책 설정이 **비즈니스용 OneDrive** 앱 액세스 시 PIN을 요구하도록 설정된 경우 **PIN**을 설정하라는 메시지가 표시됩니다.
@@ -79,4 +79,5 @@ ms.locfileid: "39149971"
 8. PIN이 설정 및 확인되고 나면 이제 앱 정책에 의해 관리되는 **비즈니스용 OneDrive**를 계속 사용할 수 있습니다.
 
 ### <a name="want-to-learn-more"></a>더 자세한 내용을 원하세요?
+
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)를 참조하세요.
