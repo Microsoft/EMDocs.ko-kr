@@ -3,22 +3,21 @@ title: 등록 및 마이그레이션 단계
 description: FastTrack 센터 혜택의 단계
 keywords: ''
 author: andredm7
-ms.author: andredm
+ms.author: anmorgan
 manager: ''
-ms.date: 06/01/2018
+ms.date: 10/26/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: ''
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: d3d66f6a790140a9b461d5a63398a81a3485f9fc
-ms.sourcegitcommit: 3a51276eebdd8f1f18994a7efdcaa22e394180df
+ms.openlocfilehash: 140df50936eb60ac87dd50b39d9ba3ee1336e6d9
+ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34569564"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51196791"
 ---
 # <a name="onboarding-phases"></a>온보딩 단계
 
@@ -38,11 +37,24 @@ ms.locfileid: "34569564"
 
 ### <a name="to-request-assistance"></a>지원을 요청하려면
 
-1. [FastTrack 센터](http://fasttrack.microsoft.com/)로 이동하여 회사 또는 학교 계정으로 로그인합니다.
+1. [FastTrack 사이트](https://go.microsoft.com/fwlink/?linkid=780698)에 로그인합니다.
+2. **FastTrack**을 선택합니다.
+3. **서비스**를 선택합니다.
+4. **Request for Assistance with Microsoft 365 form**(Microsoft 365 지원 요청 양식)을 작성합니다.
 
-2. 고객 대시보드에서 페이지의 오른쪽 맨 아래에 있는 **FastTrack로 이동**을 선택합니다.
+등록 지원이 시작되면 Microsoft는 온라인 모임 일정을 설정합니다.
 
-3. FastTrack 대시보드에서 페이지 오른쪽 아래에 있는 **도움 요청**을 확장한 다음, 프롬프트에 따라 요청을 완료합니다.
+> [!NOTE]
+> Office 365 테넌트에 나열된 Microsoft 365 파트너가 있는 경우 이 옵션이 표시되지 않습니다. 도움이 필요하면 Microsoft 파트너에게 문의하세요.
+
+Microsoft 파트너는 고객을 대신하여 [FastTrack 사이트](https://go.microsoft.com/fwlink/?linkid=780698)를 통해 지원을 받을 수도 있습니다. 확인 방법은 다음과 같습니다.
+
+1. [FastTrack 사이트](https://go.microsoft.com/fwlink/?linkid=780698)에 로그인합니다.
+2. **FastTrack**을 선택합니다.
+3. **My Customers**(내 고객)를 선택합니다.
+4. 고객을 검색하거나 고객 목록에서 선택합니다.
+5. **서비스**를 선택합니다.
+6. **Request for Assistance with Microsoft 365 form**(Microsoft 365 지원 요청 양식)을 작성합니다.
 
 온보딩 지원이 시작되면 FastTrack은 온라인 회의 일정을 설정하여 온보딩 프로세스에 대해 논의하고 데이터를 확인하며 시작 회의를 설정합니다.
 
@@ -95,6 +107,8 @@ Azure AD Premium 설치에는 다음과 같은 기능을 사용하도록 설정�
 
 -   [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/)에서 최대 3개 이상의 SaaS(Software as a Service) 응용 프로그램과 SSO(Single Sign On) 통합
 
+-   [앱 통합 자습서 목록](https://docs.microsoft.com/en-us/azure/active-directory/saas-apps/tutorial-list)에 나열된 대로 사전 통합된 SaaS 애플리케이션에 대한 자동 사용자 프로비전(아웃바운드 프로비전으로만 제한됨)
+
 -   사용자 지정된 로그온 화면(로고, 텍스트 및 이미지 포함)
 
 -   셀프 서비스 및 동적 그룹.
@@ -107,7 +121,7 @@ Azure AD Premium 설치에는 다음과 같은 기능을 사용하도록 설정�
 
 -   Privileged Identity Management
 
--   Azure Active Directory 조건부 액세스
+-   Azure Active Directory 조건부 액세스(필요한 경우 사용 약관 포함)
 
 ![등록 활성화 단계 - Azure AD Premium](./media/ft-enable-phase_aad-premium_adconnect_adfed.png)
 
@@ -124,8 +138,6 @@ Intune의 경우 Microsoft는 Microsoft Intune을 사용하여 장치를 관리�
 -   관리 요구 사항에 따라 다음과 같이 모바일 장치 관리(MDM) 기관 구성.
 
     -   Intune이 유일한 MDM 솔루션이거나 Office 365용 모바일 장치 관리와 함께 사용되는 경우 Intune을 MDM 기관으로 설정합니다.
-
-    -   System Center Configuration Manager의 기존 구현이 있고 Intune으로 관리 기능을 확장하려는 경우 Configuration Manager를 MDM 기관으로 설정합니다.
 
 -   다음에 대한 MDM 지침을 제공합니다.
 
@@ -152,9 +164,9 @@ Intune의 경우 Microsoft는 Microsoft Intune을 사용하여 장치를 관리�
 
             -   Windows Defender Advanced Threat Protection(Windows E5 또는 Microsoft 365 E5 라이선스 필요).
 
-    -   각각의 [지원되는 각 플랫폼](https://technet.microsoft.com/library/dn600287.aspx) 장치를 Intune 또는 Configuration Manager with Microsoft Intune 서비스에 등록.
+    -   Intune에 [지원되는 각 플랫폼](https://technet.microsoft.com/library/dn600287.aspx)의 디바이스 등록.
 
--   다음에 대해 Intune 앱 보호(앱 관리) 지침을 제공.
+-   다음에 대한 Intune 앱 보호(앱 관리) 지침을 제공합니다.
 
     -   지원되는 각 플랫폼에 대해 앱 보호 정책 구성.
 
@@ -173,9 +185,38 @@ Intune의 경우 Microsoft는 Microsoft Intune을 사용하여 장치를 관리�
     > [!IMPORTANT]
     > FastTrack은 Intune을 사용한 Windows 10 클래식 PC 관리를 지원하지 않습니다. FastTrack은 Intune 모바일 장치 관리(MDM)를 통한 Windows 10 장치 관리만 지원합니다.
 
+#### <a name="windows-autopilot"></a>Windows Autopilot
+
+FastTrack은 사용자 지정 운영 체제 이미지를 빌드하고 유지 관리하고 디바이스에 적용할 필요 없이 최종 사용자에게 새 디바이스를 제공하여 Windows Autopilot 및 Intune으로 디바이스 프로비전을 간소화합니다.
+
+FastTrack은 다음과 같은 Autopilot 시나리오를 지원합니다.
+
+- **Azure AD 셀프 서비스:** 디바이스가 Azure AD에 가입되고 Intune에 등록됩니다. 이 시나리오는 Windows 10 1703 및 최신 버전을 사용하는 경우에 지원됩니다.
+
+- **하이브리드 AAD 셀프 서비스:** 디바이스가 온-프레미스 AD 및 Azure AD에 가입되고 Intune에 등록됩니다. 이 시나리오는 Windows 10 1809 및 최신 버전을 사용하는 경우에 지원됩니다.
+
+- **셀프 프로비전:** 디바이스가 자동으로 Azure AD에 가입됩니다. 이 시나리오는 Windows 1809 및 최신 버전을 사용하는 경우에 지원됩니다.
+
+    > [!IMPORTANT]
+    > FastTrack은 Configuration Manager에서 시작된 Autopilot 시나리오를 지원하지 않습니다.
+
+Windows Autopilot을 설정하는 단계는 원본 환경에 따라 다르며 다음이 포함될 수 있습니다.
+
+- Windows Autopilot용 Microsoft Intune을 구성하고 설정합니다.
+
+- Azure AD 동적 그룹 구성
+
+- Azure AD에 회사 브랜딩을 추가합니다.
+
+- Windows Autopilot 프로필을 만들고 디바이스를 할당합니다(예: 로컬 관리자 계정 만들기를 제한하는 Windows Autopilot 프로필).
+
+- 조직의 요구 사항에 맞도록 OOBE(Out-Of-Box-Experience)를 사용자 지정합니다.
+
+- Azure AD 및 Intune에서 MDM 자동 등록을 구성합니다.
+
 #### <a name="co-management"></a>공동 관리
 
-FastTrack은 Configuration Manager와 Intune을 둘 다 사용하여 Windows 10 장치를 동시에 관리할 수 있도록 준비하는 과정을 안내합니다. 정확한 단계는 원본 환경에 따라 다르며, 단계는 다음을 포함할 수 있습니다.
+FastTrack은 Configuration Manager와 Intune을 둘 다 사용하여 Windows 10 장치를 동시에 관리할 수 있도록 준비하는 과정을 안내합니다. 정확한 단계는 원본 환경에 따라 다르며 다음 작업이 포함될 수 있습니다.
 
 - 공동 관리의 이점 설명.
 
@@ -208,8 +249,6 @@ FastTrack은 Configuration Manager와 Intune을 둘 다 사용하여 Windows 10 
 ![온보딩 활성화 단계 - Intune](./media/ft-enable-phase_intune_mdm-mam_cloudonly.png)
 
 ![온보딩 활성화 단계 - 공동 관리](./media/ft-9-enable-phase-comanagement.png)
-
-![온보딩 활성화 단계 - Intune](./media/ft-enable-phase-intune-mdm-mam-sccm.png)
 
 > [!NOTE]
 > **자세히 알아보고 싶습니까?** [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)를 참조하세요.

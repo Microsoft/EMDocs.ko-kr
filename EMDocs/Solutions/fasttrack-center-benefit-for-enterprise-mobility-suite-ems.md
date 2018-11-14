@@ -5,19 +5,19 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 08/13/2018
+ms.date: 11/05/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.assetid: 484156c7-c3c4-469d-b718-9fa33d9d0ec2
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 45c0d051dc3ade44e54b4c724217870a7204ceca
-ms.sourcegitcommit: cfa80b7829abb2fca321ebb9cfcd96dbd8c06990
+ms.openlocfilehash: 00152a975b7ea3f586259b9675620eb13c9f276d
+ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "39320900"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51196851"
 ---
 # <a name="fasttrack-center-benefit-eligible-services-and-plans"></a>FastTrack 센터 혜택 적격 서비스 및 플랜
 적격 플랜을 통해 EMS(Enterprise Mobility + Security) 또는 해당 개별 클라우드 서비스에 대해 라이선스를 150개 이상 구매하면 서비스 혜택을 이용할 수 있습니다. 서비스 혜택을 사용하면 FastTrack 전문가와 협업하여 적격 서비스를 평가, 수정 및 활성화할 수 있습니다.
@@ -32,14 +32,24 @@ ms.locfileid: "39320900"
 
 ### <a name="to-request-assistance"></a>지원을 요청하려면
 
-1. [FastTrack 센터](http://fasttrack.microsoft.com/)에 로그인
-
-2. 대시보드로 이동하여 화면 왼쪽에 있는 **도움 필요**를 확장하여 프롬프트를 따라 요청을 완료합니다.
+1. [FastTrack 사이트](https://go.microsoft.com/fwlink/?linkid=780698)에 로그인합니다.
+2. **FastTrack**을 선택합니다.
+3. **서비스**를 선택합니다.
+4. **Request for Assistance with Microsoft 365 form**(Microsoft 365 지원 요청 양식)을 작성합니다.
 
 등록 지원이 시작되면 Microsoft는 온라인 모임 일정을 설정합니다.
 
 > [!NOTE]
-> 고객은 각 대상 Microsoft 온라인 서비스당 한 번씩 등록 프로세스를 수행하도록 선택할 수 있습니다.
+> Office 365 테넌트에 나열된 Microsoft 365 파트너가 있는 경우 이 옵션이 표시되지 않습니다. 도움이 필요하면 Microsoft 파트너에게 문의하세요.
+
+Microsoft 파트너는 고객을 대신하여 [FastTrack 사이트](https://go.microsoft.com/fwlink/?linkid=780698)를 통해 지원을 받을 수도 있습니다. 확인 방법은 다음과 같습니다.
+
+1. [FastTrack 사이트](https://go.microsoft.com/fwlink/?linkid=780698)에 로그인합니다.
+2. **FastTrack**을 선택합니다.
+3. **My Customers**(내 고객)를 선택합니다.
+4. 고객을 검색하거나 고객 목록에서 선택합니다.
+5. **서비스**를 선택합니다.
+6. **Request for Assistance with Microsoft 365 form**(Microsoft 365 지원 요청 양식)을 작성합니다.
 
 ## <a name="eligible-plans"></a>적격 플랜
 다음 적격 플랜 중 하나를 구독하기 위해 라이선스를 150개 이상 구매한 경우 EMS용 FastTrack 센터 혜택에 포함된 EMS 및 클라우드 서비스에서 서비스 혜택을 받을 자격이 있습니다.

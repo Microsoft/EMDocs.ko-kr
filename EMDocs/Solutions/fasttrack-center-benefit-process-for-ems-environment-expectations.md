@@ -5,35 +5,36 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 08/13/2018
+ms.date: 10/26/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.assetid: 9048f3e5-cc28-4744-bb5e-36f974abb261
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: d4936e48d9be83c99856824040f5c4dd2f41f5d7
-ms.sourcegitcommit: cfa80b7829abb2fca321ebb9cfcd96dbd8c06990
+ms.openlocfilehash: d5f05705a72abd36867aeaefc6b202c097332419
+ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "34569513"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51196562"
 ---
 # <a name="source-environment-expectations"></a>원본 환경 요구 사항
 
 조직에서 [EMS(Enterprise Mobility + Security)용 FastTrack 센터 혜택](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)을 통해 사용할 준비가 된 Microsoft Azure Active Directory Premium 및 Microsoft Intune을 가져올 때는 사용자 환경이 다음 섹션에서 설명하는 기대 사항에 부합해야 합니다.
 
-단일 콘솔에서 풍부한 ID 관리를 활용하기 위해 EMS 또는 개별 서비스에 통합하려 환경에 온-프레미스 Active Directory가 이미 있을 수도 있습니다. EMS용 FastTrack 센터 혜택은 Azure Active Directory를 기존 온-프레미스 Active Directory 환경과 통합하는 데 도움을 줍니다.
+단일 콘솔에서 다양한 ID 관리를 사용하는 EMS(Enterprise Mobility + Security) 또는 개별 서비스와 통합하려는 조직에 온-프레미스 Active Directory가 이미 있을 수 있습니다. EMS(Enterprise Mobility + Security)용 FastTrack Center 혜택은 Azure Active Directory를 기존 온-프레미스 Active Directory 환경과 통합하는 데 도움을 줍니다.
 
 다음 표는 등록 시 기존 원본 환경에 대해 요구되는 사항을 보여 줍니다.
 
-|작업|원본 환경 기대|
+|활동|원본 환경 기대|
 |------------|----------------------------------|
 |코어 등록|기능적 포리스트 수준이 Windows Server 2008 이상으로 설정되어 있고 다음 포리스트 구성을 사용하는 Active Directory 포리스트:<br /><br />- 단일 Active Directory 포리스트<br />- 다중 Active Directory 포리스트 </br></br>**참고**: 모든 다중 포리스트 구성의 경우, AD FS(Active Directory Federation Services) 배포는 모든 다중 포리스트 구성에 대 한 FastTrack 센터 혜택에 대 한 범위를 벗어납니다.|
 |Azure AD Premium 등록|온-프레미스 Active Directory 및 환경은 Azure AD Premium을 위해 준비되어 있으며, Azure AD 및 Azure AD Premium 기능과의 통합을 방지하는 식별된 문제 수정이 포함되어 있습니다.|
-|Intune 온보딩| Intune으로 Wi-Fi 및 VPN 프로필 배포 계획을 세울 때 IT 관리자는 기존 인증 기관, Wi-Fi 및 VPN 인프라가 프로덕션 환경에서 이미 작동하고 있어야 합니다.<br /><br /> **참고**: 서비스 혜택에는 인증 기관, Wi-Fi, VPN 인프라 또는 Apple MDM 푸시 인증서 등의 설정 또는 구성에 대한 지원이 포함되지 않습니다.  |
-|공동 관리|공동 관리를 통해 IT 관리자는 온-프레미스 환경 준비를 담당하며, 여기에는 Configuration Manager와 Intune을 둘 다 사용하여 Windows 10 장치를 동시에 관리할 수 없는 문제의 해결이 포함될 수 있습니다.<br /><br />**참고**: FastTrack 서비스 혜택에는 Configuration Manager 사이트 서버 및/또는 Configuration Manager 클라이언트를 Windows 10 장치로 공동 관리를 지원하는 데 필요한 최소 요구 사항에 맞게 설정하거나 이러한 요구 사항으로 업그레이드하는 작업에 대한 지원은 포함되지 않습니다. |
+|Intune 온보딩| Intune으로 Wi-Fi 및 VPN 프로필 배포 계획을 세울 때 IT 관리자는 기존 인증 기관, Wi-Fi 및 VPN 인프라가 프로덕션 환경에서 이미 작동하고 있어야 합니다.<br /><br /> **참고**: 서비스 혜택에는 인증 기관, WiFi, VPN 인프라 또는 Apple MDM 푸시 인증서 등의 설정 또는 구성에 대한 지원이 포함되지 않습니다.  |
+|공동 관리|공동 관리를 통해 IT 관리자는 온-프레미스 환경 준비를 담당하며, 여기에는 Configuration Manager와 Intune을 둘 다 사용하여 Windows 10 디바이스를 동시에 관리할 수 없는 문제의 해결이 포함될 수 있습니다.<br /><br />**참고**: FastTrack 서비스 혜택에는 Configuration Manager 사이트 서버 및/또는 구성 관리자 클라이언트를 Windows 10 디바이스로 공동 관리를 지원하는 데 필요한 최소 요구 사항에 맞게 설정하거나 업그레이드하는 작업에 대한 지원은 포함되지 않습니다. |
 |Windows Defender ATP(Windows Defender Advanced Threat Protection)와 통합된 Intune|Windows Defender ATP 구독은 회사 보안 요구 사항을 기반으로 활성화되고 구성되었습니다.<br /><br />**참고**: FastTrack 서비스 혜택은 Intune을 Windows Defender ATP와 통합하고 Windows 10 위험 수준 평가를 기반으로 장치 준수 정책을 만드는 기능에 대한 지원을 제공합니다. FastTrack 서비스 혜택은 Windows Defender ATP 및 해당 Security Center 콘솔을 구매, 라이선싱, 활성화 또는 사용하는 기능을 지원하지 않습니다. |
+|Windows Autopilot|IT 관리자는 IT 관리자를 대신하여 하드웨어 공급업체가 하드웨어 ID를 업로드하도록 하거나 Windows Autopilot 서비스로 하드웨어 ID를 업로드하여 조직에 디바이스를 등록하는 일을 담당합니다.
 
 > [!NOTE]
 > **자세히 알아보고 싶습니까?**

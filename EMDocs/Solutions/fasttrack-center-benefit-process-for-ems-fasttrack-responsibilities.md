@@ -5,20 +5,19 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 06/01/2018
+ms.date: 10/26/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: ''
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 212acc335e4c0a21c2a6f72c3df1226ebc21e156
-ms.sourcegitcommit: 3a51276eebdd8f1f18994a7efdcaa22e394180df
+ms.openlocfilehash: dc86c1a3cba21476c6f5275dfd589bdb5443466a
+ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34569547"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51196796"
 ---
 # <a name="fasttrack-responsibilities"></a>FastTrack 책임
 
@@ -147,6 +146,8 @@ ms.locfileid: "34569547"
 
   - [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/)에서 최대 3개 이상의 SaaS(Software as a Service) 응용 프로그램과 SSO 통합
 
+  - [앱 통합 자습서 목록](https://docs.microsoft.com/en-us/azure/active-directory/saas-apps/tutorial-list)에 나열된 대로 사전 통합된 SaaS 애플리케이션에 대한 자동 사용자 프로비전(아웃바운드 프로비전으로만 제한됨)
+
   - 사용자 지정된 로그온 화면(로고, 텍스트 및 이미지 포함)
 
   - 셀프 서비스 및 동적 그룹.
@@ -159,7 +160,7 @@ ms.locfileid: "34569547"
 
   - Privileged Identity Management
 
-  - Azure Active Directory 조건부 액세스
+  - Azure Active Directory 조건부 액세스(필요한 경우 사용 약관 포함)
 
 ### <a name="enable-phase---intune"></a>활성화 단계 - Intune
 
@@ -177,8 +178,6 @@ ms.locfileid: "34569547"
 -   관리 요구 사항에 따라 다음과 같이 모바일 장치 관리(MDM) 기관 구성.
 
     -   Intune을 MDM 기관으로 설정.
-
-    -   System Center Configuration Manager의 기존 구현이 있고 Intune으로 관리 기능을 확장하려는 경우 Configuration Manager를 MDM 기관으로 설정합니다.
 
     -   MDM 관리 정책의 유효성을 검사하는 데 사용할 테스트 그룹 구성.
 
@@ -222,6 +221,23 @@ ms.locfileid: "34569547"
     -   적용 가능한 지원되는 플랫폼을 위해 소프트웨어 업데이트 구성.
 
     -   사용자 채택 계획을 위한 리소스.
+
+- Windows Autopilot 설정:
+
+    - Windows Autopilot용 Microsoft Intune을 구성하고 설정합니다.
+
+    - Azure AD 동적 그룹 구성
+
+    - Azure AD에 회사 브랜딩을 추가합니다.
+
+    - Windows Autopilot 프로필을 만들고 디바이스를 할당합니다(예: 로컬 관리자 계정 만들기를 제한하는 Windows Autopilot 프로필).
+
+    - 조직의 요구 사항에 맞도록 OOBE(Out-Of-Box-Experience)를 사용자 지정합니다.
+
+    - Azure AD 및 Intune에서 MDM 자동 등록을 구성합니다.
+
+    > [!NOTE]
+    > Intune 외부에서 Windows Autopilot 설정은 FastTrack 혜택의 범위를 벗어납니다.
 
 ### <a name="enable-phase---co-management"></a>활성화 단계 - 공동 관리
 

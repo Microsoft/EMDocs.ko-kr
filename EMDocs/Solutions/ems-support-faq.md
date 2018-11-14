@@ -2,23 +2,22 @@
 title: Enterprise Mobility + Security 지원 FAQ
 description: ''
 keywords: ''
-author: nathbarn
-ms.author: nathbarn
+author: dougeby
+ms.author: dougeby
 manager: angrobe
 ms.date: 6/12/2017
 ms.topic: article
 ms.prod: ''
 ms.service: ems
-ms.technology: ''
 ms.assetid: 7bfee675-ec69-479c-bda2-f807bbb55712
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 725e923f702efc3d6c12881ea77049ee001a649e
-ms.sourcegitcommit: 1fd9d6f672b25c50e7165793b518fe02912338d5
+ms.openlocfilehash: 50326fcf5cf1412ca0e03b6461c85b6b8b7f708d
+ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2018
-ms.locfileid: "29925541"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "51196579"
 ---
 # <a name="enterprise-mobility--security-support-faqs"></a>Enterprise Mobility + Security 지원 FAQ
 EMS(Enterprise Mobility + Security)를 지지하기 위해 전세계적 사전 판매, 청구, 구독 및 기술 지원이 제공됩니다.  자세한 내용은 아래를 참조하세요.
@@ -27,7 +26,7 @@ EMS(Enterprise Mobility + Security)를 지지하기 위해 전세계적 사전 �
 
 **Enterprise Mobility + Security 지원 요청을 제출하려면 Azure 지원 계획을 구입해야 하나요?**
 
-해당 지원은 Enterprise Mobility + Security에 포함되어 있습니다. Azure 365 포털을 통해 Azure Active Directory Premium, Azure Information Protection, 클라우드 응용 프로그램 보안 및 Microsoft Intune에 대한 지원 요청을 제출할 수 있습니다. Azure Portal은 기술 지원이 포함된 구독을 선택하여 지원 플랜을 구입하지 않고 EMS에 의도된 지원 환경을 제공합니다. O365 포털을 통해 Azure Active Directory Premium, Azure Information Protection, 클라우드 응용 프로그램 보안 및 Microsoft Intune 지원 요청을 제출할 수 있습니다.
+해당 지원은 Enterprise Mobility + Security에 포함되어 있습니다. Azure 365 포털을 통해 Azure Active Directory Premium, Azure Information Protection, Cloud App Security 및 Microsoft Intune에 대한 지원 요청을 제출할 수 있습니다. Azure Portal은 기술 지원이 포함된 구독을 선택하여 지원 플랜을 구입하지 않고 EMS에 의도된 지원 환경을 제공합니다. 또한 O365 포털을 통해 Azure Active Directory Premium, Azure Information Protection, Cloud App Security 및 Microsoft Intune 지원 요청을 제출할 수 있습니다.
 
 **Microsoft Intune 지원을 받으려면 어떻게 하나요?**
 
@@ -41,9 +40,9 @@ Enterprise Mobility + Security 고객이면 Azure Portal이나 Office 365 포털
 
 Enterprise Mobility + Security 고객이면 Azure Portal이나 Office 365 포털에서 Azure AD Premium 1 및 Premium 2에 대한 지원 요청을 제출할 수 있습니다. Intune 지원 옵션에 대해 자세히 알아보세요. [Azure Active Directory에 대한 지원을 받는 방법에 대해 알아보세요](https://docs.microsoft.com/azure/active-directory/active-directory-troubleshooting-support-howto).
 
-**클라우드 응용 프로그램 보안을 지원하려면 어떻게 할까요?**
+**Cloud App Security 지원을 받으려면 어떻게 해야 하나요?**
 
-Enterprise Mobility + Security 고객은 Azure 또는 Office 365 포털을 사용하여 클라우드 응용 프로그램 보안에 대한 지원 요청을 제출할 수 있습니다. 
+Enterprise Mobility + Security 고객은 Azure 또는 Office 365 포털을 사용하여 Cloud App Security에 대한 지원 요청을 제출할 수 있습니다. 
 
 **Office 365 포털에서 지원 요청을 제출할 수 없습니다. 지원을 요청하는 데 사용할 수 있는 전화 번호가 있나요?**
 
