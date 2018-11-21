@@ -3,21 +3,21 @@ title: 등록 및 마이그레이션 단계
 description: FastTrack 센터 혜택의 단계
 keywords: ''
 author: andredm7
-ms.author: anmorgan
+ms.author: andredm
 manager: ''
-ms.date: 10/26/2018
+ms.date: 11/15/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 140df50936eb60ac87dd50b39d9ba3ee1336e6d9
-ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
+ms.openlocfilehash: d773ab3e7c4f9c7c31f86ee8b8fa54a926c5af56
+ms.sourcegitcommit: 06c39d619052a609c250b8b3978d9061841a6ff2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51196791"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "51859195"
 ---
 # <a name="onboarding-phases"></a>온보딩 단계
 
@@ -166,7 +166,7 @@ Intune의 경우 Microsoft는 Microsoft Intune을 사용하여 장치를 관리�
 
     -   Intune에 [지원되는 각 플랫폼](https://technet.microsoft.com/library/dn600287.aspx)의 디바이스 등록.
 
--   다음에 대한 Intune 앱 보호(앱 관리) 지침을 제공합니다.
+-   App 보호 지침 제공:
 
     -   지원되는 각 플랫폼에 대해 앱 보호 정책 구성.
 
@@ -214,6 +214,22 @@ Windows Autopilot을 설정하는 단계는 원본 환경에 따라 다르며 �
 
 - Azure AD 및 Intune에서 MDM 자동 등록을 구성합니다.
 
+#### <a name="deploy-outlook-for-ios-and-android-securely"></a>안전하게 iOS 및 Android용 Outlook 배포
+
+FastTrack을 통해 조직에서 iOS 및 Android용 Outlook을 안전하게 배포하여 사용자에게 필요한 모든 앱을 설치할 수 있습니다.
+
+Intune에서 iOS 및 Android용 Outlook Mobile을 안전하게 배포하는 단계는 원본 환경에 따라 다르며 다음이 포함될 수 있습니다.
+
+- Apple App Store 또는 Google Play 스토어에서 iOS 및 Android용 Outlook, Microsoft Authenticator, Intune 회사 포털 앱을 다운로드합니다.
+- 다음 설정에 대한 지침도 제공합니다.
+    - Intune에서 iOS 및 Android용 Outlook, Microsoft Authenticator, Intune 회사 포털 앱 배포.
+    - 앱 보호 정책
+    - 조건부 액세스 정책
+    - 앱 구성 정책
+
+    > [!IMPORTANT]
+    > FastTrack 팀은 Exchange 모바일 디바이스 사서함 정책을 사용하는 iOS 및 Android용 Outlook 보안을 지원하지 않습니다.
+
 #### <a name="co-management"></a>공동 관리
 
 FastTrack은 Configuration Manager와 Intune을 둘 다 사용하여 Windows 10 장치를 동시에 관리할 수 있도록 준비하는 과정을 안내합니다. 정확한 단계는 원본 환경에 따라 다르며 다음 작업이 포함될 수 있습니다.
@@ -238,7 +254,7 @@ FastTrack은 Configuration Manager와 Intune을 둘 다 사용하여 Windows 10 
 
 - Intune으로 전환할 지원되는 워크로드 구성.
 
-- Intune에 등록된 장치에 Configuration Manager 클라이언트 설치.
+- Intune에 등록된 장치에 구성 관리자 클라이언트 설치.
 
 - 환경에서 공동 관리 활동을 모니터링하는 방법에 대한 지침 제공.
 
