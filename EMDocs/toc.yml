@@ -1,102 +1,109 @@
+items:
 - name: Docs
   tocHref: /
   topicHref: /
   items:
-    - name: Enterprise Mobility + Security
-      tocHref: /enterprise-mobility-security/
-      topicHref: /enterprise-mobility-security
+  - name: Enterprise Mobility + Security
+    tocHref: /enterprise-mobility-security/
+    topicHref: /enterprise-mobility-security
+    items:
+    - name: 솔루션
+      tocHref: /enterprise-mobility-security/solutions/enterprise-mobility-fasttrack-program/
+      topicHref: /enterprise-mobility-security/solutions/enterprise-mobility-fasttrack-program
+    - name: Azure Active Directory
+      tocHref: /azure/active-directory/
+      topicHref: /azure/active-directory
       items:
-        - name: 솔루션
-          tocHref: /enterprise-mobility-security/solutions/enterprise-mobility-fasttrack-program/
-          topicHref: /enterprise-mobility-security/solutions/enterprise-mobility-fasttrack-program
-        - name: Azure Active Directory
-          tocHref: /azure/active-directory/
-          topicHref: /azure/active-directory
-          items:
-            - name: AD Graph API
-              tocHref: /azure-ad-graph-api/api/
-              topicHref: /azure-ad-graph-api/api/api-catalog
-        - name: Microsoft 365 Enterprise
-          tocHref: /microsoft-365-enterprise/
-          topicHref: /microsoft-365-enterprise
-          items:
-            - name: Microsoft 365 Enterprise
-              tocHref: /microsoft-365-enterprise/
-              topicHref: /microsoft-365-enterprise
-        - name: Intune
-          tocHref: /intune/
-          topicHref: /intune
-          items:
-            - name: 교육에 Intune
-              tocHref: /intune-education/
-              topicHref: /intune-education
-        - name: Intune - 클래식 콘솔
-          tocHref: /intune-classic/
-          topicHref: /intune-classic
-          items:
-            - name: 이해 및 탐색
-              tocHref: /intune-classic/understand-explore/
-              topicHref: /intune-classic/understand-explore/introduction-to-microsoft-intune
-            - name: 계획 및 디자인
-              tocHref: /intune-classic/plan-design/
-              topicHref: /intune-classic/plan-design/introduction
-            - name: 배포 및 사용
-              tocHref: /intune-classic/deploy-use/
-              topicHref: /intune-classic/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune
-            - name: 문제 해결
-              tocHref: /intune-classic/troubleshoot/
-              topicHref: /intune-classic/troubleshoot/general-troubleshooting-tips-for-microsoft-intune
-            - name: 시작
-              tocHref: /intune-classic/get-started/
-              topicHref: /intune-classic/get-started/get-started
-            - name: 앱 개발 및 사용자 지정
-              tocHref: /intune-classic/develop/
-              topicHref: /intune-classic/develop/intune-app-sdk
-            - name: 새로운 기능
-              tocHref: /intune-classic/whats-new/
-              topicHref: /intune-classic/whats-new/whats-new-in-microsoft-intune
-        - name: Microsoft Identity Manager
-          tocHref: /microsoft-identity-manager/
-          topicHref: /microsoft-identity-manager
-          items:
-            - name: 참조
-              tocHref: /microsoft-identity-manager/reference/
-              topicHref: /microsoft-identity-manager/reference/microsoft-identity-manager-2016-developer-reference
-            - name: PAM
-              tocHref: /microsoft-identity-manager/pam/
-              topicHref: 'https://docs.microsoft.com/en-us/microsoft-identity-manager/pam/privileged-identity-management-for-active-directory-domain-services'
-        - name: Configuration Manager
-          tocHref: /sccm/
-          topicHref: /sccm
-          items:
-            - name: 핵심 인프라
-              tocHref: /sccm/core/
-              topicHref: /sccm/core/understand/introduction
-            - name: 응용 프로그램 관리
-              tocHref: /sccm/apps/
-              topicHref: /sccm/apps/understand/introduction-to-application-management
-            - name: 장치 정책 준수
-              tocHref: /sccm/compliance/
-              topicHref: /sccm/compliance/understand/ensure-device-compliance
-            - name: 모바일 장치 관리
-              tocHref: /sccm/mdm/
-              topicHref: /sccm/mdm/understand/hybrid-mobile-device-management
-            - name: Microsoft Deployment Toolkit
-              tocHref: /sccm/mdt/
-              topicHref: /sccm/mdt/
-            - name: 운영 체제 배포
-              tocHref: /sccm/osd/
-              topicHref: /sccm/osd/understand/introduction-to-operating-system-deployment
-            - name: 데이터 및 인프라 보호
-              tocHref: /sccm/protect/
-              topicHref: /sccm/protect/understand/protect-data-and-site-infrastructure
-            - name: 소프트웨어 업데이트 관리
-              tocHref: /sccm/sum/
-              topicHref: /sccm/sum/understand/software-updates-introduction
-            - name: 개발
-              tocHref: /sccm/develop/
-              topicHref: /sccm/develop/core/misc/system-center-configuration-manager-sdk
-              items:
-                - name: 참조
-                  tocHref: /sccm/develop/reference
-                  topicHref: /sccm/develop/reference/configuration-manager-reference
+      - name: AD Graph API
+        tocHref: /azure-ad-graph-api/api/
+        topicHref: /azure-ad-graph-api/api/api-catalog
+    - name: Microsoft 365 Enterprise
+      tocHref: /microsoft-365-enterprise/
+      topicHref: /microsoft-365-enterprise
+      items:
+      - name: Microsoft 365 Enterprise
+        tocHref: /microsoft-365-enterprise/
+        topicHref: /microsoft-365-enterprise
+    - name: Intune
+      tocHref: /intune/
+      topicHref: /intune
+      items:
+      - name: 교육에 Intune
+        tocHref: /intune-education/
+        topicHref: /intune-education
+    - name: Intune - 클래식 콘솔
+      tocHref: /intune-classic/
+      topicHref: /intune-classic
+      items:
+      - name: 이해 및 탐색
+        tocHref: /intune-classic/understand-explore/
+        topicHref: /intune-classic/understand-explore/introduction-to-microsoft-intune
+      - name: 계획 및 디자인
+        tocHref: /intune-classic/plan-design/
+        topicHref: /intune-classic/plan-design/introduction
+      - name: 배포 및 사용
+        tocHref: /intune-classic/deploy-use/
+        topicHref: /intune-classic/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune
+      - name: 문제 해결
+        tocHref: /intune-classic/troubleshoot/
+        topicHref: /intune-classic/troubleshoot/general-troubleshooting-tips-for-microsoft-intune
+      - name: 시작
+        tocHref: /intune-classic/get-started/
+        topicHref: /intune-classic/get-started/get-started
+      - name: 앱 개발 및 사용자 지정
+        tocHref: /intune-classic/develop/
+        topicHref: /intune-classic/develop/intune-app-sdk
+      - name: 새로운 기능
+        tocHref: /intune-classic/whats-new/
+        topicHref: /intune-classic/whats-new/whats-new-in-microsoft-intune
+    - name: Microsoft Identity Manager
+      tocHref: /microsoft-identity-manager/
+      topicHref: /microsoft-identity-manager
+      items:
+      - name: 참조
+        tocHref: /microsoft-identity-manager/reference/
+        topicHref: /microsoft-identity-manager/reference/microsoft-identity-manager-2016-developer-reference
+      - name: PAM
+        tocHref: /microsoft-identity-manager/pam/
+        topicHref: https://docs.microsoft.com/en-us/microsoft-identity-manager/pam/privileged-identity-management-for-active-directory-domain-services
+    - name: Configuration Manager
+      tocHref: /sccm/
+      topicHref: /sccm
+      items:
+      - name: 핵심 인프라
+        tocHref: /sccm/core/
+        topicHref: /sccm/core/understand/introduction
+      - name: 응용 프로그램 관리
+        tocHref: /sccm/apps/
+        topicHref: /sccm/apps/understand/introduction-to-application-management
+      - name: 디바이스 정책 준수
+        tocHref: /sccm/compliance/
+        topicHref: /sccm/compliance/understand/ensure-device-compliance
+      - name: 모바일 디바이스 관리
+        tocHref: /sccm/mdm/
+        topicHref: /sccm/mdm/understand/hybrid-mobile-device-management
+      - name: Microsoft Deployment Toolkit
+        tocHref: /sccm/mdt/
+        topicHref: /sccm/mdt/
+      - name: 운영 체제 배포
+        tocHref: /sccm/osd/
+        topicHref: /sccm/osd/understand/introduction-to-operating-system-deployment
+      - name: 데이터 및 인프라 보호
+        tocHref: /sccm/protect/
+        topicHref: /sccm/protect/understand/protect-data-and-site-infrastructure
+      - name: 소프트웨어 업데이트 관리
+        tocHref: /sccm/sum/
+        topicHref: /sccm/sum/understand/software-updates-introduction
+      - name: 개발
+        tocHref: /sccm/develop/
+        topicHref: /sccm/develop/core/misc/system-center-configuration-manager-sdk
+        items:
+        - name: 참조
+          tocHref: /sccm/develop/reference
+          topicHref: /sccm/develop/reference/configuration-manager-reference
+ms.openlocfilehash: 313f3c25d10147fba332fd83377975e13cdb5f6c
+ms.sourcegitcommit: de853c854e59cf8c4203f52ae1f4e61c4734d926
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 08/03/2018
+ms.locfileid: "39506860"
