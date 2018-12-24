@@ -165,7 +165,7 @@ ms.locfileid: "51196796"
 ### <a name="enable-phase---intune"></a>활성화 단계 - Intune
 
 > [!IMPORTANT]
-> FastTrack은 Intune을 사용한 Windows 10 클래식 PC 관리를 지원하지 않습니다. FastTrack은 Intune 모바일 장치 관리(MDM)를 통한 Windows 10 관리만 지원합니다.
+> FastTrack은 Intune을 사용한 Windows 10 클래식 PC 관리를 지원하지 않습니다. FastTrack은 Intune 모바일 디바이스 관리(MDM)를 통한 Windows 10 관리만 지원합니다.
 
 다음에 대한 **지침**을 제공합니다.
 
@@ -173,15 +173,15 @@ ms.locfileid: "51196796"
 
 -   최종 사용자 라이선싱.
 
--   Intune 구독에 사용자 추가, IT 관리자 역할 정의 및 사용자와 장치 그룹 만들기.
+-   Intune 구독에 사용자 추가, IT 관리자 역할 정의 및 사용자와 디바이스 그룹 만들기.
 
--   관리 요구 사항에 따라 다음과 같이 모바일 장치 관리(MDM) 기관 구성.
+-   관리 요구 사항에 따라 다음과 같이 모바일 디바이스 관리(MDM) 기관 구성.
 
     -   Intune을 MDM 기관으로 설정.
 
     -   MDM 관리 정책의 유효성을 검사하는 데 사용할 테스트 그룹 구성.
 
-    -   Intune 관리 포털을 탐색하여 사용자 및 장치에 대한 정보 찾기.
+    -   Intune 관리 포털을 탐색하여 사용자 및 디바이스에 대한 정보 찾기.
 
     -   Intune 역할 설정(예: 지원 센터, 운영자, 관리자 등)
 
@@ -189,7 +189,7 @@ ms.locfileid: "51196796"
 
         -   지원되는 각 플랫폼에 대해 웹 링크, MSI 및/또는 딥 링크를 통한 앱 배포.
 
-        -   Windows 10 장치에 Office ProPlus 배포.
+        -   Windows 10 디바이스에 Office ProPlus 배포.
 
         -   Apple VPP, Windows Store for Business 및 Google Play for Work Store 등 앱 배포를 위한 대량 구매 프로그램.
 
@@ -197,7 +197,7 @@ ms.locfileid: "51196796"
 
         -   해당되는 경우 Microsoft Intune Exchange Connector 설정.
 
-        -   지원되는 장치 플랫폼에 대한 장치 구성 프로파일.
+        -   지원되는 디바이스 플랫폼에 대한 디바이스 구성 프로파일.
 
     -   조건부 액세스 정책 설정.
 
@@ -205,7 +205,7 @@ ms.locfileid: "51196796"
 
     -   사용 가능한 옵션에 대한 지침과 함께 Intune 앱 보호 정책을 위한 LOB(기간 업무) 앱 준비.
 
-    -   각각의 지원되는 각 플랫폼 장치를 Intune 또는 Configuration Manager with Microsoft Intune 서비스에 등록.
+    -   각각의 지원되는 각 플랫폼 디바이스를 Intune 또는 Configuration Manager with Microsoft Intune 서비스에 등록.
 
     -   Intune 데이터 웨어하우스에 연결.
 
@@ -245,7 +245,7 @@ ms.locfileid: "51196796"
 
 -   최종 사용자 라이선싱.
 
--   Intune 구독에 사용자 추가, IT 관리자 역할 정의 및 사용자와 장치 그룹 만들기(Intune이 설치되지 않은 경우).
+-   Intune 구독에 사용자 추가, IT 관리자 역할 정의 및 사용자와 디바이스 그룹 만들기(Intune이 설치되지 않은 경우).
 
 -   MDM 자동 등록을 위한 Azure Active Directory 설정.
 
@@ -253,23 +253,23 @@ ms.locfileid: "51196796"
 
 -   클라우드 관리 게이트웨이 설정.
 
--   Intune 구독에 사용자 추가, IT 관리자 역할 정의 및 사용자와 장치 그룹 만들기.
+-   Intune 구독에 사용자 추가, IT 관리자 역할 정의 및 사용자와 디바이스 그룹 만들기.
 
 -   Intune 준비(Intune이 설치되지 않은 경우):
 
-    -   관리 요구 사항에 따라 다음과 같이 모바일 장치 관리(MDM) 기관 구성.
+    -   관리 요구 사항에 따라 다음과 같이 모바일 디바이스 관리(MDM) 기관 구성.
 
     -   Intune을 MDM 기관으로 설정.
 
     -   MDM 관리 정책의 유효성을 검사하는 데 사용할 테스트 그룹 구성.
 
-    -   Intune 관리 포털을 탐색하여 사용자 및 장치에 대한 정보 찾기.
+    -   Intune 관리 포털을 탐색하여 사용자 및 디바이스에 대한 정보 찾기.
 
     -   Intune 역할 설정(예: 지원 센터, 운영자, 관리자 등)
 
     -   지원되는 각 플랫폼에 대해 Intune 앱 보호 정책 구성 및 배포.
 
-    -   Intune에 Windows 10 장치 등록.
+    -   Intune에 Windows 10 디바이스 등록.
 
 - Configuration Manager 콘솔에서 공동 관리를 사용하도록 설정.
 

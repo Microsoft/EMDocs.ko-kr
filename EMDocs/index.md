@@ -55,7 +55,7 @@ ms.locfileid: "51196630"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Microsoft Intune</h3>
-                                                    <p>클라우드에서 모바일 장치, 앱 및 PC를 관리합니다.</p>
+                                                    <p>클라우드에서 모바일 디바이스, 앱 및 PC를 관리합니다.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -74,7 +74,7 @@ ms.locfileid: "51196630"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>System Center Configuration Manager</h3>
-                                                    <p>온-프레미스 및 클라우드 기반 인프라를 사용하여 PC, 서버 및 iPhone과 Android 장치 같은 모바일 장치 관리 </p>
+                                                    <p>온-프레미스 및 클라우드 기반 인프라를 사용하여 PC, 서버 및 iPhone과 Android 디바이스 같은 모바일 디바이스 관리 </p>
                                                 </div>
                                             </div>
                                         </div>

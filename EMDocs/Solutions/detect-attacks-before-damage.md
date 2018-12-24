@@ -45,7 +45,7 @@ Microsoft Enterprise Mobility + Security를 사용하면 IT에서는 온-프레�
 
 ![위협을 보호, 감지하고, 이에 대응하는 지속적인 프로세스를 보여 주는 그래픽](./media/detect-attacks-before-damage/detect-attacks-before-damage-fig2.png)
 
-IT는 온-프레미스 또는 클라우드에서 ID, 데이터, 응용 프로그램, 장치 및 인프라를 적절하게 보호하는 방법을 확인해야 합니다.  이렇게 하려면 센서부터 데이터 센터에 이르기까지 모든 끝점을 고려하는 보안 방식으로 접근해야 합니다. 과거에는 IT 관리자가 위협을 인식하기 위해 맬웨어 서명에 의존했습니다.
+IT는 온-프레미스 또는 클라우드에서 ID, 데이터, 응용 프로그램, 디바이스 및 인프라를 적절하게 보호하는 방법을 확인해야 합니다.  이렇게 하려면 센서부터 데이터 센터에 이르기까지 모든 끝점을 고려하는 보안 방식으로 접근해야 합니다. 과거에는 IT 관리자가 위협을 인식하기 위해 맬웨어 서명에 의존했습니다.
 
 기존 IT 보안 도구는 사용자 자격 증명을 도난당했을 때 정교한 사이버 보안 공격에 대해 제한된 보호를 제공합니다. 초기 설정부터 규칙 만들기, 미세 조정은 번거로운 작업으로 몇 년이 걸릴 수 있습니다. 여러분은 매일 거짓 긍정으로 가득 찬 보고서를 여러 개 받습니다. 대부분의 경우 이 정보를 검토하는 리소스가 없으며, 있더라도 답변을 받지 못할 수도 있습니다. 이 도구는 경계를 보호하도록 설계되어 공격자가 액세스하지 못하도록 합니다. 오늘날의 복잡한 사이버 보안 공격에는 다른 접근 방법이 필요합니다.
 
@@ -99,7 +99,7 @@ Cloud App Security 대시보드에 액세스하면 경고에 대한 전용 섹�
 
 ![경고 중 하나에 대한 특정 세부 정보 스크린샷.](./media/detect-attacks-before-damage/detect-attacks-before-damage-fig7.png)
 
-앞의 예제는 정책 위반에 대해 살펴보았습니다. Cloud App Security는 또한 [잘못된 부분](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy#anomaly-detection-policy-reference)을 검색할 수도 있습니다. Cloud App Security에는 새 사용자, 활동, 장치 또는 위치에 대해 비정상으로 플래그를 지정하지 않는 7일 간의 초기 학습 기간이 있습니다. 검색하고 나면 각 세션과 이전 달에 감지된 활동(사용자가 활성 상태였던 시기, IP 주소, 장치)이 비교되고 위험 점수가 각 활동에 할당됩니다. 이 경고 유형에 대한 설명을 일반적인 이상 검색이라고 하며, 경고를 클릭하면 다음과 비슷한 화면이 표시됩니다.
+앞의 예제는 정책 위반에 대해 살펴보았습니다. Cloud App Security는 또한 [잘못된 부분](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy#anomaly-detection-policy-reference)을 검색할 수도 있습니다. Cloud App Security에는 새 사용자, 활동, 디바이스 또는 위치에 대해 비정상으로 플래그를 지정하지 않는 7일 간의 초기 학습 기간이 있습니다. 검색하고 나면 각 세션과 이전 달에 감지된 활동(사용자가 활성 상태였던 시기, IP 주소, 디바이스)이 비교되고 위험 점수가 각 활동에 할당됩니다. 이 경고 유형에 대한 설명을 일반적인 이상 검색이라고 하며, 경고를 클릭하면 다음과 비슷한 화면이 표시됩니다.
 
 ![Cloud App Security에서 검색된 잘못된 부분을 보여 주는 스크린샷.](./media/detect-attacks-before-damage/detect-attacks-before-damage-fig8.png)
 

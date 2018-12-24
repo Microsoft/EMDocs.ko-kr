@@ -24,7 +24,7 @@ ms.locfileid: "51196528"
 Microsoft는 10여년 동안 클라우드 기반 ID의 보안을 유지해 왔으며, Azure Active Directory를 통해 이러한 보호 시스템을 엔터프라이즈 고객에게 제공함으로써 향상된 보안과 관리 기능으로 사용자와 관리자의 책임을 유지하도록 지원하고 있습니다.
 
 ## <a name="how-can-enterprise-mobility--security-help-you"></a>Enterprise Mobility + Security는 어떤 이점이 있나요?
-EMS(Enterprise Mobility + Security)는 ID, 장치, 앱, 데이터 등의 4단계 보호 기능으로 장치뿐 아니라 그 이상에서 기업 데이터를 기본적으로 보호하는 유일한 포괄적인 클라우드 솔루션입니다. EMS는 모바일 우선, 클라우드 우선 세계의 핵심 과제 중 하나인, 사전에 ID를 보호하도록 지원하고 조직의 보안 위협에 대응할 수 있는 포괄적인 보안 도구 집합을 제공하는 방법을 해결하도록 도와줍니다.
+EMS(Enterprise Mobility + Security)는 ID, 디바이스, 앱, 데이터 등의 4단계 보호 기능으로 디바이스뿐 아니라 그 이상에서 기업 데이터를 기본적으로 보호하는 유일한 포괄적인 클라우드 솔루션입니다. EMS는 모바일 우선, 클라우드 우선 세계의 핵심 과제 중 하나인, 사전에 ID를 보호하도록 지원하고 조직의 보안 위협에 대응할 수 있는 포괄적인 보안 도구 집합을 제공하는 방법을 해결하도록 도와줍니다.
 - 리소스에 대한 액세스 제어
 - 사용자 인증 보호
 - 위험 기반 정책 및 모니터링을 사용하여 고급 위협 대응
@@ -33,10 +33,10 @@ EMS(Enterprise Mobility + Security)는 ID, 장치, 앱, 데이터 등의 4단계
 
 Azure Active Directory ID 보호는 독보적입니다. 기계 학습을 사용하여 매일 10TB 이상의 동작 및 상황별 데이터를 분석함으로써 의심스러운 활동에 대한 가시성을 제공하고 필요한 경우 즉각적인 조치를 취할 수 있도록 해줍니다.
 
-또한 Azure AD 조건부 액세스 규칙을 통해 고객은 장치 준수 또는 네트워크 위치와 같은 특성에 따라 온라인 서비스에 대한 액세스를 제어할 수 있습니다. 다음과 같이 구별할 수 있습니다.
+또한 Azure AD 조건부 액세스 규칙을 통해 고객은 디바이스 준수 또는 네트워크 위치와 같은 특성에 따라 온라인 서비스에 대한 액세스를 제어할 수 있습니다. 다음과 같이 구별할 수 있습니다.
 - Azure AD MFA 기반 조건부 액세스
 - Azure AD 위치 기반 조건부 액세스
-- Azure AD 장치 기반 조건부 액세스
+- Azure AD 디바이스 기반 조건부 액세스
 
 
 ## <a name="recommended-solution"></a>권장 솔루션
@@ -51,14 +51,14 @@ ID 도난 사고가 증가하고, 악의적 사용자가 지속되며, 보안 �
 
 Azure AD ID 보호 대시보드에서는 위험, 위험 이벤트 및 취약성에 대한 플래그가 지정된 사용자와 같은 보고서에 액세스할 수 있습니다. 또한 보안 정책, 알림 및 다단계 인증 등록 구성과 같은 설정을 제공합니다.
 ### <a name="azure-ad-conditional-access"></a>Azure AD 조건부 액세스
-클라우드 서비스로의 전환 및 지속적인 이동성 요구 증가로 인해 조직에서는 사용자 생산성 및 장치 유연성을 개선하는 동시에 데이터를 보호하는 솔루션을 찾고 있습니다. 고객은 네트워크 위치 또는 MFA 적용과 같은 다양한 특성을 기반으로 Office 365에 대한 액세스를 제어할 수 있는 기능을 필요로 합니다. 이는 정부 또는 금융 고객과 같은 규제 대상 고객에게 특히 중요합니다.
+클라우드 서비스로의 전환 및 지속적인 이동성 요구 증가로 인해 조직에서는 사용자 생산성 및 디바이스 유연성을 개선하는 동시에 데이터를 보호하는 솔루션을 찾고 있습니다. 고객은 네트워크 위치 또는 MFA 적용과 같은 다양한 특성을 기반으로 Office 365에 대한 액세스를 제어할 수 있는 기능을 필요로 합니다. 이는 정부 또는 금융 고객과 같은 규제 대상 고객에게 특히 중요합니다.
 
-네트워크 경계에서 데이터를 보호하는 것으로는 더 이상 충분하지 않으므로 조직에서는 장치 준수와 같은 다른 요소를 기반으로 사용자 액세스를 제어할 수 있는 기능도 요구하고 있습니다.
+네트워크 경계에서 데이터를 보호하는 것으로는 더 이상 충분하지 않으므로 조직에서는 디바이스 준수와 같은 다른 요소를 기반으로 사용자 액세스를 제어할 수 있는 기능도 요구하고 있습니다.
 
-Azure AD는 조건부 액세스 규칙은 응용 프로그램별로 적용되며, 고객이 다양한 조건에 따라 액세스를 제어하는 데 사용할 수 있습니다. Office 365 또는 Intune용 MDM(모바일 장치 관리)을 사용할 경우 고객은 회사 장치를 사용하는 사용자 또는 관리를 위해 개인 장치를 등록한 사용자로만 Office 365 액세스를 제한할 수 있습니다.
+Azure AD는 조건부 액세스 규칙은 응용 프로그램별로 적용되며, 고객이 다양한 조건에 따라 액세스를 제어하는 데 사용할 수 있습니다. Office 365 또는 Intune용 MDM(모바일 디바이스 관리)을 사용할 경우 고객은 회사 디바이스를 사용하는 사용자 또는 관리를 위해 개인 디바이스를 등록한 사용자로만 Office 365 액세스를 제한할 수 있습니다.
 
 예를 들어 고객은 다음과 같은 제어를 적용하도록 조건부 액세스 규칙을 구성할 수 있습니다.
-- 도메인에 가입되거나 정책을 준수하는 장치의 액세스만 허용
+- 도메인에 가입되거나 정책을 준수하는 디바이스의 액세스만 허용
 - Exchange Online 서비스에 대한 모든 액세스에 MFA 적용
 - 회사 네트워크 외부 고객의 경우 SharePoint Online 액세스 방지
 
@@ -102,7 +102,7 @@ Microsoft는 이 분야에 계속 투자하고 있으며, 지속적으로 기존
 자세한 내용은 [Azure AD ID 보호](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection/) 및 이 [엔터프라이즈 이동성 및 보안 블로그 게시물](https://blogs.technet.microsoft.com/enterprisemobility/2016/09/07/azuread-identity-protection-azure-ad-privileged-identity-management-and-azure-ad-premium-p2-will-be-generally-available-sept-15th/)에서 확인할 수 있습니다.
 
 ### <a name="azure-ad-conditional-access"></a>Azure AD 조건부 액세스
-아래 링크는 MFA(다단계 인증), 위치 및 장치 정책에 따라 Azure AD 조건부 액세스를 사용하기 위한 정보를 제공합니다.
+아래 링크는 MFA(다단계 인증), 위치 및 디바이스 정책에 따라 Azure AD 조건부 액세스를 사용하기 위한 정보를 제공합니다.
 - [Azure AD 조건부 액세스를 구현하는 방법](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access/)에 대해 알아봅니다.
 - [MFA 및 위치 정책](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-azuread-connected-apps/)에 대해 알아봅니다.
 - [장치 기반 정책](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-policy-connected-applications/)에 대해 알아봅니다.

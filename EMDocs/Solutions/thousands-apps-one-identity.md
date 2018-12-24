@@ -23,10 +23,10 @@ ms.locfileid: "51196670"
 # <a name="thousands-of-apps-one-identity"></a>수천 개의 응용 프로그램, 하나의 ID
 Azure AD(Azure Active Directory)는 클라우드 리소스와 온-프레미스 리소스 모두에 액세스하는 SaaS(Software as a Service) 응용 프로그램 사용자에게 공통 ID를 제공하여 사용자의 생산성을 개선합니다.
 
-Azure AD는 Box, Twitter, ServiceNow, DocuSign, Workday 등 오늘날 널리 사용되는 대부분의 SaaS 응용 프로그램과 통합됩니다. 안전하고 신뢰할 수 있는 방식으로 모든 장치에서 SSO(Single Sign-On) 인증, ID 및 보안 응용 프로그램 액세스 관리를 지원합니다.
+Azure AD는 Box, Twitter, ServiceNow, DocuSign, Workday 등 오늘날 널리 사용되는 대부분의 SaaS 응용 프로그램과 통합됩니다. 안전하고 신뢰할 수 있는 방식으로 모든 디바이스에서 SSO(Single Sign-On) 인증, ID 및 보안 응용 프로그램 액세스 관리를 지원합니다.
 
 ## <a name="how-can-enterprise-mobility--security-help-you"></a>Enterprise Mobility + Security는 어떤 이점이 있나요?
-EMS(Enterprise Mobility + Security)는 ID, 장치, 앱, 데이터 등의 4단계 보호 기능으로 장치뿐 아니라 그 이상에서 기업 데이터를 기본적으로 보호하는 유일한 포괄적인 클라우드 솔루션입니다. EMS는 모바일 우선, 클라우드 우선 세계의 핵심 과제 중 하나인, 업계의 모든 웹 기반 응용 프로그램에 걸쳐 작동하는 단일 ID 제공 문제를 해결하도록 도와줍니다.
+EMS(Enterprise Mobility + Security)는 ID, 디바이스, 앱, 데이터 등의 4단계 보호 기능으로 디바이스뿐 아니라 그 이상에서 기업 데이터를 기본적으로 보호하는 유일한 포괄적인 클라우드 솔루션입니다. EMS는 모바일 우선, 클라우드 우선 세계의 핵심 과제 중 하나인, 업계의 모든 웹 기반 응용 프로그램에 걸쳐 작동하는 단일 ID 제공 문제를 해결하도록 도와줍니다.
 - 클라우드에 연결된 원활한 인증 환경
 - 1000개의 사전 통합 응용 프로그램 또는 사용자 고유 응용 프로그램에 대한 Single Sign-On
 - 온-프레미스 응용 프로그램에 대한 보안 원격 액세스

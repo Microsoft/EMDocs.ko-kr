@@ -62,7 +62,7 @@ Microsoft 파트너는 고객을 대신하여 [FastTrack 사이트](https://go.m
 
 ## <a name="assess-phase"></a>평가 단계
 
-등록 프로세스가 시작되면 FastTrack 팀은 사용자와 협업하여 원본 환경 및 요구 사항을 평가합니다. 환경을 평가하기 위한 도구가 실행되고 FastTrack 팀은 사용자가 온-프레미스 Active Directory, 인터넷 브라우저, 클라이언트 장치의 운영 체제, DNS(Domain Name System), 네트워크, 인프라 및 ID 시스템을 평가하여 등록을 위해 변경해야 하는 내용이 있는지 확인하는 과정을 안내합니다.
+등록 프로세스가 시작되면 FastTrack 팀은 사용자와 협업하여 원본 환경 및 요구 사항을 평가합니다. 환경을 평가하기 위한 도구가 실행되고 FastTrack 팀은 사용자가 온-프레미스 Active Directory, 인터넷 브라우저, 클라이언트 디바이스의 운영 체제, DNS(Domain Name System), 네트워크, 인프라 및 ID 시스템을 평가하여 등록을 위해 변경해야 하는 내용이 있는지 확인하는 과정을 안내합니다.
 
 또한 FastTrack Center는 적격 서비스의 성공적인 도입에 도움이 되는 방법에 대한 지침에 사용자를 연결합니다.
 
@@ -127,17 +127,17 @@ Azure AD Premium 설치에는 다음과 같은 기능을 사용하도록 설정�
 
 ### <a name="enable-phase---intune"></a>활성화 단계 - Intune
 
-Intune의 경우 Microsoft는 Microsoft Intune을 사용하여 장치를 관리할 수 있도록 준비하는 과정을 안내합니다. 정확한 단계는 원본 환경에 따라 다르며 모바일 장치 및 모바일 앱 관리 요구를 기반으로 합니다. 단계에는 다음이 포함될 수 있습니다.
+Intune의 경우 Microsoft는 Microsoft Intune을 사용하여 디바이스를 관리할 수 있도록 준비하는 과정을 안내합니다. 정확한 단계는 원본 환경에 따라 다르며 모바일 디바이스 및 모바일 앱 관리 요구를 기반으로 합니다. 단계에는 다음이 포함될 수 있습니다.
 
 -   최종 사용자 라이선싱. 필요한 경우 Microsoft 클라우드 서비스 테넌트에 대한 볼륨 라이선스를 활성화하는 방법의 지원도 제공합니다.
 
 -   온-프레미스 Active Directory 또는 클라우드 ID를 활용하여 Microsoft Intune에서 사용할 ID 구성.
 
--   Intune 구독에 사용자 추가, IT 관리자 역할 정의 및 사용자와 장치 그룹 만들기.
+-   Intune 구독에 사용자 추가, IT 관리자 역할 정의 및 사용자와 디바이스 그룹 만들기.
 
--   관리 요구 사항에 따라 다음과 같이 모바일 장치 관리(MDM) 기관 구성.
+-   관리 요구 사항에 따라 다음과 같이 모바일 디바이스 관리(MDM) 기관 구성.
 
-    -   Intune이 유일한 MDM 솔루션이거나 Office 365용 모바일 장치 관리와 함께 사용되는 경우 Intune을 MDM 기관으로 설정합니다.
+    -   Intune이 유일한 MDM 솔루션이거나 Office 365용 모바일 디바이스 관리와 함께 사용되는 경우 Intune을 MDM 기관으로 설정합니다.
 
 -   다음에 대한 MDM 지침을 제공합니다.
 
@@ -183,7 +183,7 @@ Intune의 경우 Microsoft는 Microsoft Intune을 사용하여 장치를 관리�
     -   Intune에서 사용할 수 있는 소프트웨어 및 하드웨어 보고서 사용.
 
     > [!IMPORTANT]
-    > FastTrack은 Intune을 사용한 Windows 10 클래식 PC 관리를 지원하지 않습니다. FastTrack은 Intune 모바일 장치 관리(MDM)를 통한 Windows 10 장치 관리만 지원합니다.
+    > FastTrack은 Intune을 사용한 Windows 10 클래식 PC 관리를 지원하지 않습니다. FastTrack은 Intune 모바일 디바이스 관리(MDM)를 통한 Windows 10 디바이스 관리만 지원합니다.
 
 #### <a name="windows-autopilot"></a>Windows Autopilot
 
@@ -232,7 +232,7 @@ Intune에서 iOS 및 Android용 Outlook Mobile을 안전하게 배포하는 단�
 
 #### <a name="co-management"></a>공동 관리
 
-FastTrack은 Configuration Manager와 Intune을 둘 다 사용하여 Windows 10 장치를 동시에 관리할 수 있도록 준비하는 과정을 안내합니다. 정확한 단계는 원본 환경에 따라 다르며 다음 작업이 포함될 수 있습니다.
+FastTrack은 Configuration Manager와 Intune을 둘 다 사용하여 Windows 10 디바이스를 동시에 관리할 수 있도록 준비하는 과정을 안내합니다. 정확한 단계는 원본 환경에 따라 다르며 다음 작업이 포함될 수 있습니다.
 
 - 공동 관리의 이점 설명.
 
@@ -240,7 +240,7 @@ FastTrack은 Configuration Manager와 Intune을 둘 다 사용하여 Windows 10 
 
 - 온-프레미스 Active Directory 및/또는 클라우드 ID를 활용하여 Intune에서 사용할 ID 구성.
 
-- Intune 구독에 사용자 추가, IT 관리자 역할 정의 및 사용자와 장치 그룹 만들기.
+- Intune 구독에 사용자 추가, IT 관리자 역할 정의 및 사용자와 디바이스 그룹 만들기.
 
 - System Center Configuration Manager(하이브리드)와 통합된 Intune에서 Intune 독립 실행형으로 이동하는 방법에 대한 지침 제공.
 
@@ -254,7 +254,7 @@ FastTrack은 Configuration Manager와 Intune을 둘 다 사용하여 Windows 10 
 
 - Intune으로 전환할 지원되는 워크로드 구성.
 
-- Intune에 등록된 장치에 구성 관리자 클라이언트 설치.
+- Intune에 등록된 디바이스에 구성 관리자 클라이언트 설치.
 
 - 환경에서 공동 관리 활동을 모니터링하는 방법에 대한 지침 제공.
 
