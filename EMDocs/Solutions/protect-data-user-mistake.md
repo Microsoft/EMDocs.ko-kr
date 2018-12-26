@@ -27,7 +27,7 @@ ms.locfileid: "51196698"
 
 ## <a name="how-can-enterprise-mobility--security-help-you"></a>Enterprise Mobility + Security는 어떤 이점이 있나요?
 
-EMS(Enterprise Mobility + Security)를 통해 IT 부서는 온-프레미스와 클라우드에서 사용자, 디바이스 및 데이터 작업에 대한 보다 심도 깊은 가시성을 얻을 수 있습니다.  EMS를 사용하면 보다 강력한 제어 및 적용을 통해 사용자 실수로부터 회사 데이터를 보호할 수 있습니다.  IT 부서에서는 사용자, 업로드/다운로드 트래픽, 사용 패턴 및 검색된 응용 프로그램의 트랜잭션에 대한 강력한 보고 및 분석을 사용하여 위험 감지를 모니터링할 수 있습니다.
+EMS(Enterprise Mobility + Security)를 통해 IT 부서는 온-프레미스와 클라우드에서 사용자, 디바이스 및 데이터 작업에 대한 보다 심도 깊은 가시성을 얻을 수 있습니다.  EMS를 사용하면 보다 강력한 제어 및 적용을 통해 사용자 실수로부터 회사 데이터를 보호할 수 있습니다.  IT 부서에서는 사용자, 업로드/다운로드 트래픽, 사용 패턴 및 검색된 애플리케이션의 트랜잭션에 대한 강력한 보고 및 분석을 사용하여 위험 감지를 모니터링할 수 있습니다.
 
 ## <a name="recommended-solution"></a>권장 솔루션
 
@@ -58,7 +58,7 @@ EMS(Enterprise Mobility + Security)를 통해 IT 부서는 온-프레미스와 �
 
 ## <a name="how-to-protect-data-against-user-mistakes"></a>사용자 실수로부터 데이터를 보호하는 방법
 
-오늘날 대부분의 기업에서 클라우드 응용 프로그램을 사용하므로 조만간 온-프레미스보다 클라우드에 저장되는 회사 데이터가 더 많아질 것입니다. 대부분의 경우 사용자는 회사의 동의 없이 또는 회사에서 모르게 자신의 디바이스에서 SaaS 응용 프로그램을 사용할 것이므로 이로 인해 클라우드의 섀도 IT 사용이 증가할 것입니다. 이러한 결론은 직원의 80%가 승인되지 않은 SaaS 응용 프로그램을 업무에 사용하고 있음을 보여 주는 조사에 따른 것입니다. [Cloud App Security](https://technet.microsoft.com/library/mt657567.aspx)는 조직에서 사용 중인 모든 클라우드 응용 프로그램에 대한 자세한 개요를 제공합니다. 응용 프로그램에 액세스하는 모든 사용자와 IP 주소를 식별하며, 13,000개 이상의 클라우드 응용 프로그램에 대한 위험 평가를 수행하고, 60개가 넘는 매개 변수에 따라 각 응용 프로그램에 대한 자동화된 위험 점수를 제공합니다. 
+오늘날 대부분의 기업에서 클라우드 애플리케이션을 사용하므로 조만간 온-프레미스보다 클라우드에 저장되는 회사 데이터가 더 많아질 것입니다. 대부분의 경우 사용자는 회사의 동의 없이 또는 회사에서 모르게 자신의 디바이스에서 SaaS 응용 프로그램을 사용할 것이므로 이로 인해 클라우드의 섀도 IT 사용이 증가할 것입니다. 이러한 결론은 직원의 80%가 승인되지 않은 SaaS 응용 프로그램을 업무에 사용하고 있음을 보여 주는 조사에 따른 것입니다. [Cloud App Security](https://technet.microsoft.com/library/mt657567.aspx)는 조직에서 사용 중인 모든 클라우드 응용 프로그램에 대한 자세한 개요를 제공합니다. 애플리케이션에 액세스하는 모든 사용자와 IP 주소를 식별하며, 13,000개 이상의 클라우드 응용 프로그램에 대한 위험 평가를 수행하고, 60개가 넘는 매개 변수에 따라 각 응용 프로그램에 대한 자동화된 위험 점수를 제공합니다. 
 
 1단계에 따라 사용자 환경에서 클라우드 응용 프로그램을 검색하고 이러한 응용 프로그램을 제어하는 정책을 구현합니다. 이 솔루션의 두 번째 단계에서는 데이터를 보호하고 분류하여 사용자의 실수와 데이터의 잘못된 사용을 완화하기 위해 [Azure Information Protection](https://docs.microsoft.com/information-protection/get-started/requirements)을 구현합니다.
 
@@ -76,7 +76,7 @@ Cloud App Security를 사용하기 위한 첫 번째 단계는 [응용 프로그
 
 !["HTTP 보안 헤더" 특성에 대한 세부 정보를 보여 주는 스크린샷](./media/protect-data-user-mistake/protect-data-user-mistake-fig4.png)
 
-다음 단계는 검색된 응용 프로그램의 동작을 정책을 사용하여 제어하는 것입니다. 이 기능을 통해 IT 부서에서는 검색된 응용 프로그램 및 조직의 관련 위험 수준을 미세 조정할 수 있습니다. 여러 유형의 정책이 있습니다. 만들어야 하는 정책은 조직의 비즈니스 요구 사항에 따라 다릅니다. 기본적으로 변칙 검색 정책이 사용하도록 설정되어 있으므로 새 정책을 구성하지 않아도 됩니다. 그러나 기본 정책에서 경고를 생성할 변칙 유형을 미세 조정할 수 있습니다.
+다음 단계는 검색된 애플리케이션의 동작을 정책을 사용하여 제어하는 것입니다. 이 기능을 통해 IT 부서에서는 검색된 애플리케이션 및 조직의 관련 위험 수준을 미세 조정할 수 있습니다. 여러 유형의 정책이 있습니다. 만들어야 하는 정책은 조직의 비즈니스 요구 사항에 따라 다릅니다. 기본적으로 변칙 검색 정책이 사용하도록 설정되어 있으므로 새 정책을 구성하지 않아도 됩니다. 그러나 기본 정책에서 경고를 생성할 변칙 유형을 미세 조정할 수 있습니다.
 
 ![만들 정책 유형을 선택하는 방법을 보여 주는 스크린샷](./media/protect-data-user-mistake/protect-data-user-mistake-fig5.png)
 
@@ -111,7 +111,7 @@ Azure Information Protection은 사용자 지정 가능한 기본 레이블과 �
 
 레이블을 사용하는 방식(기본 또는 사용자 지정)을 정의한 후에는 [Rights Management 보호를 적용하도록 레이블을 구성](/azure/information-protection/configure-policy-protection#to-configure-a-label-to-apply-rights-management-protection)합니다.
 
-Azure Information Protection을 사용하면 데이터 분류 및 보호 컨트롤이 Office 및 기타 일반 응용 프로그램에 통합됩니다. 이 통합에서는 사용자가 작업하는 데이터를 보호하기 위한 간단한 원클릭 옵션을 제공합니다. Azure Portal에서 관리자는 "신용 카드 번호" 또는 "주민등록번호"와 같은 미리 정의된 패턴을 자동 분류 조건으로 적용할 수 있습니다. 또는 텍스트 패턴 및 정규식을 사용하여 사용자 지정 문자열이나 패턴을 정의할 수 있습니다.
+Azure Information Protection을 사용하면 데이터 분류 및 보호 컨트롤이 Office 및 기타 일반 애플리케이션에 통합됩니다. 이 통합에서는 사용자가 작업하는 데이터를 보호하기 위한 간단한 원클릭 옵션을 제공합니다. Azure Portal에서 관리자는 "신용 카드 번호" 또는 "주민등록번호"와 같은 미리 정의된 패턴을 자동 분류 조건으로 적용할 수 있습니다. 또는 텍스트 패턴 및 정규식을 사용하여 사용자 지정 문자열이나 패턴을 정의할 수 있습니다.
 
 레이블에 대한 조건을 구성할 때 문서/메일에 자동으로 레이블을 할당하거나 사용자에게 권장하는 레이블을 선택하라는 메시지를 표시할 수 있습니다. 이 구성을 수행하는 방법에 대한 자세한 내용은 [Azure Information Protection에 대한 자동 및 권장 분류 조건을 구성하는 방법](https://docs.microsoft.com/rights-management/information-protection/configure-policy-classification)
 
@@ -120,4 +120,4 @@ Azure Information Protection을 사용하면 데이터 분류 및 보호 컨트�
 
 ## <a name="next-steps"></a>다음 단계
 
-Microsoft Cloud App Security는 클라우드 응용 프로그램에서 작업 및 데이터를 검색하고 모니터링하며 제어하고 보호하기 위한 전체적인 솔루션을 제공합니다. Cloud App Security로 IT 관리자는 Azure Information Protection을 사용하여 Cloud App Security 콘솔에서 직접 암호화할 수 있습니다. Azure Information Protection과의 통합을 통해, 필요 시 SharePoint Online 및 비즈니스용 OneDrive에 저장된 파일에 대한 일반 보호를 적용할 수 있습니다. Cloud App Security 및 Azure Information Protection 간의 통합에 대한 자세한 내용은 [Azure Information Protection 통합](https://docs.microsoft.com/cloud-app-security/azip-integration)을 읽어보세요.
+Microsoft Cloud App Security는 클라우드 애플리케이션에서 작업 및 데이터를 검색하고 모니터링하며 제어하고 보호하기 위한 전체적인 솔루션을 제공합니다. Cloud App Security로 IT 관리자는 Azure Information Protection을 사용하여 Cloud App Security 콘솔에서 직접 암호화할 수 있습니다. Azure Information Protection과의 통합을 통해, 필요 시 SharePoint Online 및 비즈니스용 OneDrive에 저장된 파일에 대한 일반 보호를 적용할 수 있습니다. Cloud App Security 및 Azure Information Protection 간의 통합에 대한 자세한 내용은 [Azure Information Protection 통합](https://docs.microsoft.com/cloud-app-security/azip-integration)을 읽어보세요.

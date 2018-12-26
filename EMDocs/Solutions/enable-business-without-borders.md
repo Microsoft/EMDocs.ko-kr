@@ -28,7 +28,7 @@ ID는 있으면 좋은 것이 아니라 효율적인 작업의 핵심입니다. 
 ## <a name="how-can-enterprise-mobility--security-help-you"></a>Enterprise Mobility + Security는 어떤 이점이 있나요?
 EMS(Enterprise Mobility + Security)는 ID, 디바이스, 앱, 데이터 등의 4단계 보호 기능으로 디바이스뿐 아니라 그 이상에서 기업 데이터를 기본적으로 보호하는 유일한 포괄적인 클라우드 솔루션입니다. EMS는 모바일 우선, 클라우드 우선 세계의 핵심 과제 중 하나인, 클라우드 및 온-프레미스 자산에 걸쳐 작동하고 사용자의 생산성을 유지하는 단일 ID를 제공할 수 있는 방법을 해결하도록 도와줍니다.
 
-### <a name="access-to-single-sign-on-applications"></a>Single Sign-On 응용 프로그램 액세스
+### <a name="access-to-single-sign-on-applications"></a>Single Sign-On 애플리케이션 액세스
 ID 페더레이션과 Single Sign-On을 사용하는 경우 사용자는 단일 로그인 자격 증명 및 암호 집합을 사용할 수 있으므로 IT 부서에서 사용자 ID를 보다 효율적으로 관리할 수 있습니다.
 ### <a name="multi-factor-authentication"></a>Multi-factor Authentication
 또한 사용자가 새 디바이스를 회사로 가져올 수 있으며, 이 경우 IT 부서에서는 네트워크에 연결된 디바이스가 적절한 자격 증명을 가진 개인이 소유하고 제어하는지에 대한 유효성을 검사할 수 있습니다. MFA(다단계 인증)는 보호 계층을 제공하는 데 도움이 됩니다.
@@ -39,9 +39,9 @@ ID 페더레이션과 Single Sign-On을 사용하는 경우 사용자는 단일 
 
 ## <a name="recommended-solution"></a>권장 솔루션
 [Azure Active Directory B2B 공동 작업](https://azure.microsoft.com/documentation/articles/active-directory-b2b-what-is-azure-ad-b2b/)은 조직이 기존 도구에 대한 기존 투자를 바탕으로 안전하고 생산적인 방식으로 어디에서든 필요한 모든 것에 액세스할 수 있도록 하는 권장 솔루션입니다.
-- 파트너 조직 및 공동 작업자에게 조직의 데이터 및 응용 프로그램에 대한 액세스를 제공하는 IT 전문가
+- 파트너 조직 및 공동 작업자에게 조직의 데이터 및 애플리케이션에 대한 액세스를 제공하는 IT 전문가
 - 조직을 "대신"하거나 조직의 담당자 또는 직원 역할을 하는 파트너 사용자
-- 액세스 검토, 전자 메일 확인, 허용 목록, 거부 목록 등이 호스트 응용 프로그램 및 리소스에 대한 액세스를 관리합니다.
+- 액세스 검토, 전자 메일 확인, 허용 목록, 거부 목록 등이 호스트 애플리케이션 및 리소스에 대한 액세스를 관리합니다.
 - 파트너 사용자는 검색 가능하며 정책에 따라 자신의 조직에서 다른 사용자를 볼 수 있습니다.
 
 ### <a name="how-azure-ad-b2b-collaboration-works"></a>Azure AD B2B 공동 작업의 작동 원리
@@ -51,7 +51,7 @@ Azure AD B2B 공동 작업은 협력할 파트너의 메일 주소와 사용할 
 1. 관리자가 Azure 포털에 로그인하여 파트너의 사용자 정보가 포함된 CSV 파일을 가져와 파트너 사용자를 초대합니다.
 2. Azure 포털에서 파트너에게 전자 메일을 보냅니다.
 3. 파트너가 Azure 포털에서 자신이 받은 전자 메일의 링크를 클릭합니다. 파트너 사용자가 이미 Azure AD에 있는 경우 회사 자격 증명을 입력하라는 메시지가 나타나지만, 그렇지 않은 경우에는 Azure AD B2B 공동 작업 사용자로 등록해야 합니다.
-4. 파트너 사용자가 공동 작업을 위해 초대된 응용 프로그램으로 자동으로 리디렉션됩니다.
+4. 파트너 사용자가 공동 작업을 위해 초대된 애플리케이션으로 자동으로 리디렉션됩니다.
 
 ![Azure AD B2B를 통해 파트너 사용자가 공동 작업을 위해 초대되는 프로세스를 보여 주는 그래픽](./media/enable-business-without-borders/enable-business-without-borders-fig1.png)
 

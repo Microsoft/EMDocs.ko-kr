@@ -73,7 +73,7 @@ items:
       - name: 핵심 인프라
         tocHref: /sccm/core/
         topicHref: /sccm/core/understand/introduction
-      - name: 응용 프로그램 관리
+      - name: 애플리케이션 관리
         tocHref: /sccm/apps/
         topicHref: /sccm/apps/understand/introduction-to-application-management
       - name: 디바이스 정책 준수

@@ -47,7 +47,7 @@ Azure Active Directory Premium Government 서비스는 실제로 미국에 있�
 
 ## <a name="azure-active-directory-premium-government-and-third-party-services"></a>Azure Active Directory Premium Government 및 타사 서비스
 
-다양한 Azure Active Directory Premium 서비스는 타사 응용 프로그램 및 서비스와 원활하게 작동하는 기능을 제공합니다. 이러한 타사 응용 프로그램 및 서비스에는 Azure Active Directory Premium 인프라 외부에 있기 때문에 당사의 준수 사항 및 데이터 보호 약정이 적용되지 않는 타사 시스템에 조직의 고객 콘텐츠를 저장, 전송 및 처리하는 작업이 포함될 수 있습니다. 조직에 이러한 서비스를 사용하는 것이 적절한지 평가하는 경우에는 타사가 제공하는 개인 정보 보호 및 규정 준수 문서를 검토하는 것이 좋습니다.
+다양한 Azure Active Directory Premium 서비스는 타사 애플리케이션 및 서비스와 원활하게 작동하는 기능을 제공합니다. 이러한 타사 애플리케이션 및 서비스에는 Azure Active Directory Premium 인프라 외부에 있기 때문에 당사의 준수 사항 및 데이터 보호 약정이 적용되지 않는 타사 시스템에 조직의 고객 콘텐츠를 저장, 전송 및 처리하는 작업이 포함될 수 있습니다. 조직에 이러한 서비스를 사용하는 것이 적절한지 평가하는 경우에는 타사가 제공하는 개인 정보 보호 및 규정 준수 문서를 검토하는 것이 좋습니다.
 
 ## <a name="azure-active-directory-premium-government-offers-and-office-365-interoperability"></a>Azure Active Directory Premium Government 제품 및 Office 365 상호 운용성
 

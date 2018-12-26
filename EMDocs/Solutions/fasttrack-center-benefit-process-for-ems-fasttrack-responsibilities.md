@@ -152,7 +152,7 @@ ms.locfileid: "51196796"
 
   - 셀프 서비스 및 동적 그룹.
 
-  - Azure Active Directory 응용 프로그램 프록시
+  - Azure Active Directory 애플리케이션 프록시
 
   - Azure AD Connect Health.
 

@@ -1,5 +1,5 @@
 ---
-title: 다중 ID를 지원하는 응용 프로그램을 사용하는 방법
+title: 다중 ID를 지원하는 애플리케이션을 사용하는 방법
 description: 다중 ID를 지원하는 앱을 사용하는 방법
 keywords: ''
 author: dougeby

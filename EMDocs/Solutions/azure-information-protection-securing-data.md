@@ -52,7 +52,7 @@ ms.locfileid: "51196715"
 
 IT 관리자가 디바이스 또는 ID를 제어하지 상황에서는, IT에서 보호된 정보에 발생하는 일을 제어할 수 없습니다. 사용자가 보호된 정보를 인증하고 열면 더 이상 IT 관리자가 제어할 정보가 아니게 됩니다. 이때 IT 관리자는 콘텐츠에 배치된 정책을 따르는 받는 사람을 신뢰하고 있습니다.
 
-보호된 콘텐츠에 액세스하는 권한이 있는 악의적인 외부 받는 사람을 완전히 막을 수는 없습니다. Azure Information Protection은 윤리적 경계를 설정하고 지원 응용 프로그램을 사용하여 사용자가 문서에 액세스하는 방법에 대해 정직하게 하는 데 도움이 됩니다. Azure Information Protection은 ID를 기반으로 제공된, 정의된 액세스 경계 내에 암시적 신뢰가 있는 경우 유용합니다.
+보호된 콘텐츠에 액세스하는 권한이 있는 악의적인 외부 받는 사람을 완전히 막을 수는 없습니다. Azure Information Protection은 윤리적 경계를 설정하고 지원 애플리케이션을 사용하여 사용자가 문서에 액세스하는 방법에 대해 정직하게 하는 데 도움이 됩니다. Azure Information Protection은 ID를 기반으로 제공된, 정의된 액세스 경계 내에 암시적 신뢰가 있는 경우 유용합니다.
 
 그러나 이후 액세스를 검색하고 완화하기는 더 간단합니다. Azure Information Protection 서비스의 문서 추적 기능은 액세스를 추적할 수 있으며 조직은 특정 문서에 대한 액세스 권한을 해지하거나 사용자의 액세스 권한을 해지하여 행동을 취할 수 있습니다.
 
@@ -80,7 +80,7 @@ Azure Information Protection 보호 기능의 기본 사항은 보호된 콘텐�
 
 ![악성 프로그램](./media/azure-information-protection-securing-data/aip-securing-data-fig3.png)
 
-여기서 의도는 사용자 ID의 보안을 향상하는 것이며, 이렇게 하면 Rogue 응용 프로그램이 사용자의 ID를 하이재킹하는 기능을 완화하는 데 도움이 됩니다. Azure Active Directory는 사용자 ID의 보안을 유지하는 데 도움이 될 수 있는 몇 가지 솔루션을 제공합니다(예: 2단계 인증 사용). 또한 Azure Activity Directory ID 보호의 일부로 제공되며 사용자 ID의 보안을 유지하기 위해 탐색해야 하는 다른 기능도 있습니다.
+여기서 의도는 사용자 ID의 보안을 향상하는 것이며, 이렇게 하면 Rogue 애플리케이션이 사용자의 ID를 하이재킹하는 기능을 완화하는 데 도움이 됩니다. Azure Active Directory는 사용자 ID의 보안을 유지하는 데 도움이 될 수 있는 몇 가지 솔루션을 제공합니다(예: 2단계 인증 사용). 또한 Azure Activity Directory ID 보호의 일부로 제공되며 사용자 ID의 보안을 유지하기 위해 탐색해야 하는 다른 기능도 있습니다.
 
 ID 보안 유지는 Azure Information Protection의 범위를 벗어나며 관리자 책임 영역에 속합니다.
 
@@ -93,16 +93,16 @@ ID 보안 유지는 Azure Information Protection의 범위를 벗어나며 관�
 
 ![악의적인 사용자](./media/azure-information-protection-securing-data/aip-securing-data-fig4.png)
 
-Azure Information Protection은 응용 프로그램이 문서와 연결된 권한을 적용하는 일을 담당하는 클라이언트 디바이스에 있게 하도록 설계되었습니다. 어쨌든 현재 보호된 콘텐츠의 보안에서 가장 약한 링크는 콘텐츠가 최종 사용자에게 일반 텍스트로 표시되는 클라이언트 디바이스에 있습니다. Microsoft Office와 같은 클라이언트 응용 프로그램은 권한을 올바르게 적용하므로 악의적인 사용자가 이러한 응용 프로그램을 사용하여 권한을 에스컬레이션할 수 없습니다. 그러나 동기가 부여된 공격자는 Azure Information Protection SDK를 사용하여 권한을 적용하지 않는 응용 프로그램을 만들 수 있으며 이는 *악성 프로그램*의 본질입니다.
+Azure Information Protection은 응용 프로그램이 문서와 연결된 권한을 적용하는 일을 담당하는 클라이언트 디바이스에 있게 하도록 설계되었습니다. 어쨌든 현재 보호된 콘텐츠의 보안에서 가장 약한 링크는 콘텐츠가 최종 사용자에게 일반 텍스트로 표시되는 클라이언트 디바이스에 있습니다. Microsoft Office와 같은 클라이언트 애플리케이션은 권한을 올바르게 적용하므로 악의적인 사용자가 이러한 애플리케이션을 사용하여 권한을 에스컬레이션할 수 없습니다. 그러나 동기가 부여된 공격자는 Azure Information Protection SDK를 사용하여 권한을 적용하지 않는 애플리케이션을 만들 수 있으며 이는 *악성 프로그램*의 본질입니다.
 
 이 시나리오의 초점은 Rogue 응용 프로그램이 사용될 수 없도록 클라이언트 디바이스 및 응용 프로그램의 보안을 유지하는 데 있습니다. IT 관리자가 따를 수 있는 몇 가지 단계는 다음과 같습니다.
 
 - [Windows AppLocker](https://technet.microsoft.com/library/dd759117(v=ws.11).aspx)를 사용하여 사용자 동의 없이 설치된 프로그램이 실행될 수 없도록 합니다.
 - [Intune](https://docs.microsoft.com/intune/) 및 [System Center Configuration Manager](https://docs.microsoft.com/sccm/)를 사용하여 장치를 '정상 상태'로 유지합니다.
 - 디바이스의 바이러스 백신이 최신 상태인지 확인합니다.
-- 인증 및 [SSO](https://azure.microsoft.com/resources/videos/overview-of-single-sign-on/)에 [Microsoft Identity Brokers](https://technet.microsoft.com/library/ms166045(v=sql.105).aspx)를 지원하는 응용 프로그램을 사용합니다.
+- 인증 및 [SSO](https://azure.microsoft.com/resources/videos/overview-of-single-sign-on/)에 [Microsoft Identity Brokers](https://technet.microsoft.com/library/ms166045(v=sql.105).aspx)를 지원하는 애플리케이션을 사용합니다.
 
-이 시나리오의 요점은 클라이언트 컴퓨터 및 응용 프로그램의 보안 유지가 Azure Information Protection을 뒷받침하는 신뢰의 중요한 부분이라는 점입니다.
+이 시나리오의 요점은 클라이언트 컴퓨터 및 애플리케이션의 보안 유지가 Azure Information Protection을 뒷받침하는 신뢰의 중요한 부분이라는 점입니다.
 
 ## <a name="summary"></a>요약
 

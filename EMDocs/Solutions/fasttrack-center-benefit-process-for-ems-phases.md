@@ -88,7 +88,7 @@ Microsoft는 사용자의 현재 설정을 기준으로 하여 EMS 또는 개별
 
 ![온보딩 활성화 단계 - 핵심 기능](./media/ft-enable-phase-core-02.png)
 > [!NOTE]
-> WAP는 웹 응용 프로그램 프록시를 나타냅니다. SSL은 Secure Sockets Layer의 약어입니다. SDS는 학교 데이터 동기화를 나타냅니다. SDS에 대한 자세한 내용은 [Welcome to Microsoft School Data Sync](https://go.microsoft.com/fwlink/?linkid=871480)(Microsoft 학교 데이터 동기화 시작)를 참조하세요.
+> WAP는 웹 애플리케이션 프록시를 나타냅니다. SSL은 Secure Sockets Layer의 약어입니다. SDS는 학교 데이터 동기화를 나타냅니다. SDS에 대한 자세한 내용은 [Welcome to Microsoft School Data Sync](https://go.microsoft.com/fwlink/?linkid=871480)(Microsoft 학교 데이터 동기화 시작)를 참조하세요.
 
 > [!NOTE]
 > 관리되는 인증 방법이 포함되지만 암호 해시 동기화로 제한되지 않습니다. ID 통합은 활동 시간이며 관리 또는 페더레이션과 같은 기존 인증 방법의 마이그레이션 또는 서비스 해제를 포함하지 않습니다.
@@ -113,7 +113,7 @@ Azure AD Premium 설치에는 다음과 같은 기능을 사용하도록 설정�
 
 -   셀프 서비스 및 동적 그룹.
 
--   Azure Active Directory 응용 프로그램 프록시
+-   Azure Active Directory 애플리케이션 프록시
 
 -   Azure Active Directory Connect Health
 
@@ -145,7 +145,7 @@ Intune의 경우 Microsoft는 Microsoft Intune을 사용하여 디바이스를 �
 
     -   다음과 같은 MDM 관리 정책 및 서비스 구성:
 
-        -   지원되는 각 플랫폼에 대해 웹 링크 또는 딥 링크를 통한 응용 프로그램 배포.
+        -   지원되는 각 플랫폼에 대해 웹 링크 또는 딥 링크를 통한 애플리케이션 배포.
 
         -   조건부 액세스 정책.
 

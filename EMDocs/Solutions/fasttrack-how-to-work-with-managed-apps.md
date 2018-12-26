@@ -1,5 +1,5 @@
 ---
-title: 조직에서 관리하는 모바일 응용 프로그램을 사용하는 방법
+title: 조직에서 관리하는 모바일 애플리케이션을 사용하는 방법
 description: 조직에서 관리하는 모바일 앱을 사용하는 방법
 keywords: ''
 author: dougeby
@@ -23,7 +23,7 @@ ms.locfileid: "51196511"
 
 ## <a name="accessing-onedrive-on-an-ios-device"></a>iOS 디바이스에서 OneDrive 액세스
 
-이 섹션에서는 비즈니스용 OneDrive를 예제로 사용하여 사용자 환경이 Intune에서 관리하는 응용 프로그램에서 어떻게 약간 변경될 수 있는지를 보여 줍니다.
+이 섹션에서는 비즈니스용 OneDrive를 예제로 사용하여 사용자 환경이 Intune에서 관리하는 애플리케이션에서 어떻게 약간 변경될 수 있는지를 보여 줍니다.
 
 1. **비즈니스용 OneDrive** 앱을 시작하여 로그인 페이지를 엽니다.
 
@@ -51,7 +51,7 @@ ms.locfileid: "51196511"
 
 ## <a name="accessing-onedrive-on-an-android-device"></a>Android 디바이스의 OneDrive 액세스
 
-이 섹션에서는 비즈니스용 OneDrive를 예제로 사용하여 사용자 환경이 Intune에서 관리하는 응용 프로그램에서 어떻게 약간 변경될 수 있는지를 보여 줍니다.
+이 섹션에서는 비즈니스용 OneDrive를 예제로 사용하여 사용자 환경이 Intune에서 관리하는 애플리케이션에서 어떻게 약간 변경될 수 있는지를 보여 줍니다.
 1. **비즈니스용 OneDrive** 앱을 시작하여 로그인 페이지를 엽니다.
    > [!NOTE]
    > 개인 디바이스에서는 일반적으로 최종 사용자가 앱을 다운로드합니다. 디바이스가 MDM 솔루션에서 관리되는 경우 디바이스에 앱을 배포할 수 있습니다.

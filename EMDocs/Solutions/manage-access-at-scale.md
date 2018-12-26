@@ -42,8 +42,8 @@ Azure AD는 동적 그룹 구성원 자격 규칙 및 앱 관리 기능을 활�
 
 ![Azure AD Connect가 Windows Server Active Directory와 Azure Active Directory 간에 사용자 및 그룹을 동기화하는 방식을 보여 주는 그래픽](./media/manage-access-at-scale/manage-access-at-scale-fig1.png)
 
-### <a name="application-management"></a>응용 프로그램 관리
-매일 사용하는 각 앱에 대한 암호를 기억하고 싶은 사용자는 얼마나 될까요? [Single Sign-On](https://azure.microsoft.com/documentation/articles/active-directory-appssoaccess-whatis/)이 일반적인 문제를 해결합니다. 단일 사용자 계정 및 암호를 사용하여 여러 SaaS 응용 프로그램에 로그인할 수 있습니다. Single Sign-On을 조직 내의 모든 응용 프로그램에 자동으로 프로비전할 수 있습니다. 이 기능은 Office 365와 같은 Microsoft 클라우드 앱과 Salesforce, ServiceNow, Workday 같은 타사 앱에 사용할 수 있습니다.
+### <a name="application-management"></a>애플리케이션 관리
+매일 사용하는 각 앱에 대한 암호를 기억하고 싶은 사용자는 얼마나 될까요? [Single Sign-On](https://azure.microsoft.com/documentation/articles/active-directory-appssoaccess-whatis/)이 일반적인 문제를 해결합니다. 단일 사용자 계정 및 암호를 사용하여 여러 SaaS 애플리케이션에 로그인할 수 있습니다. Single Sign-On을 조직 내의 모든 애플리케이션에 자동으로 프로비전할 수 있습니다. 이 기능은 Office 365와 같은 Microsoft 클라우드 앱과 Salesforce, ServiceNow, Workday 같은 타사 앱에 사용할 수 있습니다.
 
 Single Sign-On에 대한 자세한 정보는 다음과 같습니다.
 
@@ -85,10 +85,10 @@ Azure AD 상태에 대한 자세한 내용은 다음과 같습니다.
 4.  마케팅 그룹이 자동으로 해당 사용자로 채워지면 그룹 기반의 선택적 라이선스를 사용할 수 있습니다. 이러한 종류의 라이선스는 Azure AD Premium 또는 Office 365 Enterprise E5와 같은 특정 라이선스 그룹에 사용자를 추가 하는 기능을 제공합니다.
     이 예제에서 해당 라이선스는 사용자가 작업 수행에 필요한 모든 Office 365 앱 액세스 권한과 기타 자동화된 작업을 수행하기 위한 Azure AD Premium 액세스 권한을 제공합니다.
 
-직원이 퇴사할 경우에 HR 시스템에서 제거할 수 있습니다. 그러면 모든 응용 프로그램 및 이전에 프로비전된 리소스에서 자동으로 액세스가 제거됩니다. 직원이 단지 다른 부서를 이동해야 하는 경우 해당 사용자가 마케팅 팀에서 제거된 후 새 부서의 동적 그룹으로 추가되었을 때 동적 그룹 구성원 자격 규칙이 마케팅 앱에서 액세스 권한을 자동으로 제거하고 다른 부서 앱에 대한 액세스 권한을 추가합니다.
+직원이 퇴사할 경우에 HR 시스템에서 제거할 수 있습니다. 그러면 모든 애플리케이션 및 이전에 프로비전된 리소스에서 자동으로 액세스가 제거됩니다. 직원이 단지 다른 부서를 이동해야 하는 경우 해당 사용자가 마케팅 팀에서 제거된 후 새 부서의 동적 그룹으로 추가되었을 때 동적 그룹 구성원 자격 규칙이 마케팅 앱에서 액세스 권한을 자동으로 제거하고 다른 부서 앱에 대한 액세스 권한을 추가합니다.
 
-## <a name="how-to-manage-cloud-and-on-premises-applications"></a>클라우드 및 온-프레미스 응용 프로그램을 관리하는 방법
-Azure AD를 사용하여 Microsoft 및 타사 SaaS 응용 프로그램을 추가, 배포 및 관리하는 단계는 다음과 같습니다.
+## <a name="how-to-manage-cloud-and-on-premises-applications"></a>클라우드 및 온-프레미스 애플리케이션을 관리하는 방법
+Azure AD를 사용하여 Microsoft 및 타사 SaaS 애플리케이션을 추가, 배포 및 관리하는 단계는 다음과 같습니다.
 - [Azure AD를 앱에 통합](https://azure.microsoft.com/documentation/articles/active-directory-integrating-applications-getting-started/)에 대한 자세한 정보
 - [SaaS 앱에 대해 Single Sign-On 사용](https://azure.microsoft.com/documentation/articles/active-directory-sso-integrate-saas-apps/)에 대한 자세한 정보
 - [앱에 대한 액세스 관리](https://azure.microsoft.com/documentation/articles/active-directory-managing-access-to-apps/)에 대한 자세한 정보
