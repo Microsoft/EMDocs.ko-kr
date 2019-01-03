@@ -5,19 +5,19 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 10/26/2018
+ms.date: 12/4/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: dc86c1a3cba21476c6f5275dfd589bdb5443466a
-ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
+ms.openlocfilehash: feca059e7d1241476be7ab16efb61da063c7d546
+ms.sourcegitcommit: b64e0087de6771f1f6ede4718025ea3a7e78f8c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51196796"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53320047"
 ---
 # <a name="fasttrack-responsibilities"></a>FastTrack 책임
 
@@ -77,7 +77,7 @@ ms.locfileid: "51196796"
         > [!NOTE]
         > 사용자 지정 규칙 확장의 개발 및 구현은 범위에 속하지 않습니다.
 
--   대상이 페더레이션 ID인 경우 단일 포리스트: 필요한 경우 단일 사이트 내결함성 구성에서 Intune을 사용한 로컬 도메인 인증을 위해 AD FS(Active Directory Federation Services)설치 및 구성.
+-   대상이 페더레이션 ID인 경우 단일 포리스트: 필요한 경우 단일 사이트 내결함성 구성에서 Intune을 사용한 로컬 도메인 인증을 위해 AD FS(Active Directory Federation Services) 설치 및 구성.
 
     > [!NOTE]
     > 모든 다중 포리스트 구성의 경우, AD FS 배포는 범위에 속하지 않습니다.
@@ -140,11 +140,11 @@ ms.locfileid: "51196796"
 
 - Azure AD Connect 디렉터리 동기화(비밀번호 쓰기 저장 및 암호 해시 동기화).
 
-  - SSPR(셀프 서비스 암호 재설정)
+  - Azure Active Directory SSPR(셀프 서비스 암호 재설정)
 
   - Azure Multi-Factor Authentication.
 
-  - [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/)에서 최대 3개 이상의 SaaS(Software as a Service) 응용 프로그램과 SSO 통합
+  - [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/)에서 최대 3개 이상의 SaaS(Software as a Service) 애플리케이션과 SSO(Single Sign On) 통합
 
   - [앱 통합 자습서 목록](https://docs.microsoft.com/en-us/azure/active-directory/saas-apps/tutorial-list)에 나열된 대로 사전 통합된 SaaS 애플리케이션에 대한 자동 사용자 프로비전(아웃바운드 프로비전으로만 제한됨)
 
@@ -154,13 +154,17 @@ ms.locfileid: "51196796"
 
   - Azure Active Directory 애플리케이션 프록시
 
-  - Azure AD Connect Health.
+  - Azure Active Directory Connect Health
 
-  - ID 보호
+  - Azure Active Directory 조건부 액세스
 
-  - Privileged Identity Management
+  - Azure Active Directory 사용 약관
 
-  - Azure Active Directory 조건부 액세스(필요한 경우 사용 약관 포함)
+  - Azure Active Directory Identity Protection
+
+  - Azure Active Directory Privileged Identity Management
+
+  - Azure Active Directory Access Reviews
 
 ### <a name="enable-phase---intune"></a>활성화 단계 - Intune
 

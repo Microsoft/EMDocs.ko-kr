@@ -5,19 +5,19 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 11/15/2018
+ms.date: 12/4/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: d773ab3e7c4f9c7c31f86ee8b8fa54a926c5af56
-ms.sourcegitcommit: 06c39d619052a609c250b8b3978d9061841a6ff2
+ms.openlocfilehash: c9e909cbd37c217e99c7687354a9d3a132cb3867
+ms.sourcegitcommit: b64e0087de6771f1f6ede4718025ea3a7e78f8c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "51859195"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53320030"
 ---
 # <a name="onboarding-phases"></a>온보딩 단계
 
@@ -101,11 +101,11 @@ Azure AD Premium 환경은 필요에 따라 Azure Active Directory Connect 도�
 
 Azure AD Premium 설치에는 다음과 같은 기능을 사용하도록 설정하는 것이 포함됩니다.
 
--   SSPR(셀프 서비스 암호 재설정)
+-   Azure Active Directory SSPR(셀프 서비스 암호 재설정)
 
 -   Azure MFA(Azure Multi-Factor Authentication)
 
--   [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/)에서 최대 3개 이상의 SaaS(Software as a Service) 응용 프로그램과 SSO(Single Sign On) 통합
+-   [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/)에서 최대 3개 이상의 SaaS(Software as a Service) 애플리케이션과 SSO(Single Sign On) 통합
 
 -   [앱 통합 자습서 목록](https://docs.microsoft.com/en-us/azure/active-directory/saas-apps/tutorial-list)에 나열된 대로 사전 통합된 SaaS 애플리케이션에 대한 자동 사용자 프로비전(아웃바운드 프로비전으로만 제한됨)
 
@@ -117,11 +117,15 @@ Azure AD Premium 설치에는 다음과 같은 기능을 사용하도록 설정�
 
 -   Azure Active Directory Connect Health
 
--   ID 보호
+-   Azure Active Directory 조건부 액세스
 
--   Privileged Identity Management
+-   Azure Active Directory 사용 약관
 
--   Azure Active Directory 조건부 액세스(필요한 경우 사용 약관 포함)
+-   Azure Active Directory Identity Protection
+
+-   Azure Active Directory Privileged Identity Management
+
+-   Azure Active Directory Access Reviews
 
 ![등록 활성화 단계 - Azure AD Premium](./media/ft-enable-phase_aad-premium_adconnect_adfed.png)
 
