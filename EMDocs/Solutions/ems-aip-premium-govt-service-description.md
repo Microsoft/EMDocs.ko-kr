@@ -9,18 +9,18 @@ ms.date: 09/19/2018
 ms.topic: article
 ms.prod: ''
 ms.service: ems
-ms.openlocfilehash: fa8de2836a7009257fb5547bce42f120b24ff0d1
-ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
+ms.openlocfilehash: c1bf752038b28c14c4289ab0c7767e11e088485c
+ms.sourcegitcommit: d681b14a4d9d24ba26ba3191bca0f46b039f9395
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51197127"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54153302"
 ---
 # <a name="azure-information-protection-premium-government-service-description"></a>Azure Information Protection Premium Government 서비스 설명 
 
 ## <a name="how-to-use-this-service-description"></a>서비스 설명을 사용하는 방법 
 
-Azure Information Protection Premium Government 서비스 설명은 당사 제품에 대한 개요를 제공하며, (1) 이 제품에 포함된 서비스와 기능, (2) Government 제품과 기존 상업용 제품의 차이점 및 (3) 현재 규정 준수 약정이 포함되어 있습니다. 이 문서에는 고유한 약정 및 Azure Information Protection Premium 상업용 제품 대비 차이점이 정의되어 있습니다. 
+Azure Information Protection Premium Government 서비스 설명은 당사 제품에 대한 개요를 제공하며, 다음을 다룹니다. (1) 이 제품에 포함된 서비스 및 기능, (2) Government 제품과 기존 상업용 제품 사이의 차이점, (3) 현재 규정 준수 약정. 이 문서에는 고유한 약정 및 Azure Information Protection Premium 상업용 제품 대비 차이점이 정의되어 있습니다. 
 
 ## <a name="about-azure-information-protection-premium-government-environments"></a>Azure Information Protection Premium Government 환경 정보 
 
@@ -71,8 +71,36 @@ Azure Information Protection Premium GCC High 제품을 통해 정부 고객에�
 
 * AD RMS(Active Directory Rights Management Services)에서 Azure Information Protection으로의 마이그레이션은 지원되지 않습니다. 
 
-* iOS 및 Android에서 Azure Information Protection 뷰어 앱이 지원되지 않습니다. 
-
 * 보호된 문서 및 메일을 상용 클라우드 사용자와 공유할 수 없습니다. 여기에는 상용 클라우드의 Office 365 사용자, 상용 클라우드의 비 Office 365 사용자 및 개인용 RMS 라이선스를 가진 사용자가 포함됩니다. 
 
 * 정보 권한 관리는 SharePoint Online에서 지원되지 않습니다. IRM으로 보호된 사이트 및 라이브러리를 사용할 수 없습니다. 
+
+## <a name="configuring-azure-information-protection-for-gcc-high-customers"></a>GCC High 고객에 대한 Azure Information Protection 구성
+
+### <a name="dns-configuration-for-encryption"></a>암호화에 대한 DNS 구성
+암호화가 제대로 작동하려면 Office 클라이언트 애플리케이션이 서비스의 GCC High 인스턴스로 연결된 다음 부트스트랩되어야 합니다. 클라이언트 애플리케이션을 올바른 서비스 인스턴스로 리디렉션하려면 테넌트 관리자가 Azure RMS URL에 관한 정보를 사용하여 DNS SRV 레코드를 구성해야 합니다. DNS SRV 레코드가 없는 경우 클라이언트 애플리케이션은 기본적으로 공용 클라우드 인스턴스에 연결을 시도하고, 이는 실패합니다.
+
+또한 사용자가 onmicrosoft 사용자 이름(예: joe@contoso.onmicrosoft.us)이 아닌 테넌트 소유 도메인 기반 사용자 이름(예: joe@contoso.us)을 사용하여 로그인하는 것으로 가정합니다. 사용자 이름으로부터 도메인 이름은 올바른 서비스 인스턴스에 대한 DNS 리디렉션에 사용됩니다.
+
+* Rights Management 서비스 ID 획득 
+  * 관리자 권한으로 PowerShell 시작 
+  * AADRM 모듈이 설치되지 않은 경우 `Install-Module aadrm` 실행 
+  * `Connect-aadrmservice -environmentname azureusgovernment` 사용을 통해 서비스 연결
+  * `$(Get-aadrmconfiguration).RightsManagementServiceId` 실행을 통해 Rights Management 서비스 ID 획득
+* DNS 공급자에 로그인하고 도메인에 대한 DNS 설정으로 이동 
+  * Service = `_rmsredir` 
+  * Protocol = `_http` 
+  * Name = `_tcp` 
+  * Target = `[GUID].rms.aadrm.us`(여기서 GUID는 Rights Management 서비스 ID) 
+  * Port = `80` 
+  * Priority, Weight, Seconds, TTL = 기본값 
+* [Azure Portal](https://portal.azure.us/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Domains)에 있는 테넌트와 사용자 지정 도메인을 연결합니다. 이를 통해 DNS에 항목이 추가되고, 이는 DNS 설정에서 값을 추가한 이후 몇 분 뒤에 확인됩니다.  
+* 해당 전역 관리자 자격 증명을 사용하여 Office 관리 센터에 로그인하고 사용자 생성을 위한 도메인(예: contoso.us)을 추가합니다. 확인 프로세스에서 일부 DNS 변경이 필요할 수 있습니다. 확인이 완료되면 사용자가 생성될 수 있습니다.
+
+### <a name="aip-apps-configuration"></a>AIP 앱 구성
+Windows의 AIP 앱은 특수 레지스트리 키를 GCC High에 대한 올바른 서비스 인스턴스로 가리켜야 합니다.  
+
+| 레지스트리 키 | HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSIP\WebServiceUrl |
+| --- | --- |
+| 값 | https://api.informationprotection.azure.us |
+| 유형 | 문자열 |
