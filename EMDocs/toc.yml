@@ -28,7 +28,7 @@ items:
       tocHref: /intune/
       topicHref: /intune
       items:
-      - name: 교육에 Intune
+      - name: 교육용 Intune
         tocHref: /intune-education/
         topicHref: /intune-education
     - name: Intune - 클래식 콘솔
@@ -94,6 +94,9 @@ items:
       - name: 소프트웨어 업데이트 관리
         tocHref: /sccm/sum/
         topicHref: /sccm/sum/understand/software-updates-introduction
+      - name: 공동 관리
+        tocHref: /sccm/comanage/
+        topicHref: /sccm/comanage/overview
       - name: 개발
         tocHref: /sccm/develop/
         topicHref: /sccm/develop/core/misc/system-center-configuration-manager-sdk
@@ -101,9 +104,9 @@ items:
         - name: 참조
           tocHref: /sccm/develop/reference
           topicHref: /sccm/develop/reference/configuration-manager-reference
-ms.openlocfilehash: 313f3c25d10147fba332fd83377975e13cdb5f6c
-ms.sourcegitcommit: de853c854e59cf8c4203f52ae1f4e61c4734d926
+ms.openlocfilehash: a13c520cdb64eac74c1d978dfb757c59d2ba08ef
+ms.sourcegitcommit: f2caca0c28bd0215f96930e6d61fb97e9fdbc0c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2018
-ms.locfileid: "39506860"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54316987"
