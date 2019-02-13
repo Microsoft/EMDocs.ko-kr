@@ -3,7 +3,7 @@ title: 데이터 보안 유지에서 Azure Information Protection의 역할 | Mi
 description: 이 문서에서는 조직의 데이터 보안 유지에서 Azure Information Protection의 역할을 설명합니다.
 author: yuridio
 ms.author: yurid
-manager: mbaldwin
+manager: barbkess
 ms.date: 05/18/2017
 ms.topic: solution
 ms.prod: ''
@@ -11,12 +11,12 @@ ms.service: rights-management
 ms.assetid: 2f906e2e-3d99-40e6-b5cc-8d903fcda444
 ms.reviewer: v-craic
 ms.suite: ems
-ms.openlocfilehash: 9b4c2fff65b717fcc1b1c37ee8da724f94ceb7f6
-ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
+ms.openlocfilehash: 6ecceaf3da70adedb84c585ca38f6377d1d01351
+ms.sourcegitcommit: cf934b76e62ec78eca48b50e7ea00ee614c0b05e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51196715"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56079580"
 ---
 # <a name="the-role-of-azure-information-protection-in-securing-data"></a>데이터 보안 유지에서 Azure Information Protection의 역할
 
@@ -93,12 +93,12 @@ ID 보안 유지는 Azure Information Protection의 범위를 벗어나며 관�
 
 ![악의적인 사용자](./media/azure-information-protection-securing-data/aip-securing-data-fig4.png)
 
-Azure Information Protection은 응용 프로그램이 문서와 연결된 권한을 적용하는 일을 담당하는 클라이언트 디바이스에 있게 하도록 설계되었습니다. 어쨌든 현재 보호된 콘텐츠의 보안에서 가장 약한 링크는 콘텐츠가 최종 사용자에게 일반 텍스트로 표시되는 클라이언트 디바이스에 있습니다. Microsoft Office와 같은 클라이언트 애플리케이션은 권한을 올바르게 적용하므로 악의적인 사용자가 이러한 애플리케이션을 사용하여 권한을 에스컬레이션할 수 없습니다. 그러나 동기가 부여된 공격자는 Azure Information Protection SDK를 사용하여 권한을 적용하지 않는 애플리케이션을 만들 수 있으며 이는 *악성 프로그램*의 본질입니다.
+Azure Information Protection은 애플리케이션이 문서와 연결된 권한을 적용하는 일을 담당하는 클라이언트 장치에 있게 하도록 설계되었습니다. 어쨌든 현재 보호된 콘텐츠의 보안에서 가장 약한 링크는 콘텐츠가 최종 사용자에게 일반 텍스트로 표시되는 클라이언트 디바이스에 있습니다. Microsoft Office와 같은 클라이언트 애플리케이션은 권한을 올바르게 적용하므로 악의적인 사용자가 이러한 애플리케이션을 사용하여 권한을 에스컬레이션할 수 없습니다. 그러나 동기가 부여된 공격자는 Azure Information Protection SDK를 사용하여 권한을 적용하지 않는 애플리케이션을 만들 수 있으며 이는 *악성 프로그램*의 본질입니다.
 
-이 시나리오의 초점은 Rogue 응용 프로그램이 사용될 수 없도록 클라이언트 디바이스 및 응용 프로그램의 보안을 유지하는 데 있습니다. IT 관리자가 따를 수 있는 몇 가지 단계는 다음과 같습니다.
+이 시나리오의 초점은 Rogue 애플리케이션이 사용될 수 없도록 클라이언트 장치 및 애플리케이션의 보안을 유지하는 데 있습니다. IT 관리자가 따를 수 있는 몇 가지 단계는 다음과 같습니다.
 
 - [Windows AppLocker](https://technet.microsoft.com/library/dd759117(v=ws.11).aspx)를 사용하여 사용자 동의 없이 설치된 프로그램이 실행될 수 없도록 합니다.
-- [Intune](https://docs.microsoft.com/intune/) 및 [System Center Configuration Manager](https://docs.microsoft.com/sccm/)를 사용하여 장치를 '정상 상태'로 유지합니다.
+- [Intune](https://docs.microsoft.com/intune/) 및 [System Center Configuration Manager](https://docs.microsoft.com/sccm/)를 사용하여 디바이스를 '정상 상태'로 유지합니다.
 - 디바이스의 바이러스 백신이 최신 상태인지 확인합니다.
 - 인증 및 [SSO](https://azure.microsoft.com/resources/videos/overview-of-single-sign-on/)에 [Microsoft Identity Brokers](https://technet.microsoft.com/library/ms166045(v=sql.105).aspx)를 지원하는 애플리케이션을 사용합니다.
 
@@ -109,7 +109,7 @@ Azure Information Protection은 응용 프로그램이 문서와 연결된 권�
 완벽한 보안은 한 가지 기술로 구현되는 것이 아닙니다. IT 관리자는 다양한 상호 종속적 방법을 통해 실제 환경에서 보호된 콘텐츠의 공격에 대한 취약성을 줄일 수 있습니다.
 
 - **Azure Information Protection**: 콘텐츠에 대한 무단 액세스를 방지함
-- **Microsoft Intune, System Center Configuration Manager 및 기타 장치 관리 제품**: 악성 앱이 없는 관리되고 제어되는 환경을 가능하게 함
+- **Microsoft Intune, System Center Configuration Manager 및 기타 디바이스 관리 제품**: 악성 앱이 없는 관리되고 제어되는 환경을 가능하게 함
 - **Windows AppLocker**: 악성 앱이 없는 관리되고 제어되는 환경을 가능하게 함
 - **Azure AD ID 보호**: 사용자 ID의 신뢰를 향상함
-- **EMS 조건부 액세스**: 장치 및 ID의 신뢰를 향상함
+- **EMS 조건부 액세스**: 디바이스 및 ID의 신뢰를 향상함

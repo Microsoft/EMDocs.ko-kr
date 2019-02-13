@@ -3,7 +3,7 @@ title: 사용자 실수로부터 데이터 보호 | Microsoft 문서
 description: Enterprise Mobility + Security를 통해 Cloud App Security 및 Azure Information Protection 기능을 활용하여 사용자 실수로부터 회사 데이터를 보호하고 데이터 손실을 방지할 수 있는 방법을 설명하는 시나리오입니다.
 author: yuridio
 ms.author: yurid
-manager: mbaldwin
+manager: barbkess
 ms.date: 09/18/2018
 ms.topic: conceptual
 ms.prod: ''
@@ -12,12 +12,12 @@ ms.assetid: 0af3894c-7b0e-4c0c-8874-31e041d81300
 ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: information-protection
-ms.openlocfilehash: 5b1e5d113546da0df64e7777c0031543a7096a72
-ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
+ms.openlocfilehash: 13226496cb31c88a600551acc5295bc111e79d35
+ms.sourcegitcommit: cf934b76e62ec78eca48b50e7ea00ee614c0b05e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51196698"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56079512"
 ---
 # <a name="protect-data-against-user-mistakes"></a>사용자 실수로부터 데이터 보호
 
@@ -53,7 +53,7 @@ EMS(Enterprise Mobility + Security)를 통해 IT 부서는 온-프레미스와 �
 
 다음 단계에 따라 [Cloud App Security](https://technet.microsoft.com/library/mt668458.aspx) 및 [Azure Information Protection](https://docs.microsoft.com/information-protection/understand-explore/what-is-information-protection)을 구현할 수 있습니다.
 
-- 1단계: 사용 중인 클라우드 응용 프로그램 검색 및 정책을 통한 제어
+- 1단계: 사용 중인 클라우드 애플리케이션 검색 및 정책을 통한 제어
 - 2단계: 온-프레미스 및 클라우드에서 데이터 보호
 
 ## <a name="how-to-protect-data-against-user-mistakes"></a>사용자 실수로부터 데이터를 보호하는 방법
@@ -62,7 +62,7 @@ EMS(Enterprise Mobility + Security)를 통해 IT 부서는 온-프레미스와 �
 
 1단계에 따라 사용자 환경에서 클라우드 응용 프로그램을 검색하고 이러한 응용 프로그램을 제어하는 정책을 구현합니다. 이 솔루션의 두 번째 단계에서는 데이터를 보호하고 분류하여 사용자의 실수와 데이터의 잘못된 사용을 완화하기 위해 [Azure Information Protection](https://docs.microsoft.com/information-protection/get-started/requirements)을 구현합니다.
 
-### <a name="step-1-discover-cloud-apps-in-use-and-control-them-with-policy"></a>1단계: 사용 중인 클라우드 응용 프로그램 검색 및 정책을 통한 제어
+### <a name="step-1-discover-cloud-apps-in-use-and-control-them-with-policy"></a>1단계: 사용 중인 클라우드 애플리케이션 검색 및 정책을 통한 제어
 
 Cloud App Security를 사용하기 위한 첫 번째 단계는 [응용 프로그램을 검색](https://technet.microsoft.com/library/mt657567.aspx)하는 것입니다. 이 단계를 건너뛰면 분석하고 정책을 사용하여 제한할 응용 프로그램이 없게 됩니다. 검색 프로세스를 시작하지 않은 경우 Cloud App Security 대시보드의 검색 옵션에 다음과 같은 메시지가 표시됩니다.
 
@@ -72,7 +72,7 @@ Cloud App Security를 사용하기 위한 첫 번째 단계는 [응용 프로그
 
 ![Cloud Discovery 대시보드와 검색된 응용 프로그램 목록을 보여 주는 스크린샷](./media/protect-data-user-mistake/protect-data-user-mistake-fig3.png)
 
-각 응용 프로그램에는 클라우드 응용 프로그램의 신뢰도와 안정성을 나타내는 점수가 있습니다. 응용 프로그램의 순위에 액세스하면 이 순위를 생성하는 데 사용된 세 가지 범주(일반, 보안 및 규정 준수)가 표시됩니다. 각 범주에는 검색 프로세스 중에 테스트된 특정 특성이 있습니다. 하나의 특성이 완전히 준수되지 않은 경우 부분으로 표시되며, 해당 특성의 세부 정보에 액세스하여 부분으로 표시된 이유를 파악할 수 있습니다.
+각 응용 프로그램에는 클라우드 응용 프로그램의 신뢰도와 안정성을 나타내는 점수가 있습니다. 애플리케이션의 순위에 액세스하면 이 순위를 생성하는 데 사용되는 세 가지 범주(일반, 보안 및 규정 준수)가 표시됩니다. 각 범주에는 검색 프로세스 중에 테스트된 특정 특성이 있습니다. 하나의 특성이 완전히 준수되지 않은 경우 부분으로 표시되며, 해당 특성의 세부 정보에 액세스하여 부분으로 표시된 이유를 파악할 수 있습니다.
 
 !["HTTP 보안 헤더" 특성에 대한 세부 정보를 보여 주는 스크린샷](./media/protect-data-user-mistake/protect-data-user-mistake-fig4.png)
 
