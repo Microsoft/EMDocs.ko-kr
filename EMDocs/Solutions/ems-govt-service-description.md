@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: ''
 ms.service: ems
 ms.suite: ems
-ms.openlocfilehash: a216d866b9b2c92e1a194f2b98c54c749711c8c9
-ms.sourcegitcommit: 69d31ae137b60683cd2f92aef59e049d65bebc4a
+ms.openlocfilehash: 57fceef01987de33f2317d74bc8fd4687cb2714c
+ms.sourcegitcommit: bade8894ef2bb0405a88cd90654bbf5f17390bce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "55986657"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "56458725"
 ---
 # <a name="enterprise-mobility--security-for-us-government-service-description"></a>US Government용 Enterprise Mobility + Security 서비스 설명 
 Microsoft에서는 미국 공공 부문의 고유하고 진화하는 요구 사항에 대한 대응으로 미국 정부 고객을 위해 Enterprise Mobility + Security 플랜을 만들었습니다. 이 문서에서는 EMS 계획에 지정된 기능에 대한 개요를 제공합니다.  
@@ -42,6 +42,11 @@ EMS 상업용 제품은 Office 365 GCC와 완벽하게 상호 운용이 가능�
 ## <a name="ems-for-gcc-high"></a>GCC High용 EMS
 
 GCC High용 EMS 제품은 Microsoft Azure Government Cloud를 기반으로 하며 Office 365 GCC High 제품과 상호 운용되도록 디자인되었습니다. Azure Active Directory P1/P2, Intune 및 Azure Information Protection P1/P2는 이 제품에 대해 인증된 FedRAMP-High입니다. (Microsoft에서는 FedRAMP-High 승인을 기다라는 동안 2019년에 Microsoft Cloud App Security와 Azure Advanced Threat Protection을 이 제품에 추가하는 것을 목표로 하고 있습니다.)
+
+GCC High 고객은 다른 요구 사항 및 관리 요구 사항에 따라 Intune에 별도의 엔드포인트 세트를 사용할 수 있습니다.  다음은 EMS 고객이 사용할 수 있는 관리 포털의 목록입니다.
+* Office 365 Portal: [https://portal.office365.us](https://portal.office365.us)(사용자, 그룹 및 라이선스 관리용])
+* Azure / Intune 관리 포털: [https://portal.azure.us](https://portal.azure.us)
+* Intune 웹 회사 포털: [https://portal.manage.microsoft.us](https://portal.manage.microsoft.us)
 
 다음과 같은 고유한 기능에서 GCC High용 EMS 혜택을 사용하는 조직은 다음과 같습니다.
 * 조직의 콘텐츠가 Microsoft 상업용 EMS 서비스의 콘텐츠와 물리적으로 분리됩니다.
