@@ -5,16 +5,16 @@ keywords: ''
 author: dougeby
 ms.author: dougeby
 manager: dougeby
-ms.date: 09/19/2018
+ms.date: 02/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: ems
-ms.openlocfilehash: c1bf752038b28c14c4289ab0c7767e11e088485c
-ms.sourcegitcommit: d681b14a4d9d24ba26ba3191bca0f46b039f9395
+ms.openlocfilehash: abb8a30c2525d0e3dbc286bfea5a0f34b3128cb8
+ms.sourcegitcommit: 6ecb4377abffda45ecfaf567c471fd2682de1050
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "54153302"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "57012551"
 ---
 # <a name="azure-information-protection-premium-government-service-description"></a>Azure Information Protection Premium Government 서비스 설명 
 
@@ -100,7 +100,8 @@ Azure Information Protection Premium GCC High 제품을 통해 정부 고객에�
 ### <a name="aip-apps-configuration"></a>AIP 앱 구성
 Windows의 AIP 앱은 특수 레지스트리 키를 GCC High에 대한 올바른 서비스 인스턴스로 가리켜야 합니다.  
 
-| 레지스트리 키 | HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSIP\WebServiceUrl |
+| 레지스트리 노드 | HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSIP |
 | --- | --- |
+| 이름 | WebServiceUrl |
 | 값 | https://api.informationprotection.azure.us |
-| 유형 | 문자열 |
+| 유형 | REG_SZ(문자열) |
