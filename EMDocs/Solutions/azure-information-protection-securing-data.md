@@ -2,21 +2,19 @@
 title: 데이터 보안 유지에서 Azure Information Protection의 역할 | Microsoft 문서
 description: 이 문서에서는 조직의 데이터 보안 유지에서 Azure Information Protection의 역할을 설명합니다.
 author: yuridio
-ms.author: yurid
+ms.author: msmbaldwin
 manager: barbkess
-ms.date: 05/18/2017
+ms.date: 04/16/2019
 ms.topic: solution
-ms.prod: ''
 ms.service: rights-management
-ms.assetid: 2f906e2e-3d99-40e6-b5cc-8d903fcda444
 ms.reviewer: v-craic
 ms.suite: ems
-ms.openlocfilehash: 6ecceaf3da70adedb84c585ca38f6377d1d01351
-ms.sourcegitcommit: cf934b76e62ec78eca48b50e7ea00ee614c0b05e
+ms.openlocfilehash: 043352fdbce949abf55b8baa95b8e8a563865c54
+ms.sourcegitcommit: 70b34d1d4b375bebe9da1687736f2d39d0d07299
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56079580"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "59644562"
 ---
 # <a name="the-role-of-azure-information-protection-in-securing-data"></a>데이터 보안 유지에서 Azure Information Protection의 역할
 
@@ -103,6 +101,8 @@ Azure Information Protection은 애플리케이션이 문서와 연결된 권한
 - 인증 및 [SSO](https://azure.microsoft.com/resources/videos/overview-of-single-sign-on/)에 [Microsoft Identity Brokers](https://technet.microsoft.com/library/ms166045(v=sql.105).aspx)를 지원하는 애플리케이션을 사용합니다.
 
 이 시나리오의 요점은 클라이언트 컴퓨터 및 애플리케이션의 보안 유지가 Azure Information Protection을 뒷받침하는 신뢰의 중요한 부분이라는 점입니다.
+
+Azure Information Protection은 콘텐츠에 대한 액세스 권한이 부여된 사용자의 악의적인 오용을 방지하도록 설계되지 않았으므로 해당 사용자의 악의적인 수정에 대해 콘텐츠를 보호할 수 없습니다. 콘텐츠의 수정은 실제로 사용자가 처음에 보호된 데이터에 대한 액세스 권한을 부여받고 문서와 관련된 정책과 권한 자체는 적절한 서명 및 변조임이 요구되지만, 사용자에게 필요한 암호화/암호 해독 키에 대한 액세스 권한을 부여하면 사용자는 기술적으로 데이터를 해독하고, 수정하고, 다시 암호화할 수 있다고 가정할 수 있습니다. Microsoft 제품(예: Office 문서 서명 지원, Outlook의 s/MIME 지원) 내에서 및 타사로부터 Office 문서에 대한 문서 서명, 저자 증명, 변조 방지 및 부인 방지를 제공하기 위해 구현할 수 있는 많은 솔루션이 있습니다. 권한 있는 사용자의 악의적인 수정으로부터 보호하기 위해 AIP의 보호 기능에만 의존해서는 안됩니다. 
 
 ## <a name="summary"></a>요약
 
