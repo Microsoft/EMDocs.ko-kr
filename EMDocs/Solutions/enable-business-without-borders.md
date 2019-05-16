@@ -34,8 +34,8 @@ ID 페더레이션과 Single Sign-On을 사용하는 경우 사용자는 단일 
 또한 사용자가 새 디바이스를 회사로 가져올 수 있으며, 이 경우 IT 부서에서는 네트워크에 연결된 디바이스가 적절한 자격 증명을 가진 개인이 소유하고 제어하는지에 대한 유효성을 검사할 수 있습니다. MFA(다단계 인증)는 보호 계층을 제공하는 데 도움이 됩니다.
 ### <a name="self-service-group-management"></a>셀프 서비스 그룹 관리
 사용자가 암호를 잊어버린 경우 고유한 암호를 다시 설정할 수 있으므로 IT 부서의 부담이 줄어들며 신속한 문제 해결을 통해 사용자의 효율성이 증가합니다.
-### <a name="cross-organization-collaboration"></a>조직 간 공동 작업
-기업 간 공동 작업은 파트너와의 협력을 주요 요구 사항으로 고려하는 97%의 Microsoft 고객에게 중요한 요소입니다. Azure Active Directory B2B 공동 작업은 파트너가 자체 관리 ID를 사용하여 회사 앱 및 데이터에 선택적으로 액세스하도록 지원함으로써 회사 간의 관계를 지원합니다.
+### <a name="cross-organization-collaboration"></a>조직 간 협업
+기업 간 협업은 파트너와의 협력을 주요 요구 사항으로 고려하는 97%의 Microsoft 고객에게 중요한 요소입니다. Azure Active Directory B2B 협업은 파트너가 자체 관리 ID를 사용하여 회사 앱 및 데이터에 선택적으로 액세스하도록 지원함으로써 회사 간의 관계를 지원합니다.
 
 ## <a name="recommended-solution"></a>권장 솔루션
 [Azure Active Directory B2B 공동 작업](https://azure.microsoft.com/documentation/articles/active-directory-b2b-what-is-azure-ad-b2b/)은 조직이 기존 도구에 대한 기존 투자를 바탕으로 안전하고 생산적인 방식으로 어디에서든 필요한 모든 것에 액세스할 수 있도록 하는 권장 솔루션입니다.
@@ -44,18 +44,18 @@ ID 페더레이션과 Single Sign-On을 사용하는 경우 사용자는 단일 
 - 액세스 검토, 전자 메일 확인, 허용 목록, 거부 목록 등이 호스트 애플리케이션 및 리소스에 대한 액세스를 관리합니다.
 - 파트너 사용자는 검색 가능하며 정책에 따라 자신의 조직에서 다른 사용자를 볼 수 있습니다.
 
-### <a name="how-azure-ad-b2b-collaboration-works"></a>Azure AD B2B 공동 작업의 작동 원리
+### <a name="how-azure-ad-b2b-collaboration-works"></a>Azure AD B2B 협업의 작동 원리
 
-Azure AD B2B 공동 작업은 협력할 파트너의 메일 주소와 사용할 개별 앱을 활용하는 초대 및 사용 모델을 기반으로 합니다.
+Azure AD B2B 협업은 협력할 파트너의 메일 주소와 사용할 개별 앱을 활용하는 초대 및 사용 모델을 기반으로 합니다.
 
 1. 관리자가 Azure 포털에 로그인하여 파트너의 사용자 정보가 포함된 CSV 파일을 가져와 파트너 사용자를 초대합니다.
 2. Azure 포털에서 파트너에게 전자 메일을 보냅니다.
-3. 파트너가 Azure 포털에서 자신이 받은 전자 메일의 링크를 클릭합니다. 파트너 사용자가 이미 Azure AD에 있는 경우 회사 자격 증명을 입력하라는 메시지가 나타나지만, 그렇지 않은 경우에는 Azure AD B2B 공동 작업 사용자로 등록해야 합니다.
+3. 파트너가 Azure 포털에서 자신이 받은 전자 메일의 링크를 클릭합니다. 파트너 사용자가 이미 Azure AD에 있는 경우 회사 자격 증명을 입력하라는 메시지가 나타나지만, 그렇지 않은 경우에는 Azure AD B2B 협업 사용자로 등록해야 합니다.
 4. 파트너 사용자가 공동 작업을 위해 초대된 애플리케이션으로 자동으로 리디렉션됩니다.
 
 ![Azure AD B2B를 통해 파트너 사용자가 공동 작업을 위해 초대되는 프로세스를 보여 주는 그래픽](./media/enable-business-without-borders/enable-business-without-borders-fig1.png)
 
 ## <a name="how-to-implement-this-solution"></a>이 솔루션을 구현하는 방법
-다음 단계에서는 앞에서 설명한 각 Azure AD B2B 공동 작업을 구현하는 방법을 설명합니다. 각 링크는 조직에서 구현할 여러 지침/단계 집합이 포함된 다양한 문서 집합을 나타냅니다.
+다음 단계에서는 앞에서 설명한 각 Azure AD B2B 협업을 구현하는 방법을 설명합니다. 각 링크는 조직에서 구현할 여러 지침/단계 집합이 포함된 다양한 문서 집합을 나타냅니다.
 - [Azure AD B2B 공동 작업을 사용하는 방법](https://azure.microsoft.com/documentation/articles/active-directory-b2b-detailed-walkthrough/)에 대해 알아봅니다.
 - [CSV 파일을 사용하여 파트너 사용자 정보를 지정하는 방법](https://azure.microsoft.com/documentation/articles/active-directory-b2b-references-csv-file-format/)에 대해 알아봅니다.
