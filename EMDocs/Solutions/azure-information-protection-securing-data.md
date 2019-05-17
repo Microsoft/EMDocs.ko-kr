@@ -28,7 +28,7 @@ ms.locfileid: "59644562"
     - 특정 권한 집합을 적용하여 파일의 사용 가능성 제한    
     - 권한 정책의 사용자 ID 및 권한 부여에 따라 콘텐츠 암호 해독
 
-이러한 기능을 통해 엔터프라이즈는 데이터에 대해 더 향상된 종단 간 제어가 가능합니다. 이 컨텍스트에서 Azure Information Protection은 회사의 데이터 보안 유지에 중요한 역할을 합니다.
+이러한 기능을 통해 엔터프라이즈는 데이터에 대해 더 향상된 엔드투엔드 제어가 가능합니다. 이 컨텍스트에서 Azure Information Protection은 회사의 데이터 보안 유지에 중요한 역할을 합니다.
 
 > [!IMPORTANT]
 > Azure Information Protection이 작동하는 방식에 대한 자세한 내용은 [Azure RMS는 어떤 방식으로 작동합니까? 기본적인 이해](/azure/information-protection/how-does-it-work)
