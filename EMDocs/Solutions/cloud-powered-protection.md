@@ -6,19 +6,19 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/24/2016
-ms.topic: solution
+ms.topic: conceptual
 ms.prod: ''
 ms.service: active-directory
 ms.assetid: 46654ab0-0d0a-47ad-8715-b149a1092a37
 ROBOTS: ''
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-ms.openlocfilehash: 463a1dfd075e2ec40295d318b34a56824b7ea643
-ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
+ms.openlocfilehash: 91234f0b3c3323cafafe29481db88cd2a2884a5b
+ms.sourcegitcommit: 393421ada426fc958125e310b92e9a84b31a9c2d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51196528"
+ms.lasthandoff: 08/10/2019
+ms.locfileid: "68937411"
 ---
 # <a name="cloud-powered-protection"></a>클라우드 기반 보호
 Microsoft는 10여년 동안 클라우드 기반 ID의 보안을 유지해 왔으며, Azure Active Directory를 통해 이러한 보호 시스템을 엔터프라이즈 고객에게 제공함으로써 향상된 보안과 관리 기능으로 사용자와 관리자의 책임을 유지하도록 지원하고 있습니다.
@@ -105,4 +105,4 @@ Microsoft는 이 분야에 계속 투자하고 있으며, 지속적으로 기존
 아래 링크는 MFA(다단계 인증), 위치 및 디바이스 정책에 따라 Azure AD 조건부 액세스를 사용하기 위한 정보를 제공합니다.
 - [Azure AD 조건부 액세스를 구현하는 방법](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access/)에 대해 알아봅니다.
 - [MFA 및 위치 정책](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-azuread-connected-apps/)에 대해 알아봅니다.
-- [장치 기반 정책](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-policy-connected-applications/)에 대해 알아봅니다.
+- [디바이스 기반 정책](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-policy-connected-applications/)에 대해 알아봅니다.

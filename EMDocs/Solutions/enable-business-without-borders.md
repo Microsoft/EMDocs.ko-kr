@@ -6,22 +6,22 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 12/07/2016
-ms.topic: solution
+ms.topic: conceptual
 ms.prod: ''
 ms.service: active-directory
 ms.assetid: 38e9802b-d8c0-4f5c-b89d-8ce1e04f7387
 ROBOTS: ''
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-ms.openlocfilehash: 0f2cc13a746a69eccccc1be3de8dd6f4998ab7c7
-ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
+ms.openlocfilehash: b1d2689c366872b9f9c559ae12e7cd4de032bb6d
+ms.sourcegitcommit: 393421ada426fc958125e310b92e9a84b31a9c2d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51196494"
+ms.lasthandoff: 08/10/2019
+ms.locfileid: "68937440"
 ---
 # <a name="enable-business-without-borders"></a>경계 없는 비즈니스 지원
-ID는 있으면 좋은 것이 아니라 효율적인 작업의 핵심입니다. 조직에서는 모든 디바이스 및 모든 위치에서 조직의 모든 데이터 및 응용 프로그램에 액세스할 수 있는 직원의 역량을 강화해야 합니다. 사용자는 서로 협력하고 파트너와 공동 작업을 수행해야 하며 고객과 연결해야 합니다. 이들이 사용하는 도구는 더 이상 보호되고 제어되는 환경에 있는 것이 아니라 퍼블릭 클라우드에서 찾을 수 있습니다.
+ID는 있으면 좋은 것이 아니라 효율적인 작업의 핵심입니다. 조직에서는 모든 장치 및 모든 위치에서 조직의 모든 데이터 및 애플리케이션에 액세스할 수 있는 직원의 역량을 강화해야 합니다. 사용자는 서로 협력하고 파트너와 공동 작업을 수행해야 하며 고객과 연결해야 합니다. 이들이 사용하는 도구는 더 이상 보호되고 제어되는 환경에 있는 것이 아니라 퍼블릭 클라우드에서 찾을 수 있습니다.
 
 이 새로운 세계에는 기존 도구로 완화할 수 없는 문제 및 고급 위협이 도사립니다. 새로운 경계가 사용자일 때는 네트워크만 보호하는 것은 소용 없습니다. 이 환경에서 보호되고 생산성을 유지하는 열쇠는 강력한 ID 솔루션입니다.
 
@@ -38,7 +38,7 @@ ID 페더레이션과 Single Sign-On을 사용하는 경우 사용자는 단일 
 기업 간 협업은 파트너와의 협력을 주요 요구 사항으로 고려하는 97%의 Microsoft 고객에게 중요한 요소입니다. Azure Active Directory B2B 협업은 파트너가 자체 관리 ID를 사용하여 회사 앱 및 데이터에 선택적으로 액세스하도록 지원함으로써 회사 간의 관계를 지원합니다.
 
 ## <a name="recommended-solution"></a>권장 솔루션
-[Azure Active Directory B2B 공동 작업](https://azure.microsoft.com/documentation/articles/active-directory-b2b-what-is-azure-ad-b2b/)은 조직이 기존 도구에 대한 기존 투자를 바탕으로 안전하고 생산적인 방식으로 어디에서든 필요한 모든 것에 액세스할 수 있도록 하는 권장 솔루션입니다.
+[Azure Active Directory B2B 협업](https://azure.microsoft.com/documentation/articles/active-directory-b2b-what-is-azure-ad-b2b/)은 조직이 기존 도구에 대한 기존 투자를 바탕으로 안전하고 생산적인 방식으로 어디에서든 필요한 모든 것에 액세스할 수 있도록 하는 권장 솔루션입니다.
 - 파트너 조직 및 공동 작업자에게 조직의 데이터 및 애플리케이션에 대한 액세스를 제공하는 IT 전문가
 - 조직을 "대신"하거나 조직의 담당자 또는 직원 역할을 하는 파트너 사용자
 - 액세스 검토, 전자 메일 확인, 허용 목록, 거부 목록 등이 호스트 애플리케이션 및 리소스에 대한 액세스를 관리합니다.
@@ -57,5 +57,5 @@ Azure AD B2B 협업은 협력할 파트너의 메일 주소와 사용할 개별 
 
 ## <a name="how-to-implement-this-solution"></a>이 솔루션을 구현하는 방법
 다음 단계에서는 앞에서 설명한 각 Azure AD B2B 협업을 구현하는 방법을 설명합니다. 각 링크는 조직에서 구현할 여러 지침/단계 집합이 포함된 다양한 문서 집합을 나타냅니다.
-- [Azure AD B2B 공동 작업을 사용하는 방법](https://azure.microsoft.com/documentation/articles/active-directory-b2b-detailed-walkthrough/)에 대해 알아봅니다.
+- [Azure AD B2B 협업을 사용하는 방법](https://azure.microsoft.com/documentation/articles/active-directory-b2b-detailed-walkthrough/)에 대해 알아봅니다.
 - [CSV 파일을 사용하여 파트너 사용자 정보를 지정하는 방법](https://azure.microsoft.com/documentation/articles/active-directory-b2b-references-csv-file-format/)에 대해 알아봅니다.
