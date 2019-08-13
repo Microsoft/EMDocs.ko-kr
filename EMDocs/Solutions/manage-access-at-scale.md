@@ -6,19 +6,19 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 12/07/2016
-ms.topic: solution
+ms.topic: conceptual
 ms.prod: ''
 ms.service: active-directory
 ms.assetid: 0292919a-af10-4a25-8916-c704aed643f6
 ROBOTS: ''
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-ms.openlocfilehash: 01bf229d48e3c9b1ba13a6dd69e028f765529cf5
-ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
+ms.openlocfilehash: 71ca78aa4e69cca5030672d02e373a34907d5605
+ms.sourcegitcommit: 393421ada426fc958125e310b92e9a84b31a9c2d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51196613"
+ms.lasthandoff: 08/10/2019
+ms.locfileid: "68937497"
 ---
 # <a name="manage-access-at-scale"></a>대규모 액세스 관리
 Microsoft는 지금까지 많은 조직을 지원해 왔습니다. Microsoft는 어디서든 사용할 수 있는 ID뿐만 아니라 조직 내에서 IT를 자동화하고, 보호하고, 관리하는 다양한 도구도 제공합니다. 클라우드 컴퓨팅이 등장한 이후에도 사용자 암호 다시 설정에 관한 지원 센터 문의를 비롯하여 사용자 그룹 관리, 앱 요청 등의 다양한 IT 작업을 관리하고 제어해 달라는 요구는 여전합니다.
