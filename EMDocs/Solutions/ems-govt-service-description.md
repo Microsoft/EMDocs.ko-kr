@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: ''
 ms.service: ems
 ms.suite: ems
-ms.openlocfilehash: 57fceef01987de33f2317d74bc8fd4687cb2714c
-ms.sourcegitcommit: bade8894ef2bb0405a88cd90654bbf5f17390bce
+ms.openlocfilehash: 43e2c8a925a42f2ff39802989dcca6fe231ea168
+ms.sourcegitcommit: 393421ada426fc958125e310b92e9a84b31a9c2d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56458725"
+ms.lasthandoff: 08/10/2019
+ms.locfileid: "68937350"
 ---
 # <a name="enterprise-mobility--security-for-us-government-service-description"></a>US Government용 Enterprise Mobility + Security 서비스 설명 
 Microsoft에서는 미국 공공 부문의 고유하고 진화하는 요구 사항에 대한 대응으로 미국 정부 고객을 위해 Enterprise Mobility + Security 플랜을 만들었습니다. 이 문서에서는 EMS 계획에 지정된 기능에 대한 개요를 제공합니다.  
@@ -69,13 +69,13 @@ EMS GCC High와 2019년 2월 상업용 제품 간의 이미 알려진 기존 차
 
 - Microsoft Intune:
 
-  - 독립 실행형 배포만 지원합니다. SCCM(System Center Configuration Manager)을 포함한 하이브리드 설정은 지원하지 않습니다.
+  - 독립 실행형 배포만 지원합니다. System Center Configuration Manager를 포함한 하이브리드 설정은 지원하지 않습니다.
 
   - 레거시 PC 관리(Intune 에이전트 사용)를 지원하지 않습니다. Windows 10 관리는 최신 MDM 채널을 통해 지원됩니다.
 
   - 온-프레미스 Exchange Connector를 지원하지 않습니다.
 
-  - 지금은 Co-Management 지원을 이용할 수 없지만, 나중에는 정부 고객이 이 기능을 이용할 수 있습니다.
+  - 공동 관리 지원은 Configuration Manager 버전 1906 이상에서 사용할 수 있습니다.
 
   - 계획이 진행 중이지만 지금은 정부 고객이 Windows Autopilot 및 Business Store 기능을 사용할 수 없습니다.
 

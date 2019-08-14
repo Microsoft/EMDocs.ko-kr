@@ -6,24 +6,24 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 12/07/2016
-ms.topic: solution
+ms.topic: conceptual
 ms.prod: ''
 ms.service: active-directory
 ms.assetid: dd879a14-919e-431b-89b9-c035c83a6899
 ROBOTS: ''
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-ms.openlocfilehash: d702935274f7a798018a61188a90b2186d6af831
-ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
+ms.openlocfilehash: d5ed6221666d7b5d5dd12a2a74becb6bf6b203d0
+ms.sourcegitcommit: 393421ada426fc958125e310b92e9a84b31a9c2d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51196670"
+ms.lasthandoff: 08/10/2019
+ms.locfileid: "68937455"
 ---
 # <a name="thousands-of-apps-one-identity"></a>수천 개의 응용 프로그램, 하나의 ID
 Azure AD(Azure Active Directory)는 클라우드 리소스와 온-프레미스 리소스 모두에 액세스하는 SaaS(Software as a Service) 애플리케이션 사용자에게 공통 ID를 제공하여 사용자의 생산성을 개선합니다.
 
-Azure AD는 Box, Twitter, ServiceNow, DocuSign, Workday 등 오늘날 널리 사용되는 대부분의 SaaS 애플리케이션과 통합됩니다. 안전하고 신뢰할 수 있는 방식으로 모든 디바이스에서 SSO(Single Sign-On) 인증, ID 및 보안 응용 프로그램 액세스 관리를 지원합니다.
+Azure AD는 Box, Twitter, ServiceNow, DocuSign, Workday 등 오늘날 널리 사용되는 대부분의 SaaS 애플리케이션과 통합됩니다. 안전하고 신뢰할 수 있는 방식으로 모든 장치에서 SSO(Single Sign-On) 인증, ID 및 보안 애플리케이션 액세스 관리를 지원합니다.
 
 ## <a name="how-can-enterprise-mobility--security-help-you"></a>Enterprise Mobility + Security는 어떤 이점이 있나요?
 EMS(Enterprise Mobility + Security)는 ID, 디바이스, 앱, 데이터 등의 4단계 보호 기능으로 디바이스뿐 아니라 그 이상에서 기업 데이터를 기본적으로 보호하는 유일한 포괄적인 클라우드 솔루션입니다. EMS는 모바일 우선, 클라우드 우선 세계의 핵심 과제 중 하나인, 업계의 모든 웹 기반 응용 프로그램에 걸쳐 작동하는 단일 ID 제공 문제를 해결하도록 도와줍니다.
@@ -50,9 +50,9 @@ Single Sign-On을 사용하면 단일 사용자 계정으로 한 번만 로그�
 
 Azure AD는 다음 세 가지 유형의 Single Sign-On 인증을 지원합니다.
 
-- **Microsoft Azure AD Single Sign-on:** 이 옵션은 페더레이션된 로그온을 사용하여 사용자가 Azure AD에서 사용자 계정 정보를 통해 Salesforce와 같은 타사 응용 프로그램에 자동으로 로그인할 수 있도록 해줍니다.
-- **암호 Single Sign-On:** 사용자가 타사 사용자 계정 정보를 사용하여 Azure AD를 통해 타사 SaaS 응용 프로그램에 자동으로 로그인할 수 있도록 해줍니다.
-- **기존 Single Sign-on:** 이 옵션은 ADFS(Active Directory Federation Services) 또는 다른 타사 Single Sign-On 공급자를 통한 타사 SaaS Single Sign-On을 지원합니다.
+- **Microsoft Azure AD Single Sign-on:** 이 옵션은 페더레이션된 로그온을 사용하여 사용자가 Azure AD에서 사용자 계정 정보를 통해 Salesforce와 같은 타사 애플리케이션에 자동으로 로그인할 수 있도록 해줍니다.
+- **암호 Single Sign-On:** 사용자가 타사 사용자 계정 정보를 사용하여 Azure AD를 통해 타사 SaaS 애플리케이션에 자동으로 로그인할 수 있도록 해줍니다.
+- **기존 Single Sign-On:** 이 옵션은 ADFS(Active Directory Federation Services) 또는 다른 타사 Single Sign-On 공급자를 통한 타사 SaaS Single Sign-On을 지원합니다.
 
 ### <a name="how-single-sign-on-works"></a>Single Sign-On 작동 방식
 Azure AD는 다음 표준 프로토콜 중 하나를 지원하는 응용 프로그램에서 Single Sign-On을 지원합니다.
@@ -95,23 +95,23 @@ Azure 애플리케이션 갤러리에 나열되어 있는지 여부에 상관없
 ![Azure AD 애플리케이션 갤러리를 사용하여 조직의 애플리케이션을 추가하는 방법을 보여 주는 스크린샷](./media/thousands-apps-one-identity/thousands-apps-one-identity-fig4.png)
 
 ### <a name="secure-remote-access-to-on-premises-apps"></a>온-프레미스 응용 프로그램에 대한 보안 원격 액세스
-[Azure AD 응용 프로그램 프록시](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-enable/)는 온-프레미스에서 호스트되는 웹 응용 프로그램에 대한 SSO(Single Sign-On) 및 보안 원격 액세스를 제공합니다. 여기에는 SharePoint 사이트, Outlook Web Access 또는 다른 모든 LOB 웹 애플리케이션이 포함될 수 있습니다. 이러한 온-프레미스 웹 애플리케이션은 O365에서 사용되는 동일한 ID 및 제어 플랫폼인 Azure AD와 통합됩니다.
+[Azure AD 애플리케이션 프록시](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-enable/)는 온-프레미스에서 호스트되는 웹 애플리케이션에 대한 SSO(Single Sign-On) 및 보안 원격 액세스를 제공합니다. 여기에는 SharePoint 사이트, Outlook Web Access 또는 다른 모든 LOB 웹 애플리케이션이 포함될 수 있습니다. 이러한 온-프레미스 웹 애플리케이션은 O365에서 사용되는 동일한 ID 및 제어 플랫폼인 Azure AD와 통합됩니다.
 
 이 경우 최종 사용자는 네트워크 인프라를 변경하거나 VPN 없이도 O365 및 기타 Azure AD와 통합된 SaaS 애플리케이션과 동일한 방식으로 온-프레미스 애플리케이션에 액세스할 수 있습니다.
 
 ## <a name="how-to-implement-this-solution"></a>이 솔루션을 구현하는 방법
 다음 단계에서는 앞에서 설명한 각 Azure AD 기능을 구현하는 방법을 설명합니다. 각 링크는 조직에서 구현할 여러 지침/단계 집합이 포함된 다양한 문서 집합을 나타냅니다.
-1. [응용 프로그램 프록시에서 Single Sign-On 사용](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-sso-using-kcd/)
-2. [온-프레미스 응용 프로그램에 대한 보안 원격 액세스 제공](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-get-started/)
-   - [Azure AD 응용 프로그램 프록시에서 사용자 지정 도메인 사용](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-custom-domains/)
-   - [응용 프로그램 프록시에서 클레임 인식 응용 프로그램 사용](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-claims-aware-apps/)
-   - [응용 프로그램 프록시를 사용하여 게시한 앱에 대한 조건부 액세스 사용](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-conditional-access/)
+1. [애플리케이션 프록시에서 Single Sign-On 사용](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-sso-using-kcd/)
+2. [온-프레미스 애플리케이션에 대한 보안 원격 액세스 제공](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-get-started/)
+   - [Azure AD 애플리케이션 프록시에서 사용자 지정 도메인 사용](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-custom-domains/)
+   - [애플리케이션 프록시에서 클레임 인식 애플리케이션 사용](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-claims-aware-apps/)
+   - [애플리케이션 프록시를 사용하여 게시한 앱에 대한 조건부 액세스 사용](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-conditional-access/)
 3. [Azure AD로 사용자 고유 앱 가져오기](https://blogs.technet.microsoft.com/enterprisemobility/2015/06/17/bring-your-own-app-with-azure-ad-self-service-saml-configuration-now-in-preview/)
 
 ## <a name="additional-resources"></a>추가 리소스
 - **Azure.com의 앱 갤러리**
   - https://azure.microsoft.com/marketplace/active-directory/
-- **SaaS 응용 프로그램 목록**(통합 기능 포함)
+- **SaaS 애플리케이션 목록**(통합 기능 포함)
   - https://aadappgallery.azurewebsites.net/Default.aspx?Microsoft_Integrated_Synchronization=on
-- **SaaS 응용 프로그램 자습서**
+- **SaaS 애플리케이션 자습서**
   - https://azure.microsoft.com/documentation/articles/active-directory-saas-tutorial-list/
