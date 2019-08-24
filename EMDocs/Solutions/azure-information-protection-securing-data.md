@@ -91,9 +91,9 @@ ID 보안 유지는 Azure Information Protection의 범위를 벗어나며 관�
 
 ![악의적인 사용자](./media/azure-information-protection-securing-data/aip-securing-data-fig4.png)
 
-Azure Information Protection은 애플리케이션이 문서와 연결된 권한을 적용하는 일을 담당하는 클라이언트 장치에 있게 하도록 설계되었습니다. 어쨌든 현재 보호된 콘텐츠의 보안에서 가장 약한 링크는 콘텐츠가 최종 사용자에게 일반 텍스트로 표시되는 클라이언트 디바이스에 있습니다. Microsoft Office와 같은 클라이언트 애플리케이션은 권한을 올바르게 적용하므로 악의적인 사용자가 이러한 애플리케이션을 사용하여 권한을 에스컬레이션할 수 없습니다. 그러나 동기가 부여된 공격자는 Azure Information Protection SDK를 사용하여 권한을 적용하지 않는 애플리케이션을 만들 수 있으며 이는 *악성 프로그램*의 본질입니다.
+Azure Information Protection은 애플리케이션이 문서와 연결된 권한을 적용하는 일을 담당하는 클라이언트 디바이스에 있게 하도록 설계되었습니다. 어쨌든 현재 보호된 콘텐츠의 보안에서 가장 약한 링크는 콘텐츠가 최종 사용자에게 일반 텍스트로 표시되는 클라이언트 디바이스에 있습니다. Microsoft Office와 같은 클라이언트 애플리케이션은 권한을 올바르게 적용하므로 악의적인 사용자가 이러한 애플리케이션을 사용하여 권한을 에스컬레이션할 수 없습니다. 그러나 동기가 부여된 공격자는 Azure Information Protection SDK를 사용하여 권한을 적용하지 않는 애플리케이션을 만들 수 있으며 이는 *악성 프로그램*의 본질입니다.
 
-이 시나리오의 초점은 Rogue 애플리케이션이 사용될 수 없도록 클라이언트 장치 및 애플리케이션의 보안을 유지하는 데 있습니다. IT 관리자가 따를 수 있는 몇 가지 단계는 다음과 같습니다.
+이 시나리오의 초점은 Rogue 애플리케이션이 사용될 수 없도록 클라이언트 디바이스 및 애플리케이션의 보안을 유지하는 데 있습니다. IT 관리자가 따를 수 있는 몇 가지 단계는 다음과 같습니다.
 
 - [Windows AppLocker](https://technet.microsoft.com/library/dd759117(v=ws.11).aspx)를 사용하여 사용자 동의 없이 설치된 프로그램이 실행될 수 없도록 합니다.
 - [Intune](https://docs.microsoft.com/intune/) 및 [System Center Configuration Manager](https://docs.microsoft.com/sccm/)를 사용하여 디바이스를 '정상 상태'로 유지합니다.
