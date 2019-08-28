@@ -5,17 +5,17 @@ keywords: ''
 author: dougeby
 ms.author: dougeby
 manager: dougeby
-ms.date: 01/07/2019
+ms.date: 08/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: ems
 ms.suite: ems
-ms.openlocfilehash: 43e2c8a925a42f2ff39802989dcca6fe231ea168
-ms.sourcegitcommit: 393421ada426fc958125e310b92e9a84b31a9c2d
+ms.openlocfilehash: f6d8e2fd7056810740bdc4aeaa8c5520efe1d468
+ms.sourcegitcommit: b433abeb9e3c1982aeb4b2d8835ecd9cbebe2b4b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "68937350"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "69979421"
 ---
 # <a name="enterprise-mobility--security-for-us-government-service-description"></a>US Government용 Enterprise Mobility + Security 서비스 설명 
 Microsoft에서는 미국 공공 부문의 고유하고 진화하는 요구 사항에 대한 대응으로 미국 정부 고객을 위해 Enterprise Mobility + Security 플랜을 만들었습니다. 이 문서에서는 EMS 계획에 지정된 기능에 대한 개요를 제공합니다.  
@@ -81,7 +81,7 @@ EMS GCC High와 2019년 2월 상업용 제품 간의 이미 알려진 기존 차
 
   - 일부 Office 365 모바일 앱은 정부 고객에게 제공되지 않습니다.  [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap)에서 세부 정보를 확인할 수 있습니다.
 
-  - 이번에 Lookout Mobile Threat Detection 및 Telecom Expense Management 파트너 솔루션은 정부 고객에게 제공되지 않습니다.
+  - 지금은 Mobile Threat Detection 및 Telecom Expense Management 파트너 솔루션이 정부 고객에게 제공되지 않습니다.
 
 - Azure Information Protection:
 
