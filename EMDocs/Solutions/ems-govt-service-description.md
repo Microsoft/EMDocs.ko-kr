@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.suite: ems
-ms.openlocfilehash: 0c77f6d7cb05b212bc98bffaf629895e58469d62
-ms.sourcegitcommit: ead1cc286c73a414332fc5faf7221e6fe390a48f
+ms.openlocfilehash: f933eedb9c8bd5eca8f384b1b5801b774311f99f
+ms.sourcegitcommit: 23d04d4ce0acb51b86b7702b9f0c3bb6b55b0043
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70169493"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "70936068"
 ---
 # <a name="enterprise-mobility--security-for-us-government-service-description"></a>US Government용 Enterprise Mobility + Security 서비스 설명
 Microsoft에서는 미국 공공 부문의 고유하면서 진화하고 있는 요구 사항에 대한 대응으로 미국 정부 커뮤니티 고객을 위해 Enterprise Mobility + Security(EMS) 요금제를 만들었습니다. 이 문서에서는 EMS 요금제에 관련된 기능을 간단히 설명합니다.
@@ -53,7 +53,7 @@ US Government 제품을 통해 정부 고객에게 모든 상업용 기능을 �
   - 독립 실행형 배포만 지원합니다. System Center Configuration Manager를 포함한 하이브리드 설정은 지원하지 않습니다.
   - 레거시 PC 관리(Intune 소프트웨어 에이전트 사용)를 지원하지 않습니다. Windows 10 관리는 최신 MDM 채널을 통해 지원됩니다.
   - 온-프레미스 Exchange Connector 지원 계획이 없습니다.
-  - 지금은 공동 관리 지원을 사용할 수 없습니다.
+  - 공동 관리 지원은 Configuration Manager 버전 1906 이상에서 사용할 수 있습니다.
   - 지금은 정부 고객이 Windows Autopilot 및 Business Store 기능을 사용할 수 없습니다.
 - Azure Information Protection:
   - 현재 Azure Government에서 사용할 수 없는 기능의 목록을 보려면 Azure Government 설명서 사이트 내의 [Azure Information Protection Premium](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description) 페이지를 방문하세요.
