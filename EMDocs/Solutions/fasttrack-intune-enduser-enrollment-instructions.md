@@ -14,7 +14,7 @@ ms.reviewer: ''
 ms.suite: ems
 ms.openlocfilehash: 2b9f32d79ab00c55962df67cab9bc2bad9549c44
 ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/06/2018
 ms.locfileid: "51196817"
@@ -26,7 +26,7 @@ ms.locfileid: "51196817"
 이러한 작성된 지침 외에 Intune 최종 사용자 동영상([https://channel9.msdn.com/Series/IntuneEnrollment](https://channel9.msdn.com/Series/IntuneEnrollment)에 있음)의 하이퍼링크를 포함할 수도 있습니다.
 
 > [!NOTE]
-> Microsoft, Intune 및 Office 365는 Microsoft Corporation의 등록 상표입니다. iPhone, Mac 및 Apple은 Apple, Inc.의 상표입니다. Android는 Google Inc.의 상표입니다. Samsung KNOX는 Samsung Electronics Co., Ltd.의 상표입니다.
+> Microsoft, Intune 및 Office 365는 Microsoft Corporation의 등록 상표입니다. iPhone, Mac 및 Apple은 Apple의 상표 이며, i n c. Android는 Google i n c .의 상표입니다. Samsung KNOX는 Samsung 전자식 Co의 상표입니다.
 
 ## <a name="why-enroll-in-intune"></a>Intune에서 등록하는 이유
 등록할 때 모바일 디바이스를 사용하여 회사 또는 학교 파일 및 데이터에 액세스할 수 있습니다. 또한 선호하는 디바이스를 자유롭게 사용하여 작업을 완료하는 동안 IT 부서에서 해당 회사 또는 학교 리소스를 관리하고 보안을 유지할 수 있습니다.
@@ -35,12 +35,12 @@ ms.locfileid: "51196817"
 
 ## <a name="enroll-your-android-device-in-intune-using-the-intune-company-portal-app"></a>Intune 회사 포털 앱을 사용하여 Intune에서 Android 디바이스 등록
 
-이러한 등록 단계는 Samsung Knox Android 디바이스와 "네이티브"(Samsung Knox가 아닌) Android 디바이스에 대한 것입니다. Samsung Knox 장치가 있는지 확인하려면 **설정 > 휴대폰 정보**로 이동합니다. 여기에 나열된 "Knox"라는 단어가 보이지 않으면 네이티브 Android 디바이스가 있어야 합니다. 디바이스에 표시된 화면은 이 섹션의 화면과 약간 다르게 보일 수 있습니다.
+이러한 등록 단계는 Samsung Knox Android 디바이스와 "네이티브"(Samsung Knox가 아닌) Android 디바이스에 대한 것입니다. Samsung Knox 디바이스가 있는지 확인하려면 **설정 &gt; 휴대폰 정보**로 이동합니다. 여기에 나열된 "Knox"라는 단어가 보이지 않으면 네이티브 Android 디바이스가 있어야 합니다. 디바이스에 표시된 화면은 이 섹션의 화면과 약간 다르게 보일 수 있습니다.
 
 Intune에서 디바이스를 등록하는 동안 오류가 발생할 경우 [IT 관리자에게 등록 오류 보내기](https://technet.microsoft.com/library/mt502762(TechNet.10).aspx#BKMK_andr_send_enroll_errors)를 참조하세요.
 
 등록하기 전이나 이후에 디바이스 사용 방법을 가장 잘 설명하는 범주를 선택하라는 메시지가 표시될 수도 있습니다. IT 관리자는 이 범주를 사용하여 액세스할 수 있는 앱을 확인합니다.
-1. [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal)에서 장치에 무료 Microsoft Intune 회사 포털 앱을 설치합니다.
+1. [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal)에서 디바이스에 무료 Microsoft Intune 회사 포털 앱을 설치합니다.
 2. Microsoft Intune 회사 포털 앱을 엽니다.
 3. 회사 포털의 **시작** 화면에서 **로그인**을 탭한 다음, 회사 또는 학교 계정으로 로그인합니다.
 
@@ -82,7 +82,7 @@ Intune에서 디바이스를 등록하는 동안 오류가 발생할 경우 [IT 
 12. 지시에 따라 PIN이나 암호를 입력합니다. 이미 이 디바이스에서 암호나 PIN을 설정했다면 이 화면에 표시되지 않거나 새 PIN이나 암호를 입력할 필요가 없습니다.
 
     ![Android 디바이스에서 PIN을 입력하라는 메시지를 보여 주는 스크린샷](./media/ft-userEnrollAndroid-11-enterPIN.png)
-13. 사용 중인 디바이스의 형식(네이티브 Android 또는 Samsung Knox)과 일치하는 다음 지침에 따릅니다. Samsung Knox 디바이스가 없는 경우 네이티브 Android에 대한 지침을 따릅니다. Samsung Knox 장치가 있는지 확인하려면 **설정 > 휴대폰 정보**로 이동합니다. 여기에 나열된 "Knox"라는 단어가 보이지 않으면 네이티브 Android 디바이스가 있어야 합니다.
+13. 사용 중인 디바이스의 형식(네이티브 Android 또는 Samsung Knox)과 일치하는 다음 지침에 따릅니다. Samsung Knox 디바이스가 없는 경우 네이티브 Android에 대한 지침을 따릅니다. Samsung Knox 디바이스가 있는지 확인하려면 **설정 &gt; 휴대폰 정보**로 이동합니다. 여기에 나열된 "Knox"라는 단어가 보이지 않으면 네이티브 Android 디바이스가 있어야 합니다.
     - 네이티브(Samsung Knox가 아닌) 디바이스: **Name the certificate**(인증서 이름 지정) 화면에서 **확인**을 탭하여 기본 인증서를 적용합니다.
 
         ![사용자에게 기본 Android 디바이스에서 기본 인증서를 수락하라는 메시지를 표시하는 스크린샷](./media/ft-userEnrollAndroid-12-android.png)
@@ -153,10 +153,10 @@ Intune에서 디바이스를 등록하는 동안 오류가 발생할 경우 [IT 
 
 ## <a name="enroll-your-mac-os-x-device-in-intune"></a>Intune에서 Mac OS X 디바이스 등록
 1. Safari 브라우저를 사용하여 [회사 포털 웹 사이트](https://portal.manage.microsoft.com/)를 열고 알림 표시줄을 탭합니다.
-2. **이 장치는 등록되지 않았거나 회사 포털에서 해당 장치를 식별할 수 없습니다.** 를 탭합니다.
+2. **이 디바이스는 등록되지 않았거나 회사 포털에서 해당 디바이스를 식별할 수 없습니다.** 를 탭합니다.
 
    ![회사 포털에서 Mac OS X 디바이스를 식별할 수 없음을 보여 주는 스크린샷](./media/ft-userEnrollMacOSx-1-enrollBegin.png)
-3. **설치**를 탭하여 장치 등록을 시작합니다.
+3. **설치**를 탭하여 디바이스 등록을 시작합니다.
 
    ![Mac OS X 디바이스를 등록할 것인지 묻는 메시지를 보여 주는 스크린샷](./media/ft-userEnrollMacOSx-2-enrollDevice.png)
 4. 관리 프로필 설치 대화 상자에서 **설치**를 탭합니다. 자격 증명을 입력하라는 대화 상자가 나타나면 사용자 이름 및 암호를 입력한 다음 **계속 > 설치**를 탭합니다.

@@ -15,7 +15,7 @@ ms.reviewer: atkladak, jsnow
 ms.suite: ems
 ms.openlocfilehash: d5ed6221666d7b5d5dd12a2a74becb6bf6b203d0
 ms.sourcegitcommit: 393421ada426fc958125e310b92e9a84b31a9c2d
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/10/2019
 ms.locfileid: "68937455"
@@ -52,7 +52,7 @@ Azure AD는 다음 세 가지 유형의 Single Sign-On 인증을 지원합니다
 
 - **Microsoft Azure AD Single Sign-on:** 이 옵션은 페더레이션된 로그온을 사용하여 사용자가 Azure AD에서 사용자 계정 정보를 통해 Salesforce와 같은 타사 애플리케이션에 자동으로 로그인할 수 있도록 해줍니다.
 - **암호 Single Sign-On:** 사용자가 타사 사용자 계정 정보를 사용하여 Azure AD를 통해 타사 SaaS 애플리케이션에 자동으로 로그인할 수 있도록 해줍니다.
-- **기존 Single Sign-On:** 이 옵션은 ADFS(Active Directory Federation Services) 또는 다른 타사 Single Sign-On 공급자를 통한 타사 SaaS Single Sign-On을 지원합니다.
+- **기존 Single Sign-on:** 이 옵션은 ADFS(Active Directory Federation Services) 또는 다른 타사 Single Sign-On 공급자를 통한 타사 SaaS Single Sign-On을 지원합니다.
 
 ### <a name="how-single-sign-on-works"></a>Single Sign-On 작동 방식
 Azure AD는 다음 표준 프로토콜 중 하나를 지원하는 응용 프로그램에서 Single Sign-On을 지원합니다.

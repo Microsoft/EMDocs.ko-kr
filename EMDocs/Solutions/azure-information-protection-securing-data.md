@@ -11,7 +11,7 @@ ms.reviewer: v-craic
 ms.suite: ems
 ms.openlocfilehash: 7fd4ab09de4cf050b9300a9dd340b33338a4d8d2
 ms.sourcegitcommit: 393421ada426fc958125e310b92e9a84b31a9c2d
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/10/2019
 ms.locfileid: "68937394"
@@ -31,7 +31,7 @@ ms.locfileid: "68937394"
 이러한 기능을 통해 엔터프라이즈는 데이터에 대해 더 향상된 엔드투엔드 제어가 가능합니다. 이 컨텍스트에서 Azure Information Protection은 회사의 데이터 보안 유지에 중요한 역할을 합니다.
 
 > [!IMPORTANT]
-> Azure Information Protection이 작동하는 방식에 대한 자세한 내용은 [Azure RMS는 어떤 방식으로 작동합니까? 기본적인 이해](/azure/information-protection/how-does-it-work)
+> Azure Information Protection 작동 방식에 대 한 자세한 내용은 [Azure RMS 어떻게 작동 하나요?를 참조 하세요. 내부적으로](/azure/information-protection/how-does-it-work)
 
 ## <a name="the-state-of-enterprise-protection-today"></a>현재 엔터프라이즈 보호 상태
 

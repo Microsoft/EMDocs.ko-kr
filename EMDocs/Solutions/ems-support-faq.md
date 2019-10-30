@@ -14,7 +14,7 @@ ms.reviewer: ''
 ms.suite: ems
 ms.openlocfilehash: 50326fcf5cf1412ca0e03b6461c85b6b8b7f708d
 ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/06/2018
 ms.locfileid: "51196579"
@@ -44,7 +44,7 @@ Enterprise Mobility + Security 고객이면 Azure Portal이나 Office 365 포털
 
 Enterprise Mobility + Security 고객은 Azure 또는 Office 365 포털을 사용하여 Cloud App Security에 대한 지원 요청을 제출할 수 있습니다. 
 
-**Office 365 포털에서 지원 요청을 제출할 수 없습니다. 지원을 요청하는 데 사용할 수 있는 전화 번호가 있나요?**
+**Office 365 포털을 통해 지원 요청을 제출할 수 없습니다. 지원 센터에 전화를 걸려면 전화 번호가 있나요?**
 
 Office 365 지원에서 사용자 거주 지역에 해당하는 지원 전화 번호를 찾으세요.
 
@@ -56,11 +56,11 @@ Office 365 지원에서 사용자 거주 지역에 해당하는 지원 전화 �
 
 예, Microsoft 파트너는 직접 고객에게 지원을 제공할 수 있습니다. 제공 가능한 있는 지원의 수준을 파악할 수 있도록 먼저 Microsoft 파트너에 문의해 주세요.
 
-**이전에 Microsoft Intune을 소유했지만 기업 계약을 갱신하여 Enterprise Mobility + Security 라이선스를 포함했습니다. 라이선스를 관리하려면 어떻게 처리해야 하는가요?**
+**이전에 Intune을 소유 했지만 Enterprise Mobility + Security 라이선스를 사용 하 여 기업계약을 갱신 했습니다. 어떻게 할까요? 라이선스 관리를 처리 하 시겠습니까?**
 
 라이선스 할당을 위해 Azure 포털로 이동합니다. 그런 다음 환영 전자 메일의 지침에 따라 새 Enterprise Mobility + Security 라이선스를 관리해 주세요.
 
-**이전에 Office 365 구독에 가입했지만 ECS(Enterprise Cloud Suite)를 통해 해당 구독을 갱신하여 Office 365 및 Enterprise Mobility + Security를 포함했습니다. 라이선스를 관리하려면 어떻게 처리해야 하는가요?**
+**이전에는 Office 365 구독이 있지만 Office 365 및 Enterprise Mobility + Security을 포함 하는 ECS (Enterprise Cloud Suite)를 통해 내 구독을 갱신 했습니다. 어떻게 할까요? 라이선스 관리를 처리 하 시겠습니까?**
 
 라이선스 할당을 위해 Azure 포털로 이동합니다. 그런 다음 환영 전자 메일의 지침에 따라 새 Enterprise Mobility + Security 라이선스를 관리해 주세요.
 

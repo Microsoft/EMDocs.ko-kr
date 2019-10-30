@@ -12,7 +12,7 @@ ms.service: microsoft-intune
 ms.suite: ems
 ms.openlocfilehash: f933eedb9c8bd5eca8f384b1b5801b774311f99f
 ms.sourcegitcommit: 23d04d4ce0acb51b86b7702b9f0c3bb6b55b0043
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 09/12/2019
 ms.locfileid: "70936068"
@@ -21,7 +21,7 @@ ms.locfileid: "70936068"
 Microsoft에서는 미국 공공 부문의 고유하면서 진화하고 있는 요구 사항에 대한 대응으로 미국 정부 커뮤니티 고객을 위해 Enterprise Mobility + Security(EMS) 요금제를 만들었습니다. 이 문서에서는 EMS 요금제에 관련된 기능을 간단히 설명합니다.
 
 ## <a name="how-to-use-this-service-description"></a>서비스 설명을 사용하는 방법
-EMS for US Government 서비스 설명은 해당 제품의 개요를 제공하며, 다음을 다룹니다. (1) 다양한 제품에 포함된 서비스 및 기능, (2) US Government 제품과 기존 상업용 제품의 차이점, (3) 현재 규정 준수 인증.
+EMS의 EMS 서비스 설명은 해당 제품에 대 한 개요를 제공 하 고, (1) 다른 제품에 포함 된 서비스 및 기능, (2) 미국 정부 제품이 상업적와 어떻게 다른 지에 대 한 개요를 제공 합니다. 제품 및 (3) 현재 규정 준수 권한 부여.
 
 ## <a name="ems-offers-for-us-government-and-office-365-interoperability"></a>EMS는 US Government에 대한 Office 365 상호 운용성을 제공합니다.
 

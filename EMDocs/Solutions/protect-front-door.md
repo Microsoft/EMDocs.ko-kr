@@ -14,7 +14,7 @@ ms.suite: ems
 ms.custom: microsoft-identity-manager
 ms.openlocfilehash: a7248c16f450dd204921bf297c69eef4af6bb335
 ms.sourcegitcommit: 393421ada426fc958125e310b92e9a84b31a9c2d
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/10/2019
 ms.locfileid: "68937330"

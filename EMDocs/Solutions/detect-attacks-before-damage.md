@@ -14,7 +14,7 @@ ms.suite: ems
 ms.custom: advanced-threat-analytics, cloud-app-security
 ms.openlocfilehash: c3bac8e76e473030e4c10f7a9d9bc4a87ae78fe8
 ms.sourcegitcommit: 393421ada426fc958125e310b92e9a84b31a9c2d
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/10/2019
 ms.locfileid: "68937465"
@@ -58,10 +58,10 @@ ATA를 설치 하기 전에 먼저 일반적인 고려 사항을 확인하려면
 ## <a name="how-to-implement-this-solution"></a>이 솔루션을 구현하는 방법
 다음 단계에 따라 [Advanced Threats Analytics](https://docs.microsoft.com/advanced-threat-analytics/) 및 [Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)를 구현할 수 있습니다.
 
-- 1단계: ATA(Advanced Threat Analytics)를 사용하여 온-프레미스에서 의심스러운 활동 탐지
-- 2단계: Cloud App Security를 사용하여 클라우드 앱에 대한 위협 및 규정 준수 위반 탐지  
+- 1단계: Microsoft ATA(Advanced Threat Analytics)를 사용하여 온-프레미스에서 의심스러운 활동 검색
+- 2단계: Cloud App Security를 사용하여 클라우드 앱에 대한 위협 및 규정 준수 위반 검색  
 
-### <a name="step-1-using-ata-to-detect-suspicious-activity"></a>1단계: ATA를 사용하여 의심스러운 활동 탐지
+### <a name="step-1-using-ata-to-detect-suspicious-activity"></a>1단계: ATA를 사용하여 의심스러운 활동 검색
 기존의 보안 도구를 통한 지속적인 보고를 받고 이 중 중요하고 관련 있는 경고를 찾는 것은 부담스러울 수 있습니다. 대신 ATA는 사용이 쉽고, 드릴다운이 간단하고, 소셜 미디어 피드와 유사한 보고서 양식을 제공하여 IT에서 가장 중요한 것을 빠르게 집중할 수 있도록 지원합니다. 이 데이터 수를 타임라인으로 나타내면 누가 어떤 정보에 언제 어떻게 액세스하는지에 대한 효율적인 관점과 인사이트를 제공합니다.
 
 ATA에서 [공격 타임라인](https://docs.microsoft.com/advanced-threat-analytics/deploy-use/working-with-suspicious-activities)을 열면 의심스러운 활동이 포함된 종합 보고서가 표시되어 이 활동과 권장 사항에 대한 [엔터티](https://docs.microsoft.com/advanced-threat-analytics/plan-design/ata-architecture)를 볼 수 있습니다.
@@ -73,7 +73,7 @@ ATA에서 [공격 타임라인](https://docs.microsoft.com/advanced-threat-analy
 ATA는 결정 엔진과 검색 엔진 모두에서 기계 학습을 사용하여 사용자와 엔티티에 대한 일반적인 동작 패턴 이해를 설정합니다. 이 기능은 거대한 공격을 일으키는 매개체 전체에 대해 정확하고 시기 적절한 경고를 제공하게 하는 ATA의 고유한 기능입니다.
 
 
-### <a name="step-2-using-cloud-app-security-to-detect-threats-and-policy-violations-for-cloud-apps"></a>2단계: Cloud App Security를 사용하여 클라우드 앱에 대한 위협 및 정책 위반 탐지
+### <a name="step-2-using-cloud-app-security-to-detect-threats-and-policy-violations-for-cloud-apps"></a>2단계: Cloud App Security를 사용하여 클라우드 앱에 대한 위협 및 정책 위반 검색
 
 많은 조직에서는 비용 절감뿐 아니라 향상된 출시 시기와 효율적인 협업과 같은 경쟁 우위의 장벽을 허물기 위해 SaaS 앱을 채택하고 있습니다. 회사에서 클라우드 애플리케이션을 사용하지 않더라도 직원은 그럴 수도 있습니다. 연구에 따르면 직원의 80% 이상이 직장에서 승인 되지 않은 SaaS 앱을 사용하고 있음을 인정합니다.
 

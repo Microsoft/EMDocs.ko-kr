@@ -11,7 +11,7 @@ ms.prod: ''
 ms.service: ems
 ms.openlocfilehash: 262c21799bf7ad866ade136fdfbdd2b3a44535d5
 ms.sourcegitcommit: 393421ada426fc958125e310b92e9a84b31a9c2d
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/10/2019
 ms.locfileid: "68937414"
@@ -20,7 +20,7 @@ ms.locfileid: "68937414"
 
 ## <a name="how-to-use-this-service-description"></a>서비스 설명을 사용하는 방법 
 
-Azure Information Protection Premium Government 서비스 설명은 당사 제품에 대한 개요를 제공하며, 다음을 다룹니다. (1) 이 제품에 포함된 서비스 및 기능, (2) Government 제품과 기존 상업용 제품 사이의 차이점, (3) 현재 규정 준수 약정. 이 문서에는 고유한 약정 및 Azure Information Protection Premium 상업용 제품 대비 차이점이 정의되어 있습니다. 
+Azure Information Protection Premium Government 서비스 설명은 당사 제품에 대한 개요를 제공하며, (1) 이 제품에 포함된 서비스와 기능, (2) Government 제품과 기존 상업용 제품의 차이점 및 (3) 현재 규정 준수 약정이 포함되어 있습니다. 이 문서에는 고유한 약정 및 Azure Information Protection Premium 상업용 제품 대비 차이점이 정의되어 있습니다. 
 
 ## <a name="about-azure-information-protection-premium-government-environments"></a>Azure Information Protection Premium Government 환경 정보 
 
@@ -127,6 +127,6 @@ Windows의 AIP 앱은 특수 레지스트리 키를 GCC High/DoD에 대한 올�
 
 | 레지스트리 노드 | HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSIP |
 | --- | --- |
-| 이름 | WebServiceUrl |
-| 값 | https://api.informationprotection.azure.us |
-| 유형 | REG_SZ(문자열) |
+| Name | WebServiceUrl |
+| Value | https://api.informationprotection.azure.us |
+| Type | REG_SZ(문자열) |

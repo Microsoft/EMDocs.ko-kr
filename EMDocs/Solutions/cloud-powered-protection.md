@@ -15,7 +15,7 @@ ms.reviewer: atkladak, jsnow
 ms.suite: ems
 ms.openlocfilehash: 91234f0b3c3323cafafe29481db88cd2a2884a5b
 ms.sourcegitcommit: 393421ada426fc958125e310b92e9a84b31a9c2d
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/10/2019
 ms.locfileid: "68937411"
@@ -89,7 +89,7 @@ Microsoft는 이 분야에 계속 투자하고 있으며, 지속적으로 기존
 
 자세한 내용은 [Azure Active Directory ID 보호에서 감지되는 위험 이벤트 유형](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection-risk-events-types/)에서 확인할 수 있습니다.
 
-#### <a name="remediation"></a>수정
+#### <a name="remediation"></a>업데이트 관리
 인시던트를 개별적으로 처리하는 것 외에 Azure AD ID 보호에서는 사용자 위험 수정 정책을 구성하여 자동 관리 방식으로 가능한 문제를 해결할 수 있는 기능을 제공합니다. 정책 설정 내에서 개별 사용자, 그룹 또는 모든 사용자를 대상으로 지정할 수 있습니다. 또한 정책을 트리거하는 특정 조건을 설정할 수 있습니다.
 
 ![Azure AD ID 보호 대시보드에서 위험 이벤트를 바로 수정하는 방법을 보여 주는 스크린샷](./media/cloud-powered-protection/cloud-powered-protection-fig3.png)

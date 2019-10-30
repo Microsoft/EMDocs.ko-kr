@@ -14,7 +14,7 @@ ms.reviewer: ''
 ms.suite: ems
 ms.openlocfilehash: a7089bb5e9c2e1c00ad287f45822d30cc4e77651
 ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/06/2018
 ms.locfileid: "51196732"
@@ -55,7 +55,7 @@ Office 365 또는 Microsoft 계정을 사용하여 회사 리소스에 액세스
    ![사용자의 사용자 ID나 암호가 인식되지 않는 경우 받는 첫 번째 메시지를 보여 주는 스크린샷](./media/ft-mngPW-6-resetPWbegin.png)
 2. "귀하는 누구인가요?" 페이지에서 회사 또는 학교 계정 ID를 입력하고 CAPTCHA를 전달하여 로봇이 아님을 증명합니다.
    ![사용자에게 사용자 ID와 표시된 captcha 코드를 입력하도록 요청하는 메시지를 보여 주는 스크린샷](./media/ft-mngPW-7-enterID.png)
-3. **다음**을 클릭합니다.
+3. 클릭 하 여 **다음**.
 4. 암호를 재설정하는 옵션을 선택합니다. 관리자가 시스템을 구성한 방법에 따라 다음 선택 항목 중 하나 이상이 표시될 수 있습니다.
    - **내 암호 확인용 메일 주소로 메일 보내기** - 6자리 코드가 포함된 메일을 암호 확인용 메일 또는 인증 메일(사용자가 선택)로 보냅니다.
    - **내 휴대폰으로 문자 메시지 보내기** - 6자리 코드가 포함된 문자 메시지를 휴대폰 또는 인증 메일(사용자가 선택)로 보냅니다.

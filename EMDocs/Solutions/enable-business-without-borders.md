@@ -15,7 +15,7 @@ ms.reviewer: atkladak, jsnow
 ms.suite: ems
 ms.openlocfilehash: b1d2689c366872b9f9c559ae12e7cd4de032bb6d
 ms.sourcegitcommit: 393421ada426fc958125e310b92e9a84b31a9c2d
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/10/2019
 ms.locfileid: "68937440"
