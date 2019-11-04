@@ -12,12 +12,12 @@ ms.assetid: c9aeabcf-db9b-4a35-b1bc-61331c464165
 ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: microsoft-identity-manager
-ms.openlocfilehash: a7248c16f450dd204921bf297c69eef4af6bb335
-ms.sourcegitcommit: 393421ada426fc958125e310b92e9a84b31a9c2d
+ms.openlocfilehash: 897e5643013fddd2fd99de3ccf3d56069022297c
+ms.sourcegitcommit: fd344763857d03303006b9da4f6931ed320d27ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "68937330"
+ms.lasthandoff: 11/03/2019
+ms.locfileid: "73462570"
 ---
 # <a name="protect-at-the-front-door"></a>첫 번째 관문에서 보호
 
@@ -57,7 +57,7 @@ EMS(Enterprise Mobility + Security) 보안 접근 방식은 위험 기반의 [�
 - 6단계: Privileged Identity Management 작업
 
 
-## <a name="how-to-protect-your-resources-at-the-front-door"></a>첫 번째 관문에서 리소스를 보호하는 방법
+## <a name="how-to-protect-your-resources-at-the-front-door"></a>프런트 도어에서 리소스를 보호 하는 방법
 
 조직마다 다른 인시던트 우선 순위 개념을 갖습니다. 한 LOB(기간 업무)에 중요한 인시던트가 다른 LOB에는 중요하지 않을 수도 있습니다. 이러한 이유로 먼저 Azure AD ID 보호에서 [위험 수준](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection/#detection-and-risk)을 분류하는 방식을 알아야 합니다. 이 위험 수준은 위험 이벤트의 심각도(높음, 중간 또는 낮음)를 나타내는 지표입니다. Azure AD ID 보호는 사용자의 ID가 손상될 가능성을 평가하고 [사용자 위험 수준](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection/#what-is-a-user-risk-level)이라는 자체 위험 수준을 할당합니다. Azure AD ID 보호는 [취약성](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection-vulnerabilities/)을 파악하고 위험 수준을 할당합니다. 다양한 [위험 유형](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection-risk-events-types/)이 있으며 각 유형은 중요도에 따라 순위가 지정됩니다. 1~3단계에 따라 Azure AD ID 보호를 사용하여 리소스를 사용하도록 설정, 구현 및 모니터링하세요.
 

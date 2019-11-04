@@ -1,5 +1,5 @@
 ---
-title: IT 관리자를 위한 최종 사용자 Intune 등록 지침
+title: IT 관리자를 위한 최종 사용자 Microsoft Intune 등록 지침
 description: IT 관리자를 위한 최종 사용자 Intune 등록 지침
 keywords: ''
 author: dougeby
@@ -12,12 +12,12 @@ ms.service: microsoft-intune
 ms.assetid: 5c13446e-aa31-47df-ad9d-373be7660197
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 2b9f32d79ab00c55962df67cab9bc2bad9549c44
-ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
+ms.openlocfilehash: 5d023718737bc4d66a8a852d1d538dc2535b1a9b
+ms.sourcegitcommit: fd344763857d03303006b9da4f6931ed320d27ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51196817"
+ms.lasthandoff: 11/03/2019
+ms.locfileid: "73462583"
 ---
 # <a name="end-user-intune-enrollment-instructions-for-it-administrators"></a>IT 관리자를 위한 최종 사용자 Intune 등록 지침
 

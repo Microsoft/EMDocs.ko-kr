@@ -8,18 +8,16 @@ manager: angrobe
 ms.date: 6/12/2017
 ms.topic: article
 ms.prod: ''
-ms.service: ems
-ms.assetid: 7bfee675-ec69-479c-bda2-f807bbb55712
-ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 50326fcf5cf1412ca0e03b6461c85b6b8b7f708d
-ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
+ms.service: microsoft-intune
+ms.openlocfilehash: af64b84991571cbd4f79ba873f295265b80ba41d
+ms.sourcegitcommit: fd344763857d03303006b9da4f6931ed320d27ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51196579"
+ms.lasthandoff: 11/03/2019
+ms.locfileid: "73462540"
 ---
-# <a name="enterprise-mobility--security-support-faqs"></a>Enterprise Mobility + Security 지원 FAQ
+# <a name="enterprise-mobility--security-support-faqs"></a>Enterprise Mobility + Security 지원 Faq
 EMS(Enterprise Mobility + Security)를 지지하기 위해 전세계적 사전 판매, 청구, 구독 및 기술 지원이 제공됩니다.  자세한 내용은 아래를 참조하세요.
 
 ## <a name="answers-to-common-ems-support-questions"></a>EMS 지원과 관련된 일반적인 질문과 답변

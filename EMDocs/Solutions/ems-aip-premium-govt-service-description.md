@@ -1,6 +1,6 @@
 ---
 title: Azure Information Protection Premium Government 서비스 설명
-description: Azure Information Protection Premium Government 서비스 설명은 당사 제품에 대한 개요를 제공합니다.
+description: Azure Information Protection 프리미엄 정부 서비스 설명은 제공의 개요를 제공 하도록 설계 되었습니다.
 keywords: ''
 author: dougeby
 ms.author: dougeby
@@ -8,13 +8,14 @@ manager: dougeby
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: ems
-ms.openlocfilehash: 262c21799bf7ad866ade136fdfbdd2b3a44535d5
-ms.sourcegitcommit: 393421ada426fc958125e310b92e9a84b31a9c2d
+ms.service: rights-management
+ms-suite: ems
+ms.openlocfilehash: 23a322ce5c45bde717831f386d676f3330a4d7b7
+ms.sourcegitcommit: fd344763857d03303006b9da4f6931ed320d27ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "68937414"
+ms.lasthandoff: 11/03/2019
+ms.locfileid: "73462529"
 ---
 # <a name="azure-information-protection-premium-government-service-description"></a>Azure Information Protection Premium Government 서비스 설명 
 
