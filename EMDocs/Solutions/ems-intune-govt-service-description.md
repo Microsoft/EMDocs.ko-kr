@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.suite: ems
-ms.openlocfilehash: 29c9d2b91271d7293c9b087f8bee1c691b22099a
-ms.sourcegitcommit: fd344763857d03303006b9da4f6931ed320d27ca
+ms.openlocfilehash: a778fded39a080b721b6e37d3925e42a0e09f029
+ms.sourcegitcommit: c63d47c411504fb84651c43bb6851d9692450067
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2019
-ms.locfileid: "73462670"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753903"
 ---
 # <a name="microsoft-intune-for-us-government-gcc-high-and-dod-service-description"></a>미국 정부 GCC High 및 DoD 서비스 설명에 대 한 Microsoft Intune
 
@@ -30,8 +30,8 @@ Intune GCC High 및 DoD 제품은 Microsoft Azure Government 클라우드에 빌
 
 - **Intune GCC High 및 DoD의 기능 변형**
 
-  - GCC High 및 D0D 용 Intune은 독립 실행형 배포만 지원 합니다. SCCM(System Center Configuration Manager)을 포함한 하이브리드 설정은 지원하지 않습니다. 
-  - GCC High 및 D0D 용 intune은 Intune 에이전트를 사용 하 여 레거시 PC 관리를 지원 하지 않습니다. Windows 10 관리는 최신 MDM 채널을 통해 지원됩니다. 
+  - GCC High 및 DoD 고객용 Intune은 독립 실행형 배포만 지원 합니다. SCCM(System Center Configuration Manager)을 포함한 하이브리드 설정은 지원하지 않습니다. 
+  - GCC High 및 DoD 고객용 intune은 Intune 에이전트를 사용 하 여 레거시 PC 관리를 지원 하지 않습니다. Windows 10 관리는 최신 MDM 채널을 통해 지원됩니다. 
   - GCC High 및 DoD 고객용 Intune은 온-프레미스 Exchange Connector를 지원 하지 않습니다. 
   - 공동 관리 지원은 Configuration Manager 버전 1906 이상 에서만 사용할 수 있습니다. 
   - 이번에는 Windows Autopilot 및 비즈니스 스토어 기능이 GCC High 및 DoD 고객에 게 제공 되지 않습니다. 계획은 진행 중입니다. 
