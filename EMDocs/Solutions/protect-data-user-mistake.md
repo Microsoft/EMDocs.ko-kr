@@ -13,10 +13,10 @@ ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: information-protection
 ms.openlocfilehash: 13226496cb31c88a600551acc5295bc111e79d35
-ms.sourcegitcommit: cf934b76e62ec78eca48b50e7ea00ee614c0b05e
+ms.sourcegitcommit: c63d47c411504fb84651c43bb6851d9692450067
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2019
+ms.lasthandoff: 12/05/2019
 ms.locfileid: "56079512"
 ---
 # <a name="protect-data-against-user-mistakes"></a>사용자 실수로부터 데이터 보호

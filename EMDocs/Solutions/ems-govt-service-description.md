@@ -11,10 +11,10 @@ ms.prod: ''
 ms.service: microsoft-intune
 ms.suite: ems
 ms.openlocfilehash: e60ed45c1f7f97b340de644afe684a7d5cd95d89
-ms.sourcegitcommit: fd344763857d03303006b9da4f6931ed320d27ca
+ms.sourcegitcommit: c63d47c411504fb84651c43bb6851d9692450067
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2019
+ms.lasthandoff: 12/05/2019
 ms.locfileid: "73462518"
 ---
 # <a name="enterprise-mobility--security-for-us-government-service-description"></a>US Government용 Enterprise Mobility + Security 서비스 설명
@@ -42,7 +42,7 @@ Enterprise Mobility + Security에 있는 각 제품 및 해당 계획에 대 한
 ## <a name="ems-for-us-gcc-customers"></a>미국 GCC 고객용 EMS
 Azure Active Directory P1/P2, Microsoft Intune, Azure Information Protection P1/P2는 Azure 상업용 환경에서 호스팅되며 Office 365 GCC 플랫폼과 상호 운용 가능합니다.  이러한 서비스는 FedRAMP-High 인증을 받았으며 모든 [GCC 규정 준수](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc#us-government-community-compliance) 특성을 충족합니다.
 
-GCC 고객은 EMS E5 SKU를 구매하여 Microsoft Cloud App Security 및 Azure ATP 상업용 제품의 추가 기능을 선택할 수 있습니다. Microsoft Cloud App Security 및 Azure ATP는 ATO (Azure 상용 FedRAMP High 권한 부여가 적용 되는 상업적 제품 이지만 CJIS 백그라운드 차단, IRS 1075,에 대 한 액세스 등 다른 [GCC 준수](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc#us-government-community-compliance) 특성을 충족 하지 못할 수 있습니다. 미국 정부 기관 직원의 고객 콘텐츠  Microsoft 제품 및 서비스용 규정 준수 제품 목록은 [Microsoft 보안 센터](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings)에서 찾을 수 있습니다.  
+GCC 고객은 EMS E5 SKU를 구매하여 Microsoft Cloud App Security 및 Azure ATP 상업용 제품의 추가 기능을 선택할 수 있습니다. Microsoft Cloud App Security 및 Azure ATP는 ATO (Azure 상용 FedRAMP High 권한 부여가 적용 되는 상업적 제품 이지만 CJIS 백그라운드 차단, IRS 1075 및 미국 정부 직원의 고객 콘텐츠에 대 한 액세스와 같은 다른 [GCC 준수](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc#us-government-community-compliance) 특성을 충족 하지 못할 수 있습니다.  Microsoft 제품 및 서비스용 규정 준수 제품 목록은 [Microsoft 보안 센터](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings)에서 찾을 수 있습니다.  
 
 ## <a name="ems-for-us-gcc-high-and-dod-customers"></a>미국 GCC High 및 DoD 고객의 EMS
 미국 GCC High 및 DOD 고객에 대 한 EMS 제품은 Microsoft [Azure Government](https://docs.microsoft.com/azure/azure-government/documentation-government-welcome) 클라우드를 기반으로 하며, OFFICE 365 GCC HIGH 및 dod 환경과 함께 작동 하도록 설계 되었습니다. EMS E5 제품군은 GCC High 및 DoD 고객 모두에 대해 사용할 수 있지만 Microsoft Cloud App Security 및 Azure Advanced Threat Protection은 GCC High 고객만 사용할 수 있습니다. Azure Active Directory P1/P2, Microsoft Intune 및 Azure Information Protection P1/P2는 인증 FedRAMP 높습니다.
@@ -76,8 +76,8 @@ GCC High 및 DOD 고객은 다양 한 요구 사항 및 관리 요구 사항에 
 ### <a name="us-government-gcchigh-and-dod-customers"></a>미국 정부 GCCHigh 및 DoD 고객
 미국 정부 GCC High 및 DOD 제품에 대해 EMS를 사용 하는 조직은 다음과 같은 기능을 활용할 수 있습니다. 
 - 조직의 고객 콘텐츠는 Microsoft의 상용 서비스에서 고객 콘텐츠와 물리적으로 분리 됩니다. 
-- 조직의 고객 콘텐츠는 미국 내에 저장 됩니다. 
-- 조직의 고객 콘텐츠에 대 한 액세스는 스크린 된 Microsoft 담당자 에게만 제한 됩니다. 
+- 조직의 고객 콘텐츠가 미국 내에 저장됩니다. 
+- 조직의 고객 콘텐츠에 엄격히 선별된 Microsoft 직원만 액세스할 수 있습니다. 
 - 방어 보안 요구 사항 지침, DFARS (인가) 및 국제 트래픽을 비롯 한 미국 공공 부문 고객에 게 필요한 인증 및 준수 ITAR (Arm 규정) 
 
 자세한 내용은 [Microsoft 보안 센터](https://products.office.com/en-us/where-is-your-data-located?ms.officeurl=datamaps&geo=All#office-ContentAreaHeadingTemplate-bkjgypc) 페이지에서 찾을 수 있습니다. 

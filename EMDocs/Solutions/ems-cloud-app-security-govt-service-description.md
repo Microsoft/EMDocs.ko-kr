@@ -11,10 +11,10 @@ ms.prod: ''
 ms.service: cloud-app-security
 ms.suite: ems
 ms.openlocfilehash: c0e22cdbbbddf99edb3b3e862afd58ad11c941ea
-ms.sourcegitcommit: fd344763857d03303006b9da4f6931ed320d27ca
+ms.sourcegitcommit: c63d47c411504fb84651c43bb6851d9692450067
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2019
+ms.lasthandoff: 12/05/2019
 ms.locfileid: "73462687"
 ---
 # <a name="microsoft-cloud-app-security-government-service-description"></a>Microsoft Cloud App Security 정부 서비스 설명
@@ -30,7 +30,7 @@ Microsoft Cloud App Security GCC High 제품은 Microsoft Azure Government 클�
 시작 하려면 Microsoft Cloud App Security GCC High portal에 액세스 하기 위한 [기본 설정](https:/docs.microsoft.com/cloud-app-security/general-setup) 페이지를 활용 하 고 [네트워크 요구 사항이](https://docs.microsoft.com/cloud-app-security/network-requirements) 구성 되어 있는지 확인 합니다. 다른 자세한 지침은 방법 가이드의 추가 단계를 따르세요. 
 
 ## <a name="feature-variations-in-microsoft-cloud-app-security-gcc-high"></a>Microsoft Cloud App Security GCC High의 기능 변형 
-별도로 지정 하지 않는 한, [Microsoft Cloud App Security의 새로운](https://docs.microsoft.com/cloud-app-security/release-notes)기능에서 설명 하는 미리 보기 기능을 비롯 한 새로운 기능 릴리스는 Microsoft Cloud App Security 상업적 출시 3 개월 이내에 GCC 이상에서 사용할 수 있습니다. 환경 (별도로 지정 하지 않은 경우) 
+별도로 지정 하지 않는 한, [Microsoft Cloud App Security의 새로운](https://docs.microsoft.com/cloud-app-security/release-notes)기능에 설명 된 미리 보기 기능을 비롯 한 새로운 기능 릴리스는 다른 언급이 없는 한, Microsoft Cloud App Security 상용 환경에서 3 개월 후의 GCC 이상에서 사용할 수 있습니다. 
 
 ## <a name="api-connector"></a>API 커넥터 
 

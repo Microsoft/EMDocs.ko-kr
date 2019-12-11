@@ -10,10 +10,10 @@ ms.service: rights-management
 ms.reviewer: v-craic
 ms.suite: ems
 ms.openlocfilehash: 7fd4ab09de4cf050b9300a9dd340b33338a4d8d2
-ms.sourcegitcommit: 393421ada426fc958125e310b92e9a84b31a9c2d
+ms.sourcegitcommit: c63d47c411504fb84651c43bb6851d9692450067
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2019
+ms.lasthandoff: 12/05/2019
 ms.locfileid: "68937394"
 ---
 # <a name="the-role-of-azure-information-protection-in-securing-data"></a>데이터 보안 유지에서 Azure Information Protection의 역할

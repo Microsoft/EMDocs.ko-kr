@@ -11,10 +11,10 @@ ms.prod: ''
 ms.service: azure-advanced-threat-protection
 ms.suite: ems
 ms.openlocfilehash: 463620e1d5e97c9e9db00f94063ddbe8d11aacbb
-ms.sourcegitcommit: fd344763857d03303006b9da4f6931ed320d27ca
+ms.sourcegitcommit: c63d47c411504fb84651c43bb6851d9692450067
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2019
+ms.lasthandoff: 12/05/2019
 ms.locfileid: "73462653"
 ---
 # <a name="azure-advanced-threat-protection-security-government-service-description"></a>Azure Advanced Threat Protection 보안 정부 서비스 설명
@@ -24,14 +24,14 @@ Azure ATP 미국 정부 서비스 설명은 GCC High environment의 서비스 �
 GCC 고객을 위한 Azure ATP에 대 한 자세한 내용은 [미국 Office 365 GCC 고객의 EMS에 대 한](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-govt-service-description#ems-for-us-office-365-gcc-customers)설명을 참조 하세요.   
 
 ## <a name="getting-started-with-azure-atp-for-us-government-gcc-high"></a>미국 정부 GCC High 용 Azure ATP 시작 
-Azure ATP GCC High 제품은 Microsoft Azure Government 클라우드를 기반으로 하며 Office 365 GCC High와의 상호 작용을 위해 설계 되었습니다. 서비스 및 사용 방법에 대 한 자세한 내용은 [AZURE ATP 공용 설명서](https://docs.microsoft.com/azure-advanced-threat-protection/)에서 찾을 수 있습니다. 공용 설명서를 사용 하 여 서비스를 배포 하 고 운영 하는 출발점으로 사용 하 고, GCC High 환경의 기능이 나 기능에서 제공 하는 다음과 같은 서비스 설명 세부 정보 및 변경 사항을 사용 해야 합니다.
+Azure ATP GCC High 제품은 Microsoft Azure Government Cloud를 기반으로 하며 Office 365 GCC High 제품과 상호 운용되도록 디자인되었습니다. 서비스 및 사용 방법에 대 한 자세한 내용은 [AZURE ATP 공용 설명서](https://docs.microsoft.com/azure-advanced-threat-protection/)에서 찾을 수 있습니다. 공용 설명서를 사용 하 여 서비스를 배포 하 고 운영 하는 출발점으로 사용 하 고, GCC High 환경의 기능이 나 기능에서 제공 하는 다음과 같은 서비스 설명 세부 정보 및 변경 사항을 사용 해야 합니다.
 
-시작 하려면 azure atp GCC High 포털에 대 한 액세스를 위한 [azure atp 인스턴스 만들기](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) 페이지를 비롯 한 azure atp 빠른 시작 가이드를 활용 하 고, 다음을 설치 하려면 관련 azure atp 클라우드 서비스 끝점에 연결 되어 있는지 확인 하세요. [ Azure ATP 센서](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step4). 다른 자세한 지침은 방법 가이드의 추가 단계를 따르세요.  
+시작 하려면 azure atp GCC High 포털에 대 한 액세스를 위한 [azure atp 인스턴스 만들기](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) 페이지를 비롯 한 azure atp 빠른 시작 가이드를 활용 하 고, [azure Atp 센서를 설치](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step4)하기 위해 관련 azure atp 클라우드 서비스 끝점에 연결 되어 있는지 확인 합니다. 다른 자세한 지침은 방법 가이드의 추가 단계를 따르세요.  
 
 ## <a name="feature-variations-in-azure-atp-gcc-high"></a>Azure ATP GCC High의 기능 변형 
 별도로 지정 하지 않는 한 azure [atp의 새로운](https://docs.microsoft.com/azure-advanced-threat-protection/atp-whats-new)기능에 설명 된 미리 보기 기능을 비롯 한 새로운 기능 릴리스는 azure atp 상업적 환경에서 3 주 동안 GCC 이상에서 사용할 수 있습니다. 미리 보기 기능은 GCC High environment에서 지원 되지 않을 수 있습니다. 상용 제품에서 일반적으로 사용할 수 있는 기능에 대 한 특정 기능 분산이 아래에 설명 되어 있습니다. 
 
-### <a name="integrations"></a>모듈  
+### <a name="integrations"></a>통합  
 다음 통합을 사용할 수 없습니다. 
 - Microsoft Defender Advanced Threat Protection과 통합 (Microsoft Defender ATP)  
 - Vpn 통합, VPN 솔루션에서 계정 정보를 수집 하는 기능 제공
