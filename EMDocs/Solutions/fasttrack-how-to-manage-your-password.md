@@ -12,12 +12,12 @@ ms.service: microsoft-intune
 ms.assetid: 162e59f3-33a2-44b5-a59f-24612dc743f3
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: a7089bb5e9c2e1c00ad287f45822d30cc4e77651
-ms.sourcegitcommit: c63d47c411504fb84651c43bb6851d9692450067
+ms.openlocfilehash: 2f33a902a66a1b24f07850bb7c3e71decc0f455f
+ms.sourcegitcommit: 5934334420a8ca02c26ffb1d8f19c185a4c3a741
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "51196732"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75692355"
 ---
 # <a name="how-to-manage-your-own-password"></a>자신의 암호를 관리하는 방법
 
@@ -25,9 +25,9 @@ Office 365 또는 Microsoft 계정을 사용하여 회사 리소스에 액세스
 
 ## <a name="how-to-register-for-password-reset"></a>암호 재설정을 위한 등록 방법
 
-암호 재설정을 위한 가장 빠른 등록 방법은 [http://aka.ms/ssprsetup](http://aka.ms/ssprsetup)으로 이동하는 것입니다.
+암호 재설정을 위한 가장 빠른 등록 방법은 [https://aka.ms/ssprsetup](https://aka.ms/ssprsetup)으로 이동하는 것입니다.
 
-1. [http://aka.ms/ssprsetup](http://aka.ms/ssprsetup)으로 이동합니다.
+1. [https://aka.ms/ssprsetup](https://aka.ms/ssprsetup)으로 이동합니다.
 2. 사용자 이름과 암호를 입력합니다.
 3. **지금 설정하세요.** 를 클릭하여 등록 옵션을 선택합니다. 이 경우 **인증 전화**를 등록하는 과정을 보여드리겠습니다.
 ![blahblah를 보여 주는 스크린샷](./media/ft-mngPW-1-setup.png)
@@ -49,7 +49,7 @@ Office 365 또는 Microsoft 계정을 사용하여 회사 리소스에 액세스
 > [!IMPORTANT]
 > 사용자는 관리자가 이 기능을 켠 경우에만 이 기능을 사용할 수 있습니다. 이 기능이 켜지지 않은 경우 계정이 이 기능을 사용하도록 설정되지 않았음을 나타내는 메시지가 표시됩니다. 이 경우 "관리자에게 문의" 링크를 사용하여 관리자에게 연락해 계정을 잠금 해제할 수 있습니다.
 > 
-> 관리자가 이 기능을 사용하도록 사용자를 설정한 경우 먼저 등록해야 이 기능을 사용할 수 있습니다. 여기([http://aka.ms/ssprsetup](http://aka.ms/ssprsetup))서 이렇게 할 수 있습니다.
+> 관리자가 이 기능을 사용하도록 사용자를 설정한 경우 먼저 등록해야 이 기능을 사용할 수 있습니다. 여기([https://aka.ms/ssprsetup](https://aka.ms/ssprsetup))서 이렇게 할 수 있습니다.
 
 1. 회사 또는 학교 계정 로그인 페이지에서 "계정에 액세스할 수 없으세요?" 또는 "암호를 잊으셨나요?" 링크 중 하나를 클릭하거나 직접 [https://passwordreset.microsoftonline.com](https://passwordreset.microsoftonline.com)으로 이동합니다.
    ![사용자의 사용자 ID나 암호가 인식되지 않는 경우 받는 첫 번째 메시지를 보여 주는 스크린샷](./media/ft-mngPW-6-resetPWbegin.png)

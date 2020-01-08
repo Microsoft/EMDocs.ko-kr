@@ -13,12 +13,12 @@ ms.assetid: 0292919a-af10-4a25-8916-c704aed643f6
 ROBOTS: ''
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-ms.openlocfilehash: 71ca78aa4e69cca5030672d02e373a34907d5605
-ms.sourcegitcommit: c63d47c411504fb84651c43bb6851d9692450067
+ms.openlocfilehash: 3a4037d33b75b606629b00f441ba458f4562346f
+ms.sourcegitcommit: 5934334420a8ca02c26ffb1d8f19c185a4c3a741
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "68937497"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75692377"
 ---
 # <a name="manage-access-at-scale"></a>대규모 액세스 관리
 Microsoft는 지금까지 많은 조직을 지원해 왔습니다. Microsoft는 어디서든 사용할 수 있는 ID뿐만 아니라 조직 내에서 IT를 자동화하고, 보호하고, 관리하는 다양한 도구도 제공합니다. 클라우드 컴퓨팅이 등장한 이후에도 사용자 암호 다시 설정에 관한 지원 센터 문의를 비롯하여 사용자 그룹 관리, 앱 요청 등의 다양한 IT 작업을 관리하고 제어해 달라는 요구는 여전합니다.
@@ -101,9 +101,9 @@ Azure AD Premium을 사용할 경우 사용자에게 암호 재설정 셀프 서
 Azure AD 테넌트에서 [필수 구성 요소, 암호 셀프 서비스 포털을 사용하도록 설정하고 구성하는 방법](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-manage-groups/)에 대해 자세히 알아보세요.
 
 ## <a name="how-to-use-azure-ad-connect-health"></a>Azure AD Connect Health를 사용하는 방법
-[Azure AD Connect Health 설명서](https://azure.microsoft.com/en-in/documentation/articles/active-directory-aadconnect-health/)를 확인하여 조직에서 이 기능을 사용하기 위해 사용할 수 있는 도구, 해당 기능 및 작업 단계를 알아볼 수 있습니다.
+[Azure AD Connect Health 설명서](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-azure-ad-connect)를 확인하여 조직에서 이 기능을 사용하기 위해 사용할 수 있는 도구, 해당 기능 및 작업 단계를 알아볼 수 있습니다.
 
-Azure AD Connect Health는 [Azure Portal](https://ms.portal.azure.com)에서 사용할 수 있으며 모니터링하려는 온-프레미스 도메인 컨트롤러에 상태 에이전트가 설치되어 있어야 합니다. [상태 에이전트를 설치하는 방법](https://azure.microsoft.com/en-in/documentation/articles/active-directory-aadconnect-health-agent-install/)에 대한 자세한 정보
+Azure AD Connect Health는 [Azure Portal](https://ms.portal.azure.com)에서 사용할 수 있으며 모니터링하려는 온-프레미스 도메인 컨트롤러에 상태 에이전트가 설치되어 있어야 합니다. [상태 에이전트를 설치하는 방법](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-agent-install)에 대한 자세한 정보
 
 **도메인 컨트롤러** 대시보드는 환경의 상태 및 작업 상황에 대한 단일 뷰를 제공합니다. 따라서 관리자는 어떤 DC가 FSMO(Flexible Single Master Operation) 역할 소유자인지, 어떤 DC가 활성 경고인지, 어떤 DC가 글로벌 카탈로그인지 쉽게 파악할 수 있습니다. 다른 열에는 **PDC 연결 가능**, **GC 연결 가능** 및 **SYSVOL 상태**가 포함됩니다.
 
