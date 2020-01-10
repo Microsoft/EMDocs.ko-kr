@@ -7,12 +7,12 @@ ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
 hide_bc: true
 featureFlags:
 - clicktale
-ms.openlocfilehash: fed77d822a67010f94e360050d6047a75f241901
-ms.sourcegitcommit: 75ba5494047b2405c0fb6bfcf20b962c45ec658b
+ms.openlocfilehash: 77f7b3a34526702a6b6affedb0ca19e58c741371
+ms.sourcegitcommit: 5934334420a8ca02c26ffb1d8f19c185a4c3a741
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51196630"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75692350"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -54,7 +54,7 @@ ms.locfileid: "51196630"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Microsoft Intune</h3>
+                                                    <h3>Microsoft Intune</h3>
                                                     <p>클라우드에서 모바일 디바이스, 앱 및 PC를 관리합니다.</p>
                                                 </div>
                                             </div>
@@ -63,7 +63,7 @@ ms.locfileid: "51196630"
                                 </a>
                             </li>
                             <li>
-                                <a href="/sccm/">
+                                <a href="/configmgr/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -73,8 +73,8 @@ ms.locfileid: "51196630"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>System Center Configuration Manager</h3>
-                                                    <p>온-프레미스 및 클라우드 기반 인프라를 사용하여 PC, 서버 및 iPhone과 Android 디바이스 같은 모바일 디바이스 관리 </p>
+                                                    <h3>Microsoft Endpoint Configuration Manager</h3>
+                                                    <p>클라우드 기반 정보를 토대로 온-프레미스 PC, 서버, 모바일 디바이스 관리 </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -186,7 +186,7 @@ ms.locfileid: "51196630"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Microsoft Identity Manager</h3>
+                                                    <h3>Microsoft  Identity  Manager</h3>
                                                     <p>자동화된 워크플로, 셀프 서비스 등을 사용하여 ID 관리</p>
                                                 </div>
                                             </div>
@@ -200,7 +200,7 @@ ms.locfileid: "51196630"
             </li>
             <li>
 
-                <a href="#more">추가 리소스</a>
+                <a href="#more">기타 참고 자료</a>
                 <ul id="more">
                     <li>
                         <a href="#more-all"></a>
