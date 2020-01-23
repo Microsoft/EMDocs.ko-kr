@@ -5,58 +5,27 @@ keywords: ''
 author: dougeby
 ms.author: dougeby
 manager: dougeby
-ms.date: 05/29/2019
+ms.date: 01/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: rights-management
 ms-suite: ems
-ms.openlocfilehash: 23a322ce5c45bde717831f386d676f3330a4d7b7
-ms.sourcegitcommit: c63d47c411504fb84651c43bb6851d9692450067
+ms.openlocfilehash: bb5a22063ce8dfeaa1f2303b3c41827746a9f69f
+ms.sourcegitcommit: cdf0b5b826aeaf0cf6c3a6cd180d44b9e13d543a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "73462529"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76549783"
 ---
 # <a name="azure-information-protection-premium-government-service-description"></a>Azure Information Protection Premium Government 서비스 설명 
 
 ## <a name="how-to-use-this-service-description"></a>서비스 설명을 사용하는 방법 
 
-Azure Information Protection Premium Government 서비스 설명은 당사 제품에 대한 개요를 제공하며, (1) 이 제품에 포함된 서비스와 기능, (2) Government 제품과 기존 상업용 제품의 차이점 및 (3) 현재 규정 준수 약정이 포함되어 있습니다. 이 문서에는 고유한 약정 및 Azure Information Protection Premium 상업용 제품 대비 차이점이 정의되어 있습니다. 
-
-## <a name="about-azure-information-protection-premium-government-environments"></a>Azure Information Protection Premium Government 환경 정보 
-
-Azure Information Protection Premium Government 플랜은 월간 구독이며 사용자별로 라이선스가 부여됩니다. Azure Information Protection Premium Government를 사용하는 조직은 다음과 같이 고유한 기능을 활용할 수 있습니다. 
-
-* 조직의 콘텐츠가 Microsoft 상업용 Azure Information Protection Premium 서비스의 콘텐츠와 물리적으로 구분됩니다. 
-
-* 조직의 콘텐츠는 미국 내에 저장됩니다. 
-
-* 사용자의 콘텐츠가 포함된 Microsoft 시스템에 대한 액세스는 선별된 Microsoft 담당자로 제한됩니다. 
-
-* Azure Information Protection Premium Government는 미국 공공 부문 고객에게 필요한 공통 인증 및 인가를 준수합니다. 
-
-## <a name="customer-eligibility"></a>고객 자격 
-
-Azure Information Protection Premium Government는 (1) 미국 연방, 주, 지방, 부족 정부 기관 및 (2) 정부 규정 및 요구 사항을 충족하는 데이터를 처리하는 기타 기관에서 Azure Information Protection Premium Government 사용이 이러한 요구 사항을 충족하는 데 적합하고 자격에 대한 유효성 검사를 준수하는 경우에 사용할 수 있습니다. Microsoft의 자격 유효성 검사에는 정부가 규제하거나 통제하는 데이터 처리에 대한 확인이 포함됩니다. 이 제품은 사용자가 500명 이상인 고객에게만 제공됩니다. Azure Information Protection Premium Government 자격에 대해 질문이 있는 기관은 해당 계정 팀에 문의해야 합니다. 
-
-## <a name="location-of-customer-data"></a>고객 데이터의 위치 
-
-Azure Information Protection Premium Government 서비스는 미국에 물리적으로 위치한 데이터 센터에서 제공됩니다. 모든 콘텐츠는 실제로 미국에만 있는 데이터 센터에 안전하게 저장됩니다. 
+Azure Information Protection 프리미엄 정부 서비스 설명은 GCC High 및 DoD 환경에서 제공 하는 기능에 대 한 개요를 제공 하 고 Azure Information Protection Premium 상용에 비해 기능 변형을 다룹니다. 제공품. GCC 고객의 Azure Information Protection에 대 한 자세한 내용은 [미국 정부 및 Office 365 상호 운용성에 대 한 EMS 제품](ems-govt-service-description.md#ems-offers-for-us-government-and-office-365-interoperability)설명을 참조 하세요.
 
 ## <a name="azure-information-protection-premium-government-and-third-party-services"></a>Azure Information Protection Premium Government 및 타사 서비스 
 
 다양한 Azure Information Protection Premium 서비스는 타사 애플리케이션 및 서비스와 원활하게 작동하는 기능을 제공합니다. 이러한 타사 애플리케이션 및 서비스에는 Azure Information Protection Premium 인프라 외부에 있는 타사 시스템에 조직의 고객 콘텐츠를 저장, 전송 및 처리하는 작업이 포함될 수 있으므로 당사의 규정 준수 및 데이터 보호 약정이 적용되지 않습니다. 조직에 이러한 서비스를 사용하는 것이 적절한지 평가하는 경우에는 타사가 제공하는 개인 정보 보호 및 규정 준수 문서를 검토하는 것이 좋습니다. 
-
-## <a name="azure-information-protection-premium-government-offers-and-office-365-interoperability"></a>Azure Information Protection Premium Government 제품 및 Office 365 상호 운용성 
-
-Office 365는 현재 GCC 및 GCC High 환경에서 사용할 수 있으며, 2019년 7월 말에 DoD 환경에서도 사용할 수 있습니다. 이러한 제품에 대해 자세히 알아보려면 Office 365 Government [서비스 설명](https://technet.microsoft.com/library/mt774581.aspx)을 참조하세요. Azure Information Protection Premium 상업용 제품은 Office 365 GCC와 완벽한 상호 운용이 가능하며, 이 제품에 대해 FedRAMP-Moderate 인증을 받았습니다. Azure Information Protection Premium은 현재 GCC High 환경에서 사용할 수 있으며, 2019년 7월에 DoD 환경에서 사용할 수 있습니다. 이 제품은 [Microsoft Azure Government Cloud](https://docs.microsoft.com/azure/azure-government/documentation-government-welcome)를 기반으로 하며 Office 365 GCC High 및 Office 365 DoD 제품과 각각 상호 운용되도록 디자인되었습니다. Azure Information Protection Premium GCC High 및 DoD 제품은 현재 FedRAMP-High 인증을 받았습니다. 
-
-| Azure Information Protection Premium Government 제품 | 해당 Office 365 Government 제품 | 규정 준수 약정 
-|---|---|
-Azure Information Protection Premium P1/P2(상용) | Office 365, GCC | FedRAMP-Moderate
-Azure Information Protection Premium P1/P2 GCC High | Office 365, GCC High | FedRAMP-High 
-Azure Information Protection Premium P1/P2 DoD | Office 365, DoD | FedRAMP-High
- 
 
 ## <a name="parity-with-azure-information-protection-premium-commercial-offerings"></a>Azure Information Protection Premium 상업용 제품과 동등 
 
@@ -128,6 +97,6 @@ Windows의 AIP 앱은 특수 레지스트리 키를 GCC High/DoD에 대한 올�
 
 | 레지스트리 노드 | HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSIP |
 | --- | --- |
-| Name | WebServiceUrl |
+| 이름 | WebServiceUrl |
 | Value | https://api.informationprotection.azure.us |
-| Type | REG_SZ(문자열) |
+| 유형 | REG_SZ(문자열) |
