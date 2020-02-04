@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: rights-management
 ms.reviewer: v-craic
 ms.suite: ems
-ms.openlocfilehash: 7fd4ab09de4cf050b9300a9dd340b33338a4d8d2
-ms.sourcegitcommit: c63d47c411504fb84651c43bb6851d9692450067
+ms.openlocfilehash: 246ce505648353d6fc561211e85bc85102363357
+ms.sourcegitcommit: c2f6f9ac72d067603824084341565add5d5dad92
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "68937394"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "76972294"
 ---
 # <a name="the-role-of-azure-information-protection-in-securing-data"></a>데이터 보안 유지에서 Azure Information Protection의 역할
 
@@ -58,7 +58,7 @@ IT 관리자가 디바이스 또는 ID를 제어하지 상황에서는, IT에서
 
 ## <a name="identity-based-security"></a>ID 기반 보안
 
-다음 섹션에서는 보호된 콘텐츠에 대한 세 가지 주요 공격 시나리오 및 환경 제어 기능과 Azure Information Protection을 함께 사용하여 콘텐츠에 대한 악의적인 액세스를 완화하는 방법을 살펴봅니다.
+다음 섹션에서는 보호 된 콘텐츠에 대 한 공격의 세 가지 주요 시나리오와 환경 컨트롤과 Azure Information Protection의 조합을 사용 하 여 콘텐츠에 대 한 악의적인 액세스를 완화 하는 방법에 대해 설명 합니다.
 
 ### <a name="attacks-by-unauthorized-users"></a>권한이 없는 사용자의 공격
 
@@ -66,7 +66,7 @@ Azure Information Protection 보호 기능의 기본 사항은 보호된 콘텐�
 
 이 Azure Information Protection 기능을 사용하여 엔터프라이즈는 정보를 구획화할 수 있습니다. 예를 들어 HR(인사) 부서의 중요한 정보를 부서 내에 격리해 두고, 재무 부서의 데이터를 재무 부서로 제한할 수 있습니다. Azure Information Protection은 *아무것도 기반하지 않는 것이 아니라 ID를 기반으로 한 액세스*를 제공합니다.
 
-아래 다이어그램에는 사용자(Bob)가 Tom에게 문서를 보내는 예가 나와 있습니다. 이 경우 Bob은 재무 부서 소속이며 Tom은 영업 부서 소속입니다. 권한이 부여되지 않은 경우 Tom은 문서에 액세스할 수 없습니다.
+아래 다이어그램에는 문서를 Tom로 보내는 사용자 (Bob)의 예가 있습니다. 이 경우 Bob은 재무 부서 소속이며 Tom은 영업 부서 소속입니다. 권한이 부여되지 않은 경우 Tom은 문서에 액세스할 수 없습니다.
 
 ![권한 없음](./media/azure-information-protection-securing-data/aip-securing-data-fig2.png)
 
@@ -74,7 +74,7 @@ Azure Information Protection 보호 기능의 기본 사항은 보호된 콘텐�
 
 ### <a name="access-by-malicious-programs-on-behalf-of-users"></a>사용자를 대신하여 악성 프로그램에서 액세스
 
-사용자를 대신하여 악성 프로그램에서 액세스하는 경우 일반적으로 사용자가 알지 못하는 어떤 일이 발생하는 것입니다. 트로이 목마, 바이러스 및 기타 맬웨어는 사용자를 대신하여 행동을 취할 수 있는 악성 프로그램의 대표적인 예입니다. 이러한 프로그램이 사용자의 ID를 가장하거나 조치를 취할 수 있는 사용자의 권한을 활용할 수 있는 경우 [Azure Information Protection SDK](/azure/information-protection/develop/developers-guide)를 사용하여 자신도 모르는 사용자를 대신하여 콘텐츠 암호를 해독할 수 있습니다. 이 작업은 사용자의 컨텍스트에서 수행되므로 이 공격을 막는 간단한 방법은 없습니다.
+사용자를 대신하여 악성 프로그램에서 액세스하는 경우 일반적으로 사용자가 알지 못하는 어떤 일이 발생하는 것입니다. 트로이 목마, 바이러스 및 기타 맬웨어는 사용자를 대신 하 여 작동할 수 있는 악성 프로그램의 일반적인 예입니다. 이러한 프로그램이 사용자의 ID를 가장하거나 조치를 취할 수 있는 사용자의 권한을 활용할 수 있는 경우 [Azure Information Protection SDK](/azure/information-protection/develop/developers-guide)를 사용하여 자신도 모르는 사용자를 대신하여 콘텐츠 암호를 해독할 수 있습니다. 이 작업은 사용자의 컨텍스트에서 수행되므로 이 공격을 막는 간단한 방법은 없습니다.
 
 ![악성 프로그램](./media/azure-information-protection-securing-data/aip-securing-data-fig3.png)
 
@@ -96,7 +96,7 @@ Azure Information Protection은 애플리케이션이 문서와 연결된 권한
 이 시나리오의 초점은 Rogue 애플리케이션이 사용될 수 없도록 클라이언트 디바이스 및 애플리케이션의 보안을 유지하는 데 있습니다. IT 관리자가 따를 수 있는 몇 가지 단계는 다음과 같습니다.
 
 - [Windows AppLocker](https://technet.microsoft.com/library/dd759117(v=ws.11).aspx)를 사용하여 사용자 동의 없이 설치된 프로그램이 실행될 수 없도록 합니다.
-- [Intune](https://docs.microsoft.com/intune/) 및 [System Center Configuration Manager](https://docs.microsoft.com/sccm/)를 사용하여 디바이스를 '정상 상태'로 유지합니다.
+- [Intune](https://docs.microsoft.com/intune/) 및 [Microsoft 끝점 Configuration Manager](https://docs.microsoft.com/configmgr/) 를 사용 하 여 장치가 ' 정상 ' 상태가 되도록 합니다.
 - 디바이스의 바이러스 백신이 최신 상태인지 확인합니다.
 - 인증 및 [SSO](https://azure.microsoft.com/resources/videos/overview-of-single-sign-on/)에 [Microsoft Identity Brokers](https://technet.microsoft.com/library/ms166045(v=sql.105).aspx)를 지원하는 애플리케이션을 사용합니다.
 
@@ -109,7 +109,7 @@ Azure Information Protection은 콘텐츠에 대한 액세스 권한이 부여�
 완벽한 보안은 한 가지 기술로 구현되는 것이 아닙니다. IT 관리자는 다양한 상호 종속적 방법을 통해 실제 환경에서 보호된 콘텐츠의 공격에 대한 취약성을 줄일 수 있습니다.
 
 - **Azure Information Protection**: 콘텐츠에 대한 무단 액세스를 방지함
-- **Microsoft Intune, System Center Configuration Manager 및 기타 디바이스 관리 제품**: 악성 앱이 없는 관리되고 제어되는 환경을 가능하게 함
+- **Microsoft Intune, Microsoft 끝점 Configuration Manager 및 기타 장치 관리 제품**: 악성 앱이 없는 관리 되 고 제어 되는 환경을 가능 하 게 합니다.
 - **Windows AppLocker**: 악성 앱이 없는 관리되고 제어되는 환경을 가능하게 함
 - **Azure AD ID 보호**: 사용자 ID의 신뢰를 향상함
 - **EMS 조건부 액세스**: 디바이스 및 ID의 신뢰를 향상함
