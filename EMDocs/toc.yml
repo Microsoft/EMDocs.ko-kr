@@ -49,7 +49,7 @@
             - name: 문제 해결
               tocHref: /intune-classic/troubleshoot/
               topicHref: /intune-classic/troubleshoot/general-troubleshooting-tips-for-microsoft-intune
-            - name: 시작
+            - name: 시작하기
               tocHref: /intune-classic/get-started/
               topicHref: /intune-classic/get-started/get-started
             - name: 앱 개발 및 사용자 지정
@@ -74,37 +74,37 @@
           items:
             - name: 핵심 인프라
               tocHref: /configmgr/core/
-              topicHref: /configmgr/core/understand/introduction
+              topicHref: /configmgr/core/
             - name: 애플리케이션 관리
               tocHref: /configmgr/apps/
-              topicHref: /configmgr/apps/understand/introduction-to-application-management
+              topicHref: /configmgr/apps/
             - name: 디바이스 정책 준수
               tocHref: /configmgr/compliance/
-              topicHref: /configmgr/compliance/understand/ensure-device-compliance
+              topicHref: /configmgr/compliance/
             - name: 모바일 디바이스 관리
               tocHref: /configmgr/mdm/
-              topicHref: /configmgr/mdm/understand/hybrid-mobile-device-management
+              topicHref: /configmgr/mdm/
             - name: Microsoft Deployment Toolkit
               tocHref: /configmgr/mdt/
               topicHref: /configmgr/mdt/
             - name: OS 배포
               tocHref: /configmgr/osd/
-              topicHref: /configmgr/osd/understand/introduction-to-operating-system-deployment
+              topicHref: /configmgr/osd/
             - name: 데이터 및 인프라 보호
               tocHref: /configmgr/protect/
-              topicHref: /configmgr/protect/understand/protect-data-and-site-infrastructure
+              topicHref: /configmgr/protect/
             - name: 소프트웨어 업데이트 관리
               tocHref: /configmgr/sum/
-              topicHref: /configmgr/sum/understand/software-updates-introduction
+              topicHref: /configmgr/sum/
             - name: 공동 관리
               tocHref: /configmgr/comanage/
-              topicHref: /configmgr/comanage/overview
+              topicHref: /configmgr/comanage/
             - name: Desktop Analytics
               tocHref: /configmgr/desktop-analytics/
-              topicHref: /configmgr/desktop-analytics/overview
+              topicHref: /configmgr/desktop-analytics/
             - name: 개발
               tocHref: /configmgr/develop/
-              topicHref: /configmgr/develop/core/misc/system-center-configuration-manager-sdk
+              topicHref: /configmgr/develop/
               items:
                 - name: 참조
                   tocHref: /configmgr/develop/reference
