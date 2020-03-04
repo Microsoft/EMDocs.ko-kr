@@ -1,0 +1,48 @@
+### YamlMime:Hub
+title: Enterprise Mobility + Security 설명서
+summary: Microsoft Enterprise Mobility + Security 기술 설명서
+brand: m365
+metadata:
+  title: Enterprise Mobility + Security 설명서
+  description: Microsoft Enterprise Mobility + Security 기술 설명서
+  ms.service: m365-md
+  ms.topic: hub-page
+  author: chenhao2020
+  ms.author: v-chenha
+  ms.date: 02/27/2020
+  ms.openlocfilehash: 5833e4fab500ab8326b70fb2fd5d05fc02f511a1
+  ms.sourcegitcommit: 9d1a6df6393b8eff7039be9424ce159fa843938a
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 02/20/2020
+  ms.locfileid: "78258644"
+additionalContent:
+  sections:
+  - items:
+    - title: Azure Active Directory
+      summary: 온-프레미스 디렉터리 동기화 및 Single Sign-On 사용
+      url: https://docs.microsoft.com/azure/active-directory/index
+    - title: Microsoft Intune
+      summary: 클라우드에서 모바일 디바이스, 앱 및 PC를 관리합니다.
+      url: https://docs.microsoft.com/intune/index
+    - title: Microsoft Endpoint Configuration Manager
+      summary: 클라우드 기반 정보를 토대로 온-프레미스 PC, 서버, 모바일 디바이스 관리
+      url: https://docs.microsoft.com/configmgr/
+    - title: Microsoft Cloud App Security
+      summary: 심층적인 정보를 얻고, 포괄적으로 제어하고, SaaS 보안을 강화합니다.
+      url: https://docs.microsoft.com/cloud-app-security/
+    - title: Azure Information Protection
+      summary: 생성 또는 업데이트 시 소스, 컨텍스트 및 콘텐츠를 기반으로 데이터를 분류합니다.
+      url: https://docs.microsoft.com/azure/information-protection/
+    - title: 다단계 인증
+      summary: 추가 수준의 인증으로 데이터 및 앱에 대한 액세스 보호
+      url: https://docs.microsoft.com/azure/multi-factor-authentication/index
+    - title: Advanced Threat Analytics
+      summary: 동작 분석을 사용하여 위반 및 위협을 식별하고 공격 타임라인에 보고서를 만듭니다.
+      url: https://docs.microsoft.com/advanced-threat-analytics/
+    - title: Azure Advanced Threat Protection
+      summary: 여러 유형의 고급 대상화된 사이버 공격 및 내부자 위협으로부터 엔터프라이즈 하이브리드 환경 보호
+      url: https://docs.microsoft.com/azure-advanced-threat-protection/
+    - title: Microsoft  Identity  Manager
+      summary: 자동화된 워크플로, 셀프 서비스 등을 사용하여 ID 관리
+      url: https://docs.microsoft.com/microsoft-identity-manager/
