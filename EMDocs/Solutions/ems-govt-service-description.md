@@ -11,11 +11,11 @@ ms.prod: ''
 ms.service: microsoft-intune
 ms.suite: ems
 ms.openlocfilehash: e82e70f920fe56634d47cdb3a89e64c844c9540a
-ms.sourcegitcommit: 76cad8e05a1a149fa5e344e680e6f11c08d89110
+ms.sourcegitcommit: 7011fd50ad322ed87de7a39b9b15d6cb99c408bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79133936"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80291023"
 ---
 # <a name="enterprise-mobility--security-for-us-government-service-description"></a>US Government용 Enterprise Mobility + Security 서비스 설명
 Microsoft에서는 미국 공공 부문의 고유하면서 진화하고 있는 요구 사항에 대한 대응으로 미국 정부 커뮤니티 고객을 위해 Enterprise Mobility + Security(EMS) 요금제를 만들었습니다. 이 문서에서는 EMS 요금제에 관련된 기능을 간단히 설명합니다.
