@@ -5,17 +5,17 @@ keywords: ''
 author: shsagir
 ms.author: shsagir
 manager: rkarlin
-ms.date: 03/13/2020
+ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 3e122d51c6711a8638e81c4539b666835425ff4f
-ms.sourcegitcommit: 76cad8e05a1a149fa5e344e680e6f11c08d89110
+ms.openlocfilehash: 251170ad3c3b5aa90fa3e99a5a232dcd2b60bacf
+ms.sourcegitcommit: 136f426c676818a8e0c31a7c08d9ad1ea08241ef
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79133923"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80359942"
 ---
 # <a name="microsoft-cloud-app-security-government-service-description"></a>Microsoft Cloud App Security Government 서비스 설명
 
@@ -61,7 +61,7 @@ API에 연결된 애플리케이션에 대해 활동, 파일 및 변칙 검색 �
 
 ## <a name="security-configuration-assessments"></a>보안 구성 평가
 
-Azure 및 AWS에 대한 보안 구성 평가가 지원되지 않습니다.
+AWS에 대한 보안 구성 평가가 지원되지 않습니다.
 
 ## <a name="other-integrations"></a>기타 통합
 
