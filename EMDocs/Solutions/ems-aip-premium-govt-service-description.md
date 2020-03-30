@@ -1,27 +1,27 @@
 ---
 title: Azure Information Protection Premium Government 서비스 설명
-description: Azure Information Protection 프리미엄 정부 서비스 설명은 제공의 개요를 제공 하도록 설계 되었습니다.
+description: Azure Information Protection Premium Government 서비스 설명은 제품에 대한 개요를 제공합니다.
 keywords: ''
-author: dougeby
-ms.author: dougeby
+author: mlottner
+ms.author: mlottner
 manager: dougeby
-ms.date: 01/12/2020
+ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: rights-management
 ms-suite: ems
-ms.openlocfilehash: bb5a22063ce8dfeaa1f2303b3c41827746a9f69f
-ms.sourcegitcommit: cdf0b5b826aeaf0cf6c3a6cd180d44b9e13d543a
-ms.translationtype: MT
+ms.openlocfilehash: 75b8e9b247d8eccb9c5f553b2ccf57e553833dbb
+ms.sourcegitcommit: 7011fd50ad322ed87de7a39b9b15d6cb99c408bc
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76549783"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80290997"
 ---
 # <a name="azure-information-protection-premium-government-service-description"></a>Azure Information Protection Premium Government 서비스 설명 
 
 ## <a name="how-to-use-this-service-description"></a>서비스 설명을 사용하는 방법 
 
-Azure Information Protection 프리미엄 정부 서비스 설명은 GCC High 및 DoD 환경에서 제공 하는 기능에 대 한 개요를 제공 하 고 Azure Information Protection Premium 상용에 비해 기능 변형을 다룹니다. 제공품. GCC 고객의 Azure Information Protection에 대 한 자세한 내용은 [미국 정부 및 Office 365 상호 운용성에 대 한 EMS 제품](ems-govt-service-description.md#ems-offers-for-us-government-and-office-365-interoperability)설명을 참조 하세요.
+Azure Information Protection Premium Government 서비스 설명은 GCC High 및 DoD 환경에서 제품에 대한 개요를 제공하며 Azure Information Protection Premium 상업용 제품과 비교한 기능 변형에 대해 다룹니다. GCC 고객용 Azure Information Protection에 대한 자세한 내용은 [US Government 및 Office 365 상호 운용성을 위한 EMS 제품](ems-govt-service-description.md#ems-offers-for-us-government-and-office-365-interoperability)의 설명을 참조하세요.
 
 ## <a name="azure-information-protection-premium-government-and-third-party-services"></a>Azure Information Protection Premium Government 및 타사 서비스 
 
@@ -93,10 +93,18 @@ Azure Information Protection Premium GCC High 및 DoD 제품을 통해 정부 �
 
 
 ### <a name="aip-apps-configuration"></a>AIP 앱 구성
+
 Windows의 AIP 앱은 특수 레지스트리 키를 GCC High/DoD에 대한 올바른 서비스 인스턴스로 가리켜야 합니다.  
 
 | 레지스트리 노드 | HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSIP |
 | --- | --- |
-| 이름 | WebServiceUrl |
-| Value | https://api.informationprotection.azure.us |
+| Name | WebServiceUrl |
+| 값 | https://api.informationprotection.azure.us |
 | 유형 | REG_SZ(문자열) |
+
+## <a name="service-tags"></a>서비스 태그
+
+다음 **서비스 태그**에 해당하는 모든 포트에 대한 액세스를 허용해야 합니다.
+*    AzureInformationProtection
+*    AzureActiveDirectory
+*    AzureFrontDoor.FrontEnd
