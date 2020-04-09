@@ -9,13 +9,13 @@ metadata:
   author: dougeby
   ms.author: dougeby
   manager: mtillman
-  ms.date: 04/02/2020
-  ms.openlocfilehash: e83ee8218ca589f1dd895259739abcf98118ca78
-  ms.sourcegitcommit: abb2dadc772695f776b9725b0a17cc6d2fa7eaca
+  ms.date: 04/07/2020
+  ms.openlocfilehash: 0e29ff1b84fa18a2cd743d16a9af0569dd13d51f
+  ms.sourcegitcommit: b29c25c3cc0050ec49ccc5a6898853f044b64197
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 04/02/2020
-  ms.locfileid: "80615659"
+  ms.lasthandoff: 04/08/2020
+  ms.locfileid: "80871046"
 conceptualContent:
   items:
   - title: 앱에 연결
@@ -212,3 +212,6 @@ additionalContent:
     - title: 원격 인력이 어디서든 필요한 모든 앱에 안전하게 액세스
       summary: Azure AD를 모든 앱의 컨트롤 플레인으로 만들면 집에서 작업하는 직원이 필요한 도구와 리소스에 안전하고 원활하게 액세스할 수 있으며, 이러한 도구와 리소스를 무단 액세스로부터 보호할 수 있습니다.
       url: https://www.microsoft.com/security/blog/2020/03/31/making-easier-remote-workforce-securely-access-apps-from-anywhere/
+    - title: 보안 원격 액세스에 조건부 액세스를 사용하는 것에 대한 질문과 답변
+      summary: 회사 데이터를 안전하게 유지하면서 원격 작업을 빠르게 수행하는 고객과의 긴밀한 협력을 통해 모은 모범 사례와 팁입니다.
+      url: https://techcommunity.microsoft.com/t5/azure-active-directory-identity/frequent-questions-about-using-conditional-access-to-secure/ba-p/1276932
