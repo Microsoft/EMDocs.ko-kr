@@ -1,4 +1,4 @@
-- name: Docs
+- name: 문서
   tocHref: /
   topicHref: /
   items:
@@ -49,7 +49,7 @@
             - name: 문제 해결
               tocHref: /intune-classic/troubleshoot/
               topicHref: /intune-classic/troubleshoot/general-troubleshooting-tips-for-microsoft-intune
-            - name: 시작하기
+            - name: 시작
               tocHref: /intune-classic/get-started/
               topicHref: /intune-classic/get-started/get-started
             - name: 앱 개발 및 사용자 지정

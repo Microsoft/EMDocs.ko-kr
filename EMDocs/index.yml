@@ -10,12 +10,12 @@ metadata:
   author: dougeby
   ms.author: dougeby
   ms.date: 02/27/2020
-  ms.openlocfilehash: cfdb7eb5bec07abb26efdcd9a933ddce282ad30a
-  ms.sourcegitcommit: abb2dadc772695f776b9725b0a17cc6d2fa7eaca
+  ms.openlocfilehash: f9682701471f74c06eecfeab94d88a7f3f00837a
+  ms.sourcegitcommit: 6b4939db2d80ec99d4e890c93d5e4a92973efff3
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 04/02/2020
-  ms.locfileid: "80614849"
+  ms.lasthandoff: 04/21/2020
+  ms.locfileid: "81740689"
 productDirectory:
   items:
   - title: 보안 원격 작업
@@ -28,12 +28,12 @@ additionalContent:
     - title: Azure Active Directory
       summary: 온-프레미스 디렉터리 동기화 및 Single Sign-On 사용
       url: https://docs.microsoft.com/azure/active-directory/index
-    - title: Microsoft Intune
+    - title: Microsoft Intune
       summary: 클라우드에서 모바일 디바이스, 앱 및 PC를 관리합니다.
-      url: https://docs.microsoft.com/intune/index
+      url: https://docs.microsoft.com/mem/intune/
     - title: Microsoft Endpoint Configuration Manager
       summary: 클라우드 기반 정보를 토대로 온-프레미스 PC, 서버, 모바일 디바이스 관리
-      url: https://docs.microsoft.com/configmgr/
+      url: https://docs.microsoft.com/mem/configmgr/
     - title: Microsoft Cloud App Security
       summary: 심층적인 정보를 얻고, 포괄적으로 제어하고, SaaS 보안을 강화합니다.
       url: https://docs.microsoft.com/cloud-app-security/
