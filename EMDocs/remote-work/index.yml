@@ -9,13 +9,13 @@ metadata:
   author: dougeby
   ms.author: dougeby
   manager: mtillman
-  ms.date: 04/07/2020
-  ms.openlocfilehash: 0e29ff1b84fa18a2cd743d16a9af0569dd13d51f
-  ms.sourcegitcommit: b29c25c3cc0050ec49ccc5a6898853f044b64197
+  ms.date: 04/13/2020
+  ms.openlocfilehash: e893d679e7ba03d48942d5555e47697c4761c716
+  ms.sourcegitcommit: 6b4939db2d80ec99d4e890c93d5e4a92973efff3
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 04/08/2020
-  ms.locfileid: "80871046"
+  ms.lasthandoff: 04/21/2020
+  ms.locfileid: "81664106"
 conceptualContent:
   items:
   - title: 앱에 연결
@@ -194,24 +194,9 @@ additionalContent:
     - title: Microsoft Intune 문서
       summary: 공식 Intune 제품 설명서
       url: https://docs.microsoft.com/mem/intune/
-  - title: 블로그 리소스
-    summary: 커뮤니티 전체에서 중요한 블로그 게시물 및 기사를 찾아 원격 인력을 위한 보안 관리를 사용하는 데 도움을 줍니다.
-    items:
-    - title: Azure AD가 원격 작업을 사용하는 데 도움이 되는 상위 5가지 방법
-      summary: Azure AD를 사용하는 경우 조직의 보안을 유지하는 동시에 다양한 기능을 통해 원격 작업을 수행할 수 있습니다.
-      url: https://techcommunity.microsoft.com/t5/azure-active-directory-identity/top-5-ways-your-azure-ad-can-help-you-enable-remote-work/ba-p/1144691
-    - title: 비즈니스가 개인 PC 및 모바일에서 안전하게 작동하도록 하는 빠른 설정 지원
-      summary: 직원이 사무실에서 작업하는 방식과 최대한 가깝게 작업을 계속할 수 있도록 원격 인력을 사용합니다.
-      url: https://techcommunity.microsoft.com/t5/enterprise-mobility-security/helping-businesses-rapidly-set-up-to-work-securely-from-personal/ba-p/1239830
-    - title: 보안 전문가 및 IT를 위한 오늘날의 고유한 원격 작업 시나리오에서 최신 보안 컨트롤을 수행하는 다른 방법
-      summary: 최신 보안 컨트롤을 수행하는 또 다른 방법으로, 보안 팀은 보다 직접적인 인터넷 간 네트워크 아키텍처에서 위험을 관리할 수 있습니다.
-      url: https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/
-    - title: Azure AD를 사용하여 빠르고 안전하게 원격 공동 작업 사용
-      summary: 인력 및 파트너가 원격 위치에서 효과적으로 공동 작업할 수 있도록 하려는 경우 다음 사항을 염두에 두어야 합니다.
-      url: https://techcommunity.microsoft.com/t5/azure-active-directory-identity/enable-remote-collaboration-quickly-and-securely-with-azure-ad/ba-p/1257334
-    - title: 원격 인력이 어디서든 필요한 모든 앱에 안전하게 액세스
-      summary: Azure AD를 모든 앱의 컨트롤 플레인으로 만들면 집에서 작업하는 직원이 필요한 도구와 리소스에 안전하고 원활하게 액세스할 수 있으며, 이러한 도구와 리소스를 무단 액세스로부터 보호할 수 있습니다.
-      url: https://www.microsoft.com/security/blog/2020/03/31/making-easier-remote-workforce-securely-access-apps-from-anywhere/
-    - title: 보안 원격 액세스에 조건부 액세스를 사용하는 것에 대한 질문과 답변
-      summary: 회사 데이터를 안전하게 유지하면서 원격 작업을 빠르게 수행하는 고객과의 긴밀한 협력을 통해 모은 모범 사례와 팁입니다.
-      url: https://techcommunity.microsoft.com/t5/azure-active-directory-identity/frequent-questions-about-using-conditional-access-to-secure/ba-p/1276932
+    - title: 안전한 원격 작업 블로그 리소스
+      summary: 이러한 새 환경에서 원격으로 작업하고 보안을 유지하는 방법에 대한 보안 전문가를 위한 모범 사례 및 지침입니다.
+      url: https://www.microsoft.com/security/blog/secure-remote-work/
+    - title: Microsoft Tech Community - 원격 작업 수행
+      summary: 원격 작업을 수행하기 위한 경험과 아이디어를 공유하고 다른 사용자와 협력해보세요.
+      url: https://techcommunity.microsoft.com/t5/enabling-remote-work/ct-p/RemoteWork
