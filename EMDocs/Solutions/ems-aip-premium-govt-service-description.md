@@ -1,27 +1,27 @@
 ---
 title: Azure Information Protection Premium Government 서비스 설명
-description: Azure Information Protection Premium Government 서비스 설명은 제품에 대한 개요를 제공합니다.
+description: Azure Information Protection 프리미엄 정부 서비스 설명은 제공의 개요를 제공 하도록 설계 되었습니다.
 keywords: ''
 author: mlottner
 ms.author: mlottner
 manager: dougeby
-ms.date: 03/26/2020
+ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: rights-management
 ms-suite: ems
-ms.openlocfilehash: 75b8e9b247d8eccb9c5f553b2ccf57e553833dbb
-ms.sourcegitcommit: 7011fd50ad322ed87de7a39b9b15d6cb99c408bc
-ms.translationtype: HT
+ms.openlocfilehash: ee099c3e76ec5c6e2e32fd33d84c8b872abf16b3
+ms.sourcegitcommit: d1b80e2cfecbeca4ed2a9a082acf0c3c34fd4ee1
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80290997"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82106766"
 ---
 # <a name="azure-information-protection-premium-government-service-description"></a>Azure Information Protection Premium Government 서비스 설명 
 
 ## <a name="how-to-use-this-service-description"></a>서비스 설명을 사용하는 방법 
 
-Azure Information Protection Premium Government 서비스 설명은 GCC High 및 DoD 환경에서 제품에 대한 개요를 제공하며 Azure Information Protection Premium 상업용 제품과 비교한 기능 변형에 대해 다룹니다. GCC 고객용 Azure Information Protection에 대한 자세한 내용은 [US Government 및 Office 365 상호 운용성을 위한 EMS 제품](ems-govt-service-description.md#ems-offers-for-us-government-and-office-365-interoperability)의 설명을 참조하세요.
+Azure Information Protection 프리미엄 정부 서비스 설명은 GCC High 및 DoD 환경에서 제공 하는 기능에 대 한 개요를 제공 하기 위해 설계 되었으며 Azure Information Protection Premium 상용 제품에 비해 기능 변형을 다룹니다. GCC 고객의 Azure Information Protection에 대 한 자세한 내용은 [미국 정부 및 Office 365 상호 운용성에 대 한 EMS 제품](ems-govt-service-description.md#ems-offers-for-us-government-and-office-365-interoperability)설명을 참조 하세요.
 
 ## <a name="azure-information-protection-premium-government-and-third-party-services"></a>Azure Information Protection Premium Government 및 타사 서비스 
 
@@ -98,13 +98,31 @@ Windows의 AIP 앱은 특수 레지스트리 키를 GCC High/DoD에 대한 올�
 
 | 레지스트리 노드 | HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSIP |
 | --- | --- |
-| Name | WebServiceUrl |
+| 속성 | WebServiceUrl |
 | 값 | https://api.informationprotection.azure.us |
-| 유형 | REG_SZ(문자열) |
+| Type | REG_SZ (String) |
+
+
+## <a name="firewalls-and-network-infrastructure"></a>방화벽 및 네트워크 인프라
+
+특정 연결을 허용 하도록 구성 된 방화벽 또는 유사한 중개 네트워크 장치가 있는 경우 이러한 설정을 사용 하 여 Azure Information Protection에 대 한 원활한 통신을 보장 합니다.
+
+- Azure Information Protection 클래식 클라이언트에서 레이블 및 레이블 정책을 다운로드 하도록 설정 하려면: HTTPS를 통한 URL **Api.informationprotection.azure.us** 허용 합니다.
+
+- **Rms.aadrm.us** URL에 대 한 TLS 클라이언트-서비스 연결을 종료 하지 마세요 (예: 패킷 수준 검사 수행). 
+
+다음 PowerShell 명령을 사용 하 여 Azure Rights Management 서비스에 도달 하기 전에 클라이언트 연결이 종료 되는지 여부를 확인할 수 있습니다.
+ 
+    $request = [System.Net.HttpWebRequest]::Create("https://admin.aadrm.us/admin/admin.svc")
+    $request.GetResponse()
+    $request.ServicePoint.Certificate.Issuer
+
+결과에는 발급 CA가 Microsoft CA에서 온 것으로 표시 됩니다 (예: `CN=Microsoft Secure Server CA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US`). Microsoft에서 발급 하지 않은 발급 CA 이름이 표시 되는 경우 보안 클라이언트-서비스 연결이 종료 되어 방화벽에서 다시 구성 해야 할 가능성이 매우 높습니다.
+
 
 ## <a name="service-tags"></a>서비스 태그
 
-다음 **서비스 태그**에 해당하는 모든 포트에 대한 액세스를 허용해야 합니다.
+다음 **서비스 태그**의 모든 포트에 대 한 액세스를 허용 해야 합니다.
 *    AzureInformationProtection
 *    AzureActiveDirectory
-*    AzureFrontDoor.FrontEnd
+*    AzureFrontDoor
