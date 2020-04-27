@@ -10,12 +10,12 @@ metadata:
   ms.author: dougeby
   manager: mtillman
   ms.date: 04/13/2020
-  ms.openlocfilehash: e893d679e7ba03d48942d5555e47697c4761c716
-  ms.sourcegitcommit: 6b4939db2d80ec99d4e890c93d5e4a92973efff3
+  ms.openlocfilehash: 1bd98afe1389ec583e0fd2193ced2b5b96ff2525
+  ms.sourcegitcommit: 17853bc5f839b24f28993bff166061c522ebb166
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 04/21/2020
-  ms.locfileid: "81664106"
+  ms.lasthandoff: 04/25/2020
+  ms.locfileid: "82158097"
 conceptualContent:
   items:
   - title: 앱에 연결
@@ -64,6 +64,9 @@ conceptualContent:
     - url: https://docs.microsoft.com/azure/active-directory/authentication/concept-registration-mfa-sspr-combined
       itemType: how-to-guide
       text: '팁: 셀프 서비스 암호 재설정 및 Multi-Factor Authentication 등록 결합'
+    - url: https://mslearn.cloudguides.com/guides/Enable%20a%20combined%20MFA%20and%20SSPR%20registration%20experience%20in%20Azure%20AD
+      itemType: how-to-guide
+      text: Azure AD에서 결합된 MFA 및 SSPR 등록 환경 사용
   - title: 비즈니스 파트너에 대한 보안 액세스 확장
     links:
     - url: https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b
@@ -78,6 +81,9 @@ conceptualContent:
     - url: https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations
       itemType: how-to-guide
       text: B2B 공동 작업 및 공유 사용 및 관리
+    - url: https://mslearn.cloudguides.com/guides/Enable%20B2B%20Collaboration%20in%20Azure%20AD
+      itemType: how-to-guide
+      text: Azure AD에서 B2B Collaboration 사용
   - title: 모든 디바이스에 대한 최신 관리 사용
     links:
     - url: https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune
@@ -95,6 +101,12 @@ conceptualContent:
     - url: https://docs.microsoft.com/mem/intune/fundamentals/guided-scenarios-overview
       itemType: how-to-guide
       text: 단계별 시나리오 수행
+    - url: https://mslearn.cloudguides.com/guides/Manage%20and%20protect%20mobile%20and%20desktop%20applications%20with%20Microsoft%20Endpoint%20Manager
+      itemType: how-to-guide
+      text: Microsoft Endpoint Manager를 사용하여 모바일 및 데스크톱 애플리케이션 관리 및 보호
+    - url: https://mslearn.cloudguides.com/guides/Manage%20devices%20with%20Microsoft%20Endpoint%20Manager
+      itemType: how-to-guide
+      text: Microsoft Endpoint Manager를 사용하여 디바이스 관리
 additionalContent:
   sections:
   - title: 동영상
