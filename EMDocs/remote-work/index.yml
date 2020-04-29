@@ -9,206 +9,284 @@ metadata:
   author: dougeby
   ms.author: dougeby
   manager: mtillman
-  ms.date: 04/13/2020
-  ms.openlocfilehash: 1bd98afe1389ec583e0fd2193ced2b5b96ff2525
-  ms.sourcegitcommit: 17853bc5f839b24f28993bff166061c522ebb166
+  ms.date: 04/27/2020
+  ms.openlocfilehash: 65fb560cd084bf5585647004d13913e788b35aef
+  ms.sourcegitcommit: f642732787c4c7568f818b18b28cfee22b6d1465
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 04/25/2020
-  ms.locfileid: "82158097"
+  ms.lasthandoff: 04/28/2020
+  ms.locfileid: "82196179"
 conceptualContent:
+  title: 앱에 대한 원격 액세스 사용
+  summary: 보안을 손상하지 않고 원격 작업자가 필요한 앱에 액세스할 수 있습니다.
   items:
-  - title: 앱에 연결
+  - title: 온-프레미스 인프라를 클라우드에 연결
     links:
-    - url: https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-application-management
+    - text: 조건부 액세스란?
       itemType: overview
-      text: Azure AD를 사용하여 애플리케이션 관리
-    - url: https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list
+      url: https://docs.microsoft.com/azure/active-directory/conditional-access/overview
+    - text: 일반 조건부 액세스 정책
       itemType: how-to-guide
-      text: SaaS 애플리케이션 통합에 대한 자습서
-    - url: https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application
+      url: https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common
+    - text: '팁: 결합된 보안 정보 등록 사용'
       itemType: how-to-guide
-      text: 온-프레미스 웹 애플리케이션 연결
-    - url: https://docs.microsoft.com/azure/active-directory/manage-apps/secure-hybrid-access
+      url: https://docs.microsoft.com/azure/active-directory/authentication/howto-registration-mfa-sspr-combined
+    - text: '팁: 보고 전용 모드를 사용하여 조건부 액세스 롤아웃 시작'
       itemType: how-to-guide
-      text: 보안 하이브리드 액세스
-    - url: https://docs.microsoft.com/azure/active-directory/user-help/my-apps-portal-end-user-access
+      url: https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-report-only
+    - text: 클라우드 앱을 보호하는 데 적합한 인증 방법 선택
       itemType: how-to-guide
-      text: 사용자가 내 앱 포털에서 로그인하고 앱을 시작하도록 안내
-    - url: https://docs.microsoft.com/azure/active-directory/hybrid/choose-ad-authn
-      itemType: how-to-guide
-      text: '팁: 하이브리드 ID 솔루션에 적합한 인증 선택'
-    - url: https://docs.microsoft.com/azure/active-directory/app-provisioning/user-provisioning
-      itemType: how-to-guide
-      text: '팁: 앱에 대한 사용자 프로비전 자동화'
-  - title: 어디서든 액세스 보호
+      url: https://docs.microsoft.com/azure/active-directory/hybrid/choose-ad-authn
+  - title: 모든 앱을 Microsoft Azure Active Directory에 연결하여 Single Sign-On을 활성화
     links:
-    - url: https://docs.microsoft.com/azure/active-directory/conditional-access/overview
+    - text: Azure Active Directory를 사용한 애플리케이션 관리
       itemType: overview
-      text: 조건부 액세스란?
-    - url: https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common
+      url: https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-application-management
+    - text: SaaS 애플리케이션과 Azure Active Directory를 통합하는 방법에 대한 자습서 제공
       itemType: how-to-guide
-      text: 일반적인 조건부 액세스 정책
-    - url: https://docs.microsoft.com/azure/active-directory/authentication/howto-registration-mfa-sspr-combined
+      url: https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list
+    - text: 애플리케이션 프록시를 통해 온-프레미스 애플리케이션 추가
       itemType: how-to-guide
-      text: '팁: 결합된 보안 정보 등록 사용'
-    - url: https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-report-only
+      url: https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application
+    - text: 온-프레미스 및 클라우드 레거시 인증 앱 보호
       itemType: how-to-guide
-      text: '팁: 보고 전용 모드를 사용하여 조건부 액세스 롤아웃 시작'
-    - url: https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-deployment
+      url: https://docs.microsoft.com/azure/active-directory/manage-apps/secure-hybrid-access
+    - text: 사용자가 내 앱 포털에서 로그인하고 앱을 시작하도록 안내
       itemType: how-to-guide
-      text: 셀프 서비스 암호 재설정 사용
-    - url: https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted
+      url: https://docs.microsoft.com/azure/active-directory/user-help/my-apps-portal-end-user-access
+    - text: '팁: 하이브리드 ID 솔루션에 적합한 인증 선택'
       itemType: how-to-guide
-      text: Azure Multi-Factor Authentication 플랜 및 사용
-    - url: https://docs.microsoft.com/azure/active-directory/authentication/concept-registration-mfa-sspr-combined
+      url: https://docs.microsoft.com/azure/active-directory/hybrid/choose-ad-authn
+    - text: '팁: 앱에 대한 사용자 프로비전 자동화'
       itemType: how-to-guide
-      text: '팁: 셀프 서비스 암호 재설정 및 Multi-Factor Authentication 등록 결합'
-    - url: https://mslearn.cloudguides.com/guides/Enable%20a%20combined%20MFA%20and%20SSPR%20registration%20experience%20in%20Azure%20AD
-      itemType: how-to-guide
-      text: Azure AD에서 결합된 MFA 및 SSPR 등록 환경 사용
-  - title: 비즈니스 파트너에 대한 보안 액세스 확장
+      url: https://docs.microsoft.com/azure/active-directory/app-provisioning/user-provisioning
+  - title: 조건부 액세스를 사용하여 다단계 인증 설정
     links:
-    - url: https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b
+    - text: MFA는 어떻게 작동하나요?
+      itemType: concept
+      url: https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks
+    - text: 다단계 인증 설정
       itemType: how-to-guide
-      text: B2B(기업 간) 게스트 사용자 액세스란?
-    - url: https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode
+      url: https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide
+    - text: Azure Multi-Factor Authentication 플랜 및 사용
       itemType: how-to-guide
-      text: 전자 메일 일회용 암호 인증 사용(미리 보기)
-    - url: https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal
+      url: https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted
+    - text: MFA를 사용하여 사용자 로그인 보호
       itemType: how-to-guide
-      text: Azure Portal에서 디렉터리에 게스트 사용자를 추가
-    - url: https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations
+      url: https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-azure-mfa
+    - text: '팁: 셀프 서비스 암호 재설정 및 Multi-Factor Authentication 등록 결합'
       itemType: how-to-guide
-      text: B2B 공동 작업 및 공유 사용 및 관리
-    - url: https://mslearn.cloudguides.com/guides/Enable%20B2B%20Collaboration%20in%20Azure%20AD
+      url: https://docs.microsoft.com/azure/active-directory/authentication/concept-registration-mfa-sspr-combined
+    - text: 셀프 서비스 암호 재설정 사용
       itemType: how-to-guide
-      text: Azure AD에서 B2B Collaboration 사용
-  - title: 모든 디바이스에 대한 최신 관리 사용
+      url: https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-deployment
+    - text: '대화형 가이드: Azure AD에서 결합된 MFA 및 SSPR 등록 환경 사용'
+      itemType: how-to-guide
+      url: https://mslearn.cloudguides.com/guides/Enable%20a%20combined%20MFA%20and%20SSPR%20registration%20experience%20in%20Azure%20AD
+  - title: 온-프레미스 웹앱에 대한 액세스 사용
     links:
-    - url: https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune
+    - text: 온-프레미스 및 클라우드 레거시 인증 앱 보호
+      itemType: how-to-guide
+      url: https://docs.microsoft.com/azure/active-directory/manage-apps/secure-hybrid-access
+  - title: Azure AD B2B 협업을 사용하여 액세스 확장
+    links:
+    - text: B2B 게스트 사용자 액세스란?
       itemType: overview
-      text: Microsoft Intune 개요
-    - url: https://docs.microsoft.com/mem/intune/fundamentals/setup-steps
+      url: https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b
+    - text: 전자 메일 일회용 암호 인증 사용(미리 보기)
       itemType: how-to-guide
-      text: Intune 설정
-    - url: https://docs.microsoft.com/mem/intune/enrollment/
+      url: https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode
+    - text: Azure Portal에서 디렉터리에 게스트 사용자를 추가
       itemType: how-to-guide
-      text: Microsoft Intune에 디바이스 등록
-    - url: https://docs.microsoft.com/mem/intune/apps/
+      url: https://docs.microsoft.com/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal
+    - text: B2B 공동 작업 및 공유 사용 및 관리
       itemType: how-to-guide
-      text: 앱 관리 및 보호
-    - url: https://docs.microsoft.com/mem/intune/fundamentals/guided-scenarios-overview
+      url: https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations
+    - text: '대화형 가이드: Azure AD에서 B2B Collaboration 사용'
       itemType: how-to-guide
-      text: 단계별 시나리오 수행
-    - url: https://mslearn.cloudguides.com/guides/Manage%20and%20protect%20mobile%20and%20desktop%20applications%20with%20Microsoft%20Endpoint%20Manager
+      url: https://mslearn.cloudguides.com/guides/Enable%20B2B%20Collaboration%20in%20Azure%20AD
+  - title: 위험 기반 조건부 액세스 사용
+    links:
+    - text: 위험 기반 조건부 액세스
       itemType: how-to-guide
-      text: Microsoft Endpoint Manager를 사용하여 모바일 및 데스크톱 애플리케이션 관리 및 보호
-    - url: https://mslearn.cloudguides.com/guides/Manage%20devices%20with%20Microsoft%20Endpoint%20Manager
+      url: https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-risk
+    - text: 위험 정책을 구성하고 사용하도록 설정하는 방법
       itemType: how-to-guide
-      text: Microsoft Endpoint Manager를 사용하여 디바이스 관리
+      url: https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies
+    - text: '팁: 일반 조건부 액세스 정책'
+      itemType: concept
+      url: https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common
 additionalContent:
   sections:
-  - title: 동영상
-    summary: 원격 인력을 보호하는 데 도움이 되는 기술을 다룬 교육 동영상을 살펴봅니다.
+  - title: 디바이스 및 앱 관리
+    summary: BYOD를 사용하도록 설정하고 여러 디바이스 및 앱에서 관리를 통합합니다.
     items:
-    - title: Single Sign-On
+    - title: 안전한 BYOD 사용
       links:
-      - text: Azure Active Directory를 사용한 웹 single sign-on
-        url: https://youtu.be/51B-jSOBF8U
-      - text: SaaS 앱에 대한 Single Sign-On이란?
-        url: https://youtu.be/YOvEghVPV0Y
-      - text: SaaS 애플리케이션에 대한 Single Sign-On을 배포하는 방법
-        url: https://youtu.be/kSfiDDNg14U
-      - text: SaaS 애플리케이션에 대한 Single Sign-On을 롤아웃하는 방법
-        url: https://youtu.be/vRA2Jbq5nCE
-    - title: 애플리케이션 프록시
+      - text: Microsoft Intune 개요
+        url: https://docs.microsoft.com/mem/intune/what-is-intune
+      - text: Intune 설정
+        url: https://docs.microsoft.com/mem/intune/fundamentals/setup-steps
+      - text: Microsoft Intune에 디바이스 등록
+        url: https://docs.microsoft.com/mem/intune/enrollment/
+      - text: 안내 시나리오
+        url: https://docs.microsoft.com/mem/intune/fundamentals/guided-scenarios-overview
+      - text: ID 및 디바이스 액세스 구성
+        url: http://aka.ms/m365goldenconfig
+      - text: '대화형 가이드: Microsoft Endpoint Manager를 사용하여 디바이스 관리'
+        url: https://mslearn.cloudguides.com/guides/Manage%20devices%20with%20Microsoft%20Endpoint%20Manager
+    - title: 앱 구성 및 보호
       links:
-      - text: Azure Active Directory의 애플리케이션 프록시란?
-        url: https://youtu.be/GeMiyXkcehU
-      - text: 애플리케이션 프록시를 배포하는 방법
-        url: https://youtu.be/_2kWq5H4NhY
-      - text: 애플리케이션 프록시를 롤아웃하는 방법
-        url: https://youtu.be/0mLFWcG95OA
-    - title: 조건부 액세스
+      - text: Intune 앱 보호 정책
+        url: https://docs.microsoft.com/mem/intune/apps/app-protection-policy
+      - text: Microsoft Edge 보호 및 구성
+        url: https://docs.microsoft.com/mem/intune/apps/manage-microsoft-edge
+      - text: Outlook Mobile 보호 및 구성
+        url: https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-outlook
+      - text: Microsoft Cloud App Security란?
+        url: https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security
+      - text: Cloud App Security 설정
+        url: https://docs.microsoft.com/cloud-app-security/general-setup
+      - text: 타사 앱 연결
+        url: https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps
+      - text: '대화형 가이드: Microsoft Endpoint Manager를 사용하여 모바일 및 데스크톱 애플리케이션 관리 및 보호'
+        url: https://mslearn.cloudguides.com/guides/Manage%20and%20protect%20mobile%20and%20desktop%20applications%20with%20Microsoft%20Endpoint%20Manager
+    - title: 원격으로 새 디바이스 프로비전 및 배포
       links:
-      - text: 조건부 액세스란?
-        url: https://youtu.be/ffMAw2IVO7A
-      - text: 디바이스 컨트롤을 사용한 조건부 액세스
-        url: https://youtu.be/NcONUf-jeS4
-      - text: Azure MFA를 사용한 조건부 액세스
-        url: https://youtu.be/Tbc-SU97G-w
-      - text: 조건부 액세스를 배포하는 방법
-        url: https://youtu.be/c_izIRNJNuk
-      - text: 조건부 액세스를 롤아웃하는 방법
-        url: https://youtu.be/0_Fze7Zpyvc
-    - title: Multi-factor Authentication
+      - text: Windows Autopilot이란?
+        url: https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot
+      - text: Windows Autopilot를 배포하려면 어떻게 하나요?
+        url: https://docs.microsoft.com/windows/deployment/windows-autopilot/demonstrate-deployment-on-vm
+      - text: Windows Autopilot 사용자 기반 모드
+        url: https://docs.microsoft.com/windows/deployment/windows-autopilot/user-driven
+      - text: 이미 사용 중인 디바이스를 재배포하려면 어떻게 하나요?
+        url: https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot-reset
+      - text: 기존 디바이스에 Windows Autopilot 배포
+        url: https://docs.microsoft.com/windows/deployment/windows-autopilot/existing-devices
+      - text: 하이브리드 Azure AD 조인 디바이스 및 Autopilot 추가
+        url: https://docs.microsoft.com/mem/intune/enrollment/windows-autopilot-hybrid
+    - title: Intune을 사용하여 관리되지 않는 디바이스에 대한 액세스 정책 적용
       links:
-      - text: Azure Multi-Factor Authentication을 사용하여 보안을 업그레이드하는 방법
-        url: https://youtu.be/FxW8vLxAjSk
-      - text: Azure Multi-Factor Authentication에 등록하는 방법
-        url: https://youtu.be/uWbkLuI4g30
-    - title: 암호 없는 인증
+      - text: Azure AD를 사용하여 조건부 액세스 배포 계획
+        url: https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access
+      - text: Intune 디바이스 준수
+        url: https://docs.microsoft.com/mem/intune/protect/device-compliance-get-started
+      - text: 일반 조건부 액세스 정책
+        url: https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common
+    - title: 가상 데스크톱 배포 및 관리
       links:
-      - text: 암호 없는 인증이란?
-        url: https://youtu.be/8Na793pxKpk
-      - text: Microsoft를 사용하여 Passwordless로 이동
-        url: https://youtu.be/V9JOEhs3mNE
-      - text: '비즈니스용 Windows Hello: 인증'
-        url: https://youtu.be/WPmzoP_vMek
-      - text: Azure Active Directory에서 암호 없는 인증을 구현하는 방법
-        url: https://youtu.be/R4JtziRu764
-      - text: '비즈니스용 Windows Hello: 프로비전'
-        url: https://youtu.be/RImGsIjSJ1s
-      - text: FIDO2 디바이스를 사용하여 Microsoft 계정에 로그인
-        url: https://youtu.be/v_58pD6961w
-    - title: 셀프 서비스 암호 재설정
+      - text: 가상 데스크톱 인프라 컴퓨터를 등록하는 방법
+        url: https://docs.microsoft.com/azure/virtual-desktop/overview
+      - text: Windows 10 Enterprise 다중 세션에서 사용자 정책 사용
+        url: https://docs.microsoft.com/mem/configmgr/core/plan-design/changes/whats-new-in-version-1910#enable-user-policy-for-windows-10-enterprise-multi-session
+      - text: Windows 10 Enterprise 다중 세션 FAQ
+        url: https://docs.microsoft.com/azure/virtual-desktop/windows-10-multisession-faq
+    - title: 사전 예방적으로 업데이트, 패치 및 정책 관리
       links:
-      - text: 셀프 서비스 암호 재설정이란?
-        url: https://youtu.be/hc97Yx5PJiM
-      - text: Azure Active Directory의 셀프 서비스 암호 재설정에 등록하는 방법
-        url: https://youtu.be/tFBPTdkC2ZI
-      - text: 셀프 서비스 암호 재설정을 배포하는 방법
-        url: https://youtu.be/Pa0eyqjEjvQ
-      - text: 셀프 서비스 암호 재설정을 롤아웃하는 방법
-        url: https://youtu.be/OZn5btP6ZXw
-    - title: 파트너 B2B 공동 작업
+      - text: 디바이스 및 플랫폼에 대한 조건부 액세스 정책
+        url: https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-conditions#client-apps-condition
+      - text: 클라우드 기본 위협 검색 및 보호
+        url: https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy
+      - text: Intune에서 Windows 10 소프트웨어 업데이트 관리
+        url: https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure
+      - text: 비즈니스용 Windows 업데이트를 사용하여 업데이트 배포
+        url: https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb
+      - text: 'Windows 업데이트: FAQ'
+        url: https://support.microsoft.com/help/12373/windows-update-faq
+      - text: Intune에 대한 Windows 업데이트 설정
+        url: https://docs.microsoft.com/mem/intune/protect/windows-update-settings
+      - text: Microsoft Intune에서 소프트웨어 업데이트 에이전트 오류 코드 및 설명
+        url: https://docs.microsoft.com/mem/intune/protect/software-update-agent-error-codes
+  - title: 회사 리소스 보호
+    summary: 사용자 생산성을 유지하면서 데이터를 보호하기 위해 기본 제공되는 원활한 보안을 활용합니다.
+    items:
+    - title: 데이터 손실 방지 정책 만들기
       links:
-      - text: Azure Active Directory B2B Collaboration이란?
-        url: https://youtu.be/1TWxB4VYdJc
-      - text: B2B ID를 관리하는 방법
-        url: https://youtu.be/VeCrGXGSgWs
-      - text: Azure AD B2B 인증 및 페더레이션
-        url: https://youtu.be/MLYiYKgrrmE
-    - title: Microsoft Intune
+      - text: 데이터 손실 방지 개요
+        url: https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies
+      - text: 데이터 손실 방지와 Microsoft Teams
+        url: https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams
+      - text: DLP 정책 만들기, 테스트 및 조정
+        url: https://docs.microsoft.com/microsoft-365/compliance/create-test-tune-dlp-policy
+      - text: 사용자 지정 중요한 정보 유형
+        url: https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types
+      - text: 문서 지문
+        url: https://docs.microsoft.com/microsoft-365/compliance/document-fingerprinting
+      - text: 관리되지 않는 디바이스에서 액세스 제어
+        url: https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices
+    - title: 안전한 링크 및 안전한 첨부 파일 사용
       links:
-      - text: Microsoft Endpoint Management란?
-        url: https://youtu.be/GS7oNPInFuw
-      - text: Microsoft Intune을 사용하여 iOS 및 iPadOS 디바이스 관리
-        url: https://youtu.be/B_ccGuc37Pc
-      - text: Microsoft Intune을 사용하여 macOS 디바이스 관리
-        url: https://youtu.be/wFIEU1G9J10
-      - text: Microsoft Intune을 사용하여 Android 디바이스 관리
-        url: https://youtu.be/szQMosnYETc
-    - title: 보안 및 원격 작업 사용 개요
+      - text: Office 365 Advanced Threat Protection이란?
+        url: https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide
+      - text: 안전한 링크란?
+        url: https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide
+      - text: 안전한 첨부 파일이란?
+        url: https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide
+      - text: 안전한 링크 정책 설정
+        url: https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-links-policies?view=o365-worldwide
+      - text: 안전한 첨부 파일 정책 설정
+        url: https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide
+      - text: Office 365에서 위협으로부터 보호
+        url: https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats?view=o365-worldwide
+    - title: 조직에서 사용되는 모든 클라우드 앱 및 서비스 검색
       links:
-      - text: 원격 작업에 대한 보안 및 성능 상승
-        url: https://event.on24.com/wcc/r/2244904/9BCC368CC596F369CAEAF445E1043D84
+      - text: 네트워크에서 섀도 IT 검색 및 관리
+        url: https://docs.microsoft.com/cloud-app-security/tutorial-shadow-it
+      - text: '팁: Cloud App Security 모범 사례'
+        url: https://docs.microsoft.com/cloud-app-security/best-practices
+    - title: Microsoft Defender ATP에 컴퓨터 온보딩
+      links:
+      - text: Microsoft Defender ATP에 컴퓨터를 온보딩하는 방법
+        url: https://www.microsoft.com/videoplayer/embed/RE4bGqr
+      - text: Mac용 Microsoft Defender ATP를 배포하는 방법
+        url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-atp-mac
+      - text: 가상 데스크톱 인프라 컴퓨터를 등록하는 방법
+        url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints-vdi
+    - title: Office ATP 구성 검토
+      links:
+      - text: 보안 강화를 위해 Office 365 테넌트 구성
+        url: https://docs.microsoft.com/microsoft-365/security/office-365-security/tenant-wide-setup-for-increased-security?view=o365-worldwide
+      - text: 직원의 받은 편지함을 보호하기 위한 권장 설정
+        url: https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365-atp?view=o365-worldwid
+      - text: Office 365 사용 권한 관리
+        url: https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center?view=o365-worldwide
+    - title: 앱 보호 정책 구현
+      links:
+      - text: 앱을 관리 및 제어하는 정책 설정
+        url: https://docs.microsoft.com/cloud-app-security/control-cloud-apps-with-policies
   - title: 추가 리소스
     summary: 추가 비용 없이 Microsoft 클라우드 솔루션을 배포하는 데 도움이 되는 FastTrack 환경을 포함하여 추가 리소스 및 설명서를 검색합니다.
     items:
     - title: FastTrack
       summary: Microsoft 클라우드 솔루션을 배포하는 데 도움이 되며 추가 비용 없이 포함됩니다. 지금 지원을 요청합니다.
       url: https://www.microsoft.com/fasttrack?rtc=1
-    - title: Azure Active Directory 설명서
-      summary: 공식 Azure AD 제품 설명서
-      url: https://docs.microsoft.com/azure/active-directory/
-    - title: Microsoft Intune 문서
-      summary: 공식 Intune 제품 설명서
-      url: https://docs.microsoft.com/mem/intune/
     - title: 안전한 원격 작업 블로그 리소스
       summary: 이러한 새 환경에서 원격으로 작업하고 보안을 유지하는 방법에 대한 보안 전문가를 위한 모범 사례 및 지침입니다.
       url: https://www.microsoft.com/security/blog/secure-remote-work/
     - title: Microsoft Tech Community - 원격 작업 수행
       summary: 원격 작업을 수행하기 위한 경험과 아이디어를 공유하고 다른 사용자와 협력해보세요.
       url: https://techcommunity.microsoft.com/t5/enabling-remote-work/ct-p/RemoteWork
+    - title: 비디오 리소스
+      summary: 원격 인력에 대한 보안을 설정하는 데 유용한 비디오 리소스
+      url: indexvideo.yml
+    - title: Azure Active Directory 설명서
+      summary: 공식 Azure AD 제품 설명서
+      url: https://docs.microsoft.com/azure/active-directory/
+    - title: Microsoft Endpoint Manager 설명서
+      summary: 공식 Microsoft Endpoint Manager 설명서
+      url: https://docs.microsoft.com/mem/
+    - title: Microsoft Intune 문서
+      summary: 공식 Intune 제품 설명서
+      url: https://docs.microsoft.com/mem/intune/
+    - title: Microsoft Endpoint Configuration Manager 설명서
+      summary: 공식 Microsoft Endpoint Configuration Manager 설명서
+      url: https://docs.microsoft.com/mem/configmgr/
+    - title: Microsoft Defender Advanced Threat Protection 설명서
+      summary: 공식 Microsoft Defender ATP 제품 설명서
+      url: https://docs.microsoft.com/windows/security/threat-protection/
+    - title: Microsoft Teams 설명서
+      summary: 공식 Teams 제품 설명서
+      url: https://docs.microsoft.com/microsoftteams/
+    - title: Office 365 Advanced Threat Protection 설명서
+      summary: 공식 Office 365 ATP 제품 설명서
+      url: https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide
