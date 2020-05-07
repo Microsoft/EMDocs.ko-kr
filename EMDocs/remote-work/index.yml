@@ -10,12 +10,12 @@ metadata:
   ms.author: dougeby
   manager: mtillman
   ms.date: 04/27/2020
-  ms.openlocfilehash: 65fb560cd084bf5585647004d13913e788b35aef
-  ms.sourcegitcommit: f642732787c4c7568f818b18b28cfee22b6d1465
+  ms.openlocfilehash: b53896eede725b9a0dd1b0444e13b2b34ac08b0d
+  ms.sourcegitcommit: 07489de7ffb3682d178914c66bf72add55336c30
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 04/28/2020
-  ms.locfileid: "82196179"
+  ms.lasthandoff: 05/06/2020
+  ms.locfileid: "82851800"
 conceptualContent:
   title: 앱에 대한 원격 액세스 사용
   summary: 보안을 손상하지 않고 원격 작업자가 필요한 앱에 액세스할 수 있습니다.
@@ -37,6 +37,9 @@ conceptualContent:
     - text: 클라우드 앱을 보호하는 데 적합한 인증 방법 선택
       itemType: how-to-guide
       url: https://docs.microsoft.com/azure/active-directory/hybrid/choose-ad-authn
+    - text: Azure AD를 사용하여 ID 보안에 신속하게 대응
+      itemType: how-to-guide
+      url: https://docs.microsoft.com/azure/active-directory/fundamentals/concept-secure-remote-workers
   - title: 모든 앱을 Microsoft Azure Active Directory에 연결하여 Single Sign-On을 활성화
     links:
     - text: Azure Active Directory를 사용한 애플리케이션 관리
@@ -60,6 +63,9 @@ conceptualContent:
     - text: '팁: 앱에 대한 사용자 프로비전 자동화'
       itemType: how-to-guide
       url: https://docs.microsoft.com/azure/active-directory/app-provisioning/user-provisioning
+    - text: '대화형 가이드: Azure AD 애플리케이션 프록시를 사용하여 온-프레미스 애플리케이션에 안전한 원격 액세스 제공'
+      itemType: how-to-guide
+      url: https://mslearn.cloudguides.com/guides/Provide%20secure%20remote%20access%20to%20on-premises%20applications%20with%20Azure%20AD%20Application%20Proxy
   - title: 조건부 액세스를 사용하여 다단계 인증 설정
     links:
     - text: MFA는 어떻게 작동하나요?
@@ -124,7 +130,7 @@ additionalContent:
     - title: 안전한 BYOD 사용
       links:
       - text: Microsoft Intune 개요
-        url: https://docs.microsoft.com/mem/intune/what-is-intune
+        url: https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune
       - text: Intune 설정
         url: https://docs.microsoft.com/mem/intune/fundamentals/setup-steps
       - text: Microsoft Intune에 디바이스 등록
@@ -151,6 +157,10 @@ additionalContent:
         url: https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps
       - text: '대화형 가이드: Microsoft Endpoint Manager를 사용하여 모바일 및 데스크톱 애플리케이션 관리 및 보호'
         url: https://mslearn.cloudguides.com/guides/Manage%20and%20protect%20mobile%20and%20desktop%20applications%20with%20Microsoft%20Endpoint%20Manager
+      - text: '대화형 가이드: Microsoft Cloud App Security를 사용하여 앱 검색, 보호 및 제어'
+        url: https://mslearn.cloudguides.com/guides/Discover,%20protect,%20and%20control%20your%20apps%20with%20Microsoft%20Cloud%20App%20Security
+      - text: '대화형 가이드: Microsoft Cloud App Security를 사용하여 위협 검색 및 경고 관리'
+        url: https://mslearn.cloudguides.com/guides/Detect%20threats%20and%20manage%20alerts%20with%20Microsoft%20Cloud%20App%20Security
     - title: 원격으로 새 디바이스 프로비전 및 배포
       links:
       - text: Windows Autopilot이란?
@@ -181,6 +191,8 @@ additionalContent:
         url: https://docs.microsoft.com/mem/configmgr/core/plan-design/changes/whats-new-in-version-1910#enable-user-policy-for-windows-10-enterprise-multi-session
       - text: Windows 10 Enterprise 다중 세션 FAQ
         url: https://docs.microsoft.com/azure/virtual-desktop/windows-10-multisession-faq
+      - text: Azure 방화벽을 사용하여 Windows 가상 데스크톱 배포 보호
+        url: https://docs.microsoft.com/azure/firewall/protect-windows-virtual-desktop
     - title: 사전 예방적으로 업데이트, 패치 및 정책 관리
       links:
       - text: 디바이스 및 플랫폼에 대한 조건부 액세스 정책
