@@ -1,4 +1,4 @@
-- name: 문서
+- name: Docs
   tocHref: /
   topicHref: /
   items:
@@ -14,8 +14,8 @@
           topicHref: /azure/active-directory
           items:
             - name: AD Graph API
-              tocHref: /azure-ad-graph-api/api/
-              topicHref: /azure-ad-graph-api/api/api-catalog
+              tocHref: /previous-versions/azure/ad/graph/api/
+              topicHref: /previous-versions/azure/ad/graph/api/api-catalog
         - name: Microsoft 365 Enterprise
           tocHref: /microsoft-365-enterprise/
           topicHref: /microsoft-365-enterprise
@@ -34,30 +34,30 @@
               tocHref: /intune-user-help/
               topicHref: /intune-user-help
         - name: Intune - 클래식 콘솔
-          tocHref: /intune-classic/
-          topicHref: /intune-classic
+          tocHref: /mem/intune/fundamentals/
+          topicHref: /mem/intune/fundamentals/ui-changes
           items:
             - name: 이해 및 탐색
-              tocHref: /intune-classic/understand-explore/
-              topicHref: /intune-classic/understand-explore/introduction-to-microsoft-intune
+              tocHref: /mem/intune/fundamentals/
+              topicHref: /mem/intune/fundamentals/ui-changes
             - name: 계획 및 디자인
-              tocHref: /intune-classic/plan-design/
-              topicHref: /intune-classic/plan-design/introduction
+              tocHref: /mem/intune/fundamentals/
+              topicHref: /mem/intune/fundamentals/ui-changes
             - name: 배포 및 사용
-              tocHref: /intune-classic/deploy-use/
-              topicHref: /intune-classic/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune
+              tocHref: /mem/intune/fundamentals/
+              topicHref: /mem/intune/fundamentals/ui-changes
             - name: 문제 해결
-              tocHref: /intune-classic/troubleshoot/
-              topicHref: /intune-classic/troubleshoot/general-troubleshooting-tips-for-microsoft-intune
-            - name: 시작
-              tocHref: /intune-classic/get-started/
-              topicHref: /intune-classic/get-started/get-started
+              tocHref: /mem/intune/fundamentals/
+              topicHref: /mem/intune/fundamentals/ui-changes
+            - name: 시작하기
+              tocHref: /mem/intune/fundamentals/
+              topicHref: /mem/intune/fundamentals/ui-changes
             - name: 앱 개발 및 사용자 지정
-              tocHref: /intune-classic/develop/
-              topicHref: /intune-classic/develop/intune-app-sdk
+              tocHref: /mem/intune/fundamentals/
+              topicHref: /mem/intune/fundamentals/ui-changes
             - name: 새로운 기능
-              tocHref: /intune-classic/whats-new/
-              topicHref: /intune-classic/whats-new/whats-new-in-microsoft-intune
+              tocHref: /mem/intune/fundamentals/
+              topicHref: /mem/intune/fundamentals/whats-new-archive-classic
         - name: Microsoft  Identity  Manager
           tocHref: /microsoft-identity-manager/
           topicHref: /microsoft-identity-manager

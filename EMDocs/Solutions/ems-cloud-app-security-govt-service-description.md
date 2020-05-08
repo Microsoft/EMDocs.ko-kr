@@ -1,6 +1,6 @@
 ---
-title: Microsoft Cloud App Security Government 서비스 설명
-description: Microsoft Cloud App Security Government 서비스 설명은 당사 제품에 대한 개요를 제공합니다.
+title: Microsoft Cloud App Security 정부 서비스 설명
+description: Microsoft Cloud App Security 정부 서비스 설명은 제공의 개요를 제공 하도록 설계 되었습니다.
 keywords: ''
 author: shsagir
 ms.author: shsagir
@@ -10,66 +10,66 @@ ms.topic: article
 ms.prod: ''
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 251170ad3c3b5aa90fa3e99a5a232dcd2b60bacf
-ms.sourcegitcommit: 136f426c676818a8e0c31a7c08d9ad1ea08241ef
-ms.translationtype: HT
+ms.openlocfilehash: 670d0cf9c07e0af3bbc282f0c5ca89a2b1c92da4
+ms.sourcegitcommit: 9c743600314b5957bc8f70735e1d8d0cbdac0323
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80359942"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "82924492"
 ---
-# <a name="microsoft-cloud-app-security-government-service-description"></a>Microsoft Cloud App Security Government 서비스 설명
+# <a name="microsoft-cloud-app-security-government-service-description"></a>Microsoft Cloud App Security 정부 서비스 설명
 
-## <a name="how-to-use-this-service-description"></a>서비스 설명을 사용하는 방법
+## <a name="how-to-use-this-service-description"></a>이 서비스 설명을 사용 하는 방법
 
-Microsoft Cloud App Security 미국 정부 서비스 설명은 GCC High 환경의 서비스 제공 사항에 대한 개요를 제공하도록 설계되었으며, 상용 제품에서 변형된 기능에 관해 다룹니다.
+미국 정부 기관 서비스 설명은 GCC High 환경에서 서비스 제공에 대 한 개요를 제공 하도록 설계 되었으며, 상용 제품의 기능 변형을 다룹니다. Microsoft Cloud App Security
 
-GCC 고객을 위한 Microsoft Cloud App Security에 대해 자세히 알아보려면 [미국 Office 365 GCC 고객용 EMS](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-govt-service-description#ems-for-us-office-365-gcc-customers)를 참조하세요.
+GCC 고객의 Microsoft Cloud App Security에 대 한 자세한 내용은 [미국 Office 365 GCC 고객을 위한 EMS](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-govt-service-description#ems-for-us-office-365-gcc-customers)를 참조 하세요.
 
-## <a name="getting-started-with-microsoft-cloud-app-security-for-us-government-gcc-high"></a>미국 정부 GCC High용 Microsoft Cloud App Security 시작
+## <a name="getting-started-with-microsoft-cloud-app-security-for-us-government-gcc-high"></a>미국 정부 GCC High에 대 한 Microsoft Cloud App Security 시작
 
-Microsoft Cloud App Security GCC High 제품은 Microsoft Azure Government Cloud를 기반으로 하며 Office 365 GCC High와 상호 운용되도록 디자인되었습니다. 서비스 및 서비스 사용 방법에 대한 자세한 내용은 [Microsoft Cloud App Security 공개 설명서](https://docs.microsoft.com/cloud-app-security/)에서 확인할 수 있습니다. 공개 설명서를 서비스 배포 및 운영을 위한 시작점으로 사용해야 하며, GCC High 환경의 기능 또는 특정의 모든 변경 사항을 자세히 설명하는 다음 서비스 설명 내용을 참조하세요.
+Microsoft Cloud App Security GCC High 제품은 Microsoft Azure Government 클라우드를 기반으로 하며 Office 365 GCC High와의 상호 작용을 위해 설계 되었습니다. 서비스 및 사용 방법에 대 한 자세한 내용은 [Microsoft Cloud App Security 공개 문서](https://docs.microsoft.com/cloud-app-security/)를 참조 하세요. 공개 문서는 서비스 배포 및 운영을 위한 출발점으로 사용 되어야 하며, GCC High 환경의 기능이 나 기능에서 제공 하는 다음과 같은 서비스 설명 세부 정보 및 변경 사항을 제공 합니다.
 
-시작하려면 [기본 설정](https:/docs.microsoft.com/cloud-app-security/general-setup) 페이지를 활용하여 Microsoft Cloud App Security GCC High 포털에 액세스하고 [네트워크 요구 사항](https://docs.microsoft.com/cloud-app-security/network-requirements)을 구성해야 합니다. 다른 자세한 지침은 방법 가이드에 나온 추가 단계를 따르세요.
+시작 하려면 Microsoft Cloud App Security GCC High portal에 액세스 하기 위한 [기본 설정](https://docs.microsoft.com/cloud-app-security/general-setup) 페이지를 활용 하 고 [네트워크 요구 사항이](https://docs.microsoft.com/cloud-app-security/network-requirements) 구성 되어 있는지 확인 합니다. 다른 자세한 지침은 방법 가이드의 추가 단계를 따르세요.
 
 ## <a name="feature-variations-in-microsoft-cloud-app-security-gcc-high"></a>Microsoft Cloud App Security GCC High의 기능 변형
 
-달리 지정하지 않는 경우 미리 보기 기능을 포함하여 [Microsoft Cloud App Security의 새로운 기능](https://docs.microsoft.com/cloud-app-security/release-notes)에 설명된 새로운 기능 릴리스는 Microsoft Cloud App Security 상용 환경에서 출시 3개월 이내에 GCC High에서 사용할 수 있습니다.
+별도로 지정 하지 않는 한, [Microsoft Cloud App Security의 새로운](https://docs.microsoft.com/cloud-app-security/release-notes)기능에 설명 된 미리 보기 기능을 비롯 한 새로운 기능 릴리스는 다른 언급이 없는 한, Microsoft Cloud App Security 상용 환경에서 3 개월 후의 GCC 이상에서 사용할 수 있습니다.
 
 ## <a name="api-connector"></a>API 커넥터
 
-현재 API 커넥터는 AWS GovCloud 및 별도의 정부 클라우드 인스턴스를 제공할 수도 있는 다른 API 연결 애플리케이션용으로 지원되지 않습니다. 타사 애플리케이션의 상용 클라우드 인스턴스를 위한 API 커넥터가 지원됩니다.
+AWS GovCloud 및 기타 정부 클라우드 인스턴스를 제공할 수도 있는 기타 API 연결 응용 프로그램에 대 한 API 커넥터는 현재 지원 되지 않습니다. 타사 응용 프로그램의 상용 클라우드 인스턴스에 대 한 API 커넥터가 지원 됩니다.
 
-Azure 커넥터 및 Office 365 커넥터는 각 서비스의 미국 정부 인스턴스용입니다.
+Azure 커넥터 및 Office 365 커넥터는 각 서비스의 미국 정부 기관에 대 한 것입니다.
 
-## <a name="data-loss-prevention-dlp-features"></a>DLP(데이터 손실 방지) 기능
+## <a name="data-loss-prevention-dlp-features"></a>DLP (데이터 손실 방지) 기능
 
-Microsoft Cloud App Security 기본 제공 DLP 엔진을 통한 콘텐츠 검사를 사용할 수 있으며 다양한 중요 데이터 유형 중에서 신용 카드 또는 사회 보장 번호 같은 중요한 데이터를 검사할 수 있습니다. Cloud App Security의 [기본 제공 콘텐츠 검사](https://docs.microsoft.com/cloud-app-security/content-inspection-built-in)에 대해 자세히 알아보세요.
+Microsoft Cloud App Security 기본 제공 DLP 엔진을 통해 콘텐츠 검사를 사용할 수 있으며, 신용 카드 또는 주민 등록 번호와 같은 중요 한 데이터를 다른 많은 중요 한 데이터 형식으로 검사할 수 있습니다. Cloud App Security에서 [기본 제공 콘텐츠 검사](https://docs.microsoft.com/cloud-app-security/content-inspection-built-in) 에 대해 자세히 알아보세요.
 
-**다음 DLP 통합은 지원되지 않습니다.**
+**다음 DLP 통합은 지원 되지 않습니다.**
 
-- Microsoft Information Protection 레이블이 Office 365 및 Azure Information Protection 전체에서 통합된 레이블 지정을 제공합니다.
-- Microsoft DCS(데이터 분류 서비스)와 네이티브 통합
+- Microsoft Information Protection 레이블은 Office 365 및 Azure Information Protection에서 통합 레이블을 제공 합니다.
+- Microsoft 데이터 분류 서비스 (DC)와의 기본 통합
 
 ## <a name="conditional-access-app-control"></a>조건부 액세스 앱 제어
 
-Microsoft Cloud App Security 역방향 프록시 기능을 사용하여 조직이 실시간으로 사용자 세션을 모니터링하고 제어할 수 있게 하는 Microsoft Cloud App Security 조건부 액세스 앱 제어를 사용할 수 없습니다.
-API에 연결된 애플리케이션에 대해 활동, 파일 및 변칙 검색 정책은 여전히 지원됩니다. 자세한 내용은 [Microsoft Cloud App Security에서 정책을 사용하여 클라우드 앱 제어](https://docs.microsoft.com/cloud-app-security/control-cloud-apps-with-policies)를 참조하세요.
+조직에서 Microsoft Cloud App Security 역방향 프록시 기능을 사용 하 여 사용자 세션을 실시간으로 모니터링 하 고 제어할 수 있도록 하는 Microsoft Cloud App Security 조건부 액세스 앱 제어를 사용할 수 없습니다.
+API에 연결 된 응용 프로그램에 대해서는 활동, 파일 및 변칙 검색 정책이 계속 지원 됩니다. 추가 정보는 [Microsoft Cloud App Security에서 정책을 사용 하 여 클라우드 앱 제어](https://docs.microsoft.com/cloud-app-security/control-cloud-apps-with-policies) 에 대해 자세히 알아보세요.
 
 ## <a name="notifications-and-automation"></a>알림 및 자동화
 
-경고를 알리는 관리 메일 및 위반이 감지되면 사용자에게 전송되는 알림은 현재 지원되지 않습니다.
+경고에 대 한 관리자 메일 알림과 위반이 감지 될 때 사용자에 게 전송 된 알림은 현재 지원 되지 않습니다.
 
 ## <a name="security-configuration-assessments"></a>보안 구성 평가
 
-AWS에 대한 보안 구성 평가가 지원되지 않습니다.
+AWS에 대 한 보안 구성 평가가 지원 되지 않습니다.
 
 ## <a name="other-integrations"></a>기타 통합
 
 다음 통합을 사용할 수 없습니다.
 
 - Microsoft Defender Advanced Threat Protection
-- Microsoft Secure Score에서 Microsoft Cloud App Security 컨트롤 표시
+- Microsoft 보안 점수의 서피싱 Microsoft Cloud App Security 컨트롤
 
 ## <a name="next-steps"></a>다음 단계
 
-Cloud App Security에 대해 자세히 알아보고 시작하는 방법을 살펴보려면 [Cloud App Security 공개 설명서](https://docs.microsoft.com/cloud-app-security/)를 참조하세요.
+Cloud App Security에 대해 자세히 알아보고 시작 하는 방법에 대 한 자세한 내용은 [공개 문서를 Cloud App Security](https://docs.microsoft.com/cloud-app-security/).
