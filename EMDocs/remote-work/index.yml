@@ -10,12 +10,12 @@ metadata:
   ms.author: dougeby
   manager: mtillman
   ms.date: 04/27/2020
-  ms.openlocfilehash: b53896eede725b9a0dd1b0444e13b2b34ac08b0d
-  ms.sourcegitcommit: 07489de7ffb3682d178914c66bf72add55336c30
+  ms.openlocfilehash: 1664dadd82887353938bc9623797374c842215ac
+  ms.sourcegitcommit: caffb68be34b4e415e025ff6fddebc8ccd33466e
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 05/06/2020
-  ms.locfileid: "82851800"
+  ms.lasthandoff: 05/20/2020
+  ms.locfileid: "83696289"
 conceptualContent:
   title: 앱에 대한 원격 액세스 사용
   summary: 보안을 손상하지 않고 원격 작업자가 필요한 앱에 액세스할 수 있습니다.
@@ -280,7 +280,7 @@ additionalContent:
       url: https://techcommunity.microsoft.com/t5/enabling-remote-work/ct-p/RemoteWork
     - title: 비디오 리소스
       summary: 원격 인력에 대한 보안을 설정하는 데 유용한 비디오 리소스
-      url: indexvideo.yml
+      url: https://www.youtube.com/channel/UC4s3tv0Qq_OSUBfR735Jc6A/playlists?view=50&sort=dd&shelf_id=3
     - title: Azure Active Directory 설명서
       summary: 공식 Azure AD 제품 설명서
       url: https://docs.microsoft.com/azure/active-directory/
