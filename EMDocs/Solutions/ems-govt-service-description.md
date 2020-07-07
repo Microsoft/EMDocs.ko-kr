@@ -10,12 +10,11 @@ ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.suite: ems
-ms.openlocfilehash: 73cc120631dfef8e3b21245446b92e8731dee781
-ms.sourcegitcommit: 17853bc5f839b24f28993bff166061c522ebb166
-ms.translationtype: MT
+ms.openlocfilehash: 59cb2a8871941eb7ec4b703078f4842593720420
+ms.sourcegitcommit: ccc67229860579ce570f87248d447835b1209e69
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/25/2020
-ms.locfileid: "82158080"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86032546"
 ---
 # <a name="enterprise-mobility--security-for-us-government-service-description"></a>US Government용 Enterprise Mobility + Security 서비스 설명
 Microsoft에서는 미국 공공 부문의 고유하면서 진화하고 있는 요구 사항에 대한 대응으로 미국 정부 커뮤니티 고객을 위해 Enterprise Mobility + Security(EMS) 요금제를 만들었습니다. 이 문서에서는 EMS 요금제에 관련된 기능을 간단히 설명합니다.
@@ -47,7 +46,7 @@ GCC 고객은 EMS E5 SKU를 구매하여 Microsoft Cloud App Security 및 Azure 
 ## <a name="ems-for-us-gcc-high-and-dod-customers"></a>미국 GCC High 및 DoD 고객의 EMS
 미국 GCC High 및 DOD 고객에 대 한 EMS 제품은 Microsoft [Azure Government](https://docs.microsoft.com/azure/azure-government/documentation-government-welcome) 클라우드를 기반으로 하며, OFFICE 365 GCC HIGH 및 dod 환경과 함께 작동 하도록 설계 되었습니다. EMS E5 제품군은 GCC High 및 DoD 고객 모두에 대해 사용할 수 있지만 Microsoft Cloud App Security 및 Azure Advanced Threat Protection은 GCC High 고객만 사용할 수 있습니다. Azure Active Directory P1/P2, Microsoft Intune, Azure Information Protection P1/P2, Microsoft Cloud App Security 및 Azure ATP는 인증 FedRAMP 높습니다.
 
-GCC High 및 DOD 고객은 다양 한 요구 사항 및 관리 요구 사항에 따라 Intune에 대 한 별도의 끝점 집합을 사용할 수 있습니다. 다음은 MICROSOFT의 GCC High 및 DOD 고객에 게 제공 되는 EMS 관리 포털 목록입니다. 서비스 가용성에 따라:
+GCC High 및 DOD 고객은 다양 한 요구 사항 및 관리 요구 사항에 따라 Intune에 대 한 별도의 끝점 집합을 사용할 수 있습니다. 다음은 MICROSOFT의 GCC High 및 DOD 고객에 게 제공 되는 EMS 관리 포털의 목록입니다 (서비스 가용성에 따라 다름).
 
 - Office 365 포털: https://portal.office365.us(사용자, 그룹 및 라이선스 관리용])
 - Azure/Intune 관리 포털: https://portal.azure.us
@@ -62,7 +61,7 @@ GCC High 및 DOD 고객은 다양 한 요구 사항 및 관리 요구 사항에 
 - Azure Information Protection: 
   - 현재 Azure Government에서 사용할 수 없는 기능 목록은 [Azure Information Protection Premium](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description) 페이지를 참조 하세요. 
 - Microsoft Intune: 
-  - [Microsoft Intune] 페이지 (https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-intune-govt-service-description) 현재 Azure Government에서 사용할 수 없는 기능 목록은를 참조 하세요. 
+  - [Microsoft Intune] 페이지 ( https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-intune-govt-service-description) 현재 Azure Government에서 사용할 수 없는 기능 목록은를 참조 하세요. 
 - Azure Advanced Threat Protection:
   - 현재 Azure Government에서 제공 되지 않는 기능 목록은 [AZURE ATP](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-azure-atp-govt-service-description) 페이지를 참조 하세요.
 - Microsoft Cloud App Security:
