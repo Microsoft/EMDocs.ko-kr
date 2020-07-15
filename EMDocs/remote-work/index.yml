@@ -10,12 +10,12 @@ metadata:
   ms.author: dougeby
   manager: mtillman
   ms.date: 04/27/2020
-  ms.openlocfilehash: 1664dadd82887353938bc9623797374c842215ac
-  ms.sourcegitcommit: caffb68be34b4e415e025ff6fddebc8ccd33466e
+  ms.openlocfilehash: 15f3c6f81cd8deacf2f2c1b12f08e510d668020a
+  ms.sourcegitcommit: 8fe4020cff000919d3e1dda2763650eff30fc4d1
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 05/20/2020
-  ms.locfileid: "83696289"
+  ms.lasthandoff: 07/14/2020
+  ms.locfileid: "86303350"
 conceptualContent:
   title: 앱에 대한 원격 액세스 사용
   summary: 보안을 손상하지 않고 원격 작업자가 필요한 앱에 액세스할 수 있습니다.
@@ -48,6 +48,12 @@ conceptualContent:
     - text: SaaS 애플리케이션과 Azure Active Directory를 통합하는 방법에 대한 자습서 제공
       itemType: how-to-guide
       url: https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list
+    - text: Azure Active Directory 기능 배포 가이드
+      itemType: how-to-guide
+      url: https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-deployment-checklist-p2
+    - text: Azure Active Directory 배포 계획
+      itemType: how-to-guide
+      url: https://aka.ms/DeploymentPlans
     - text: 애플리케이션 프록시를 통해 온-프레미스 애플리케이션 추가
       itemType: how-to-guide
       url: https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application
@@ -63,9 +69,15 @@ conceptualContent:
     - text: '팁: 앱에 대한 사용자 프로비전 자동화'
       itemType: how-to-guide
       url: https://docs.microsoft.com/azure/active-directory/app-provisioning/user-provisioning
+    - text: Azure AD 애플리케이션 프록시 배포 계획
+      itemType: how-to-guide
+      url: https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-deployment-plan
     - text: '대화형 가이드: Azure AD 애플리케이션 프록시를 사용하여 온-프레미스 애플리케이션에 안전한 원격 액세스 제공'
       itemType: how-to-guide
       url: https://mslearn.cloudguides.com/guides/Provide%20secure%20remote%20access%20to%20on-premises%20applications%20with%20Azure%20AD%20Application%20Proxy
+    - text: 원격 액세스 솔루션 비교
+      itemType: how-to-guide
+      url: https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-migration
   - title: 조건부 액세스를 사용하여 다단계 인증 설정
     links:
     - text: MFA는 어떻게 작동하나요?
@@ -138,7 +150,7 @@ additionalContent:
       - text: 안내 시나리오
         url: https://docs.microsoft.com/mem/intune/fundamentals/guided-scenarios-overview
       - text: ID 및 디바이스 액세스 구성
-        url: http://aka.ms/m365goldenconfig
+        url: https://aka.ms/m365goldenconfig
       - text: '대화형 가이드: Microsoft Endpoint Manager를 사용하여 디바이스 관리'
         url: https://mslearn.cloudguides.com/guides/Manage%20devices%20with%20Microsoft%20Endpoint%20Manager
     - title: 앱 구성 및 보호
