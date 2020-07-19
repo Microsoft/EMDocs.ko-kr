@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: ''
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 670d0cf9c07e0af3bbc282f0c5ca89a2b1c92da4
-ms.sourcegitcommit: 9c743600314b5957bc8f70735e1d8d0cbdac0323
+ms.openlocfilehash: b270cab9f833758e8735e9aeba0ff1beecca85fb
+ms.sourcegitcommit: dbe9e48101947dd73b6c3688242f35fc55130a9f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "82924492"
+ms.lasthandoff: 07/19/2020
+ms.locfileid: "86468395"
 ---
 # <a name="microsoft-cloud-app-security-government-service-description"></a>Microsoft Cloud App Security 정부 서비스 설명
 
@@ -48,7 +48,6 @@ Microsoft Cloud App Security 기본 제공 DLP 엔진을 통해 콘텐츠 검사
 **다음 DLP 통합은 지원 되지 않습니다.**
 
 - Microsoft Information Protection 레이블은 Office 365 및 Azure Information Protection에서 통합 레이블을 제공 합니다.
-- Microsoft 데이터 분류 서비스 (DC)와의 기본 통합
 
 ## <a name="conditional-access-app-control"></a>조건부 액세스 앱 제어
 
