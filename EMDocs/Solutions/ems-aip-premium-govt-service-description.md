@@ -10,18 +10,18 @@ ms.topic: article
 ms.prod: ''
 ms.service: rights-management
 ms-suite: ems
-ms.openlocfilehash: e15a537fd0dfdfac2639adfaf5892d2b3e7eb8a9
-ms.sourcegitcommit: 93d2f48c81b684cd54cb5b18110530521c44ae6d
+ms.openlocfilehash: 14ea56cd03851ff71c192cda06dfc5d0ea294ef7
+ms.sourcegitcommit: fc33b1ebc126958e5006ea47e55a7d922e4fc959
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87389088"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "88969795"
 ---
 # <a name="azure-information-protection-premium-government-service-description"></a>Azure Information Protection Premium Government 서비스 설명 
 
 ## <a name="how-to-use-this-service-description"></a>서비스 설명을 사용하는 방법 
 
-Azure Information Protection 프리미엄 정부 서비스 설명은 GCC High 및 DoD 환경에서 제공 하는 기능에 대 한 개요를 제공 하도록 설계 되었으며, Azure Information Protection Premium 상용 제품에 비해 기능 변형을 다룹니다. GCC 및 GCC High 고객에 대 한 Azure Information Protection에 대 한 자세한 내용은 [미국 정부 및 Office 365 상호 운용성에 대 한 EMS 제품](ems-govt-service-description.md#ems-offers-for-us-government-and-office-365-interoperability)설명을 참조 하세요.
+Azure Information Protection 프리미엄 정부 서비스 설명은 GCC High 및 DoD 환경에서 제공 하는 기능에 대 한 개요를 제공 하도록 설계 되었으며, Azure Information Protection Premium 상용 제품에 비해 기능 변형을 다룹니다. GCC 및 GCC High 고객에 대 한 Azure Information Protection에 대 한 자세한 내용은 [미국 정부 및 Microsoft 365 상호 운용성을 위한 EMS 제품](ems-govt-service-description.md#ems-offers-for-us-government-and-microsoft-365-interoperability)설명을 참조 하세요.
 
 ## <a name="azure-information-protection-premium-government-and-third-party-services"></a>Azure Information Protection Premium Government 및 타사 서비스 
 
@@ -64,7 +64,7 @@ Microsoft는 정부 Azure Information Protection 프리미엄 GCC High 및 DoD �
 | --- | --- |
 | Name | CloudEnvType |
 | 값 | 0/1/2 |
-| 형식 | REG_DWORD |
+| Type | REG_DWORD |
  
 
 | 값  | 자세히  |
@@ -105,7 +105,7 @@ Microsoft는 정부 Azure Information Protection 프리미엄 GCC High 및 DoD �
 
 * Rights Management 서비스 ID 획득 
   * 관리자 권한으로 PowerShell 시작 
-  * AADRM 모듈이 설치 되어 있지 않으면를 실행 합니다.`Install-Module aadrm`  
+  * AADRM 모듈이 설치 되어 있지 않으면를 실행 합니다. `Install-Module aadrm`  
   * `Connect-aadrmservice -environmentname azureusgovernment` 사용을 통해 서비스 연결
   * `(Get-aadrmconfiguration).RightsManagementServiceId` 실행을 통해 Rights Management 서비스 ID 획득
 * DNS 공급자에 로그인 하 고 도메인에 대 한 DNS 설정으로 이동 하 여 새 SRV 레코드를 추가 합니다.
@@ -147,7 +147,7 @@ Windows의 AIP 앱은 특수 레지스트리 키를 GCC High/DoD에 대한 올�
 | --- | --- |
 | Name | WebServiceUrl |
 | 값 | https://api.informationprotection.azure.us |
-| 형식 | REG_SZ (String) |
+| Type | REG_SZ (String) |
 
 
 ## <a name="firewalls-and-network-infrastructure"></a>방화벽 및 네트워크 인프라

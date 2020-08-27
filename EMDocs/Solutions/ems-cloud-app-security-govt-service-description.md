@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: ''
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: b270cab9f833758e8735e9aeba0ff1beecca85fb
-ms.sourcegitcommit: dbe9e48101947dd73b6c3688242f35fc55130a9f
+ms.openlocfilehash: be2e2c58ac72d38f61ad102df032a241a6b5a8f5
+ms.sourcegitcommit: fc33b1ebc126958e5006ea47e55a7d922e4fc959
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2020
-ms.locfileid: "86468395"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "88969744"
 ---
 # <a name="microsoft-cloud-app-security-government-service-description"></a>Microsoft Cloud App Security 정부 서비스 설명
 
@@ -23,11 +23,11 @@ ms.locfileid: "86468395"
 
 미국 정부 기관 서비스 설명은 GCC High 환경에서 서비스 제공에 대 한 개요를 제공 하도록 설계 되었으며, 상용 제품의 기능 변형을 다룹니다. Microsoft Cloud App Security
 
-GCC 고객의 Microsoft Cloud App Security에 대 한 자세한 내용은 [미국 Office 365 GCC 고객을 위한 EMS](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-govt-service-description#ems-for-us-office-365-gcc-customers)를 참조 하세요.
+GCC 고객의 Microsoft Cloud App Security에 대 한 자세한 내용은 [microsoft의 EMS MICROSOFT 365 gcc 고객](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-govt-service-description#ems-for-us-office-365-gcc-customers)을 참조 하세요.
 
 ## <a name="getting-started-with-microsoft-cloud-app-security-for-us-government-gcc-high"></a>미국 정부 GCC High에 대 한 Microsoft Cloud App Security 시작
 
-Microsoft Cloud App Security GCC High 제품은 Microsoft Azure Government 클라우드를 기반으로 하며 Office 365 GCC High와의 상호 작용을 위해 설계 되었습니다. 서비스 및 사용 방법에 대 한 자세한 내용은 [Microsoft Cloud App Security 공개 문서](https://docs.microsoft.com/cloud-app-security/)를 참조 하세요. 공개 문서는 서비스 배포 및 운영을 위한 출발점으로 사용 되어야 하며, GCC High 환경의 기능이 나 기능에서 제공 하는 다음과 같은 서비스 설명 세부 정보 및 변경 사항을 제공 합니다.
+Microsoft Cloud App Security GCC High 제품은 Microsoft Azure Government 클라우드에서 빌드되고 Microsoft 365 GCC High와 함께 작동 하도록 설계 되었습니다. 서비스 및 사용 방법에 대 한 자세한 내용은 [Microsoft Cloud App Security 공개 문서](https://docs.microsoft.com/cloud-app-security/)를 참조 하세요. 공개 문서는 서비스 배포 및 운영을 위한 출발점으로 사용 되어야 하며, GCC High 환경의 기능이 나 기능에서 제공 하는 다음과 같은 서비스 설명 세부 정보 및 변경 사항을 제공 합니다.
 
 시작 하려면 Microsoft Cloud App Security GCC High portal에 액세스 하기 위한 [기본 설정](https://docs.microsoft.com/cloud-app-security/general-setup) 페이지를 활용 하 고 [네트워크 요구 사항이](https://docs.microsoft.com/cloud-app-security/network-requirements) 구성 되어 있는지 확인 합니다. 다른 자세한 지침은 방법 가이드의 추가 단계를 따르세요.
 
@@ -39,7 +39,7 @@ Microsoft Cloud App Security GCC High 제품은 Microsoft Azure Government 클�
 
 AWS GovCloud 및 기타 정부 클라우드 인스턴스를 제공할 수도 있는 기타 API 연결 응용 프로그램에 대 한 API 커넥터는 현재 지원 되지 않습니다. 타사 응용 프로그램의 상용 클라우드 인스턴스에 대 한 API 커넥터가 지원 됩니다.
 
-Azure 커넥터 및 Office 365 커넥터는 각 서비스의 미국 정부 기관에 대 한 것입니다.
+Azure 커넥터 및 Microsoft 365 커넥터는 각 서비스의 미국 정부 기관에 대 한 것입니다.
 
 ## <a name="data-loss-prevention-dlp-features"></a>DLP (데이터 손실 방지) 기능
 
@@ -47,7 +47,7 @@ Microsoft Cloud App Security 기본 제공 DLP 엔진을 통해 콘텐츠 검사
 
 **다음 DLP 통합은 지원 되지 않습니다.**
 
-- Microsoft Information Protection 레이블은 Office 365 및 Azure Information Protection에서 통합 레이블을 제공 합니다.
+- Microsoft Information Protection 레이블은 Microsoft 365 및 Azure Information Protection에서 통합 레이블을 제공 합니다.
 
 ## <a name="conditional-access-app-control"></a>조건부 액세스 앱 제어
 
