@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: ''
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: be2e2c58ac72d38f61ad102df032a241a6b5a8f5
-ms.sourcegitcommit: fc33b1ebc126958e5006ea47e55a7d922e4fc959
+ms.openlocfilehash: a9b92f89b6ee7a854b4fe01f049cd2ec7a7bc640
+ms.sourcegitcommit: 60618bc9f53c47a1a6d457c111cdf7143a5fa51e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "88969744"
+ms.lasthandoff: 08/30/2020
+ms.locfileid: "89116838"
 ---
 # <a name="microsoft-cloud-app-security-government-service-description"></a>Microsoft Cloud App Security 정부 서비스 설명
 
@@ -61,6 +61,10 @@ API에 연결 된 응용 프로그램에 대해서는 활동, 파일 및 변칙 
 ## <a name="security-configuration-assessments"></a>보안 구성 평가
 
 AWS에 대 한 보안 구성 평가가 지원 되지 않습니다.
+
+## <a name="azure-sentinel-integration"></a>Azure Sentinel 통합
+
+현재 Microsoft Cloud App Security와 Azure 센티널 간의 통합은 지원 되지 않습니다.
 
 ## <a name="other-integrations"></a>기타 통합
 
