@@ -5,17 +5,17 @@ keywords: ''
 author: shsagir
 ms.author: shsagir
 manager: rkarlin
-ms.date: 03/26/2020
+ms.date: 09/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: a9b92f89b6ee7a854b4fe01f049cd2ec7a7bc640
-ms.sourcegitcommit: 60618bc9f53c47a1a6d457c111cdf7143a5fa51e
+ms.openlocfilehash: 9fdadbcb5c20bcecfe07dc9ba3c4e0505845c650
+ms.sourcegitcommit: 1539648861a2712bb4551f44e378b4d4dda03432
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2020
-ms.locfileid: "89116838"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "90060476"
 ---
 # <a name="microsoft-cloud-app-security-government-service-description"></a>Microsoft Cloud App Security 정부 서비스 설명
 
@@ -57,10 +57,6 @@ API에 연결 된 응용 프로그램에 대해서는 활동, 파일 및 변칙 
 ## <a name="notifications-and-automation"></a>알림 및 자동화
 
 경고에 대 한 관리자 메일 알림과 위반이 감지 될 때 사용자에 게 전송 된 알림은 현재 지원 되지 않습니다.
-
-## <a name="security-configuration-assessments"></a>보안 구성 평가
-
-AWS에 대 한 보안 구성 평가가 지원 되지 않습니다.
 
 ## <a name="azure-sentinel-integration"></a>Azure Sentinel 통합
 
