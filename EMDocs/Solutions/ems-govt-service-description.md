@@ -5,17 +5,17 @@ keywords: ''
 author: shsagir
 ms.author: shsagir
 manager: dougeby
-ms.date: 01/12/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.suite: ems
-ms.openlocfilehash: f829310e9076af4f3ad50dfe89ceea3ebd428563
-ms.sourcegitcommit: fc33b1ebc126958e5006ea47e55a7d922e4fc959
+ms.openlocfilehash: d4946a6d9c11f562d70db08a1c591235537f3de2
+ms.sourcegitcommit: 60e6e9ad2824e82b53e1ca5f55020e82d133db63
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "88969880"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90989080"
 ---
 # <a name="enterprise-mobility--security-for-us-government-service-description"></a>US Government용 Enterprise Mobility + Security 서비스 설명
 Microsoft에서는 미국 공공 부문의 고유하면서 진화하고 있는 요구 사항에 대한 대응으로 미국 정부 커뮤니티 고객을 위해 Enterprise Mobility + Security(EMS) 요금제를 만들었습니다. 이 문서에서는 EMS 요금제에 관련된 기능을 간단히 설명합니다.
@@ -28,7 +28,7 @@ US Government 제품은 (1) 미국 연방, 주, 지방, 부족 정부 기관 및
 
 ## <a name="ems-offers-for-us-government-and-microsoft-365-interoperability"></a>미국 정부 및 Microsoft 365 상호 운용성을 위한 EMS 제품
 
-Enterprise Mobility + Security에 있는 각 제품 및 해당 계획에 대 한 자세한 내용은 [설명서 리소스](https://docs.microsoft.com/enterprise-mobility-security/) 를 방문 하 고 [요금제 및 가격 책정을 비교](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/compare-plans-and-pricing)하세요.
+Enterprise Mobility + Security에 있는 각 제품 및 해당 계획에 대 한 자세한 내용은 [설명서 리소스](/enterprise-mobility-security/) 를 방문 하 고 [요금제 및 가격 책정을 비교](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/compare-plans-and-pricing)하세요.
 
 |EMS 미국 정부 제품|호스팅된 서비스 위치|상호 운용 가능한 GCC (정부 커뮤니티 클라우드) 제품 Microsoft 365|
 |-----------|-----------|-----------|
@@ -40,12 +40,12 @@ Enterprise Mobility + Security에 있는 각 제품 및 해당 계획에 대 한
 > * E5 제품은 GCC 및 DOD 고객에 대 한 Azure AD Premium 2와 Azure Information Protection P2 (Microsoft Intune 외)로 제한 됩니다. Microsoft Cloud App Security 및 Azure ATP (Advanced Threat Protection)는 현재 Microsoft 365 GCC 또는 DoD 고객을 위한 제품에 포함 되어 있지 않습니다.  그러나 GCC 고객은 EMS E5 라이선스를 구매 하 여 Microsoft Cloud App Security 및 Azure ATP의 상용 제품을 추가 하도록 선택할 수 있습니다.
 
 ## <a name="ems-for-us-gcc-customers"></a>미국 GCC 고객용 EMS
-Azure Active Directory P1/P2, Microsoft Intune 및 Azure Information Protection P1/P2는 Azure 상용 환경에서 호스팅되며 Microsoft 365 GCC 플랫폼과 상호 운용할 수 있습니다.  이러한 서비스는 FedRAMP-High 인증을 받았으며 모든 [GCC 규정 준수](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc#us-government-community-compliance) 특성을 충족합니다.
+Azure Active Directory P1/P2, Microsoft Intune 및 Azure Information Protection P1/P2는 Azure 상용 환경에서 호스팅되며 Microsoft 365 GCC 플랫폼과 상호 운용할 수 있습니다. 이러한 서비스는 인증 FedRAMP 높습니다.
 
-GCC 고객은 EMS E5 SKU를 구매하여 Microsoft Cloud App Security 및 Azure ATP 상업용 제품의 추가 기능을 선택할 수 있습니다. Microsoft Cloud App Security 및 Azure ATP는 ATO (Azure 상용 FedRAMP High 권한 부여가 적용 되는 상업적 제품 이지만 CJIS 백그라운드 차단, IRS 1075 및 미국 정부 직원의 고객 콘텐츠에 대 한 액세스와 같은 다른 [GCC 준수](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc#us-government-community-compliance) 특성을 충족 하지 못할 수 있습니다.  Microsoft 제품 및 서비스용 규정 준수 제품 목록은 [Microsoft 보안 센터](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings)에서 찾을 수 있습니다.  
+GCC 고객은 EMS E5 SKU를 구매하여 Microsoft Cloud App Security 및 Azure ATP 상업용 제품의 추가 기능을 선택할 수 있습니다. Microsoft Cloud App Security 및 Azure ATP는 ATO (Azure 상용 FedRAMP High 권한 부여가 적용 되는 상업적 제품 이지만 CJIS 백그라운드 차단, IRS 1075 및 미국 정부 직원의 고객 콘텐츠에 대 한 액세스와 같은 다른 [GCC 준수](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc#us-government-community-compliance) 특성을 충족 하지 못할 수 있습니다.  Microsoft 제품 및 서비스용 규정 준수 제품 목록은 [Microsoft 보안 센터](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings)에서 찾을 수 있습니다.  
 
 ## <a name="ems-for-us-gcc-high-and-dod-customers"></a>미국 GCC High 및 DoD 고객의 EMS
-미국 GCC High 및 DOD 고객에 대 한 EMS 제품은 Microsoft [Azure Government](https://docs.microsoft.com/azure/azure-government/documentation-government-welcome) 클라우드로 구축 되었으며 Microsoft 365 GCC HIGH 및 dod 환경과 상호 작용 하도록 설계 되었습니다. EMS E5 제품군은 GCC High 및 DoD 고객 모두에 대해 사용할 수 있지만 Microsoft Cloud App Security 및 Azure Advanced Threat Protection은 GCC High 고객만 사용할 수 있습니다. Azure Active Directory P1/P2, Microsoft Intune, Azure Information Protection P1/P2, Microsoft Cloud App Security 및 Azure ATP는 인증 FedRAMP 높습니다.
+미국 GCC High 및 DOD 고객에 대 한 EMS 제품은 Microsoft [Azure Government](/azure/azure-government/documentation-government-welcome) 클라우드로 구축 되었으며 Microsoft 365 GCC HIGH 및 dod 환경과 상호 작용 하도록 설계 되었습니다. EMS E5 제품군은 GCC High 및 DoD 고객 모두에 대해 사용할 수 있지만 Microsoft Cloud App Security 및 Azure Advanced Threat Protection은 GCC High 고객만 사용할 수 있습니다. Azure Active Directory P1/P2, Microsoft Intune, Azure Information Protection P1/P2, Microsoft Cloud App Security 및 Azure ATP는 인증 FedRAMP 높습니다.
 
 GCC High 및 DOD 고객은 다양 한 요구 사항 및 관리 요구 사항에 따라 Intune에 대 한 별도의 끝점 집합을 사용할 수 있습니다. 다음은 MICROSOFT의 GCC High 및 DOD 고객에 게 제공 되는 EMS 관리 포털의 목록입니다 (서비스 가용성에 따라 다름).
 
@@ -58,20 +58,20 @@ GCC High 및 DOD 고객은 다양 한 요구 사항 및 관리 요구 사항에 
 ### <a name="parity-with-commercial"></a>상용 패리티 
 우리의 목표는 정부 고객에 게 미국 정부 제품에 대 한 모든 상업적 기능과 기능을 제공 하는 것 이지만 Azure Government 환경에서 아직 사용할 수 없는 기능도 있습니다. 다음 제품 페이지에서는 GCC High 및 DOD 고객에 게 제공 되는 상업용 제품 및 EMS 제품 간의 알려진 기존 격차를 확인할 수 있습니다. 
 - Azure Active Directory: 
-  - Azure Government에서 현재 사용할 수 없는 기능의 목록을 보려면 Azure Government 설명서 사이트의 [Azure Active Directory Premium](https://docs.microsoft.com/azure/azure-government/documentation-government-services-securityandidentity#azure-active-directory-premium-p1-and-p2) 페이지를 방문하세요. 
+  - Azure Government에서 현재 사용할 수 없는 기능의 목록을 보려면 Azure Government 설명서 사이트의 [Azure Active Directory Premium](/azure/azure-government/documentation-government-services-securityandidentity#azure-active-directory-premium-p1-and-p2) 페이지를 방문하세요. 
 - Azure Information Protection: 
-  - 현재 Azure Government에서 사용할 수 없는 기능 목록은 [Azure Information Protection Premium](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-aip-premium-govt-service-description) 페이지를 참조 하세요. 
+  - 현재 Azure Government에서 사용할 수 없는 기능 목록은 [Azure Information Protection Premium](./ems-aip-premium-govt-service-description.md) 페이지를 참조 하세요. 
 - Microsoft Intune: 
   - [Microsoft Intune] 페이지 ( https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-intune-govt-service-description) 현재 Azure Government에서 사용할 수 없는 기능 목록은를 참조 하세요. 
 - Azure Advanced Threat Protection:
-  - 현재 Azure Government에서 제공 되지 않는 기능 목록은 [AZURE ATP](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-azure-atp-govt-service-description) 페이지를 참조 하세요.
+  - 현재 Azure Government에서 제공 되지 않는 기능 목록은 [AZURE ATP](./ems-azure-atp-govt-service-description.md) 페이지를 참조 하세요.
 - Microsoft Cloud App Security:
-  - 현재 Azure Government에서 사용할 수 없는 기능 목록은 [Microsoft Cloud App Security](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-cloud-app-security-govt-service-description) 페이지를 참조 하세요.
+  - 현재 Azure Government에서 사용할 수 없는 기능 목록은 [Microsoft Cloud App Security](./ems-cloud-app-security-govt-service-description.md) 페이지를 참조 하세요.
 
 ## <a name="location-of-customer-data"></a>고객 데이터의 위치
 
 ### <a name="us-government-gcc-customers"></a>미국 정부 GCC 고객
-미국 정부 기관 고객에 게 현재 제공 되는 EMS 서비스 (Azure AD P1/P2, Intune 및 Azure Information Protection P1/2)는 실제로 미국에 있는 데이터 센터에서 제공 됩니다. 조직의 고객 데이터는 미국 내에 저장됩니다. GCC 고객은 EMS E5 라이선스를 구매 하 여 Microsoft Cloud App Security 및 Azure ATP의 상용 제품을 추가 하도록 선택할 수도 있습니다. (이러한 서비스는 미국 GCC 서비스는 아니므로 일부 GCC 특성을 준수 하지 않습니다.) Microsoft가 상용 서비스와 연결 Microsoft Cloud App Security 되어 있는 상태에서 Microsoft에서 고객 데이터를 저장 하는 위치에 대 한 자세한 내용은 [Online Services 약관](https://www.microsoft.com/licensing/product-licensing/products)을 검토 하십시오. Microsoft에서 Azure ATP와 관련된 미사용 고객 데이터를 저장하는 위치에 대한 자세한 내용은 Azure ATP [제품 설명서](https://docs.microsoft.com/azure-advanced-threat-protection/atp-technical-faq#do-i-have-the-flexibility-to-select-where-to-store-my-data)를 검토하세요.
+미국 정부 기관 고객에 게 현재 제공 되는 EMS 서비스 (Azure AD P1/P2, Intune 및 Azure Information Protection P1/2)는 실제로 미국에 있는 데이터 센터에서 제공 됩니다. 조직의 고객 데이터는 미국 내에 저장됩니다. GCC 고객은 EMS E5 라이선스를 구매 하 여 Microsoft Cloud App Security 및 Azure ATP의 상용 제품을 추가 하도록 선택할 수도 있습니다. (이러한 서비스는 미국 GCC 서비스는 아니므로 일부 GCC 특성을 준수 하지 않습니다.) Microsoft가 상용 서비스와 연결 Microsoft Cloud App Security 되어 있는 상태에서 Microsoft에서 고객 데이터를 저장 하는 위치에 대 한 자세한 내용은 [Online Services 약관](https://www.microsoft.com/licensing/product-licensing/products)을 검토 하십시오. Microsoft에서 Azure ATP와 관련된 미사용 고객 데이터를 저장하는 위치에 대한 자세한 내용은 Azure ATP [제품 설명서](/azure-advanced-threat-protection/atp-technical-faq#do-i-have-the-flexibility-to-select-where-to-store-my-data)를 검토하세요.
 
 ### <a name="us-government-gcc-high-and-dod-customers"></a>미국 정부 GCC High 및 DoD 고객
 미국 정부 GCC High 및 DOD 제품에 대해 EMS를 사용 하는 조직은 다음과 같은 기능을 활용할 수 있습니다. 
@@ -86,4 +86,4 @@ GCC High 및 DOD 고객은 다양 한 요구 사항 및 관리 요구 사항에 
 
 다양한 EMS 서비스는 특정 타사 애플리케이션 및 서비스와 원활하게 작동하는 기능을 제공합니다. 이러한 타사 애플리케이션 및 서비스에는 EMS 인프라 외부에 있기 때문에 당사의 준수 사항 및 데이터 보호 약정이 적용되지 않는 타사 시스템에 조직의 고객 데이터 또는 콘텐츠를 저장, 전송 및 처리하는 작업이 포함될 수 있습니다. 조직에 타사 애플리케이션 및 서비스를 사용하는 것이 적절한지 평가하는 경우에는 타사가 제공하는 개인 정보 보호 및 규정 준수 문서를 검토하는 것이 좋습니다.
 
-자세한 내용은 [Microsoft 365 정부](https://www.microsoft.com/microsoft-365/government)를 참조 하세요. 
+자세한 내용은 [Microsoft 365 정부](https://www.microsoft.com/microsoft-365/government)를 참조 하세요.

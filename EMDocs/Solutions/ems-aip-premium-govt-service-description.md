@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: ''
 ms.service: rights-management
 ms-suite: ems
-ms.openlocfilehash: 14ea56cd03851ff71c192cda06dfc5d0ea294ef7
-ms.sourcegitcommit: fc33b1ebc126958e5006ea47e55a7d922e4fc959
+ms.openlocfilehash: eeda39c77851a44eab4c80a819727317b2cb749e
+ms.sourcegitcommit: 60e6e9ad2824e82b53e1ca5f55020e82d133db63
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "88969795"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90989063"
 ---
 # <a name="azure-information-protection-premium-government-service-description"></a>Azure Information Protection Premium Government 서비스 설명 
 
@@ -62,9 +62,9 @@ Microsoft는 정부 Azure Information Protection 프리미엄 GCC High 및 DoD �
 
 | 레지스트리 노드 | HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSIP |
 | --- | --- |
-| Name | CloudEnvType |
+| 이름 | CloudEnvType |
 | 값 | 0/1/2 |
-| Type | REG_DWORD |
+| 형식 | REG_DWORD |
  
 
 | 값  | 자세히  |
@@ -131,7 +131,7 @@ Microsoft는 정부 Azure Information Protection 프리미엄 GCC High 및 DoD �
 
 GCC High 고객은 PowerShell을 사용 하 여 모든 기존 레이블을 마이그레이션해야 합니다. 기존 AIP 마이그레이션 방법은 GCC High 고객에 게는 적용 **되지 않습니다** . 
 
-[새 레이블](https://docs.microsoft.com/powershell/module/exchange/new-label?view=exchange-ps) cmdlet을 사용 하 여 기존 민감도 레이블을 마이그레이션합니다. 마이그레이션을 시작 하기 전에 [보안 & 준수 센터를 사용 하 여 cmdlet을 연결 하 고 실행 하는 방법에 대 한 지침](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?view=exchange-ps#connect-to-the-security--compliance-center) 을 따르세요. 
+[새 레이블](/powershell/module/exchange/new-label?view=exchange-ps) cmdlet을 사용 하 여 기존 민감도 레이블을 마이그레이션합니다. 마이그레이션을 시작 하기 전에 [보안 & 준수 센터를 사용 하 여 cmdlet을 연결 하 고 실행 하는 방법에 대 한 지침](/powershell/exchange/connect-to-scc-powershell?view=exchange-ps#connect-to-the-security--compliance-center) 을 따르세요. 
 
 기존 민감도 레이블에 암호화가 있는 경우의 마이그레이션 예:
 
@@ -145,9 +145,9 @@ Windows의 AIP 앱은 특수 레지스트리 키를 GCC High/DoD에 대한 올�
 
 | 레지스트리 노드 | HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSIP |
 | --- | --- |
-| Name | WebServiceUrl |
+| 이름 | WebServiceUrl |
 | 값 | https://api.informationprotection.azure.us |
-| Type | REG_SZ (String) |
+| 형식 | REG_SZ (String) |
 
 
 ## <a name="firewalls-and-network-infrastructure"></a>방화벽 및 네트워크 인프라

@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: ''
 ms.suite: ems
 ms.service: microsoft-intune
-ms.openlocfilehash: 5f2eff552b6c9c1ce041027a4a473f691dae7906
-ms.sourcegitcommit: fc33b1ebc126958e5006ea47e55a7d922e4fc959
+ms.openlocfilehash: f681785873a68c73526568687421d73ffb9a2089
+ms.sourcegitcommit: 60e6e9ad2824e82b53e1ca5f55020e82d133db63
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "88969842"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90989097"
 ---
 # <a name="enterprise-mobility--security-support-faqs"></a>Enterprise Mobility + Security 지원 Faq
 EMS(Enterprise Mobility + Security)를 지지하기 위해 전세계적 사전 판매, 청구, 구독 및 기술 지원이 제공됩니다.  자세한 내용은 아래를 참조하세요.
@@ -28,15 +28,15 @@ EMS(Enterprise Mobility + Security)를 지지하기 위해 전세계적 사전 �
 
 **Microsoft Intune 지원을 받으려면 어떻게 하나요?**
 
-Enterprise Mobility + Security 고객은 Azure 또는 Microsoft 365 포털을 사용 하 여 Intune에 대 한 지원 요청을 제출할 수 있습니다. [Intune 지원 옵션에 대해 자세히 알아보세요](https://docs.microsoft.com/intune/get-support).
+Enterprise Mobility + Security 고객은 Azure 또는 Microsoft 365 포털을 사용 하 여 Intune에 대 한 지원 요청을 제출할 수 있습니다. [Intune 지원 옵션에 대해 자세히 알아보세요](/intune/get-support).
 
 **Azure Information Protection 지원을 받으려면 어떻게 하나요?**
 
-Enterprise Mobility + Security 고객은 Azure 또는 Microsoft 365 포털을 사용 하 여 Azure information Protection에 대 한 지원 요청을 제출할 수 있습니다. [Azure Information Protection 지원 옵션에 대해 자세히 알아봅니다](https://docs.microsoft.com/information-protection/get-started/information-support#to-contact-microsoft-support).
+Enterprise Mobility + Security 고객은 Azure 또는 Microsoft 365 포털을 사용 하 여 Azure information Protection에 대 한 지원 요청을 제출할 수 있습니다. [Azure Information Protection 지원 옵션에 대해 자세히 알아봅니다](/information-protection/get-started/information-support#to-contact-microsoft-support).
 
 **Azure Active Directory 지원을 받으려면 어떻게 하나요?**
 
-Enterprise Mobility + Security 고객은 Azure 또는 Microsoft 365 포털을 사용 하 여 Azure AD Premium 1 및 Premium 2에 대 한 지원 요청을 제출할 수 있습니다. Intune 지원 옵션에 대해 자세히 알아보세요. [Azure Active Directory에 대 한 지원을 받는 방법에 대해 알아봅니다](https://docs.microsoft.com/azure/active-directory/active-directory-troubleshooting-support-howto).
+Enterprise Mobility + Security 고객은 Azure 또는 Microsoft 365 포털을 사용 하 여 Azure AD Premium 1 및 Premium 2에 대 한 지원 요청을 제출할 수 있습니다. Intune 지원 옵션에 대해 자세히 알아보세요. [Azure Active Directory에 대 한 지원을 받는 방법에 대해 알아봅니다](/azure/active-directory/active-directory-troubleshooting-support-howto).
 
 **Cloud App Security 지원을 받으려면 어떻게 해야 하나요?**
 

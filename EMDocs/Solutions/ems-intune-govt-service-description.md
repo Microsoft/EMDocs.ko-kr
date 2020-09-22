@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.suite: ems
-ms.openlocfilehash: 31f10d34bbfc1f49a747cfcb36c51e806e320717
-ms.sourcegitcommit: fc33b1ebc126958e5006ea47e55a7d922e4fc959
+ms.openlocfilehash: a3aca8e8bb63fe90862efe21b8a1f309b34e0eed
+ms.sourcegitcommit: 60e6e9ad2824e82b53e1ca5f55020e82d133db63
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "88969863"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90989131"
 ---
 # <a name="microsoft-intune-for-us-government-gcc-high-and-dod-service-description"></a>미국 정부 GCC High 및 DoD 서비스 설명에 대 한 Microsoft Intune
 
@@ -26,7 +26,7 @@ GCC 고객용 Intune에 대 한 자세한 내용은 [미국 정부 및 Microsoft
 
 ## <a name="get-started-with-intune-for-us-government-gcc-high-and-dod"></a>미국 정부 GCC High 및 DoD 용 Intune 시작
 
-Intune GCC High 및 DoD 제품은 Microsoft Azure Government 클라우드에 빌드되고 Microsoft 365 GCC High 및 DoD 환경과 함께 작동 하도록 설계 되었습니다. 서비스 및 사용 방법에 대 한 자세한 내용은 [Intune 공개 문서](https://docs.microsoft.com/intune/)를 참조 하세요. 공용 설명서를 사용 하 여 서비스를 배포 하 고 운영 하는 출발점으로 사용 하 고, GCC High 환경의 기능이 나 기능에서 제공 하는 다음과 같은 서비스 설명 세부 정보 및 변경 사항을 사용 해야 합니다. 
+Intune GCC High 및 DoD 제품은 Microsoft Azure Government 클라우드에 빌드되고 Microsoft 365 GCC High 및 DoD 환경과 함께 작동 하도록 설계 되었습니다. 서비스 및 사용 방법에 대 한 자세한 내용은 [Intune 공개 문서](/intune/)를 참조 하세요. 공용 설명서를 사용 하 여 서비스를 배포 하 고 운영 하는 출발점으로 사용 하 고, GCC High 환경의 기능이 나 기능에서 제공 하는 다음과 같은 서비스 설명 세부 정보 및 변경 사항을 사용 해야 합니다. 
 
 - **Intune GCC High 및 DoD의 기능 변형**
 
@@ -39,5 +39,4 @@ Intune GCC High 및 DoD 제품은 Microsoft Azure Government 클라우드에 빌
   - Intune for GCC High는 Android 및 iOS 장치용 모바일 위협 방어 커넥터를 지원 하지 않습니다. 
 
 ## <a name="next-steps"></a>다음 단계
-Intune에 대 한 자세한 정보 및 시작 방법에 대 한 자세한 내용은 [intune 공개 문서](https://docs.microsoft.com/intune/index)를 참조 하세요.
-
+Intune에 대 한 자세한 정보 및 시작 방법에 대 한 자세한 내용은 [intune 공개 문서](/intune/index)를 참조 하세요.

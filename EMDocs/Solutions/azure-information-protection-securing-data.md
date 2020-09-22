@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: rights-management
 ms.reviewer: v-craic
 ms.suite: ems
-ms.openlocfilehash: 246ce505648353d6fc561211e85bc85102363357
-ms.sourcegitcommit: c2f6f9ac72d067603824084341565add5d5dad92
+ms.openlocfilehash: 8ae48fabe638e41c3291396bcb9421fd00f11b69
+ms.sourcegitcommit: 60e6e9ad2824e82b53e1ca5f55020e82d133db63
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "76972294"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90989165"
 ---
 # <a name="the-role-of-azure-information-protection-in-securing-data"></a>데이터 보안 유지에서 Azure Information Protection의 역할
 
@@ -68,7 +68,7 @@ Azure Information Protection 보호 기능의 기본 사항은 보호된 콘텐�
 
 아래 다이어그램에는 문서를 Tom로 보내는 사용자 (Bob)의 예가 있습니다. 이 경우 Bob은 재무 부서 소속이며 Tom은 영업 부서 소속입니다. 권한이 부여되지 않은 경우 Tom은 문서에 액세스할 수 없습니다.
 
-![권한 없음](./media/azure-information-protection-securing-data/aip-securing-data-fig2.png)
+![액세스 권한 없음](./media/azure-information-protection-securing-data/aip-securing-data-fig2.png)
 
 이 시나리오의 요점은 Azure Information Protection이 권한이 없는 사용자의 공격을 막을 수 있다는 점입니다. Azure Information Protection의 암호화 컨트롤에 대한 자세한 내용은 [Azure RMS에서 사용하는 암호화 컨트롤: 알고리즘 및 키 길이](/azure/information-protection/how-does-it-work)를 참조하세요.
 
@@ -95,10 +95,10 @@ Azure Information Protection은 애플리케이션이 문서와 연결된 권한
 
 이 시나리오의 초점은 Rogue 애플리케이션이 사용될 수 없도록 클라이언트 디바이스 및 애플리케이션의 보안을 유지하는 데 있습니다. IT 관리자가 따를 수 있는 몇 가지 단계는 다음과 같습니다.
 
-- [Windows AppLocker](https://technet.microsoft.com/library/dd759117(v=ws.11).aspx)를 사용하여 사용자 동의 없이 설치된 프로그램이 실행될 수 없도록 합니다.
-- [Intune](https://docs.microsoft.com/intune/) 및 [Microsoft 끝점 Configuration Manager](https://docs.microsoft.com/configmgr/) 를 사용 하 여 장치가 ' 정상 ' 상태가 되도록 합니다.
+- [Windows AppLocker](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd759117(v=ws.11))를 사용하여 사용자 동의 없이 설치된 프로그램이 실행될 수 없도록 합니다.
+- [Intune](/intune/) 및 [Microsoft 끝점 Configuration Manager](/configmgr/) 를 사용 하 여 장치가 ' 정상 ' 상태가 되도록 합니다.
 - 디바이스의 바이러스 백신이 최신 상태인지 확인합니다.
-- 인증 및 [SSO](https://azure.microsoft.com/resources/videos/overview-of-single-sign-on/)에 [Microsoft Identity Brokers](https://technet.microsoft.com/library/ms166045(v=sql.105).aspx)를 지원하는 애플리케이션을 사용합니다.
+- 인증 및 [SSO](https://azure.microsoft.com/resources/videos/overview-of-single-sign-on/)에 [Microsoft Identity Brokers](/previous-versions/sql/sql-server-2008-r2/ms166045(v=sql.105))를 지원하는 애플리케이션을 사용합니다.
 
 이 시나리오의 요점은 클라이언트 컴퓨터 및 애플리케이션의 보안 유지가 Azure Information Protection을 뒷받침하는 신뢰의 중요한 부분이라는 점입니다.
 
