@@ -10,12 +10,12 @@ metadata:
   author: dougeby
   ms.author: dougeby
   ms.date: 02/27/2020
-  ms.openlocfilehash: f9682701471f74c06eecfeab94d88a7f3f00837a
-  ms.sourcegitcommit: 6b4939db2d80ec99d4e890c93d5e4a92973efff3
+  ms.openlocfilehash: 91b0833e709effe201d92cd6937731069a6eefb6
+  ms.sourcegitcommit: 60e6e9ad2824e82b53e1ca5f55020e82d133db63
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 04/21/2020
-  ms.locfileid: "81740689"
+  ms.lasthandoff: 09/22/2020
+  ms.locfileid: "90989182"
 productDirectory:
   items:
   - title: 보안 원격 작업
@@ -26,29 +26,29 @@ additionalContent:
   sections:
   - items:
     - title: Azure Active Directory
-      summary: 온-프레미스 디렉터리 동기화 및 Single Sign-On 사용
-      url: https://docs.microsoft.com/azure/active-directory/index
-    - title: Microsoft Intune
+      summary: 온-프레미스 디렉터리 동기화 및 Single Sign-On 활성화
+      url: /azure/active-directory/index
+    - title: Microsoft Intune
       summary: 클라우드에서 모바일 디바이스, 앱 및 PC를 관리합니다.
-      url: https://docs.microsoft.com/mem/intune/
+      url: /mem/intune/
     - title: Microsoft Endpoint Configuration Manager
       summary: 클라우드 기반 정보를 토대로 온-프레미스 PC, 서버, 모바일 디바이스 관리
-      url: https://docs.microsoft.com/mem/configmgr/
+      url: /mem/configmgr/
     - title: Microsoft Cloud App Security
       summary: 심층적인 정보를 얻고, 포괄적으로 제어하고, SaaS 보안을 강화합니다.
-      url: https://docs.microsoft.com/cloud-app-security/
+      url: /cloud-app-security/
     - title: Azure Information Protection
       summary: 생성 또는 업데이트 시 소스, 컨텍스트 및 콘텐츠를 기반으로 데이터를 분류합니다.
-      url: https://docs.microsoft.com/azure/information-protection/
-    - title: 다단계 인증
-      summary: 추가 수준의 인증으로 데이터 및 앱에 대한 액세스 보호
-      url: https://docs.microsoft.com/azure/multi-factor-authentication/index
+      url: /azure/information-protection/
+    - title: Multi-Factor 인증
+      summary: 인증 수준을 높여 데이터 및 앱에 대한 액세스를 보호
+      url: /azure/multi-factor-authentication/index
     - title: Advanced Threat Analytics
       summary: 동작 분석을 사용하여 위반 및 위협을 식별하고 공격 타임라인에 보고서를 만듭니다.
-      url: https://docs.microsoft.com/advanced-threat-analytics/
+      url: /advanced-threat-analytics/
     - title: Azure Advanced Threat Protection
       summary: 여러 유형의 고급 대상화된 사이버 공격 및 내부자 위협으로부터 엔터프라이즈 하이브리드 환경 보호
-      url: https://docs.microsoft.com/azure-advanced-threat-protection/
+      url: /azure-advanced-threat-protection/
     - title: Microsoft  Identity  Manager
       summary: 자동화된 워크플로, 셀프 서비스 등을 사용하여 ID 관리
-      url: https://docs.microsoft.com/microsoft-identity-manager/
+      url: /microsoft-identity-manager/
