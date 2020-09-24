@@ -5,17 +5,17 @@ keywords: ''
 author: shsagir
 ms.author: shsagir
 manager: rkarlin
-ms.date: 09/14/2020
+ms.date: 09/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: e48accb9e0bfeacf72634e2bb939478167bd2c08
-ms.sourcegitcommit: 60e6e9ad2824e82b53e1ca5f55020e82d133db63
+ms.openlocfilehash: 74bea8921ecfe1ae0749cb085242a9e0eb60b375
+ms.sourcegitcommit: c4d433c095ec8bc733daa06f5544d4b04e0323d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90989114"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91206454"
 ---
 # <a name="microsoft-cloud-app-security-government-service-description"></a>Microsoft Cloud App Security 정부 서비스 설명
 
@@ -29,7 +29,10 @@ GCC 고객의 Microsoft Cloud App Security에 대 한 자세한 내용은 [micro
 
 Microsoft Cloud App Security GCC High 제품은 Microsoft Azure Government 클라우드에서 빌드되고 Microsoft 365 GCC High와 함께 작동 하도록 설계 되었습니다. 서비스 및 사용 방법에 대 한 자세한 내용은 [Microsoft Cloud App Security 공개 문서](/cloud-app-security/)를 참조 하세요. 공개 문서는 서비스 배포 및 운영을 위한 출발점으로 사용 되어야 하며, GCC High 환경의 기능이 나 기능에서 제공 하는 다음과 같은 서비스 설명 세부 정보 및 변경 사항을 제공 합니다.
 
-시작 하려면 Microsoft Cloud App Security GCC High portal에 액세스 하기 위한 [기본 설정](/cloud-app-security/general-setup) 페이지를 활용 하 고 [네트워크 요구 사항이](/cloud-app-security/network-requirements) 구성 되어 있는지 확인 합니다. 다른 자세한 지침은 방법 가이드의 추가 단계를 따르세요.
+시작 하려면 Microsoft Cloud App Security GCC High portal에 액세스 하기 위한 [기본 설정](/cloud-app-security/general-setup) 페이지를 활용 하 고 [네트워크 요구 사항이](/cloud-app-security/network-requirements) 구성 되어 있는지 확인 합니다. 사용자 고유의 키를 사용 하 여 미사용 데이터를 암호화 하는 Cloud App Security 구성 하려면 [사용자 고유의 키를 사용 하 여 미사용 데이터 암호화 Cloud App Security (BYOK)](ems-cloud-app-security-govt-service-byok.md)를 참조 하세요. 다른 자세한 지침은 방법 가이드의 추가 단계를 따르세요.
+
+> [!NOTE]
+> 데이터 암호화는 현재 특정 Microsoft Cloud App Security 정부 제품에 대해서만 사용할 수 있습니다.
 
 ## <a name="feature-variations-in-microsoft-cloud-app-security-gcc-high"></a>Microsoft Cloud App Security GCC High의 기능 변형
 
