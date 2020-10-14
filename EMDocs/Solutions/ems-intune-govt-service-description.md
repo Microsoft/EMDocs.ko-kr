@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.suite: ems
-ms.openlocfilehash: 8063d079376720ea0f0fc945cfb547c641338cdd
-ms.sourcegitcommit: dd181e099b3be6a15e6b16a081d863fe7a2aa8b6
+ms.openlocfilehash: e46c97575d1c7c6dd75062afc5437e398bca2d09
+ms.sourcegitcommit: af707f4e67829e82ded41b29d8d88086e1f33d46
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91800532"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92058617"
 ---
 # <a name="microsoft-intune-for-us-government-gcc-high-and-dod-service-description"></a>미국 정부 GCC High 및 DoD 서비스 설명에 대 한 Microsoft Intune
 
@@ -34,12 +34,13 @@ Intune GCC High 및 DoD 제품은 Microsoft Azure Government 클라우드에 빌
 - GCC High 및 DoD 고객용 Intune은 독립 실행형 배포만 지원 합니다.
 - GCC High 및 DoD 고객용 intune은 Intune 에이전트를 사용 하 여 레거시 PC 관리를 지원 하지 않습니다. Windows 10 관리는 최신 MDM 채널을 통해 지원됩니다.
 - GCC High 및 DoD 고객용 Intune은 온-프레미스 Exchange Connector를 지원 하지 않습니다.
-- 공동 관리 지원은 Configuration Manager 버전 1906 이상 에서만 사용할 수 있습니다.
+- Co-Management 지원은 Configuration Manager 버전 1906 이상 에서만 사용할 수 있습니다.
 - 이번에는 Windows Autopilot 및 비즈니스 스토어 기능이 GCC High 및 DoD 고객에 게 제공 되지 않습니다. 계획은 진행 중입니다.
 - GCC High 용 Intune은 macOS 장치에 대 한 Jamf Pro 및 Intune 통합을 지원 하지 않습니다.
 - Intune for GCC High는 Android 및 iOS 장치용 모바일 위협 방어 커넥터를 지원 하지 않습니다.
 - Microsoft 끝점 관리자 끝점 분석 및 Log Analytics 기능은 현재 미국 정부 고객에 게 제공 되지 않습니다.
 - 지금은 미국 정부 클라우드 고객에 게 진단 설정 및 통합 문서를 사용할 수 없습니다.
+- [Windows 구성 디자이너를 사용 하 여 windows 장치에 대 한 대량 등록](https://docs.microsoft.com/mem/intune/enrollment/windows-bulk-enroll) 은 현재 GCC High에서 지원 되지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
 Intune에 대 한 자세한 정보 및 시작 방법에 대 한 자세한 내용은 [intune 공개 문서](/intune/index)를 참조 하세요.
