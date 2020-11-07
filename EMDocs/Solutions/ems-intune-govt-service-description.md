@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.suite: ems
-ms.openlocfilehash: e46c97575d1c7c6dd75062afc5437e398bca2d09
-ms.sourcegitcommit: af707f4e67829e82ded41b29d8d88086e1f33d46
+ms.openlocfilehash: 5deb95633baa87f43de9c5ebed8ba244a2ed4bf7
+ms.sourcegitcommit: e8bda62ddb715588e120cb7023f9a0bf09e02338
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92058617"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "94341960"
 ---
 # <a name="microsoft-intune-for-us-government-gcc-high-and-dod-service-description"></a>미국 정부 GCC High 및 DoD 서비스 설명에 대 한 Microsoft Intune
 
@@ -40,7 +40,7 @@ Intune GCC High 및 DoD 제품은 Microsoft Azure Government 클라우드에 빌
 - Intune for GCC High는 Android 및 iOS 장치용 모바일 위협 방어 커넥터를 지원 하지 않습니다.
 - Microsoft 끝점 관리자 끝점 분석 및 Log Analytics 기능은 현재 미국 정부 고객에 게 제공 되지 않습니다.
 - 지금은 미국 정부 클라우드 고객에 게 진단 설정 및 통합 문서를 사용할 수 없습니다.
-- [Windows 구성 디자이너를 사용 하 여 windows 장치에 대 한 대량 등록](https://docs.microsoft.com/mem/intune/enrollment/windows-bulk-enroll) 은 현재 GCC High에서 지원 되지 않습니다.
+- [Windows 구성 디자이너를 사용 하 여 windows 장치에 대 한 대량 등록](/mem/intune/enrollment/windows-bulk-enroll) 은 현재 GCC High에서 지원 되지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
 Intune에 대 한 자세한 정보 및 시작 방법에 대 한 자세한 내용은 [intune 공개 문서](/intune/index)를 참조 하세요.
