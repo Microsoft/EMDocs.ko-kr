@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: ''
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 74bea8921ecfe1ae0749cb085242a9e0eb60b375
-ms.sourcegitcommit: c4d433c095ec8bc733daa06f5544d4b04e0323d6
+ms.openlocfilehash: f5e82c5d81c351f39cae0bb9d6879fb7e0cd21eb
+ms.sourcegitcommit: 34ca228ca10f5d087207e6d9177a8acf81637dde
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91206454"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94423944"
 ---
 # <a name="microsoft-cloud-app-security-government-service-description"></a>Microsoft Cloud App Security 정부 서비스 설명
 
@@ -23,7 +23,7 @@ ms.locfileid: "91206454"
 
 미국 정부 기관 서비스 설명은 GCC High 환경에서 서비스 제공에 대 한 개요를 제공 하도록 설계 되었으며, 상용 제품의 기능 변형을 다룹니다. Microsoft Cloud App Security
 
-GCC 고객의 Microsoft Cloud App Security에 대 한 자세한 내용은 [microsoft의 EMS MICROSOFT 365 gcc 고객](./ems-govt-service-description.md#ems-for-us-gcc-high-and-dod-customers)을 참조 하세요.
+GCC 고객의 Microsoft Cloud App Security에 대 한 자세한 내용은 [microsoft의 EMS MICROSOFT 365 gcc 고객](ems-govt-service-description.md#ems-for-us-gcc-high-and-dod-customers)을 참조 하세요.
 
 ## <a name="getting-started-with-microsoft-cloud-app-security-for-us-government-gcc-high"></a>미국 정부 GCC High에 대 한 Microsoft Cloud App Security 시작
 
@@ -69,7 +69,7 @@ API에 연결 된 응용 프로그램에 대해서는 활동, 파일 및 변칙 
 
 다음 통합을 사용할 수 없습니다.
 
-- Microsoft Defender Advanced Threat Protection
+- 엔드포인트에 대한 Microsoft Defender
 - Microsoft 보안 점수의 서피싱 Microsoft Cloud App Security 컨트롤
 
 ## <a name="next-steps"></a>다음 단계
