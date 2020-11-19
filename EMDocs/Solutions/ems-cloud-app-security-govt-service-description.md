@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: ''
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: f5e82c5d81c351f39cae0bb9d6879fb7e0cd21eb
-ms.sourcegitcommit: 34ca228ca10f5d087207e6d9177a8acf81637dde
+ms.openlocfilehash: 523dba9eab4694967e45eb3a419ca471ad3fef3a
+ms.sourcegitcommit: b6f3cc90a2232fdec1221f5518a2fadb610bd7b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94423944"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "94915006"
 ---
 # <a name="microsoft-cloud-app-security-government-service-description"></a>Microsoft Cloud App Security 정부 서비스 설명
 
@@ -43,19 +43,6 @@ Microsoft Cloud App Security GCC High 제품은 Microsoft Azure Government 클�
 AWS GovCloud 및 기타 정부 클라우드 인스턴스를 제공할 수도 있는 기타 API 연결 응용 프로그램에 대 한 API 커넥터는 현재 지원 되지 않습니다. 타사 응용 프로그램의 상용 클라우드 인스턴스에 대 한 API 커넥터가 지원 됩니다.
 
 Azure 커넥터 및 Microsoft 365 커넥터는 각 서비스의 미국 정부 기관에 대 한 것입니다.
-
-## <a name="data-loss-prevention-dlp-features"></a>DLP (데이터 손실 방지) 기능
-
-Microsoft Cloud App Security 기본 제공 DLP 엔진을 통해 콘텐츠 검사를 사용할 수 있으며, 신용 카드 또는 주민 등록 번호와 같은 중요 한 데이터를 다른 많은 중요 한 데이터 형식으로 검사할 수 있습니다. Cloud App Security에서 [기본 제공 콘텐츠 검사](/cloud-app-security/content-inspection-built-in) 에 대해 자세히 알아보세요.
-
-**다음 DLP 통합은 지원 되지 않습니다.**
-
-- Microsoft Information Protection 레이블은 Microsoft 365 및 Azure Information Protection에서 통합 레이블을 제공 합니다.
-
-## <a name="conditional-access-app-control"></a>조건부 액세스 앱 제어
-
-조직에서 Microsoft Cloud App Security 역방향 프록시 기능을 사용 하 여 사용자 세션을 실시간으로 모니터링 하 고 제어할 수 있도록 하는 Microsoft Cloud App Security 조건부 액세스 앱 제어를 사용할 수 없습니다.
-API에 연결 된 응용 프로그램에 대해서는 활동, 파일 및 변칙 검색 정책이 계속 지원 됩니다. 추가 정보는 [Microsoft Cloud App Security에서 정책을 사용 하 여 클라우드 앱 제어](/cloud-app-security/control-cloud-apps-with-policies) 에 대해 자세히 알아보세요.
 
 ## <a name="notifications-and-automation"></a>알림 및 자동화
 
