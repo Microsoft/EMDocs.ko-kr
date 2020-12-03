@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.suite: ems
-ms.openlocfilehash: d4946a6d9c11f562d70db08a1c591235537f3de2
-ms.sourcegitcommit: 60e6e9ad2824e82b53e1ca5f55020e82d133db63
+ms.openlocfilehash: 4b87c0ad709d5ab1446a33fcb845ee7f1daa9be3
+ms.sourcegitcommit: 22a30b29ee806845df9fe1786551657d9963b89a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90989080"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96536201"
 ---
 # <a name="enterprise-mobility--security-for-us-government-service-description"></a>US Government용 Enterprise Mobility + Security 서비스 설명
 Microsoft에서는 미국 공공 부문의 고유하면서 진화하고 있는 요구 사항에 대한 대응으로 미국 정부 커뮤니티 고객을 위해 Enterprise Mobility + Security(EMS) 요금제를 만들었습니다. 이 문서에서는 EMS 요금제에 관련된 기능을 간단히 설명합니다.
@@ -64,7 +64,7 @@ GCC High 및 DOD 고객은 다양 한 요구 사항 및 관리 요구 사항에 
 - Microsoft Intune: 
   - [Microsoft Intune] 페이지 ( https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-intune-govt-service-description) 현재 Azure Government에서 사용할 수 없는 기능 목록은를 참조 하세요. 
 - Azure Advanced Threat Protection:
-  - 현재 Azure Government에서 제공 되지 않는 기능 목록은 [AZURE ATP](./ems-azure-atp-govt-service-description.md) 페이지를 참조 하세요.
+  - 현재 Azure Government에서 제공 되지 않는 기능 목록은 [AZURE ATP](/enterprise-mobility-security/solutions/ems-mdi-govt-service-description) 페이지를 참조 하세요.
 - Microsoft Cloud App Security:
   - 현재 Azure Government에서 사용할 수 없는 기능 목록은 [Microsoft Cloud App Security](./ems-cloud-app-security-govt-service-description.md) 페이지를 참조 하세요.
 

@@ -11,12 +11,12 @@ ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
 ms.technology: ''
-ms.openlocfilehash: ef46f49db6ef22c35326c5fda1a8349c934408d2
-ms.sourcegitcommit: c4d433c095ec8bc733daa06f5544d4b04e0323d6
+ms.openlocfilehash: 1aa00983304d75a1d4dc078528f6a9439cbb77e1
+ms.sourcegitcommit: 22a30b29ee806845df9fe1786551657d9963b89a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91214912"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96536218"
 ---
 # <a name="troubleshooting-data-encryption-with-your-own-key"></a>사용자 고유의 키로 데이터 암호화 문제 해결
 
@@ -40,4 +40,4 @@ ms.locfileid: "91214912"
 | <a name="key-expired"></a>**암호화 키가 만료 되었습니다.** | 선택한 키의 설정에서 만료 날짜 및 시간이 전달 되지 않았는지 확인 합니다.<br />![키 만료 날짜를 보여 주는 스크린샷](media/cloud-app-security-byok/byok-kv-key-expiration-date.PNG) |
 | <a name="key-not-found"></a>**암호화 키를 찾을 수 없거나 삭제 되었습니다.** | 선택한 키가 Key Vault에 있는지 확인 합니다. 키가 삭제 된 경우 복구 하 고 다시 사용 하도록 설정 합니다. 키를 다른 Key Vault 이동 했으면 선택한 Key Vault 다시 이동 합니다. |
 
-문제가 발생하는 경우 지원받을 수 있습니다. 제품 문제에 대해 도움이나 지원을 받으려면 [지원 티켓을 여세요](/cloud-app-security/support-and-ts.md).
+문제가 발생하는 경우 지원받을 수 있습니다. 제품 문제에 대해 도움이나 지원을 받으려면 [지원 티켓을 여세요](/cloud-app-security/support-and-ts).
