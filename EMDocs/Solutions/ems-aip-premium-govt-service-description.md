@@ -5,21 +5,22 @@ keywords: ''
 author: batamig
 ms.author: bagol
 manager: rkarlin
-ms.date: 10/26/2020
+ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
 ms.service: rights-management
 ms-suite: ems
-ms.openlocfilehash: 517a07fd9d26c8b274e615bbb9a4514061864fd7
-ms.sourcegitcommit: 4a6033187d2b6a79da6ad0e009e5edf4aff39360
+ms.openlocfilehash: de6fed6995778f5d90c34405a4d4bd35ac40a395
+ms.sourcegitcommit: 171303edf01ece620ccacf9beb5dcbb735c80cf1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92689273"
+ms.lasthandoff: 01/17/2021
+ms.locfileid: "98540330"
 ---
 # <a name="azure-information-protection-premium-government-service-description"></a>Azure Information Protection Premium Government 서비스 설명 
 
-
+> [!NOTE]
+> 통합 및 간소화 된 고객 환경을 제공 하기 위해 **Azure Portal의** **Azure Information Protection 클래식 클라이언트** 및 레이블 관리는 2021 년 3 월 31 일에 사용 되지 않습니다. 이 기간 동안 모든 현재 Azure Information Protection 고객은 Microsoft Information Protection 통합 레이블 지정 플랫폼을 사용하여 통합 레이블 지정 솔루션으로 전환할 수 있습니다. [공식 지원 중단 알림](https://aka.ms/aipclassicsunset)에서 자세히 알아보세요.
 ## <a name="how-to-use-this-service-description"></a>서비스 설명을 사용하는 방법 
 
 Azure Information Protection 통합 레이블은 GCC, GCC High 및 DoD 고객에 게 제공 됩니다.
@@ -28,7 +29,7 @@ Azure Information Protection 프리미엄 정부 서비스 설명은 GCC High �
 
 GCC 및 GCC High 고객에 대 한 Azure Information Protection에 대 한 자세한 내용은 [미국 정부 및 Microsoft 365 상호 운용성을 위한 EMS 제품](ems-govt-service-description.md#ems-offers-for-us-government-and-microsoft-365-interoperability)설명을 참조 하세요.
 
-## <a name="azure-information-protection-premium-government-and-third-party-services"></a>Azure Information Protection Premium Government 및 타사 서비스 
+## <a name="azure-information-protection-premium-government-and-third-party-services"></a>프리미엄 정부 및 타사 서비스 Azure Information Protection 
 
 일부 Azure Information Protection 프리미엄 서비스는 타사 응용 프로그램 및 서비스와 원활 하 게 작업할 수 있는 기능을 제공 합니다. 
 
@@ -36,7 +37,7 @@ GCC 및 GCC High 고객에 대 한 Azure Information Protection에 대 한 자�
 
 조직에 이러한 서비스를 적절 하 게 사용 하는 경우 타사에서 제공 하는 개인 정보 및 규정 준수 문을 검토 해야 합니다. 
 
-## <a name="parity-with-azure-information-protection-premium-commercial-offerings"></a>Azure Information Protection Premium 상업용 제품과 동등 
+## <a name="parity-with-azure-information-protection-premium-commercial-offerings"></a>Azure Information Protection 프리미엄 상용 제품을 사용 하는 패리티 
 
 Microsoft는 정부 Azure Information Protection 프리미엄 GCC High 및 DoD 고객에 게 모든 상업용 기능을 제공 하 고, 다음 누락 된 기능 목록에 대해 알고 있어야 합니다.  
 
@@ -56,39 +57,19 @@ Microsoft는 정부 Azure Information Protection 프리미엄 GCC High 및 DoD �
 
 * AD RMS에 대한 모바일 디바이스 확장을 현재 사용할 수 없습니다.
 
-## <a name="configuring-azure-information-protection-unified-labeling-solution-for-gcc-high-and-dod-customers"></a>GCC High 및 DoD 고객을 위한 통합 레이블 솔루션 Azure Information Protection 구성
-
-> [!IMPORTANT]
-> 7 월 2020 업데이트를 사용 하는 경우 통합 레이블 솔루션 Azure Information Protection의 모든 *새로운* GCC 상위 고객은 일반 메뉴와 스캐너 메뉴 기능을 모두 사용할 수 있습니다. 
-
-이 섹션에서 제공 하는 구성 세부 정보는 GCC High 및 DoD 고객용 Azure Information Protection 통합 레이블 지정 솔루션에만 해당 됩니다. 기타 모든 구성 정보는 [GCC High 및 DoD 고객에 대 한 표준 구성 정보](#configuring-azure-information-protection-for-gcc-high-and-dod-customers)를 참조 하세요.
-
-### <a name="aip-apps-configuration-unified-labeling-only"></a>AIP 앱 구성 (통합 레이블 전용)
-
-통합 레이블 솔루션의 경우 Windows의 AIP 앱은 올바른 소 버린 클라우드를 가리키도록 특수 레지스트리 키가 필요 합니다. 설정에 올바른 값을 사용 해야 합니다.  
-
-| 레지스트리 노드 | HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSIP |
-| --- | --- |
-| Name | CloudEnvType |
-| 값 | 0/1/2/3 |
-| Type | REG_DWORD |
- 
-| 값  | 자세히  |
-|---------|---------|
-|상용  |  0 (기본값)     |
-|GCC   |     1    |
-|GCC High    |    2     |
-|DoD | 3 |
-| | |
-
-- 레지스트리 키의 기본값은 0입니다. 
-- 키가 비어 있거나 잘못 된 경우 예상 되는 동작은 로그에 대 한 인쇄 오류 이며 기본값 (0-상용) 처럼 동작 합니다. 
-- 키가 없는 경우에는 기본 (0-상용)으로 동작 합니다.
-- 제거한 후에는 레지스트리 키를 삭제 하지 않도록 해야 합니다. 
 
 ## <a name="configuring-azure-information-protection-for-gcc-high-and-dod-customers"></a>GCC High 및 DoD 고객용 Azure Information Protection 구성
 
 다음 구성 세부 정보는 통합 레이블 지정 솔루션을 포함 하 여 GCC High 및 DoD 고객에 대 한 모든 Azure Information Protection 솔루션과 관련이 있습니다. 
+
+- [테넌트에 대해 Rights Management 사용](#enable-rights-management-for-the-tenant)
+- [암호화에 대한 DNS 구성(Windows)](#dns-configuration-for-encryption-windows)
+- [암호화에 대한 DNS 구성(Mac, iOS, Android)](#dns-configuration-for-encryption-mac-ios-android)
+- [레이블 마이그레이션](#label-migration)
+- [AIP 앱 구성](#aip-apps-configuration)
+
+> [!IMPORTANT]
+> 7 월 2020 업데이트를 사용 하는 경우 통합 레이블 솔루션 Azure Information Protection의 모든 *새로운* GCC 상위 고객은 일반 메뉴와 스캐너 메뉴 기능을 모두 사용할 수 있습니다. 
 
 ### <a name="enable-rights-management-for-the-tenant"></a>테넌트에 대해 Rights Management 사용
 
@@ -134,7 +115,7 @@ Microsoft는 정부 Azure Information Protection 프리미엄 GCC High 및 DoD �
 
 GCC High 및 DoD 고객은 PowerShell을 사용 하 여 모든 기존 레이블을 마이그레이션해야 합니다. 기존 AIP 마이그레이션 방법은 GCC High 및 DoD 고객에 게는 적용 **되지 않습니다** . 
 
-[새 레이블](/powershell/module/exchange/new-label) cmdlet을 사용 하 여 기존 민감도 레이블을 마이그레이션합니다. 마이그레이션을 시작 하기 전에 [보안 & 준수 센터를 사용 하 여 cmdlet을 연결 하 고 실행 하는 방법에 대 한 지침](/powershell/exchange/connect-to-scc-powershell#connect-to-the-security--compliance-center) 을 따르세요. 
+[New-Label](/powershell/module/exchange/new-label) cmdlet을 사용하여 기존 민감도 레이블을 마이그레이션합니다. 마이그레이션을 시작 하기 전에 [보안 & 준수 센터를 사용 하 여 cmdlet을 연결 하 고 실행 하는 방법에 대 한 지침](/powershell/exchange/connect-to-scc-powershell#connect-to-the-security--compliance-center) 을 따르세요. 
 
 기존 민감도 레이블에 암호화가 있는 경우의 마이그레이션 예:
 
@@ -144,33 +125,56 @@ New-Label -Name 'aipscopetest' -Tooltip 'aipscopetest' -Comment 'admin notes' -D
 
 ### <a name="aip-apps-configuration"></a>AIP 앱 구성
 
-Windows의 AIP 앱은 특수 레지스트리 키를 GCC High/DoD에 대한 올바른 서비스 인스턴스로 가리켜야 합니다.  
+Azure Information Protection 클라이언트를 사용 하는 경우 Windows의 AIP 앱에서 올바른 소 버린 클라우드를 가리키도록 다음 레지스트리 키 중 하나를 구성 해야 합니다. 설정에 올바른 값을 사용 해야 합니다.
+
+- [통합 레이블 지정 클라이언트에 대 한 AIP 앱 구성](#aip-apps-configuration-for-the-unified-labeling-client)
+- [기존 클라이언트에 대 한 AIP 앱 구성](#aip-apps-configuration-for-the-classic-client)
+#### <a name="aip-apps-configuration-for-the-unified-labeling-client"></a>통합 레이블 지정 클라이언트에 대 한 AIP 앱 구성
+
+**관련**: aip 통합 레이블 지정 클라이언트 전용
 
 | 레지스트리 노드 | HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSIP |
 | --- | --- |
-| Name | WebServiceUrl |
-| 값 | https://api.informationprotection.azure.us |
-| Type | REG_SZ (String) |
+| **이름** | CloudEnvType |
+| **값** | **0** = 상용 (기본값) <br>**1** = GCC <br>**2** = GCC High <br>**3** = DoD|
+| **Type** | REG_DWORD |
+| | |
+ 
+> [!NOTE]
+>
+> - 이 레지스트리 키가 비어 있거나 잘못 되었거나 누락 된 경우 동작은 기본 (**0** = 상용)으로 되돌아갑니다.
+> - 키가 비어 있거나 잘못 된 경우에도 인쇄 오류가 로그에 추가 됩니다. 
+> - 제거 후 레지스트리 키를 삭제 하지 않도록 합니다.
 
+#### <a name="aip-apps-configuration-for-the-classic-client"></a>기존 클라이언트에 대 한 AIP 앱 구성
+
+**관련**: aip 클래식 클라이언트만 해당
+
+
+| 레지스트리 노드 | HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSIP |
+| --- | --- |
+| **이름** | WebServiceUrl |
+| **값** | https://api.informationprotection.azure.us |
+| **Type** | REG_SZ (String) |
+| | |
 
 ## <a name="firewalls-and-network-infrastructure"></a>방화벽 및 네트워크 인프라
 
-특정 연결을 허용 하도록 구성 된 방화벽 또는 유사한 중개 네트워크 장치가 있는 경우 이러한 설정을 사용 하 여 Azure Information Protection에 대 한 원활한 통신을 보장 합니다.
+특정 연결을 허용 하도록 구성 된 방화벽 또는 유사한 중개 네트워크 장치가 있는 경우 다음 설정을 사용 하 여 Azure Information Protection에 대 한 원활한 통신을 보장 합니다.
 
-- Azure Information Protection 클래식 클라이언트에서 레이블 및 레이블 정책을 다운로드 하도록 설정 하려면: HTTPS를 통한 URL **Api.informationprotection.azure.us** 허용 합니다.
+- **Tls 클라이언트-서비스 연결**: **rms.aadrm.us** URL에 대 한 tls 클라이언트-서비스 연결을 종료 하지 않습니다 (예: 패킷 수준 검사 수행). 
 
-- **Rms.aadrm.us** URL에 대 한 TLS 클라이언트-서비스 연결을 종료 하지 마세요 (예: 패킷 수준 검사 수행). 
+    다음 PowerShell 명령을 사용 하 여 Azure Rights Management 서비스에 도달 하기 전에 클라이언트 연결이 종료 되는지 여부를 확인할 수 있습니다.
 
-다음 PowerShell 명령을 사용 하 여 Azure Rights Management 서비스에 도달 하기 전에 클라이언트 연결이 종료 되는지 여부를 확인할 수 있습니다.
+    ```powershell
+    $request = [System.Net.HttpWebRequest]::Create("https://admin.aadrm.us/admin/admin.svc")
+    $request.GetResponse()
+    $request.ServicePoint.Certificate.Issuer
+    ```
 
-```powershell
-$request = [System.Net.HttpWebRequest]::Create("https://admin.aadrm.us/admin/admin.svc")
-$request.GetResponse()
-$request.ServicePoint.Certificate.Issuer
-```
+    결과에 발급 CA가 Microsoft CA에서 나온 것으로 표시되어야 합니다(예: `CN=Microsoft Secure Server CA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US`). Microsoft에서 발급 하지 않은 발급 CA 이름이 표시 되는 경우 보안 클라이언트-서비스 연결이 종료 되어 방화벽에서 다시 구성 해야 할 수 있습니다.
 
-
-결과에 발급 CA가 Microsoft CA에서 나온 것으로 표시되어야 합니다(예: `CN=Microsoft Secure Server CA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US`). Microsoft에서 발급 하지 않은 발급 CA 이름이 표시 되는 경우 보안 클라이언트-서비스 연결이 종료 되어 방화벽에서 다시 구성 해야 할 수 있습니다.
+- **레이블 및 레이블 정책 다운로드 (AIP 클래식 클라이언트만 해당)**: Azure Information Protection 클래식 클라이언트가 레이블 및 레이블 정책을 다운로드 하도록 하려면 HTTPS를 통한 URL **api.informationprotection.azure.us** 허용 합니다.
 
 ## <a name="service-tags"></a>서비스 태그
 
