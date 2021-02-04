@@ -5,17 +5,17 @@ keywords: ''
 author: batamig
 ms.author: bagol
 manager: rkarlin
-ms.date: 01/14/2021
+ms.date: 02/04/2021
 ms.topic: article
 ms.prod: ''
 ms.service: rights-management
 ms-suite: ems
-ms.openlocfilehash: de6fed6995778f5d90c34405a4d4bd35ac40a395
-ms.sourcegitcommit: 171303edf01ece620ccacf9beb5dcbb735c80cf1
+ms.openlocfilehash: 698e697753b729b314920cc914775bb4cf16ad68
+ms.sourcegitcommit: 7591c1393af4df31ffaa16cfb91f817b2cb9e91b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2021
-ms.locfileid: "98540330"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99551765"
 ---
 # <a name="azure-information-protection-premium-government-service-description"></a>Azure Information Protection Premium Government 서비스 설명 
 
@@ -137,7 +137,7 @@ Azure Information Protection 클라이언트를 사용 하는 경우 Windows의 
 | --- | --- |
 | **이름** | CloudEnvType |
 | **값** | **0** = 상용 (기본값) <br>**1** = GCC <br>**2** = GCC High <br>**3** = DoD|
-| **Type** | REG_DWORD |
+| **유형** | REG_DWORD |
 | | |
  
 > [!NOTE]
@@ -175,6 +175,11 @@ Azure Information Protection 클라이언트를 사용 하는 경우 Windows의 
     결과에 발급 CA가 Microsoft CA에서 나온 것으로 표시되어야 합니다(예: `CN=Microsoft Secure Server CA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US`). Microsoft에서 발급 하지 않은 발급 CA 이름이 표시 되는 경우 보안 클라이언트-서비스 연결이 종료 되어 방화벽에서 다시 구성 해야 할 수 있습니다.
 
 - **레이블 및 레이블 정책 다운로드 (AIP 클래식 클라이언트만 해당)**: Azure Information Protection 클래식 클라이언트가 레이블 및 레이블 정책을 다운로드 하도록 하려면 HTTPS를 통한 URL **api.informationprotection.azure.us** 허용 합니다.
+
+자세한 내용은 다음을 참조하세요.
+
+- [Office 365 미국 정부 DoD 끝점](/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints)
+- [Office 365 미국 정부 GCC 고급 끝점](/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints)
 
 ## <a name="service-tags"></a>서비스 태그
 
