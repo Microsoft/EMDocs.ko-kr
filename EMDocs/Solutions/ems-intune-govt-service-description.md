@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
 ms.suite: ems
-ms.openlocfilehash: 46dcd69d4921dd50f295b1f825c60a808a496baa
-ms.sourcegitcommit: 633dfab953dfc2b91f3da2c193335234c516402d
+ms.openlocfilehash: 83eab50cd4af65be5a28f3c0efaca7776ebd1fdb
+ms.sourcegitcommit: 422f43a00933c66f17c85de243a1a3cf1a08cda2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98211178"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831519"
 ---
 # <a name="microsoft-intune-for-us-government-gcc-high-and-dod-service-description"></a>미국 정부 GCC High 및 DoD 서비스 설명에 대 한 Microsoft Intune
 
@@ -41,7 +41,7 @@ Intune GCC High 및 DoD 제품은 Microsoft Azure Government 클라우드에 빌
 - Microsoft 끝점 관리자 끝점 분석 및 Log Analytics 기능은 현재 미국 정부 고객에 게 제공 되지 않습니다.
 - 지금은 미국 정부 클라우드 고객에 게 진단 설정 및 통합 문서를 사용할 수 없습니다.
 - [Windows 구성 디자이너를 사용 하 여 windows 장치에 대 한 대량 등록](/mem/intune/enrollment/windows-bulk-enroll) 은 현재 GCC High에서 지원 되지 않습니다.
-- Intune for GCC High는 [위치](https://docs.microsoft.com/mem/intune/protect/use-network-locations) 기능을 지원 하지 않습니다.
+- Intune for GCC High는 [위치](/mem/intune/protect/use-network-locations) 기능을 지원 하지 않습니다.
 
 
 ## <a name="next-steps"></a>다음 단계

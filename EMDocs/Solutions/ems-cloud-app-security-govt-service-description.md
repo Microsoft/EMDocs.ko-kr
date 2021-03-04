@@ -5,38 +5,36 @@ keywords: ''
 author: shsagir
 ms.author: shsagir
 manager: rkarlin
-ms.date: 09/24/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 523dba9eab4694967e45eb3a419ca471ad3fef3a
-ms.sourcegitcommit: b6f3cc90a2232fdec1221f5518a2fadb610bd7b2
+ms.openlocfilehash: c8b0bf7c4e4d687f8441c0aba71ebf55d6a108a2
+ms.sourcegitcommit: 422f43a00933c66f17c85de243a1a3cf1a08cda2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "94915006"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "101831482"
 ---
 # <a name="microsoft-cloud-app-security-government-service-description"></a>Microsoft Cloud App Security 정부 서비스 설명
 
 ## <a name="how-to-use-this-service-description"></a>이 서비스 설명을 사용 하는 방법
 
-미국 정부 기관 서비스 설명은 GCC High 환경에서 서비스 제공에 대 한 개요를 제공 하도록 설계 되었으며, 상용 제품의 기능 변형을 다룹니다. Microsoft Cloud App Security
+미국 정부 서비스에 대 한 설명은 GCC High 및 보호 (DoD) 환경에서 서비스 제공의 개요를 제공 하 고, 상용 제품의 기능 변형을 다룹니다. Microsoft Cloud App Security GCC 고객의 Microsoft Cloud App Security에 대 한 자세한 내용은 [microsoft의 EMS MICROSOFT 365 gcc 고객에 대 한 EMS](ems-govt-service-description.md#ems-for-us-gcc-high-and-dod-customers)를 참조 하세요.
 
-GCC 고객의 Microsoft Cloud App Security에 대 한 자세한 내용은 [microsoft의 EMS MICROSOFT 365 gcc 고객](ems-govt-service-description.md#ems-for-us-gcc-high-and-dod-customers)을 참조 하세요.
+## <a name="getting-started-with-microsoft-cloud-app-security-for-us-government-offerings"></a>미국 정부 제품에 대 한 Microsoft Cloud App Security 시작
 
-## <a name="getting-started-with-microsoft-cloud-app-security-for-us-government-gcc-high"></a>미국 정부 GCC High에 대 한 Microsoft Cloud App Security 시작
+GCC High 및 DoD 고객에 대 한 Microsoft Cloud App Security 제품은 Microsoft Azure Government 클라우드에서 빌드되고 GCC High 및 DoD 환경과 Microsoft 365 간에 작동 하도록 설계 되었습니다. 서비스 및 사용 방법에 대 한 자세한 내용은 [Microsoft Cloud App Security 공개 문서](/cloud-app-security/)를 참조 하세요. 공개 문서는 서비스 배포 및 운영을 위한 출발점으로 사용 되어야 하며, GCC High 또는 DoD 환경의 기능이 나 기능에서 제공 하는 다음과 같은 서비스 설명 세부 정보 및 변경 사항을 제공 합니다.
 
-Microsoft Cloud App Security GCC High 제품은 Microsoft Azure Government 클라우드에서 빌드되고 Microsoft 365 GCC High와 함께 작동 하도록 설계 되었습니다. 서비스 및 사용 방법에 대 한 자세한 내용은 [Microsoft Cloud App Security 공개 문서](/cloud-app-security/)를 참조 하세요. 공개 문서는 서비스 배포 및 운영을 위한 출발점으로 사용 되어야 하며, GCC High 환경의 기능이 나 기능에서 제공 하는 다음과 같은 서비스 설명 세부 정보 및 변경 사항을 제공 합니다.
-
-시작 하려면 Microsoft Cloud App Security GCC High portal에 액세스 하기 위한 [기본 설정](/cloud-app-security/general-setup) 페이지를 활용 하 고 [네트워크 요구 사항이](/cloud-app-security/network-requirements) 구성 되어 있는지 확인 합니다. 사용자 고유의 키를 사용 하 여 미사용 데이터를 암호화 하는 Cloud App Security 구성 하려면 [사용자 고유의 키를 사용 하 여 미사용 데이터 암호화 Cloud App Security (BYOK)](ems-cloud-app-security-govt-service-byok.md)를 참조 하세요. 다른 자세한 지침은 방법 가이드의 추가 단계를 따르세요.
+시작 하려면 GCC High 또는 DoD 포털 Microsoft Cloud App Security에 대 한 액세스를 위한 [기본 설정](/cloud-app-security/general-setup) 페이지를 활용 하 고 [네트워크 요구 사항이](/cloud-app-security/network-requirements) 구성 되어 있는지 확인 합니다. 사용자 고유의 키를 사용 하 여 미사용 데이터를 암호화 하는 Cloud App Security 구성 하려면 [사용자 고유의 키를 사용 하 여 미사용 데이터 암호화 Cloud App Security (BYOK)](ems-cloud-app-security-govt-service-byok.md)를 참조 하세요. 다른 자세한 지침은 방법 가이드의 추가 단계를 따르세요.
 
 > [!NOTE]
 > 데이터 암호화는 현재 특정 Microsoft Cloud App Security 정부 제품에 대해서만 사용할 수 있습니다.
 
-## <a name="feature-variations-in-microsoft-cloud-app-security-gcc-high"></a>Microsoft Cloud App Security GCC High의 기능 변형
+## <a name="feature-variations-in-microsoft-cloud-app-security-us-government-offerings"></a>미국 정부 제품 Microsoft Cloud App Security의 기능 변형
 
-별도로 지정 하지 않는 한, [Microsoft Cloud App Security의 새로운](/cloud-app-security/release-notes)기능에 설명 된 미리 보기 기능을 비롯 한 새로운 기능 릴리스는 다른 언급이 없는 한, Microsoft Cloud App Security 상용 환경에서 3 개월 후의 GCC 이상에서 사용할 수 있습니다.
+별도로 지정 하지 않는 한, [Microsoft Cloud App Security의 새로운](/cloud-app-security/release-notes)기능에 설명 된 미리 보기 기능을 포함 한 새로운 기능 릴리스는 다른 언급이 없는 한, Microsoft Cloud App Security 상용 환경에서 릴리스된 3 개월 이내에 GCC High 및 DoD 환경에서 사용할 수 있습니다.
 
 ## <a name="api-connector"></a>API 커넥터
 
