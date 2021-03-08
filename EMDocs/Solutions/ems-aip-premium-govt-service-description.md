@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: ''
 ms.service: rights-management
 ms-suite: ems
-ms.openlocfilehash: 9b997c904b751a1137c33cc9322aaa8101d008b4
-ms.sourcegitcommit: c91598c63b0fdcb725556c957a726209009ebbfb
+ms.openlocfilehash: 9abf70bf50b7129892a326933ab23664868a04d2
+ms.sourcegitcommit: 32ac83ea5f4793612f82bec2db64ec75ff79ee39
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2021
-ms.locfileid: "102443933"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "102456434"
 ---
 # <a name="azure-information-protection-premium-government-service-description"></a>Azure Information Protection Premium Government 서비스 설명
 
